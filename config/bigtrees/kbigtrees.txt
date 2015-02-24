@@ -1,0 +1,293 @@
+----------------------------------------------------
+Big Trees Mod Configuration File
+----------------------------------------------------
+This file must be present in the folder ".minecraft" to take effect.
+
+ALL POSSIBLE OPTION COMBINATIONS ARE PRESENT IN THIS FILE. Don't bother trying options from one section in another section. It won't work. :)
+
+Handy reference information:
+
+Tree (block type 17) Meta Data
+  0 = regular
+  1 = conifer
+  2 = birch
+
+Leaf (block type 18) Meta Data
+  0 = regular
+  1 = conifer
+  2 = birch
+  3 = jungle
+  4 = regular, never decay
+  5 = conifer, never decay
+  6 = birch, never decay
+  7 = jungle, never decay
+
+My mod reads this file by searching for the keyword "SECTION" followed by a section name, then in that section pulling out options followed by an equals sign then a value. Everything that does not follow such a format is ignored. Percent symbols are for your convenience and don't affect the way the mod interprets a value.
+
+To completely disable big trees tree generation (except when manually grown), set "natural-generation" to false and "natural-generation-exceptions" to none.
+To disable all other changes to world generation, set "classic-tree-heights" to true and set "classic-jungle" to true.
+
+----------------------------------------------------
+SECTION GENERAL
+----------------------------------------------------
+
+The following options mean "do not naturally generate big trees by default
+but do generate them in dimension 0"
+  natural-generation = false
+  natural-generation-exceptions = 0
+The following options mean "do allow manual big tree growth (from saplings)
+in all dimensions"
+  manual-generation = true
+  manual-generation-exceptions = none
+If, for example, you wanted to not allow manual big tree growth in the
+nether and some dimension 2, you could put:
+//  manual-generation = true
+//  manual-generation-exceptions = -1, 2
+Or if you ONLY want players to be able to grow big trees in the normal
+dimension, you would put:
+//  manual-generation = false
+//  manual-generation-exceptions = 0
+
+Do you want to use the default heights for vanilla Minecraft trees?
+  classic-tree-heights = false
+Do you want the classic Minecraft jungle instead of my modified jungle trees with longer branches?
+  classic-jungle = false
+
+Settings pertaining to the Minecraft original small trees.
+  Original Minecraft oak height range is 4 to 7.
+    oak-height-minimum = 4
+    oak-height-maximum = 7
+  Original Minecraft birch height range is 5 to 8.
+    birch-height-minimum = 8
+    birch-height-maximum = 14
+  Original Minecraft pine 1 height range is 7 to 12.
+    pine-1-height-minimum = 11
+    pine-1-height-maximum = 16
+  Original Minecraft pine 2 height range is 6 to 10.
+    pine-2-height-minimum = 10
+    pine-2-height-maximum = 14
+  Original Minecraft swamp tree height range is 5 to 9.
+    swamp-height-minimum = 5
+    swamp-height-maximum = 9
+  Original Minecraft huge jungle height range is 10 to 30.
+    jungle-1-height-minimum = 10
+    jungle-1-height-maximum = 35
+  Original Minecraft small jungle height range is 4 to 11.
+    jungle-2-height-minimum = 4
+    jungle-2-height-maximum = 11
+
+Settings for forest tree types distribution.
+  Old (wide) trees.
+    old-tree-enable = true
+    old-tree-percentage = 25%
+  Tall narrow trees.
+    tall-tree-enable = true
+    tall-tree-percentage = 25%
+  The remaining percent of forest trees will be the classic small ones.
+
+  Large birch trees can also generate in forests.
+  big-birch-enable = true
+  big-birch-percentage = 0.5%
+
+Settings for jungle tree type distribution.
+  Great oak and block oaks in the jungle.
+    old-tree-jungle-percentage = 25%
+  The remaining percent of (small) jungle trees will be the classic ones.
+
+Settings for swamp tree type distribution.
+  Great big swamp trees.
+    old-swamp-tree-enable = true
+    old-swamp-tree-percentage = 20%
+  Conical 'hat' trees.
+    hat-tree-enable = true
+    hat-tree-percentage = 20%
+  Cyprus trees.
+    cyprus-tree-enable = true
+    cyprus-tree-percentage = 20%
+  The remaining percent of swamp trees will be the classic small ones.
+
+Settings for desert tree type distribution.
+  Large dead trees in desert. They spawn from some dead bushes during world generation.
+    dead-tree-enable = true
+    dead-tree-percentage = 5%
+  The remaining percent of "dead trees" will be the tiny useless dead bushes.
+
+Settings for taiga tree type distribution.
+  Vary the density of (all) trees in the taiga?
+    variable-pine-density = true
+  Large pine trees in taiga.
+    thick-pine-enable = true
+  Region with only thick (big) pines.
+    thick-pine-percentage = 20%
+  Region with thick and classic pines.
+    mixed-pine-percentage = 20%
+  Region of taiga with NO TREES.
+    no-pine-percentage = 20%
+  The remaining percent of pine trees will be the classic small ones.
+
+Other settings.
+  If for some reason you don't want roots, set this to false.
+    roots-enable = true
+  Block IDs:
+    big-oak-sapling-id   = 1301
+    big-birch-sapling-id = 1302
+    big-pine-sapling-id  = 1303
+    dead-tree-sapling-id = 1304
+    cyprus-sapling-id    = 1305
+    hat-tree-sapling-id  = 1306
+
+----------------------------------------------------
+SECTION OLDTREE
+----------------------------------------------------
+affects: dead tree stump, block oak, thick pine, great oak, large birch.
+----------------------------------------------------
+
+DEAD LITTLE TREE STUB
+  wood-type-1 = 17
+  wood-meta-1 = 0
+  height-minimum-1 = 3
+  height-maximum-1 = 7
+2x2 BLOCK OAK
+  wood-type-2 = 17
+  wood-meta-2 = 0
+  leaf-type-2 = 18
+  leaf-meta-2 = 0
+  height-minimum-2 = 12
+  height-maximum-2 = 18
+3x3 THICK PINE
+  wood-type-3 = 17
+  wood-meta-3 = 1
+  leaf-type-3 = 18
+  leaf-meta-3 = 1
+  height-minimum-3 = 18
+  height-maximum-3 = 22
+4x4 GREAT OAK
+  wood-type-4 = 17
+  wood-meta-4 = 0
+  leaf-type-4 = 18
+  leaf-meta-4 = 0
+  height-minimum-4 = 28
+  height-maximum-4 = 32
+2x2 BIRCH TREE
+  wood-type-5 = 17
+  wood-meta-5 = 2
+  leaf-type-5 = 18
+  leaf-meta-5 = 2
+  height-minimum-5 = 19
+  height-maximum-5 = 24
+
+----------------------------------------------------
+SECTION DEADTREE
+----------------------------------------------------
+affects: dead desert trees
+----------------------------------------------------
+
+DEAD DESERT TREES
+  wood-type = 17
+  wood-meta = 0
+  height-minimum = 13
+  height-maximum = 17
+
+----------------------------------------------------
+SECTION SWAMPTREE
+----------------------------------------------------
+affects: great swamp oak
+----------------------------------------------------
+GREAT SWAMP OAK
+  wood-type = 17
+  wood-meta = 0
+  leaf-type = 18
+  leaf-meta = 0
+  height-minimum = 28
+  height-maximum = 32
+
+----------------------------------------------------
+SECTION CYPRUSTREE
+----------------------------------------------------
+affects: cyprus trees
+----------------------------------------------------
+BIG CYPRUS TREES IN SWAMP
+  wood-type = 17
+  wood-meta = 1
+  leaf-type = 18
+  leaf-meta = 1
+  height-minimum = 28
+  height-maximum = 32
+
+----------------------------------------------------
+SECTION HATTREE
+----------------------------------------------------
+affects: hat trees
+----------------------------------------------------
+BIG HAT TREES IN SWAMP
+  wood-type = 17
+  wood-meta = 0
+  leaf-type = 18
+  leaf-meta = 0
+  height-minimum = 28
+  height-maximum = 32
+
+----------------------------------------------------
+SECTION TALLTREE
+----------------------------------------------------
+affects: tall oaks
+----------------------------------------------------
+TALL OAK
+  wood-type = 17
+  wood-meta = 0
+  leaf-type = 18
+  leaf-meta = 0
+HEIGHT RANGE OF TREE
+  height-minimum = 13
+  height-maximum = 28
+BRANCHLESS PERCENTAGE OF TREE
+  trunk-minimum = 23%
+  trunk-maximum = 32%
+MINIMUM ACCEPTABLE HEIGHT OF TREE
+  //Trees are stunted when blocked by overhead obstacles, but no shorter than this value.
+  stunt-minimum = 7
+BLOCK TYPE TREE MUST GROW ON
+  //Set to -1 to disable requirement.
+  base-type-1 = 3
+ALTERNATE BLOCK TYPE FOR TREE TO GROW ON
+  //Set to -1 to disable requirement.
+  base-type-2 = 2
+LONGEST BRANCH LENGTH PERCENTAGE
+  //as a percentage of tree height:
+  branch-length = 60%
+BRANCH ROTATION
+  //1.0 is a full rotation. The default is the golden mean: (sqrt(5)-1)/2
+  branch-rotation = 0.618034
+TAP ROOT LENGTH
+  //Tap root length, as a percentage of tree height.
+  //Tap roots grow through wood, leaves, air, water, dirt, sand, and gravel.
+  tap-root-length = 50%
+BRANCH SPACING
+  //0 to 100, abstractly defines average spacing between branches
+  branch-spacing = 60%
+BRANCH
+  //Defines the initial growth angle of a branch. 0=horizontal, 1=45 degrees upwards, -1=45 deg down...
+  branch-pitch = 0.0
+  //Defines the curling growth of a branch. Positive makes the branch curve upwards.
+  branch-curl = 0.08
+LEAF RADIUS
+  //0 = no leaves
+  //A radius of 1, 2, or 3 grows non-intrusively. (They won't grow through walls and such.)
+  //Leaf radii of 4 or greater can grow through walls, though they won't destroy the walls.
+  //Leaves too far from wood will decay.
+  //Note leaves must have 4 added to their meta value to prevent them from decaying.
+  leaf-radius = 3
+SUB BRANCHES
+  //Density of branching off of branches.
+  sub-branch-density = 12%
+  //Percent length of branch that can grow sub branches.
+  sub-branch-section = 60%
+  //Minimum branch size to grow sub branches, in meters/blocks.
+  size-for-sub = 4.0
+  //Angle between branch and sub branches, degrees.
+  sub-branch-angle = 30
+  //Size of sub branch as a percent of remaining length of parent branch.
+  sub-branch-size = 75%
+
+WARNING: Setting sub branch size to 100 and sub branch section to 100 could easily lock up the computer trying to draw an infinite number of branches! (Setting sub branch size to >100 is bad as well...)
+
