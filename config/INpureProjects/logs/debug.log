@@ -135,6 +135,9 @@ Found creative tab: TConstructEquipables
 Found creative tab: thaumcraft
 Found creative tab: ThaumicTinkerer
 Found creative tab: brewing
+Found creative tab: thermalfoundation.creativeTab
+Found creative tab: thermalfoundation.creativeTabArmor
+Found creative tab: thermalfoundation.creativeTabTools
 Found creative tab: twilightForest
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
@@ -201,8 +204,8 @@ override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 3217
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3194
+getFacadesSize called. Returned: 3052
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 864
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor.
@@ -322,8 +325,8 @@ Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2055
-override called. Params: appliedenergistics2, item.ItemFacade, 1693
+getNumberOfTypes called. Returned: 2075
+override called. Params: appliedenergistics2, item.ItemFacade, 1355
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js

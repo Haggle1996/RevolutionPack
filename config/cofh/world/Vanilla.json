@@ -85,10 +85,10 @@
         ]
     },
     "redstone": {
-        "template": "fractal",
+        "template": "uniform",
         "block": "redstone_ore",
         "material": "minecraft:stone",
-        "clusterSize": 56,
+        "clusterSize": 32,
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 16,
