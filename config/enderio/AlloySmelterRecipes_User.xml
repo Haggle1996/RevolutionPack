@@ -26,6 +26,17 @@ ore dictionary.
 -->
 
 <AlloySmelterRecipes>
-  
-</AlloySmelterRecipes>  
+  <recipeGroup name="EnderIO">
+    <recipe name="Dark Steel" energyCost="20000">
+      <input>
+        <itemStack oreDictionary="ingotHSLA" />
+        <itemStack oreDictionary="dustCoal" />
+        <itemStack modID="minecraft" itemName="obsidian" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" exp="0.5" />
+      </output>
+    </recipe>
+  </recipeGroup>
+</AlloySmelterRecipes>
 
