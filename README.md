@@ -1,5 +1,7 @@
 # Revolution Pack
 
+The Revolution Pack is a medium-core Minecraft ModPack revolving around Reika's fine mods
+
 The Revolution Pack is designed to showcase Reika's fine mods, particularly RotaryCraft and Chromaticraft, in a hardcore playing environment inspired (loosely) by hardcore GregTech packs like BeyondReality. Expected features will be:
 - Gated mod progression through RotaryCraft
 - Overhauled ore generation to make mining camps more relevant and expansion into other worlds (galacticraft, deep dark) more useful
