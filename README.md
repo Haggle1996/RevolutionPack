@@ -1,29 +1,31 @@
 # Revolution Pack
 
-The Revolution Pack is a medium-core Minecraft ModPack revolving around Reika's fine mods
+The Revolution Pack is Minecraft ModPack designed to showcase [Reika's fine mods](https://sites.google.com/site/reikasminecraft/home), particularly RotaryCraft and Chromaticraft, in a medium-core playing environment inspired (loosely) by hardcore GregTech packs. Some notable features are:
+- Gated mod progression through RotaryCraft -- convert those stacks of Iron ore into HSLA, 'cause you're gonna need it.
+- Overhauled ore generation to make mining more exploratory and less grindy. Not every chunk will have iron in it -- but once you find a vein, you'll have enough for your next round of machinery.
+- Automated ore generation in mid-game (Bees and TC)
+- Several sorting systems (logistics pipes, AE, Refined Relocation, etc.)
+- Lore and quests/achievements - the in-game quest book will guide you through the pack (optional)
+- Medium-core: challenging, but not grindy or excessively difficult.
+- Encourages movement through ancilliary mods
 
-The Revolution Pack is designed to showcase Reika's fine mods, particularly RotaryCraft and Chromaticraft, in a hardcore playing environment inspired (loosely) by hardcore GregTech packs like BeyondReality. Expected features will be:
-- Gated mod progression through RotaryCraft
-- Overhauled ore generation to make mining camps more relevant and expansion into other worlds (galacticraft, deep dark) more useful
-- Several automated ore generation options in midgame (bees, TC, nerfed Magical Crops?)
-- Several sorting systems
-- Lore and quests/achievements
-- Make it HARD, not grindy
-- Encourage movement through ancilliary mods
+## Roadmap:
 
-## TODO:
-- [ ] Everything :P
+Completed:
+- [x] Ore generation is complete
+- [x] Mod selection is stable
 
-- [ ] Ore Generation
-- [ ] Modpack Gating
-- [ ] Branding
-- [ ] HQM or HQM-like guide solution
+In progress:
+- [2%] Quest writing
+- [10%] Mod difficulty and gating
 
-## Mod ideas
-- The Erebus (Twilight Forest replacement) http://www.curse.com/mc-mods/minecraft/220698-the-erebus
-- Electrical Age http://electrical-age.net/
+To Do:
+- [ ] Mod-pack branding
+- [ ] Website
+- [ ] Channel
+- [ ] Forum presence
 
-## Random Ideas
-- Hunger revamp using plant mega pack
-- alternative mods to roguelike dungeons (not doomlike)
-- Ruins or other structure spawning to give world flavor
+In Consideration:
+- [ ] Hunger revamp
+- [ ] End-game alternatives
+- [ ] 
