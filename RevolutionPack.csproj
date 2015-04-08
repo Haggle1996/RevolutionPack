@@ -57,6 +57,7 @@
     <None Include="config\AppleCore.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\AppleMilkCore.cfg" />
     <None Include="config\AppliedEnergistics2\AppliedEnergistics2.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
