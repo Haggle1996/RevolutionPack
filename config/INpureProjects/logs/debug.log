@@ -1,0 +1,356 @@
+Script handler ready. Waiting for a while to ensure all other mods are done messing with NEI.
+Starting NEI Filter scripting. This might take a moment to load all the modules...
+Engine: JAVASCRIPT
+Setting up Java Library...
+Setting up FML Library...
+Setting up NEI Library...
+Setting up CreativeTab library...
+DragonAPI:minecraft:bed_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:bed_technical. If this is not correct please report it as a bug!
+The mod DragonAPI is registering items or blocks with bad registry names. Names should not contain multiple colons as it breaks the ability to do reverse-lookups through FML. Please tell whoever made this mod that this should be changed!
+DragonAPI:minecraft:brewing_stand_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:brewing_stand_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:cake_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:cake_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:cauldron_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:cauldron_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:flower_pot_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:flower_pot_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:iron_door_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:iron_door_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:lit_redstone_lamp_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:lit_redstone_lamp_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:lit_redstone_ore_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:lit_redstone_ore_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:melon_stem_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:melon_stem_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:nether_wart_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:nether_wart_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:piston_head_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:piston_head_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:powered_comparator_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:powered_comparator_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:powered_repeater_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:powered_repeater_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:pumpkin_stem_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:pumpkin_stem_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:redstone_wire_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:redstone_wire_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:reeds_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:reeds_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:skull_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:skull_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:standing_sign_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:standing_sign_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:tripwire_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:tripwire_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:unlit_redstone_torch_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:unlit_redstone_torch_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:unpowered_comparator_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:unpowered_comparator_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:unpowered_repeater_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:unpowered_repeater_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:wall_sign_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:wall_sign_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:wheat_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:wheat_technical. If this is not correct please report it as a bug!
+DragonAPI:minecraft:wooden_door_technical has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: DragonAPI, name: minecraft:wooden_door_technical. If this is not correct please report it as a bug!
+Found creative tab: aroma1997core:creativetab
+Found creative tab: tools
+Found creative tab: BiblioCraft
+Found creative tab: BiblioCraftLights
+Found creative tab: BiblioWoodsBoP
+Found creative tab: BiblioWoodsForestry
+Found creative tab: BiblioWoodsNatura
+Found creative tab: BigReactors
+Found creative tab: materials
+Found creative tab: buildingBlocks
+Found creative tab: tabBiomesOPlenty
+Found creative tab: Botania
+Found creative tab: Botany
+Found creative tab: buildcraft.blocks
+Found creative tab: buildcraft.items
+Found creative tab: buildcraft.boards
+Found creative tab: buildcraft.pipes
+Found creative tab: buildcraft.facades
+Found creative tab: CarpentersBlocks
+Found creative tab: ChromatiCraft
+Found creative tab: ChromatiCraft Tools
+Found creative tab: ChromatiCraft Items
+Found creative tab: ChromatiCraft Fragments
+Found creative tab: misc
+Found creative tab: applemilkcontainer
+Found creative tab: applemilk
+Found creative tab: applemilkfood
+Found creative tab: applemilkmaterial
+Found creative tab: applemilkmagic
+Found creative tab: ElectriCraft
+Found creative tab: EnderIO
+Found creative tab: EnderZoo
+Found creative tab: apiculture
+Found creative tab: decorations
+Found creative tab: arboriculture
+Found creative tab: extraUtil
+Found creative tab: combat
+Found creative tab: forestry
+Found creative tab: lepidopterology
+Found creative tab: GalacticraftItems
+Found creative tab: GalacticraftBlocks
+Found creative tab: gardenCore
+Found creative tab: gardenTrees
+Found creative tab: Genetics
+Found creative tab: tabGaia
+Found creative tab: Hardcore Questing Mode
+Found creative tab: jabba
+Found creative tab: Logistics_Pipes
+Found creative tab: redstone
+Found creative tab: natura.plants
+Found creative tab: transportation
+Found creative tab: natura.nether
+Found creative tab: natura.trees
+Found creative tab: food
+Found creative tab: tabOpenBlocks
+Found creative tab: OpenComputers
+Found creative tab: railcraft
+Found creative tab: Random Things
+Found creative tab: ReactorCraft
+Found creative tab: ReactorCraft Components
+Found creative tab: ReactorCraft Items
+Found creative tab: RefinedRelocation
+Found creative tab: RotaryCraft
+Found creative tab: RotaryCraft Tools
+Found creative tab: RotaryCraft Items
+Found creative tab: Mod Ores
+Found creative tab: Spawners
+Found creative tab: sfm
+Found creative tab: steves_production
+Found creative tab: storageDrawers
+Found creative tab: sync
+Found creative tab: TConstructBlocks
+Found creative tab: TConstructWeaponry
+Found creative tab: TConstructParts
+Found creative tab: TConstructTools
+Found creative tab: TConstructMaterials
+Found creative tab: TConstructEquipables
+Found creative tab: thaumcraft
+Found creative tab: ThaumicTinkerer
+Found creative tab: brewing
+Found creative tab: thermalfoundation.creativeTab
+Found creative tab: thermalfoundation.creativeTabArmor
+Found creative tab: thermalfoundation.creativeTabTools
+Found creative tab: twilightForest
+Found creative tab: appliedenergistics2
+Found creative tab: appliedenergistics2.facades
+Found creative tab: tabWoodChiselBlocks
+Found creative tab: tabModdedChiselBlocks
+Found creative tab: tabStoneChiselBlocks
+Found creative tab: tabOtherChiselBlocks
+Found creative tab: tabChisel
+Found creative tab: tabMetalChiselBlocks
+Found creative tab: tabComputronics
+Found creative tab: enhancedportals
+Found creative tab: Extra_Cells
+Found creative tab: funkylocomotion
+Found creative tab: bdew.gendustry
+Found creative tab: bdew.samples
+Found creative tab: bdew.templates
+Found creative tab: malisisdoors
+Found creative tab: plants
+Found creative tab: build
+Found creative tab: crops
+Found creative tab: aquatic
+Found creative tab: flowers
+Found creative tab: bdew.canisters
+Found creative tab: bdew.pressure
+Found creative tab: props.main
+Found creative tab: search
+Found creative tab: ThaumicEnergistics
+Setting up ExtraUtilities Library...
+Setting up BuildCraft Library...
+Setting up Applied Energistics 2 Library...
+Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
+Bootstrap setting found. Loading: Bootstrap.js
+Loading: vanilla.js
+hide called. Params: minecraft, portal
+Regex match found! minecraft:portal matches minecraft:portal.
+Found ItemStack minecraft:portal. 64xtile.portal@0
+hide called. Params: minecraft, end_portal
+Regex match found! minecraft:end_portal matches minecraft:end_portal.
+Found ItemStack minecraft:end_portal. 64xtile.null@0
+hide called. Params: minecraft, fire
+Regex match found! minecraft:fire matches minecraft:fire.
+Found ItemStack minecraft:fire. 64xtile.fire@0
+hide called. Params: minecraft, water
+Regex match found! minecraft:water matches minecraft:water.
+Found ItemStack minecraft:water. 64xtile.water@0
+hide called. Params: minecraft, lava
+Regex match found! minecraft:lava matches minecraft:lava.
+Found ItemStack minecraft:lava. 64xtile.lava@0
+hide called. Params: minecraft, mob_spawner
+Regex match found! minecraft:mob_spawner matches minecraft:mob_spawner.
+Found ItemStack minecraft:mob_spawner. 64xtile.mobSpawner@0
+override called. Params: minecraft, potion, 0
+Regex match found! minecraft:potion matches minecraft:potion.
+Found ItemStack minecraft:potion. 1xitem.potion@0
+override called. Params: minecraft, spawn_egg, 0
+Regex match found! minecraft:spawn_egg matches minecraft:spawn_egg.
+Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
+Loading: ThermalExpansion.js
+Loading: Mekanism.js
+Loading: ForgeMicroblock.js
+Loading: ExtraUtilities.js
+override called. Params: ExtraUtilities, drum, 0,1
+Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
+Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
+Loading: BuildCraft.js
+getFacadesSize called. Returned: 3108
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1791
+Loading: Bibliocraft.js
+override called. Params: BiblioCraft, *, 0
+Regex match found! BiblioCraft:* matches BiblioCraft:Armor.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioBell.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioBorderlessPainting.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioCase.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioClipboard.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioClock.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioDesk.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioFancyPainting.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioFancySign.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioFlatPainting.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioIronLamp.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioIronLantern.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioLabel.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioLamp.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioLantern.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioMapFrames.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioMiddlePainting.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioPaintPress.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioPaneler.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioPotionShelf.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioRack.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioSeats.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioShelf.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioSimplePainting.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioStuffs.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioSwordPedestal.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioTable.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioTypewriter.
+Regex match found! BiblioCraft:* matches BiblioCraft:BiblioWorkbench.
+Regex match found! BiblioCraft:* matches BiblioCraft:Bibliotheca.
+Regex match found! BiblioCraft:* matches BiblioCraft:BookcaseFilled.
+Regex match found! BiblioCraft:* matches BiblioCraft:Printing.
+Regex match found! BiblioCraft:* matches BiblioCraft:Typesetting.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.AtlasBook.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.AtlasPlate.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.BiblioChase.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.BiblioClipboard.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.BiblioCreativeLock.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.BiblioDrill.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.BiblioGlasses.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.BiblioMapTool.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.BiblioRedBook.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.BiblioWayPointCompass.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.BigBook.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.DeathCompass.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.EnchantedPlate.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.FramingBoard.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.FramingSaw.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.FramingSheet.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.HandDrill.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.PaintingCanvas.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.PlumbLine.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.PrintPlate.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.RecipeBook.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.SlottedBook.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.TesterItem.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.seatBack.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.seatBack2.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.seatBack3.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.seatBack4.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.seatBack5.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.tape.
+Regex match found! BiblioCraft:* matches BiblioCraft:item.tapeMeasure.
+Cannot find ItemStack BiblioCraft:Armor
+Found ItemStack BiblioCraft:BiblioBell. 64xtile.BiblioBell@0
+Found ItemStack BiblioCraft:BiblioBorderlessPainting. 64xtile.BiblioBorderlessPainting@0
+Found ItemStack BiblioCraft:BiblioCase. 64xtile.BiblioCase@0
+Found ItemStack BiblioCraft:BiblioClipboard. 64xtile.BiblioClipboard@0
+Found ItemStack BiblioCraft:BiblioClock. 64xtile.BiblioClock@0
+Found ItemStack BiblioCraft:BiblioDesk. 64xtile.BiblioDesk@0
+Found ItemStack BiblioCraft:BiblioFancyPainting. 64xtile.BiblioFancyPainting@0
+Found ItemStack BiblioCraft:BiblioFancySign. 64xtile.BiblioFancySign@0
+Found ItemStack BiblioCraft:BiblioFlatPainting. 64xtile.BiblioFlatPainting@0
+Found ItemStack BiblioCraft:BiblioIronLamp. 64xtile.BiblioIronLamp@0
+Found ItemStack BiblioCraft:BiblioIronLantern. 64xtile.BiblioIronLantern@0
+Found ItemStack BiblioCraft:BiblioLabel. 64xtile.BiblioLabel@0
+Found ItemStack BiblioCraft:BiblioLamp. 64xtile.BiblioLamp@0
+Found ItemStack BiblioCraft:BiblioLantern. 64xtile.BiblioLantern@0
+Found ItemStack BiblioCraft:BiblioMapFrames. 64xtile.BiblioMapFrames@0
+Found ItemStack BiblioCraft:BiblioMiddlePainting. 64xtile.BiblioMiddlePainting@0
+Found ItemStack BiblioCraft:BiblioPaintPress. 64xtile.BiblioPaintPress@0
+Found ItemStack BiblioCraft:BiblioPaneler. 64xtile.BiblioPaneler@0
+Found ItemStack BiblioCraft:BiblioPotionShelf. 64xtile.BiblioPotionShelf@0
+Found ItemStack BiblioCraft:BiblioRack. 64xtile.BiblioRack@0
+Found ItemStack BiblioCraft:BiblioSeats. 64xtile.BiblioSeats@0
+Found ItemStack BiblioCraft:BiblioShelf. 64xtile.BiblioShelf@0
+Found ItemStack BiblioCraft:BiblioSimplePainting. 64xtile.BiblioSimplePainting@0
+Found ItemStack BiblioCraft:BiblioStuffs. 64xtile.BiblioStuffs@0
+Found ItemStack BiblioCraft:BiblioSwordPedestal. 64xtile.BiblioSwordPedestal@0
+Found ItemStack BiblioCraft:BiblioTable. 64xtile.BiblioTable@0
+Found ItemStack BiblioCraft:BiblioTypewriter. 64xtile.BiblioTypewriter@0
+Found ItemStack BiblioCraft:BiblioWorkbench. 64xtile.BiblioWorkbench@0
+Found ItemStack BiblioCraft:Bibliotheca. 64xtile.BiblioBookcase@0
+Found ItemStack BiblioCraft:BookcaseFilled. 64xtile.BookcaseFilled@0
+Cannot find ItemStack BiblioCraft:Printing
+Cannot find ItemStack BiblioCraft:Typesetting
+Found ItemStack BiblioCraft:item.AtlasBook. 1xitem.AtlasBook@0
+Found ItemStack BiblioCraft:item.AtlasPlate. 1xitem.AtlasPlate@0
+Found ItemStack BiblioCraft:item.BiblioChase. 64xitem.BiblioChase@0
+Found ItemStack BiblioCraft:item.BiblioClipboard. 1xitem.BiblioClipboard@0
+Found ItemStack BiblioCraft:item.BiblioCreativeLock. 1xitem.BiblioCreativeLock@0
+Found ItemStack BiblioCraft:item.BiblioDrill. 1xitem.BiblioDrill@0
+Found ItemStack BiblioCraft:item.BiblioGlasses. 1xitem.BiblioGlasses@0
+Found ItemStack BiblioCraft:item.BiblioMapTool. 1xitem.BiblioMapTool@0
+Found ItemStack BiblioCraft:item.BiblioRedBook. 64xitem.BiblioRedBook@0
+Found ItemStack BiblioCraft:item.BiblioWayPointCompass. 1xitem.BiblioWayPointCompass@0
+Found ItemStack BiblioCraft:item.BigBook. 1xitem.BigBook@0
+Found ItemStack BiblioCraft:item.DeathCompass. 64xitem.DeathCompass@0
+Found ItemStack BiblioCraft:item.EnchantedPlate. 1xitem.EnchantedPlate@0
+Found ItemStack BiblioCraft:item.FramingBoard. 64xitem.FramingBoard@0
+Found ItemStack BiblioCraft:item.FramingSaw. 1xitem.FramingSaw@0
+Found ItemStack BiblioCraft:item.FramingSheet. 64xitem.FramingSheet@0
+Found ItemStack BiblioCraft:item.HandDrill. 1xitem.HandDrill@0
+Found ItemStack BiblioCraft:item.PaintingCanvas. 64xitem.PaintingCanvas@0
+Found ItemStack BiblioCraft:item.PlumbLine. 1xitem.PlumbLine@0
+Found ItemStack BiblioCraft:item.PrintPlate. 1xitem.PrintPlate@0
+Found ItemStack BiblioCraft:item.RecipeBook. 1xitem.RecipeBook@0
+Found ItemStack BiblioCraft:item.SlottedBook. 1xitem.SlottedBook@0
+Found ItemStack BiblioCraft:item.TesterItem. 1xitem.TesterItem@0
+Found ItemStack BiblioCraft:item.seatBack. 64xitem.seatBack@0
+Found ItemStack BiblioCraft:item.seatBack2. 64xitem.seatBack@0
+Found ItemStack BiblioCraft:item.seatBack3. 64xitem.seatBack@0
+Found ItemStack BiblioCraft:item.seatBack4. 64xitem.seatBack@0
+Found ItemStack BiblioCraft:item.seatBack5. 64xitem.seatBack@0
+Found ItemStack BiblioCraft:item.tape. 64xitem.tape@0
+Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
+Loading: AppliedEnergistics2.js
+getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
+getSubTypes called.
+getNumberOfTypes called. Returned: 2095
+override called. Params: appliedenergistics2, item.ItemFacade, 398
+Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
+Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
+Loading: Tcon.js
+override called. Params: TConstruct, tool*, 0
+Regex match found! TConstruct:tool* matches TConstruct:toolRod.
+Regex match found! TConstruct:tool* matches TConstruct:toolShard.
+Found ItemStack TConstruct:toolRod. 64xitem.tconstruct.ToolRod@0
+Found ItemStack TConstruct:toolShard. 64xitem.tconstruct.ToolShard@0
+override called. Params: TConstruct, binding, 0
+Regex match found! TConstruct:binding matches TConstruct:binding.
+Found ItemStack TConstruct:binding. 64xitem.tconstruct.Binding@0
+override called. Params: TConstruct, scytheBlade, 0
+Regex match found! TConstruct:scytheBlade matches TConstruct:scytheBlade.
+Found ItemStack TConstruct:scytheBlade. 64xitem.tconstruct.ScytheHead@0
+Loading: MFR.js
