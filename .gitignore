@@ -1,4 +1,9 @@
-*.jar
-*.dll
-*.zip
-instance.json
+/*
+!/config
+!/scripts
+!mods.xml
+!NOTES.md
+!README.md
+!RevolutionPack.sln
+!RevolutionPack.csproj
+*.log
