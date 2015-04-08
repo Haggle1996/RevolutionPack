@@ -14,6 +14,8 @@ The Revolution Pack is Minecraft ModPack designed to showcase [Reika's fine mods
 Completed:
 - [x] Ore generation is complete
 - [x] Mod selection is stable
+- [x] Hunger revamp
+- [x] Website
 
 In progress:
 - [2%] Quest writing
@@ -21,10 +23,8 @@ In progress:
 
 To Do:
 - [ ] Mod-pack branding
-- [ ] Website
 - [ ] Channel
 - [ ] Forum presence
 
 In Consideration:
-- [ ] Hunger revamp
 - [ ] End-game alternatives

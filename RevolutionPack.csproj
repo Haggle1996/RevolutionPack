@@ -3100,12 +3100,6 @@
     <None Include="config\plantmegapack\soilblocks.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\powercrystals\minefactoryreloaded\client.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="config\powercrystals\minefactoryreloaded\common.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="config\progressiveautomation.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3226,6 +3220,9 @@
     </None>
     <None Include="NOTES.md" />
     <None Include="README.md" />
+    <None Include="scripts\ThermalFoundation.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="scripts\Buildcraft.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
