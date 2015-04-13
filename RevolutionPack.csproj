@@ -3221,6 +3221,9 @@
     </None>
     <None Include="NOTES.md" />
     <None Include="README.md" />
+    <None Include="scripts\ExtraUtilities.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="scripts\ThermalFoundation.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
