@@ -8,7 +8,7 @@
         "material": ["stone","grass","sand","dirt","gravel"],
         "clusterSize": 9,
         "numClusters": 3,
-        "chunkChance": 2,
+        "chunkChance": 4,
         "followTerrain": true,
         "retrogen": "true",
         "biomeRestriction": "none",

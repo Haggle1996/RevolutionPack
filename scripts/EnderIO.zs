@@ -7,10 +7,11 @@ val obsidian = <minecraft:obsidian>;
 val flint = <minecraft:flint>;
 val redstoneBlock = <minecraft:redstone_block>;
 val cauldron = <minecraft:cauldron>;
+val bars = <minecraft:iron_bars>;
 
 # RotaryCraft
-# val hBlock = <ore:blockHSLA>;
-# val hIngot = <ore:ingotHSLA>;
+val hBlock = <ore:blockHSLA>;
+val hIngot = <ore:ingotHSLA>;
 val base = <RotaryCraft:rotarycraft_item_shaftcraft:0>;
 
 # BuildCraft
@@ -35,10 +36,10 @@ recipes.remove(sagMill);
 recipes.addShaped(sagMill * 1, [[obsidian,obsidian,obsidian],[flint,chassis,flint],[piston,ingot,piston]]);
 
 recipes.remove(alloySmelter);
-recipes.addShaped(alloySmelter * 1, [[block,furnace,block],[furnace,chassis,furnace],[block,cauldron,block]]);
+recipes.addShaped(alloySmelter * 1, [[ingot,furnace,ingot],[furnace,chassis,furnace],[ingot,cauldron,ingot]]);
 
 recipes.remove(chassis);
-recipes.addShaped(chassis * 1, [[<minecraft:iron_bars:*> * 1, ingot, <minecraft:iron_bars:*> * 1], [ingot, basicCapacitor * 1, ingot], [<minecraft:iron_bars:*> * 1, ingot, <minecraft:iron_bars:*> * 1]]);
+recipes.addShaped(chassis * 1, [[bars, hIngot, bars], [hIngot, basicCapacitor * 1, hIngot], [bars, hIngot, bars]]);
 
 recipes.remove(crafter);
 recipes.addShaped(crafter * 1, [[ingot, <minecraft:crafting_table:*> * 1, ingot], [ingot, chassis * 1, ingot], [ingot, <EnderIO:itemFrankenSkull:1> * 1, ingot]]);

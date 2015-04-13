@@ -40,7 +40,7 @@
         "clusterSize": 16,
         "followTerrain": true,
         "numClusters": 2,
-        "chunkChance": 6,
+        "chunkChance": 2,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [ ],
