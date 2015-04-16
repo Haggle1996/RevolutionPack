@@ -8,11 +8,14 @@ val flint = <minecraft:flint>;
 val redstoneBlock = <minecraft:redstone_block>;
 val cauldron = <minecraft:cauldron>;
 val bars = <minecraft:iron_bars>;
+val stone = <minecraft:stonebrick:*>;
 
 # RotaryCraft
 val hBlock = <ore:blockHSLA>;
 val hIngot = <ore:ingotHSLA>;
 val base = <RotaryCraft:rotarycraft_item_shaftcraft:0>;
+val steam = <RotaryCraft:rotarycraft_item_engine:2>;
+val gas = <RotaryCraft:rotarycraft_item_engine:3>;
 
 # BuildCraft
 val block = <ore:blockSteel>;
@@ -30,6 +33,10 @@ val itemBuffer = <EnderIO:blockBuffer>;
 val powerBuffer = <EnderIO:blockBuffer:1>;
 val anchor = <EnderIO:blockTravelAnchor>;
 val stirling = <EnderIO:blockStirlingGenerator>;
+val combustion = <EnderIO:blockCombustionGenerator>;
+val stoneGear = <EnderIO:itemMachinePart:1>;
+val tank = <EnderIO:blockTank:0>;
+val electrical = <EnderIO:itemAlloy:0>;
 
 ## Make machines use HSLA or Steel instead of Iron
 recipes.remove(sagMill);
@@ -60,5 +67,8 @@ recipes.addShaped(anchor * 1, [[ingot, <EnderIO:itemMaterial:1> * 1, ingot], [<E
 recipes.remove(basicCapacitorBank);
 recipes.addShaped(basicCapacitorBank * 1, [[ingot,basicCapacitor,ingot],[basicCapacitor,redstoneBlock,basicCapacitor],[ingot,basicCapacitor,ingot]]);
 
-## Remove easy RF generation
-recipes.remove(<EnderIO:blockStirlingGenerator>);
+recipes.remove(stirling);
+recipes.addShaped(stirling,[[stone,stone,stone],[stone,furnace,stone],[stoneGear,steam,stoneGear]]);
+
+recipes.remove(combustion);
+recipes.addShaped(combustion,[[electrical,electrical,electrical],[tank,chassis,tank],[stoneGear,gas,stoneGear]]);
