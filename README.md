@@ -1,4 +1,6 @@
-# Revolution Pack
+#ATLauncher Pack Code: RevolutionPack
+
+## Revolution Pack
 
 Can you rebuild civilization after the Revolution?
 
@@ -19,3 +21,8 @@ Some notable features are:
 - Lore and quests/achievements - the in-game quest book will guide you through the pack (optional)
 - Medium-core: challenging, but neither grindy nor excessively difficult. 
 - Encourages movement through ancilliary mods
+
+#Roadmap
+- Balance Binnie's Bees and Gendustry
+- Quests!
+- Big Reactors? Keep or Remove?
