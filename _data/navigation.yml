@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: About
+  url: https://github.com/Haggle1996/RevolutionPack
+
+- title: Your First Day
+  url: https://github.com/Haggle1996/RevolutionPack/wiki/Your-First-Day
+
+- title: Gameplay Changes
+  url: https://github.com/Haggle1996/RevolutionPack/wiki/Gameplay-Changes
+
+- title: Posts
+  url: /blog/
+
+- title: ATLauncher
+  url: http://www.atlauncher.com/pack/revolution
+
+- title: Support
+  url: https://github.com/Haggle1996/RevolutionPack/issues
+
+- title: Search
+  url: /search/
