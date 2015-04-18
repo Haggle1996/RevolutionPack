@@ -1,6 +1,6 @@
-# Revolution Pack
+#Pack Code: RevolutionPack
 
-Pack Code: RevolutionPack
+## Revolution Pack
 
 Can you rebuild civilization after the Revolution?
 
