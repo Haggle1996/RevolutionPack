@@ -1,5 +1,7 @@
 # Revolution Pack
 
+Pack Code: RevolutionPack
+
 Can you rebuild civilization after the Revolution?
 
 The Revolution Pack is Minecraft ModPack by Haggle1996 which showcases a number of outstanding and new mods from the modding community. Built around the three pillars of design, tech, and magic, this pack brings them all together into a cohesive world that feels so much more alive than a typical kitchen-sink style modpack. Revolution's optional quest system, combined with it's progressive tech-tree, encourage you to wander through mods you've never seen before or take alternative paths through old-familiars -- or just play it for fun!
