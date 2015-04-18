@@ -3251,9 +3251,6 @@
     <None Include="scripts\Botania.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="scripts\NEI.zs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="scripts\Furnace.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3364,7 +3361,9 @@
     <None Include="config\UniqueNames.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Content Include="mods.xml" />
+    <Content Include="mods.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="config\atg\maps\" />
