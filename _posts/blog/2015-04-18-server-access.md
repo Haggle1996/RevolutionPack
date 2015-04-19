@@ -15,6 +15,6 @@ image:
 
 Hi everyone! 
 
-Just a note to let everyone know that the Revolution Pack has a private white-listed server for testing the latest builds of the pack. If you're interested in access to the server and helping develop the pack, please drop me a message through the usual suspects at the bottom of the page: twitter, IRC, or gmail. Please include your IGN, your preferred method of contact, and your acknowledgement that you won't cause any grief for other players. (Mature or 18+ only).
+Just a note to let everyone know that the Revolution Pack has a private white-listed server for testing the latest builds of the pack. If you're interested in access to the server and helping develop the pack, please drop me a message through the usual suspects at the bottom of the page: twitter, IRC, or gmail. Please include your IGN, your preferred method of contact, and your acknowledgement that you won't cause any grief for other players. (mature players only).
 
 -Haggle1996
