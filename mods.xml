@@ -1,8 +1,8 @@
 ﻿<version>
   <pack>
-    <version>0.2.1-ALPHA</version>
+    <version>0.2.2-ALPHA</version>
     <minecraft>1.7.10</minecraft>
-    <memory>1024</memory>
+    <memory>2048</memory>
     <permgen>256</permgen>
     <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
     <extraarguments>--tweakClass=cpw.mods.fml.common.launcher.FMLTweaker</extraarguments>
@@ -126,6 +126,8 @@
     <!-- Minimap Mods -->
     <mod name="JourneyMap Unlimited" version="5.0.1" url="http://minecraft.curseforge.com/mc-mods/32274-journeymap-32274/files/2221283/download" server="no" optional="yes" recommended="yes" group="minimap" file="JourneyMap5.0.1_Unlimited_MC1.7.10.jar" md5="2f633dcb91f32bc55779a3a6c763dff3" download="browser" type="mods" website="http://journeymap.techbrew.net" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=D5KK9FRAQG6DE" authors="techbrew" description="JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore." />
     <mod name="JourneyMap Fairplay" version="5.0.1" url="http://minecraft.curseforge.com/mc-mods/32274-journeymap-32274/files/2221282/download" server="no" optional="yes" recommended="no" group="minimap" file="JourneyMap5.0.1_FairPlay_MC1.7.10.jar" md5="30506f81bdd3512d9f512f1e152d8e71" download="browser" type="mods" website="http://journeymap.techbrew.net" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=D5KK9FRAQG6DE" authors="techbrew" description="JourneyMap FairPlay Edition: Real-time map in-game or in a web browser as you explore." />
+    <!-- Server-only mods -->
+    <mod name="Morpheus" server="yes" client="no" version="1.6.4" url="packs/Revolution/files/mods/Morpheus-1.7.10-1.6.4.jar" file="Morpheus-1.7.10-1.6.4.jar" md5="6a463f342d644abca6cf9a980191b9f8" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/morpheus/" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=5AH8F9SRGY8HA&amp;item_name=Morpheus+%28from+CurseForge.com%29&amp;cmd=_s-xclick" authors="quetzi" description="Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate." />
     <!-- Client-only mods -->
     <mod name="ArmorStatusHUD" server="no" version="1.28" url="packs/Revolution/files/mods/[1.7.10]ArmorStatusHUD-client-1.28.jar" file="[1.7.10]ArmorStatusHUD-client-1.28.jar" md5="f0da1af3ea5b7797d2742b7a2b874e92" download="server" type="mods" website="http://www.minecraftforum.net/topic/1114612-/" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=briefcase%2espeakers%40gmail%2ecom&amp;lc=US&amp;item_name=bspkrs%20mod%20development&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest" authors="bspkrs" description="Provides a HUD with your equipped armor/item stats." />
     <mod name="Damage Indicators" server="no" version="3.2.3" url="packs/Revolution/files/mods/[1.7.10]DamageIndicatorsMod-3.2.3.jar" file="[1.7.10]DamageIndicatorsMod-3.2.3.jar" md5="4d7172534ef2348a5aa2c4f130d9f57b" download="server" type="mods" website="http://www.minecraftforum.net/topic/1536685-" donation="https://dl.dropbox.com/u/74770478/donate.html" authors="rich1051414" description="Displays the damage you inflict on creatures, as well as current health, name and potion effects." />
