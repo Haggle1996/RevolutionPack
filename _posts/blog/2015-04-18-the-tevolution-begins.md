@@ -4,7 +4,7 @@ title: "The Revolution Begins"
 modified:
 categories: blog
 author: Haggle1996
-share: true
+share: false
 excerpt: "Pack Code: RevolutionPack"
 tags: []
 image:

@@ -206,9 +206,6 @@ span + .entry-title {
 	.entry-content {
 		@include span-columns(12);
 	}
-    @include background-image(url("/images/front.png"));
-    background-repeat: no-repeat;
-    background-size: 110%;
 }
 
 /*

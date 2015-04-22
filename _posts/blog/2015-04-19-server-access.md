@@ -4,7 +4,7 @@ title: "Accessing the Revolution Server"
 modified:
 categories: blog
 author: Haggle1996
-share: true
+share: false
 excerpt: "The Revolution Pack has a Server!"
 tags: []
 image:
