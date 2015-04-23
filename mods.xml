@@ -151,7 +151,7 @@
     <mod name="Baubles" version="1.7.10-1.0.1.10" url="packs/Revolution/files/Baubles-1.7.10-1.0.1.10.jar" file="Baubles-1.7.10-1.0.1.10.jar" md5="0e711d6535970f62d4964edaa26f4623" download="server" type="dependency" website="http://www.minecraftforum.net/topic/2535073-baubles" authors="Azanor" description="Adding a touch of bling to Minecraft" />
     <mod name="PotionExtension" version="1.0.4" url="packs/Revolution/files/PotionExtension-1.7.10-1.0.4.jar" file="PotionExtension-1.7.10-1.0.4.jar" md5="502d17f79f8e6490c5f6e2a62e0e75cd" download="server" type="dependency" website="http://forum.minecraftuser.jp/viewtopic.php?f=13&amp;t=6672" authors="A.K." description="Extend Potion Array" />
     <!-- Scripts -->
-    <mod name="MineTweaker Scripts" version="2.3" url="packs/Revolution/files/scripts/scripts2.3.zip" file="scripts2.3.zip" md5="58000e4d45b1e6419200f12d928f0836" download="server" type="extract" extractto="root" website="http://haggle1996.github.io/RevolutionPack/" description="MineTweaker scripts for the pack" authors="Haggle1996" />
+    <mod name="MineTweaker Scripts" version="2.3" url="packs/Revolution/files/scripts/scripts2.4.zip" file="scripts2.4.zip" md5="ae319a3b0a23038110dff31191f0fe99" download="server" type="extract" extractto="root" website="http://haggle1996.github.io/RevolutionPack/" description="MineTweaker scripts for the pack" authors="Haggle1996" />
     <mod name="Server List" version="2.3" optional="yes" url="packs/Revolution/files/servers.zip" file="servers.zip" md5="f2d83624ca2ab365c376adc70e5c7fc9" download="server" type="extract" extractto="root" website="http://haggle1996.github.io/RevolutionPack/" description="MineTweaker scripts for the pack" authors="Haggle1996" />
   </mods>
 </version>
