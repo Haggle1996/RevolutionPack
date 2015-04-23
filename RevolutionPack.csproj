@@ -283,6 +283,8 @@
     <None Include="config\DamageIndicatorsMod.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\DCsAppleMilk-cocktail.cfg" />
+    <None Include="config\DCsAppleMilk.cfg" />
     <None Include="config\denseores.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -304,6 +306,7 @@
     <None Include="config\EnhancedPortals\config.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\erebus.cfg" />
     <None Include="config\ExtraUtilities.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3101,6 +3104,7 @@
     <None Include="config\plantmegapack\soilblocks.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\PotionExtension.cfg" />
     <None Include="config\progressiveautomation.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3369,6 +3373,7 @@
     <Folder Include="config\atg\maps\" />
     <Folder Include="config\buildcraft\blueprints\server\" />
     <Folder Include="config\gendustry\overrides\" />
+    <Folder Include="config\powercrystals\minefactoryreloaded\" />
     <Folder Include="config\PressurePipes\overrides\" />
   </ItemGroup>
   <ItemGroup>
