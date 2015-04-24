@@ -291,6 +291,17 @@
     <None Include="config\DIAdvancedCompatibility.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\eirairc\client.cfg" />
+    <None Include="config\eirairc\commands.json" />
+    <None Include="config\eirairc\formats\classic.cfg" />
+    <None Include="config\eirairc\formats\detail.cfg" />
+    <None Include="config\eirairc\formats\light.cfg" />
+    <None Include="config\eirairc\formats\minecraft.cfg" />
+    <None Include="config\eirairc\formats\s-light.cfg" />
+    <None Include="config\eirairc\formats\twitch.cfg" />
+    <None Include="config\eirairc\servers.json" />
+    <None Include="config\eirairc\services.cfg" />
+    <None Include="config\eirairc\shared.cfg" />
     <None Include="config\enderio\EnderIO.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3365,6 +3376,8 @@
     <None Include="config\UniqueNames.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Content Include="config\eirairc\commands.json.example.txt" />
+    <Content Include="config\eirairc\servers.json.example.txt" />
     <Content Include="mods.xml">
       <SubType>Designer</SubType>
     </Content>
