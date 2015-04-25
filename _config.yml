@@ -5,15 +5,15 @@ locale: en_US
 description: "a modded Minecraft Pack by Haggle1996 hosted on the ATLauncher"
 logo: RevolutionLogo2.png
 search: true
-url: http://haggle1996.github.io/RevolutionPack
-#url: http://localhost:4000
+#url: http://haggle1996.github.io/RevolutionPack
+url: http://localhost:4000
 
 # Jekyll configuration
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
-#highlighter: rouge
+#highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
