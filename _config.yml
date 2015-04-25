@@ -13,6 +13,7 @@ url: http://haggle1996.github.io/RevolutionPack
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
+#highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
