@@ -3236,6 +3236,7 @@
     <None Include="config\Waila.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\WailaHarvestability.cfg" />
     <None Include="config\wailaplugins.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
