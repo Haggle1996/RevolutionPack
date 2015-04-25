@@ -1,7 +1,7 @@
 [
   {
     "address": "irc.esper.net",
-    "nick": "%USERNAME%",
+    "nick": "",
     "channels": [
       {
         "name": "#Revolution"

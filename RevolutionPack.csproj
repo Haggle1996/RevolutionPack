@@ -94,9 +94,11 @@
     <None Include="config\atg\generator.cfg.old">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\atum.cfg" />
     <None Include="config\Baubles.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\bettersleeping.cfg" />
     <None Include="config\BiblioCraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -472,6 +474,9 @@
     <None Include="config\LogisticsPipes.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\MagicalCrops\Crafting.cfg" />
+    <None Include="config\MagicalCrops\CropDisableConfig.cfg" />
+    <None Include="config\MagicalCrops\MagicalCropsMain.cfg" />
     <None Include="config\malisisdoors.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
