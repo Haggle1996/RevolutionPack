@@ -276,6 +276,9 @@
     <None Include="config\cofh\world\ThermalFoundation-Ores.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\cofh\world\End-Ores.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="config\cofh\world\Vanilla.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3242,6 +3245,9 @@
     </None>
     <None Include="NOTES.md" />
     <None Include="README.md" />
+    <None Include="scripts\GardenStuff.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="scripts\ExtraUtilities.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
