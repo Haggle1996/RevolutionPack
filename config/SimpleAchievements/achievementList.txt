@@ -64,7 +64,7 @@ We're gonna need a lot more power if we're going to get planetary resources back
 Build a set of Bedrock Armor::0
 Build a ReactorCraft tokamak reactor and power virtually everything in Bravo Site with it.::0
 Build and fill an Auroral Battery and RF Storage Battery.::0
-EPIC: Electrify a village using power from your reactor. Be sure to use powered lights and machinery. Make it look real.
+EPIC: Electrify a village using power from your reactor. Be sure to use powered lights and machinery. Make it look real.::0
 Build a waste storage facility for your tokamak some distance away from the reactor.::0
 EPIC: Make the waste storage facility look real, complete with Statues protestors.::0
 Build a BigReactors reactor in the Deep Dark and use it to power a quarry.::0
