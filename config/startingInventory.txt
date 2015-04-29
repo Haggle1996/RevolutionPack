@@ -1,0 +1,2 @@
+SimpleAchievements:sa.achievementBook,1,0
+TConstruct:jerky,1,2

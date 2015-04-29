@@ -432,6 +432,7 @@
     <None Include="config\hqm\quests.hqm">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\hqm\quests.hqm-backup" />
     <None Include="config\iChunUtil.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3185,6 +3186,8 @@
     <None Include="config\roguelike_dungeons\roguelike.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\SimpleAchievements.cfg" />
+    <None Include="config\SimpleAchievements\divConfig.json" />
     <None Include="config\SlimeKnights\Mantle.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3390,6 +3393,9 @@
     </None>
     <Content Include="config\eirairc\commands.json.example.txt" />
     <Content Include="config\eirairc\servers.json.example.txt" />
+    <Content Include="config\hqm\front.png" />
+    <Content Include="config\SimpleAchievements\achievementList.txt" />
+    <Content Include="config\startingInventory.txt" />
     <Content Include="mods.xml">
       <SubType>Designer</SubType>
     </Content>
