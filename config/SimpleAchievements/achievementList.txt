@@ -53,12 +53,14 @@ EPIC: Build a commissary (supply store) using items from Apple & Milk & Tea.::0
 |--==Chaos & Mutations==--|::2
 Not everything died in the nuclear holocaust: sub-humans, monsters, and strange mutations wander this world, and radiation has torn the very fabric of reality (Haggle's note: this chapter is still being developed).::1
 Tame at least one spider and ride it.::0
+Collect at least 5 Grimoire of Gaia dolls.::0
+Build a complete set of Decocraft dolls.::0
+SUPER EPIC: Build a doll house for all your dolls.::0
+EPIC: Collect at least 25 different species of Butterflies.::0
+The longer we're exposed to the background radiation, the more unusual attributes some of us seem to gain. See what your team can learn about these 'attributes' - they're like nothing medical science has seen before.::1
 EPIC: Build a Thaumcraft Infusion Altar and use it to build a set of Thaumium Fortress Armor.::0
 EPIC: Build a set of Botania's Terrasteel tools and armor.::0
 EPIC: Discover the mysteries of ChromatiCrafts pylons.::0
-EPIC: Collect at least 5 Grimoire of Gaia dolls.::0
-EPIC: Build a complete set of Decocraft dolls.::0
-SUPER AMAZING EPIC: Build a doll house for all your dolls.::0
 |--==Powering the Grid==--|::2
 We're gonna need a lot more power if we're going to get planetary resources back online.::1
 Build a set of Bedrock Armor::0
@@ -69,9 +71,9 @@ Build a waste storage facility for your tokamak some distance away from the reac
 EPIC: Make the waste storage facility look real, complete with Statues protestors.::0
 Build a BigReactors reactor in the Deep Dark and use it to power a quarry.::0
 |-==Renewable Resources==-|::2
-Scarcity of resources inevitably led to our civilization's downfall. In the intervening millenia, I've come up with new ways to sustain our civilization.::1
+Scarcity of resources inevitably led to our civilization's downfall. In the intervening millenia, I've come up with new ways to sustain our civilization(Haggle's note: this chapter is still being developed).::1
 Use Gendustry and Binnie's Bees to automate ore production.::0
-EPIC: Collect at least 25 different species of Butterflies.::0
+Use MagicalCrops to automate ore production.::0
 |--==Otherworlds==--|::2
 Like I said, the very fabric of reality was torn. Investigate these 'wormholes' that are opening in our world and bring back samples for further analysis. If we can, we must build outposts to exploit them for their natural resources.::1
 Build a self-sufficient outpost in the Nether, including food supply, power, and shelter.::0
@@ -86,5 +88,7 @@ Kill the Ender Dragon.::0
 Destroy the End using a Dragon Egg inside the temple.::0
 |--==Building Tomorrow==--|::2
 Despite all our hard work, there's only one way to guarantee the survival of the human race: we must look to the stars!::1
+Get your butt to a space station!::0
 Get your butt to the moon!::0
+Get your butt to the asteroids!::0
 Get your butt to Mars!::0
