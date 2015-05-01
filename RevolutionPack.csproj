@@ -3391,6 +3391,7 @@
     <None Include="config\UniqueNames.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Content Include="achievmentsTODO.txt" />
     <Content Include="config\eirairc\commands.json.example.txt" />
     <Content Include="config\eirairc\servers.json.example.txt" />
     <Content Include="config\hqm\front.png" />
