@@ -9,7 +9,7 @@ val bars = <minecraft:iron_bars>;
 val block = <RotaryCraft:rotarycraft_block_deco:0>;
 val ingot = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
 val rod = <RotaryCraft:rotarycraft_item_shaftcraft:2>;
-val base = <RotaryCraft:rotarycraft_item_shaftcraft:0>;
+val base = <Railcraft:part.plate:1>;
 
 
 #remove all vanilla armor creation
@@ -28,7 +28,7 @@ recipes.remove(<minecraft:diamond_leggings>);
 recipes.remove(<minecraft:diamond_chestplate>);
 recipes.remove(<minecraft:diamond_helmet>);
 
-#Vanilla items should use HSLA Steel
+#Vanilla items should use Steel plates
 recipes.remove(cauldron);
 recipes.addShaped(cauldron, [[base,null,base],[base,null,base],[base,base,base]]);
 
