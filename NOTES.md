@@ -1,3 +1,4 @@
 ﻿#General notes for implementation
 
--Minicio needs to spawn on Mars
+- Fix ReC oregen
+- Titanium and Bedrockium plates
