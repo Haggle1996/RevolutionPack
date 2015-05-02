@@ -29,16 +29,27 @@ This page outlines the various game play changes to individual mods. There are q
 - All machines require steel instead of Iron
 - Dark Steel requires a steel plate instead of Iron
 
+##Enhanced Portals
+- Now requires steel instead of iron
+
 ##ExtraUtilities
 - Magnum torch disabled
 - Angel Ring disabled
 - Ender Lilies can only be found in the End
 - Generators are much more expensive to build
 - Ender Quarry requires a bedrock breaker and heat ray to construct.
+- Cannot build watering can
+- All transfer pipes and nodes are disabled
 
 ##Forestry
 - Disabled Ore Gen
 - Forestry engines require steel plates
+
+##Galacticraft
+- Ore does not spawn on the moon (except for cheese).
+
+##GardenStuff
+- Fixed all lattice recipes so they don't collide with other mods
 
 ##Iguana Tinker Tweaks
 - Vanilla tools can only be used for crafting
@@ -50,14 +61,20 @@ This page outlines the various game play changes to individual mods. There are q
 ##Magical Crops
 - All stones degrade twice as fast
 - Extra seeds from planting has been reduced to a 1% chance from 10%
-- Essence ore only spawns in The End
+- Essence ore only spawns in The End and Mars
 
 ##Plant Mega Pack
 - Added plants to missing biomes
 
+##Pressure Pipes
+- Generally, everything requires steel plates instead of iron ingots
+- DC Engines replace pistons
+
 ##RailCraft
 - Removed poor ores
 - Removed Steel armor and tools
+- Engines require plates based on tier (copper, iron, steel)
+- Engines require RotaryCraft Steam Engine instead of piston
 
 ##RandomThings
 - Disabled Spirit Binder
@@ -76,7 +93,7 @@ This page outlines the various game play changes to individual mods. There are q
 - Ore Berries are turned off
 
 ##Vanilla
-- Coal spawn in surface seams only.
+- Coal spawn in surface and deep seams.
 - Iron spawns in large fractal veins above y-level 20, but only 1 in 19 chunks
 - Gold spawns in large fractal veins above y-level 24, but only 1 in 20 chunks
 - Redstone spawns in large fractal veins above y-level 2, but only 1 in 20 chunks
@@ -85,3 +102,6 @@ This page outlines the various game play changes to individual mods. There are q
 - All Vanilla metal armor can no longer be crafted (diamond, iron, golden)
 - Cauldron requires steel plates
 - Bucket requires steel plates
+- Hopper requires steel plates
+- Iron bars require HSLA Steel shafts
+- Anvil requires HSLA Blocks
