@@ -7,9 +7,9 @@ My name is John.::1
    This pack would not have been possible without the effort of so many modders, artists, and creators. Every single one of them deserves thanks and praise for their hard work (and a Patreon dollar or two -- please support your modders).::1
    A few in particular really helped me get this together, through work, contribution or inspiration.| |::1
    Special thanks to: ::1
-RazzleberryFox for awesome graphics|CyanideX for superb Unity textures|SentinalhMC for great RotaryCraft vids|BevoLJ for vids that don't make my head explode::3
+RazzleberryFox-Graphics|CyanideX-Textures|SentinalhMC-Let's Play|BevoLJ-Inspiration::3
    And also the testers on the development server: ::1
-lordicon|garrarq|::3
+lordicon|garrarq|XxShadow|Ventricide::3
 |--==Getting Started==--|::2
    The lore in this book is told from the point of view of John, a disembodied brain used as a living computer. He has ideas for how civilization should be rebuilt, but its up to you to decide humanity's future.::1
    If you haven't already, it's highly recommended you use the ATG world type. While the quests in this book are generally progressive in difficulty, you do NOT have to do them in order.::1
