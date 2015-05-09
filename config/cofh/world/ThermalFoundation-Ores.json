@@ -10,7 +10,7 @@
         "numClusters": 3,
         "chunkChance": 4,
         "followTerrain": true,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -32,7 +32,7 @@
         "chunkChance": 9,
         "minHeight": 20,
         "maxHeight": 48,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -62,7 +62,7 @@
         "chunkChance": 8,
         "minHeight": 5,
         "maxHeight": 30,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -92,7 +92,7 @@
         "chunkChance": 8,
         "minHeight": 18,
         "maxHeight": 42,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -114,7 +114,7 @@
         "chunkChance": 8,
         "minHeight": 5,
         "maxHeight": 20,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
@@ -136,7 +136,7 @@
         "numClusters": 7,
         "minHeight": 16,
         "maxHeight": 28,
-        "retrogen": "true",
+        "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [
             "all"
