@@ -1,0 +1,26 @@
+{
+    "tfemeralds": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": "emerald_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 60,
+        "chunkChance": 13,
+        "minHeight": 4,
+        "veinHeight": 50,
+        "veinDiameter": 85,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    }
+}

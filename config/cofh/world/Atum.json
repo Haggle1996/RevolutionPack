@@ -1,0 +1,104 @@
+{
+    "atumcoal": {
+        "template": "uniform",
+        "block": "atum:tile.coalOre",
+        "material": "atum:tile.stone",
+        "clusterSize": 16,
+        "numClusters": 3,
+        "chunkChance": 1,
+        "minHeight": 25,
+        "maxHeight": 65,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            17
+        ]
+    },
+    "atumiron": {
+        "template": "uniform",
+        "block": "atum:tile.ironOre",
+        "material": "atum:tile.stone",
+        "clusterSize": 3,
+        "numClusters": 15,
+        "chunkChance": 2,
+        "minHeight": 15,
+        "maxHeight": 45,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            17
+        ]
+    },
+    "atumgold": {
+        "template": "uniform",
+        "block": "atum:tile.goldOre",
+        "material": "atum:tile.stone",
+        "clusterSize": 3,
+        "numClusters": 32,
+        "chunkChance": 1,
+        "minHeight": 15,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            17
+        ]
+    },
+    "atumredstone": {
+        "template": "uniform",
+        "block": "atum:tile.redstoneOre",
+        "material": "atum:tile.stone",
+        "clusterSize": 8,
+        "numClusters": 10,
+        "chunkChance": 10,
+        "minHeight": 2,
+        "maxHeight": 24,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            17
+        ]
+    },
+    "atumdiamond": {
+        "template": "uniform",
+        "block": "atum:tile.diamondOre",
+        "material": "atum:tile.stone",
+        "clusterSize": 7,
+        "numClusters": 3,
+        "chunkChance": 2,
+        "minHeight": 5,
+        "maxHeight": 24,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            17
+        ]
+    },
+    "atumlapis": {
+        "template": "uniform",
+        "block": "atum:tile.lapisOre",
+        "material": "atum:tile.stone",
+        "clusterSize": 5,
+        "numClusters": 13,
+        "chunkChance": 10,
+        "minHeight": 25,
+        "maxHeight": 45,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            17
+        ]
+    }
+}
