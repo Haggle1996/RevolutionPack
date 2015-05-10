@@ -16,7 +16,7 @@ recipes.addShaped(frame, [[stone,steel,stone]
 							,[stone,steel,stone]]);
 
 recipes.remove(dbs);
-recipes.addShaped(dbs, [[block,pearl,block]
+recipes.addShaped(dbs * 6, [[block,pearl,block]
 							,[pearl,diamond,pearl]
 							,[block,pearl,block]]);
 

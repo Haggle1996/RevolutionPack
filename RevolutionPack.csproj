@@ -54,6 +54,7 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <None Include="config\aobd.cfg" />
     <None Include="config\AppleCore.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -98,6 +99,7 @@
     <None Include="config\Baubles.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\BetterFoliage\betterfoliage.cfg" />
     <None Include="config\bettersleeping.cfg" />
     <None Include="config\BiblioCraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -270,6 +272,9 @@
     <None Include="config\cofh\thermalfoundation\lexicon-whitelist.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\cofh\world\TwilightForest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="config\cofh\world\Railcraft-Ores.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -277,6 +282,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\cofh\world\End-Ores.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config\cofh\world\Atum.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\cofh\world\Vanilla.json">
@@ -384,6 +392,7 @@
     <None Include="config\forgeChunkLoading.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\foxlib.cfg" />
     <None Include="config\funkylocomotion.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -423,6 +432,8 @@
     <None Include="config\HardcoreEnderExpansion.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\Hats.cfg" />
+    <None Include="config\HoloInventory.cfg" />
     <None Include="config\hqm\editmode.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -510,6 +521,7 @@
     <None Include="config\opencomputers\hardmode.recipes">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\opencomputers\peaceful.recipes" />
     <None Include="config\opencomputers\user.recipes">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2169,15 +2181,19 @@
     <None Include="config\plantmegapack\plants\bambooWetForest.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\beachButtonSage.cfg" />
     <None Include="config\plantmegapack\plants\beachHighTideBush.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\beachPrideOfMadeira.cfg" />
     <None Include="config\plantmegapack\plants\beachSeaLavender.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\beachSeaLymeGrass.cfg" />
     <None Include="config\plantmegapack\plants\beachSeaSandwort.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\beachShowyAster.cfg" />
     <None Include="config\plantmegapack\plants\berrybushBeauty.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2250,9 +2266,13 @@
     <None Include="config\plantmegapack\plants\cropBeet.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\cropBellPepperOrange.cfg" />
+    <None Include="config\plantmegapack\plants\cropBellPepperRed.cfg" />
     <None Include="config\plantmegapack\plants\cropBellPepperYellow.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\cropBroccoli.cfg" />
+    <None Include="config\plantmegapack\plants\cropCassava.cfg" />
     <None Include="config\plantmegapack\plants\cropCelery.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2265,21 +2285,26 @@
     <None Include="config\plantmegapack\plants\cropCucumber.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\cropEggplant.cfg" />
+    <None Include="config\plantmegapack\plants\cropGreenBeans.cfg" />
     <None Include="config\plantmegapack\plants\cropLaksaLeaf.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\cropLeek.cfg" />
     <None Include="config\plantmegapack\plants\cropLettuce.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\plantmegapack\plants\cropOnion.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\cropPeanut.cfg" />
     <None Include="config\plantmegapack\plants\cropRice.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\plantmegapack\plants\cropSacredLotus.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\cropSorrel.cfg" />
     <None Include="config\plantmegapack\plants\cropSpinach.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2574,6 +2599,7 @@
     <None Include="config\plantmegapack\plants\forestAustralianBugle.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\forestBloodroot.cfg" />
     <None Include="config\plantmegapack\plants\forestBroadleafMeadowsweet.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2586,6 +2612,7 @@
     <None Include="config\plantmegapack\plants\forestFairySlipper.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\forestGiantAngelica.cfg" />
     <None Include="config\plantmegapack\plants\forestHorseweed.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2595,6 +2622,8 @@
     <None Include="config\plantmegapack\plants\forestLilyoftheValley.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\forestLongBractedOrchid.cfg" />
+    <None Include="config\plantmegapack\plants\forestMerrybells.cfg" />
     <None Include="config\plantmegapack\plants\forestNorthernPitcherPlant.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2607,6 +2636,7 @@
     <None Include="config\plantmegapack\plants\forestSalal.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\forestSpringVetchling.cfg" />
     <None Include="config\plantmegapack\plants\forestVanillaLeaf.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2622,6 +2652,8 @@
     <None Include="config\plantmegapack\plants\forestWolfsFootClubmoss.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\forestWoodlandKnotweed.cfg" />
+    <None Include="config\plantmegapack\plants\forestYellowLadySlipper.cfg" />
     <None Include="config\plantmegapack\plants\fungusBlackPowderpuff.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2658,6 +2690,7 @@
     <None Include="config\plantmegapack\plants\grassFountain.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\plants\grassMaiden.cfg" />
     <None Include="config\plantmegapack\plants\grassMeadow.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3120,6 +3153,7 @@
     <None Include="config\plantmegapack\soilblocks.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\PluginMetrics.cfg" />
     <None Include="config\PotionExtension.cfg" />
     <None Include="config\progressiveautomation.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3196,6 +3230,7 @@
     <None Include="config\statues.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\StevesAddons.cfg" />
     <None Include="config\StevesCarts.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3208,6 +3243,7 @@
     <None Include="config\Sync.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\Tails.cfg" />
     <None Include="config\Thaumcraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3242,8 +3278,21 @@
     <None Include="config\wailaplugins.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\yegamolchattels.cfg" />
     <None Include="NOTES.md" />
     <None Include="README.md" />
+    <None Include="scripts\Atum.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\OpenBlocks.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\MagicalCrops.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\Galacticraft.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="scripts\GardenStuff.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3400,7 +3449,6 @@
     <Folder Include="config\atg\maps\" />
     <Folder Include="config\buildcraft\blueprints\server\" />
     <Folder Include="config\gendustry\overrides\" />
-    <Folder Include="config\powercrystals\minefactoryreloaded\" />
     <Folder Include="config\PressurePipes\overrides\" />
   </ItemGroup>
   <ItemGroup>
