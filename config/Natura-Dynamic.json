@@ -18,6 +18,9 @@
     },
     "Natura Waila Compatibility": {
       "enabled": true
+    },
+    "Natura FMP Compatibility": {
+      "enabled": true
     }
   }
 }

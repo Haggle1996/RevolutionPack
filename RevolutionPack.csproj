@@ -272,13 +272,8 @@
     <None Include="config\cofh\thermalfoundation\lexicon-whitelist.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\cofh\world\Overworld.json" />
     <None Include="config\cofh\world\TwilightForest.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="config\cofh\world\Railcraft-Ores.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="config\cofh\world\ThermalFoundation-Ores.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\cofh\world\End-Ores.json">
@@ -315,6 +310,7 @@
     <None Include="config\eirairc\servers.json" />
     <None Include="config\eirairc\services.cfg" />
     <None Include="config\eirairc\shared.cfg" />
+    <None Include="config\Eln.cfg" />
     <None Include="config\enderio\EnderIO.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -338,6 +334,7 @@
     <None Include="config\FlatSigns.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\ForbiddenMagic.cfg" />
     <None Include="config\forestry\apiculture.conf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -482,6 +479,7 @@
     <None Include="config\journeymap_ModInfo.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\LatMod\LatCoreMC.cfg" />
     <None Include="config\LogisticsPipes.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -491,6 +489,9 @@
     <None Include="config\malisisdoors.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\Mekanism.cfg" />
+    <None Include="config\microblocks.cfg" />
+    <None Include="config\multipart.cfg" />
     <None Include="config\Natura-Dynamic.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3227,6 +3228,7 @@
     <None Include="config\SpiceOfLife\example-food-group.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\splash.properties" />
     <None Include="config\statues.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3439,6 +3441,7 @@
     <Content Include="achievmentsTODO.txt" />
     <Content Include="config\eirairc\commands.json.example.txt" />
     <Content Include="config\eirairc\servers.json.example.txt" />
+    <Content Include="config\mekanism\BoxBlacklist.txt" />
     <Content Include="config\SimpleAchievements\achievementList.txt" />
     <Content Include="config\startingInventory.txt" />
     <Content Include="mods.xml">

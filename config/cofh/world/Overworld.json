@@ -1,11 +1,35 @@
 {
+    "sulfur": {
+        "template": {
+            "type": "underfluid",
+            "generator": "plate"
+        },
+        "block": { "name": "Railcraft:ore", "metadata": 0 },
+        "material": "minecraft:stone",
+        "genFluid": "lava",
+        "clusterSize": 4,
+        "numClusters": 10,
+        "sizeVariance": 3,
+        "height": 1,
+        "slim": true,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
     "copper": {
         "template": "surface",
         "block": {
             "name": "ThermalFoundation:Ore",
             "metadata": 0
         },
-        "material": ["stone","grass","sand","dirt","gravel"],
+        "material": [ "stone", "grass", "sand", "dirt", "gravel" ],
         "clusterSize": 9,
         "numClusters": 3,
         "chunkChance": 4,
@@ -21,6 +45,34 @@
             30
         ]
     },
+    "copper2": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 25,
+        "chunkChance": 15,
+        "minHeight": 45,
+        "veinHeight": 20,
+        "veinDiameter": 85,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
     "tin": {
         "template": "uniform",
         "block": {
@@ -28,8 +80,8 @@
             "metadata": 1
         },
         "clusterSize": 6,
-        "numClusters": 6,
-        "chunkChance": 9,
+        "numClusters": 12,
+        "chunkChance": 6,
         "minHeight": 20,
         "maxHeight": 48,
         "retrogen": "false",
@@ -59,7 +111,7 @@
         ],
         "clusterSize": 12,
         "numClusters": 2,
-        "chunkChance": 8,
+        "chunkChance": 6,
         "minHeight": 5,
         "maxHeight": 30,
         "retrogen": "false",
@@ -110,7 +162,7 @@
             "metadata": 4
         },
         "clusterSize": 9,
-        "numClusters": 1,
+        "numClusters": 2,
         "chunkChance": 8,
         "minHeight": 5,
         "maxHeight": 20,
@@ -146,5 +198,34 @@
             0,
             30
         ]
+    },
+    "osmium": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": {
+            "name": "Mekanism:OreBlock",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 30,
+        "chunkChance": 20,
+        "minHeight": 35,
+        "veinHeight": 30,
+        "veinDiameter": 65,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
     }
 }
+

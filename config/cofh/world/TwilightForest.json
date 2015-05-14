@@ -15,7 +15,7 @@
         "veinDiameter": 85,
         "verticalDensity": 15,
         "horizontalDensity": 16,
-        "retrogen": "true",
+        "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [ ],
         "dimensionRestriction": "whitelist",
