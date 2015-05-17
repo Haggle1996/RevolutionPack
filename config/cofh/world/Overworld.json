@@ -45,34 +45,6 @@
             30
         ]
     },
-    "copper2": {
-        "template": {
-            "type": "fractal",
-            "generator": "large-vein",
-            "sparse": false
-        },
-        "block": {
-            "name": "ThermalFoundation:Ore",
-            "metadata": 0
-        },
-        "material": "minecraft:stone",
-        "clusterSize": 3,
-        "numClusters": 25,
-        "chunkChance": 15,
-        "minHeight": 45,
-        "veinHeight": 20,
-        "veinDiameter": 85,
-        "verticalDensity": 15,
-        "horizontalDensity": 16,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [ ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            0,
-            30
-        ]
-    },
     "tin": {
         "template": "uniform",
         "block": {
@@ -199,6 +171,34 @@
             30
         ]
     },
+    "copper2": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 25,
+        "numClusters": 3,
+        "chunkChance": 15,
+        "minHeight": 45,
+        "veinHeight": 20,
+        "veinDiameter": 85,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
     "osmium": {
         "template": {
             "type": "fractal",
@@ -210,8 +210,8 @@
             "metadata": 0
         },
         "material": "minecraft:stone",
-        "clusterSize": 3,
-        "numClusters": 30,
+        "clusterSize": 30,
+        "numClusters": 3,
         "chunkChance": 20,
         "minHeight": 35,
         "veinHeight": 30,
@@ -228,4 +228,3 @@
         ]
     }
 }
-
