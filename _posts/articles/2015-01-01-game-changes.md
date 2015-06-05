@@ -22,8 +22,11 @@ This page outlines the various game play changes to individual mods. There are q
 - Mana Flux Field is disabled
 
 ##BuildCraft
-- BuildCraft engines require RotaryCraft engines instead of pistons
-- Quarry requires a bedrock breaker and heat ray -- you'll need Tungsten before you can make it
+- Stirling Engine is disabled
+- Quarry requires a bedrock pick and heat ray -- you'll need Tungsten before you can make it
+
+##Electrical Age
+- RF power conversion is disabled
 
 ##Ender IO
 - All machines require steel instead of Iron
@@ -37,16 +40,18 @@ This page outlines the various game play changes to individual mods. There are q
 - Angel Ring disabled
 - Ender Lilies can only be found in the End
 - Generators are much more expensive to build
-- Ender Quarry requires a bedrock breaker and heat ray to construct.
+- Ender Quarry requires a bedrock pick and heat ray to construct.
 - Cannot build watering can
 - All transfer pipes and nodes are disabled
+- All generators are disabled
 
 ##Forestry
 - Disabled Ore Gen
-- Forestry engines require steel plates
+- Forestry engines are disabled
 
 ##Galacticraft
 - Ore does not spawn on the moon (except for cheese).
+- RF power integration is turned off.
 
 ##GardenStuff
 - Fixed all lattice recipes so they don't collide with other mods
@@ -62,6 +67,12 @@ This page outlines the various game play changes to individual mods. There are q
 - All stones degrade twice as fast
 - Extra seeds from planting has been reduced to a 1% chance from 10%
 - Essence ore only spawns in The End and Mars
+- Zivicio armor is disabled
+
+##Mekanism
+- RF power conversion is disabled
+- Osmium requires ardite pickaxe or better
+- Robit requires bedrock ingot
 
 ##Plant Mega Pack
 - Added plants to missing biomes
@@ -73,8 +84,8 @@ This page outlines the various game play changes to individual mods. There are q
 ##RailCraft
 - Removed poor ores
 - Removed Steel armor and tools
-- Engines require plates based on tier (copper, iron, steel)
-- Engines require RotaryCraft Steam Engine instead of piston
+- Engines require plates based on tier (iron, steel)
+- Hobbyist Steam Engine is disabled
 
 ##RandomThings
 - Disabled Spirit Binder
@@ -93,7 +104,7 @@ This page outlines the various game play changes to individual mods. There are q
 - Ore Berries are turned off
 
 ##Vanilla
-- Coal spawn in surface and deep seams.
+- Coal spawn in high seams.
 - Iron spawns in large fractal veins above y-level 20, but only 1 in 19 chunks
 - Gold spawns in large fractal veins above y-level 24, but only 1 in 20 chunks
 - Redstone spawns in large fractal veins above y-level 2, but only 1 in 20 chunks
