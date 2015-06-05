@@ -28,6 +28,10 @@ This page outlines the various game play changes to individual mods. There are q
 ##Electrical Age
 - RF power conversion is disabled
 
+##ElectricalCraft
+- Fluorite ore spawns in scattered veins around y-level 35
+- Cadmium spawn in largish veins around y-level 
+
 ##Ender IO
 - All machines require steel instead of Iron
 - Dark Steel requires a steel plate instead of Iron
