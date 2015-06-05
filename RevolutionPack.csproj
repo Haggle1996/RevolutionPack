@@ -288,6 +288,10 @@
     <None Include="config\computronics.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\customitems\defaultConfig-1.8.json" />
+    <None Include="config\customitems\defaultConfig-blocks.json" />
+    <None Include="config\customitems\defaultConfig-items.json" />
+    <None Include="config\customitems\defaultConfig-oreGen.json" />
     <None Include="config\DamageIndicatorsMod.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -327,6 +331,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\erebus.cfg" />
+    <None Include="config\ExtraTiC.cfg" />
     <None Include="config\ExtraUtilities.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -446,15 +451,25 @@
     <None Include="config\iChunUtil_Stats.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\IguanaTinkerTweaks\BlockDefaults.cfg" />
+    <None Include="config\IguanaTinkerTweaks\BlockOverride.cfg" />
+    <None Include="config\IguanaTinkerTweaks\BonusModifierDefaults.cfg" />
+    <None Include="config\IguanaTinkerTweaks\BonusModifierOverride.cfg" />
+    <None Include="config\IguanaTinkerTweaks\HarvestLevelNamesDefaults.cfg" />
+    <None Include="config\IguanaTinkerTweaks\HarvestLevelNamesOverride.cfg" />
     <None Include="config\IguanaTinkerTweaks\main.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\IguanaTinkerTweaks\MaterialDefaults.cfg" />
+    <None Include="config\IguanaTinkerTweaks\MaterialOverride.cfg" />
     <None Include="config\IguanaTinkerTweaks\Modules.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\IguanaTinkerTweaks\restrictions.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\IguanaTinkerTweaks\ToolDefaults.cfg" />
+    <None Include="config\IguanaTinkerTweaks\ToolOverride.cfg" />
     <None Include="config\INpureProjects\custom_nei_filters\custom_nei_filters.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -479,6 +494,9 @@
     <None Include="config\journeymap_ModInfo.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\jsonables\JSONAbles-Resourcepack\pack.mcmeta" />
+    <None Include="config\jsonables\jsons\template.json" />
+    <None Include="config\jsonables\resourcepack\JSONAbles-Resourcepack.zip" />
     <None Include="config\LatMod\LatCoreMC.cfg" />
     <None Include="config\LogisticsPipes.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3156,6 +3174,8 @@
     </None>
     <None Include="config\PluginMetrics.cfg" />
     <None Include="config\PotionExtension.cfg" />
+    <None Include="config\progression\criteria.json" />
+    <None Include="config\progression\options.cfg" />
     <None Include="config\progressiveautomation.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3240,6 +3260,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\Tails.cfg" />
+    <None Include="config\tcnodetracker.cfg" />
     <None Include="config\Thaumcraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3278,6 +3299,9 @@
     <None Include="NOTES.md" />
     <None Include="README.md" />
     <None Include="scripts\Atum.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\Mekanism.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="scripts\OpenBlocks.zs">
@@ -3435,6 +3459,7 @@
     <Content Include="achievmentsTODO.txt" />
     <Content Include="config\eirairc\commands.json.example.txt" />
     <Content Include="config\eirairc\servers.json.example.txt" />
+    <Content Include="config\jsonables\resourcepack\readme.txt" />
     <Content Include="config\mekanism\BoxBlacklist.txt" />
     <Content Include="config\SimpleAchievements\achievementList.txt" />
     <Content Include="config\startingInventory.txt" />
@@ -3446,6 +3471,10 @@
     <Folder Include="config\atg\maps\" />
     <Folder Include="config\buildcraft\blueprints\server\" />
     <Folder Include="config\gendustry\overrides\" />
+    <Folder Include="config\jsonables\icons\aspects\" />
+    <Folder Include="config\jsonables\icons\blocks\" />
+    <Folder Include="config\jsonables\icons\items\" />
+    <Folder Include="config\jsonables\lang\" />
     <Folder Include="config\PressurePipes\overrides\" />
   </ItemGroup>
   <ItemGroup>

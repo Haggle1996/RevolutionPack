@@ -1,16 +1,16 @@
 #Extra Utilties
-val survivalgen = <ExtraUtilities:generator>;
-val furnacegen = <ExtraUtilities:generator:1>;
-val lavagen = <ExtraUtilities:generator:2>;
-val endergen = <ExtraUtilities:generator:3>;
-val heatedgen = <ExtraUtilities:generator:4>;
-val foodgen = <ExtraUtilities:generator:5>;
-val potgen = <ExtraUtilities:generator:6>;
-val solargen = <ExtraUtilities:generator:7>;
-val tntgen = <ExtraUtilities:generator:8>;
-val pinkgen = <ExtraUtilities:generator:9>;
-val hightempgen = <ExtraUtilities:generator:10>;
-val stargen = <ExtraUtilities:generator:11>;
+#val survivalgen = <ExtraUtilities:generator>;
+#val furnacegen = <ExtraUtilities:generator:1>;
+#val lavagen = <ExtraUtilities:generator:2>;
+#val endergen = <ExtraUtilities:generator:3>;
+#val heatedgen = <ExtraUtilities:generator:4>;
+#val foodgen = <ExtraUtilities:generator:5>;
+#val potgen = <ExtraUtilities:generator:6>;
+#val solargen = <ExtraUtilities:generator:7>;
+#val tntgen = <ExtraUtilities:generator:8>;
+#val pinkgen = <ExtraUtilities:generator:9>;
+#val hightempgen = <ExtraUtilities:generator:10>;
+#val stargen = <ExtraUtilities:generator:11>;
 val quarry = <ExtraUtilities:enderQuarry>;
 val pump = <ExtraUtilities:enderThermicPump>;
 val enderObsidian = <ore:blockEnderObsidian>;
@@ -22,7 +22,7 @@ val cauldron = <minecraft:cauldron>;
 val pressure = <minecraft:heavy_weighted_pressure_plate>;
 
 val ray = <RotaryCraft:rotarycraft_item_misccraft:0>;
-val breaker = <RotaryCraft:rotarycraft_item_machine:0>;
+val bedpick = <RotaryCraft:rotarycraft_item_bedpick:0>;
 val dc = <RotaryCraft:rotarycraft_item_engine:0>;
 val cobble = <ExtraUtilities:cobblestone_compressed>;
 val block = <ore:blockSteel>;
@@ -48,63 +48,63 @@ val unstableblock = <ExtraUtilities:decorativeBlock1:5>;
 recipes.remove(quarry);
 recipes.addShaped(quarry,[[enderObsidian,ray,enderObsidian],
 						[enderCore,matrix,enderCore],
-						[pump,breaker,pump]]);
+						[pump,bedpick,pump]]);
 
-#Make generators more expensive
-recipes.remove(survivalgen);
-recipes.addShaped(survivalgen, [[cobble,cobble,cobble],
-								[ingot,dc,ingot],
-								[redstone,furnace,redstone]]);
-
-recipes.remove(furnacegen);
-recipes.addShaped(furnacegen, [[iron,iron,iron],
-								[iron,block,iron],
-								[redstone,furnace,redstone]]);
-
-recipes.remove(lavagen);
-recipes.addShaped(lavagen, [[gold,gold,gold],
-								[gold,block,gold],
-								[redstone,furnace,redstone]]);
-
-recipes.remove(endergen);
-recipes.addShaped(endergen, [[pearl,pearl,pearl],
-								[eye,block,eye],
-								[redstone,furnace,redstone]]);
-
-recipes.remove(heatedgen);
-recipes.addShaped(heatedgen, [[redstoneBlock,redstoneBlock,redstoneBlock],
-								[redstoneBlock,lavagen,redstoneBlock],
-								[redstone,furnace,redstone]]);
-
-recipes.remove(foodgen);
-recipes.addShaped(foodgen, [[iron,iron,iron],
-								[ingot,survivalgen,ingot],
-								[redstone,furnace,redstone]]);
-
-recipes.remove(solargen);
-recipes.addShaped(solargen, [[lapis,daylight,lapis],
-								[copper,diamond,copper],
-								[redstone,dc,redstone]]);
-
-recipes.remove(tntgen);
-recipes.addShaped(tntgen, [[tnt,tnt,tnt],
-								[tnt,block,tnt],
-								[redstone,furnace,redstone]]);
-
-recipes.remove(pinkgen);
-recipes.addShaped(pinkgen, [[pink,pink,pink],
-								[pink,survivalgen,pink],
-								[redstone,furnace,redstone]]);
-
-recipes.remove(hightempgen);
-recipes.addShaped(hightempgen, [[ingot,ingot,ingot],
-								[ingot,furnacegen,ingot],
-								[redstone,furnace,redstone]]);
-
-recipes.remove(stargen);
-recipes.addShaped(stargen, [[skull,star,skull],
-								[skull,unstableblock,skull],
-								[ingot,dc,ingot]]);
+##Make generators more expensive
+#recipes.remove(survivalgen);
+#recipes.addShaped(survivalgen, [[cobble,cobble,cobble],
+#								[ingot,dc,ingot],
+#								[redstone,furnace,redstone]]);
+#
+#recipes.remove(furnacegen);
+#recipes.addShaped(furnacegen, [[iron,iron,iron],
+#								[iron,block,iron],
+#								[redstone,furnace,redstone]]);
+#
+#recipes.remove(lavagen);
+#recipes.addShaped(lavagen, [[gold,gold,gold],
+#								[gold,block,gold],
+#								[redstone,furnace,redstone]]);
+#
+#recipes.remove(endergen);
+#recipes.addShaped(endergen, [[pearl,pearl,pearl],
+#								[eye,block,eye],
+#								[redstone,furnace,redstone]]);
+#
+#recipes.remove(heatedgen);
+#recipes.addShaped(heatedgen, [[redstoneBlock,redstoneBlock,redstoneBlock],
+#								[redstoneBlock,lavagen,redstoneBlock],
+#								[redstone,furnace,redstone]]);
+#
+#recipes.remove(foodgen);
+#recipes.addShaped(foodgen, [[iron,iron,iron],
+#								[ingot,survivalgen,ingot],
+#								[redstone,furnace,redstone]]);
+#
+#recipes.remove(solargen);
+#recipes.addShaped(solargen, [[lapis,daylight,lapis],
+#								[copper,diamond,copper],
+#								[redstone,dc,redstone]]);
+#
+#recipes.remove(tntgen);
+#recipes.addShaped(tntgen, [[tnt,tnt,tnt],
+#								[tnt,block,tnt],
+#								[redstone,furnace,redstone]]);
+#
+#recipes.remove(pinkgen);
+#recipes.addShaped(pinkgen, [[pink,pink,pink],
+#								[pink,survivalgen,pink],
+#								[redstone,furnace,redstone]]);
+#
+#recipes.remove(hightempgen);
+#recipes.addShaped(hightempgen, [[ingot,ingot,ingot],
+#								[ingot,furnacegen,ingot],
+#								[redstone,furnace,redstone]]);
+#
+#recipes.remove(stargen);
+#recipes.addShaped(stargen, [[skull,star,skull],
+#								[skull,unstableblock,skull],
+#								[ingot,dc,ingot]]);
 
 #drums are expensive
 recipes.remove(drum);

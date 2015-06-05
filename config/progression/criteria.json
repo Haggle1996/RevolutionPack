@@ -1,0 +1,81 @@
+{
+  "tabs": [
+    {
+      "uniqueName": "DEFAULT",
+      "displayName": "Default",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:book",
+      "criteria": [
+        {
+          "uniqueName": "1432608730014",
+          "displayName": "Getting Started",
+          "displayStack": "minecraft:stone",
+          "triggers": [
+            {
+              "conditions": [],
+              "type": "obtain",
+              "data": {
+                "item": "minecraft:gravel",
+                "itemAmount": 9
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "type": "item",
+              "data": {
+                "item": "minecraft:planks 0 *6"
+              }
+            }
+          ],
+          "prereqs": [],
+          "conflicts": [
+            "1432608856517"
+          ],
+          "repeatable": 1,
+          "x": 70,
+          "y": 24,
+          "isVisible": true
+        },
+        {
+          "uniqueName": "1432608838867",
+          "displayName": "New Criteria",
+          "displayStack": "minecraft:stone",
+          "triggers": [],
+          "rewards": [],
+          "prereqs": [
+            "1432608730014"
+          ],
+          "conflicts": [],
+          "repeatable": 1,
+          "x": 179,
+          "y": 24,
+          "isVisible": true
+        },
+        {
+          "uniqueName": "1432608856517",
+          "displayName": "New Criteria",
+          "displayStack": "minecraft:stone",
+          "triggers": [],
+          "rewards": [],
+          "prereqs": [],
+          "conflicts": [
+            "1432608730014"
+          ],
+          "repeatable": 1,
+          "x": 177,
+          "y": 60,
+          "isVisible": true
+        }
+      ]
+    }
+  ],
+  "defaultTabID": "DEFAULT",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "addTileClaimerRecipe": false,
+  "unclaimedTileCanUseAnythingForCrafting": false,
+  "unclaimedTileCanCraftAnything": false,
+  "interfaceItem": "minecraft:book"
+}

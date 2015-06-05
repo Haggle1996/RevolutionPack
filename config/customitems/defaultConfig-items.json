@@ -1,0 +1,41 @@
+{
+    "items": [
+        {
+            "maxStackSize": 16,
+            "textureName": "coin2",
+            "name": "Coin"            
+        }
+    ],
+    "foods": [
+        {
+            "maxStackSize": 64,
+            "textureName": "banana",
+            "potionEffects": [
+                {
+                    "effect": "fireResistance"
+                },
+                {
+                    "effect": "jump"
+                }
+            ],
+            "name": "Fire Jumping Banana"
+        }
+    ],
+    "swords": [
+        {
+            "name": "God Sword",
+            "textureName": "godsword",
+            "maxUses": 10,
+            "harvestLevel": 0,
+            "efficiencyOnProperMaterial": 10,
+            "enchantability": 0,            
+            "damageVsEntity": 10000
+        }
+    ],
+    "changeItems": [
+        {
+            "maxStackSize": 6,
+            "name": "minecraft:boat"
+        }
+    ]
+}

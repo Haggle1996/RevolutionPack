@@ -34,13 +34,21 @@
         ]
     },
     "coal": {
-        "template": "surface",
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
         "block": "coal_ore",
-        "material": [ "stone", "grass", "sand", "dirt", "gravel" ],
-        "clusterSize": 16,
-        "followTerrain": true,
-        "numClusters": 2,
-        "chunkChance": 2,
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 1,
+        "chunkChance": 1,
+        "minHeight": 95,
+        "veinHeight": 6,
+        "veinDiameter": 32,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [ ],

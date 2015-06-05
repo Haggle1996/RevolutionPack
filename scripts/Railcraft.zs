@@ -25,10 +25,10 @@ val goldGear = <Railcraft:part.gear:0>;
 val ironGear = <ore:gearIron>;
 val steelGear = <Railcraft:part.gear:2>;
 
-recipes.remove(hobbyist);
-recipes.addShaped(hobbyist, [[copper,copper,copper]
-							,[null,glass,null]
-							,[goldGear,steam,goldGear]]);
+#recipes.remove(hobbyist);
+#recipes.addShaped(hobbyist, [[copper,copper,copper]
+#							,[null,glass,null]
+#							,[goldGear,steam,goldGear]]);
 
 recipes.remove(commercial);
 recipes.addShaped(commercial, [[iron,iron,iron]

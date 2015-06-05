@@ -1,0 +1,240 @@
+{
+    "chests": [
+        {
+            "name": "Single item Chest",
+            "invName": "Tiny",
+            "textureName": "crate",
+            "slotMaxStackSize": 1,
+            "invHeight": 1,
+            "invWidth": 1
+        }
+    ],
+    "fluids":[
+        {
+            "name":"Greeni",
+            "textureName": "green_liquid",
+            "temperature": 200,
+
+            "density": 1,
+            "viscosity": 0,            
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 16
+        },        
+        {
+            "name":"tower",
+            "textureName": "tower",
+            "temperature": 200,
+            
+            "density": -1000,
+            "viscosity": 1000,            
+            "isGas": true,
+            "flowLength": 1
+        },
+        {
+            "name":"Nova_water",
+            "textureName": "nova_water",
+            "temperature": 200,
+            
+            "density": 10000,
+            "viscosity": 1000,            
+            "isGas": false,
+            "flowLength": 8
+        },             
+        {
+            "name":"Nova Lava",
+            "textureName": "nova_lava",
+            "temperature": 200,
+            
+            "density": 2000,
+            "viscosity": 6000,
+            "lightLevel": 1.0,
+            "isGas": false,
+            "flowLength": 4
+        }
+    ],
+    "blocks": [         
+        {
+            "textureName": "red_sand",
+            "name": "Red Sand",
+            "toolClass": "shovel",
+            "stepSound": "sand",
+            "material": "sand",
+            "resistance": 2.5,            
+            "hardness": 0.5,
+            "type": "falling"
+        },
+        {
+            "textureName": "pink_sand",
+            "name": "Pink Sand",
+            "toolClass": "shovel",
+            "stepSound": "sand",
+            "material": "sand",
+            "resistance": 2.5,            
+            "hardness": 0.5,
+            "type": "falling"
+        },
+        {
+            "textureName": "green_sand",
+            "name": "Green Sand",
+            "toolClass": "shovel",
+            "stepSound": "sand",
+            "material": "sand",
+            "resistance": 2.5,            
+            "hardness": 0.5,
+            "type": "falling"
+        },
+        {
+            "textureName": "blue_sand",
+            "name": "Blue Sand",
+            "toolClass": "shovel",
+            "stepSound": "sand",
+            "material": "sand",
+            "resistance": 2.5,            
+            "hardness": 0.5,
+            "type": "falling"
+        },
+        {
+            "name": "Dark quartz pillar",
+            "multipleTextures": {
+                "xpos": "dark_quartz_block_lines",               
+                "ypos": "dark_quartz_block_lines_top"              
+            },            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8,
+            "type": "pillars"
+        },
+        {
+            "name": "Dark quartz",
+            "multipleTextures": {
+                "xpos": "dark_quartz_block_side",
+                "xneg": "dark_quartz_block_side",
+                "zpos": "dark_quartz_block_side",
+                "zneg": "dark_quartz_block_side",
+                "ypos": "dark_quartz_block_top",
+                "yneg": "dark_quartz_block_bottom"
+            },          
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Chiseled Dark quartz",
+            "multipleTextures": {
+                "xpos": "dark_quartz_block_chiseled",
+                "xneg": "dark_quartz_block_chiseled",
+                "zpos": "dark_quartz_block_chiseled",
+                "zneg": "dark_quartz_block_chiseled",
+                "ypos": "dark_quartz_block_chiseled_top",
+                "yneg": "dark_quartz_block_chiseled_top"
+            },            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Custom Glass",           
+            "textureName": "customGlass",
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1
+        },
+        {
+            "name": "Custom Glass Pane",           
+            "multipleTextures": {
+                "xpos": "customGlass",               
+                "ypos": "customGlass"              
+            },   
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "pane"
+        },
+        {
+            "name": "Custom Glass Stairs",           
+            "textureName": "customGlass",
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "stairs"
+        },
+        {
+            "name": "Custom Glass Slab",           
+            "textureName": "customGlass",
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "slab"
+        },
+        {
+            "name": "Custom Glass Fence",           
+            "textureName": "customGlass",
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "fence"
+        },
+        {
+            "name": "Custom Glass Wall",           
+            "textureName": "customGlass",
+            
+            "registerOrder": 1,
+            "stepSound": "glass",
+            "material": "glass",
+            "resistance": 0,            
+            "isOpaque": false,            
+            "maxStackSize": 16,
+            "breaks": true,
+            "canSilkHarvest": true,
+            "hardness": 1,
+
+            "type": "wall"
+        }
+    ]
+}

@@ -8,7 +8,7 @@ val dc = <RotaryCraft:rotarycraft_item_engine:0>;
 val steam = <RotaryCraft:rotarycraft_item_engine:2>;
 val gas = <RotaryCraft:rotarycraft_item_engine:3>;
 val ray = <RotaryCraft:rotarycraft_item_misccraft:0>;
-val breaker = <RotaryCraft:rotarycraft_item_machine:0>;
+val bedpick = <RotaryCraft:rotarycraft_item_bedpick:0>;
 
 val iron = <minecraft:iron_ingot>;
 val plank = <ore:plankWood>;
@@ -21,22 +21,22 @@ val ironGear = <ore:gearIron>;
 val goldGear = <ore:gearGold>;
 val diamondGear = <ore:gearDiamond>;
 
-recipes.remove(redstone);
-recipes.addShaped(redstone, [[plank,plank,plank]
-							,[null,glass,null]
-							,[woodGear,dc,woodGear]]);
+#recipes.remove(redstone);
+#recipes.addShaped(redstone, [[plank,plank,plank]
+#							,[null,glass,null]
+#							,[woodGear,dc,woodGear]]);
 
 recipes.remove(stirling);
-recipes.addShaped(stirling, [[cobble,cobble,cobble]
-							,[null,glass,null]
-							,[stoneGear,steam,stoneGear]]);
+#recipes.addShaped(stirling, [[cobble,cobble,cobble]
+#							,[null,glass,null]
+#							,[stoneGear,steam,stoneGear]]);
 
-recipes.remove(combustion);
-recipes.addShaped(combustion, [[iron,iron,iron]
-							,[null,glass,null]
-							,[ironGear,gas,ironGear]]);
+#recipes.remove(combustion);
+#recipes.addShaped(combustion, [[iron,iron,iron]
+#							,[null,glass,null]
+#							,[ironGear,gas,ironGear]]);
 
 recipes.remove(quarry);
 recipes.addShaped(quarry,[[ironGear,ray,ironGear],
 						  [goldGear,ironGear,goldGear],
-						  [diamondGear,breaker,diamondGear]]);
+						  [diamondGear,bedpick,diamondGear]]);

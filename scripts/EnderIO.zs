@@ -68,7 +68,7 @@ recipes.remove(basicCapacitorBank);
 recipes.addShaped(basicCapacitorBank * 1, [[ingot,basicCapacitor,ingot],[basicCapacitor,redstoneBlock,basicCapacitor],[ingot,basicCapacitor,ingot]]);
 
 recipes.remove(stirling);
-recipes.addShaped(stirling,[[stone,stone,stone],[stone,furnace,stone],[stoneGear,steam,stoneGear]]);
+#recipes.addShaped(stirling,[[stone,stone,stone],[stone,furnace,stone],[stoneGear,steam,stoneGear]]);
 
 recipes.remove(combustion);
 recipes.addShaped(combustion,[[electrical,electrical,electrical],[tank,chassis,tank],[stoneGear,gas,stoneGear]]);
