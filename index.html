@@ -9,11 +9,11 @@ image:
 ---
 <p><i>Can you rebuild civilization after the Revolution?</i></p>
 <p>Over 50,000 years have passed since a nuclear holocaust has devastated the earth. While the earth has recovered, much that survived isn't the earth or inhabitants that we remember. You and your team, kept safe in cryogenic suspension, have been awakened to rebuild civilization!</p>
-<p>The Revolution Pack is Minecraft modpack by Haggle1996 which showcases a number of outstanding and new mods from the modding community. Built around the three pillars of design, tech, and magic, this pack brings them all together into a cohesive world that feels so much more alive than a typical kitchen-sink style modpack. Revolution's optional achievement system, combined with it's progressive tech-tree, encourage you to wander through mods you've never seen before or take alternative paths through old-familiars -- or just play it for fun!</p>
-<p>The Revolution Pack is a medium-difficulty pack inspired loosely by the progression of hardcore GregTech packs. You'll need to move through RotaryCraft and RailCraft to unlock the full breadth of tech mods. But don't let that discourage you -- The achievement book will guide you through the progression and introduces you to new mods along the way. Plus, Revolution features an array of decorative and atmospheric mods, like DecoCraft, Streams, ATG, Apple & Milk & Tea, BiblioCraft, Storage Drawers, Chisel 2, Big Trees, Plant Mega Pack, Grimoire of Gaia and many, many more.</p>
+<p>The Revolution Pack is RotaryCraft-themed Minecraft modpack by Haggle1996 which showcases a number of outstanding and new mods from the modding community. Built around the three pillars of design, tech, and magic, this pack brings them all together into a cohesive world that feels so much more alive than a typical kitchen-sink style modpack. Revolution's progressive tech-tree encourages you to wander through mods you've never seen before or take alternative paths through old-familiars -- or just play it for fun!</p>
+<p>The Revolution Pack is a medium-difficulty pack inspired loosely by the progression of hardcore GregTech packs. You'll need to move through RotaryCraft and RailCraft to unlock the full breadth of tech mods. But don't let that discourage you! Revolution features an array of decorative and atmospheric mods, like DecoCraft, Streams, ATG, Apple & Milk & Tea, BiblioCraft, Storage Drawers, Chisel 2, Big Trees, Plant Mega Pack, Grimoire of Gaia and many, many more.</p>
 <ul class="post-list">
 {% for post in site.posts limit:10 %} 
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt }}</span>{% endif %}</a></article></li>
 {% endfor %}
     <a href="{{ site.url }}/blog">Older Items...</a>
-</ul>
+</ul> 
