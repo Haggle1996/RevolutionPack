@@ -99,6 +99,7 @@
     <None Include="config\Baubles.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\bcadditions.cfg" />
     <None Include="config\BetterFoliage\betterfoliage.cfg" />
     <None Include="config\bettersleeping.cfg" />
     <None Include="config\BiblioCraft.cfg">
@@ -230,6 +231,7 @@
     <None Include="config\biomesoplenty\terraingen.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\books\enchiridion.cfg" />
     <None Include="config\Botania.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -315,6 +317,9 @@
     <None Include="config\eirairc\services.cfg" />
     <None Include="config\eirairc\shared.cfg" />
     <None Include="config\Eln.cfg" />
+    <None Include="config\enchiridion\books\enchiridion_introbook.json" />
+    <None Include="config\enchiridion\enchiridion2.cfg" />
+    <None Include="config\enchiridion\library_books.json" />
     <None Include="config\enderio\EnderIO.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -331,6 +336,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\erebus.cfg" />
+    <None Include="config\eureka.cfg" />
     <None Include="config\ExtraTiC.cfg" />
     <None Include="config\ExtraUtilities.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -497,6 +503,7 @@
     <None Include="config\jsonables\JSONAbles-Resourcepack\pack.mcmeta" />
     <None Include="config\jsonables\jsons\template.json" />
     <None Include="config\jsonables\resourcepack\JSONAbles-Resourcepack.zip" />
+    <None Include="config\jurassicraft.cfg" />
     <None Include="config\LatMod\LatCoreMC.cfg" />
     <None Include="config\LogisticsPipes.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -509,6 +516,7 @@
     </None>
     <None Include="config\Mekanism.cfg" />
     <None Include="config\microblocks.cfg" />
+    <None Include="config\minechem.cfg" />
     <None Include="config\multipart.cfg" />
     <None Include="config\Natura-Dynamic.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3197,6 +3205,7 @@
     <None Include="config\RandomThings.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\reccomplex.cfg" />
     <None Include="config\RefinedRelocation.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3279,9 +3288,6 @@
     <None Include="config\TinkersModules.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\ttCore.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="config\ttCore\cropConfig.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3298,6 +3304,9 @@
     <None Include="config\yegamolchattels.cfg" />
     <None Include="NOTES.md" />
     <None Include="README.md" />
+    <None Include="scripts\AppleMilkTea.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="scripts\Atum.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3470,6 +3479,10 @@
   <ItemGroup>
     <Folder Include="config\atg\maps\" />
     <Folder Include="config\buildcraft\blueprints\server\" />
+    <Folder Include="config\enchiridion\wiki\" />
+    <Folder Include="config\Eureka\Categories\" />
+    <Folder Include="config\Eureka\Keys\" />
+    <Folder Include="config\Eureka\Localizations\en_US\" />
     <Folder Include="config\gendustry\overrides\" />
     <Folder Include="config\jsonables\icons\aspects\" />
     <Folder Include="config\jsonables\icons\blocks\" />

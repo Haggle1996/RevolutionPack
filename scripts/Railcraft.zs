@@ -30,12 +30,12 @@ val steelGear = <Railcraft:part.gear:2>;
 #							,[null,glass,null]
 #							,[goldGear,steam,goldGear]]);
 
-recipes.remove(commercial);
-recipes.addShaped(commercial, [[iron,iron,iron]
-							,[null,glass,null]
-							,[ironGear,steam,ironGear]]);
+#recipes.remove(commercial);
+#recipes.addShaped(commercial, [[iron,iron,iron]
+#							,[null,glass,null]
+#							,[ironGear,steam,ironGear]]);
 
-recipes.remove(industrial);
-recipes.addShaped(industrial, [[steel,steel,steel]
-							,[null,glass,null]
-							,[steelGear,steam,steelGear]]);
+#recipes.remove(industrial);
+#recipes.addShaped(industrial, [[steel,steel,steel]
+#							,[null,glass,null]
+#							,[steelGear,steam,steelGear]]);

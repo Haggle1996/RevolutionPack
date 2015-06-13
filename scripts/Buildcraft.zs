@@ -1,8 +1,8 @@
 #Buildcraft
-val redstone = <BuildCraft|Energy:engineBlock:0>;
-val stirling = <BuildCraft|Energy:engineBlock:1>;
-val combustion = <BuildCraft|Energy:engineBlock:2>;
-val quarry = <BuildCraft|Factory:machineBlock>;
+val redstone = <BuildCraft|Core:engineBlock:0>;
+val stirling = <BuildCraft|Core:engineBlock:1>;
+val combustion = <BuildCraft|Core:engineBlock:2>;
+val quarry = <BuildCraft|Builders:machineBlock>;
 
 val dc = <RotaryCraft:rotarycraft_item_engine:0>;
 val steam = <RotaryCraft:rotarycraft_item_engine:2>;
@@ -14,27 +14,30 @@ val iron = <minecraft:iron_ingot>;
 val plank = <ore:plankWood>;
 val glass = <ore:blockGlass>;
 val cobble = <minecraft:cobblestone>;
+val piston = <minecraft:piston>;
 
 val woodGear = <ore:gearWood>;
 val stoneGear = <ore:gearStone>;
 val ironGear = <ore:gearIron>;
 val goldGear = <ore:gearGold>;
 val diamondGear = <ore:gearDiamond>;
+val copperplate = <Railcraft:part.plate:3>;
+val ironplate = <Railcraft:part.plate:0>;
 
-#recipes.remove(redstone);
-#recipes.addShaped(redstone, [[plank,plank,plank]
-#							,[null,glass,null]
-#							,[woodGear,dc,woodGear]]);
+recipes.remove(redstone);
+recipes.addShaped(redstone, [[plank,plank,plank]
+							,[null,glass,null]
+							,[stoneGear,piston,stoneGear]]);
 
 recipes.remove(stirling);
-#recipes.addShaped(stirling, [[cobble,cobble,cobble]
-#							,[null,glass,null]
-#							,[stoneGear,steam,stoneGear]]);
+recipes.addShaped(stirling, [[cobble,cobble,cobble]
+							,[null,glass,null]
+							,[ironGear,piston,ironGear]]);
 
-#recipes.remove(combustion);
-#recipes.addShaped(combustion, [[iron,iron,iron]
-#							,[null,glass,null]
-#							,[ironGear,gas,ironGear]]);
+recipes.remove(combustion);
+recipes.addShaped(combustion, [[iron,iron,iron]
+							,[ironplate,glass,ironplate]
+							,[ironGear,piston,ironGear]]);
 
 recipes.remove(quarry);
 recipes.addShaped(quarry,[[ironGear,ray,ironGear],

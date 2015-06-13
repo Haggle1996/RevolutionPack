@@ -21,6 +21,9 @@ val gas = <RotaryCraft:rotarycraft_item_engine:3>;
 val block = <ore:blockSteel>;
 val ingot = <ore:ingotSteel>;
 
+# BuildCraft Additions
+val hFurnace = <bcadditions:blockHeatedFurnace>;
+
 # Ender IO
 val alloySmelter = <EnderIO:blockAlloySmelter>;
 val sagMill = <EnderIO:blockSagMill>;
@@ -34,7 +37,8 @@ val powerBuffer = <EnderIO:blockBuffer:1>;
 val anchor = <EnderIO:blockTravelAnchor>;
 val stirling = <EnderIO:blockStirlingGenerator>;
 val combustion = <EnderIO:blockCombustionGenerator>;
-val stoneGear = <EnderIO:itemMachinePart:1>;
+val stoneGear = <ore:gearStone>;
+val ironGear = <ore:gearIron>;
 val tank = <EnderIO:blockTank:0>;
 val electrical = <EnderIO:itemAlloy:0>;
 
@@ -43,7 +47,7 @@ recipes.remove(sagMill);
 recipes.addShaped(sagMill * 1, [[obsidian,obsidian,obsidian],[flint,chassis,flint],[piston,ingot,piston]]);
 
 recipes.remove(alloySmelter);
-recipes.addShaped(alloySmelter * 1, [[ingot,furnace,ingot],[furnace,chassis,furnace],[ingot,cauldron,ingot]]);
+recipes.addShaped(alloySmelter * 1, [[ingot,hFurnace,ingot],[hFurnace,chassis,hFurnace],[ingot,cauldron,ingot]]);
 
 recipes.remove(chassis);
 recipes.addShaped(chassis * 1, [[bars, hIngot, bars], [hIngot, basicCapacitor * 1, hIngot], [bars, hIngot, bars]]);
@@ -68,7 +72,9 @@ recipes.remove(basicCapacitorBank);
 recipes.addShaped(basicCapacitorBank * 1, [[ingot,basicCapacitor,ingot],[basicCapacitor,redstoneBlock,basicCapacitor],[ingot,basicCapacitor,ingot]]);
 
 recipes.remove(stirling);
-#recipes.addShaped(stirling,[[stone,stone,stone],[stone,furnace,stone],[stoneGear,steam,stoneGear]]);
+recipes.addShaped(stirling,[[stone,stone,stone],
+							[stone,hFurnace,stone],
+							[ironGear,piston,ironGear]]);
 
 recipes.remove(combustion);
 recipes.addShaped(combustion,[[electrical,electrical,electrical],[tank,chassis,tank],[stoneGear,gas,stoneGear]]);

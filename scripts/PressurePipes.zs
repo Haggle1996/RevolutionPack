@@ -14,9 +14,15 @@ val interface = <pressure:TankInterface>;
 val router = <pressure:Router>;
 val drain = <pressure:Drain>;
 val pump = <pressure:Pump>;
+val hpump = <pressure:HandPump>;
 val sensor = <pressure:PipeSensor>;
 val valve = <pressure:CheckValve>;
 val pipe = <pressure:Pipe>;
+val source = <pressure:Water>;
+val mgInput = <pressure:GasInput>;
+val mgOutput = <pressure:GasOutput>;
+val tgInput = <pressure:TankGasInput>;
+val tgOutput = <pressure:TankGasOutput>;
 
 val copper = <Railcraft:part.plate:3>;
 val iron = <Railcraft:part.plate:0>;
@@ -29,9 +35,43 @@ val hopper = <minecraft:hopper>;
 val bars = <minecraft:iron_bars>;
 val torch = <minecraft:redstone_torch>;
 val lever = <minecraft:lever>;
+val stick = <minecraft:stick>;
+val piston = <minecraft:piston>;
+val ingot = <ore:ingotSteel>;
+val gold = <minecraft:gold_ingot>;
+val wbucket = <minecraft:water_bucket>;
+val bucket = <minecraft:bucket>;
+val alloy = <Mekanism:EnrichedAlloy>;
 
-val dc = <RotaryCraft:rotarycraft_item_engine:0>;
+recipes.remove(tgOutput);
+recipes.addShaped(tgOutput, [[alloy,iron,alloy]
+							,[iron,null,iron]
+							,[wall,fluid,wall]]);
 
+recipes.remove(tgInput);
+recipes.addShaped(tgInput, [[alloy,fluid,alloy]
+							,[iron,null,iron]
+							,[wall,iron,wall]]);
+
+recipes.remove(mgOutput);
+recipes.addShaped(mgOutput, [[iron,pressure,iron]
+							,[iron,null,iron]
+							,[iron,alloy,iron]]);
+
+recipes.remove(mgInput);
+recipes.addShaped(mgInput, [[iron,alloy,iron]
+							,[iron,null,iron]
+							,[iron,pressure,iron]]);
+
+recipes.remove(source);
+recipes.addShaped(source, [[ingot,ingot,ingot],
+						   [wbucket.transformReplace(bucket),null,wbucket.transformReplace(bucket)],
+						   [ingot,ingot,ingot]]);
+
+recipes.remove(hpump);
+recipes.addShaped(hpump, [[redstone,ingot,pane],
+						  [gold,pane,ingot],
+						  [stick,piston,redstone]]);
 
 recipes.remove(canister);
 recipes.addShaped(canister, [[pane,steel,pane]
@@ -55,7 +95,7 @@ recipes.addShaped(output, [[green,steel,green]
 
 recipes.remove(foutput);
 recipes.addShaped(foutput, [[green,steel,green]
-							,[steel,dc,steel]
+							,[steel,piston,steel]
 							,[wall,fluid,wall]]);
 
 recipes.remove(input);
@@ -105,7 +145,7 @@ recipes.addShaped(houtput, [[steel,green,steel]
 
 recipes.remove(pump);
 recipes.addShaped(pump, [[steel,green,steel]
-							,[dc,null,dc]
+							,[piston,null,piston]
 							,[steel,green,steel]]);
 
 recipes.remove(sensor);
@@ -122,3 +162,4 @@ recipes.remove(pipe);
 recipes.addShaped(pipe, [[steel,steel,steel]
 							,[green,null,green]
 							,[steel,steel,steel]]);
+
