@@ -34,6 +34,7 @@ recipes.addShaped(cauldron, [[base,null,base],[base,null,base],[base,base,base]]
 
 recipes.remove(bucket);
 recipes.addShaped(bucket * 1, [[base,null,base], [null,base,null], [null,null,null]]);
+bucket.addTooltip(format.white("Use clay buckets until you develop steel."));
 
 recipes.remove(hopper);
 recipes.addShaped(hopper * 1, [[base,null,base],[base,chest,base],[null,base,null]]);
@@ -42,4 +43,4 @@ recipes.remove(anvil);
 recipes.addShaped(anvil * 1, [[block,block,block],[null,ingot,null],[ingot,ingot,ingot]]);
 
 recipes.remove(bars * 16);
-recipes.addShaped(bars * 16, [[rod,rod,rod],[rod,rod,rod],[null,null,null]]);
+mods.railcraft.Rolling.addShaped(bars * 16, [[rod,rod,rod],[rod,rod,rod]]);

@@ -26,7 +26,7 @@ ore dictionary.
 -->
 
 <AlloySmelterRecipes>
-  <recipeGroup name="EnderIO">
+  <!--<recipeGroup name="EnderIO">
     <recipe name="Dark Steel" energyCost="20000">
       <input>
         <itemStack oreDictionary="ingotHSLA" />
@@ -37,6 +37,6 @@ ore dictionary.
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" exp="0.5" />
       </output>
     </recipe>
-  </recipeGroup>
+  </recipeGroup>-->
 </AlloySmelterRecipes>
 

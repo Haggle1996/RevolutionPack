@@ -268,6 +268,7 @@
     <None Include="config\cofh\core\loot.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\cofh\thermalfoundation\client.cfg" />
     <None Include="config\cofh\thermalfoundation\common.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -476,6 +477,7 @@
     </None>
     <None Include="config\IguanaTinkerTweaks\ToolDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\ToolOverride.cfg" />
+    <None Include="config\IGWMod.cfg" />
     <None Include="config\INpureProjects\custom_nei_filters\custom_nei_filters.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3308,6 +3310,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="scripts\Atum.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\BuildcraftAdditions.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\Minechem.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="scripts\Mekanism.zs">
