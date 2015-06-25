@@ -1,20 +1,4 @@
 {
-    "essence": {
-        "block": "magicalcrops:magicalcrops_MinicioOreEnd",
-        "material": "minecraft:end_stone",
-        "template": "uniform",
-        "clusterSize": 2,
-        "numClusters": 20,
-        "minHeight": 35,
-        "maxHeight": 65,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [ ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            1
-        ]
-    },
     "essenceMars": {
         "block": "magicalcrops:magicalcrops_MinicioOre",
         "material": "GalacticraftMars:tile.mars",

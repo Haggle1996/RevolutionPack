@@ -54,7 +54,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="config\aobd.cfg" />
     <None Include="config\AppleCore.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -275,11 +274,14 @@
     <None Include="config\cofh\thermalfoundation\lexicon-whitelist.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\cofh\world\Moon.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="config\cofh\world\Overworld.json" />
     <None Include="config\cofh\world\TwilightForest.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\cofh\world\End-Ores.json">
+    <None Include="config\cofh\world\Mars.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\cofh\world\Atum.json">
@@ -291,10 +293,6 @@
     <None Include="config\computronics.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\customitems\defaultConfig-1.8.json" />
-    <None Include="config\customitems\defaultConfig-blocks.json" />
-    <None Include="config\customitems\defaultConfig-items.json" />
-    <None Include="config\customitems\defaultConfig-oreGen.json" />
     <None Include="config\DamageIndicatorsMod.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -478,6 +476,7 @@
     <None Include="config\IguanaTinkerTweaks\ToolDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\ToolOverride.cfg" />
     <None Include="config\IGWMod.cfg" />
+    <None Include="config\ImmersiveEngineering.cfg" />
     <None Include="config\INpureProjects\custom_nei_filters\custom_nei_filters.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -516,6 +515,8 @@
     <None Include="config\malisisdoors.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\MatterOverdrive\Matter Overdrive.cfg" />
+    <None Include="config\MatterOverdrive\Registry.reg" />
     <None Include="config\Mekanism.cfg" />
     <None Include="config\microblocks.cfg" />
     <None Include="config\minechem.cfg" />
@@ -3315,16 +3316,10 @@
     <None Include="scripts\BuildcraftAdditions.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="scripts\Minechem.zs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="scripts\Mekanism.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="scripts\OpenBlocks.zs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="scripts\MagicalCrops.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="scripts\Galacticraft.zs">

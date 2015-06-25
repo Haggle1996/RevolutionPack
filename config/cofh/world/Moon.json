@@ -1,0 +1,34 @@
+{
+    "tritanium": {
+        "block": "mo:tritanium_ore",
+        "material": "GalacticraftCore:tile.moonBlock",
+        "template": "uniform",
+        "clusterSize": 3,
+        "numClusters": 16,
+        "minHeight": 35,
+        "maxHeight": 85,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "dilithium": {
+        "block": "mo:dilithium_ore",
+        "material": "GalacticraftCore:tile.moonBlock",
+        "template": "uniform",
+        "clusterSize": 7,
+        "numClusters": 1,
+        "minHeight": 5,
+        "maxHeight": 15,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    }
+}

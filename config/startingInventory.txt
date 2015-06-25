@@ -1,2 +1,5 @@
-SimpleAchievements:sa.achievementBook,1,0
-TConstruct:jerky,1,2
+TConstruct:jerky,4,0
+OpenBlocks:sleepingBag,1,0
+DCsAppleMilk:defeatedcrow.chalcedonyStoneCutter,1,0
+DCsAppleMilk:defeatedcrow.chalcedonyKnife,1,0
+minecraft:flint,3,0
