@@ -1,5 +1,9 @@
 #Tinkers Construct
 
+#remove chalcedony -> iron recipe
+val chalcedonygear = <DCsAppleMilk:defeatedcrow.condensedMilk:3>;
+mods.tconstruct.Smeltery.removeMelting(chalcedonygear);
+
 #ore unification
 
 #tin
