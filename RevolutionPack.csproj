@@ -240,9 +240,7 @@
     <None Include="config\buildcraft\compat.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\buildcraft\main.conf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="config\buildcraft\main.cfg" />
     <None Include="config\BuildMod.cfg" />
     <None Include="config\CarpentersBlocks.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -286,9 +284,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\cofh\world\Vanilla.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="config\computronics.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\CoroUtil.cfg" />
@@ -347,9 +342,7 @@
     <None Include="config\forestry\apiculture.conf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\forestry\backpacks.conf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="config\forestry\backpacks.cfg" />
     <None Include="config\forestry\binnie-mods.conf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -398,7 +391,7 @@
     <None Include="config\forgeChunkLoading.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\foxlib.cfg" />
+    <None Include="config\ForgeEssentialsClient.cfg" />
     <None Include="config\funkylocomotion.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -438,7 +431,6 @@
     <None Include="config\HardcoreEnderExpansion.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\Hats.cfg" />
     <None Include="config\headcrumbs.cfg" />
     <None Include="config\HoloInventory.cfg" />
     <None Include="config\hqm\editmode.cfg">
@@ -492,34 +484,24 @@
     <None Include="config\IronChest.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\ironchestminecarts.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="config\JABBA.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\journeymap_ModInfo.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\jsonables\JSONAbles-Resourcepack\pack.mcmeta" />
-    <None Include="config\jsonables\jsons\template.json" />
-    <None Include="config\jsonables\resourcepack\JSONAbles-Resourcepack.zip" />
     <None Include="config\jurassicraft.cfg" />
-    <None Include="config\LatMod\LatCoreMC.cfg" />
     <None Include="config\LogisticsPipes.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\MagicalCrops\Crafting.cfg" />
-    <None Include="config\MagicalCrops\CropDisableConfig.cfg" />
-    <None Include="config\MagicalCrops\MagicalCropsMain.cfg" />
     <None Include="config\malisisdoors.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\MapWriter.cfg" />
     <None Include="config\MatterOverdrive\Matter Overdrive.cfg" />
     <None Include="config\MatterOverdrive\Registry.reg" />
     <None Include="config\Mekanism.cfg" />
     <None Include="config\microblocks.cfg" />
-    <None Include="config\minechem.cfg" />
     <None Include="config\multipart.cfg" />
     <None Include="config\Natura-Dynamic.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -561,6 +543,7 @@
     <None Include="config\OpenModsLibCore.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\Opis.cfg" />
     <None Include="config\plantmegapack\decorators\beachCold.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3185,8 +3168,6 @@
     </None>
     <None Include="config\PluginMetrics.cfg" />
     <None Include="config\PotionExtension.cfg" />
-    <None Include="config\progression\criteria.json" />
-    <None Include="config\progression\options.cfg" />
     <None Include="config\progressiveautomation.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3243,7 +3224,6 @@
     <None Include="config\roguelike_dungeons\roguelike.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\SimpleAchievements\divConfig.json" />
     <None Include="config\SlimeKnights\Mantle.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3258,9 +3238,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\StevesAddons.cfg" />
-    <None Include="config\StevesCarts.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="config\StevesWorkshop.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3270,7 +3247,6 @@
     <None Include="config\Sync.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\Tails.cfg" />
     <None Include="config\tcnodetracker.cfg" />
     <None Include="config\Thaumcraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3293,6 +3269,7 @@
     <None Include="config\ttCore\cropConfig.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\ttCore\ttCore.cfg" />
     <None Include="config\TwilightForest.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3482,9 +3459,9 @@
     <Content Include="achievmentsTODO.txt" />
     <Content Include="config\eirairc\commands.json.example.txt" />
     <Content Include="config\eirairc\servers.json.example.txt" />
-    <Content Include="config\jsonables\resourcepack\readme.txt" />
+    <Content Include="config\MapWriterBlockColourOverrides.txt" />
+    <Content Include="config\MapWriterBlockColours.txt" />
     <Content Include="config\mekanism\BoxBlacklist.txt" />
-    <Content Include="config\SimpleAchievements\achievementList.txt" />
     <Content Include="config\startingInventory.txt" />
     <Content Include="mods.xml">
       <SubType>Designer</SubType>
@@ -3498,10 +3475,6 @@
     <Folder Include="config\Eureka\Keys\" />
     <Folder Include="config\Eureka\Localizations\en_US\" />
     <Folder Include="config\gendustry\overrides\" />
-    <Folder Include="config\jsonables\icons\aspects\" />
-    <Folder Include="config\jsonables\icons\blocks\" />
-    <Folder Include="config\jsonables\icons\items\" />
-    <Folder Include="config\jsonables\lang\" />
     <Folder Include="config\PressurePipes\overrides\" />
   </ItemGroup>
   <ItemGroup>
