@@ -3302,6 +3302,9 @@
     <None Include="scripts\BuildcraftAdditions.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="scripts\Forestry.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="scripts\ImmersiveEngineering.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
