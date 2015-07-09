@@ -283,6 +283,9 @@
     <None Include="config\cofh\world\Atum.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\cofh\world\Nether.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="config\cofh\world\Vanilla.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -313,6 +316,8 @@
     <None Include="config\enchiridion\books\enchiridion_introbook.json" />
     <None Include="config\enchiridion\enchiridion2.cfg" />
     <None Include="config\enchiridion\library_books.json" />
+    <None Include="config\endercore\cropConfig.json" />
+    <None Include="config\endercore\endercore.cfg" />
     <None Include="config\enderio\EnderIO.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -338,6 +343,7 @@
     <None Include="config\FlatSigns.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\fognerf.cfg" />
     <None Include="config\ForbiddenMagic.cfg" />
     <None Include="config\forestry\apiculture.conf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -431,6 +437,7 @@
     <None Include="config\HardcoreEnderExpansion.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\harvestcraft.cfg" />
     <None Include="config\headcrumbs.cfg" />
     <None Include="config\HoloInventory.cfg" />
     <None Include="config\hqm\editmode.cfg">
@@ -439,6 +446,9 @@
     <None Include="config\hqm\hqmconfig.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\HungerOverhaul\blankslate.cfg" />
+    <None Include="config\HungerOverhaul\default.cfg" />
+    <None Include="config\HungerOverhaul\HungerOverhaul.cfg" />
     <None Include="config\iChunUtil.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3244,9 +3254,6 @@
     <None Include="config\StorageDrawers.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\Sync.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="config\tcnodetracker.cfg" />
     <None Include="config\Thaumcraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3266,10 +3273,6 @@
     <None Include="config\TinkersModules.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\ttCore\cropConfig.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="config\ttCore\ttCore.cfg" />
     <None Include="config\TwilightForest.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3295,9 +3298,7 @@
     <None Include="scripts\Atum.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="scripts\ElectricalAge.zs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="scripts\BigReactors.zs" />
     <None Include="scripts\BuildcraftAdditions.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
