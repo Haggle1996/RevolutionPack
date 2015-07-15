@@ -57,3 +57,16 @@ recipes.addShaped(<RotaryCraft:rotarycraft_item_modingots:1> * 9, [[<ore:blockCo
 recipes.addShaped(<TConstruct:MetalBlock:3>, [[copper, copper, copper],[copper, copper, copper],[copper, copper, copper]]);
 mods.tconstruct.Casting.addTableRecipe(<RotaryCraft:rotarycraft_item_modingots:1>, <liquid:copper.molten> * 144, <TConstruct:metalPattern:0>, false, 60);
 recipes.addShaped(<RotaryCraft:rotarycraft_item_modingots:1>, [[coppern,coppern,coppern],[coppern,coppern,coppern],[coppern,coppern,coppern]]);
+
+recipes.remove(<ImmersiveEngineering:storage:7>);
+recipes.remove(<ImmersiveEngineering:storage:6>);
+recipes.remove(<ImmersiveEngineering:storage:5>);
+recipes.remove(<ImmersiveEngineering:storage:4>);
+recipes.remove(<ImmersiveEngineering:storage:3>);
+recipes.remove(<ImmersiveEngineering:storage:2>);
+recipes.remove(<ImmersiveEngineering:storage:1>);
+recipes.remove(<ImmersiveEngineering:storage:0>);
+
+recipes.remove(<GalacticraftCore:tile.gcBlockCore:11>);
+recipes.remove(<TConstruct:MetalBlock:9>);
+recipes.remove(<GalacticraftCore:tile.gcBlockCore:9>);
