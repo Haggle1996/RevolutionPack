@@ -46,6 +46,7 @@ recipes.addShaped(quarry,[[ironGear,ray,ironGear],
 						  [diamondGear,bedpick,diamondGear]]);
 
 val refinery = <BuildCraft|Factory:refineryBlock>;
+recipes.remove(refinery);
 refinery.addTooltip(format.red("REMOVED: ") + format.white("Use the Buildcraft"));
 refinery.addTooltip(format.white("Additions multiblock Refinery"));
 refinery.addTooltip(format.white("to produce oil instead."));

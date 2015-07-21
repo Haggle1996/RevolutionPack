@@ -29,12 +29,12 @@ recipes.addShaped(robit,[[null,bedrock,null],
 						 [ingot,chest,ingot]]);
 
 #circuits must be made on the AssemblyTable
-recipes.remove(c1);
 recipes.remove(c2);
 recipes.remove(c3);
 recipes.remove(c4);
 
-#cannot remove infuser recipe for c1 -- but we can at least add recipe to table for consistency
+mods.mekanism.Infuser.removeRecipe(c1);
+
 AssemblyTable.addRecipe(c1, 1000, [ingot, redstone]);
 AssemblyTable.addRecipe(c2, 10000, [c1, a1 * 2]);
 AssemblyTable.addRecipe(c3, 100000, [c2, a2 * 2]);

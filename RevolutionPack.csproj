@@ -3292,6 +3292,9 @@
     <None Include="config\zyinhud.cfg" />
     <None Include="NOTES.md" />
     <None Include="README.md" />
+    <None Include="scripts\AppliedEnergistics.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="scripts\AppleMilkTea.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

@@ -44,3 +44,5 @@ recipes.addShaped(anvil * 1, [[block,block,block],[null,ingot,null],[ingot,ingot
 
 recipes.remove(bars * 16);
 mods.railcraft.Rolling.addShaped(bars * 16, [[rod,rod,rod],[rod,rod,rod]]);
+
+recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:10> * 3);

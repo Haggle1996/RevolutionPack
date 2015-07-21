@@ -112,3 +112,8 @@ recipes.addShaped(drum,[[steel,pressure,steel],
 						[steel,cauldron,steel],
 						[steel,pressure,steel]]);
 
+#blackout curtains no longer conflict with malisis doors
+recipes.remove(<ExtraUtilities:curtains> * 12);
+recipes.addShaped(<ExtraUtilities:curtains> * 12, [[<ore:blockWool>,<ore:blockWool>,null],
+												   [<ore:blockWool>,<ore:blockWool>,<minecraft:string>],
+												   [<ore:blockWool>,<ore:blockWool>,null]]);
