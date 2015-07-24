@@ -183,6 +183,7 @@ recipes.remove(view);
 recipes.addShaped(view,[[quartz,redstone,quartz],
 						  [redstone,anycertus,redstone],
 						  [plate,plate,plate]]);
+recipes.addShaped(view,[[anycertus,housing]]);
 
 recipes.remove(acard * 2);
 recipes.addShaped(acard * 2,[[diamond,plate,null],
@@ -255,36 +256,43 @@ recipes.remove(spacell2);
 recipes.addShaped(spacell2,[[quartz,redstone,quartz],
 						  [redstone,spac2,redstone],
 						  [plate,plate,plate]]);
+recipes.addShaped(spacell2, [[spac2,housing]]);
 
 recipes.remove(spacell16);
 recipes.addShaped(spacell16,[[quartz,redstone,quartz],
 						  [redstone,spac16,redstone],
 						  [plate,plate,plate]]);
+recipes.addShaped(spacell16, [[spac16,housing]]);
 
 recipes.remove(spacell128);
 recipes.addShaped(spacell128,[[quartz,redstone,quartz],
 						  [redstone,spac128,redstone],
 						  [plate,plate,plate]]);
+recipes.addShaped(spacell128, [[spac128,housing]]);
 
 recipes.remove(cell1k);
 recipes.addShaped(cell1k,[[quartz,redstone,quartz],
 						  [redstone,stor1k,redstone],
 						  [plate,plate,plate]]);
+recipes.addShaped(cell1k, [[stor1k,housing]]);
 
 recipes.remove(cell4k);
 recipes.addShaped(cell4k,[[quartz,redstone,quartz],
 						  [redstone,stor4k,redstone],
 						  [plate,plate,plate]]);
+recipes.addShaped(cell4k, [[stor4k,housing]]);
 
 recipes.remove(cell16k);
 recipes.addShaped(cell16k,[[quartz,redstone,quartz],
 						  [redstone,stor16k,redstone],
 						  [plate,plate,plate]]);
+recipes.addShaped(cell16k, [[stor16k,housing]]);
 
 recipes.remove(cell64k);
 recipes.addShaped(cell64k,[[quartz,redstone,quartz],
 						  [redstone,stor64k,redstone],
 						  [plate,plate,plate]]);
+recipes.addShaped(cell64k, [[stor64k,housing]]);
 
 recipes.remove(compass);
 recipes.addShaped(compass,[[null,steel,null],
