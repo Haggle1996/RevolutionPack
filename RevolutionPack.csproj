@@ -94,7 +94,6 @@
     <None Include="config\atg\generator.cfg.old">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\atum.cfg" />
     <None Include="config\Baubles.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -102,9 +101,6 @@
     <None Include="config\BetterFoliage\betterfoliage.cfg" />
     <None Include="config\bettersleeping.cfg" />
     <None Include="config\BiblioCraft.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="config\BigReactors\BigReactors.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\bigtrees\biomegroups.cfg">
@@ -280,9 +276,6 @@
     <None Include="config\cofh\world\TwilightForest.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\cofh\world\Atum.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="config\cofh\world\Nether.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -333,9 +326,7 @@
     <None Include="config\EnhancedPortals\config.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\erebus.cfg" />
     <None Include="config\eureka.cfg" />
-    <None Include="config\ExtraTiC.cfg" />
     <None Include="config\ExtraUtilities.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -434,9 +425,6 @@
     <None Include="config\GrimoireOfGaia.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\HardcoreEnderExpansion.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="config\harvestcraft.cfg" />
     <None Include="config\headcrumbs.cfg" />
     <None Include="config\HoloInventory.cfg" />
@@ -458,11 +446,8 @@
     <None Include="config\iChunUtil_Stats.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\IguanaTinkerTweaks\BlockDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\BlockOverride.cfg" />
-    <None Include="config\IguanaTinkerTweaks\BonusModifierDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\BonusModifierOverride.cfg" />
-    <None Include="config\IguanaTinkerTweaks\HarvestLevelNamesDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\HarvestLevelNamesOverride.cfg" />
     <None Include="config\IguanaTinkerTweaks\main.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -479,6 +464,7 @@
     <None Include="config\IguanaTinkerTweaks\ToolOverride.cfg" />
     <None Include="config\IGWMod.cfg" />
     <None Include="config\ImmersiveEngineering.cfg" />
+    <None Include="config\immersiveintegration.cfg" />
     <None Include="config\INpureProjects\custom_nei_filters\custom_nei_filters.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -501,6 +487,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\jurassicraft.cfg" />
+    <None Include="config\llibrary.cfg" />
     <None Include="config\LogisticsPipes.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -508,10 +495,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\MapWriter.cfg" />
-    <None Include="config\MatterOverdrive\Matter Overdrive.cfg" />
-    <None Include="config\MatterOverdrive\Registry.reg" />
     <None Include="config\Mekanism.cfg" />
     <None Include="config\microblocks.cfg" />
+    <None Include="config\Morpheus.cfg" />
     <None Include="config\multipart.cfg" />
     <None Include="config\Natura-Dynamic.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3206,27 +3192,28 @@
     <None Include="config\Reika\ChromatiCraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\Reika\CritterPet.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="config\Reika\CHROMATICRAFT_PackModifications.cfg" />
     <None Include="config\Reika\DragonAPI.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\Reika\ElectriCraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\Reika\ELECTRICRAFT_PackModifications.cfg" />
     <None Include="config\Reika\ExpandedRedstone.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\Reika\ReactorCraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\Reika\REACTORCRAFT_PackModifications.cfg" />
     <None Include="config\Reika\RotaryCraft.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\Reika\RotaryCraft_CustomExtracts.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\Reika\ROTARYCRAFT_PackModifications.cfg" />
     <None Include="config\Reika\versions.dat" />
     <None Include="config\Reika\VoidMonster.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3247,6 +3234,7 @@
     <None Include="config\statues.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\stefinusguns.cfg" />
     <None Include="config\StevesAddons.cfg" />
     <None Include="config\StevesWorkshop.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3283,7 +3271,6 @@
     <None Include="config\wailaplugins.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\yegamolchattels.cfg" />
     <None Include="config\ZombieAwareness\Features.cfg" />
     <None Include="config\ZombieAwareness\General.cfg" />
     <None Include="config\ZombieAwareness\PlayerRulesAndLists.cfg" />
@@ -3298,14 +3285,13 @@
     <None Include="scripts\AppleMilkTea.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="scripts\Atum.zs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="scripts\BigReactors.zs" />
     <None Include="scripts\BuildcraftAdditions.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="scripts\Forestry.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\GunMod.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="scripts\ImmersiveEngineering.zs">
@@ -3464,6 +3450,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="achievmentsTODO.txt" />
+    <Content Include="config\AE2Stuff\readme.txt" />
     <Content Include="config\eirairc\commands.json.example.txt" />
     <Content Include="config\eirairc\servers.json.example.txt" />
     <Content Include="config\MapWriterBlockColourOverrides.txt" />
@@ -3475,6 +3462,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="config\AE2Stuff\overrides\" />
     <Folder Include="config\atg\maps\" />
     <Folder Include="config\buildcraft\blueprints\server\" />
     <Folder Include="config\enchiridion\wiki\" />

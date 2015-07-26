@@ -33,7 +33,7 @@ recipes.remove(cauldron);
 recipes.addShaped(cauldron, [[base,null,base],[base,null,base],[base,base,base]]);
 
 recipes.remove(bucket);
-recipes.addShaped(bucket * 1, [[base,null,base], [null,base,null], [null,null,null]]);
+recipes.addShaped(bucket * 1, [[base,null,base], [null,base,null]]);
 bucket.addTooltip(format.white("Use clay buckets until you develop steel."));
 
 recipes.remove(hopper);

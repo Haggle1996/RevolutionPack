@@ -17,7 +17,6 @@ recipes.remove(<bcadditions:dust:72> * 4);
 recipes.remove(<bcadditions:dust:73> * 4);
 recipes.remove(<bcadditions:dust:80>);
 recipes.remove(<bcadditions:dust:81>);
-furnace.remove(<bcadditions:dust:85>);
 recipes.remove(<bcadditions:dust:91>);
 recipes.remove(<bcadditions:dust:79>);
 recipes.remove(<bcadditions:dust:78>);
