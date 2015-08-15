@@ -491,6 +491,7 @@
     <None Include="config\LogisticsPipes.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\LunatriusCore.cfg" />
     <None Include="config\malisisdoors.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3231,11 +3232,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\splash.properties" />
+    <None Include="config\Stackie.cfg" />
     <None Include="config\statues.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="config\stefinusguns.cfg" />
-    <None Include="config\StevesAddons.cfg" />
+    <None Include="config\stefinusguns.cfg.old" />
     <None Include="config\StevesWorkshop.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

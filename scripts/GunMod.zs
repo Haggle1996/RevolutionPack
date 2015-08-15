@@ -171,19 +171,21 @@ recipes.addShaped(FRF2,[[null,scope,null],
 						   [barrel,receiver,mstock],
 						   [steel,mgrip,null]]);
 
-val Galil = <stefinusguns:Galil>;
-recipes.remove(Galil);
-recipes.addShaped(Galil,[[null,plank,null],
-						   [barrel,receiver,mstock],
-						   [null,mgrip,null]]);
+#val Galil = <stefinusguns:Galil>;
+#recipes.remove(Galil);
+#recipes.addShaped(Galil,[[null,plank,null],
+#						   [barrel,receiver,mstock],
+#						   [null,mgrip,null]]);
 
-val P90 = <stefinusguns:P90>;
-recipes.remove(P90);
-recipes.addShaped(P90,[[steel,steel,null],
-						   [barrel,receiver,sstock],
-						   [null,mgrip,null]]);
+#val P90 = <stefinusguns:P90>;
+#recipes.remove(P90);
+#recipes.addShaped(<stefinusguns:P90>.withTag({damage: 10, barrel: 0, cAmmo: 50, zoom: 10, reloadtimer: 18, reloadMax: 45, zoomed: 0, slowdown: 1, hasPlayedReloadSound: 0, hasplayedpump: 0, hit: 0 as byte, maxAmmo: 50, hittimer: 5}),[[steel,steel,null],
+#						   [barrel,receiver,sstock],
+#						   [null,mgrip,null]]);
 
 val M1014 = <stefinusguns:M1014>;
 recipes.remove(M1014);
 recipes.addShaped(M1014,[[barrel,receiver,stock],
 						   [plank,grip,null]]);
+
+#<stefinusguns:P90>.withTag({damage: 3, barrel: 0, cAmmo: 50, zoom: 10, reloadtimer: 45, reloadMax: 45, zoomed: 0, slowdown: 1, hasPlayedReloadSound: 0, hasplayedpump: 0, hit: 0 as byte, maxAmmo: 50, hittimer: 5}) * 1

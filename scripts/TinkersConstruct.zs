@@ -32,6 +32,7 @@ val silver = <ore:ingotSilver>;
 furnace.remove(<RotaryCraft:rotarycraft_item_modingots:4>);
 furnace.addRecipe(<ThermalFoundation:material:66>,<ore:oreSilver>);
 furnace.addRecipe(<ThermalFoundation:material:66>,<RotaryCraft:rotarycraft_item_modextracts:19>);
+recipes.removeShapeless(<ImmersiveEngineering:metal:3> * 9, [<ThermalFoundation:Storage:2>]);
 
 #nickel - not needed
 
@@ -63,6 +64,16 @@ recipes.addShaped(<RotaryCraft:rotarycraft_item_modingots:1> * 9, [[<ore:blockCo
 recipes.addShaped(<TConstruct:MetalBlock:3>, [[copper, copper, copper],[copper, copper, copper],[copper, copper, copper]]);
 mods.tconstruct.Casting.addTableRecipe(<RotaryCraft:rotarycraft_item_modingots:1>, <liquid:copper.molten> * 144, <TConstruct:metalPattern:0>, false, 60);
 recipes.addShaped(<RotaryCraft:rotarycraft_item_modingots:1>, [[coppern,coppern,coppern],[coppern,coppern,coppern],[coppern,coppern,coppern]]);
+
+#lead
+furnace.remove(<ThermalFoundation:material:67>);
+furnace.remove(<ImmersiveEngineering:metal:2>);
+furnace.addRecipe(<RotaryCraft:rotarycraft_item_modingots:2>, <ore:oreLead>);
+furnace.addRecipe(<RotaryCraft:rotarycraft_item_modingots:2>, <ore:dustLead>);
+recipes.removeShapeless(<Railcraft:ingot:3> * 9,[<ore:blockLead>]);
+recipes.removeShapeless(<ImmersiveEngineering:metal:2> * 9,[<ore:blockLead>]);
+recipes.removeShapeless(<ThermalFoundation:material:67> * 9,[<ore:blockLead>]);
+recipes.addShapeless(<RotaryCraft:rotarycraft_item_modingots:2> * 9, [<ore:blockLead>]);
 
 recipes.remove(<ImmersiveEngineering:storage:7>);
 recipes.remove(<ImmersiveEngineering:storage:6>);

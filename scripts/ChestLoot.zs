@@ -11,3 +11,6 @@ vanilla.loot.removeChestLoot("strongholdCrossing", ironScrap);
 vanilla.loot.addChestLoot("strongholdCrossing", ironScrap.weight(10),1,5);
 vanilla.loot.removeChestLoot("villageBlacksmith", ironScrap);
 vanilla.loot.addChestLoot("villageBlacksmith", ironScrap.weight(10),1,5);
+
+#guns
+

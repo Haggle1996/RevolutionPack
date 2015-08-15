@@ -13,3 +13,7 @@
 <DCsAppleMilk:defeatedcrow.icyToffyApple:4>.displayName = "Cassie's Candy";
 <DCsAppleMilk:defeatedcrow.itemCordial:8>.displayName = "Cassie's Liqueur Bottle";
 <DCsAppleMilk:defeatedcrow.cardboardBox:1>.displayName = "Cassie's Cardboard Box";
+
+// rename forestry adventurer bags
+<Forestry:adventurerBag>.displayName = "Ammo Bag";
+<Forestry:adventurerBagT2>.displayName = "Big Bag O' Ammo";

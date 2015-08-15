@@ -2,7 +2,7 @@ TConstruct:pickaxe,1,0,{InfiTool:{BaseDurability:121,Head:3,HeadEXP:0L,BaseAttac
 TConstruct:hatchet,1,0,{InfiTool:{BaseDurability:121,Head:3,BaseAttack:5,ToolEXP:0L,HarvestLevel:1,Attack:5,RenderHead:3,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:400,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:121,Modifiers:0},display:{Name:"§fFlint Hatchet"}}
 TConstruct:shovel,1,0,{InfiTool:{BaseDurability:121,Head:3,BaseAttack:4,ToolEXP:0L,HarvestLevel:1,Attack:4,RenderHead:3,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:400,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:121,Modifiers:0},display:{Name:"§fFlint Shovel"}}
 TConstruct:dagger,1,0,{InfiTool:{BaseDurability:121,Head:3,BaseAttack:3,ToolEXP:0L,HarvestLevel:1,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,Accessory:0,MiningSpeed:400,RenderAccessory:0,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:121,Modifiers:0},display:{Name:"§fFlint Dagger"}}
-stefinusguns:M1911,1,0,{damage:10,barrel:0,cAmmo:17,zoom:10,reloadtimer:31,reloadMax:31,AttViewTimer:0,zoomed:0,slowdown:1,hasPlayedReloadSound:0,hasplayedpump:0,hit:0b,AttView:0b,maxAmmo:17,hittimer:5}
+stefinusguns:M1911,1,0,{damage:12,barrel:0,cAmmo:17,zoom:10,reloadtimer:31,reloadMax:31,AttViewTimer:0,zoomed:0,slowdown:1,hasPlayedReloadSound:0,hasplayedpump:0,hit:0b,AttView:0b,maxAmmo:17,hittimer:5}
 OpenBlocks:sleepingBag,1,0
 harvestcraft:epicbaconItem,2,0
 stefinusguns:M1911Ammo,1,0
