@@ -54,6 +54,8 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <None Include="config\AdvancedSystemsManager\AdvancedSystemsManager.cfg" />
+    <None Include="config\AdvancedSystemsManager\default.json" />
     <None Include="config\AppleCore.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -94,6 +96,7 @@
     <None Include="config\atg\generator.cfg.old">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\Automagy.cfg" />
     <None Include="config\Baubles.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -306,9 +309,6 @@
     <None Include="config\eirairc\services.cfg" />
     <None Include="config\eirairc\shared.cfg" />
     <None Include="config\Eln.cfg" />
-    <None Include="config\enchiridion\books\enchiridion_introbook.json" />
-    <None Include="config\enchiridion\enchiridion2.cfg" />
-    <None Include="config\enchiridion\library_books.json" />
     <None Include="config\endercore\cropConfig.json" />
     <None Include="config\endercore\endercore.cfg" />
     <None Include="config\enderio\EnderIO.cfg">
@@ -465,6 +465,7 @@
     <None Include="config\IGWMod.cfg" />
     <None Include="config\ImmersiveEngineering.cfg" />
     <None Include="config\immersiveintegration.cfg" />
+    <None Include="config\immibis.cfg" />
     <None Include="config\INpureProjects\custom_nei_filters\custom_nei_filters.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -474,6 +475,7 @@
     <None Include="config\INpureProjects\INpureCore\INpureCore.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\integratedcircuits.cfg" />
     <None Include="config\InvTweaks.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -541,6 +543,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\Opis.cfg" />
+    <None Include="config\plantmegapack\decorators\ambAmberoguiaBiome.cfg" />
     <None Include="config\plantmegapack\decorators\beachCold.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -2110,6 +2113,31 @@
     <None Include="config\plantmegapack\decorators\roofedForestMEdge.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\plantmegapack\decorators\rwgColdForest.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgColdPlains.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgHotDesert.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgHotForest.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgHotPlains.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgJungle.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgOasis.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgOceanCold.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgOceanHot.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgOceanIce.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgOceanOasis.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgOceanTemperate.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgOceanWet.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgPlains.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgRedwood.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgRiverCold.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgRiverHot.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgRiverIce.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgRiverOasis.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgRiverTemperate.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgRiverWet.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgSnowDesert.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgSnowForest.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgTemperateForest.cfg" />
+    <None Include="config\plantmegapack\decorators\rwgTropical.cfg" />
     <None Include="config\plantmegapack\decorators\savanna.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3236,6 +3264,7 @@
     <None Include="config\statues.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\stefinusguns.cfg" />
     <None Include="config\stefinusguns.cfg.old" />
     <None Include="config\StevesWorkshop.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3450,7 +3479,6 @@
     <None Include="config\UniqueNames.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Content Include="achievmentsTODO.txt" />
     <Content Include="config\AE2Stuff\readme.txt" />
     <Content Include="config\eirairc\commands.json.example.txt" />
     <Content Include="config\eirairc\servers.json.example.txt" />
@@ -3466,7 +3494,6 @@
     <Folder Include="config\AE2Stuff\overrides\" />
     <Folder Include="config\atg\maps\" />
     <Folder Include="config\buildcraft\blueprints\server\" />
-    <Folder Include="config\enchiridion\wiki\" />
     <Folder Include="config\Eureka\Categories\" />
     <Folder Include="config\Eureka\Keys\" />
     <Folder Include="config\Eureka\Localizations\en_US\" />
