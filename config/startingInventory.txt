@@ -5,9 +5,5 @@ TConstruct:dagger,1,0,{InfiTool:{BaseDurability:121,Head:3,BaseAttack:3,ToolEXP:
 stefinusguns:M1911,1,0,{damage:12,barrel:0,cAmmo:17,zoom:10,reloadtimer:31,reloadMax:31,AttViewTimer:0,zoomed:0,slowdown:1,hasPlayedReloadSound:0,hasplayedpump:0,hit:0b,AttView:0b,maxAmmo:17,hittimer:5}
 OpenBlocks:sleepingBag,1,0
 harvestcraft:epicbaconItem,2,0
-stefinusguns:M1911Ammo,1,0
-stefinusguns:M1911Ammo,1,0
-stefinusguns:M1911Ammo,1,0
-stefinusguns:M1911Ammo,1,0
-stefinusguns:M1911Ammo,1,0
-stefinusguns:M1911Ammo,1,0
+stefinusguns:M1911Ammo,4,0
+

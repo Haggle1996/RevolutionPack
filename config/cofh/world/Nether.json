@@ -1,42 +1,81 @@
 {
-    "thorite": {
-        "template": {
-            "type": "fractal",
-            "generator": "large-vein",
-            "sparse": false
-        },
-        "block": { "name": "ReactorCraft:reactorcraft_block_ore", "metadata": 9 },
-        "material": "minecraft:netherrack",
-        "clusterSize": 15,
-        "numClusters": 1,
-        "chunkChance": 2,
-        "minHeight": 10,
-        "veinHeight": 30,
-        "veinDiameter": 65,
-        "verticalDensity": 15,
-        "horizontalDensity": 16,
-        "retrogen": "false",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            { "type": "dictionary", "entry": "NETHER" }
-        ],
-        "dimensionRestriction": "none",
-        "dimensions": [ ]
+  "thorite": {
+    "template": {
+      "type": "fractal",
+      "generator": "large-vein",
+      "sparse": false
     },
-    "quartz": {
-        "template": "uniform",
-        "block": "quartz_ore",
-        "material": "minecraft:netherrack",
-        "clusterSize": 13,
-        "numClusters": 16,
-        "minHeight": 10,
-        "maxHeight": 118,
-        "retrogen": "false",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            { "type": "dictionary", "entry": "NETHER" }
-        ],
-        "dimensionRestriction": "none",
-        "dimensions": [ ]
-        }
-    }
+    "block": {
+      "name": "ReactorCraft:reactorcraft_block_ore",
+      "metadata": 9
+    },
+    "material": "minecraft:netherrack",
+    "clusterSize": 15,
+    "numClusters": 1,
+    "chunkChance": 2,
+    "minHeight": 10,
+    "veinHeight": 30,
+    "veinDiameter": 65,
+    "verticalDensity": 15,
+    "horizontalDensity": 16,
+    "retrogen": "false",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "NETHER"
+      }
+    ],
+    "dimensionRestriction": "none",
+    "dimensions": [ ]
+  },
+  "ammonia": {
+    "template": {
+      "type": "fractal",
+      "generator": "large-vein",
+      "sparse": false
+    },
+    "block": {
+      "name": "ReactorCraft:reactorcraft_block_ore",
+      "metadata": 6
+    },
+    "material": "minecraft:netherrack",
+    "clusterSize": 15,
+    "numClusters": 1,
+    "chunkChance": 2,
+    "minHeight": 50,
+    "veinHeight": 30,
+    "veinDiameter": 65,
+    "verticalDensity": 15,
+    "horizontalDensity": 16,
+    "retrogen": "false",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "NETHER"
+      }
+    ],
+    "dimensionRestriction": "none",
+    "dimensions": [ ]
+  },
+  "quartz": {
+    "template": "uniform",
+    "block": "quartz_ore",
+    "material": "minecraft:netherrack",
+    "clusterSize": 13,
+    "numClusters": 16,
+    "minHeight": 10,
+    "maxHeight": 118,
+    "retrogen": "false",
+    "biomeRestriction": "whitelist",
+    "biomes": [
+      {
+        "type": "dictionary",
+        "entry": "NETHER"
+      }
+    ],
+    "dimensionRestriction": "none",
+    "dimensions": [ ]
+  }
+}

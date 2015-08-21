@@ -304,34 +304,6 @@
             30
         ]
     },
-    "tungsten": {
-        "template": {
-            "type": "fractal",
-            "generator": "large-vein",
-            "sparse": false
-        },
-        "block": {
-            "name": "Eln:Eln.Ore",
-            "metadata": 5
-        },
-        "material": "minecraft:stone",
-        "clusterSize": 12,
-        "numClusters": 1,
-        "chunkChance": 8,
-        "minHeight": 5,
-        "veinHeight": 10,
-        "veinDiameter": 25,
-        "verticalDensity": 15,
-        "horizontalDensity": 16,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [ ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            0,
-            30
-        ]
-    },
     "fluorite1": {
         "template": "uniform",
         "block": {

@@ -250,6 +250,7 @@
     <None Include="config\ChiselFacades.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\ChiselTones.cfg" />
     <None Include="config\CodeChickenCore.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -270,9 +271,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\cofh\thermalfoundation\lexicon-whitelist.cfg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="config\cofh\world\Moon.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\cofh\world\Overworld.json" />
@@ -462,7 +460,6 @@
     </None>
     <None Include="config\IguanaTinkerTweaks\ToolDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\ToolOverride.cfg" />
-    <None Include="config\IGWMod.cfg" />
     <None Include="config\ImmersiveEngineering.cfg" />
     <None Include="config\immersiveintegration.cfg" />
     <None Include="config\immibis.cfg" />
@@ -542,6 +539,7 @@
     <None Include="config\OpenModsLibCore.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\openmodularturrets.cfg" />
     <None Include="config\Opis.cfg" />
     <None Include="config\plantmegapack\decorators\ambAmberoguiaBiome.cfg" />
     <None Include="config\plantmegapack\decorators\beachCold.cfg">
@@ -3253,6 +3251,7 @@
     <None Include="config\SlimeKnights\Mantle.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\SpecialAI.cfg" />
     <None Include="config\SpiceOfLife.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3346,6 +3345,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="scripts\EnhancedPortals.zs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\ThaumCraft.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="scripts\ThermalFoundation.zs">
