@@ -9,7 +9,7 @@ image:
   feature: article1.png
 ---
 
-#Gameplay Changes - As of V1.0.9.9
+#Gameplay Changes - updated for V1.0.9.9
 This page outlines the various game play changes to individual mods. There are quite a few and most can be found in NEI. If you can't find or create your favorite recipe, this page is your last stop before logging an issue in the tracker.
 
 ##General changes
@@ -19,17 +19,26 @@ This page outlines the various game play changes to individual mods. There are q
 - Most machines require steel (plates, blocks, or ingots), RotaryCraft HSLA Steel, or both.
 - A number of key mod components are made on the BuildCraft Assembly Table
 
+##Apple & Milk & Tea
+- WipeBox doesn't create infinite paper
+- Princess clams do not spawn
+- Princess clam charms are not craftable
+
 ##Applied Energistics
 - Certus Quartz spawns in medium, rare veins above y-level 50
 - Charged Certus Quartz can be found in small quantities inside Certus Quartz Veins
 - RotaryCraft shaft power is approximately 4x more effective than RF for powering AE systems (yes, the Energy Acceptor accepts direct shaft power)
+
+##Better Sleeping
+- You no longer lose hunger while sleeping
+- You lose slightly more energy than default doing activities (running, jumping, etc.); this prevents the dreaded 'you're not tired' when it's night.
+- 
 
 ##Botania
 - Mana Flux Field is disabled
 - Passive flowers despawn after 24000 ticks
 - Orechid cannot be crafted (and only produces Emeralds when cheated in)
 - Orechid Ignem cannot be crafted
-- Relic system is disabled
 - Mana cookie is removed
 
 ##BuildCraft
@@ -178,5 +187,14 @@ This page outlines the various game play changes to individual mods. There are q
 - Cauldron requires steel plates
 - Bucket requires steel plates
 - Hopper requires steel plates
+
+##Void Monster
+- Void monster doesn't spawn in The End, Spectral World, Deep Dark, and The Last Millenium
 - Iron bars require HSLA Steel shafts in a RailCraft Rolling Machine
 - Anvil requires HSLA Blocks
+
+##Zombie Awareness
+- Zombies are not attracted to light or sound
+- Extra zombies spawn on the surface
+- Removed the chance for baby zombies to spawn
+- Zombies do not summon help
