@@ -23,16 +23,18 @@ This page outlines the various game play changes to individual mods. There are q
 - WipeBox doesn't create infinite paper
 - Princess clams do not spawn
 - Princess clam charms are not craftable
+- Renamed all cassis fruit tarts to Cassie's Fruit Tarts, in honor of one of our sponsors
 
 ##Applied Energistics
 - Certus Quartz spawns in medium, rare veins above y-level 50
 - Charged Certus Quartz can be found in small quantities inside Certus Quartz Veins
 - RotaryCraft shaft power is approximately 4x more effective than RF for powering AE systems (yes, the Energy Acceptor accepts direct shaft power)
+- Applied Energistics generally requires 4x more power than default
+- Recipes generally require steel or steel plates for crafting instead of iron
 
 ##Better Sleeping
 - You no longer lose hunger while sleeping
 - You lose slightly more energy than default doing activities (running, jumping, etc.); this prevents the dreaded 'you're not tired' when it's night.
-- 
 
 ##Botania
 - Mana Flux Field is disabled
@@ -79,6 +81,7 @@ This page outlines the various game play changes to individual mods. There are q
 - All transfer pipes and nodes are disabled
 - All generators are disabled
 - Drum requires steel plates
+- Blackout Curtains have an alternate recipe
 
 ##Forestry
 - Disabled Ore Gen
@@ -93,9 +96,15 @@ This page outlines the various game play changes to individual mods. There are q
 - Consuming Mekanism power suffers no penalty.
 - Refinery is removed -- use Immersive Engineering or BuildCraft Additions refinery to make fuel
 - Oxygen mask has a slightly different crafting pattern
+- Coal generator has been removed
 
 ##GardenStuff
 - Fixed all lattice recipes so they don't collide with other mods
+
+##Heacrumbs
+- Baarbra no longer spawns (TPS heavy)
+- Reduced spawn probability and group size
+- Added Revolution Pack celebrities
 
 ##Hunger Overhaul
 - Many tweaks to the difficulty of Hunger Overhaul, generally making it somewhat easier than the default configs.
@@ -115,6 +124,12 @@ This page outlines the various game play changes to individual mods. There are q
 - Autosmelt enchant has been removed from enchants given by levelling
 - Osmium requires an ardite pickaxe or better
 
+##Immersive Engineering
+- Power cables transfer power at the same rate as other mods
+- Diesel generator output has been reduced to 1440RF/t (from 4096RF/t)
+- The excavator only requires 1440RF/t instead of 4096RF/t
+- Revolver shares parts with Stefinus 3D Guns mod
+
 ##JABBA
 - Removed Diamond Dolly
 
@@ -130,9 +145,15 @@ This page outlines the various game play changes to individual mods. There are q
 ##OpenBlocks
 - Sonic glasses have an alternative recipe
 - Tanks are now more expensive
+- Luggage is removed
+
+##Open Modular Turrets
+- Power requirements for turrets are increased by 10x
+- Turrets cannot attack players
 
 ##Plant Mega Pack
 - Added plants to missing biomes
+- Bamboo grows significantly slower
 
 ##Pressure Pipes
 - Generally, everything requires steel plates instead of iron ingots
@@ -144,7 +165,12 @@ This page outlines the various game play changes to individual mods. There are q
 
 ##RandomThings
 - Disabled Spirit Binder
+- SpectreArmor is disabled
 - Can sleep through Blood Moons
+- Blood moons occur every night unless otherwise thwarted
+- All blood-moon related visual effects are turned off, except for the red moon.
+- Minimum range for spawns during a blood moon is increased to 24 blocks (from 3).
+- Monsters spawn slowly when a blood moon starts, instead of all at once.
 
 ##ReactorCraft
 - All ReactorCraft ores spawn generously on the moon; the following changes are to the overworld:
@@ -157,6 +183,12 @@ This page outlines the various game play changes to individual mods. There are q
 
 ##Spice O' Life
 - Previously-eaten foods are even less nutritious
+- Food history increased to 12 items
+
+##Stefinus 3D Guns
+- Ammo now stacks (stack size depends on ammo type)
+- Added guns and ammo to loot chests
+- Recipes generally require steel or steel plates instead of iron
 
 ##Thermal Foundation
 - All thermal foundation armor and tools are removed (copper, tin, etc)
@@ -171,10 +203,12 @@ This page outlines the various game play changes to individual mods. There are q
 ##Tinker's Construct
 - Unified ore so that the Smeltery produces RotaryCraft equivalents where possible (copper, tin, aluminum, silver)
 - Ore Berries are turned off
+- You can no longer smelt golden apples in the smeltery for insane amounts of gold
 
 ##Twilight Forest
 - Random ore gen has been disabled (non-TF ores)
 - Emeralds spawn in large, rare veins in this dimension
+- Disabled uncrafting table
 
 ##Vanilla
 - Coal spawn in high seams above y-level 95.
