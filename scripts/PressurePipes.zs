@@ -64,9 +64,14 @@ recipes.addShaped(mgInput, [[iron,alloy,iron]
 							,[iron,pressure,iron]]);
 
 recipes.remove(source);
-recipes.addShaped(source, [[ingot,ingot,ingot],
-						   [wbucket.transformReplace(bucket),null,wbucket.transformReplace(bucket)],
-						   [ingot,ingot,ingot]]);
+source.addTooltip(format.red("REMOVED: ") + format.white("Use Ender IO Reservoirs"));
+					      source.addTooltip(format.white("for low-flow infinite water"));
+						  source.addTooltip(format.white("or RotaryCraft Dew Point"));
+						  source.addTooltip(format.white("Aggregator for high-flow."));
+
+#recipes.addShaped(source, [[ingot,ingot,ingot],
+#						   [wbucket.transformReplace(bucket),null,wbucket.transformReplace(bucket)],
+#						   [ingot,ingot,ingot]]);
 
 recipes.remove(hpump);
 recipes.addShaped(hpump, [[redstone,ingot,pane],

@@ -8,7 +8,9 @@ Thaumcraft:blockWarded:0
 Thaumcraft:blockCosmeticOpaque:2
 Thaumcraft:blockArcaneDoor:0
 Thaumcraft:blockStoneDevice:0
-Thaumcraft:blockAiry:0 
+Thaumcraft:blockAiry
+Thaumcraft:blockAiry:1
+Thaumcraft:blockAiry:0
  
 # Carpenter's Blocks 
 CarpentersBlocks:blockCarpentersSafe:0
