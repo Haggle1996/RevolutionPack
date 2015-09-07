@@ -320,6 +320,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\fastcraft.ini" />
+    <None Include="config\flansmod.cfg" />
     <None Include="config\FlatSigns.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -450,6 +451,7 @@
     </None>
     <None Include="config\IguanaTinkerTweaks\ToolDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\ToolOverride.cfg" />
+    <None Include="config\IGWMod.cfg" />
     <None Include="config\ImmersiveEngineering.cfg" />
     <None Include="config\immersiveintegration.cfg" />
     <None Include="config\immibis.cfg" />
@@ -3184,6 +3186,7 @@
     <None Include="config\props.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\PTRModelLib.cfg" />
     <None Include="config\railcraft\blocks.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3307,9 +3310,10 @@
     <None Include="scripts\Forestry.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="scripts\GunMod.zs">
+    <None Include="scripts\Flans.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="scripts\GunMod.zs" />
     <None Include="scripts\ImmersiveEngineering.zs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -3471,6 +3475,7 @@
     <Content Include="config\AE2Stuff\readme.txt" />
     <Content Include="config\eirairc\commands.json.example.txt" />
     <Content Include="config\eirairc\servers.json.example.txt" />
+    <Content Include="config\INpureProjects\custom_nei_filters\Stefinus.js" />
     <Content Include="config\MapWriterBlockColourOverrides.txt" />
     <Content Include="config\MapWriterBlockColours.txt" />
     <Content Include="config\mekanism\BoxBlacklist.txt" />

@@ -22,9 +22,18 @@ found in the core file.
 
 <SAGMillRecipes>
 
-<!-- Disables all recipes in the group 'Vanilla'
-<recipeGroup name="Vanilla" enabled="false"/> 
--->
+  <recipeGroup name="Vanilla" >
+    <recipe name="Gravel" energyCost="2400" >
+      <input>
+        <itemStack oreDictionary="gravel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="itemFlint" />
+        <itemStack oreDictionary="itemFlint" chance="0.1" />
+        <itemStack oreDictionary="sand" chance="0.1" />
+      </output>
+    </recipe>
+  </recipeGroup>
 
 <!-- Uncomment this block to change the default TE obsidian -> dust recipe to the railcraft recipe.  
   <recipeGroup name="Thermal Expansion">

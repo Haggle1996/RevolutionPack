@@ -2,4 +2,7 @@
 Entries in this file take precedence over the values in the core file
  -->
 <OreDictionaryPreferences>
+  <preference oreDictionary="sand" >
+    <itemStack modID="minecraft" itemName="sand" itemMeta="0" />
+  </preference>
 </OreDictionaryPreferences>

@@ -12,6 +12,9 @@ recipes.remove(<ImmersiveEngineering:material:7>);
 recipes.remove(<ImmersiveEngineering:material:9>);
 
 #revolver no longer collides with gun mod
+val drill = <ImmersiveEngineering:drill>;
+val block = <ImmersiveEngineering:metalDecoration:5>;
+val component = <ImmersiveEngineering:material:12>;
 val revolver = <ImmersiveEngineering:revolver>;
 val hammer = <ImmersiveEngineering:material:10>;
 val grip = <stefinusguns:WGrip>;
@@ -23,3 +26,8 @@ recipes.remove(revolver);
 recipes.addShaped(revolver,[[null,steel,null],
 						    [hammer,cylinder,barrel],
 							[grip,steel,grip]]);
+
+recipes.remove(drill);
+recipes.addShaped(drill, [[null,null,grip],
+						  [null,block,grip],
+						  [component,null,null]]);
