@@ -31,3 +31,6 @@ recipes.addShaped(industrial, [[steel,steel,steel]
 							,[plate,glass,plate]
 							,[steelGear,piston,steelGear]]);
 
+# Add IE's Coal Coke to Blast Furnace Fuel (first is single piece, second is the block)
+mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);
+mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:stoneDecoration:3>);
