@@ -8,3 +8,7 @@ This is the changelog for the Revolution questline
 2015_09_29 Set "Clearing the Lands": Changed various quest dependencies
 2015_09_29 "World Destroying Monster Farm": changed quest dependencies
 2015_09_30 Set "Agriculture": added quest "Questline tutorial"
+2015_09_30 Set "Towards a New World": added quest "No More Concrete and Steel"
+2015_09_30 Set "Towards a New World": added quest "The Spice Must Flow"
+2015_09_30 Set "Towards a New World": changed most quest rewards.
+
