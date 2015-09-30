@@ -1,0 +1,10 @@
+This is the changelog for the Revolution questline
+2015-09-24 Initial version
+2015-09-26 "Basic Cooking": changed quest reward to include cinnamon sapling
+2015-09-26 "Basic Aesthetics": changed quest reward to include diamond chisel
+2015_09_28 Bugfix: "Automatic Farming": separated out RotaryCraft machines into their own detection task
+2015_09_28 "They don't Sting": added clarifying text
+2015_09_29 Set "Clearing the Lands": Added quest "More Dakka"
+2015_09_29 Set "Clearing the Lands": Changed various quest dependencies
+2015_09_29 "World Destroying Monster Farm": changed quest dependencies
+2015_09_30 Set "Agriculture": added quest "Questline tutorial"
