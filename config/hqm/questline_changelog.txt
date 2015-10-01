@@ -8,7 +8,11 @@ This is the changelog for the Revolution questline
 2015_09_29 Set "Clearing the Lands": Changed various quest dependencies
 2015_09_29 "World Destroying Monster Farm": changed quest dependencies
 2015_09_30 Set "Agriculture": added quest "Questline tutorial"
+2015_09_30 Set "Towards a New World": added quest "No More Concrete and Steel"
+2015_09_30 Set "Towards a New World": added quest "The Spice Must Flow"
+2015_09_30 Set "Towards a New World": changed most quest rewards.
 2015_10_01 Renamed "Genetic Engineering" to "Industrial Genetic Engineering"
 2015_10_01 Bugfix: "Industrial Genetic Engineering": selectable quest reward couldn't be coillected. Changed reward items.
 2015_10_01 Bugfix: "Honey for the World": corrected fluid ID
+
 
