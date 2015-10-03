@@ -14,5 +14,6 @@ This is the changelog for the Revolution questline
 2015_10_01 Renamed "Genetic Engineering" to "Industrial Genetic Engineering"
 2015_10_01 Bugfix: "Industrial Genetic Engineering": selectable quest reward couldn't be coillected. Changed reward items.
 2015_10_01 Bugfix: "Honey for the World": corrected fluid ID
+2015_10_02 Set "Industry": various bugfixes
 
 
