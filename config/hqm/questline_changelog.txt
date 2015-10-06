@@ -17,5 +17,5 @@ This is the changelog for the Revolution questline
 2015_10_03 Set "Industry": various bugfixes
 2015_10_04 Set "Industry": bugfix: set various quest objectives to NBT independent detection
 2015_10_04 Set "Wheels Within Wheels": bugfix: changed detection mode for some quest objectives
-
+2015_10_06 Various bugfixes.
 
