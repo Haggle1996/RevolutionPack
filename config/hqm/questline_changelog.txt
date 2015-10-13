@@ -19,4 +19,4 @@ This is the changelog for the Revolution questline
 2015_10_04 Set "Wheels Within Wheels": bugfix: changed detection mode for some quest objectives
 2015_10_06 Various bugfixes.
 2015_10_08 Set "Agriculture": bugfix, new quest and changed dependencies
-
+2016_10_13 Bugfix and reward adjustments
