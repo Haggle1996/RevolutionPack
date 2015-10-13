@@ -235,6 +235,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="config\buildcraft\main.cfg" />
+    <None Include="config\buildcraft\objects.cfg" />
     <None Include="config\BuildMod.cfg" />
     <None Include="config\CarpentersBlocks.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -423,6 +424,8 @@
     <None Include="config\hqm\hqmconfig.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\hqm\quests.hqm" />
+    <None Include="config\hqm\quests.hqm-backup" />
     <None Include="config\HungerOverhaul\blankslate.cfg" />
     <None Include="config\HungerOverhaul\default.cfg" />
     <None Include="config\HungerOverhaul\HungerOverhaul.cfg" />
@@ -435,8 +438,11 @@
     <None Include="config\iChunUtil_Stats.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="config\IguanaTinkerTweaks\BlockDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\BlockOverride.cfg" />
+    <None Include="config\IguanaTinkerTweaks\BonusModifierDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\BonusModifierOverride.cfg" />
+    <None Include="config\IguanaTinkerTweaks\HarvestLevelNamesDefaults.cfg" />
     <None Include="config\IguanaTinkerTweaks\HarvestLevelNamesOverride.cfg" />
     <None Include="config\IguanaTinkerTweaks\main.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3475,6 +3481,8 @@
     <Content Include="config\AE2Stuff\readme.txt" />
     <Content Include="config\eirairc\commands.json.example.txt" />
     <Content Include="config\eirairc\servers.json.example.txt" />
+    <Content Include="config\hqm\front.png" />
+    <Content Include="config\hqm\questline_changelog.txt" />
     <Content Include="config\INpureProjects\custom_nei_filters\Stefinus.js" />
     <Content Include="config\MapWriterBlockColourOverrides.txt" />
     <Content Include="config\MapWriterBlockColours.txt" />
