@@ -2,9 +2,15 @@
   {
     "address": "irc.esper.net",
     "nick": "%USERNAME%",
+    "bot": {},
+    "theme": {},
+    "settings": {},
     "channels": [
       {
-        "name": "#Revolution"
+        "name": "#Revolution",
+        "bot": {},
+        "theme": {},
+        "settings": {}
       }
     ]
   }
