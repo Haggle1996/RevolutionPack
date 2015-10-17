@@ -20,3 +20,11 @@ This is the changelog for the Revolution questline
 2015_10_06 Various bugfixes.
 2015_10_08 Set "Agriculture": bugfix, new quest and changed dependencies
 2016_10_13 Bugfix and reward adjustments
+2016_10_15 Changed Mekanism teleporter detection to NBT independent
+2016_10_15 Reset quest items in "Advanced Logistics" after the 1.2 update broke Advanced Systems Manager.
+2016_10_15 Set princess in "They don't sting" to any princess, but changed the drone requirement to 4 of each of the 2 species
+2016_10_17 Relaxed bee detection in initial bee quest even further (now any species counts for both princesses and drones)
+2016_10_17 Changed redstone ore to redstone dust in The Miner's Path
+2016_10_17 Split "Basic Smelting". It now hands out all the Nether resources you need for the following quest "Basic Steelmaking"
+2016_10_17 Changed aluminium flakes to aluminium powder in "The Rare Stuff".
+
