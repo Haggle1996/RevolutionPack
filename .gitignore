@@ -26,13 +26,13 @@ instance.json
 minetweaker.log
 options.txt
 usernamecache.json
-/config/fastcraft.ini
+**/fastcraft.ini
 BotaniaVars.dat
 optionsshaders.txt
 servers.dat
 usercache.json
-/config/iChunUtil.cfg
-/config/InvTweaks.cfg
+**/iChunUtil.cfg
+**/InvTweaks.cfg
 
 
 # Miscellaneous #
