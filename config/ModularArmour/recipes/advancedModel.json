@@ -1,0 +1,32 @@
+{
+  "output": "advancedModel",
+  "width": 3,
+  "height": 3,
+  "row1": [
+    "ingotSteel",
+    {
+      "isBlock": false,
+      "name": "minecraft:slime_ball",
+      "metadata": 0
+    },
+    "ingotSteel"
+  ],
+  "row2": [
+    "ingotSteel",
+    {
+      "isBlock": false,
+      "name": "minecraft:slime_ball",
+      "metadata": 0
+    },
+    "ingotSteel"
+  ],
+  "row3": [
+    "ingotSteel",
+    {
+      "isBlock": false,
+      "name": "minecraft:slime_ball",
+      "metadata": 0
+    },
+    "ingotSteel"
+  ]
+}
