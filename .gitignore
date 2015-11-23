@@ -1,9 +1,39 @@
-/*
-!/config
-!/scripts
-!mods.xml
-!NOTES.md
-!README.md
-!RevolutionPack.sln
-!RevolutionPack.csproj
+# Minecraft #
+/asm/
+/assets/
+/backups/
+/bin/
+/ChromatiCraft_Data/
+/crash-reports/
+/disabledmods/
+/fonts/
+/imcScripts/
+/jarmods/
+/journeymap/
+/logs/
+/maps/
+/mods/
+/resourcepacks/
+/resources/
+/saves/
+/screenshots/
+/tcnodetracker/
+
+# Root Folder #
+betterfps.txt
+instance.json
+minetweaker.log
+options.txt
+usernamecache.json
+fastcraft.ini
+BotaniaVars.dat
+optionsshaders.txt
+servers.dat
+usercache.json
+
+# Miscellaneous #
 *.log
+*.dll
+*.jar
+*.zip
+Reika.DragonAPI.ModInteract.DeepInteract.FrameBlacklist.classdata
