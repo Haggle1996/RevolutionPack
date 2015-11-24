@@ -22,3 +22,4 @@
 - Rebalance power usage -- adjust upwards as necessary
 - Mekanism to optional mods
 - Ore gen to custom ore gen and remove cofh
+- Remove Recurrent Complex structures
