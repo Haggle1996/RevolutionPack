@@ -20,6 +20,9 @@
 /screenshots/
 /tcnodetracker/
 
+# Custom Ore Gen default templates #
+/config/CustomOreGen/modules/default/
+
 # Root Folder #
 betterfps.txt
 instance.json
