@@ -7,10 +7,10 @@ AllowedDimensions:-1,0
 <-LogActivated controls information stored into forge logs. Set to true if you want to report an issue with complete forge logs.->
 LogActivated:false
 <-GlobalFrequency/UndergroundGlobalFrequency controls how likely aboveground/belowground cities are to appear. Should be between 0.0 and 1.0. Lower to make less common->
-GlobalFrequency:0.025
+GlobalFrequency:0.05
 UndergroundGlobalFrequency:0.015
 <-MinCitySeparation/UndergroundMinCitySeparation define a minimum allowable separation between city spawns.->
-MinCitySeparation:500
+MinCitySeparation:300
 MinUndergroundCitySeparation:500
 
 <-BacktrackLength - length of backtracking for wall planning if a dead end is hit->

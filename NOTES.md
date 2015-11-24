@@ -28,6 +28,10 @@
 - Mekanism scripts only install with Mekanism
 - Rethink large-scale mining operations since digiminer is gone
 - Jetpack solution
+- Update website
+- bamboo growth to the floor!
+- Delete configs of removed mods
+- Update chest loot for generatormods
 
 #Pack changes
 
