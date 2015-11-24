@@ -22,6 +22,8 @@
 - IE Assembler used to make cables. Requires 3 steps for EIO.
 - Rebalance power usage -- adjust upwards as necessary
 - Mekanism to optional mods
-- Ore gen to custom ore gen and remove cofh
+- Ore gen to custom ore gen
 - Remove Recurrent Complex structures
 - Mekanism scripts only install with Mekanism
+- Rethink large-scale mining operations since digiminer is gone
+- Jetpack solution
