@@ -8,6 +8,7 @@
 - HQM: RFTools
 - HQM: Cooking for Blockheads
 - HQM: Seared bricks wrong amount
+- HQM: Remove Mekanism
 
 - Rebalance pipes
 - Remove extra items from NEI
@@ -23,3 +24,4 @@
 - Mekanism to optional mods
 - Ore gen to custom ore gen and remove cofh
 - Remove Recurrent Complex structures
+- Mekanism scripts only install with Mekanism

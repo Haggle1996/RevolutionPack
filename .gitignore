@@ -33,6 +33,8 @@ servers.dat
 usercache.json
 **/iChunUtil.cfg
 **/InvTweaks.cfg
+**/InvTweaksRules.txt
+**/InvTweaksTree.txt
 **/splash.properties
 
 
