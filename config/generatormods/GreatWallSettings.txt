@@ -1,0 +1,98 @@
+<-README: This file should be in the config/generatormods folder->
+
+<-GlobalFrequency controls how likely structures are to appear. Should be between 0.0 and 1.0. Lower to make less common->
+GlobalFrequency:0.025
+<-TriesPerChunk allows multiple attempts per chunk. Only change from 1 if you want very dense generation!->
+TriesPerChunk:1
+<-AllowedDimensions allows structures in corresponding dimension, by dimension ID. Default is Nether(-1) and OverWorld(0)->
+AllowedDimensions:-1,0
+<-LogActivated controls information stored into forge logs. Set to true if you want to report an issue with complete forge logs.->
+LogActivated:false
+
+<-BacktrackLength - length of backtracking for wall planning if a dead end is hit->
+<-CurveBias - strength of the bias towards curvier walls. Value should be between 0.0 and 1.0.->
+<-LengthBiasNorm - wall length at which there is no penalty for generation>
+BacktrackLength:9
+CurveBias:0.5
+LengthBiasNorm:200
+
+
+<-Chest contents->
+<-Tries is the number of selections that will be made for this chest type.->
+<-Format for items is <item name-damage value>,<selection weight>,<min stack size>,<max stack size>,<json> ->
+<-Where <damage value> and <json> are optional. Json format follows same rules as /give command->
+<-So e.g. minecraft:arrow,2,1,12 means a stack of between 1 and 12 arrows, with a selection weight of 2.->
+CHEST_EASY
+Tries:4
+minecraft:arrow-0,2,1,12
+minecraft:iron_sword-0,2,1,1
+minecraft:leather_leggings-0,1,1,1
+minecraft:iron_shovel-0,1,1,1
+minecraft:string-0,1,1,1
+minecraft:iron_pickaxe-0,2,1,1
+minecraft:leather_boots-0,1,1,1
+minecraft:bucket-0,1,1,1
+minecraft:leather_helmet-0,1,1,1
+minecraft:wheat_seeds-0,1,10,15
+minecraft:gold_nugget-0,2,3,8
+minecraft:potion-5,2,1,1
+minecraft:potion-4,1,1,1
+
+CHEST_MEDIUM
+Tries:6
+minecraft:golden_sword-0,2,1,1
+minecraft:milk_bucket-0,2,1,1
+minecraft:web-0,1,8,16
+minecraft:golden_shovel-0,1,1,1
+minecraft:golden_hoe-0,1,0,1
+minecraft:clock-0,1,1,1
+minecraft:iron_axe-0,3,1,1
+minecraft:map-0,1,1,1
+minecraft:apple-0,2,2,3
+minecraft:compass-0,1,1,1
+minecraft:iron_ingot-0,1,5,8
+minecraft:slime_ball-0,1,1,3
+minecraft:obsidian-0,1,1,4
+minecraft:bread-0,2,8,15
+minecraft:potion-2,1,1,1
+minecraft:potion-37,3,1,1
+minecraft:potion-34,1,1,1
+minecraft:potion-9,1,1,1
+
+CHEST_HARD
+Tries:6
+minecraft:sticky_piston-0,2,6,12
+minecraft:web-0,1,8,24
+minecraft:cookie-0,2,8,18
+minecraft:diamond_axe-0,1,1,1
+minecraft:minecart-0,1,12,24
+minecraft:redstone-0,2,12,24
+minecraft:lava_bucket-0,2,1,1
+minecraft:ender_pearl-0,1,1,1
+minecraft:mob_spawner-0,1,2,4
+minecraft:record_13-0,1,1,1
+minecraft:golden_apple-0,1,4,8
+minecraft:tnt-0,2,8,20
+minecraft:diamond-0,2,1,4
+minecraft:gold_ingot-0,2,30,64
+minecraft:potion-37,3,1,1
+minecraft:potion-49,2,1,1
+minecraft:potion-3,2,1,1
+
+CHEST_TOWER
+Tries:6
+minecraft:arrow-0,1,1,12
+minecraft:fish-0,2,1,1
+minecraft:golden_helmet-0,1,1,1
+minecraft:web-0,1,1,12
+minecraft:iron_ingot-0,1,2,3
+minecraft:stone_sword-0,1,1,1
+minecraft:iron_axe-0,1,1,1
+minecraft:egg-0,2,8,16
+minecraft:saddle-0,1,1,1
+minecraft:wheat-0,2,3,6
+minecraft:gunpowder-0,1,2,4
+minecraft:leather_chestplate-0,1,1,1
+minecraft:pumpkin-0,1,1,5
+minecraft:gold_nugget-0,2,1,3
+
