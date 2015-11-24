@@ -1,15 +1,7 @@
 {
     "images":
     {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        }
+
     },
     
     "buttons":
@@ -17,10 +9,11 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posX" : 4,
+            "posY" : -66,
+            "width" : 100,
             "height" : 20,
+            "alignment" : "left_center",
             "action" : 
             {
                 "type" : "openGui",
@@ -31,38 +24,26 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : 4,
+            "posY" : -42,
+            "width" : 100,
             "height" : 20,
+            "alignment" : "left_center",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
-        
-        "mods":
-        {
-            "text" : "Mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
             
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 4,
+            "posY" : -18,
+            "width" : 100,
             "height" : 20,
+            "alignment" : "left_center",
             "action" : 
             {
                 "type" : "openGui",
@@ -70,13 +51,29 @@
             }
         },
         
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 4,
+            "posY" : 6,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 4,
+            "posY" : 30,
+            "width" : 100,
             "height" : 20,
+            "alignment" : "left_center",
             "action" : 
             {
                 "type" : "quit"
@@ -86,30 +83,32 @@
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "posX" : 4,
+            "posY" : 54,
             "width" : 20,
             "height" : 20,
+            "alignment" : "left_center",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "languages"
             }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
         }
+        
+        // "refresh":
+        // {
+        //     "text" : "",
+        //     "posX" : 28,
+        //     "posY" : 34,
+        //     "width" : 20,
+        //     "height" : 20,
+        //     "alignment" : "left_center",
+        //     "texture" : "custommainmenu:textures/gui/buttons.png",
+        //     "action" : 
+        //     {
+        //         "type" : "refresh"
+        //     }
+        // }
     },
     
     "texts":
@@ -137,20 +136,45 @@
     {
         "splash-text":
         {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
+            "posX" : 60,
+            "posY" : 30,
+            "color" : -128,
+            "alignment" : "center",
+            "texts" : [
+                "Revolution is mostly harmless!",
+                "Haggle1996 loves you!",
+                "Parlez-vous, Dorinn?",
+                "Solego plays skyblock!",
+                "The dirt is eating me!",
+                "Insert Random Text Here",
+                "May I have another, sir?",
+                "No, waterlubber! No!",
+                "#BlameShiva",
+                "SentinalH plays with fusion",
+                "hotrodnate isn't depressed",
+                "Haggle1996 hates you!",
+                "Why is the moon red?",
+                "All I want is a bucket",
+                "It's Irradiated!",
+                "This pack will self-destruct...",
+                "Don't LOL at the Pterodactylol",
+                "Dave_128 was here",
+                "Kanneida loves radiation",
+                "Beware Smith & Jones!",
+                "It's supposed to be hard",
+                "Dinosaurs? On Mars?! WhaaaA?",
+                "HappyHalfling, cookin' it up!",
+                "Cassie's Tarts...mmm",
+                "Why, Haggle? Why?",
+                "A pack by Haggle1996",
+                "Buttons aren't toys"
+            ]
         },
         
-        "panorama":
+        "background":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "revolution:textures/gui/title/background/theme.png",
+            "mode" : "fill"
         }
     }
 }

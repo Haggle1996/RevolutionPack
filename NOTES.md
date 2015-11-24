@@ -1,4 +1,24 @@
-﻿#General notes for implementation
+﻿#TODO List
 
-- Fix ReC oregen
-- Titanium and Bedrockium plates
+- Custom Loading Screen
+- Startup Page
+- HQM: Advanced Systems Manager removed
+- HQM: Steve's Workshop removed from bags
+- HQM: Malisis curtains removed 
+- HQM: RFTools
+- HQM: Cooking for Blockheads
+- HQM: Seared bricks wrong amount
+
+- Rebalance pipes
+- Remove extra items from NEI
+
+- Tiered conduits
+1. IE - 4096 RF/t
+2. BC - 10240 RF/t
+3. EIO - 20480 RF/t
+4. EC - unlimited
+
+- IE Assembler used to make cables. Requires 3 steps for EIO.
+- Rebalance power usage -- adjust upwards as necessary
+- Mekanism to optional mods
+- Ore gen to custom ore gen and remove cofh
