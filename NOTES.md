@@ -1,6 +1,7 @@
 ﻿#TODO List
 
-- Custom Loading Screen
+- `Add resources to pack on launcher`
+
 - Startup Page
 - HQM: Advanced Systems Manager removed
 - HQM: Steve's Workshop removed from bags
@@ -27,3 +28,8 @@
 - Mekanism scripts only install with Mekanism
 - Rethink large-scale mining operations since digiminer is gone
 - Jetpack solution
+
+#Pack changes
+
+- OpenBlocks graves are turned off
+- Ender IO conduit RF amounts
