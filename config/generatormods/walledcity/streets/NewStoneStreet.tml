@@ -1,0 +1,39 @@
+weight=1
+embed_into_distance=1
+dimensions=1,2,5
+max_leveling=8
+
+building_templates=TownBuildings1.tml,TownBuildings2.tml,TownBuildings3.tml,TownBuildings4.tml,TownBuildings5.tml,TownBuildings6.tml,TownBuildings7.tml,TownBuildings8.tml,TownBuildings9.tml,TownBuildings10.tml,TownBuildings11.tml,Smithy.tml,StoneChurch1.tml,Taverna.tml,TownMarketAndShops.tml,TownMarketLarge.tml
+walk_height=1
+min_length=20
+max_length=500
+building_interval=20
+make_gatehouse_towers=0
+
+#default towers
+tower_rule=1
+default_tower_weight=1
+mob_probability=0.0
+spawner_rule=0,60,52-0-Villager
+populate_furniture=1
+make_doors=1
+circular_probability=0.0
+square_min_height=2
+square_max_height=5
+square_min_width=2
+square_max_width=5
+square_roof_styles=Steep
+
+rule1=0,100,4  #road blocks rule
+rule2=0,100,WALL_STAIR-3 #stairs
+
+
+layer
+2,2,2,2,2
+1,1,1,1,1
+endlayer
+
+
+layer:base
+1,1,1,1,1
+endlayer

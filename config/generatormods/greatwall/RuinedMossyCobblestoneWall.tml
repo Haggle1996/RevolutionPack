@@ -1,0 +1,55 @@
+weight=5
+embed_into_distance=1
+dimensions=1,13,8
+max_leveling=8
+
+
+biomes=Forest,Swampland,Mushroom Island,ForestHills,Taiga,Sky,Plains
+building_templates=NONE
+walk_height=5
+water_height=3
+min_length=75
+max_length=1000
+building_interval=50
+make_buildings=1
+
+#default towers
+tower_rule=0,90,4,48,48
+default_tower_weight=1
+tower_offset=-2
+spawner_rule=0,60,52-0-Blaze
+spawner_count=3
+circular_probability=1.0
+circular_tower_min_height=14
+circular_tower_max_height=20
+circular_tower_min_width=7
+circular_tower_max_width=9
+circular_tower_roof_styles=Dome
+
+
+rule1=0,95,4,48,48
+#rule2=0,90,4,48,48
+rule2=0,85,4,48,48,48,48
+rule3=0,100,PRESERVE #preserve block rule
+rule4=0,85,67-1 #stair rules for slopes
+rule5=0,85,67-0
+
+layer
+0,0,0,5,4,0,0,0
+0,0,0,2,2,0,0,0
+0,0,5,1,1,4,0,0
+0,0,2,1,1,2,0,0
+0,0,1,1,1,1,0,0
+0,0,1,1,1,1,0,0
+3,3,1,1,1,1,3,3
+3,3,1,1,1,1,3,3
+3,3,1,1,1,1,3,3
+3,5,1,1,1,1,4,3
+5,2,1,1,1,1,2,4
+2,1,1,1,1,1,1,2
+1,1,1,1,1,1,1,1
+endlayer
+
+layer:base
+1,1,1,1,1,1,1,1
+endlayer

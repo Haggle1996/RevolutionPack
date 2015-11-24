@@ -1,0 +1,46 @@
+weight=1
+embed_into_distance=1
+dimensions=1,2,5
+max_leveling=8
+
+biomes=Desert
+building_templates=TownpackWell.tml,Mausoleum.tml,Ziggurat.tml,MazeDungeon.tml,MazeMansion.tml,SandstoneRuin.tml
+walk_height=1
+min_length=10
+max_length=200
+building_interval=10
+make_gatehouse_towers=0
+
+#default towers
+tower_rule=0,98,24,24,24,24,12
+default_tower_weight=40
+spawner_rule=0,100,52-0-Villager,52-0-Villager,52-0-Villager,52-0-Ghast,52-0-Ghast
+chest_rule=0,15,54-0-EASY,54-0-EASY,54-0-EASY,54-0-MEDIUM
+circular_probability=0.4
+square_min_height=5
+square_max_height=18
+square_min_width=5
+square_max_width=12
+square_roof_styles=Crenel,Crenel,Shallow,Shallow,Dome
+square_roof_rule=0,80,4
+circular_tower_min_height=5
+circular_tower_max_height=18
+circular_tower_min_width=5
+circular_tower_max_width=12
+circular_tower_roof_styles=Crenel,Dome
+circular_tower_roof_rule=0,80,4
+
+#road block rules
+rule1=0,98,24,24,24,24,12,12,PRESERVE
+rule2=0,98,24,24,24,24,12,12,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE
+rule3=0,70,WALL_STAIR-3 #stairs
+
+layer
+3,3,3,3,3
+2,1,1,1,2
+endlayer
+
+
+layer:base
+1,1,1,1,1
+endlayer

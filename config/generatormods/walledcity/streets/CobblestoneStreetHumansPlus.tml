@@ -1,0 +1,44 @@
+weight=0
+embed_into_distance=1
+dimensions=1,2,5
+max_leveling=8
+
+building_templates=LampPost.tml,SmallWell.tml,TinyFarmField.tml,MelonFarm.tml,MarketStall.tml
+walk_height=1
+min_length=20
+max_length=200
+building_interval=10
+make_gatehouse_towers=0
+
+#default towers
+tower_rule=1
+default_tower_weight=15
+mob_probability=0.0
+spawner_rule=0,25,52-0-humansplus.peaceful
+populate_furniture=1
+make_doors=1
+circular_probability=0.0
+square_min_height=4
+square_max_height=9
+square_min_width=5
+square_max_width=11
+square_roof_styles=Two Sided,Two Sided,Two Sided,Shallow,Steep,Steep Trim
+circular_tower_min_height=8
+circular_tower_max_height=13
+circular_tower_min_width=7
+circular_tower_max_width=10
+circular_tower_roof_styles=Steep,Two Sided
+
+rule1=0,100,4  #road blocks rule
+rule2=0,100,WALL_STAIR-3 #stairs
+
+
+layer
+2,2,2,2,2
+1,1,1,1,1
+endlayer
+
+
+layer:base
+1,1,1,1,1
+endlayer

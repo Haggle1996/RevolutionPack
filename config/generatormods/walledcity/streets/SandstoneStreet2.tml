@@ -1,0 +1,48 @@
+weight=3
+embed_into_distance=1
+dimensions=1,2,5
+max_leveling=8
+
+biomes=Desert
+building_templates=TinyFarmField.tml,MazeDungeon.tml,SmallWell.tml,LargeSandstoneHouse.tml
+walk_height=1
+min_length=10
+max_length=200
+building_interval=8
+
+#default towers
+tower_rule=1
+default_tower_weight=60
+spawner_rule=0,40,52-0-LavaSlime,52-0-Blaze
+chest_rule=0,40,54-0-EASY,54-0-MEDIUM,54-0-MEDIUM,54-0-HARD
+spawner_count=3
+populate_furniture=1
+circular_probability=0.5
+square_min_height=7
+square_max_height=28
+square_min_width=5
+square_max_width=10
+square_roof_styles=Crenel,Crenel,Crenel,Crenel,Shallow,Dome
+square_roof_rule=3
+circular_tower_min_height=8
+circular_tower_max_height=45
+circular_tower_min_width=7
+circular_tower_max_width=25
+circular_tower_roof_styles=Dome
+circular_tower_roof_rule=3
+
+
+rule1=0,100,24 #tower, road
+rule2=0,100,WALL_STAIR-1  #stairs
+rule3=5,100,22,22,22,35-4  #roof rule
+
+
+layer
+2,2,2,2,2
+1,1,1,1,1
+endlayer
+
+
+layer:base
+1,1,1,1,1
+endlayer

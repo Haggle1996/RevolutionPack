@@ -1,0 +1,59 @@
+weight=2
+embed_into_distance=1
+dimensions=1,2,6
+max_leveling=8
+
+biomes=Underground
+street_templates=UndergroundObsidianStreet.tml
+building_templates=NONE
+street_density=11
+walk_height=1
+min_length=8
+max_length=500
+building_interval=30
+make_buildings=1
+make_end_towers=0
+
+#default towers
+tower_rule=0,99,49,49,49,49,49,49,49,49,49,49
+default_tower_weight=20
+spawner_rule=0,100,52-0-Enderman
+spawner_count=2
+circular_probability=1.0
+chest_rule=0,70,54-0-HARD
+circular_tower_min_height=4
+circular_tower_max_height=8
+circular_tower_min_width=12
+circular_tower_max_width=18
+circular_tower_roof_styles=Dome
+
+ca_ruin_weight=8
+ca_ruin_rule=0,100,89
+ca_ruin_automata_rules=B356/S015678
+ca_ruin_max_width=40
+ca_ruin_min_height=20
+ca_ruin_max_height=25
+
+#dirt/stone/glowstone road rules
+rule1=0,100,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,89,4,48
+rule2=0,100,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,89,4,48,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE
+rule3=0,100,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,48,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE,PRESERVE
+
+rule4=0,85,WALL_STAIR-3 #stairs
+rule5=0,20,39,40,40 #mushrooms
+#rule6=0,100,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,89,4,48 #fill down rule
+rule6=0,100,1
+
+layer
+0,5,5,5,5,0
+3,2,1,1,2,3
+endlayer
+
+layer:shifted
+4,4,4,4,4,4
+3,2,1,1,2,3
+endlayer
+
+layer:base
+6,6,6,6,6,6
+endlayer
