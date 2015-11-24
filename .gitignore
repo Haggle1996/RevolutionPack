@@ -22,6 +22,7 @@
 
 # Custom Ore Gen default templates #
 /config/CustomOreGen/modules/default/
+/config/CustomOreGen/CustomOreGen_Config_Default.xml
 
 # Root Folder #
 betterfps.txt

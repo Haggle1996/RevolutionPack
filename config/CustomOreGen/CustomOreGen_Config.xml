@@ -77,7 +77,7 @@
             <DisplayName>Ore Deposit Size</DisplayName>
         </OptionNumeric> 
        
-        <OptionChoice name='debugMode' default='false' displayState='shown_dynamic' displayGroup='groupGeneral'>
+        <OptionChoice name='debugMode' default='true' displayState='shown_dynamic' displayGroup='groupGeneral'>
             <Description> 
                 Enable/disable debugging mode, which allows the use of in-game wireframe models and console commands.  Also controls the visibility of some advanced options.
             </Description>
@@ -103,7 +103,7 @@
             <DisplayIncrement>16</DisplayIncrement>
         </OptionNumeric> 
 
-        <OptionChoice name='vanillaOreGen' default=':=!?COGActive' displayGroup='groupGeneral'>
+        <OptionChoice name='vanillaOreGen' default='false' displayGroup='groupGeneral'>
             <Description> 
                 Enable/disable the vanilla ore generators for coal, iron, gold, redstone, lapis lazuli, and diamond.  
             </Description>
@@ -393,58 +393,6 @@
          NOTE: to override a default config, remove the corresponding
          directive (and optionally add something to 'modules/custom')
     -->
-
-    <!-- Vanilla minecraft should always be the first thing to load. -->
-    <Import file='modules/default/VanillaMinecraft.xml'/>
-
-    <!-- Then, the rest are free to come in. -->
-    <Import file='modules/default/AppliedEnergistics.xml'/>
-    <Import file='modules/default/ArsMagica2.xml'/>
-    <Import file='modules/default/BiomesOPlenty.xml'/>
-    <Import file='modules/default/Chisel2.xml'/>
-    <Import file='modules/default/Dartcraft.xml'/>
-    <!-- DO in particular NEEDS to be run after the vanilla config! -->
-    <Import file='modules/default/DenseOres.xml'/> 
-    <Import file='modules/default/ElectriCraft.xml'/>
-    <Import file='modules/default/ExtraCaves.xml'/>
-    <Import file='modules/default/Factorization.xml'/>
-    <Import file='modules/default/FlaxbeardsSteamcraft.xml'/>
-    <Import file='modules/default/Forestry.xml'/>
-    <Import file='modules/default/FossilsandArchaeology.xml'/>
-    <Import file='modules/default/Galacticraft.xml'/>
-    <Import file='modules/default/GeoStrata.xml'/>
-    <Import file='modules/default/ImmersiveEngineering.xml'/>
-    <Import file='modules/default/IndustrialCraft2.xml'/>
-    <Import file='modules/default/Mekanism.xml'/>
-    <Import file='modules/default/Metallurgy4.xml'/>
-    <Import file='modules/default/MineChem.xml'/>
-    <Import file='modules/default/MinecraftComesAlive.xml'/>
-    <Import file='modules/default/NetherOres.xml'/>
-    <Import file='modules/default/Netherrocks.xml'/>
-    <Import file='modules/default/PamsHarvestCraft.xml'/>
-    <Import file='modules/default/ProjectRed.xml'/>
-    <Import file='modules/default/RailCraft.xml'/>
-    <Import file='modules/default/ReactorCraft.xml'/>
-    <Import file='modules/default/SimpleOres.xml'/>
-    <Import file='modules/default/Thaumcraft4.xml'/>
-    <Import file='modules/default/ThermalFoundation.xml'/>
-    <Import file='modules/default/TinkersConstruct.xml'/>
-    <!-- Gregtech checks for other ores' oredict values.  It will need to be
-	 among the last default configurations to load. -->
-    <Import file='modules/default/Gregtech6.xml'/>
-    <Import file='modules/default/Gregtech.xml'/>
-
-    <!-- ***************** Import Mod-provided configs ********************* -->
-    <!-- NOTE: mods will overwrite these configs upon each load -->
-    <OptionalImport file='modules/mods/*.xml'/>
-    
-    <!-- ******************** Import Custom Configs ************************ -->
-    <OptionalImport file='modules/custom/*.xml'/>
-
-    <!-- Gregtech checks for other ores' oredict values.  Uncomment the
-	 the following to have it override custom configurations -->
-<!--    <Import file='modules/default/Gregtech6.xml'/>   -->
-<!--    <Import file='modules/default/Gregtech.xml'/>    -->
     
     <!--*************************   Testing & Debugging   *********************
     *   I use this section for quick-and-dirty experiments
