@@ -1,40 +1,49 @@
 <ConfigSection>
 
     <!-- Remove vanilla emeralds -->
-    <IfCondition condition=':= ?blockExists("minecraft:stone")'>
-        <Substitute name='vnlaOverworldBlockSubstitute3' block='minecraft:stone'>
-            <Description>
-                Replace vanilla-generated ore clusters.
-            </Description>
-            <Comment>
-                The global option deferredPopulationRange  must be
-                large enough to catch all ore  clusters (>= 32).
-            </Comment>
-            <IfCondition condition=':= ?blockExists("minecraft:coal_ore")'> <Replaces block='minecraft:coal_ore' weight='1.0' /> </IfCondition>
-            <IfCondition condition=':= ?blockExists("minecraft:diamond_ore")'> <Replaces block='minecraft:diamond_ore' weight='1.0' /> </IfCondition>
-            <IfCondition condition=':= ?blockExists("minecraft:emerald_ore")'> <Replaces block='minecraft:emerald_ore' weight='1.0' /> </IfCondition>
-            <IfCondition condition=':= ?blockExists("minecraft:gold_ore")'> <Replaces block='minecraft:gold_ore' weight='1.0' /> </IfCondition>
-            <IfCondition condition=':= ?blockExists("minecraft:iron_ore")'> <Replaces block='minecraft:iron_ore' weight='1.0' /> </IfCondition>
-            <IfCondition condition=':= ?blockExists("minecraft:lapis_ore")'> <Replaces block='minecraft:lapis_ore' weight='1.0' /> </IfCondition>
-            <IfCondition condition=':= ?blockExists("minecraft:redstone_ore")'> <Replaces block='minecraft:redstone_ore' weight='1.0' /> </IfCondition>
+    <ConfigSection>
+        <Substitute name='RemoveEmeralds' block='minecraft:stone'>
+            <Replaces block='minecraft:emerald_ore' weight='1.0' />
         </Substitute>
-    </IfCondition>
+    </ConfigSection>
         
     <ConfigSection>
-        <Veins name='IronVeins' inherits='PresetLayeredVeins'>
-            <IfCondition condition=':= ?blockExists("minecraft:iron_ore")'> <OreBlock block='minecraft:iron_ore' weight='1.0' /> </IfCondition>
-            <IfCondition condition=':= ?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+        <Veins name='IronVeins' inherits='PresetHugeVeins'>
+            <OreBlock block='minecraft:iron_ore' weight='1.0' />
+            <Replaces block='minecraft:stone' weight='1.0' />
             <Biome name='.*'/>
+            <Setting name='MotherlodeFrequency' avg='0.025' range='0.005' type='normal' />
+            <!--<Setting name='MotherlodeSize' avg='' range='' type='normal' />-->
+            <Setting name='MotherlodeHeight' avg=':= 24/48' range='9' type='normal' />
+            <!--<Setting name='SegmentRadius' avg='' range='' type='normal' />
+            <Setting name='BranchLength' avg='' range='' type='normal' />-->
         </Veins>
     </ConfigSection>
     
     <ConfigSection>
-        <Veins name='vnlaCoalVeins' inherits='PresetSparseVeins'>
-            <IfCondition condition='?blockExists("minecraft:coal_ore")'> <OreBlock block='minecraft:coal_ore' weight='1.0' /> </IfCondition>
-            <IfCondition condition='?blockExists("minecraft:stone")'> <Replaces block='minecraft:stone' weight='1.0' /> </IfCondition>
+        <Veins name='CoalVeins' inherits='PresetSparseVeins'>
+            <OreBlock block='minecraft:coal_ore' weight='1.0' />
+            <Replaces block='minecraft:stone' weight='1.0' />
             <Biome name='.*'  />
         </Veins>
     </ConfigSection>
     
 </ConfigSection>
 
+<!--
+            <Setting name='MotherlodeFrequency' avg='' range='' type='normal' />
+            <Setting name='MotherlodeSize' avg='' range='' type='normal' />
+            <Setting name='MotherlodeHeight' avg='' range='' type='normal' />
+            <Setting name='MotherlodeRangeLimit' avg='' range='' type='normal' />
+            <Setting name='BranchFrequency' avg='' range='' type='normal' />
+            <Setting name='BranchInclination' avg='' range='' type='normal' />
+            <Setting name='BranchLength' avg='' range='' type='normal' />
+            <Setting name='BranchHeightLimit' avg='' range='' type='normal' />
+            <Setting name='SegmentForkFrequency' avg='' range='' type='normal' />
+            <Setting name='SegmentForkLengthMult' avg='' range='' type='normal' />
+            <Setting name='SegmentLength' avg='' range='' type='normal' />
+            <Setting name='SegmentAngle' avg='' range='' type='normal' />
+            <Setting name='SegmentRadius' avg='' range='' type='normal' />
+            <Setting name='OreDensity' avg='' range='' type='normal' />
+            <Setting name='OreRadiusMult' avg='' range='' type='normal' /> 
+-->

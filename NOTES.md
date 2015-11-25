@@ -35,6 +35,10 @@
 - Revert LLibrary to 5.5
 - Increase amount of CC pages in loot chests.
 - Add Thaumcraft ores (amber, cinnabar, and infused stones) to ore gen
+- Add JurassiCraft ores (amber, bones, marble
+- Fix FlansMod spam
+- Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
+
 
 #Pack changes
 
