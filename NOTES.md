@@ -32,6 +32,7 @@
 - bamboo growth to the floor!
 - Delete configs of removed mods
 - Update chest loot for generatormods
+- Revert LLibrary to 5.5
 
 #Pack changes
 
