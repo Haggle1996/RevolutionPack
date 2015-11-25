@@ -103,7 +103,7 @@
             <DisplayIncrement>16</DisplayIncrement>
         </OptionNumeric> 
 
-        <OptionChoice name='vanillaOreGen' default=':=!?COGActive' displayGroup='groupGeneral'>
+        <OptionChoice name='vanillaOreGen' default='false' displayGroup='groupGeneral'>
             <Description> 
                 Enable/disable the vanilla ore generators for coal, iron, gold, redstone, lapis lazuli, and diamond.  
             </Description>
@@ -393,11 +393,6 @@
          NOTE: to override a default config, remove the corresponding
          directive (and optionally add something to 'modules/custom')
     -->
-
-    <!-- Vanilla minecraft should always be the first thing to load. --> 
-    <Import file='modules/custom/VanillaMinecraft.xml'/>
-    
-    <OptionalImport file='modules/modcustom/*.xml'/>
     
     <!--*************************   Testing & Debugging   *********************
     *   I use this section for quick-and-dirty experiments

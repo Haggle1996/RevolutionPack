@@ -33,8 +33,11 @@
 - Delete configs of removed mods
 - Update chest loot for generatormods
 - Revert LLibrary to 5.5
+- Increase amount of CC pages in loot chests.
+- Add Thaumcraft ores (amber, cinnabar, and infused stones) to ore gen
 
 #Pack changes
 
 - OpenBlocks graves are turned off
 - Ender IO conduit RF amounts
+- Immersive Engineering Cables 256/1024/2048
