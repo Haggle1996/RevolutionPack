@@ -45,3 +45,4 @@
 - OpenBlocks graves are turned off
 - Ender IO conduit RF amounts
 - Immersive Engineering Cables 256/1024/2048
+- Oregen has been rewritten extensively.
