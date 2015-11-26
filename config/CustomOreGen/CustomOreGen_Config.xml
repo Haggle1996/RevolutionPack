@@ -396,8 +396,10 @@
 
     <!-- Vanilla minecraft should always be the first thing to load. --> 
     <Import file='modules/custom/VanillaMinecraft.xml'/>
-    
-    <OptionalImport file='modules/modcustom/*.xml'/>
+    <Import file='modules/custom/ReactorCraft.xml' />
+    <Import file='modules/custom/AppliedEnergistics.xml' />
+    <Import file='modules/custom/CommonOres.xml' />
+    <Import file='modules/custom/Forestry.xml' />
     
     <!--*************************   Testing & Debugging   *********************
     *   I use this section for quick-and-dirty experiments

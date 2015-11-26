@@ -1,0 +1,50 @@
+<ConfigSection>
+
+    <!-- Remove vanilla emeralds -->
+    <ConfigSection>
+        <Substitute name='RemoveReactorCraft' block='minecraft:stone'>
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:1' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:2' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:3' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:4' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:5' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:6' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:7' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:1' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:2' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:3' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:4' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:7' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:8' weight='1.0' />
+        </Substitute>
+    </ConfigSection>
+    
+    <ConfigSection>
+        <Veins name='RedstoneVeins' inherits='PresetVerticalVeins' drawWireframe='true' wireframeColor='0x60A80002' drawBoundBox='false' boundBoxColor='0x60A80002'>
+            <Description>
+                Short, fat vertical redstone pipes that spawn with some pitchblend near bedrock  
+            </Description>
+            <OreBlock block='minecraft:redstone_ore' weight='0.75' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='0.25' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'  />
+            <Setting name='MotherlodeFrequency' avg=':= 2.406 * _default_' range=':= 2.406 * _default_' type='normal'/>
+            <Setting name='MotherlodeSize' avg=':= 0 * _default_' range=':= 0 * _default_' type='normal' />
+            <Setting name='MotherlodeHeight' avg=':= 8 ' range=':= 8 ' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchInclination' avg=':= -_default_ ' range=':= -_default_ ' type='normal' />
+            <Setting name='BranchLength' avg='16' range='8' type='normal' />
+            <Setting name='BranchHeightLimit' avg='32' range='4' type='normal'/>
+            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentLength' avg=':= _default_' range=':= _default_' type='normal' />
+            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentRadius' avg=':= 2.551 * _default_' range=':= 1.551 * _default_' type='normal' />
+            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        </Veins>
+    </ConfigSection>
+    
+</ConfigSection>

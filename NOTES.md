@@ -38,7 +38,7 @@
 - Add JurassiCraft ores (amber, bones, marble
 - Fix FlansMod spam
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
-
+- Consider securitycraft/secret rooms
 
 #Pack changes
 

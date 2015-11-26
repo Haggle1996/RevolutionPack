@@ -1,33 +1,11 @@
 <ConfigSection>
 
-    <!-- Remove vanilla emeralds -->
     <ConfigSection>
-        <Substitute name='RemoveEmeralds' block='minecraft:stone'>
-            <Replaces block='minecraft:emerald_ore' weight='1.0' />
-        </Substitute>
-    </ConfigSection>
-        
-    <ConfigSection>
-        <Veins name='IronVeins' inherits='PresetHugeVeins'>
-            <OreBlock block='minecraft:iron_ore' weight='1.0' />
+        <Veins name='CertusVeins' inherits='PresetVerticalVeins'>
+            <OreBlock block='appliedenergistics2:tile.OreQuartz' weight='0.85' />
+            <OreBlock block='appliedenergistics2:tile.OreQuartzCharged' weight='0.15' />
             <Replaces block='minecraft:stone' weight='1.0' />
             <Biome name='.*'/>
-            <Setting name='MotherlodeFrequency' avg='0.025' range='0.005' type='normal' />
-            <!--<Setting name='MotherlodeSize' avg='' range='' type='normal' />-->
-            <Setting name='MotherlodeHeight' avg=':= 24/48' range='9' type='normal' />
-            <!--<Setting name='SegmentRadius' avg='' range='' type='normal' />
-            <Setting name='BranchLength' avg='' range='' type='normal' />-->
-        </Veins>
-    </ConfigSection>
-    
-    <ConfigSection>
-        <Veins name='CoalVeins' inherits='PresetLayeredVeins'>
-            <OreBlock block='minecraft:coal_ore' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeHeight' avg='103' range='8' type='normal' />
-            <Setting name='MotherlodeFrequency' avg='0.28' range='0.25' type='normal' />
-            <Setting name='BranchHeightLimit' avg='8' range='8' type='normal' />
         </Veins>
     </ConfigSection>
     

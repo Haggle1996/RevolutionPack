@@ -1,0 +1,51 @@
+<ConfigSection>
+    <Veins name='ApatiteVeins'  inherits='PresetSparseVeins' drawWireframe='true' wireframeColor='0x6052BBEF' drawBoundBox='false' boundBoxColor='0x6052BBEF'>
+        <Description>
+            Large veins filled very lightly  with
+            ore.  Because they contain  less ore
+            per volume, these veins  are
+            relatively wide and long.  Mining the
+            ore from them is time  consuming
+            compared to solid ore  veins.  They
+            are also more  difficult to follow,
+            since it is  harder to get an idea of
+            their  direction while mining.
+        </Description>
+        <OreBlock block='Forestry:resources' weight='1.0' />
+        <Replaces block='minecraft:stone' weight='1.0' />
+        <Biome name='.*'  />
+        <Setting name='MotherlodeFrequency' avg=':= 2.599 * _default_' range=':= 2.599 * _default_' type='normal'/>
+        <Setting name='MotherlodeSize' avg=':= 0 * _default_' range=':= 0 * _default_' type='normal' />
+        <Setting name='MotherlodeHeight' avg=':= 120 ' range=':= 64 ' type='uniform'/>
+        <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        <Setting name='BranchLength' avg=':= 1.612 * _default_ ' range=':= 1.612 * _default_ ' type='normal' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal'/>
+        <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        <Setting name='SegmentLength' avg=':= _default_' range=':= _default_' type='normal' />
+        <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        <Setting name='SegmentRadius' avg=':= 1.270 * _default_' range=':= 1.270 * _default_' type='normal' />
+        <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+    </Veins>
+</ConfigSection>
+
+<!--
+            <Setting name='MotherlodeFrequency' avg='' range='' type='normal' />
+            <Setting name='MotherlodeSize' avg='' range='' type='normal' />
+            <Setting name='MotherlodeHeight' avg='' range='' type='normal' />
+            <Setting name='MotherlodeRangeLimit' avg='' range='' type='normal' />
+            <Setting name='BranchFrequency' avg='' range='' type='normal' />
+            <Setting name='BranchInclination' avg='' range='' type='normal' />
+            <Setting name='BranchLength' avg='' range='' type='normal' />
+            <Setting name='BranchHeightLimit' avg='' range='' type='normal' />
+            <Setting name='SegmentForkFrequency' avg='' range='' type='normal' />
+            <Setting name='SegmentForkLengthMult' avg='' range='' type='normal' />
+            <Setting name='SegmentLength' avg='' range='' type='normal' />
+            <Setting name='SegmentAngle' avg='' range='' type='normal' />
+            <Setting name='SegmentRadius' avg='' range='' type='normal' />
+            <Setting name='OreDensity' avg='' range='' type='normal' />
+            <Setting name='OreRadiusMult' avg='' range='' type='normal' /> 
+-->
