@@ -13,7 +13,7 @@
             <Replaces block='minecraft:stone' weight='1.0' />
             <Biome name='.*'/>
             <Setting name='MotherlodeFrequency' avg='0.025' range='0.005' type='normal' />
-            <!--<Setting name='MotherlodeSize' avg='' range='' type='normal' />-->
+            <Setting name='MotherlodeSize' avg='6' range='3' type='normal'/>
             <Setting name='MotherlodeHeight' avg=':= 24/48' range='9' type='normal' />
             <!--<Setting name='SegmentRadius' avg='' range='' type='normal' />
             <Setting name='BranchLength' avg='' range='' type='normal' />-->

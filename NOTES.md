@@ -39,10 +39,14 @@
 - Fix FlansMod spam
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
 - Consider securitycraft/secret rooms
+- Reinvestigate RTG/ATG
 
 #Pack changes
 
 - OpenBlocks graves are turned off
-- Ender IO conduit RF amounts
 - Immersive Engineering Cables 256/1024/2048
 - Oregen has been rewritten extensively.
+- Pack now defaults to requesting 3.5GB of memory
+- ZTones blocks can now be made into microblocks
+- Ender IO conduits now transfer at 640/5120/20480 RF/t up from 256/1024/4096
+- HarvestCraft water plants no longer require planting in water -- farmland

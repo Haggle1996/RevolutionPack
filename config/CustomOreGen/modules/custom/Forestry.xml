@@ -14,13 +14,10 @@
         <OreBlock block='Forestry:resources' weight='1.0' />
         <Replaces block='minecraft:stone' weight='1.0' />
         <Biome name='.*'  />
-        <Setting name='MotherlodeFrequency' avg=':= 2.599 * _default_' range=':= 2.599 * _default_' type='normal'/>
-        <Setting name='MotherlodeSize' avg=':= 0 * _default_' range=':= 0 * _default_' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 120 ' range=':= 64 ' type='uniform'/>
-        <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        <Setting name='MotherlodeSize' avg='0' range='0' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
-        <Setting name='BranchLength' avg=':= 1.612 * _default_ ' range=':= 1.612 * _default_ ' type='normal' />
+        <Setting name='BranchLength' avg=':= 0.812 * _default_ ' range=':= 0.812 * _default_ ' type='normal' />
         <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal'/>
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
