@@ -1,5 +1,168 @@
 <ConfigSection>
 
+    <!-- Remove all ores we're going to replace and can't stop the mod from placing -->
+    <ConfigSection>
+        <Substitute name='RemoveEmeralds' block='minecraft:stone'>
+            <Replaces block='minecraft:emerald_ore' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:1' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:2' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:3' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:4' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:5' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:6' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_fluoriteore:7' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:1' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:2' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:3' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:4' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:7' weight='1.0' />
+            <Replaces block='ReactorCraft:reactorcraft_block_ore:8' weight='1.0' />
+        </Substitute>
+    </ConfigSection>
+        
+    <ConfigSection>
+        <Veins name='IronVeins' inherits='PresetHugeVeins'>
+            <Description>
+                Iron spawns in huge motherloads, with long, thin tendrils spreading out for many chunks
+            </Description>
+            <OreBlock block='minecraft:iron_ore' weight='1.0' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'/>
+            <Setting name='MotherlodeFrequency' avg='0.025' range='0.005' type='normal' />
+            <Setting name='MotherlodeHeight' avg=':= 24/48' range='9' type='normal' />
+        </Veins>
+    </ConfigSection>
+    
+    <ConfigSection>
+        <Veins name='CoalVeins' inherits='PresetLayeredVeins'>
+            <Description>
+                Coal spawns in large veins between y-level 95 and 111
+            </Description>
+            <OreBlock block='minecraft:coal_ore' weight='1.0' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'  />
+            <Setting name='MotherlodeHeight' avg='103' range='8' type='normal' />
+            <Setting name='MotherlodeFrequency' avg='0.28' range='0.25' type='normal' />
+            <Setting name='BranchHeightLimit' avg='8' range='8' type='normal' />
+        </Veins>
+    </ConfigSection>
+    
+    <ConfigSection>
+        <Veins name='ApatiteVeins' inherits='PresetSparseVeins'>
+            <Description>
+                Apatite spawns in large, rare veins between y-level 56 and 184
+            </Description>
+            <OreBlock block='Forestry:resources' weight='1.0' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'  />
+            <Setting name='MotherlodeSize' avg='0' range='0' type='normal' />
+            <Setting name='MotherlodeHeight' avg='120' range='64' type='uniform'/>
+            <Setting name='BranchLength' avg='200' range='100' type='normal' />
+            <Setting name='SegmentRadius' avg='2.5' range='1.27' type='normal' />
+        </Veins>
+    </ConfigSection>
+    
+    <ConfigSection>
+        <Veins name='RedstoneVeins' inherits='PresetVerticalVeins'>
+            <Description>
+                Short, fat vertical redstone pipes that spawn with some pitchblende near bedrock  
+            </Description>
+            <OreBlock block='minecraft:redstone_ore' weight='0.75' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='0.25' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'  />
+            <Setting name='MotherlodeFrequency' avg=':= 2.406 * _default_' range=':= 2.406 * _default_' type='normal'/>
+            <Setting name='MotherlodeSize' avg=':= 0 * _default_' range=':= 0 * _default_' type='normal' />
+            <Setting name='MotherlodeHeight' avg=':= 8 ' range=':= 8 ' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchInclination' avg=':= -_default_ ' range=':= -_default_ ' type='normal' />
+            <Setting name='BranchLength' avg='16' range='8' type='normal' />
+            <Setting name='BranchHeightLimit' avg='32' range='4' type='normal'/>
+            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentLength' avg=':= _default_' range=':= _default_' type='normal' />
+            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentRadius' avg=':= 2.551 * _default_' range=':= 1.551 * _default_' type='normal' />
+            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        </Veins>
+    </ConfigSection>
+    
+    <ConfigSection>
+        <Veins name='CadmiumVeins' inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x607184A4' drawBoundBox='false' boundBoxColor='0x607184A4'>
+            <Description>
+                Small, fairly rare motherlodes  with
+                2-4 horizontal veins each.
+            </Description>
+            <OreBlock block='ReactorCraft:reactorcraft_block_ore:2' weight='1.0' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'  />
+            <Setting name='MotherlodeFrequency' avg=':= 0.919 * _default_' range=':= 0.919 * _default_ ' type='normal' />
+            <Setting name='MotherlodeSize' avg='0.886' range='0.886' type='normal' />
+            <Setting name='MotherlodeHeight' avg=':= 12 ' range=':= 10 ' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchLength' avg='0.659' range='0.659' type='normal' />
+            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal'/>
+            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentLength' avg=':= _default_' range=':= _default_' type='normal' />
+            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentRadius' avg=':= 0.979 * _default_' range=':= 0.979 * _default_' type='normal' />
+            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        </Veins>
+    </ConfigSection>
+    
+    <ConfigSection>
+        <Veins name='recrIndiumVeins'  inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x607A7C89' drawBoundBox='false' boundBoxColor='0x607A7C89'>
+            <Description>
+                Small, fairly rare motherlodes  with
+                2-4 horizontal veins each.
+            </Description>
+            <OreBlock block='ReactorCraft:reactorcraft_block_ore:3' weight='1.0' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'  />
+            <Setting name='MotherlodeFrequency' avg=':= 0.662 * _default_' range=':= 0.662 * _default_' type='normal'/>
+            <Setting name='MotherlodeSize' avg='0.834' range='0.834' type='normal' />
+            <Setting name='MotherlodeHeight' avg=':= 11 ' range=':= 5 ' type='normal'/>
+            <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='BranchLength' avg='0.614' range='0.614' type='normal' />
+            <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal'/>
+            <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentLength' avg=':= _default_' range=':= _default_' type='normal' />
+            <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='SegmentRadius' avg=':= 0.902 * _default_' range=':= 0.902 * _default_' type='normal' />
+            <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+        </Veins>
+    </ConfigSection>    
+    
+    <ConfigSection>
+        <Veins name='FluoriteVeins' inherits='PresetHugeVeins'>
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:0' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:1' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:2' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:3' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:4' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:5' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:6' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:7' weight='0.125' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'/>
+            <Setting name='MotherlodeFrequency' avg='0.0125' range='0.002' type='normal' />
+            <Setting name='MotherlodeSize' avg='2.5' range='1.25' type='normal'/>
+            <Setting name='MotherlodeHeight' avg='8' range='5' type='normal' />
+            <Setting name='BranchHeightLimit' avg='24'/>
+        </Veins>
+    </ConfigSection>
+
     <ConfigSection>
         <Veins name='CopperVeins'  inherits='PresetLayeredVeins' drawWireframe='true' wireframeColor='0x60BB6E30' drawBoundBox='false' boundBoxColor='0x60BB6E30'>
             <Description>
@@ -165,6 +328,33 @@
             <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
             <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         </Veins>
-    </ConfigSection>    
+    </ConfigSection>
     
+    <ConfigSection>
+        <Veins name='CertusVeins' inherits='PresetVerticalVeins'>
+            <OreBlock block='appliedenergistics2:tile.OreQuartz' weight='0.85' />
+            <OreBlock block='appliedenergistics2:tile.OreQuartzCharged' weight='0.15' />
+            <Replaces block='minecraft:stone' weight='1.0' />
+            <Biome name='.*'/>
+        </Veins>
+    </ConfigSection>
+        
 </ConfigSection>
+
+<!--
+            <Setting name='MotherlodeFrequency' avg='' range='' type='normal' />
+            <Setting name='MotherlodeSize' avg='' range='' type='normal' />
+            <Setting name='MotherlodeHeight' avg='' range='' type='normal' />
+            <Setting name='MotherlodeRangeLimit' avg='' range='' type='normal' />
+            <Setting name='BranchFrequency' avg='' range='' type='normal' />
+            <Setting name='BranchInclination' avg='' range='' type='normal' />
+            <Setting name='BranchLength' avg='' range='' type='normal' />
+            <Setting name='BranchHeightLimit' avg='' range='' type='normal' />
+            <Setting name='SegmentForkFrequency' avg='' range='' type='normal' />
+            <Setting name='SegmentForkLengthMult' avg='' range='' type='normal' />
+            <Setting name='SegmentLength' avg='' range='' type='normal' />
+            <Setting name='SegmentAngle' avg='' range='' type='normal' />
+            <Setting name='SegmentRadius' avg='' range='' type='normal' />
+            <Setting name='OreDensity' avg='' range='' type='normal' />
+            <Setting name='OreRadiusMult' avg='' range='' type='normal' /> 
+-->
