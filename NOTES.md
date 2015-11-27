@@ -47,3 +47,4 @@
 - Ender IO conduits now transfer at 640/5120/20480 RF/t up from 256/1024/4096
 - HarvestCraft water plants no longer require planting in water -- farmland
 - Enabled villages in more biomes and reduced their spawn distance.
+- CFBH sink requires water pumped in
