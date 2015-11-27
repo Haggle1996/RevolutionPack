@@ -36,6 +36,8 @@
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
 - Configure securitycraft/secret rooms
 - Test other dimensions for ore generation
+- Revert Hunger Overhaul to a version DragonAPI likes
+- Verify EiraIRC configuration
 
 #Pack changes
 
