@@ -40,6 +40,7 @@
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
 - Consider securitycraft/secret rooms
 - Reinvestigate RTG/ATG
+- Test other dimensions for ore generation
 
 #Pack changes
 
