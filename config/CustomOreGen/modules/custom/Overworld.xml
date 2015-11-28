@@ -21,7 +21,7 @@
         </Substitute>
     </ConfigSection>
         
-    <ConfigSection>
+    <!--<ConfigSection>
         <Veins name='IronVeins' inherits='PresetHugeVeins'>
             <Description>
                 Iron spawns in huge motherloads, with long, thin tendrils spreading out for many chunks
@@ -327,7 +327,7 @@
             <Setting name='MotherlodeHeight' avg='64' range='12' type='normal'/>
             <Setting name='BranchLength' avg='32' range='6' type='normal' />           
         </Veins>
-    </ConfigSection>
+    </ConfigSection>-->
         
 </ConfigSection>
 

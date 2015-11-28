@@ -396,7 +396,12 @@
 
     <!-- Vanilla minecraft should always be the first thing to load. --> 
     <!--<Import file='modules/custom/Overworld.xml'/>-->
-    <Import file='modules/mods/*.xml' />
+    <Import file='modules/custom/Overworld.xml' />
+    <Import file='modules/custom/HarderExtraOres_Custom.xml' />
+    <Import file='modules/custom/HarderLimonite_Custom.xml' />
+    <Import file='modules/custom/HarderVanillaOres_Custom.xml' />
+    <Import file='modules/custom/UndergroundHazards_Custom.xml' />
+    
     <!--*************************   Testing & Debugging   *********************
     *   I use this section for quick-and-dirty experiments
     **************************************************************************-->
