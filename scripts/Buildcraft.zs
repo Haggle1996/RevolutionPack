@@ -23,30 +23,30 @@ val goldGear = <ore:gearGold>;
 val diamondGear = <ore:gearDiamond>;
 val copperplate = <Railcraft:part.plate:3>;
 val ironplate = <Railcraft:part.plate:0>;
-val plate = <bcadditions:heatPlating>;
+#val plate = <bcadditions:heatPlating>;
 
 #recipes.remove(redstone);
 #recipes.addShaped(redstone, [[plank,plank,plank]
 #							,[null,glass,null]
 #							,[woodGear,piston,woodGear]]);
 
-recipes.remove(stirling);
-recipes.addShaped(stirling, [[cobble,cobble,cobble]
-							,[plate,glass,plate]
-							,[stoneGear,piston,stoneGear]]);
+#recipes.remove(stirling);
+#recipes.addShaped(stirling, [[cobble,cobble,cobble]
+#							,[plate,glass,plate]
+#							,[stoneGear,piston,stoneGear]]);
 
-recipes.remove(combustion);
-recipes.addShaped(combustion, [[iron,iron,iron]
-							,[plate,glass,plate]
-							,[ironGear,piston,ironGear]]);
+#recipes.remove(combustion);
+#recipes.addShaped(combustion, [[iron,iron,iron]
+#							,[plate,glass,plate]
+#							,[ironGear,piston,ironGear]]);
 
-recipes.remove(quarry);
-recipes.addShaped(quarry,[[ironGear,ray,ironGear],
-						  [goldGear,ironGear,goldGear],
-						  [diamondGear,bedpick,diamondGear]]);
+#recipes.remove(quarry);
+#recipes.addShaped(quarry,[[ironGear,ray,ironGear],
+#						  [goldGear,ironGear,goldGear],
+#						  [diamondGear,bedpick,diamondGear]]);
 
-val refinery = <BuildCraft|Factory:refineryBlock>;
-recipes.remove(refinery);
-refinery.addTooltip(format.red("REMOVED: ") + format.white("Use the Buildcraft"));
-refinery.addTooltip(format.white("Additions multiblock Refinery"));
-refinery.addTooltip(format.white("to produce oil instead."));
+#val refinery = <BuildCraft|Factory:refineryBlock>;
+#recipes.remove(refinery);
+#refinery.addTooltip(format.red("REMOVED: ") + format.white("Use the Buildcraft"));
+#refinery.addTooltip(format.white("Additions multiblock Refinery"));
+#refinery.addTooltip(format.white("to produce oil instead."));

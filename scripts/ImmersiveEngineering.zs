@@ -17,20 +17,20 @@ val block = <ImmersiveEngineering:metalDecoration:5>;
 val component = <ImmersiveEngineering:material:12>;
 val revolver = <ImmersiveEngineering:revolver>;
 val hammer = <ImmersiveEngineering:material:10>;
-val grip = <stefinusguns:WGrip>;
+#val grip = <stefinusguns:WGrip>;
 val cylinder = <ImmersiveEngineering:material:8>;
 val steel = <ore:ingotSteel>;
 #val barrel = <stefinusguns:Barrel>;
 
 #recipes.remove(revolver);
 #recipes.addShaped(revolver,[[null,steel,null],
-						    [hammer,cylinder,barrel],
-							[grip,steel,grip]]);
+#						    [hammer,cylinder,barrel],
+#							[grip,steel,grip]]);
 
 #recipes.remove(drill);
 #recipes.addShaped(drill, [[null,null,grip],
-						  [null,block,grip],
-						  [component,null,null]]);
+#						  [null,block,grip],
+#						  [component,null,null]]);
 
 #ExcavatorHandler.addMineral("Raw Iron Ore", 25, .1f, new String[]{"oreIron","oreNickel","oreTin","denseoreIron"}, new float[]{.5f,.25f,.20f,.05f});
 		
