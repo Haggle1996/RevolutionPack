@@ -51,3 +51,4 @@
 - Enabled villages in more biomes and reduced their spawn distance.
 - CFBH sink requires water pumped in
 - Water is now finite
+- Seasons, animals, ores

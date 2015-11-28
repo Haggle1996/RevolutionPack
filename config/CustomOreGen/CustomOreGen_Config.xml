@@ -395,8 +395,8 @@
     -->
 
     <!-- Vanilla minecraft should always be the first thing to load. --> 
-    <Import file='modules/custom/Overworld.xml'/>
-    
+    <!--<Import file='modules/custom/Overworld.xml'/>-->
+    <Import file='modules/mods/*.xml' />
     <!--*************************   Testing & Debugging   *********************
     *   I use this section for quick-and-dirty experiments
     **************************************************************************-->
