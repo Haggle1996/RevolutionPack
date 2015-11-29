@@ -53,3 +53,5 @@
 - CFBH sink requires water pumped in
 - Water is now finite
 - Seasons, animals, ores
+- Regular redstone spawns along with hardended redstone
+- Pitchblende spawns along with uranium

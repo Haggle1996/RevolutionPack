@@ -25,29 +25,3 @@ ore dictionary.
   <recipeGroup name="Thermal Expansion" enabled="false"/>
 -->
 
-<AlloySmelterRecipes>
-  <recipeGroup name="Tinkers Construct">
-    <recipe name="Aluminum Brass" energyCost="2000">
-      <input>
-        <itemStack oreDictionary="ingotAluminum" number="3"/>
-        <itemStack oreDictionary="ingotCopper" number="1"/>
-      </input>
-      <output>
-        <itemStack oreDictionary="ingotAluminumBrass" number="4" exp="0.25"/>
-      </output>
-    </recipe>
-  </recipeGroup>
-  <!--<recipeGroup name="EnderIO">
-    <recipe name="Dark Steel" energyCost="20000">
-      <input>
-        <itemStack oreDictionary="ingotHSLA" />
-        <itemStack oreDictionary="dustCoal" />
-        <itemStack modID="minecraft" itemName="obsidian" />
-      </input>
-      <output>
-        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" exp="0.5" />
-      </output>
-    </recipe>
-  </recipeGroup>-->
-</AlloySmelterRecipes>
-

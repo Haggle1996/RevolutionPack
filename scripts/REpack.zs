@@ -17,6 +17,3 @@
 // rename forestry adventurer bags
 <Forestry:adventurerBag>.displayName = "Ammo Bag";
 <Forestry:adventurerBagT2>.displayName = "Big Bag O' Ammo";
-
-<TConstruct:heavyPlate:80>.addTooltip(format.yellow("Crafted in Tinker's Construct"));
-<TConstruct:heavyPlate:80>.addTooltip(format.yellow("Part Builder with Bedrock Ingots."));
