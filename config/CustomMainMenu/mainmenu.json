@@ -1,7 +1,15 @@
 {
     "images":
     {
-
+        "title":
+        {
+            "image" : "revolution:textures/gui/title/logo.png",
+            "posX" : -125,
+            "posY" : -63,
+            "width" : 250,
+            "height" : 87,
+            "alignment" : "center"
+        }
     },
     
     "buttons":
@@ -93,22 +101,22 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
-        }
+        },
         
-        // "refresh":
-        // {
-        //     "text" : "",
-        //     "posX" : 28,
-        //     "posY" : 34,
-        //     "width" : 20,
-        //     "height" : 20,
-        //     "alignment" : "left_center",
-        //     "texture" : "custommainmenu:textures/gui/buttons.png",
-        //     "action" : 
-        //     {
-        //         "type" : "refresh"
-        //     }
-        // }
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 28,
+            "posY" : 54,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
     },
     
     "texts":
