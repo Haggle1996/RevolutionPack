@@ -35,10 +35,11 @@
 - Flansmod guns need recipes
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
 - Configure securitycraft/secret rooms
-- Test other dimensions for ore generation
+- Test other dimensions for ore generation - particularly cave dimension
 - Revert Hunger Overhaul to a version DragonAPI likes
 - Verify EiraIRC configuration
 - Consider removing TiCo
+- Cleanup Enviromine useless items (camel pack, etc).
 
 #Pack changes
 
@@ -55,3 +56,5 @@
 - Seasons, animals, ores
 - Regular redstone spawns along with hardended redstone
 - Pitchblende spawns along with uranium
+- Disabled all of enviromine except for food rotting, mineshafts, and torches burning out
+- Harder Wildlife seasonal affect on crops is removed (controlled by Hunger Overhaul)
