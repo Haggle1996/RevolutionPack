@@ -21,8 +21,6 @@
 4. EC - unlimited
 
 - IE Assembler used to make cables. Requires 3 steps for EIO.
-- Ender IO item RF/t amounts
-- Rebalance power usage -- adjust upwards as necessary
 - Remove Recurrent Complex structures
 - Update website
 - Flansmod guns need recipes
