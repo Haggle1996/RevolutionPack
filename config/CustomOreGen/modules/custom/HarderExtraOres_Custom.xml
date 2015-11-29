@@ -709,7 +709,9 @@
 				<Setting name='DistributionFrequency' avg='0' range='0'/>
 			</Cloud>
             <IfCondition condition=':= if(age, age.ic2UraniumClusters > 0, hic2UraniumDist = "vanillaStdGen")'>
-                <StandardGen name='HardUraniumStandard' block='HarderOres:ore_uranium:9' inherits='PresetStandardGen'> 
+                <StandardGen name='HardUraniumStandard' inherits='PresetStandardGen'> 
+                    <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='0.25' />
+                    <OreBlock block='HarderOres:ore_uranium:9' weight='0.75' />
                     <Description> Equivalent to regular IC2 uranium distribution </Description>
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x4080FF00</WireframeColor>
@@ -721,7 +723,9 @@
             </IfCondition>
             
             <IfCondition condition=':= if(age, age.ic2UraniumVeins > 0, hic2UraniumDist = "layeredVeins")'>
-                <Veins name='HardUraniumVeins' block='HarderOres:ore_uranium:7' inherits='PresetSparseVeins'>    
+                <Veins name='HardUraniumVeins' inherits='PresetSparseVeins'>
+                    <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='0.25' />
+                    <OreBlock block='HarderOres:ore_uranium:7' weight='0.75' />    
                     <Description>
                         Sparse veins in the 10-30 range.
                     </Description>
@@ -746,7 +750,9 @@
             </IfCondition>
             
             <IfCondition condition=':= if(age, age.ic2UraniumClouds > 0, hic2UraniumDist = "strategicClouds")'>
-                <Cloud name='HardUraniumCloud' block='HarderOres:ore_uranium:15' inherits='PresetStrategicCloud'>
+                <Cloud name='HardUraniumCloud' inherits='PresetStrategicCloud'>
+                    <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='0.25' />
+                    <OreBlock block='HarderOres:ore_uranium:15' weight='0.75' />                
                     <Description>
                         Diffuse uranium cloud surrounded by single-block "hint" veins, found mostly in wasteland biomes.
                     </Description>

@@ -38,6 +38,7 @@
 - Test other dimensions for ore generation
 - Revert Hunger Overhaul to a version DragonAPI likes
 - Verify EiraIRC configuration
+- Consider removing TiCo
 
 #Pack changes
 

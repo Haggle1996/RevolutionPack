@@ -20,79 +20,7 @@
             <Replaces block='ReactorCraft:reactorcraft_block_ore:8' weight='1.0' />
         </Substitute>
     </ConfigSection>
-        
-    <!--<ConfigSection>
-        <Veins name='IronVeins' inherits='PresetHugeVeins'>
-            <Description>
-                Iron spawns in huge motherloads, with long, thin tendrils spreading out for many chunks
-            </Description>
-            <OreBlock block='minecraft:iron_ore' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'/>
-            <Setting name='MotherlodeFrequency' avg='0.02' range='0.005' type='normal' />
-            <Setting name='MotherlodeHeight' avg=':= 24/48' range='9' type='normal' />
-        </Veins>
-    </ConfigSection>
-    
-    <ConfigSection>
-        <Veins name='CoalVeins' inherits='PresetLayeredVeins'>
-            <Description>
-                Coal spawns in large veins between y-level 95 and 111
-            </Description>
-            <OreBlock block='minecraft:coal_ore' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeHeight' avg='103' range='8' type='normal' />
-            <Setting name='MotherlodeFrequency' avg='0.28' range='0.25' type='normal' />
-            <Setting name='BranchHeightLimit' avg='8' range='8' type='normal' />
-        </Veins>
-    </ConfigSection>
-    
-    <ConfigSection>
-        <Veins name='GoldVeins' inherits='PresetLayeredVeins'>
-            <Description>
-                Gold spawns in large veins between y-level 24 and 56
-            </Description>
-            <OreBlock block='minecraft:gold_ore' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*' />
-            <Setting name='MotherlodeFrequency' avg='0.035' range='0.02' type='normal' />
-            <Setting name='MotherlodeSize' avg='1.0' range='1' type='normal' />
-            <Setting name='MotherlodeHeight' avg='40' range='16' type='normal' />
-            <Setting name='BranchLength' avg='20' range='8' type='normal' />
-            <Setting name='SegmentRadius' avg='1' range='0.5' type='normal' />
-        </Veins>
-    </ConfigSection>
-    
-    <ConfigSection>
-        <Veins name='DiamondVeins' inherits='PresetPipeVeins'>
-            <Description>
-                Diamonds spawns in vertical pipes from y-level 8 up
-            </Description>
-            <OreBlock block='minecraft:diamond_ore' weight='0.8' />
-            <OreBlock block='minecraft:lava' weight='0.2' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*' />
-            <Setting name='MotherlodeFrequency' avg='0.06' range='0.02' type='normal' />
-        </Veins>
-    </ConfigSection>    
-
-    <ConfigSection>
-        <Veins name='LapisVeins' inherits='PresetSparseVeins'>
-            <Description>
-                Lapis spawns in large, rare veins between y-level 32 and 54 
-            </Description>
-            <OreBlock block='minecraft:lapis_ore' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency' avg='0.0125'/>
-            <Setting name='MotherlodeSize' avg='0' range='0' type='normal' />
-            <Setting name='MotherlodeHeight' avg='43' range='11' type='normal' />
-            <Setting name='BranchLength' avg='200' range='100' type='normal' />
-            <Setting name='SegmentRadius' avg='2.5' range='1.27' type='normal' />
-        </Veins>
-    </ConfigSection>
-    
+            
     <ConfigSection>
         <Veins name='ApatiteVeins' inherits='PresetSparseVeins'>
             <Description>
@@ -108,26 +36,7 @@
             <Setting name='SegmentRadius' avg='2.5' range='1.27' type='normal' />
         </Veins>
     </ConfigSection>
-    
-    <ConfigSection>
-        <Veins name='RedstoneVeins' inherits='PresetVerticalVeins'>
-            <Description>
-                Short, fat vertical redstone pipes that spawn with some pitchblende between y-level 0 and 36  
-            </Description>
-            <OreBlock block='minecraft:redstone_ore' weight='0.75' />
-            <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='0.25' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency' avg='0.025' range='0' type='normal'/>
-            <Setting name='MotherlodeSize' avg='0' range='0' type='normal' />
-            <Setting name='MotherlodeHeight' avg='8' range='8' type='normal'/>
-            <Setting name='BranchInclination' avg='1.31' range='-0.22' type='normal' />
-            <Setting name='BranchLength' avg='24' range='8' type='normal' />
-            <Setting name='BranchHeightLimit' avg='32' range='4' type='normal'/>
-            <Setting name='SegmentRadius' avg='2.5' range='1.5' type='normal' />
-        </Veins>
-    </ConfigSection>
-    
+        
     <ConfigSection>
         <Veins name='CadmiumVeins' inherits='PresetLayeredVeins'>
             <Description>
@@ -165,19 +74,18 @@
             <Description>
                 Fluorite spawns in large motherloads between y-level 3 and 13 with large tentacles spreading out for long distances
             </Description>
-            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:0' weight='0.1' />
-            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:1' weight='0.1' />
-            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:2' weight='0.1' />
-            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:3' weight='0.1' />
-            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:4' weight='0.1' />
-            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:5' weight='0.1' />
-            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:6' weight='0.1' />
-            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:7' weight='0.1' />
-            <OreBlock block='minecraft:emerald_ore' weight='0.2' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:0' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:1' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:2' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:3' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:4' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:5' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:6' weight='0.125' />
+            <OreBlock block='ReactorCraft:reactorcraft_block_fluoriteore:7' weight='0.125' />
             <Replaces block='minecraft:stone' weight='1.0' />
             <Biome name='.*'/>
-            <Setting name='MotherlodeFrequency' avg='0.0125' range='0.002' type='normal' />
-            <Setting name='MotherlodeSize' avg='3.5' range='1.25' type='normal'/>
+            <Setting name='MotherlodeFrequency' avg='0.00625' range='0.002' type='normal' />
+            <Setting name='MotherlodeSize' avg='2.5' range='1.25' type='normal'/>
             <Setting name='MotherlodeHeight' avg='8' range='5' type='normal' />
             <Setting name='BranchHeightLimit' avg='24'/>
         </Veins>
@@ -192,7 +100,7 @@
             <Replaces block='minecraft:stone' weight='1.0' />
             <Biome name='.*'  />
             <Setting name='MotherlodeHeight' avg='87' range='11' type='normal' />
-            <Setting name='MotherlodeFrequency' avg='0.15' range='0.05' type='normal' />
+            <Setting name='MotherlodeFrequency' avg='0.075' range='0.05' type='normal' />
             <Setting name='BranchHeightLimit' avg='8' range='8' type='normal' />
         </Veins>
     </ConfigSection>
@@ -211,108 +119,7 @@
             <Setting name='BranchLength' avg='50' range='25' type='normal' />
             <Setting name='SegmentRadius' avg='1.5' range='0.75' type='normal' />
         </Veins>
-    </ConfigSection>
-
-    <ConfigSection>
-        <Veins name='CopperVeins' inherits='PresetLayeredVeins'>
-            <Description>
-                Copper spawns frequently around sea level, between y-level 56 and 72
-            </Description>
-            <OreBlock block='ImmersiveEngineering:ore' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Replaces block='minecraft:grass' weight='1.0' />
-            <Replaces block='minecraft:dirt' weight='1.0' />
-            <Replaces block='BiomesOPlenty:newBopDirt' weight='1.0' />
-            <Replaces block='BiomesOPlenty:newBopGrass' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency' avg='0.4' range='0.2' type='normal' />
-            <Setting name='MotherlodeSize' avg='1.5' range='1.0' type='normal' />
-            <Setting name='MotherlodeHeight' avg='64' range='8' type='normal' />
-            <Setting name='BranchLength' avg='6' range='4' type='normal' />
-            <Setting name='SegmentRadius' avg='0.5' range='0.3' type='normal' />
-        </Veins>
-    </ConfigSection>
-    
-    <ConfigSection>
-        <Veins name='TinVeins' inherits='PresetLayeredVeins'>
-            <Description>
-                Tin spawns infrequently between y-level 20 and 48 
-            </Description>
-            <OreBlock block='ThermalFoundation:Ore:1' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency' avg='0.025' range='0.02' type='normal' />
-            <Setting name='MotherlodeSize' avg='1.0' range='1' type='normal' />
-            <Setting name='MotherlodeHeight' avg='34' range='14' type='normal' />
-            <Setting name='BranchLength' avg='20' range='8' type='normal' />
-            <Setting name='SegmentRadius' avg='0.5' range='0.25' type='normal' />
-        </Veins>
-    </ConfigSection>
-    
-    <ConfigSection>
-        <Veins name='LeadSilverVeins' inherits='PresetLayeredVeins'>
-            <Description>
-                Lead and silver spawn together between y-level 18 and 42
-            </Description>
-            <OreBlock block='ImmersiveEngineering:ore:3' weight='0.6' />
-            <OreBlock block='ImmersiveEngineering:ore:2' weight='0.4' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency' avg='0.03' range='0.02' type='normal'/>
-            <Setting name='MotherlodeSize' avg='3.5' range='1.5' type='normal' />
-            <Setting name='MotherlodeHeight' avg='30' range='12' type='normal'/>
-            <Setting name='BranchLength' avg='32' range='16' type='normal' />
-            <Setting name='SegmentRadius' avg='0.6' range='0.4' type='normal' />
-        </Veins>
-    </ConfigSection>
-    
-    <ConfigSection>
-        <Veins name='NickelVeins' inherits='PresetLayeredVeins'>
-            <Description>
-                Nickel spawns in small, rare veins between y-level 4 and 20
-            </Description>
-            <OreBlock block='ImmersiveEngineering:ore:4' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency' avg='0.025' range='0' type='normal'/>
-            <Setting name='MotherlodeSize' avg='2' range='0.75' type='normal' />
-            <Setting name='MotherlodeHeight' avg='12' range='8' type='normal'/>
-            <Setting name='BranchLength' avg='48' range='24' type='normal' />
-            <Setting name='SegmentRadius' avg='0.8' range='0.3' type='normal' />
-        </Veins>
-    </ConfigSection>
-    
-    <ConfigSection>
-        <Veins name='AluminumVeins' inherits='PresetLayeredVeins'>
-            <Description>
-                Aluminum spawns in common veins between y-level 56 and 72
-            </Description>
-            <OreBlock block='ImmersiveEngineering:ore:1' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency' avg='0.3' range='0.01' type='normal'/>
-            <Setting name='MotherlodeSize' avg='2.5' range='1' type='normal' />
-            <Setting name='MotherlodeHeight' avg='64' range='8' type='normal'/>
-            <Setting name='BranchLength' avg='6' range='4' type='normal' />
-            <Setting name='SegmentRadius' avg='0.5' range='0.25' type='normal' />
-        </Veins>
-    </ConfigSection>       
-    
-    <ConfigSection>
-        <Veins name='PlatinumVeins' inherits='PresetLayeredVeins'>
-            <Description>
-                Platinum spawns in rare veins between y-level 16 and 28
-            </Description>
-            <OreBlock block='ThermalFoundation:Ore:5' weight='1.0' />
-            <Replaces block='minecraft:stone' weight='1.0' />
-            <Biome name='.*'  />
-            <Setting name='MotherlodeFrequency' avg='0.025' range='0' type='normal'/>
-            <Setting name='MotherlodeSize' avg='3' range='1.5' type='normal' />
-            <Setting name='MotherlodeHeight' avg='22' range='6' type='normal'/>
-            <Setting name='BranchLength' avg='12' range='4' type='normal' />
-            <Setting name='SegmentRadius' avg='1.5' range='1' type='normal' />
-        </Veins>
-    </ConfigSection>
+    </ConfigSection>  
     
     <ConfigSection>
         <Veins name='CertusVeins' inherits='PresetVerticalVeins'>
@@ -327,7 +134,7 @@
             <Setting name='MotherlodeHeight' avg='64' range='12' type='normal'/>
             <Setting name='BranchLength' avg='32' range='6' type='normal' />           
         </Veins>
-    </ConfigSection>-->
+    </ConfigSection>
         
 </ConfigSection>
 

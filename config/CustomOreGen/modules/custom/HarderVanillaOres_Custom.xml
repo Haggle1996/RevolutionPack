@@ -928,7 +928,9 @@
             </IfCondition>
                 
             <IfCondition condition=':= hardredstoneDist = "layeredVeins"'>
-                <Veins name='hardRedstoneVeins' block='HarderOres:ore_redstone' inherits='PresetVerticalVeins'>
+                <Veins name='hardRedstoneVeins' inherits='PresetVerticalVeins'>
+                    <OreBlock block='minecraft:redstone_ore' weight='0.25' />
+                    <OreBlock block='HarderOres:ore_redstone' weight='0.75' />                    
                     <Description>
                         Isolated veins (no motherlodes) that run vertically.  These veins are fairly common, but a challenge to mine because you have to tunnel straight down.
                     </Description>
@@ -948,7 +950,9 @@
             </IfCondition>
                 
             <IfCondition condition=':= hardredstoneDist = "strategicClouds"'>
-                <Cloud name='hardRedstoneCloud' block='HarderOres:ore_redstone' inherits='PresetStrategicCloud'>
+                <Cloud name='hardRedstoneCloud' inherits='PresetStrategicCloud'>
+                    <OreBlock block='minecraft:redstone_ore' weight='0.25' />
+                    <OreBlock block='HarderOres:ore_redstone' weight='0.75' />                   
                     <Description>
                         Diffuse redstone cloud surrounded by single-block "hint" veins, found in deserts.
                     </Description>
@@ -958,7 +962,9 @@
                     <Setting name='CloudRadius' avg=':= 0.65 * hardredstoneSize * _default_' range=':= 0.5 * hardredstoneSize * _default_'/>
                     <Setting name='CloudThickness' avg=':= 0.7 * hardredstoneSize * _default_' range=':= 0.7 * hardredstoneSize * _default_'/>
                     <BiomeSet inherits='redstoneBiomes' />
-                    <Veins name='hardRedstoneHintVeins' block='HarderOres:ore_redstone' inherits='PresetHintVeins'>
+                    <Veins name='hardRedstoneHintVeins' inherits='PresetHintVeins'>
+                        <OreBlock block='minecraft:redstone_ore' weight='0.25' />
+                        <OreBlock block='HarderOres:ore_redstone' weight='0.75' />                       
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x40550000</WireframeColor>
                         <Setting name='MotherlodeFrequency' avg=':= 0.7 * _default_' range=':= _default_'/>
