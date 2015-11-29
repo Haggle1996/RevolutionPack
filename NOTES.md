@@ -21,22 +21,18 @@
 4. EC - unlimited
 
 - IE Assembler used to make cables. Requires 3 steps for EIO.
+- Ender IO item RF/t amounts
 - Rebalance power usage -- adjust upwards as necessary
 - Remove Recurrent Complex structures
-- Mekanism scripts only install with Mekanism
-- Jetpack solution
 - Update website
-- Increase amount of CC pages in loot chests.
-- Fix FlansMod spam
 - Flansmod guns need recipes
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
 - Configure securitycraft/secret rooms
 - Test other dimensions for ore generation - particularly cave dimension
 - Revert Hunger Overhaul to a version DragonAPI likes
-- Verify EiraIRC configuration
-- Cleanup Enviromine useless items (camel pack, etc).
 - Look into Pam's Markets
-- Cleanup Apple&Milk&Tea machines (Jaw Crusher)
+- Mekanism scripts only install with Mekanism
+- Verify EiraIRC configuration
 
 #Pack changes
 
@@ -51,10 +47,11 @@
 - CFBH sink requires water pumped in
 - Water is now finite
 - Seasons, animals, ores
-- Regular redstone spawns along with hardended redstone
+- Regular redstone spawns along with hardened redstone, so that you can get aluminum powder
 - Pitchblende spawns along with uranium
 - Disabled all of enviromine except for food rotting, mineshafts, and torches burning out
 - Harder Wildlife seasonal affect on crops is removed (controlled by Hunger Overhaul)
 - Reenabled the Orechid and Orechid Ignum
 - Removed Natura Barley and Cotton crops, and related recipes
 - Crop growth is now affected by seasons and biome, and is generally 10x slower. However, you can now build greenhouses or plant underground. Planting indoors will improve crop growth performance when conditions are not ideal.
+- Removed the hyper jaw crusher

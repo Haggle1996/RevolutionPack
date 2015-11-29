@@ -5,7 +5,7 @@ val piston = <ore:craftingPiston>;
 val stone = <minecraft:stonebrick:*>;
 val blastfurnace = <RotaryCraft:rotarycraft_item_machine:45>;
 val ironGear = <ore:gearIron>;
-#val plate = <bcadditions:heatPlating>;
+val plate = <Railcraft:part.plate>;
 val block = <ore:blockSteel>;
 val ingot = <ore:ingotSteel>;
 
@@ -23,10 +23,10 @@ val c3 = <EnderIO:itemBasicCapacitor:2>;
 
 # Stirling requires a blast furnace and plating -- gates behind rolling mill
 val stirling = <EnderIO:blockStirlingGenerator>;
-#recipes.remove(stirling);
-#recipes.addShaped(stirling,[[stone,stone,stone],
-#							[plate,blastfurnace,plate],
-#							[ironGear,piston,ironGear]]);
+recipes.remove(stirling);
+recipes.addShaped(stirling,[[stone,stone,stone],
+							[plate,blastfurnace,plate],
+							[ironGear,piston,ironGear]]);
 
 recipes.remove(c1);
 recipes.remove(c2);
