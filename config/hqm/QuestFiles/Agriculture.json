@@ -8,60 +8,8 @@
       "x": 41,
       "y": 77,
       "icon": {
-        "id": "TConstruct:mattock",
-        "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:90,Head:3,BaseAttack:6,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:6,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:400,RenderAccessory:3,ToolLevel:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:90,Modifiers:0},display:{Name:\"§fFlint Mattock\"}}"
       },
       "tasks": [
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "TConstruct:ToolStationBlock",
-                "damage": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "TConstruct:ToolStationBlock",
-                "damage": 10
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "TConstruct:ToolStationBlock",
-                "damage": 5
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "TConstruct:CraftingStation"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "TConstruct:ToolStationBlock"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "TConstruct:mattock",
-                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:90,Head:3,BaseAttack:6,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:6,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:400,RenderAccessory:3,ToolLevel:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:90,Modifiers:0},display:{Name:\"§fFlint Mattock\"}}"
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
       ],
       "reward": [
         {
@@ -108,11 +56,6 @@
             {
               "item": {
                 "id": "harvestcraft:bakewareItem"
-              }
-            },
-            {
-              "item": {
-                "id": "IguanaTweaksTConstruct:clayBucketUnfired"
               }
             }
           ]
