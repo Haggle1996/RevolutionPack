@@ -173,7 +173,19 @@
         
         "background":
         {
-            "image" : "revolution:textures/gui/title/background/theme.png",
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+                    "revolution:textures/gui/title/background/cover1.png",
+                    "revolution:textures/gui/title/background/cover2.png",
+                    "revolution:textures/gui/title/background/cover3.png",
+                    "revolution:textures/gui/title/background/cover4.png",
+                    "revolution:textures/gui/title/background/cover5.png"
+                ],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            },
             "mode" : "fill"
         }
     }
