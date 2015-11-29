@@ -26,11 +26,7 @@
 - Mekanism scripts only install with Mekanism
 - Jetpack solution
 - Update website
-- Delete configs of removed mods
-- Revert LLibrary to 5.5
 - Increase amount of CC pages in loot chests.
-- Add Thaumcraft ores (amber, cinnabar, and infused stones) to ore gen
-- Add JurassiCraft ores (amber, bones, marble
 - Fix FlansMod spam
 - Flansmod guns need recipes
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
@@ -38,8 +34,9 @@
 - Test other dimensions for ore generation - particularly cave dimension
 - Revert Hunger Overhaul to a version DragonAPI likes
 - Verify EiraIRC configuration
-- Consider removing TiCo
 - Cleanup Enviromine useless items (camel pack, etc).
+- Look into Pam's Markets
+- Cleanup Apple&Milk&Tea machines (Jaw Crusher)
 
 #Pack changes
 
@@ -58,3 +55,6 @@
 - Pitchblende spawns along with uranium
 - Disabled all of enviromine except for food rotting, mineshafts, and torches burning out
 - Harder Wildlife seasonal affect on crops is removed (controlled by Hunger Overhaul)
+- Reenabled the Orechid and Orechid Ignum
+- Removed Natura Barley and Cotton crops, and related recipes
+- Crop growth is now affected by seasons and biome, and is generally 10x slower. However, you can now build greenhouses or plant underground. Planting indoors will improve crop growth performance when conditions are not ideal.
