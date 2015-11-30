@@ -46,7 +46,8 @@
 - Seasons, animals, ores
 - Regular redstone spawns along with hardened redstone, so that you can get aluminum powder
 - Pitchblende spawns along with uranium
-- Disabled all of enviromine except for food rotting, mineshafts, and torches burning out
+- Disabled all of enviromine except for food rotting, mineshafts, gasses, physics and torches burning out
+- Disabled Harder Underground, as this is performed by Enviromine
 - Harder Wildlife seasonal affect on crops is removed (controlled by Hunger Overhaul)
 - Reenabled the Orechid and Orechid Ignum
 - Removed Natura Barley and Cotton crops, and related recipes
