@@ -1,7 +1,5 @@
 ﻿#TODO List
 
-- `Add resources to pack on launcher`
-
 - Startup Page
 - HQM: Advanced Systems Manager removed
 - HQM: Steve's Workshop removed from bags
@@ -25,12 +23,13 @@
 - Update website
 - Flansmod guns need recipes
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
-- Configure securitycraft/secret rooms
 - Test other dimensions for ore generation - particularly cave dimension
 - Revert Hunger Overhaul to a version DragonAPI likes
 - Look into Pam's Markets
 - Mekanism scripts only install with Mekanism
 - Verify EiraIRC configuration
+- Bee grains not working
+
 
 #Pack changes
 

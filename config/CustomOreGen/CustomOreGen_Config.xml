@@ -45,7 +45,7 @@
         </OptionDisplayGroup>
 
         <OptionChoice name='COGActive'
-                      default=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'
+                      default=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource" | dimension.generator = "Caves"'
                       displayGroup='groupInternal'>
             <Choice value='true' displayValue='On'/>
             <Choice value='false' displayValue='Off'/>
@@ -58,9 +58,10 @@
         </OptionChoice>
 
         <OptionDisplayGroup name='groupGeneral' displayName='General' displayState='shown'>
-            <Description> 
+            <Description>:= dimension.generator</Description>
+            <!--<Description> 
                 Options affecting all ore distributions.
-            </Description>
+            </Description>-->
         </OptionDisplayGroup>
         
         <OptionNumeric name='oreFreq' default='1' min='0' max='5' displayState='shown' displayGroup='groupGeneral'>
