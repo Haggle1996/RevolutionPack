@@ -58,10 +58,9 @@
         </OptionChoice>
 
         <OptionDisplayGroup name='groupGeneral' displayName='General' displayState='shown'>
-            <Description>:= dimension.generator</Description>
-            <!--<Description> 
+            <Description> 
                 Options affecting all ore distributions.
-            </Description>-->
+            </Description>
         </OptionDisplayGroup>
         
         <OptionNumeric name='oreFreq' default='1' min='0' max='5' displayState='shown' displayGroup='groupGeneral'>
