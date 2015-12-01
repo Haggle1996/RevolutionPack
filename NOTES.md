@@ -20,6 +20,7 @@
 
 - IE Assembler used to make cables. Requires 3 steps for EIO.
 - Remove Recurrent Complex structures
+- Harder Underground removed from Reasonable Realism
 - Update website
 - Flansmod guns need recipes
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
