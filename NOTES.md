@@ -19,6 +19,7 @@
 4. EC - unlimited
 
 - IE Assembler used to make cables. Requires 3 steps for EIO.
+- IE to BC or BC to IE? 
 - Remove Recurrent Complex structures
 - Update website
 - Flansmod guns need recipes
@@ -26,9 +27,9 @@
 - Test other dimensions for ore generation - particularly cave dimension
 - Revert Hunger Overhaul to a version DragonAPI likes
 - Look into Pam's Markets
-- Mekanism scripts only install with Mekanism
 - Verify EiraIRC configuration
-- For v1.x, disable Harder Ores, unzip CoFhCore config 
+- Add Harder Ores to Extractor
+- Configure starting inventory using FTBUtilities
 
 #Pack changes
 
