@@ -1,5 +1,0 @@
-flansmod:m9,1,0
-OpenBlocks:sleepingBag,1,0
-harvestcraft:epicbaconItem,2,0
-flansmod:m9Ammo,5,0
-
