@@ -1,0 +1,91 @@
+{
+	//Used to add recipes for the given tier for Chest Converters 0-7
+	//Note all these recipe are shaped!
+	"Tier0":{
+		//A list of recipes
+		"recipes":{
+			//The shape template of the recipe specifired by the characters in 1-3 strings
+			//All strings MUST be the same length! And must have atleast 1 string
+			"template":["uc"],
+			//The list of parts for the recipe(required)
+			//Part:{
+			//	(required)"id":'character id',
+			//	(required)"type":"part type", 
+			//	(mostly required)"part"
+			//      (valid "type":"part" options: 
+			//		"stack":{(required)"name":"modId(optional Default:minecraft):itemName", (optional)"meta":metadata(set as "wildcard" for any metadata), (optional)"nbt":{nbt data}}, 
+			//		"ore":"oreDictionaryName", 
+			//		"material":"frame"(a frame material), "core"(a core material),
+			//		"materialColor":"clay","wool","dye"(use a stained clay block, wool block, or any dye to color the chest),
+			//		"materialChest"(no part required, uses a chest of the same tier and copies its data, data will be overrided by other materials)
+			//}
+			"parts":[
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}},
+				{"id":'c', "type":"materialChest"}
+			]
+		}
+	},
+	"Tier1":{
+		"recipes":{
+			"template":["uc"],
+			"parts":[
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}},
+				{"id":'c', "type":"materialChest"}
+			]
+		}
+	},
+	"Tier2":{
+		"recipes":{
+			"template":["uc"],
+			"parts":[
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}},
+				{"id":'c', "type":"materialChest"}
+			]
+		}
+	},
+	"Tier3":{
+		"recipes":{
+			"template":["uc"],
+			"parts":[
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}},
+				{"id":'c', "type":"materialChest"}
+			]
+		}
+	},
+	"Tier4":{
+		"recipes":{
+			"template":["uc"],
+			"parts":[
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}},
+				{"id":'c', "type":"materialChest"}
+			]
+		}
+	},
+	"Tier5":{
+		"recipes":{
+			"template":["uc"],
+			"parts":[
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}},
+				{"id":'c', "type":"materialChest"}
+			]
+		}
+	},
+	"Tier6":{
+		"recipes":{
+			"template":["uc"],
+			"parts":[
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}},
+				{"id":'c', "type":"materialChest"}
+			]
+		}
+	},
+	"Tier7":{
+		"recipes":{
+			"template":["uc"],
+			"parts":[
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}},
+				{"id":'c', "type":"materialChest"}
+			]
+		}
+	}
+}

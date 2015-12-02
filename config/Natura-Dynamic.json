@@ -21,6 +21,9 @@
     },
     "Natura FMP Compatibility": {
       "enabled": true
+    },
+    "Natura TreeCapitator Compatibility": {
+      "enabled": true
     }
   }
 }

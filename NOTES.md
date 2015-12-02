@@ -30,6 +30,9 @@
 - Verify EiraIRC configuration
 - Add Harder Ores to Extractor
 - Configure starting inventory using FTBUtilities
+- Remove Gem tools from blue power, BOP
+- Add Teslatite to ore gen
+- Remove Sapphire Glass and Wither-proof sapphire glass
 
 #Pack changes
 

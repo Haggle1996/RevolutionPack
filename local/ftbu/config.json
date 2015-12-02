@@ -1,0 +1,62 @@
+{
+  "backups": {
+    "autoExportInvOnLogout": false,
+    "backupsToKeep": 12,
+    "backupTimer": 2.0,
+    "compressionLevel": 1,
+    "displayFileSize": true,
+    "enabled": true,
+    "folder": "./backups/"
+  },
+  "claims": {
+    "breakWhitelist": [
+      "OpenBlocks:grave"
+    ],
+    "dimensionBlacklist": [],
+    "forcedChunkSecurity": -1,
+    "forcedExplosions": 1,
+    "maxClaimsAdmin": 1000,
+    "maxClaimsPlayer": 500
+  },
+  "commands": {
+    "admin_backup": true,
+    "admin_edit_chunks": true,
+    "admin_edit_config": true,
+    "admin_invsee": true,
+    "admin_warps": true,
+    "admin_world_border": true,
+    "back": true,
+    "crossDimHomes": true,
+    "home": true,
+    "maxHomesAdmin": 100,
+    "maxHomesPlayer": 0,
+    "name_cmd_admin": "admin",
+    "spawn": true,
+    "tplast": true,
+    "warp": true
+  },
+  "general": {
+    "allowCreativeInteractSecure": true,
+    "blockedEntities": [],
+    "restartTimer": 0.0,
+    "safeSpawn": false,
+    "spawnPVP": true
+  },
+  "login": {
+    "customBadges": "",
+    "motd": [
+      "Welcome to the server!"
+    ],
+    "rules": "",
+    "startingItems": [
+      "minecraft:apple 16 0"
+    ]
+  },
+  "tops": {
+    "deaths": true,
+    "deaths_ph": true,
+    "first_joined": true,
+    "last_seen": true,
+    "time_played": true
+  }
+}

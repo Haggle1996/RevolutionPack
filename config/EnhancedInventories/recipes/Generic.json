@@ -1,0 +1,119 @@
+{
+	//A list of recipes
+	"Basic Upgrade":{
+		//The output itemstack(required)
+		//{(required)"name":"modId(optional Default:minecraft):itemName", (optional)"meta":metadata(set as "wildcard" for any metadata), (optional)"nbt":{nbt data}}
+		"output":{
+			"name":"EnhancedInventories:functionUpgrade", 
+			"meta":0
+			},
+		//(optional)The shape template of the recipe specifired by the characters in 1-3 strings
+		//All strings MUST be the same length! And must have atleast 1 string
+		//Leave out a template to make shapeless
+		"template":[" c ","cpc"," c "],
+		//The list of parts for the recipe(required)
+		//Part:{
+		//	(required)"id":'character id',
+		//	(required)"type":"part type", 
+		//	(mostly required)"part"
+		//      (valid "type":"part" options: 
+		//		"stack":{(required)"name":"modId(optional Default:minecraft):itemName", (optional)"meta":metadata(set as "wildcard" for any metadata), (optional)"nbt":{nbt data}}, 
+		//		"ore":"oreDictionaryName"
+		//}
+		"parts":[
+			{"id":'c', "type":"ore", "part":"cobblestone"},
+			{"id":'p', "type":"stack", "part":{"name":"paper"}}]
+	},
+	"Hopper Upgrade":{
+		"output":{
+			"name":"EnhancedInventories:functionUpgrade", 
+			"meta":1
+			},
+		"template":["huh"],
+		"parts":[
+			{"id":'h', "type":"stack", "part":{"name":"hopper"}},
+			{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}]
+	},
+	"Trapped Upgrade":{
+		"output":{
+			"name":"EnhancedInventories:functionUpgrade", 
+			"meta":2
+			},
+		"parts":[
+			{"id":'t', "type":"stack", "part":{"name":"tripwire_hook"}},
+			{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}]
+	},
+	"Security Upgrade":{
+		"output":{
+			"name":"EnhancedInventories:functionUpgrade", 
+			"meta":3
+			},
+		"template":[" n ","nin","nnn"],
+		"parts":[
+			{"id":'n', "type":"ore", "part":"nuggetGold"},
+			{"id":'i', "type":"ore", "part":"ingotGold"}]
+	},
+	"Reinforced Upgrade":{
+		"output":{
+			"name":"EnhancedInventories:functionUpgrade", 
+			"meta":4
+			},
+		"template":["ooo","ouo","ooo"],
+		"parts":[
+			{"id":'o', "type":"stack", "part":{"name":"obsidian"}},
+			{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}]
+	},
+	"Paint Brush":{
+		"output":{
+			"name":"EnhancedInventories:paintbrush"
+			},
+		"template":["w "," s"],
+		"parts":[
+			{"id":'w', "type":"stack", "part":{"name":"wool", "meta":"wildcrard"}},
+			{"id":'s', "type":"ore", "part":"stickWood"}]
+	},
+	"Schematic":{
+		"output":{
+			"name":"EnhancedInventories:schematic"
+			},
+		"template":["s","p","s"],
+		"parts":[
+			{"id":'p', "type":"stack", "part":{"name":"paper"}},
+			{"id":'s', "type":"ore", "part":"stickWood"}]
+	},
+	"Worktable":{
+		"output":{
+			"name":"EnhancedInventories:blockWorktable"
+			},
+		"template":["ccc","sts","sws"],
+		"parts":[
+			{"id":'c', "type":"stack", "part":{"name":"carpet", "meta":"wildcrard"}},
+			{"id":'s', "type":"ore", "part":"cobblestone"},
+			{"id":'t', "type":"stack", "part":{"name":"crafting_table"}},
+			{"id":'w', "type":"ore", "part":"chestWood"}]
+	},
+	"AutoAssembler":{
+		"output":{
+			"name":"EnhancedInventories:blockAutoAssembler"
+			},
+		"template":["ipi","scs","ipi"],
+		"parts":[
+			{"id":'i', "type":"ore", "part":"ingotIron"},
+			{"id":'p', "type":"stack", "part":{"name":"piston"}},
+			{"id":'s', "type":"ore", "part":"cobblestone"},
+			{"id":'c', "type":"stack", "part":{"name":"crafting_table"}}]
+	},
+	"Painter":{
+		"output":{
+			"name":"EnhancedInventories:blockPainter"
+			},
+		"template":["iri","gcb","iki"],
+		"parts":[
+			{"id":'i', "type":"ore", "part":"ingotIron"},
+			{"id":'r', "type":"ore", "part":"dyeRed"},
+			{"id":'g', "type":"ore", "part":"dyeGreen"},
+			{"id":'b', "type":"ore", "part":"dyeBlue"},
+			{"id":'k', "type":"ore", "part":"dyeBlack"},
+			{"id":'c', "type":"stack", "part":{"name":"crafting_table"}}]
+	}
+}

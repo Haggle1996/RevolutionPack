@@ -1,0 +1,104 @@
+{
+//A List of frames
+	"Copper":{
+		//The display name of the frame(required)
+		"name":"frame.ore.copper",
+		//The rgb color of the frame(optional default: 255,255,255)
+		"ColorRed":195,
+		"ColorGreen":125,
+		"ColorBlue":10,
+		//The frame type (optional default 0)
+		//0: metal
+		//1: stone
+		//2: obsidian
+		"FrameType":0,
+		//The tier the frame is used to craft(optional 0-7(inclusive) default -1)
+		//set to -1 to disable crafting(still alows painting)
+		"tier":1,
+		//a list of materials that can be used to craft/paint a frame(required)
+		//OreDictionary value: "Ore"
+		//ItemStack: {"name":"name", (optional)"meta":meta(set to "wildcard" to use any meta}, "nbt":{nbt data}}
+		"materials":"ingotCopper"
+	},
+	"Tin":{
+		"name":"frame.ore.tin",
+		"ColorRed":117,
+		"ColorGreen":148,
+		"ColorBlue":191,
+		"FrameType":0,
+		"tier":1,
+		"materials":"ingotTin"
+	},
+	"Silver":{
+		"name":"frame.ore.silver",
+		"ColorRed":147,
+		"ColorGreen":178,
+		"ColorBlue":201,
+		"FrameType":0,
+		"tier":2,
+		"materials":"ingotSilver"
+	},
+	"Bronze":{
+		"name":"frame.ore.bronze",
+		"ColorRed":255,
+		"ColorGreen":155,
+		"ColorBlue":50,
+		"FrameType":0,
+		"tier":2,
+		"materials":"ingotBronze"
+	},
+	"Steel":{
+		"name":"frame.ore.steel",
+		"ColorRed":128,
+		"ColorGreen":128,
+		"ColorBlue":128,
+		"FrameType":0,
+		"tier":3,
+		"materials":"ingotSteel"
+	},
+	"Platinum":{
+		"name":"frame.ore.platinum",
+		"ColorRed":98,
+		"ColorGreen":153,
+		"ColorBlue":255,
+		"FrameType":0,
+		"tier":5,
+		"materials":"ingotPlatinum"
+	},
+	"Alumite":{
+		"name":"frame.ore.alumite",
+		"ColorRed":235,
+		"ColorGreen":140,
+		"ColorBlue":240,
+		"FrameType":0,
+		"tier":5,
+		"materials":"ingotAlumite"
+	},
+	"Cobalt":{
+		"name":"frame.ore.cobalt",
+		"ColorRed":65,
+		"ColorGreen":65,
+		"ColorBlue":255,
+		"FrameType":0,
+		"tier":6,
+		"materials":"ingotCobalt"
+	},
+	"Ardite":{
+		"name":"frame.ore.ardite",
+		"ColorRed":255,
+		"ColorGreen":88,
+		"ColorBlue":0,
+		"FrameType":0,
+		"tier":6,
+		"materials":"ingotArdite"
+	},
+	"Manyullyn":{
+		"name":"frame.ore.manyullyn",
+		"ColorRed":120,
+		"ColorGreen":0,
+		"ColorBlue":235,
+		"FrameType":0,
+		"tier":7,
+		"materials":"ingotManyullyn"
+	}
+}

@@ -1,0 +1,82 @@
+{
+	//Used to add recipes for the given tier of size upgrade 0-6
+	//Note all these recipe are shaped!
+	"Tier0":{
+		//A list of recipes
+		"recipes":{
+			//The shape template of the recipe specifired by the characters in 1-3 strings
+			//All strings MUST be the same length! And must have atleast 1 string
+			"template":["mmm","mum","mmm"],
+			//The list of parts for the recipe(required)
+			//Part:{
+			//	(required)"id":'character id',
+			//	(required)"type":"part type", 
+			//	(mostly required)"part"
+			//      (valid "type":"part" options: 
+			//		"stack":{(required)"name":"modId(optional Default:minecraft):itemName", (optional)"meta":metadata(set as "wildcard" for any metadata), (optional)"nbt":{nbt data}}, 
+			//		"ore":"oreDictionaryName", 
+			//		"material":"frame"(a frame material will replace the frame of unpainted tiles), "core"(require a core material has no effect on appearance),
+			//		"materialColor":"clay","wool","dye"(use a stained clay block, wool block, or any dye to craft the upgrade has no effect on appearance),
+			//		"materialChest"(no part required, not valid for tier 0! uses a upgrade of the previous tier and copies its data, data will be overrided by other materials)
+			//}
+			"parts":[
+				{"id":'m', "type":"material", "part":"frame"},
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}
+			]
+		}
+	},
+	"Tier1":{
+		"recipes":{
+			"template":["mmm","mum","mmm"],
+			"parts":[
+				{"id":'m', "type":"material", "part":"frame"},
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}
+			]
+		}
+	},
+	"Tier2":{
+		"recipes":{
+			"template":["mmm","mum","mmm"],
+			"parts":[
+				{"id":'m', "type":"material", "part":"frame"},
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}
+			]
+		}
+	},
+	"Tier3":{
+		"recipes":{
+			"template":["mmm","mum","mmm"],
+			"parts":[
+				{"id":'m', "type":"material", "part":"frame"},
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}
+			]
+		}
+	},
+	"Tier4":{
+		"recipes":{
+			"template":["mmm","mum","mmm"],
+			"parts":[
+				{"id":'m', "type":"material", "part":"frame"},
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}
+			]
+		}
+	},
+	"Tier5":{
+		"recipes":{
+			"template":["mmm","mum","mmm"],
+			"parts":[
+				{"id":'m', "type":"material", "part":"frame"},
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}
+			]
+		}
+	},
+	"Tier6":{
+		"recipes":{
+			"template":["mmm","mum","mmm"],
+			"parts":[
+				{"id":'m', "type":"material", "part":"frame"},
+				{"id":'u', "type":"stack", "part":{"name":"EnhancedInventories:functionUpgrade"}}
+			]
+		}
+	}
+}

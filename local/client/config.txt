@@ -1,0 +1,14 @@
+ftbu:chat_links=1
+ftbu:item_ore_names=0
+ftbu:item_reg_names=0
+ftbu:options_button=1
+ftbu:player_decorators=1
+ftbu:player_decorators_self=1
+ftbu:player_options_shortcut=0
+ftbu:sort_friends_az=0
+ftbu_misc:hide_armor_fg=0
+ftbu_misc:openHSB_cg=0
+sidebar_buttons:button_claims=1
+sidebar_buttons:button_guide=1
+sidebar_buttons:button_info=1
+sidebar_buttons:button_settings=1
