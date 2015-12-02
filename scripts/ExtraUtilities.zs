@@ -1,6 +1,6 @@
 #Extra Utilties
 
-val quarry = <ExtraUtilities:enderQuarry>;
+#val quarry = <ExtraUtilities:enderQuarry>;
 val pump = <ExtraUtilities:enderThermicPump>;
 val enderObsidian = <ore:blockEnderObsidian>;
 val matrix = <ExtraUtilities:decorativeBlock1:12>;
@@ -34,10 +34,10 @@ val star = <minecraft:nether_star>;
 val skull = <minecraft:skull:1>;
 val unstableblock = <ExtraUtilities:decorativeBlock1:5>;
 
-recipes.remove(quarry);
-recipes.addShaped(quarry,[[enderObsidian,ray,enderObsidian],
-						[enderCore,matrix,enderCore],
-						[pump,bedpick,pump]]);
+#recipes.remove(quarry);
+#recipes.addShaped(quarry,[[enderObsidian,ray,enderObsidian],
+#						[enderCore,matrix,enderCore],
+#						[pump,bedpick,pump]]);
 
 #drums are expensive
 recipes.remove(drum);
@@ -46,7 +46,7 @@ recipes.addShaped(drum,[[steel,pressure,steel],
 						[steel,pressure,steel]]);
 
 #blackout curtains no longer conflict with malisis doors
-recipes.remove(<ExtraUtilities:curtains> * 12);
-recipes.addShaped(<ExtraUtilities:curtains> * 12, [[<ore:blockWool>,<ore:blockWool>,null],
-												   [<ore:blockWool>,<ore:blockWool>,<minecraft:string>],
-												   [<ore:blockWool>,<ore:blockWool>,null]]);
+#recipes.remove(<ExtraUtilities:curtains> * 12);
+#recipes.addShaped(<ExtraUtilities:curtains> * 12, [[<ore:blockWool>,<ore:blockWool>,null],
+#												   [<ore:blockWool>,<ore:blockWool>,<minecraft:string>],
+#												   [<ore:blockWool>,<ore:blockWool>,null]]);

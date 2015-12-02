@@ -28,8 +28,7 @@
 - Look into Pam's Markets
 - Mekanism scripts only install with Mekanism
 - Verify EiraIRC configuration
-- Bee grains not working
-
+- For v1.x, disable Harder Ores, unzip CoFhCore config 
 
 #Pack changes
 
