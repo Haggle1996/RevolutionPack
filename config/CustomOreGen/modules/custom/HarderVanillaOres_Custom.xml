@@ -928,9 +928,7 @@
             </IfCondition>
                 
             <IfCondition condition=':= hardredstoneDist = "layeredVeins"'>
-                <Veins name='hardRedstoneVeins' inherits='PresetVerticalVeins'>
-                    <OreBlock block='minecraft:redstone_ore' weight='0.25' />
-                    <OreBlock block='HarderOres:ore_redstone' weight='0.75' />                    
+                <Veins name='hardRedstoneVeins' block='minecraft:redstone_ore' inherits='PresetVerticalVeins'>
                     <Description>
                         Isolated veins (no motherlodes) that run vertically.  These veins are fairly common, but a challenge to mine because you have to tunnel straight down.
                     </Description>
@@ -950,9 +948,7 @@
             </IfCondition>
                 
             <IfCondition condition=':= hardredstoneDist = "strategicClouds"'>
-                <Cloud name='hardRedstoneCloud' inherits='PresetStrategicCloud'>
-                    <OreBlock block='minecraft:redstone_ore' weight='0.25' />
-                    <OreBlock block='HarderOres:ore_redstone' weight='0.75' />                   
+                <Cloud name='hardRedstoneCloud' block='minecraft:redstone_ore' inherits='PresetStrategicCloud'>
                     <Description>
                         Diffuse redstone cloud surrounded by single-block "hint" veins, found in deserts.
                     </Description>
@@ -962,9 +958,7 @@
                     <Setting name='CloudRadius' avg=':= 0.65 * hardredstoneSize * _default_' range=':= 0.5 * hardredstoneSize * _default_'/>
                     <Setting name='CloudThickness' avg=':= 0.7 * hardredstoneSize * _default_' range=':= 0.7 * hardredstoneSize * _default_'/>
                     <BiomeSet inherits='redstoneBiomes' />
-                    <Veins name='hardRedstoneHintVeins' inherits='PresetHintVeins'>
-                        <OreBlock block='minecraft:redstone_ore' weight='0.25' />
-                        <OreBlock block='HarderOres:ore_redstone' weight='0.75' />                       
+                    <Veins name='hardRedstoneHintVeins' block='minecraft:redstone_ore' inherits='PresetHintVeins'>
                         <DrawWireframe>:=drawWireframes</DrawWireframe>
                         <WireframeColor>0x40550000</WireframeColor>
                         <Setting name='MotherlodeFrequency' avg=':= 0.7 * _default_' range=':= _default_'/>
@@ -1008,7 +1002,9 @@
 				<Setting name='DistributionFrequency' avg='0' range='0'/>
 			</Cloud>
             <IfCondition condition=':= harddiamondDist = "vanillaStdGen"'>
-                <StandardGen name='hardDiamondStandard' block='HarderOres:ore_diamond:9' inherits='PresetStandardGen'>
+                <StandardGen name='hardDiamondStandard' inherits='PresetStandardGen'>
+                    <OreBlock block='minecraft:diamond_ore' weight='0.5' />
+                    <OreBlock block='HarderOres:ore_diamond' weight='0.5' />                   
                     <Description> Equivalent to vanilla minecraft diamond distribution </Description>
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40336699</WireframeColor>
@@ -1019,7 +1015,9 @@
             </IfCondition>
                 
             <IfCondition condition=':= harddiamondDist = "layeredVeins"'>
-                <Veins name="hardDiamondVeins" block='HarderOres:ore_diamond:7' inherits='PresetPipeVeins' seed='0xF186'>
+                <Veins name="hardDiamondVeins" inherits='PresetPipeVeins' seed='0xF186'>
+                    <OreBlock block='minecraft:diamond_ore' weight='0.5' />
+                    <OreBlock block='HarderOres:ore_diamond' weight='0.5' />                                   
                     <Description> Short sparsely filled tubes starting at bedrock. </Description>
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40336699</WireframeColor>
@@ -1038,7 +1036,7 @@
                     <ReplacesOre block='ganyssurface:.*' weight='-1'/>
                     <!--<Replaces block='minecraft:dirt'/>-->
                     <!--<Replaces block='minecraft:gravel'/>-->
-                    <Replaces block='HarderOres:ore_diamond:7'/>
+                    <Replaces block='HarderOres:ore_diamond'/>
                 </Veins>
                 <Veins name="hardDiamondVeinsSilverfish" block='minecraft:monster_egg' inherits='hardDiamondVeins' seed='0xF186'>
                     <Description>
@@ -1055,7 +1053,9 @@
             </IfCondition>
                 
             <IfCondition condition=':= harddiamondDist = "strategicClouds"'>
-                <Cloud name='hardDiamondCloud' block='HarderOres:ore_diamond:7' inherits='PresetStrategicCloud'>
+                <Cloud name='hardDiamondCloud' inherits='PresetStrategicCloud'>
+                    <OreBlock block='minecraft:diamond_ore' weight='0.5' />
+                    <OreBlock block='HarderOres:ore_diamond' weight='0.5' />                                   
                     <Description>  Diffuse diamond cloud with no internal density noise. </Description>
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x40336699</WireframeColor>

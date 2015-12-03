@@ -45,7 +45,7 @@
         </OptionDisplayGroup>
 
         <OptionChoice name='COGActive'
-                      default=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource" | dimension.generator = "Caves"'
+                      default=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'
                       displayGroup='groupInternal'>
             <Choice value='true' displayValue='On'/>
             <Choice value='false' displayValue='Off'/>
@@ -400,7 +400,8 @@
     <Import file='modules/custom/HarderExtraOres_Custom.xml' />
     <Import file='modules/custom/HarderLimonite_Custom.xml' />
     <Import file='modules/custom/HarderVanillaOres_Custom.xml' />
-    <Import file='modules/custom/UndergroundHazards_Custom.xml' />
+    <!--<Import file='modules/custom/UndergroundHazards_Custom.xml' />-->
+    <Import file='modules/custom/Fallback.xml' />
     
     <!--*************************   Testing & Debugging   *********************
     *   I use this section for quick-and-dirty experiments

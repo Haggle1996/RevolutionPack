@@ -18,8 +18,6 @@
 3. EIO - 20480 RF/t
 4. EC - unlimited
 
-- IE Assembler used to make cables. Requires 3 steps for EIO.
-- IE to BC or BC to IE? 
 - Remove Recurrent Complex structures
 - Update website
 - Flansmod guns need recipes
@@ -28,11 +26,8 @@
 - Revert Hunger Overhaul to a version DragonAPI likes
 - Look into Pam's Markets
 - Verify EiraIRC configuration
-- Add Harder Ores to Extractor
 - Configure starting inventory using FTBUtilities
-- Remove Gem tools from blue power, BOP
-- Add Teslatite to ore gen
-- Remove Sapphire Glass and Wither-proof sapphire glass
+- Guide in FTBUtilities
 
 #Pack changes
 
@@ -47,7 +42,8 @@
 - CFBH sink requires water pumped in
 - Water is now finite
 - Seasons, animals, ores
-- Regular redstone spawns along with hardened redstone, so that you can get aluminum powder
+- Regular redstone spawns in place of hard redstone, so that you can get aluminum powder
+- Regular diamonds spawn along with hard diamond
 - Pitchblende spawns along with uranium
 - Disabled all of enviromine except for food rotting, mineshafts, gasses, physics and torches burning out
 - Disabled Harder Underground, as this is performed by Enviromine
@@ -56,3 +52,5 @@
 - Removed Natura Barley and Cotton crops, and related recipes
 - Crop growth is now affected by seasons and biome, and is generally 10x slower. However, you can now build greenhouses or plant underground. Planting indoors will improve crop growth performance when conditions are not ideal.
 - Removed the hyper jaw crusher
+- Alloy smelter recipes generally require 10x more power. The IE Arc Furnace can alloy faster, but at a higher power cost
+- Ender IO conduit binder is now made with silicon and wool. Seriously? Who makes wire insulation from gravel, sand and clay?

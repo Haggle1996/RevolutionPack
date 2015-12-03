@@ -13,3 +13,6 @@
 #steel.remove(pigIngot);
 
 
+#val redstone = <ore:oreRedstone>;
+#val hredstone = <HarderOres:ore_redstone:*>;
+#redstone.add(hredstone);
