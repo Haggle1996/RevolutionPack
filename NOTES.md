@@ -18,6 +18,9 @@
 3. EIO - 20480 RF/t
 4. EC - unlimited
 
+- Remove uncrafting table
+- Forestry recipes appear to be broke.
+- Balance RFTools and other new mods' recipes
 - Remove Recurrent Complex structures
 - Update website
 - Flansmod guns need recipes
@@ -31,7 +34,7 @@
 
 #Pack changes
 
-- OpenBlocks graves are turned off
+- OpenBlocks graves are turned off, replaced with Lootable Bodies
 - Immersive Engineering Cables 256/1024/2048
 - Oregen has been rewritten extensively and is significantly faster
 - Pack now defaults to requesting 3.5GB of memory
@@ -51,6 +54,5 @@
 - Reenabled the Orechid and Orechid Ignum
 - Removed Natura Barley and Cotton crops, and related recipes
 - Crop growth is now affected by seasons and biome, and is generally 10x slower. However, you can now build greenhouses or plant underground. Planting indoors will improve crop growth performance when conditions are not ideal.
-- Removed the hyper jaw crusher
 - Alloy smelter recipes generally require 10x more power. The IE Arc Furnace can alloy faster, but at a higher power cost
 - Ender IO conduit binder is now made with silicon and wool. Seriously? Who makes wire insulation from gravel, sand and clay?
