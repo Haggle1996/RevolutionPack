@@ -9,15 +9,8 @@
 - HQM: Seared bricks wrong amount
 - HQM: Remove Mekanism
 
-- Rebalance pipes
+- Rebalance pipe recipes
 - Remove extra items from NEI
-
-- Tiered conduits
-1. IE - 4096 RF/t
-2. BC - 10240 RF/t
-3. EIO - 20480 RF/t
-4. EC - unlimited
-
 - Remove uncrafting table
 - Forestry recipes appear to be broke.
 - Balance RFTools and other new mods' recipes
@@ -31,6 +24,7 @@
 - Verify EiraIRC configuration
 - Configure starting inventory using FTBUtilities
 - Guide in FTBUtilities
+- Remove Binnies
 
 #Pack changes
 
