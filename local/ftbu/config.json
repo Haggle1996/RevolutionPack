@@ -49,7 +49,14 @@
     ],
     "rules": "",
     "startingItems": [
-      "minecraft:apple 16 0"
+      "minecraft:stone_pickaxe 1 0",
+      "minecraft:stone_axe 1 0",
+      "minecraft:stone_shovel 1 0",
+      "flansmod:m9 1 0",
+      "flansmod:m9Ammo 5 0",
+      "OpenBlocks:sleepingBag 1 0",
+      "harvestcraft:epicbaconItem 2 0",
+      "minecraft:torch 8 0"
     ]
   },
   "tops": {
