@@ -16,15 +16,15 @@
 - Balance RFTools and other new mods' recipes
 - Remove Recurrent Complex structures
 - Update website
-- Flansmod guns need recipes
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
-- Test other dimensions for ore generation - particularly cave dimension
 - Revert Hunger Overhaul to a version DragonAPI likes
 - Look into Pam's Markets
 - Verify EiraIRC configuration
 - Configure starting inventory using FTBUtilities
 - Guide in FTBUtilities
-- Remove Binnies
+- Update GunCus values and recipes
+- Weather mod
+- AppleCore remove outdated scripts
 
 #Pack changes
 
