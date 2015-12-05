@@ -1,0 +1,5 @@
+item._YourPackName_.bullet._BulletUnlocalizedName_.name=.45 ACP
+
+itemGroup._YourPackName_._GunUnlocalizedName_=AK-47
+item._YourPackName_._GunUnlocalizedName_.name=AK-47
+item._YourPackName_._GunUnlocalizedName_.magazine.name=AK-47 magazine
