@@ -6,7 +6,7 @@
         {
             "image" : "revolution:textures/gui/title/logo3.png",
             "posX" : -75,
-            "posY" : -63,
+            "posY" : -53,
             "width" : 250,
             "height" : 86,
             "alignment" : "center"
