@@ -10,7 +10,6 @@
 - HQM: Remove Mekanism
 
 - Remove extra items from NEI
-- Forestry recipes appear to be broke.
 - Balance RFTools and other new mods' recipes
 - Remove Recurrent Complex structures
 - Update website
@@ -20,11 +19,12 @@
 - Verify EiraIRC configuration
 - Configure starting inventory using FTBUtilities
 - Guide in FTBUtilities
-- Update GunCus values and recipes
 - Weather mod
 - AppleCore remove outdated scripts
 - Take better/more shots for loading screen
 - Update More Planets
+- Turn off Edit Mode on HQM
+- Enviromine causes RotaryCraft blocks to lose metadata on fall
 
 #Pack changes
 
@@ -53,3 +53,4 @@
 - Iron plates can now be made with a carpenter's hammer
 - Vanilla buckets, hoppers, and cauldrons are now made with iron plates and a hammer
 - BC pipes now use a metal plate instead of glass, depending on use (fluid, transport, power)
+- Roguelike dungeons have modern look and feel
