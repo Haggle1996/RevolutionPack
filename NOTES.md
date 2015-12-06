@@ -9,9 +9,7 @@
 - HQM: Seared bricks wrong amount
 - HQM: Remove Mekanism
 
-- Rebalance pipe recipes
 - Remove extra items from NEI
-- Remove uncrafting table
 - Forestry recipes appear to be broke.
 - Balance RFTools and other new mods' recipes
 - Remove Recurrent Complex structures
