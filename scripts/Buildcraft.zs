@@ -21,23 +21,21 @@ val stoneGear = <ore:gearStone>;
 val ironGear = <ore:gearIron>;
 val goldGear = <ore:gearGold>;
 val diamondGear = <ore:gearDiamond>;
+
 val copperplate = <Railcraft:part.plate:3>;
 val ironplate = <Railcraft:part.plate:0>;
-val plate = <Railcraft:part.plate>;
+val steelplate = <Railcraft:part.plate:1>;
+val tinplate = <Railcraft:part.plate:2>;
 
-#recipes.remove(redstone);
-#recipes.addShaped(redstone, [[plank,plank,plank]
-#							,[null,glass,null]
-#							,[woodGear,piston,woodGear]]);
-
+# Engines require copper plates
 recipes.remove(stirling);
 recipes.addShaped(stirling, [[cobble,cobble,cobble]
-							,[plate,glass,plate]
+							,[copperplate,glass,copperplate]
 							,[stoneGear,piston,stoneGear]]);
 
 recipes.remove(combustion);
 recipes.addShaped(combustion, [[iron,iron,iron]
-							,[plate,glass,plate]
+							,[copperplate,glass,copperplate]
 							,[ironGear,piston,ironGear]]);
 
 recipes.remove(quarry);

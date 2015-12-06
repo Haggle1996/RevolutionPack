@@ -11,6 +11,5 @@ ExtraUtilities.js
 BuildCraft.js
 Bibliocraft.js
 AppliedEnergistics2.js
-Tcon.js
 MFR.js
 GunCus.js

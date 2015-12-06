@@ -25,6 +25,8 @@
 - Update GunCus values and recipes
 - Weather mod
 - AppleCore remove outdated scripts
+- Take better/more shots for loading screen
+- Update More Planets
 
 #Pack changes
 
@@ -50,3 +52,6 @@
 - Crop growth is now affected by seasons and biome, and is generally 10x slower. However, you can now build greenhouses or plant underground. Planting indoors will improve crop growth performance when conditions are not ideal.
 - Alloy smelter recipes generally require 10x more power. The IE Arc Furnace can alloy faster, but at a higher power cost
 - Ender IO conduit binder is now made with silicon and wool. Seriously? Who makes wire insulation from gravel, sand and clay?
+- Iron plates can now be made with a carpenter's hammer
+- Vanilla buckets, hoppers, and cauldrons are now made with iron plates and a hammer
+- BC pipes now use a metal plate instead of glass, depending on use (fluid, transport, power)
