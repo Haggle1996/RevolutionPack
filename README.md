@@ -1,6 +1,4 @@
-#ATLauncher Pack Code: RevolutionPack
-
-## Revolution Pack
+# Revolution Pack
 
 Can you rebuild civilization after the Revolution?
 
