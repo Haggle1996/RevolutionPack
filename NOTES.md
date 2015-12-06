@@ -25,6 +25,7 @@
 - Update More Planets
 - Turn off Edit Mode on HQM
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
+- Add more ways to deal with raw ore
 
 #Pack changes
 
