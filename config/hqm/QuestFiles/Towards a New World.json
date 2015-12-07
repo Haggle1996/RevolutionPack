@@ -397,10 +397,6 @@
       "description": "No, not THAT spice. I just like the phrase.",
       "x": 125,
       "y": 92,
-      "icon": {
-        "id": "ExtraTrees:food",
-        "damage": 55
-      },
       "prerequisites": [
         "{Agriculture}[Food for the World]"
       ],
@@ -494,7 +490,7 @@
             },
             {
               "item": {
-                "id": "ExtraTrees:planks",
+                "id": "minecraft:bedrock",
                 "damage": 32,
                 "nbt": "{meta:32}"
               },

@@ -7,49 +7,46 @@
       "description": "The core of industry - the ability to smelt and alloy metals. This basic smeltery design is much more versatile that its simplicity suggests.",
       "x": 28,
       "y": 48,
-      "icon": {
-        "id": "TConstruct:Smeltery"
-      },
       "tasks": [
         {
           "type": "CRAFT",
           "items": [
             {
               "item": {
-                "id": "TConstruct:Smeltery",
+                "id": "minecraft:bedrock",
                 "damage": 2
               },
               "required": 12
             },
             {
               "item": {
-                "id": "TConstruct:Smeltery",
+                "id": "minecraft:bedrock",
                 "damage": 1
               },
               "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "TConstruct:SearedBlock",
+                "id": "minecraft:bedrock",
                 "damage": 1
               },
               "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "TConstruct:LavaTank"
+                "id": "minecraft:bedrock"
               },
               "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "TConstruct:SearedBlock"
+                "id": "minecraft:bedrock"
               },
               "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "TConstruct:SearedBlock",
+                "id": "minecraft:bedrock",
                 "damage": 2
               },
               "precision": "FUZZY"
@@ -130,7 +127,7 @@
             },
             {
               "item": {
-                "id": "Mekanism:OreBlock"
+                "id": "minecraft:bedrock"
               },
               "precision": "ORE_DICTIONARY"
             }
@@ -191,8 +188,7 @@
           "amount": 16
         },
         {
-          "id": "Mekanism:OreBlock",
-          "amount": 16
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },
@@ -263,10 +259,6 @@
       "description": " ",
       "x": 112,
       "y": 48,
-      "icon": {
-        "id": "Mekanism:MachineBlock",
-        "damage": 10
-      },
       "prerequisites": [
         "The New World Bucketeers"
       ],
@@ -276,27 +268,27 @@
           "items": [
             {
               "item": {
-                "id": "Mekanism:MachineBlock",
+                "id": "minecraft:bedrock",
                 "damage": 10
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Mekanism:MachineBlock",
+                "id": "minecraft:bedrock",
                 "damage": 3
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Mekanism:MachineBlock"
+                "id": "minecraft:bedrock"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Mekanism:MachineBlock",
+                "id": "minecraft:bedrock",
                 "damage": 8
               },
               "precision": "NBT_FUZZY"
@@ -338,9 +330,6 @@
       "description": "It\u0027s not an ME network, but it\u0027s a start",
       "x": 107,
       "y": 129,
-      "icon": {
-        "id": "Mekanism:ControlCircuit"
-      },
       "prerequisites": [
         "Powering Up"
       ],
@@ -370,7 +359,7 @@
             },
             {
               "item": {
-                "id": "Mekanism:ControlCircuit"
+                "id": "minecraft:bedrock"
               }
             },
             {
@@ -395,8 +384,7 @@
           "amount": 4
         },
         {
-          "id": "Mekanism:EnrichedAlloy",
-          "amount": 4
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ],
       "rewardchoice": [
@@ -405,9 +393,7 @@
           "damage": 1
         },
         {
-          "id": "Mekanism:ControlCircuit",
-          "damage": 1,
-          "amount": 2
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
           "id": "BuildCraft|Silicon:redstoneChipset",
@@ -560,49 +546,49 @@
           "items": [
             {
               "item": {
-                "id": "AdvancedSystemsManager:element0",
+                "id": "minecraft:bedrock",
                 "damage": 1
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "AdvancedSystemsManager:element0"
+                "id": "minecraft:bedrock"
               },
               "required": 8,
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "AdvancedSystemsManager:element0",
+                "id": "minecraft:bedrock",
                 "damage": 3
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "AdvancedSystemsManager:element0",
+                "id": "minecraft:bedrock",
                 "damage": 7
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "AdvancedSystemsManager:element0",
+                "id": "minecraft:bedrock",
                 "damage": 2
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "AdvancedSystemsManager:element0",
+                "id": "minecraft:bedrock",
                 "damage": 4
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "AdvancedSystemsManager:element0",
+                "id": "minecraft:bedrock",
                 "damage": 14
               },
               "precision": "NBT_FUZZY"
@@ -634,10 +620,6 @@
       "description": "The end of the pickaxe age.",
       "x": 104,
       "y": 12,
-      "icon": {
-        "id": "Mekanism:MachineBlock",
-        "damage": 4
-      },
       "prerequisites": [
         "The Miner\u0027s Path"
       ],
@@ -660,13 +642,13 @@
             },
             {
               "item": {
-                "id": "ExtraUtilities:enderQuarry"
+                "id": "minecraft:bedrock"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Mekanism:MachineBlock",
+                "id": "minecraft:bedrock",
                 "damage": 4
               },
               "precision": "NBT_FUZZY"
@@ -701,8 +683,7 @@
           "amount": 2
         },
         {
-          "id": "Mekanism:TeleportationCore",
-          "amount": 4
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },
@@ -723,54 +704,54 @@
           "items": [
             {
               "item": {
-                "id": "enhancedportals:frame",
+                "id": "minecraft:bedrock",
                 "damage": 1
               },
               "required": 2
             },
             {
               "item": {
-                "id": "enhancedportals:frame"
+                "id": "minecraft:bedrock"
               },
               "required": 16
             },
             {
               "item": {
-                "id": "enhancedportals:frame",
+                "id": "minecraft:bedrock",
                 "damage": 4
               },
               "required": 2
             },
             {
               "item": {
-                "id": "enhancedportals:frame",
+                "id": "minecraft:bedrock",
                 "damage": 7
               },
               "required": 2
             },
             {
               "item": {
-                "id": "enhancedportals:frame",
+                "id": "minecraft:bedrock",
                 "damage": 8
               },
               "required": 2
             },
             {
               "item": {
-                "id": "enhancedportals:frame",
+                "id": "minecraft:bedrock",
                 "damage": 9
               },
               "required": 2
             },
             {
               "item": {
-                "id": "enhancedportals:dbs"
+                "id": "minecraft:bedrock"
               },
               "required": 12
             },
             {
               "item": {
-                "id": "enhancedportals:location_card"
+                "id": "minecraft:bedrock"
               },
               "required": 2
             }
@@ -781,14 +762,14 @@
           "items": [
             {
               "item": {
-                "id": "Mekanism:BasicBlock",
+                "id": "minecraft:bedrock",
                 "damage": 7
               },
               "required": 16
             },
             {
               "item": {
-                "id": "Mekanism:MachineBlock",
+                "id": "minecraft:bedrock",
                 "damage": 11
               },
               "required": 2,
@@ -856,21 +837,21 @@
             },
             {
               "item": {
-                "id": "Mekanism:MachineBlock",
+                "id": "minecraft:bedrock",
                 "damage": 9
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Mekanism:MachineBlock2",
+                "id": "minecraft:bedrock",
                 "damage": 3
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Mekanism:MachineBlock2"
+                "id": "minecraft:bedrock"
               },
               "precision": "NBT_FUZZY"
             },
@@ -899,7 +880,7 @@
             },
             {
               "item": {
-                "id": "Mekanism:MachineBlock2",
+                "id": "minecraft:bedrock",
                 "damage": 4
               },
               "precision": "NBT_FUZZY"
@@ -943,9 +924,7 @@
           "nbt": "{bedrock:1b}"
         },
         {
-          "id": "Mekanism:EnergyCube",
-          "damage": 100,
-          "nbt": "{tier:\"Elite\"}"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },

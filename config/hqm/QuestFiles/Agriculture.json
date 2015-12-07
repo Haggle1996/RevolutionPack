@@ -7,9 +7,57 @@
       "description": "It\u0027s like the stone age. I hope I get out of it fast.",
       "x": 41,
       "y": 77,
-      "icon": {
-      },
       "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "damage": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "damage": 10
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "damage": 5
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:90,Head:3,BaseAttack:6,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:6,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:400,RenderAccessory:3,ToolLevel:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:90,Modifiers:0},display:{Name:\"§fFlint Mattock\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
       ],
       "reward": [
         {
@@ -56,6 +104,11 @@
             {
               "item": {
                 "id": "harvestcraft:bakewareItem"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -549,10 +602,6 @@
       "description": "More control than the industrial process, but also more complicated",
       "x": 97,
       "y": 151,
-      "icon": {
-        "id": "Genetics:machine",
-        "damage": 3
-      },
       "prerequisites": [
         "They don\u0027t sting"
       ],
@@ -562,67 +611,67 @@
           "items": [
             {
               "item": {
-                "id": "Genetics:machine"
+                "id": "minecraft:bedrock"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Genetics:machine",
+                "id": "minecraft:bedrock",
                 "damage": 1
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Genetics:machine",
+                "id": "minecraft:bedrock",
                 "damage": 2
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Genetics:advMachine"
+                "id": "minecraft:bedrock"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Genetics:labMachine"
+                "id": "minecraft:bedrock"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Genetics:labMachine",
+                "id": "minecraft:bedrock",
                 "damage": 1
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Genetics:labMachine",
+                "id": "minecraft:bedrock",
                 "damage": 2
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Genetics:labMachine",
+                "id": "minecraft:bedrock",
                 "damage": 3
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Genetics:labMachine",
+                "id": "minecraft:bedrock",
                 "damage": 4
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "Genetics:machine",
+                "id": "minecraft:bedrock",
                 "damage": 3
               },
               "precision": "NBT_FUZZY"
@@ -644,16 +693,13 @@
       ],
       "rewardchoice": [
         {
-          "id": "Genetics:serum",
-          "nbt": "{gene:{allele:\"extrabees.species.mineral\",root:\"rootBees\",chromo:0b}}"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "Genetics:serum",
-          "nbt": "{gene:{allele:\"extrabees.species.milk\",root:\"rootBees\",chromo:0b}}"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "Genetics:serum",
-          "nbt": "{gene:{allele:\"extrabees.species.iron\",root:\"rootBees\",chromo:0b}}"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },
@@ -662,10 +708,6 @@
       "description": " ",
       "x": 136,
       "y": 131,
-      "icon": {
-        "id": "ExtraBees:honeyComb",
-        "damage": 81
-      },
       "prerequisites": [
         "Basic Breeding"
       ],
@@ -675,35 +717,35 @@
           "items": [
             {
               "item": {
-                "id": "ExtraBees:honeyComb",
+                "id": "minecraft:bedrock",
                 "damage": 81
               },
               "required": 64
             },
             {
               "item": {
-                "id": "ExtraBees:honeyComb",
+                "id": "minecraft:bedrock",
                 "damage": 76
               },
               "required": 64
             },
             {
               "item": {
-                "id": "ExtraBees:honeyComb",
+                "id": "minecraft:bedrock",
                 "damage": 12
               },
               "required": 64
             },
             {
               "item": {
-                "id": "ExtraBees:honeyComb",
+                "id": "minecraft:bedrock",
                 "damage": 21
               },
               "required": 64
             },
             {
               "item": {
-                "id": "ExtraBees:honeyComb",
+                "id": "minecraft:bedrock",
                 "damage": 70
               },
               "required": 64
@@ -836,10 +878,6 @@
       "description": " ",
       "x": 123,
       "y": 151,
-      "icon": {
-        "id": "Genetics:serum",
-        "nbt": "{gene:{allele:\"extrabees.species.unusual\",root:\"rootBees\",chromo:0b}}"
-      },
       "prerequisites": [
         "Scientific Genetic Manipulation"
       ],
@@ -850,79 +888,79 @@
           "items": [
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.lifespanShortest\",root:\"rootBees\",chromo:2b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.lifespanLongest\",root:\"rootBees\",chromo:2b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.speedSlowest\",root:\"rootBees\",chromo:1b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.speedFast\",root:\"rootBees\",chromo:1b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.fertilityLow\",root:\"rootBees\",chromo:3b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.fertilityMaximum\",root:\"rootBees\",chromo:3b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.boolTrue\",root:\"rootBees\",chromo:5b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.boolTrue\",root:\"rootBees\",chromo:9b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.boolTrue\",root:\"rootBees\",chromo:8b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.toleranceBoth2\",root:\"rootBees\",chromo:4b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.toleranceBoth2\",root:\"rootBees\",chromo:7b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.floweringFast\",root:\"rootBees\",chromo:11b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.territoryLarge\",root:\"rootBees\",chromo:12b}}"
               }
             }
@@ -931,16 +969,13 @@
       ],
       "reward": [
         {
-          "id": "Genetics:serum",
-          "nbt": "{gene:{allele:\"extrabees.species.volcanic\",root:\"rootBees\",chromo:0b}}"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "Genetics:serum",
-          "nbt": "{gene:{allele:\"extrabees.species.sticky\",root:\"rootBees\",chromo:0b}}"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "Genetics:serum",
-          "nbt": "{gene:{allele:\"forestry.speciesBoggy\",root:\"rootBees\",chromo:0b}}"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },
@@ -1271,22 +1306,6 @@
         "days": 4,
         "hours": 0
       },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "longDescription": "This is an ethylene-filled gas tank, and Forestry ethanol",
-          "items": [
-            {
-              "fluid": "bioethanol",
-              "required": 256000
-            },
-            {
-              "fluid": "ethene",
-              "required": 256000
-            }
-          ]
-        }
-      ],
       "reward": [
         {
           "id": "EnderIO:blockCapBank",
@@ -1681,43 +1700,43 @@
           "items": [
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.treeCherry\",root:\"rootTrees\",chromo:0b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.treeLemon\",root:\"rootTrees\",chromo:0b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.treeSequioa\",root:\"rootTrees\",chromo:0b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.treeBaobab\",root:\"rootTrees\",chromo:0b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"extratrees.species.rosewood\",root:\"rootTrees\",chromo:0b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.treeTeak\",root:\"rootTrees\",chromo:0b}}"
               }
             },
             {
               "item": {
-                "id": "Genetics:serum",
+                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"extratrees.species.douglasfir\",root:\"rootTrees\",chromo:0b}}"
               }
             },

@@ -9,7 +9,7 @@
 - HQM: Seared bricks wrong amount
 - HQM: Remove Mekanism
 
-- Remove extra items from NEI
+- Remove extra items from minetweaker NEI and move to Inpurcore, as well as removed recipes in MT
 - Balance RFTools and other new mods' recipes
 - Remove Recurrent Complex structures
 - Update website
@@ -21,11 +21,11 @@
 - Guide in FTBUtilities
 - AppleCore remove outdated scripts
 - Take better/more shots for loading screen
-- Update More Planets
 - Turn off Edit Mode on HQM
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
 - Add more ways to deal with raw ore
-- Readd m9 to starting inventory
+- EIO filters use BC gates
+- Remove flan's spam
 
 #Pack changes
 

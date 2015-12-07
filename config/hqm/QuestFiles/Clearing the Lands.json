@@ -582,9 +582,7 @@
       ],
       "reward": [
         {
-          "id": "TConstruct:materials",
-          "damage": 5,
-          "amount": 16
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ],
       "rewardchoice": [
@@ -604,23 +602,19 @@
       "description": "Great....now I have to go back to the bronze age. Simply great.",
       "x": 34,
       "y": 51,
-      "icon": {
-        "id": "TConstruct:Crossbow",
-        "nbt": "{InfiTool:{RenderExtra:0,BaseDurability:40,BaseAttack:1,DrawSpeed:33,ToolEXP:0L,Built:1b,HarvestLevel:0,RenderHead:0,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accessory:0,MiningSpeed:150,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:40,BaseDrawSpeed:33,Head:0,Attack:1,Handle:0,Broken:0b,Extra:0,RenderAccessory:0,FlightSpeed:4.5f,ToolLevel:1,Modifiers:0},display:{Name:\"§fWooden Crossbow\"}}"
-      },
       "tasks": [
         {
           "type": "DETECT",
           "items": [
             {
               "item": {
-                "id": "TConstruct:CrossbowLimbPart",
+                "id": "minecraft:bedrock",
                 "damage": 14
               }
             },
             {
               "item": {
-                "id": "TConstruct:swordBlade",
+                "id": "minecraft:bedrock",
                 "damage": 14
               }
             }
@@ -655,10 +649,6 @@
       "description": "Is there such a thing as \"advanced primitive weapons\"? These designs look surprisingly efficient",
       "x": 82,
       "y": 15,
-      "icon": {
-        "id": "TConstruct:Crossbow",
-        "nbt": "{InfiTool:{RenderExtra:12,BaseDurability:2400,BaseAttack:5,DrawSpeed:93,ToolEXP:0L,Built:1b,HarvestLevel:9,RenderHead:12,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:12,Accessory:0,MiningSpeed:900,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:2400,BaseDrawSpeed:93,Head:12,Attack:5,Handle:12,Broken:0b,Extra:12,RenderAccessory:0,FlightSpeed:7.5f,ToolLevel:1,Modifiers:0},display:{Name:\"§fManyullyn Crossbow\"}}"
-      },
       "prerequisites": [
         "Basic Weaponry"
       ],
@@ -668,14 +658,14 @@
           "items": [
             {
               "item": {
-                "id": "TConstruct:cleaver",
+                "id": "minecraft:bedrock",
                 "nbt": "{InfiTool:{RenderExtra:15,BaseDurability:3217,BaseAttack:10,ToolEXP:0L,Built:1b,HarvestLevel:6,RenderHead:15,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:15,Accessory:15,MiningSpeed:790,Unbreaking:2,Damage:0,HarvestLevel2:6,BonusDurability:0,TotalDurability:3217,MiningSpeed2:790,Head:15,Attack:10,Handle:15,Broken:0b,Extra:15,RenderAccessory:15,ToolLevel:1,Modifiers:0},display:{Name:\"§fAlumite Cleaver\"}}"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "TConstruct:Crossbow",
+                "id": "minecraft:bedrock",
                 "nbt": "{InfiTool:{RenderExtra:12,BaseDurability:2400,BaseAttack:5,DrawSpeed:93,ToolEXP:0L,Built:1b,HarvestLevel:9,RenderHead:12,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:12,Accessory:0,MiningSpeed:900,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:2400,BaseDrawSpeed:93,Head:12,Attack:5,Handle:12,Broken:0b,Extra:12,RenderAccessory:0,FlightSpeed:7.5f,ToolLevel:1,Modifiers:0},display:{Name:\"§fManyullyn Crossbow\"}}"
               },
               "precision": "NBT_FUZZY"
@@ -685,25 +675,18 @@
       ],
       "reward": [
         {
-          "id": "TConstruct:SearedBrick",
-          "damage": 1,
-          "amount": 16
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "TConstruct:SearedBrick",
-          "damage": 2,
-          "amount": 16
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ],
       "rewardchoice": [
         {
-          "id": "TConstruct:BoltPart",
-          "damage": 12,
-          "amount": 127,
-          "nbt": "{DualMat:{Material2:2}}"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "TConstruct:diamondApple"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },
@@ -769,8 +752,7 @@
       ],
       "reward": [
         {
-          "id": "enhancedportals:dbs",
-          "amount": 6
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ],
       "rewardchoice": [
@@ -1252,9 +1234,7 @@
           "amount": 32
         },
         {
-          "id": "ThermalFoundation:Ore",
-          "damage": 5,
-          "amount": 32
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ],
       "rewardchoice": [

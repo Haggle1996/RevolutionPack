@@ -273,7 +273,7 @@
             },
             {
               "item": {
-                "id": "RedLogic:redlogic.lampCubeDecorative"
+                "id": "minecraft:bedrock"
               }
             },
             {
@@ -314,7 +314,7 @@
             },
             {
               "item": {
-                "id": "Mekanism:GlowPanel"
+                "id": "minecraft:bedrock"
               },
               "precision": "FUZZY"
             }
@@ -407,7 +407,7 @@
       ],
       "rewardchoice": [
         {
-          "id": "Botany:database"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
           "id": "Forestry:treealyzer"
@@ -680,7 +680,7 @@
             },
             {
               "item": {
-                "id": "ExtraTrees:planks",
+                "id": "minecraft:bedrock",
                 "damage": 32,
                 "nbt": "{meta:32}"
               },
@@ -714,11 +714,10 @@
       ],
       "rewardchoice": [
         {
-          "id": "Mekanism:MachineBlock2"
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "ExtraTrees:machine",
-          "damage": 1
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },
@@ -984,11 +983,6 @@
       "description": " ",
       "x": 193,
       "y": 140,
-      "icon": {
-        "id": "ExtraTrees:carpentry",
-        "damage": 16387,
-        "nbt": "{meta:271188526}"
-      },
       "prerequisites": [
         "Warm Wood, Cool Stone",
         "Stuff that happens..."
@@ -999,21 +993,21 @@
           "items": [
             {
               "item": {
-                "id": "ExtraTrees:machine",
+                "id": "minecraft:bedrock",
                 "damage": 1
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "ExtraTrees:machine",
+                "id": "minecraft:bedrock",
                 "damage": 7
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
-                "id": "ExtraTrees:machine",
+                "id": "minecraft:bedrock",
                 "damage": 8
               },
               "precision": "NBT_FUZZY"
@@ -1025,7 +1019,7 @@
           "items": [
             {
               "item": {
-                "id": "ExtraTrees:stainedglass",
+                "id": "minecraft:bedrock",
                 "damage": 16387,
                 "nbt": "{meta:268763392}"
               },
@@ -1034,7 +1028,7 @@
             },
             {
               "item": {
-                "id": "ExtraTrees:carpentry",
+                "id": "minecraft:bedrock",
                 "damage": 16387,
                 "nbt": "{meta:269025838}"
               },
@@ -1092,27 +1086,23 @@
       "description": " ",
       "x": 90,
       "y": 172,
-      "icon": {
-        "id": "DCsAppleMilk:defeatedcrow.essentialOil",
-        "damage": 6
-      },
       "tasks": [
         {
           "type": "CRAFT",
           "items": [
             {
               "item": {
-                "id": "DCsAppleMilk:defeatedcrow.gelBatContainer"
+                "id": "minecraft:bedrock"
               }
             },
             {
               "item": {
-                "id": "DCsAppleMilk:defeatedcrow.batBox"
+                "id": "minecraft:bedrock"
               }
             },
             {
               "item": {
-                "id": "DCsAppleMilk:defeatedcrow.evaporator"
+                "id": "minecraft:bedrock"
               }
             }
           ]
@@ -1122,13 +1112,13 @@
           "items": [
             {
               "item": {
-                "id": "DCsAppleMilk:defeatedcrow.essentialOil",
+                "id": "minecraft:bedrock",
                 "damage": 1
               }
             },
             {
               "item": {
-                "id": "DCsAppleMilk:defeatedcrow.essentialOil",
+                "id": "minecraft:bedrock",
                 "damage": 6
               }
             }
@@ -1137,18 +1127,13 @@
       ],
       "reward": [
         {
-          "id": "DCsAppleMilk:defeatedcrow.chalcedony",
-          "amount": 16
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "DCsAppleMilk:defeatedcrow.chalcedony",
-          "damage": 1,
-          "amount": 16
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "DCsAppleMilk:defeatedcrow.chalcedony",
-          "damage": 2,
-          "amount": 16
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },
@@ -1201,7 +1186,7 @@
             },
             {
               "item": {
-                "id": "malisisdoors:item.curtain"
+                "id": "minecraft:bedrock"
               }
             },
             {

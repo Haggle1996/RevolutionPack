@@ -260,14 +260,10 @@
           "amount": 64
         },
         {
-          "id": "ThermalFoundation:Ore",
-          "damage": 2,
-          "amount": 32
+          "id": "HardcoreQuesting:hqmInvalidItem"
         },
         {
-          "id": "ThermalFoundation:Ore",
-          "damage": 3,
-          "amount": 16
+          "id": "HardcoreQuesting:hqmInvalidItem"
         }
       ]
     },
