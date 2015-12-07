@@ -19,13 +19,13 @@
 - Verify EiraIRC configuration
 - Configure starting inventory using FTBUtilities
 - Guide in FTBUtilities
-- Weather mod
 - AppleCore remove outdated scripts
 - Take better/more shots for loading screen
 - Update More Planets
 - Turn off Edit Mode on HQM
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
 - Add more ways to deal with raw ore
+- Readd m9 to starting inventory
 
 #Pack changes
 
@@ -55,3 +55,5 @@
 - Vanilla buckets, hoppers, and cauldrons are now made with iron plates and a hammer
 - BC pipes now use a metal plate instead of glass, depending on use (fluid, transport, power)
 - Roguelike dungeons have modern look and feel
+- Guns have updated recipes
+- Spent ammo can either be reloaded or recycled

@@ -12,4 +12,4 @@ BuildCraft.js
 Bibliocraft.js
 AppliedEnergistics2.js
 MFR.js
-GunCus.js
+Flans.js
