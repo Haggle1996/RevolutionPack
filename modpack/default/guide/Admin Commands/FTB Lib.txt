@@ -1,0 +1,7 @@
+§1§l FTB Lib
+
+§0§l /ftb_reload §r - Reloads configs for server and clients
+§0§l /ftb_worldID §r - Prints current world UUID
+§0§l /ftb_mode list §r - Prints a list of available modes
+§0§l /ftb_mode get §r - Prints current world mode
+§0§l /ftb_mode set [mode] §r - Sets world mode to [mode]
