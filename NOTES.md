@@ -25,7 +25,6 @@
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
 - Add more ways to deal with raw ore
 - EIO filters use BC gates
-- Remove flan's spam
 
 #Pack changes
 
@@ -57,3 +56,4 @@
 - Roguelike dungeons have modern look and feel
 - Guns have updated recipes
 - Spent ammo can either be reloaded or recycled
+- Removed whales (TPS heavy). Reduced spawn frequency of sharks, crickets, centipedes

@@ -17,4 +17,35 @@
     <dimensionExclude name="Twilight Forest"/>
     <dimensionExclude name="Dungeon"/>
   </entry>
+  
+  <entry id="Whales" mobName="Whale" creatureType="waterCreature" rate="10" remove="true">
+    <biomeFilter type="any">
+      <biome type="OCEAN" />
+    </biomeFilter>
+  </entry>
+  
+  <entry id="Sharks" mobName="Shark" creatureType="waterCreature" rate="1" remove="false">
+    <biomeFilter type="any">
+      <biome type="OCEAN" />
+    </biomeFilter>
+    <dimensionExclude name="Twilight Forest"/>
+  </entry>
+  
+  <entry id="Crickets" mobName="Cricket" creatureType="ambient" rate="1" minGroupSize="1" maxGroupSize="1" remove="false">
+    <biomeFilter type="any">
+      <biome type="PLAINS" />
+      <biome type="HILLS" />
+      <biome type="FOREST" />
+      <biome type="SAVANNA" />
+    </biomeFilter>
+  </entry>
+  
+  <entry id="Centipedes" mobName="Centipede" creatureType="ambient" rate="1" minGroupSize="1" maxGroupSize="1" remove="false">
+    <biomeFilter type="any">
+      <biome type="SWAMP" />
+      <biome type="FOREST" />
+      <biome type="JUNGLE" />
+    </biomeFilter>
+  </entry>
+  
 </SpawnConfig>

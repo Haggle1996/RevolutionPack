@@ -1,6 +1,8 @@
 {
   "name": "Modern",
-  "biomes": "all",
+  "criteria": {
+    "weight": 1000000
+  },
   "levels": {
     "0": {
       "theme": {
