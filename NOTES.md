@@ -9,6 +9,14 @@
 - HQM: Seared bricks wrong amount
 - HQM: Remove Mekanism
 
+## Progression
+- Sluice
+- Hopper
+- Chisel
+- Windmill
+- Grindstone
+
+
 - Remove extra items from minetweaker NEI and move to Inpurcore, as well as removed recipes in MT
 - Balance RFTools and other new mods' recipes
 - Remove Recurrent Complex structures
@@ -26,6 +34,10 @@
 - Add more ways to deal with raw ore
 - EIO filters use BC gates
 - Increase cost of Enviromine Elevator
+- Replace iron bar recipes with steel plates
+- Add wooden bucket mod
+- Add tools mod that adds right click to place
+- Sifter uses wooden bucket
 
 #Pack changes
 
