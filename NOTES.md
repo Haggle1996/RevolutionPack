@@ -25,6 +25,7 @@
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
 - Add more ways to deal with raw ore
 - EIO filters use BC gates
+- Increase cost of Enviromine Elevator
 
 #Pack changes
 
