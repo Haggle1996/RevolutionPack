@@ -19,7 +19,6 @@
 
 - Remove extra items from minetweaker NEI and move to Inpurcore, as well as removed recipes in MT
 - Balance RFTools and other new mods' recipes
-- Remove Recurrent Complex structures
 - Update website
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
 - Revert Hunger Overhaul to a version DragonAPI likes
@@ -31,6 +30,7 @@
 - Turn off Edit Mode on HQM
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
 - EIO filters use BC gates
+- Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 
 
 #Pack changes
 
