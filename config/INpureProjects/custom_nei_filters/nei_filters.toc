@@ -13,3 +13,4 @@ Bibliocraft.js
 AppliedEnergistics2.js
 MFR.js
 Flans.js
+WoodenBuckets.js

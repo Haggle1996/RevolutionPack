@@ -25,19 +25,12 @@
 - Revert Hunger Overhaul to a version DragonAPI likes
 - Look into Pam's Markets
 - Verify EiraIRC configuration
-- Configure starting inventory using FTBUtilities
 - Guide in FTBUtilities
 - AppleCore remove outdated scripts
 - Take better/more shots for loading screen
 - Turn off Edit Mode on HQM
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
-- Add more ways to deal with raw ore
 - EIO filters use BC gates
-- Increase cost of Enviromine Elevator
-- Replace iron bar recipes with steel plates
-- Add wooden bucket mod
-- Add tools mod that adds right click to place
-- Sifter uses wooden bucket
 
 #Pack changes
 
@@ -70,3 +63,7 @@
 - Guns have updated recipes
 - Spent ammo can either be reloaded or recycled
 - Removed whales (TPS heavy). Reduced spawn frequency of sharks, crickets, centipedes
+- Anvil and iron bar recipes no longer require special materials
+- Sifter uses wooden bucket instead of metal
+- Removed extra wooden buckets.
+- Enviromine Elevators require steel and bedrock picks

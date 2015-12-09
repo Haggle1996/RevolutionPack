@@ -16,3 +16,8 @@
 #val redstone = <ore:oreRedstone>;
 #val hredstone = <HarderOres:ore_redstone:*>;
 #redstone.add(hredstone);
+
+#Add beeswax to ore dictionary
+val wax = <Forestry:beeswax>;
+val pressedWax = <ore:materialPressedwax>;
+pressedWax.add(wax);
