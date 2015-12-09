@@ -31,6 +31,8 @@
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
 - EIO filters use BC gates
 - Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 
+- Generic LaunchGUI message for disconnect
+- More loot in roguelikes.
 
 #Pack changes
 
