@@ -407,7 +407,7 @@
       ],
       "rewardchoice": [
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         },
         {
           "id": "Forestry:treealyzer"
@@ -714,10 +714,10 @@
       ],
       "rewardchoice": [
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         }
       ]
     },
@@ -1127,13 +1127,13 @@
       ],
       "reward": [
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         }
       ]
     },

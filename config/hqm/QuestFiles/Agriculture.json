@@ -52,7 +52,7 @@
             {
               "item": {
                 "id": "minecraft:bedrock",
-                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:90,Head:3,BaseAttack:6,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:6,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:400,RenderAccessory:3,ToolLevel:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:90,Modifiers:0},display:{Name:\"§fFlint Mattock\"}}"
+                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:90,Head:3,BaseAttack:6,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:6,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:400,RenderAccessory:3,ToolLevel:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:90,Modifiers:0},display:{Name:\"ï¿½fFlint Mattock\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -693,13 +693,13 @@
       ],
       "rewardchoice": [
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         }
       ]
     },
@@ -969,13 +969,13 @@
       ],
       "reward": [
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         }
       ]
     },

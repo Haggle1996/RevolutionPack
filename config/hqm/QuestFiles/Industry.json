@@ -188,7 +188,7 @@
           "amount": 16
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         }
       ]
     },
@@ -384,7 +384,7 @@
           "amount": 4
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         }
       ],
       "rewardchoice": [
@@ -393,7 +393,7 @@
           "damage": 1
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         },
         {
           "id": "BuildCraft|Silicon:redstoneChipset",
@@ -683,7 +683,7 @@
           "amount": 2
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         }
       ]
     },
@@ -924,7 +924,7 @@
           "nbt": "{bedrock:1b}"
         },
         {
-          "id": "HardcoreQuesting:hqmInvalidItem"
+          "id": "props:props:533"
         }
       ]
     },

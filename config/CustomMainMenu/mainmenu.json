@@ -222,7 +222,9 @@
                     "revolution:textures/gui/title/background/cover2.jpg",
                     "revolution:textures/gui/title/background/cover3.jpg",
                     "revolution:textures/gui/title/background/cover4.jpg",
-                    "revolution:textures/gui/title/background/cover5.jpg"
+                    "revolution:textures/gui/title/background/cover5.jpg",
+                    "revolution:textures/gui/title/background/cover6.jpg",
+                    "revolution:textures/gui/title/background/cover7.jpg"
                 ],
                 "displayDuration" : 100,
                 "fadeDuration" : 40
