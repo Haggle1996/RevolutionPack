@@ -14,3 +14,4 @@ AppliedEnergistics2.js
 MFR.js
 Flans.js
 WoodenBuckets.js
+Geostrata.js
