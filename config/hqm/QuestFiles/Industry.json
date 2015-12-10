@@ -162,7 +162,6 @@
       "prerequisites": [
         "Basic Steelmaking"
       ],
-      "parentrequirement": 1,
       "tasks": [
         {
           "type": "CRAFT",
@@ -186,9 +185,6 @@
         {
           "id": "minecraft:coal_ore",
           "amount": 16
-        },
-        {
-          "id": "props:props:533"
         }
       ]
     },
@@ -259,9 +255,6 @@
       "description": " ",
       "x": 112,
       "y": 48,
-      "prerequisites": [
-        "The New World Bucketeers"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -330,9 +323,6 @@
       "description": "It\u0027s not an ME network, but it\u0027s a start",
       "x": 107,
       "y": 129,
-      "prerequisites": [
-        "Powering Up"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -382,18 +372,12 @@
           "id": "EnderIO:itemAlloy",
           "damage": 1,
           "amount": 4
-        },
-        {
-          "id": "props:props:533"
         }
       ],
       "rewardchoice": [
         {
           "id": "EnderIO:itemBasicCapacitor",
           "damage": 1
-        },
-        {
-          "id": "props:props:533"
         },
         {
           "id": "BuildCraft|Silicon:redstoneChipset",
@@ -536,10 +520,6 @@
         "id": "RefinedRelocation:blockExtender",
         "damage": 1
       },
-      "prerequisites": [
-        "Basic Circuitry",
-        "Logistics 101"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -620,9 +600,6 @@
       "description": "The end of the pickaxe age.",
       "x": 104,
       "y": 12,
-      "prerequisites": [
-        "The Miner\u0027s Path"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -681,9 +658,6 @@
           "id": "RotaryCraft:rotarycraft_item_advgear",
           "damage": 1,
           "amount": 2
-        },
-        {
-          "id": "props:props:533"
         }
       ]
     },
@@ -695,9 +669,6 @@
       "icon": {
         "id": "ExtraUtilities:dark_portal"
       },
-      "prerequisites": [
-        "Logistics 101"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -810,9 +781,6 @@
         "id": "RotaryCraft:rotarycraft_item_machine",
         "damage": 21
       },
-      "prerequisites": [
-        "Basic Processing and Production"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -922,9 +890,6 @@
           "id": "RotaryCraft:rotarycraft_item_advgear",
           "damage": 2,
           "nbt": "{bedrock:1b}"
-        },
-        {
-          "id": "props:props:533"
         }
       ]
     },
@@ -937,9 +902,6 @@
         "id": "appliedenergistics2:item.ItemMultiPart",
         "damage": 380
       },
-      "prerequisites": [
-        "Automated Logistics"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1051,11 +1013,6 @@
       "icon": {
         "id": "ChromatiCraft:chromaticraft_item_rift"
       },
-      "prerequisites": [
-        "Enhanced Presence",
-        "The Packrat\u0027s Dream"
-      ],
-      "parentrequirement": 1,
       "tasks": [
         {
           "type": "DETECT",
@@ -1134,7 +1091,6 @@
       },
       "prerequisites": [
         "Automatic Building",
-        "The Packrat\u0027s Dream",
         "Advanced Controls"
       ],
       "tasks": [
@@ -1224,9 +1180,6 @@
         "id": "RotaryCraft:rotarycraft_item_engine",
         "damage": 5
       },
-      "prerequisites": [
-        "Powering Up"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1289,8 +1242,7 @@
         "damage": 7
       },
       "prerequisites": [
-        "Advanced Industrial Processes",
-        "More Power"
+        "Fueling Up"
       ],
       "tasks": [
         {
@@ -1369,10 +1321,6 @@
         "id": "RotaryCraft:rotarycraft_item_engine",
         "damage": 8
       },
-      "prerequisites": [
-        "Even More Power",
-        "Fueling Up"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1443,9 +1391,6 @@
         "id": "ChromatiCraft:chromaticraft_item_placer",
         "damage": 24
       },
-      "prerequisites": [
-        "Automated Mining"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1487,9 +1432,6 @@
       "icon": {
         "id": "chisel:warningSign"
       },
-      "prerequisites": [
-        "Advanced Industrial Processes"
-      ],
       "tasks": [
         {
           "type": "CONSUME",
@@ -1551,13 +1493,6 @@
         "id": "extracells:pattern.fluid",
         "nbt": "{fluidID:\"rc fusion plasma\"}"
       },
-      "prerequisites": [
-        "Even More Power",
-        "Nuclear Power",
-        "Ultimate Automated Mining",
-        "Automatic Crafting",
-        "Interdimensional Logistics"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1817,9 +1752,6 @@
       "icon": {
         "id": "BuildCraft|Builders:architectBlock"
       },
-      "prerequisites": [
-        "Basic Circuitry"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1878,10 +1810,6 @@
         "id": "ExtraUtilities:drum",
         "nbt": "{Fluid:{FluidName:\"bioethanol\",Amount:256000}}"
       },
-      "prerequisites": [
-        "The New World Bucketeers",
-        "More Power"
-      ],
       "tasks": [
         {
           "type": "CONSUME",
@@ -1941,9 +1869,6 @@
         "id": "OpenComputers:item",
         "damage": 26
       },
-      "prerequisites": [
-        "Basic Circuitry"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -2043,9 +1968,6 @@
         "id": "Railcraft:machine.alpha",
         "damage": 12
       },
-      "prerequisites": [
-        "Basic Smelting"
-      ],
       "tasks": [
         {
           "type": "CRAFT",

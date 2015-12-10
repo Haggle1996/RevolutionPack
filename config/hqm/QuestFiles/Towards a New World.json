@@ -10,10 +10,6 @@
       "icon": {
         "id": "ThaumicTinkerer:ichorclothChestGem"
       },
-      "prerequisites": [
-        "{The Secret World}[Advanced Synergy]",
-        "{The Secret World}[The Gate to Ascension]"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -121,9 +117,6 @@
         "damage": 5,
         "nbt": "{nrg:281474976710656L}"
       },
-      "prerequisites": [
-        "{Industry}[Fusion Power]"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -162,12 +155,10 @@
         "id": "minecraft:egg"
       },
       "prerequisites": [
-        "Kardashev I",
         "World-Destroying Monster Farm",
         "Worldwide Industrialization",
-        "A God Am I",
-        "No More Concrete and Steel",
-        "The Spice Must Flow"
+        "The Spice Must Flow",
+        "No More Concrete and Steel"
       ],
       "tasks": [
         {
@@ -185,10 +176,6 @@
       "icon": {
         "id": "minecraft:nether_star"
       },
-      "prerequisites": [
-        "{Clearing the Lands}[The Impenetrable Base]",
-        "{Clearing the Lands}[Eldritch Abominations]"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -397,9 +384,6 @@
       "description": "No, not THAT spice. I just like the phrase.",
       "x": 125,
       "y": 92,
-      "prerequisites": [
-        "{Agriculture}[Food for the World]"
-      ],
       "tasks": [
         {
           "type": "CONSUME",
@@ -468,9 +452,6 @@
       "icon": {
         "id": "minecraft:stained_hardened_clay"
       },
-      "prerequisites": [
-        "{Civilized Comforts}[High Culture]"
-      ],
       "tasks": [
         {
           "type": "CONSUME",

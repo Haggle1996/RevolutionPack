@@ -407,9 +407,6 @@
       ],
       "rewardchoice": [
         {
-          "id": "props:props:533"
-        },
-        {
           "id": "Forestry:treealyzer"
         }
       ]
@@ -423,10 +420,6 @@
         "id": "Forestry:planks2"
       },
       "prerequisites": [
-        "No Rectangles Allowed",
-        "Basic Aesthetics",
-        "Booze with Style",
-        "Dark is the Night",
         "The Magic of Pleasant Sound",
         "Olfactory Delights"
       ],
@@ -712,14 +705,7 @@
           "id": "ThaumicHorizons:spawnerEgg"
         }
       ],
-      "rewardchoice": [
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
-        }
-      ]
+      "rewardchoice": []
     },
     {
       "name": "A matter of.....Clay?",
@@ -730,9 +716,6 @@
         "id": "props:props",
         "damage": 14
       },
-      "prerequisites": [
-        "Basic Aesthetics"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -812,9 +795,6 @@
       "icon": {
         "id": "BiblioCraft:BiblioDesk"
       },
-      "prerequisites": [
-        "No Rectangles Allowed"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -984,7 +964,6 @@
       "x": 193,
       "y": 140,
       "prerequisites": [
-        "Warm Wood, Cool Stone",
         "Stuff that happens..."
       ],
       "tasks": [
@@ -1125,17 +1104,7 @@
           ]
         }
       ],
-      "reward": [
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
-        }
-      ]
+      "reward": []
     },
     {
       "name": "Leaving and Entering in Style",
@@ -1145,9 +1114,6 @@
       "icon": {
         "id": "malisisdoors:item.factory_door"
       },
-      "prerequisites": [
-        "No Rectangles Allowed"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -1217,9 +1183,6 @@
         "id": "GardenStuff:fence",
         "damage": 1
       },
-      "prerequisites": [
-        "Basic Aesthetics"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -1290,9 +1253,6 @@
       "icon": {
         "id": "Forestry:fertilizerBio"
       },
-      "prerequisites": [
-        "No Rectangles Allowed"
-      ],
       "tasks": [
         {
           "type": "CONSUME",

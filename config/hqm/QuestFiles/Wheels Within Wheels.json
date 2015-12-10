@@ -258,12 +258,6 @@
           "id": "Forestry:resources",
           "damage": 1,
           "amount": 64
-        },
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
         }
       ]
     },
@@ -872,8 +866,8 @@
         "damage": 1
       },
       "prerequisites": [
-        "The Hard Stuff",
-        "Production and Processing"
+        "Production and Processing",
+        "The Hard Stuff"
       ],
       "tasks": [
         {
@@ -941,8 +935,8 @@
         "id": "chisel:technical3"
       },
       "prerequisites": [
-        "Advanced Machinery",
         "Fast Smelting",
+        "Advanced Machinery",
         "Power Reserves"
       ],
       "tasks": [

@@ -190,10 +190,6 @@
         "id": "RotaryCraft:rotarycraft_item_machine",
         "damage": 33
       },
-      "prerequisites": [
-        "Killing the Dead",
-        "Cutting off the Supply"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -274,9 +270,6 @@
       "icon": {
         "id": "openmodularturrets:machineGunTurret"
       },
-      "prerequisites": [
-        "Gunsmith"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -362,9 +355,6 @@
         "id": "flansmod:minigun",
         "nbt": "{attachments:{barrel:{},grip:{},generic_0:{},scope:{},stock:{}},ammo:[0:{}],Paint:\"Minigun\"}"
       },
-      "prerequisites": [
-        "Gunsmith"
-      ],
       "repeat": {
         "type": "INTERVAL",
         "days": 4,
@@ -421,10 +411,6 @@
         "id": "ChromatiCraft:chromaticraft_item_placer",
         "damage": 53
       },
-      "prerequisites": [
-        "Defenders of the Base",
-        "Put to Good Use"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -478,7 +464,6 @@
         "id": "ExtraUtilities:divisionSigil"
       },
       "prerequisites": [
-        "Put to Good Use",
         "Gaia\u0027s Stepchildren"
       ],
       "tasks": [
@@ -580,11 +565,7 @@
           ]
         }
       ],
-      "reward": [
-        {
-          "id": "props:props:533"
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
           "id": "minecraft:iron_block",
@@ -649,9 +630,6 @@
       "description": "Is there such a thing as \"advanced primitive weapons\"? These designs look surprisingly efficient",
       "x": 82,
       "y": 15,
-      "prerequisites": [
-        "Basic Weaponry"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -673,22 +651,8 @@
           ]
         }
       ],
-      "reward": [
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
-        }
-      ]
+      "reward": [],
+      "rewardchoice": []
     },
     {
       "name": "Denizens of the High Frontier",
@@ -700,7 +664,6 @@
         "damage": 89
       },
       "prerequisites": [
-        "The Next Level",
         "Gaia\u0027s Stepchildren II"
       ],
       "tasks": [
@@ -750,11 +713,7 @@
           ]
         }
       ],
-      "reward": [
-        {
-          "id": "props:props:533"
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
           "id": "ExtraUtilities:dark_portal"
@@ -777,9 +736,6 @@
       "icon": {
         "id": "ChromatiCraft:chromaticraft_item_crafting"
       },
-      "prerequisites": [
-        "The Next Level"
-      ],
       "tasks": [
         {
           "type": "KILL",
@@ -840,9 +796,6 @@
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_steelchest"
       },
-      "prerequisites": [
-        "Basic Weaponry"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -893,9 +846,6 @@
         "id": "RotaryCraft:rotarycraft_item_bedchest",
         "nbt": "{ench:[0:{lvl:4s,id:3s}]}"
       },
-      "prerequisites": [
-        "Hardened Outfits"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -998,9 +948,6 @@
       "icon": {
         "id": "Thaumcraft:ItemChestplateFortress"
       },
-      "prerequisites": [
-        "Hardened Outfits"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1108,9 +1055,7 @@
         "damage": 46
       },
       "prerequisites": [
-        "Defenders of the Base",
-        "More Dakka",
-        "Gun Factory Manager"
+        "More Dakka"
       ],
       "tasks": [
         {
@@ -1178,9 +1123,6 @@
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_steelchest"
       },
-      "prerequisites": [
-        "Hardened Outfits"
-      ],
       "repeat": {
         "type": "INTERVAL",
         "days": 4,
@@ -1232,9 +1174,6 @@
           "id": "ReactorCraft:reactorcraft_block_ore",
           "damage": 3,
           "amount": 32
-        },
-        {
-          "id": "props:props:533"
         }
       ],
       "rewardchoice": [
@@ -1255,9 +1194,6 @@
         "id": "headcrumbs:head",
         "damage": 109
       },
-      "prerequisites": [
-        "Gaia\u0027s Stepchildren"
-      ],
       "repeat": {
         "type": "INTERVAL",
         "days": 4,
@@ -1321,9 +1257,6 @@
       "icon": {
         "id": "openmodularturrets:bulletCraftable"
       },
-      "prerequisites": [
-        "Gunsmith"
-      ],
       "tasks": [
         {
           "type": "CONSUME",

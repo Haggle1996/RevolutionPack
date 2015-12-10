@@ -1,6 +1,6 @@
 {
-  "name": "Agriculture",
-  "description": "The foundation of civilization. Given the circumstances, it appears unavoidable that I start as a farmer. Hopefully not for long though.",
+  "name": "Personal Log-Day 1",
+  "description": "DISASTER! As we egressed the complex, a large section of the underground tunnels collapsed behind us, leaving my team isolated from our equipment, supplies, and the rest of our personnel.",
   "quests": [
     {
       "name": "Basic Tools",
@@ -84,9 +84,6 @@
       "icon": {
         "id": "harvestcraft:bakedhamItem"
       },
-      "prerequisites": [
-        "Basic Tools"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -180,9 +177,6 @@
         "id": "Forestry:beePrincessGE",
         "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
       },
-      "prerequisites": [
-        "Basic Tools"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -242,9 +236,6 @@
       "icon": {
         "id": "harvestcraft:hamburgerItem"
       },
-      "prerequisites": [
-        "Basic Cooking"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -338,9 +329,6 @@
       "icon": {
         "id": "harvestcraft:rainbowcurryItem"
       },
-      "prerequisites": [
-        "Fast Food"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -405,13 +393,12 @@
         "id": "harvestcraft:leafyfishsandwichItem"
       },
       "prerequisites": [
-        "Farming enhancements",
-        "Not Quite High Cuisine",
-        "The Sea\u0027s Bounty",
-        "No Vegetarians Allowed",
         "Biofuel",
-        "Honey for the World",
-        "Somewhat More Healthy"
+        "No Vegetarians Allowed",
+        "The Sea\u0027s Bounty",
+        "Farming enhancements",
+        "Somewhat More Healthy",
+        "Honey for the World"
       ],
       "tasks": [
         {
@@ -466,9 +453,6 @@
         "id": "Forestry:beeQueenGE",
         "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesIndustrious\",UID0:\"forestry.speciesIndustrious\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringFast\",UID0:\"forestry.floweringFast\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
       },
-      "prerequisites": [
-        "They don\u0027t sting"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -521,9 +505,6 @@
       "icon": {
         "id": "gendustry:MutatronAdv"
       },
-      "prerequisites": [
-        "They don\u0027t sting"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -567,44 +548,14 @@
           ]
         }
       ],
-      "reward": [
-        {
-          "id": "Forestry:beePrincessGE",
-          "amount": 8,
-          "nbt": "{MaxH:30,Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.rock\",UID0:\"extrabees.species.rock\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"extrabees.flower.rock\",UID0:\"extrabees.flower.rock\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        },
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 32,
-          "nbt": "{MaxH:30,Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.rock\",UID0:\"extrabees.species.rock\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"extrabees.flower.rock\",UID0:\"extrabees.flower.rock\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 32,
-          "nbt": "{MaxH:30,Health:30,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.mineral\",UID0:\"extrabees.species.mineral\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"extrabees.flower.rock\",UID0:\"extrabees.flower.rock\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        },
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 32,
-          "nbt": "{MaxH:20,Health:20,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.milk\",UID0:\"extrabees.species.milk\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:10b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        },
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 32,
-          "nbt": "{MaxH:30,Health:30,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.iron\",UID0:\"extrabees.species.iron\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceBoth2\",UID0:\"forestry.toleranceBoth2\",Slot:7b},7:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"extrabees.flower.rock\",UID0:\"extrabees.flower.rock\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        }
-      ]
+      "reward": [],
+      "rewardchoice": []
     },
     {
       "name": "Scientific Genetic Manipulation",
       "description": "More control than the industrial process, but also more complicated",
       "x": 97,
       "y": 151,
-      "prerequisites": [
-        "They don\u0027t sting"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -679,38 +630,14 @@
           ]
         }
       ],
-      "reward": [
-        {
-          "id": "Forestry:beeQueenGE",
-          "amount": 8,
-          "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.basalt\",UID0:\"extrabees.species.basalt\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:10b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:13b}]}}"
-        },
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 32,
-          "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"extrabees.species.basalt\",UID0:\"extrabees.species.basalt\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:10b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:13b}]}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
-        }
-      ]
+      "reward": [],
+      "rewardchoice": []
     },
     {
       "name": "Advanced Breeding",
       "description": " ",
       "x": 136,
       "y": 131,
-      "prerequisites": [
-        "Basic Breeding"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -769,9 +696,6 @@
         "id": "gendustry:GeneSample",
         "nbt": "{species:\"rootBees\",chromosome:0,allele:\"bee.crystal.gray\"}"
       },
-      "prerequisites": [
-        "Genetic Manipulation"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -861,14 +785,6 @@
       "reward": [
         {
           "id": "gendustry:GeneSample",
-          "nbt": "{species:\"rootBees\",chromosome:0,allele:\"extrabees.species.volcanic\"}"
-        },
-        {
-          "id": "gendustry:GeneSample",
-          "nbt": "{species:\"rootBees\",chromosome:0,allele:\"extrabees.species.sticky\"}"
-        },
-        {
-          "id": "gendustry:GeneSample",
           "nbt": "{species:\"rootBees\",chromosome:0,allele:\"forestry.speciesBoggy\"}"
         }
       ]
@@ -878,9 +794,6 @@
       "description": " ",
       "x": 123,
       "y": 151,
-      "prerequisites": [
-        "Scientific Genetic Manipulation"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -967,30 +880,13 @@
           ]
         }
       ],
-      "reward": [
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
-        },
-        {
-          "id": "props:props:533"
-        }
-      ]
+      "reward": []
     },
     {
       "name": "Afforesting (Industrial)",
       "description": "The world is full of trees. Unfortunately, most of them aren\u0027t very useful except as a source of wood. It\u0027s time to change that.",
       "x": 161,
       "y": 172,
-      "icon": {
-        "id": "Forestry:sapling",
-        "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"extratrees.species.douglasfir\",UID0:\"extratrees.species.douglasfir\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmaller\",UID0:\"forestry.heightSmaller\",Slot:2b},3:{UID1:\"forestry.saplingsLow\",UID0:\"forestry.saplingsLow\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLowest\",UID0:\"forestry.sappinessLowest\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationSlower\",UID0:\"forestry.maturationSlower\",Slot:10b},11:{UID1:\"forestry.i2d\",UID0:\"forestry.i2d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-      },
-      "prerequisites": [
-        "Desirable Traits I"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1031,23 +927,7 @@
             {
               "item": {
                 "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"extratrees.species.rosewood\",UID0:\"extratrees.species.rosewood\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightAverage\",UID0:\"forestry.heightAverage\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:sapling",
                 "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeTeak\",UID0:\"forestry.treeTeak\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmall\",UID0:\"forestry.heightSmall\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"extratrees.species.douglasfir\",UID0:\"extratrees.species.douglasfir\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmaller\",UID0:\"forestry.heightSmaller\",Slot:2b},3:{UID1:\"forestry.saplingsLow\",UID0:\"forestry.saplingsLow\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLowest\",UID0:\"forestry.sappinessLowest\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationSlower\",UID0:\"forestry.maturationSlower\",Slot:10b},11:{UID1:\"forestry.i2d\",UID0:\"forestry.i2d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
               },
               "required": 16,
               "precision": "NBT_FUZZY"
@@ -1079,19 +959,7 @@
             {
               "item": {
                 "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootTrees\",chromosome:0,allele:\"extratrees.species.rosewood\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
                 "nbt": "{species:\"rootTrees\",chromosome:0,allele:\"forestry.treeTeak\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootTrees\",chromosome:0,allele:\"extratrees.species.douglasfir\"}"
               }
             }
           ]
@@ -1119,9 +987,6 @@
         "id": "RotaryCraft:rotarycraft_item_machine",
         "damage": 114
       },
-      "prerequisites": [
-        "Basic Tools"
-      ],
       "tasks": [
         {
           "type": "CRAFT",
@@ -1298,9 +1163,6 @@
       "icon": {
         "id": "Forestry:fluid.bioethanol"
       },
-      "prerequisites": [
-        "Automated Farming"
-      ],
       "repeat": {
         "type": "INTERVAL",
         "days": 4,
@@ -1323,9 +1185,6 @@
         "id": "headcrumbs:head",
         "damage": 7
       },
-      "prerequisites": [
-        "Automated Farming"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1434,9 +1293,6 @@
       "icon": {
         "id": "minecraft:fish"
       },
-      "prerequisites": [
-        "Automated Farming"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1596,7 +1452,7 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "This text area usually contains standardized text like \"A task where the player has to craft specific items\". If a task needs special instructions beyond that, they will appear here. This is a crafting task. Crafting these items in anything that works like a normal crafting table will count - like AE2 crafting terminals or TiC crafting stations, but autocrafting does not count. Now craft a quest delivery system. Your quest book will not be consumed in its crafting",
+          "longDescription": "This text area usually contains standardized text like \"A task where the player has to craft specific items\". If a task needs special instructions beyond that, they will appear here. This is a crafting task. Crafting these items in anything that works like a normal crafting table will count - like AE2 crafting terminals or Forestry Worktables, but autocrafting does not count. Now craft a quest delivery system. Your quest book will not be consumed in its crafting",
           "items": [
             {
               "item": {
@@ -1686,13 +1542,6 @@
       "description": "The world is full of trees. Unfortunately, most of them aren\u0027t very useful except as a source of wood. It\u0027s time to change that.",
       "x": 149,
       "y": 151,
-      "icon": {
-        "id": "Forestry:sapling",
-        "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"extratrees.species.copperbeech\",UID0:\"extratrees.species.copperbeech\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmall\",UID0:\"forestry.heightSmall\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"extratrees.fruit.beechnut\",UID0:\"extratrees.fruit.beechnut\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLowest\",UID0:\"forestry.sappinessLowest\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationSlow\",UID0:\"forestry.maturationSlow\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-      },
-      "prerequisites": [
-        "Desirable Traits II"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -1725,19 +1574,7 @@
             {
               "item": {
                 "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"extratrees.species.rosewood\",root:\"rootTrees\",chromo:0b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
                 "nbt": "{gene:{allele:\"forestry.treeTeak\",root:\"rootTrees\",chromo:0b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"extratrees.species.douglasfir\",root:\"rootTrees\",chromo:0b}}"
               }
             },
             {
@@ -1775,23 +1612,7 @@
             {
               "item": {
                 "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"extratrees.species.rosewood\",UID0:\"extratrees.species.rosewood\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightAverage\",UID0:\"forestry.heightAverage\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:sapling",
                 "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeTeak\",UID0:\"forestry.treeTeak\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmall\",UID0:\"forestry.heightSmall\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"extratrees.species.douglasfir\",UID0:\"extratrees.species.douglasfir\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmaller\",UID0:\"forestry.heightSmaller\",Slot:2b},3:{UID1:\"forestry.saplingsLow\",UID0:\"forestry.saplingsLow\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLowest\",UID0:\"forestry.sappinessLowest\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationSlower\",UID0:\"forestry.maturationSlower\",Slot:10b},11:{UID1:\"forestry.i2d\",UID0:\"forestry.i2d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
               },
               "required": 16,
               "precision": "NBT_FUZZY"
@@ -1820,11 +1641,6 @@
       "icon": {
         "id": "harvestcraft:honeylemonlambItem"
       },
-      "prerequisites": [
-        "Afforesting (Scientific)",
-        "Afforesting (Industrial)"
-      ],
-      "parentrequirement": 1,
       "tasks": [
         {
           "type": "CONSUME",
@@ -1855,9 +1671,6 @@
       "icon": {
         "id": "Forestry:bucketHoney"
       },
-      "prerequisites": [
-        "Advanced Breeding"
-      ],
       "tasks": [
         {
           "type": "CONSUME",
