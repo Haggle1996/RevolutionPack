@@ -1,6 +1,6 @@
 {
-  "name": "Towards a New World",
-  "description": "It is time. After these tasks are done, the sleepers can be awakened, and we will take our place in the new world. We have survived - but have we learned what we needed to learn? Only the future will tell. Survival is not enough, but it is the only test of evolution. ",
+  "name": "Personal Log-Mars Day 1",
+  "description": "We\u0027ve landed successfully on Mars after a flawless journey from the Earth. Now to turn this planet into the paradise it was intended to be!",
   "quests": [
     {
       "name": "A God Am I",
@@ -246,7 +246,7 @@
         "damage": 2
       },
       "prerequisites": [
-        "{Wheels Within Wheels}[Mass Production]"
+        "{Personal Log-Day 38}[Mass Production]"
       ],
       "tasks": [
         {

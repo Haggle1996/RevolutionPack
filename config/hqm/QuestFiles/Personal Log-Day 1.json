@@ -5,8 +5,8 @@
     {
       "name": "Basic Tools",
       "description": "It\u0027s like the stone age. I hope I get out of it fast.",
-      "x": 139,
-      "y": 84,
+      "x": 157,
+      "y": 86,
       "tasks": [
         {
           "type": "CRAFT",
@@ -163,8 +163,8 @@
     {
       "name": "They don\u0027t sting",
       "description": "...these normal ones, anyway. My bee manual must\u0027ve been written by a mad scientist. These little buggers can make almost anything. This is too good to overlook. Breeding without a genetics lab is tedious, though. I\u0027ll have to look into ways to expedite the process.",
-      "x": 76,
-      "y": 173,
+      "x": 82,
+      "y": 185,
       "icon": {
         "id": "Forestry:beePrincessGE",
         "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
@@ -1499,7 +1499,20 @@
         {
           "type": "LOCATION",
           "longDescription": "A task where the player has to reach one or more locations. \u003c\u003d\u003d This is the standardized text. Go to the location specified below. In this task your goal is simply the overworld, and since you are already there, the task is marked as completed. Specific coordinates may appear in a location quest.",
-          "locations": []
+          "locations": [
+            {
+              "name": "Overworld",
+              "icon": {
+                "id": "minecraft:sapling"
+              },
+              "x": 860,
+              "y": 67,
+              "z": 1031,
+              "dim": 0,
+              "radius": -1,
+              "visible": "NONE"
+            }
+          ]
         },
         {
           "type": "CONSUME",
@@ -1675,28 +1688,33 @@
       ]
     },
     {
-      "name": "Unnamed",
-      "x": 108,
-      "y": 23,
+      "name": "Cooking for Blockheads",
+      "x": 61,
+      "y": 14,
       "icon": {
         "id": "cookingbook:recipebook"
       }
     },
     {
-      "name": "Unnamed1",
-      "x": 72,
-      "y": 55,
+      "name": "Harder Ores",
+      "x": 62,
+      "y": 60,
       "icon": {
         "id": "HarderOres:machine_sluice"
       }
     },
     {
-      "name": "Unnamed2",
-      "x": 44,
-      "y": 91,
+      "name": "Tool Utilities",
+      "x": 62,
+      "y": 139,
       "icon": {
         "id": "minecraft:stone_pickaxe"
       }
+    },
+    {
+      "name": "Seasons",
+      "x": 62,
+      "y": 103
     }
   ],
   "reputationBar": []
