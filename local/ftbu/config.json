@@ -56,7 +56,9 @@
       "flansmod:m9Ammo 5 0",
       "OpenBlocks:sleepingBag 1 0",
       "harvestcraft:epicbaconItem 2 0",
-      "minecraft:torch 8 0"
+      "minecraft:torch 8 0",
+      "minecraft:planks 8 0",
+      "minecraft:glass 4 0"
     ]
   },
   "tops": {

@@ -5,8 +5,8 @@
     {
       "name": "Basic Tools",
       "description": "It\u0027s like the stone age. I hope I get out of it fast.",
-      "x": 41,
-      "y": 77,
+      "x": 139,
+      "y": 84,
       "tasks": [
         {
           "type": "CRAFT",
@@ -48,15 +48,7 @@
         },
         {
           "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:90,Head:3,BaseAttack:6,ToolEXP:0L,Built:1b,HarvestLevel:1,Attack:6,RenderHead:3,ModDurability:0.0f,Handle:3,Broken:0b,Shoddy:0.0f,RenderHandle:3,Accessory:3,MiningSpeed:400,RenderAccessory:3,ToolLevel:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:90,Modifiers:0},display:{Name:\"�fFlint Mattock\"}}"
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
+          "items": []
         }
       ],
       "reward": [
@@ -79,8 +71,8 @@
     {
       "name": "Basic Cooking",
       "description": "It is surprising what you can do with the simplest of tools",
-      "x": 75,
-      "y": 53,
+      "x": 177,
+      "y": 105,
       "icon": {
         "id": "harvestcraft:bakedhamItem"
       },
@@ -171,8 +163,8 @@
     {
       "name": "They don\u0027t sting",
       "description": "...these normal ones, anyway. My bee manual must\u0027ve been written by a mad scientist. These little buggers can make almost anything. This is too good to overlook. Breeding without a genetics lab is tedious, though. I\u0027ll have to look into ways to expedite the process.",
-      "x": 42,
-      "y": 146,
+      "x": 76,
+      "y": 173,
       "icon": {
         "id": "Forestry:beePrincessGE",
         "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
@@ -231,8 +223,8 @@
     {
       "name": "Fast Food",
       "description": "A new world, and this is where we start?",
-      "x": 106,
-      "y": 53,
+      "x": 176,
+      "y": 68,
       "icon": {
         "id": "harvestcraft:hamburgerItem"
       },
@@ -631,7 +623,17 @@
         }
       ],
       "reward": [],
-      "rewardchoice": []
+      "rewardchoice": [
+        {
+          "id": "minecraft:bedrock"
+        },
+        {
+          "id": "minecraft:bedrock"
+        },
+        {
+          "id": "minecraft:bedrock"
+        }
+      ]
     },
     {
       "name": "Advanced Breeding",
@@ -782,12 +784,7 @@
           ]
         }
       ],
-      "reward": [
-        {
-          "id": "gendustry:GeneSample",
-          "nbt": "{species:\"rootBees\",chromosome:0,allele:\"forestry.speciesBoggy\"}"
-        }
-      ]
+      "reward": []
     },
     {
       "name": "Desirable Traits II",
@@ -880,7 +877,17 @@
           ]
         }
       ],
-      "reward": []
+      "reward": [
+        {
+          "id": "minecraft:bedrock"
+        },
+        {
+          "id": "minecraft:bedrock"
+        },
+        {
+          "id": "minecraft:bedrock"
+        }
+      ]
     },
     {
       "name": "Afforesting (Industrial)",
@@ -981,8 +988,8 @@
     {
       "name": "Automated Farming",
       "description": "If I never need to use a hoe again...",
-      "x": 103,
-      "y": 92,
+      "x": 189,
+      "y": 140,
       "icon": {
         "id": "RotaryCraft:rotarycraft_item_machine",
         "damage": 114
@@ -1444,15 +1451,15 @@
     {
       "name": "Questing Tutorial",
       "description": "PLEASE READ ALL THE TEXT OF THIS QUEST CAREFULLY! This quest explains how to do quests. Scroll down to read all the text. This text area always applies to the quest as a whole. Everywhere but in this quest this is in-world flavor text. Explanations of a quest\u0027s tasks you\u0027ll find on the opposite page, Click on a task to see its text on the opposite page. ",
-      "x": 41,
-      "y": 24,
+      "x": 24,
+      "y": 15,
       "icon": {
         "id": "HardcoreQuesting:quest_book"
       },
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "This text area usually contains standardized text like \"A task where the player has to craft specific items\". If a task needs special instructions beyond that, they will appear here. This is a crafting task. Crafting these items in anything that works like a normal crafting table will count - like AE2 crafting terminals or Forestry Worktables, but autocrafting does not count. Now craft a quest delivery system. Your quest book will not be consumed in its crafting",
+          "longDescription": "This text area usually contains standardized text like \"A task where the player has to craft specific items\". If a task needs special instructions beyond that, they will appear here. This is a crafting task. Crafting these items in anything that works like a normal crafting table will count - like AE2 crafting terminals or TiC crafting stations, but autocrafting does not count. Now craft a quest delivery system. Your quest book will not be consumed in its crafting",
           "items": [
             {
               "item": {
@@ -1492,19 +1499,7 @@
         {
           "type": "LOCATION",
           "longDescription": "A task where the player has to reach one or more locations. \u003c\u003d\u003d This is the standardized text. Go to the location specified below. In this task your goal is simply the overworld, and since you are already there, the task is marked as completed. Specific coordinates may appear in a location quest.",
-          "locations": [
-            {
-              "name": "Overworld",
-              "icon": {
-                "id": "minecraft:sapling"
-              },
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "dim": 0,
-              "radius": -1
-            }
-          ]
+          "locations": []
         },
         {
           "type": "CONSUME",
@@ -1547,36 +1542,6 @@
           "type": "DETECT",
           "longDescription": "These are arborist serums (16 charges) for the following species: Hill Cherry, Lemon, Grandidier\u0027s Baobad, Coast Sequoia, Rosewood, Teak, Douglas Fir",
           "items": [
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.treeCherry\",root:\"rootTrees\",chromo:0b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.treeLemon\",root:\"rootTrees\",chromo:0b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.treeSequioa\",root:\"rootTrees\",chromo:0b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.treeBaobab\",root:\"rootTrees\",chromo:0b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.treeTeak\",root:\"rootTrees\",chromo:0b}}"
-              }
-            },
             {
               "item": {
                 "id": "Forestry:sapling",
@@ -1708,7 +1673,31 @@
           "amount": 16
         }
       ]
+    },
+    {
+      "name": "Unnamed",
+      "x": 108,
+      "y": 23,
+      "icon": {
+        "id": "cookingbook:recipebook"
+      }
+    },
+    {
+      "name": "Unnamed1",
+      "x": 72,
+      "y": 55,
+      "icon": {
+        "id": "HarderOres:machine_sluice"
+      }
+    },
+    {
+      "name": "Unnamed2",
+      "x": 44,
+      "y": 91,
+      "icon": {
+        "id": "minecraft:stone_pickaxe"
+      }
     }
   ],
-  "reputation": []
+  "reputationBar": []
 }

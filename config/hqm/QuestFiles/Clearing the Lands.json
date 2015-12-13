@@ -565,7 +565,11 @@
           ]
         }
       ],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:bedrock"
+        }
+      ],
       "rewardchoice": [
         {
           "id": "minecraft:iron_block",
@@ -633,26 +637,25 @@
       "tasks": [
         {
           "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{InfiTool:{RenderExtra:15,BaseDurability:3217,BaseAttack:10,ToolEXP:0L,Built:1b,HarvestLevel:6,RenderHead:15,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:15,Accessory:15,MiningSpeed:790,Unbreaking:2,Damage:0,HarvestLevel2:6,BonusDurability:0,TotalDurability:3217,MiningSpeed2:790,Head:15,Attack:10,Handle:15,Broken:0b,Extra:15,RenderAccessory:15,ToolLevel:1,Modifiers:0},display:{Name:\"�fAlumite Cleaver\"}}"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{InfiTool:{RenderExtra:12,BaseDurability:2400,BaseAttack:5,DrawSpeed:93,ToolEXP:0L,Built:1b,HarvestLevel:9,RenderHead:12,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:12,Accessory:0,MiningSpeed:900,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:2400,BaseDrawSpeed:93,Head:12,Attack:5,Handle:12,Broken:0b,Extra:12,RenderAccessory:0,FlightSpeed:7.5f,ToolLevel:1,Modifiers:0},display:{Name:\"�fManyullyn Crossbow\"}}"
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
+          "items": []
         }
       ],
-      "reward": [],
-      "rewardchoice": []
+      "reward": [
+        {
+          "id": "minecraft:bedrock"
+        },
+        {
+          "id": "minecraft:bedrock"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:bedrock"
+        },
+        {
+          "id": "minecraft:bedrock"
+        }
+      ]
     },
     {
       "name": "Denizens of the High Frontier",
@@ -713,7 +716,11 @@
           ]
         }
       ],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:bedrock"
+        }
+      ],
       "rewardchoice": [
         {
           "id": "ExtraUtilities:dark_portal"
@@ -1174,6 +1181,9 @@
           "id": "ReactorCraft:reactorcraft_block_ore",
           "damage": 3,
           "amount": 32
+        },
+        {
+          "id": "minecraft:bedrock"
         }
       ],
       "rewardchoice": [
@@ -1295,5 +1305,5 @@
       ]
     }
   ],
-  "reputation": []
+  "reputationBar": []
 }

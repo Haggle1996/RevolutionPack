@@ -25,14 +25,12 @@
 - Look into Pam's Markets
 - Verify EiraIRC configuration
 - Guide in FTBUtilities
-- AppleCore remove outdated scripts
-- Take better/more shots for loading screen
 - Turn off Edit Mode on HQM
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
 - EIO filters use BC gates
 - Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 
-- Generic LaunchGUI message for disconnect
 - More loot in roguelikes.
+- Update tower designs
 
 #Pack changes
 
@@ -69,3 +67,4 @@
 - Sifter uses wooden bucket instead of metal
 - Removed extra wooden buckets.
 - Enviromine Elevators require steel and bedrock picks
+- Animals+ Whales, Centipedes, Crickets, and Butterflies no longer spawn.

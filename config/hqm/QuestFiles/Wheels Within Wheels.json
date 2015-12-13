@@ -258,6 +258,12 @@
           "id": "Forestry:resources",
           "damage": 1,
           "amount": 64
+        },
+        {
+          "id": "minecraft:bedrock"
+        },
+        {
+          "id": "minecraft:bedrock"
         }
       ]
     },
@@ -1131,5 +1137,5 @@
       ]
     }
   ],
-  "reputation": []
+  "reputationBar": []
 }

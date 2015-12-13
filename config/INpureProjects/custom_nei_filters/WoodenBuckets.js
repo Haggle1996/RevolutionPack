@@ -1,3 +1,3 @@
 if (FML.isModLoaded("woodenbucket")) {
-	NEI.override("woodenbucket:wbBucket",[0]);
+	//NEI.override("woodenbucket:wbBucket",[0]);
 }

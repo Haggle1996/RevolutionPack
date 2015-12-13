@@ -185,6 +185,9 @@
         {
           "id": "minecraft:coal_ore",
           "amount": 16
+        },
+        {
+          "id": "minecraft:bedrock"
         }
       ]
     },
@@ -372,12 +375,18 @@
           "id": "EnderIO:itemAlloy",
           "damage": 1,
           "amount": 4
+        },
+        {
+          "id": "minecraft:bedrock"
         }
       ],
       "rewardchoice": [
         {
           "id": "EnderIO:itemBasicCapacitor",
           "damage": 1
+        },
+        {
+          "id": "minecraft:bedrock"
         },
         {
           "id": "BuildCraft|Silicon:redstoneChipset",
@@ -658,6 +667,9 @@
           "id": "RotaryCraft:rotarycraft_item_advgear",
           "damage": 1,
           "amount": 2
+        },
+        {
+          "id": "minecraft:bedrock"
         }
       ]
     },
@@ -890,6 +902,9 @@
           "id": "RotaryCraft:rotarycraft_item_advgear",
           "damage": 2,
           "nbt": "{bedrock:1b}"
+        },
+        {
+          "id": "minecraft:bedrock"
         }
       ]
     },
@@ -2037,5 +2052,5 @@
       ]
     }
   ],
-  "reputation": []
+  "reputationBar": []
 }
