@@ -3,1452 +3,6 @@
   "description": "DISASTER! As we egressed the complex, a large section of the underground tunnels collapsed behind us, leaving my team isolated from our equipment, supplies, and the rest of our personnel.",
   "quests": [
     {
-      "name": "Basic Tools",
-      "description": "It\u0027s like the stone age. I hope I get out of it fast.",
-      "x": 157,
-      "y": 86,
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 10
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 5
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": []
-        }
-      ],
-      "reward": [
-        {
-          "id": "minecraft:wheat_seeds",
-          "amount": 9
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "minecraft:bread",
-          "amount": 8
-        },
-        {
-          "id": "minecraft:flint",
-          "amount": 8
-        }
-      ]
-    },
-    {
-      "name": "Basic Cooking",
-      "description": "It is surprising what you can do with the simplest of tools",
-      "x": 177,
-      "y": 105,
-      "icon": {
-        "id": "harvestcraft:bakedhamItem"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "harvestcraft:mixingbowlItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:mortarandpestleItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:bakewareItem"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock"
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "harvestcraft:doughItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:bakedhamItem"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "minecraft:pumpkin_seeds",
-          "amount": 4
-        },
-        {
-          "id": "minecraft:melon_seeds",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pampeppercornSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pamalmondSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pamcinnamonSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pamorangeSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pamvanillabeanSapling",
-          "amount": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "minecraft:dye",
-          "damage": 15,
-          "amount": 32
-        },
-        {
-          "id": "minecraft:fish",
-          "amount": 8
-        }
-      ]
-    },
-    {
-      "name": "They don\u0027t sting",
-      "description": "...these normal ones, anyway. My bee manual must\u0027ve been written by a mad scientist. These little buggers can make almost anything. This is too good to overlook. Breeding without a genetics lab is tedious, though. I\u0027ll have to look into ways to expedite the process.",
-      "x": 82,
-      "y": 185,
-      "icon": {
-        "id": "Forestry:beePrincessGE",
-        "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "longDescription": "This can be any species of bee, but the drones must be identical (one stack of four)",
-          "items": [
-            {
-              "item": {
-                "id": "Forestry:beePrincessGE",
-                "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:beeDroneGE",
-                "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-              },
-              "required": 4,
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Forestry:factory",
-          "damage": 2
-        },
-        {
-          "id": "Forestry:factory",
-          "damage": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 8,
-          "nbt": "{MaxH:30,Health:30,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesModest\",UID0:\"forestry.speciesModest\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        },
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 8,
-          "nbt": "{MaxH:30,Health:30,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesWintry\",UID0:\"forestry.speciesWintry\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersSnow\",UID0:\"forestry.flowersSnow\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectGlacial\",UID0:\"forestry.effectGlacial\",Slot:13b}]}}"
-        },
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 8,
-          "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMarshy\",UID0:\"forestry.speciesMarshy\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersMushrooms\",UID0:\"forestry.flowersMushrooms\",Slot:10b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        }
-      ]
-    },
-    {
-      "name": "Fast Food",
-      "description": "A new world, and this is where we start?",
-      "x": 176,
-      "y": 68,
-      "icon": {
-        "id": "harvestcraft:hamburgerItem"
-      },
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "harvestcraft:hamburgerItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:cheeseburgerItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:baconcheeseburgerItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:deluxecheeseburgerItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:baconmushroomburgerItem"
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "harvestcraft:pizzaItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:supremepizzaItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:meatfeastpizzaItem"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Thaumcraft:ItemHoeThaumium"
-        },
-        {
-          "id": "harvestcraft:pampomegranateSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pamstarfruitSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pampistachioSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pamlemonSapling",
-          "amount": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "minecraft:dye",
-          "damage": 15,
-          "amount": 64
-        },
-        {
-          "id": "RandomThings:fertilizedDirt",
-          "amount": 16
-        }
-      ]
-    },
-    {
-      "name": "Not Quite High Cuisine",
-      "description": "...but close enough after what came before",
-      "x": 227,
-      "y": 42,
-      "icon": {
-        "id": "harvestcraft:rainbowcurryItem"
-      },
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "harvestcraft:chickencurryItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:chickengumboItem"
-              }
-            },
-            {
-              "item": {
-                "id": "harvestcraft:rainbowcurryItem"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "harvestcraft:pamfigSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pamcoconutSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pamdateSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pamnutmegSapling",
-          "amount": 4
-        },
-        {
-          "id": "harvestcraft:pammangoSapling",
-          "amount": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "EnderIO:blockFarmStation"
-        },
-        {
-          "id": "Forestry:ffarm",
-          "amount": 64,
-          "nbt": "{FarmBlock:3}"
-        }
-      ]
-    },
-    {
-      "name": "Food for the World",
-      "description": "The sleepers will need a lot of food when they wake up.",
-      "x": 273,
-      "y": 83,
-      "icon": {
-        "id": "harvestcraft:leafyfishsandwichItem"
-      },
-      "prerequisites": [
-        "Biofuel",
-        "No Vegetarians Allowed",
-        "The Sea\u0027s Bounty",
-        "Farming enhancements",
-        "Somewhat More Healthy",
-        "Honey for the World"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "harvestcraft:leafyfishsandwichItem"
-              },
-              "required": 1000
-            },
-            {
-              "item": {
-                "id": "minecraft:cake"
-              },
-              "required": 1000
-            },
-            {
-              "item": {
-                "id": "harvestcraft:rootbeersodaItem"
-              },
-              "required": 1000
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "extracells:storage.component",
-          "damage": 7
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "ExtraUtilities:drum",
-          "amount": 16,
-          "nbt": "{Fluid:{FluidName:\"rc ethanol\",Amount:256000}}"
-        },
-        {
-          "id": "ExtraUtilities:drum",
-          "amount": 16,
-          "nbt": "{Fluid:{FluidName:\"bioethanol\",Amount:256000}}"
-        }
-      ]
-    },
-    {
-      "name": "Basic Breeding",
-      "description": " ",
-      "x": 111,
-      "y": 131,
-      "icon": {
-        "id": "Forestry:beeQueenGE",
-        "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesIndustrious\",UID0:\"forestry.speciesIndustrious\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringFast\",UID0:\"forestry.floweringFast\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "Forestry:royalJelly"
-              },
-              "required": 16
-            },
-            {
-              "item": {
-                "id": "Forestry:pollen"
-              },
-              "required": 16
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Forestry:beeQueenGE",
-          "amount": 2,
-          "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesIndustrious\",UID0:\"forestry.speciesIndustrious\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringFast\",UID0:\"forestry.floweringFast\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        },
-        {
-          "id": "Forestry:beeQueenGE",
-          "amount": 2,
-          "nbt": "{MaxH:40,Health:40,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesImperial\",UID0:\"forestry.speciesImperial\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectBeatific\",UID0:\"forestry.effectBeatific\",Slot:13b}]}}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 16,
-          "nbt": "{MaxH:50,Health:50,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMonastic\",UID0:\"forestry.speciesMonastic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:10b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        },
-        {
-          "id": "Forestry:beeDroneGE",
-          "amount": 16,
-          "nbt": "{MaxH:50,Health:50,IsAnalyzed:1b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesValiant\",UID0:\"forestry.speciesValiant\",Slot:0b},1:{UID1:\"forestry.speedSlow\",UID0:\"forestry.speedSlow\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:9b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:10b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:11b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:12b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:13b}]}}"
-        }
-      ]
-    },
-    {
-      "name": "Genetic Manipulation",
-      "description": "This should speed things up satisfactorily",
-      "x": 110,
-      "y": 172,
-      "icon": {
-        "id": "gendustry:MutatronAdv"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "gendustry:Sampler"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "gendustry:Imprinter"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "gendustry:MutagenProducer"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "gendustry:Transposer"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "gendustry:MutatronAdv"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "gendustry:Labware"
-              },
-              "required": 64
-            }
-          ]
-        }
-      ],
-      "reward": [],
-      "rewardchoice": []
-    },
-    {
-      "name": "Scientific Genetic Manipulation",
-      "description": "More control than the industrial process, but also more complicated",
-      "x": 97,
-      "y": 151,
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bedrock"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 1
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 2
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 1
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 2
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 3
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 4
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 3
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "minecraft:bedrock"
-        },
-        {
-          "id": "minecraft:bedrock"
-        },
-        {
-          "id": "minecraft:bedrock"
-        }
-      ]
-    },
-    {
-      "name": "Advanced Breeding",
-      "description": " ",
-      "x": 136,
-      "y": 131,
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 81
-              },
-              "required": 64
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 76
-              },
-              "required": 64
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 12
-              },
-              "required": 64
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 21
-              },
-              "required": 64
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "damage": 70
-              },
-              "required": 64
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "gendustry:ApiaryUpgrade",
-          "amount": 16
-        }
-      ]
-    },
-    {
-      "name": "Desirable Traits I",
-      "description": " ",
-      "x": 136,
-      "y": 172,
-      "icon": {
-        "id": "gendustry:GeneSample",
-        "nbt": "{species:\"rootBees\",chromosome:0,allele:\"bee.crystal.gray\"}"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "longDescription": "Gene samples required: Lifespan (shortest, longest), speed (fast, slowest), fertility (1, 4), cave dwelling (true), tolerant flyer (true), ignores day/night (true), temperature tolerance (both 2), humidity tolerance (both 2), flowering (fast), territory (large)",
-          "items": [
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:2,allele:\"forestry.lifespanShortest\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:2,allele:\"forestry.lifespanLongest\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:1,allele:\"forestry.speedSlowest\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:1,allele:\"forestry.speedFast\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:3,allele:\"forestry.fertilityLow\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:3,allele:\"forestry.fertilityMaximum\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:9,allele:\"forestry.boolTrue\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:8,allele:\"forestry.boolTrue\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:5,allele:\"forestry.boolTrue\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:4,allele:\"forestry.toleranceBoth2\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:7,allele:\"forestry.toleranceBoth2\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:11,allele:\"forestry.floweringFast\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootBees\",chromosome:12,allele:\"forestry.territoryLarge\"}"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": []
-    },
-    {
-      "name": "Desirable Traits II",
-      "description": " ",
-      "x": 123,
-      "y": 151,
-      "tasks": [
-        {
-          "type": "DETECT",
-          "longDescription": "Required Traits: lifespan (shortest, longest), production (slowest, fast), fertility (low, maximum), cathemeral (true), cave dwelling (true), rain tolerance (true), humidity tolerance (both 2), tempature tolerance (both 2), Pollination (fast), territory (large)",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.lifespanShortest\",root:\"rootBees\",chromo:2b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.lifespanLongest\",root:\"rootBees\",chromo:2b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.speedSlowest\",root:\"rootBees\",chromo:1b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.speedFast\",root:\"rootBees\",chromo:1b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.fertilityLow\",root:\"rootBees\",chromo:3b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.fertilityMaximum\",root:\"rootBees\",chromo:3b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.boolTrue\",root:\"rootBees\",chromo:5b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.boolTrue\",root:\"rootBees\",chromo:9b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.boolTrue\",root:\"rootBees\",chromo:8b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.toleranceBoth2\",root:\"rootBees\",chromo:4b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.toleranceBoth2\",root:\"rootBees\",chromo:7b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.floweringFast\",root:\"rootBees\",chromo:11b}}"
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:bedrock",
-                "nbt": "{gene:{allele:\"forestry.territoryLarge\",root:\"rootBees\",chromo:12b}}"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "minecraft:bedrock"
-        },
-        {
-          "id": "minecraft:bedrock"
-        },
-        {
-          "id": "minecraft:bedrock"
-        }
-      ]
-    },
-    {
-      "name": "Afforesting (Industrial)",
-      "description": "The world is full of trees. Unfortunately, most of them aren\u0027t very useful except as a source of wood. It\u0027s time to change that.",
-      "x": 161,
-      "y": 172,
-      "tasks": [
-        {
-          "type": "DETECT",
-          "longDescription": "These are gene samples for the following species: Hill Cherry, Lemon, Grandidier\u0027s Baobad, Coast Sequoia, Rosewood, Teak, Douglas Fir",
-          "items": [
-            {
-              "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeCherry\",UID0:\"forestry.treeCherry\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmaller\",UID0:\"forestry.heightSmaller\",Slot:2b},3:{UID1:\"forestry.saplingsLow\",UID0:\"forestry.saplingsLow\",Slot:3b},4:{UID1:\"forestry.fruitCherry\",UID0:\"forestry.fruitCherry\",Slot:4b},5:{UID1:\"forestry.yieldAverage\",UID0:\"forestry.yieldAverage\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLow\",UID0:\"forestry.sappinessLow\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeLemon\",UID0:\"forestry.treeLemon\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmallest\",UID0:\"forestry.heightSmallest\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitLemon\",UID0:\"forestry.fruitLemon\",Slot:4b},5:{UID1:\"forestry.yieldLower\",UID0:\"forestry.yieldLower\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessAverage\",UID0:\"forestry.sappinessAverage\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeSequioa\",UID0:\"forestry.treeSequioa\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightLargest\",UID0:\"forestry.heightLargest\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationSlower\",UID0:\"forestry.maturationSlower\",Slot:10b},11:{UID1:\"forestry.i3d\",UID0:\"forestry.i3d\",Slot:11b},12:{UID1:\"forestry.fireproofTrue\",UID0:\"forestry.fireproofTrue\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeBaobab\",UID0:\"forestry.treeBaobab\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightLarge\",UID0:\"forestry.heightLarge\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeDesert\",UID0:\"forestry.plantTypeDesert\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationSlow\",UID0:\"forestry.maturationSlow\",Slot:10b},11:{UID1:\"forestry.i3d\",UID0:\"forestry.i3d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeTeak\",UID0:\"forestry.treeTeak\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmall\",UID0:\"forestry.heightSmall\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootTrees\",chromosome:0,allele:\"forestry.treeCherry\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootTrees\",chromosome:0,allele:\"forestry.treeLemon\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootTrees\",chromosome:0,allele:\"forestry.treeSequioa\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootTrees\",chromosome:0,allele:\"forestry.treeBaobab\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "gendustry:GeneSample",
-                "nbt": "{species:\"rootTrees\",chromosome:0,allele:\"forestry.treeTeak\"}"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "JABBA:upgradeCore",
-          "damage": 8,
-          "amount": 4
-        },
-        {
-          "id": "JABBA:upgradeCore",
-          "damage": 6,
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "Automated Farming",
-      "description": "If I never need to use a hoe again...",
-      "x": 189,
-      "y": 140,
-      "icon": {
-        "id": "RotaryCraft:rotarycraft_item_machine",
-        "damage": 114
-      },
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "EnderIO:blockFarmStation"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:factory",
-                "damage": 1
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:ffarm",
-                "damage": 4,
-                "nbt": "{FarmBlock:0}"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:ffarm",
-                "damage": 3,
-                "nbt": "{FarmBlock:0}"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:ffarm",
-                "damage": 2,
-                "nbt": "{FarmBlock:0}"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:ffarm",
-                "damage": 5,
-                "nbt": "{FarmBlock:0}"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "RandomThings:fertilizedDirt"
-              },
-              "required": 16
-            },
-            {
-              "item": {
-                "id": "GardenCore:garden_soil"
-              },
-              "required": 16
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "longDescription": "I will need a planter robot, a harvester robot and a lumberjack robot, for a start",
-          "items": [
-            {
-              "item": {
-                "id": "BuildCraft|Robotics:robot",
-                "nbt": "{board:{id:\"buildcraft:boardRobotLumberjack\"},energy:0}"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "BuildCraft|Robotics:robot",
-                "nbt": "{board:{id:\"buildcraft:boardRobotPlanter\"},energy:0}"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "BuildCraft|Robotics:robot",
-                "nbt": "{board:{id:\"buildcraft:boardRobotHarvester\"},energy:0}"
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "longDescription": "I will need a harvesting core, a chopping core, a use core and a gathering core.",
-          "items": [
-            {
-              "item": {
-                "id": "Thaumcraft:ItemGolemCore",
-                "damage": 3
-              }
-            },
-            {
-              "item": {
-                "id": "Thaumcraft:ItemGolemCore",
-                "damage": 7
-              }
-            },
-            {
-              "item": {
-                "id": "Thaumcraft:ItemGolemCore",
-                "damage": 8
-              }
-            },
-            {
-              "item": {
-                "id": "Thaumcraft:ItemGolemCore",
-                "damage": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "RotaryCraft:rotarycraft_item_machine",
-                "damage": 90
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "RotaryCraft:rotarycraft_item_machine",
-                "damage": 114
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "ExtraUtilities:drum",
-          "nbt": "{Fluid:{FluidName:\"rc ethanol\",Amount:256000}}"
-        },
-        {
-          "id": "minecraft:bone",
-          "amount": 64
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "EnderIO:itemBasicCapacitor",
-          "damage": 1,
-          "amount": 2
-        },
-        {
-          "id": "Forestry:ffarm",
-          "amount": 64,
-          "nbt": "{FarmBlock:3}"
-        },
-        {
-          "id": "RotaryCraft:rotarycraft_item_shaftcraft",
-          "damage": 1,
-          "amount": 127
-        }
-      ]
-    },
-    {
-      "name": "Biofuel",
-      "description": "One option for renewable power",
-      "x": 214,
-      "y": 103,
-      "icon": {
-        "id": "Forestry:fluid.bioethanol"
-      },
-      "repeat": {
-        "type": "INTERVAL",
-        "days": 4,
-        "hours": 0
-      },
-      "reward": [
-        {
-          "id": "EnderIO:blockCapBank",
-          "damage": 3,
-          "nbt": "{type:\"VIBRANT\",storedEnergyRF:25000000}"
-        }
-      ]
-    },
-    {
-      "name": "No Vegetarians Allowed",
-      "description": "An unpleasant business, but a time-honored tradition I do not want to dispense of.",
-      "x": 227,
-      "y": 83,
-      "icon": {
-        "id": "headcrumbs:head",
-        "damage": 7
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "RotaryCraft:rotarycraft_item_machine",
-                "damage": 37
-              }
-            },
-            {
-              "item": {
-                "id": "EnderIO:blockPoweredSpawner"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "RotaryCraft:rotarycraft_item_machine",
-                "damage": 50
-              }
-            },
-            {
-              "item": {
-                "id": "EnderIO:blockKillerJoe"
-              },
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "ExtraUtilities:spike_base"
-              },
-              "required": 4
-            },
-            {
-              "item": {
-                "id": "RotaryCraft:rotarycraft_item_machine",
-                "damage": 23
-              }
-            },
-            {
-              "item": {
-                "id": "Railcraft:machine.alpha",
-                "damage": 11
-              }
-            }
-          ]
-        },
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:beef"
-              },
-              "required": 1000
-            },
-            {
-              "item": {
-                "id": "minecraft:porkchop"
-              },
-              "required": 1000
-            },
-            {
-              "item": {
-                "id": "minecraft:chicken"
-              },
-              "required": 1000
-            },
-            {
-              "item": {
-                "id": "minecraft:egg"
-              },
-              "required": 1000
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "RotaryCraft:rotarycraft_item_spawner",
-          "nbt": "{Spawner:\"Cow\"}"
-        },
-        {
-          "id": "props:props",
-          "damage": 233
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "EnderIO:itemMaterial",
-          "damage": 6,
-          "amount": 8
-        },
-        {
-          "id": "ExtraUtilities:spike_base_gold",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "The Sea\u0027s Bounty",
-      "description": "I hate fishing. Did I say I hate fishing...",
-      "x": 215,
-      "y": 63,
-      "icon": {
-        "id": "minecraft:fish"
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "harvestcraft:fishtrap"
-              }
-            },
-            {
-              "item": {
-                "id": "Thaumcraft:ItemGolemCore",
-                "damage": 11
-              }
-            }
-          ]
-        },
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:fish"
-              },
-              "required": 250,
-              "precision": "ORE_DICTIONARY"
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "harvestcraft:snailrawItem",
-          "amount": 64
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "Thaumcraft:ItemGolemPlacer",
-          "damage": 4
-        },
-        {
-          "id": "Thaumcraft:ItemGolemPlacer",
-          "damage": 2
-        }
-      ]
-    },
-    {
-      "name": "Farming enhancements",
-      "description": "I have made a list of useful items that may help speed up the annoyingly slow-growing plants, and other unusual farming equipment.",
-      "x": 240,
-      "y": 22,
-      "icon": {
-        "id": "Thaumcraft:blockMetalDevice",
-        "damage": 8
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "ChromatiCraft:chromaticraft_item_growth"
-              }
-            },
-            {
-              "item": {
-                "id": "Thaumcraft:blockMetalDevice",
-                "damage": 8
-              }
-            },
-            {
-              "item": {
-                "id": "Botania:specialFlower",
-                "nbt": "{type:\"agricarnation\"}"
-              }
-            },
-            {
-              "item": {
-                "id": "OpenBlocks:sprinkler"
-              }
-            },
-            {
-              "item": {
-                "id": "RotaryCraft:rotarycraft_item_machine",
-                "damage": 31
-              }
-            },
-            {
-              "item": {
-                "id": "RotaryCraft:rotarycraft_item_machine",
-                "damage": 114
-              }
-            },
-            {
-              "item": {
-                "id": "RotaryCraft:rotarycraft_item_machine",
-                "damage": 90
-              }
-            },
-            {
-              "item": {
-                "id": "RandomThings:fertilizedDirt"
-              },
-              "required": 16
-            },
-            {
-              "item": {
-                "id": "GardenCore:garden_soil"
-              },
-              "required": 16
-            },
-            {
-              "item": {
-                "id": "ChromatiCraft:chromaticraft_item_placer",
-                "damage": 41
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "minecraft:dye",
-          "damage": 15,
-          "amount": 64
-        },
-        {
-          "id": "RotaryCraft:rotarycraft_item_powders",
-          "damage": 13,
-          "amount": 64
-        },
-        {
-          "id": "Forestry:fertilizerCompound",
-          "amount": 64
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "GardenCore:garden_soil",
-          "amount": 64
-        },
-        {
-          "id": "RandomThings:fertilizedDirt",
-          "amount": 64
-        }
-      ]
-    },
-    {
       "name": "Questing Tutorial",
       "description": "PLEASE READ ALL THE TEXT OF THIS QUEST CAREFULLY! This quest explains how to do quests. Scroll down to read all the text. This text area always applies to the quest as a whole. Everywhere but in this quest this is in-world flavor text. Explanations of a quest\u0027s tasks you\u0027ll find on the opposite page, Click on a task to see its text on the opposite page. ",
       "x": 24,
@@ -1542,57 +96,59 @@
         {
           "id": "HardcoreQuesting:bags",
           "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
         }
       ]
     },
     {
-      "name": "Afforesting (Scientific)",
-      "description": "The world is full of trees. Unfortunately, most of them aren\u0027t very useful except as a source of wood. It\u0027s time to change that.",
-      "x": 149,
-      "y": 151,
+      "name": "Doing it harder",
+      "description": "One advantage we have over primitive cultures is that we know how to extract metals even from the poorest of sources. Our first machine will be a sluice, which will help us filter out heavy metals from the surrounding sand and gravel.",
+      "x": 64,
+      "y": 56,
+      "icon": {
+        "id": "HarderOres:machine_sluice"
+      },
+      "prerequisites": [
+        "Questing Tutorial"
+      ],
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "These are arborist serums (16 charges) for the following species: Hill Cherry, Lemon, Grandidier\u0027s Baobad, Coast Sequoia, Rosewood, Teak, Douglas Fir",
           "items": [
             {
               "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeCherry\",UID0:\"forestry.treeCherry\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmaller\",UID0:\"forestry.heightSmaller\",Slot:2b},3:{UID1:\"forestry.saplingsLow\",UID0:\"forestry.saplingsLow\",Slot:3b},4:{UID1:\"forestry.fruitCherry\",UID0:\"forestry.fruitCherry\",Slot:4b},5:{UID1:\"forestry.yieldAverage\",UID0:\"forestry.yieldAverage\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLow\",UID0:\"forestry.sappinessLow\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+                "id": "minecraft:planks"
               },
-              "required": 16,
-              "precision": "NBT_FUZZY"
+              "precision": "ORE_DICTIONARY"
             },
             {
               "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeLemon\",UID0:\"forestry.treeLemon\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmallest\",UID0:\"forestry.heightSmallest\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitLemon\",UID0:\"forestry.fruitLemon\",Slot:4b},5:{UID1:\"forestry.yieldLower\",UID0:\"forestry.yieldLower\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessAverage\",UID0:\"forestry.sappinessAverage\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+                "id": "minecraft:stick"
               },
-              "required": 16,
-              "precision": "NBT_FUZZY"
+              "required": 6
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "HarderOres:machine_sluice"
+              },
+              "required": 4
             },
             {
               "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeSequioa\",UID0:\"forestry.treeSequioa\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightLargest\",UID0:\"forestry.heightLargest\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationSlower\",UID0:\"forestry.maturationSlower\",Slot:10b},11:{UID1:\"forestry.i3d\",UID0:\"forestry.i3d\",Slot:11b},12:{UID1:\"forestry.fireproofTrue\",UID0:\"forestry.fireproofTrue\",Slot:12b}]}}"
-              },
-              "required": 16,
-              "precision": "NBT_FUZZY"
+                "id": "ExpandedIndustry:machine_wood_hopper"
+              }
             },
             {
               "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeBaobab\",UID0:\"forestry.treeBaobab\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightLarge\",UID0:\"forestry.heightLarge\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeDesert\",UID0:\"forestry.plantTypeDesert\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationSlow\",UID0:\"forestry.maturationSlow\",Slot:10b},11:{UID1:\"forestry.i3d\",UID0:\"forestry.i3d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
+                "id": "woodenbucket:wbBucket"
               },
-              "required": 16,
-              "precision": "NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "Forestry:sapling",
-                "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeTeak\",UID0:\"forestry.treeTeak\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmall\",UID0:\"forestry.heightSmall\",Slot:2b},3:{UID1:\"forestry.saplingsLower\",UID0:\"forestry.saplingsLower\",Slot:3b},4:{UID1:\"forestry.fruitNone\",UID0:\"forestry.fruitNone\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLower\",UID0:\"forestry.sappinessLower\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationAverage\",UID0:\"forestry.maturationAverage\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:12b}]}}"
-              },
-              "required": 16,
               "precision": "NBT_FUZZY"
             }
           ]
@@ -1600,121 +156,348 @@
       ],
       "reward": [
         {
-          "id": "JABBA:upgradeCore",
-          "damage": 8,
-          "amount": 4
+          "id": "BiomesOPlenty:helmetMud"
         },
         {
-          "id": "JABBA:upgradeCore",
-          "damage": 6,
-          "amount": 4
+          "id": "Natura:BerryBush",
+          "damage": 13
         }
       ]
     },
     {
-      "name": "Somewhat More Healthy",
-      "description": "Pizza is unhealthy, many people don\u0027t like fish. This is for them.",
-      "x": 239,
-      "y": 145,
+      "name": "Shelter for the Night",
+      "description": "There\u0027s not much we can do about those still in cryosleep inside the bunker -- even if they\u0027re still alive. There will be time later for grief. Right now, we need to focus on getting the basics: food, clothing, and shelter. Chop down some trees and dig out a shelter for the night. WARNING: Digging a shelter too big will cause the roof to collapse.",
+      "x": 64,
+      "y": 15,
       "icon": {
-        "id": "harvestcraft:honeylemonlambItem"
+        "id": "minecraft:log"
       },
+      "prerequisites": [
+        "Questing Tutorial"
+      ],
       "tasks": [
         {
-          "type": "CONSUME",
+          "type": "DETECT",
           "items": [
             {
               "item": {
-                "id": "harvestcraft:honeylemonlambItem"
+                "id": "minecraft:log"
               },
-              "required": 1000
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
             }
           ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "required": 32,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:dirt"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BiomesOPlenty:chestplateMud"
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Lay down your weary head",
+      "description": "The emergency sleeping bags we brought will work good when we\u0027re away from our shelter, but we\u0027re going to need a more long-term solution to sleeping at night -- and that means wool. Craft a carpenter\u0027s bed and door.",
+      "x": 107,
+      "y": 14,
+      "icon": {
+        "id": "minecraft:bed"
+      },
+      "prerequisites": [
+        "Shelter for the Night"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersBlock"
+              },
+              "required": 10
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wool"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersBed"
+              }
+            },
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersDoor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BiomesOPlenty:leggingsMud"
+        },
+        {
+          "id": "harvestcraft:pearItem"
+        }
+      ]
+    },
+    {
+      "name": "Sluicing",
+      "description": "In order to get the sluice to work, we need to place the four sluice blocks down in a row, with 8 identical wood planks lining the sides of the sluice (4 on each side). Using the bucket, we can then place water in the block immediately next to the head of the sluice. Last, placing the hopper over the head of the sluice will allow us some rudimentary automation. Place sand or gravel in the sluice to generate metal dusts.",
+      "x": 107,
+      "y": 55,
+      "icon": {
+        "id": "HarderOres:largeDust",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Doing it harder"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "NOTE: Keep your eye out for the poorjoe flower. It grows near undergroun iron deposits. The kind of ore in your chunk of the world determines what ores you\u0027ll get out of the sluice!",
+          "items": [
+            {
+              "item": {
+                "id": "HarderOres:ore_flowers"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough. NOTE, sand will yield more tiny piles of dust than gravel, but you\u0027ll get more ore overall from gravel",
+          "items": [
+            {
+              "item": {
+                "id": "HarderOres:smallDust",
+                "damage": 8
+              },
+              "required": 54
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HarderOres:ore_chunk",
+          "damage": 8,
+          "amount": 18
+        },
+        {
+          "id": "BiomesOPlenty:bootsMud"
+        },
+        {
+          "id": "Natura:BerryBush",
+          "damage": 12
+        }
+      ]
+    },
+    {
+      "name": "Out of the stone age!",
+      "description": "It took our ancestors thousands of years to make it out of the stone age. We did it in just a couple of days. Now that we have the materials, let\u0027s craft some iron tools to make our lives easier. Also, Smith found Jones\u0027 ammo bag in the rubble at the entrance with a few more M9 clips.",
+      "x": 156,
+      "y": 30,
+      "icon": {
+        "id": "minecraft:iron_pickaxe"
+      },
+      "prerequisites": [
+        "Lay down your weary head",
+        "Sluicing"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_pickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_axe"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "flansmod:m9Ammo",
+          "amount": 4
+        },
+        {
+          "id": "Forestry:adventurerBag"
+        },
+        {
+          "id": "minecraft:iron_sword"
         }
       ],
       "rewardchoice": [
         {
-          "id": "RotaryCraft:rotarycraft_item_bedaxe"
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
         },
         {
-          "id": "RotaryCraft:rotarycraft_item_bedhoe"
+          "id": "HardcoreQuesting:bags"
         }
       ]
     },
     {
-      "name": "Honey for the World",
-      "description": "For people with a sweet tooth.",
-      "x": 227,
-      "y": 124,
+      "name": "Tilting spears at windmills",
+      "description": "I\u0027ve always wanted to say that, and it looks like I finally have the opportunity. Using a little wind power, we can automate some refining of these ores before we smelt them.",
+      "x": 156,
+      "y": 98,
       "icon": {
-        "id": "Forestry:bucketHoney"
+        "id": "HarderOres:machine_millstone"
       },
+      "prerequisites": [
+        "Out of the stone age!"
+      ],
       "tasks": [
         {
-          "type": "CONSUME",
+          "type": "DETECT",
           "items": [
             {
-              "fluid": "for.honey",
-              "required": 1000000
+              "item": {
+                "id": "minecraft:log"
+              },
+              "required": 7,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:stone"
+              },
+              "required": 8,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:stick"
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "minecraft:wool"
+              },
+              "required": 12,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "HarderOres:machine_millstone"
+              },
+              "required": 9
+            },
+            {
+              "item": {
+                "id": "HarderOres:machine_axle"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "ExpandedIndustry:machine_wood_hopper"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:chest"
+              }
+            },
+            {
+              "item": {
+                "id": "HarderOres:machine_windvane"
+              },
+              "required": 12
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "See the in-game guide (located to the left of your inventory screen) for instructions on building the multiblock windmill.",
+          "items": [
+            {
+              "item": {
+                "id": "HarderOres:smallDust",
+                "damage": 8
+              },
+              "required": 18
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "harvestcraft:pampeppercornSapling",
-          "amount": 16
+          "id": "minecraft:sand",
+          "amount": 64
         },
         {
-          "id": "harvestcraft:pamvanillabeanSapling",
-          "amount": 16
+          "id": "Natura:BerryBush",
+          "damage": 14
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
         },
         {
-          "id": "harvestcraft:pamnutmegSapling",
-          "amount": 16
-        },
-        {
-          "id": "harvestcraft:pamcinnamonSapling",
-          "amount": 16
-        },
-        {
-          "id": "harvestcraft:gingerseedItem",
-          "amount": 16
-        },
-        {
-          "id": "harvestcraft:chilipepperseedItem",
-          "amount": 16
+          "id": "HardcoreQuesting:bags"
         }
       ]
-    },
-    {
-      "name": "Cooking for Blockheads",
-      "x": 61,
-      "y": 14,
-      "icon": {
-        "id": "cookingbook:recipebook"
-      }
-    },
-    {
-      "name": "Harder Ores",
-      "x": 62,
-      "y": 60,
-      "icon": {
-        "id": "HarderOres:machine_sluice"
-      }
-    },
-    {
-      "name": "Tool Utilities",
-      "x": 62,
-      "y": 139,
-      "icon": {
-        "id": "minecraft:stone_pickaxe"
-      }
-    },
-    {
-      "name": "Seasons",
-      "x": 62,
-      "y": 103
     }
   ],
   "reputationBar": []

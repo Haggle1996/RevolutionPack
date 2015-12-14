@@ -1,0 +1,41 @@
+{
+  "links":
+  {
+    "windmill1":
+    {
+      "type": "image",
+      "link": "images/windmill1.jpg" 
+    },
+    "windmill2":
+    {
+      "type": "image",
+      "link": "images/windmill2.jpg" 
+    },
+    "windmill3":
+    {
+      "type": "image",
+      "link": "images/windmill3.jpg" 
+    },
+    "windmill4":
+    {
+      "type": "image",
+      "link": "images/windmill4.jpg" 
+    },
+    "windmill5":
+    {
+      "type": "image",
+      "link": "images/windmill5.jpg" 
+    },
+    "windmill6":
+    {
+      "type": "image",
+      "link": "images/windmill6.jpg" 
+    },
+    "windmill7":
+    {
+      "type": "image",
+      "link": "images/windmill7.jpg" 
+    }
+    
+  }
+}

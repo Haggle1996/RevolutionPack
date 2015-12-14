@@ -1,0 +1,29 @@
+Here's how to create a windmill. You'll need a 5x3x15 clear space.
+
+[windmill1]
+
+Build up two 4x3 walls (any material). Place 3x3 millstones flat at the top level. This gives you room at the bottom for machines. Note, that glass was used solely to reveal detail.
+
+[windmill2]
+
+Next, place 4 axles in a row, starting from the center of the 3x3 millstone. Two blocks should dangle over the edge.
+
+[windmill3]
+
+Now place 8 Wind Vanes in a plus shape around the end of the axle. If you built it right, the vanes should connect as shown below.
+
+[windmill4]
+
+Next, add a hopper on top of one of the millstones (not the bevel gear in the middle or the axle).
+
+[windmill5]
+
+Last, attach a hopper to the central axle underneath the millstone, then place a chest underneath it.
+
+[windmill6]
+
+If you built your windmill correctly, you should see airflow and grind time appear on your WAILA tooltip when looking at the axle or vanes.
+
+[windmill7]
+
+All that remains is to place your raw ores into the hopper above and wait for the dusts to appear below.
