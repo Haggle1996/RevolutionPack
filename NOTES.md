@@ -31,6 +31,7 @@
 - Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 
 - More loot in roguelikes.
 - Update tower designs
+- Add guide for sluice
 
 #Pack changes
 
