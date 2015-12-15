@@ -7,7 +7,7 @@
 - HQM: RFTools
 - HQM: Cooking for Blockheads
 - HQM: Seared bricks wrong amount
-- HQM: Remove Mekanism
+- HQM: Check for crafting quests that require multiples. 
 
 ## Progression
 - Sluice
@@ -32,6 +32,8 @@
 - More loot in roguelikes.
 - Update tower designs
 - Add guide for sluice
+- IE Refinery requires EIO additive to make fuel 
+- Remove Railcraft coke oven, blast furnace
 
 #Pack changes
 
@@ -69,3 +71,4 @@
 - Removed extra wooden buckets.
 - Enviromine Elevators require steel and bedrock picks
 - Animals+ Whales, Centipedes, Crickets, and Butterflies no longer spawn.
+- IE and RC blast furnaces can now refine Harder Ores hard ores.
