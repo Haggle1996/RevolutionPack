@@ -34,6 +34,7 @@
 - Add guide for sluice
 - IE Refinery requires EIO additive to make fuel 
 - Remove Railcraft coke oven, blast furnace
+- Update roguelike
 
 #Pack changes
 
