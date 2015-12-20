@@ -21,21 +21,23 @@ val stoneGear = <ore:gearStone>;
 val ironGear = <ore:gearIron>;
 val goldGear = <ore:gearGold>;
 val diamondGear = <ore:gearDiamond>;
-
 val copperplate = <Railcraft:part.plate:3>;
 val ironplate = <Railcraft:part.plate:0>;
-val steelplate = <Railcraft:part.plate:1>;
-val tinplate = <Railcraft:part.plate:2>;
+val plate = <bcadditions:heatPlating>;
 
-# Engines require copper plates
+#recipes.remove(redstone);
+#recipes.addShaped(redstone, [[plank,plank,plank]
+#							,[null,glass,null]
+#							,[woodGear,piston,woodGear]]);
+
 recipes.remove(stirling);
 recipes.addShaped(stirling, [[cobble,cobble,cobble]
-							,[copperplate,glass,copperplate]
+							,[plate,glass,plate]
 							,[stoneGear,piston,stoneGear]]);
 
 recipes.remove(combustion);
 recipes.addShaped(combustion, [[iron,iron,iron]
-							,[copperplate,glass,copperplate]
+							,[plate,glass,plate]
 							,[ironGear,piston,ironGear]]);
 
 recipes.remove(quarry);
@@ -45,6 +47,6 @@ recipes.addShaped(quarry,[[ironGear,ray,ironGear],
 
 val refinery = <BuildCraft|Factory:refineryBlock>;
 recipes.remove(refinery);
-refinery.addTooltip(format.red("REMOVED: ") + format.white("Use the Immersive"));
-refinery.addTooltip(format.white("Engineering multiblock Refinery"));
-refinery.addTooltip(format.white("to produce fuel instead."));
+refinery.addTooltip(format.red("REMOVED: ") + format.white("Use the Buildcraft"));
+refinery.addTooltip(format.white("Additions multiblock Refinery"));
+refinery.addTooltip(format.white("to produce oil instead."));

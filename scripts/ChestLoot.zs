@@ -35,7 +35,6 @@ val r870 = <flansmod:r870>;
 val r870Ammo = <flansmod:r870Ammo>;
 val stinger = <flansmod:stinger>;
 val stingerAmmo = <flansmod:stingerAmmo>;
-val fragment = <ChromatiCraft:chromaticraft_item_fragment>;
 
 vanilla.loot.removeChestLoot("dungeonChest", ironScrap);
 vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(50),1,1);
@@ -77,7 +76,6 @@ vanilla.loot.addChestLoot("dungeonChest", mp5Ammo.weight(7),1,4);
 vanilla.loot.addChestLoot("dungeonChest", p90Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("dungeonChest", r870Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("dungeonChest", stingerAmmo.weight(7),1,2);
-vanilla.loot.addChestLoot("dungeonChest", fragment.weight(10),1,1);
 
 vanilla.loot.removeChestLoot("mineshaftCorridor", ironScrap);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(50),1,1);
@@ -119,7 +117,6 @@ vanilla.loot.addChestLoot("mineshaftCorridor", mp5Ammo.weight(7),1,4);
 vanilla.loot.addChestLoot("mineshaftCorridor", p90Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("mineshaftCorridor", r870Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("mineshaftCorridor", stingerAmmo.weight(7),1,2);
-vanilla.loot.addChestLoot("mineshaftCorridor", fragment.weight(10),1,1);
 
 vanilla.loot.removeChestLoot("strongholdCorridor", ironScrap);
 vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(50),1,1);
@@ -160,7 +157,6 @@ vanilla.loot.addChestLoot("strongholdCorridor", mp5Ammo.weight(7),1,4);
 vanilla.loot.addChestLoot("strongholdCorridor", p90Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("strongholdCorridor", r870Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("strongholdCorridor", stingerAmmo.weight(7),1,2);
-vanilla.loot.addChestLoot("strongholdCorridor", fragment.weight(10),1,1);
 
 vanilla.loot.removeChestLoot("strongholdCrossing", ironScrap);
 vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_fragment>.weight(50),1,1);
@@ -201,7 +197,6 @@ vanilla.loot.addChestLoot("strongholdCrossing", mp5Ammo.weight(7),1,4);
 vanilla.loot.addChestLoot("strongholdCrossing", p90Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("strongholdCrossing", r870Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("strongholdCrossing", stingerAmmo.weight(7),1,2);
-vanilla.loot.addChestLoot("strongholdCrossing", fragment.weight(10),1,1);
 
 vanilla.loot.removeChestLoot("villageBlacksmith", ironScrap);
 vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(50),1,1);
@@ -242,4 +237,3 @@ vanilla.loot.addChestLoot("villageBlacksmith", mp5Ammo.weight(7),1,4);
 vanilla.loot.addChestLoot("villageBlacksmith", p90Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("villageBlacksmith", r870Ammo.weight(7),1,3);
 vanilla.loot.addChestLoot("villageBlacksmith", stingerAmmo.weight(7),1,2);
-vanilla.loot.addChestLoot("villageBlacksmith", fragment.weight(10),1,1);

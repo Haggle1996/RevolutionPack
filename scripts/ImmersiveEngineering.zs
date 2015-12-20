@@ -1,22 +1,33 @@
 #Immersive Engineering
 
-# Enable fuel creation in the refinery
 val oil = <liquid:oil>;
 val plantoil = <liquid:plantoil>;
 val fuel = <liquid:fuel>;
 val biodiesel = <liquid:biodiesel>;
+
 mods.immersiveengineering.Refinery.addRecipe(fuel * 16, biodiesel * 8, oil * 8);
 
-# Enable harder ores processing in the blast furnace
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreIron>,<HarderOres:ore_chunk:8> * 3, 4800);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreGold>,<HarderOres:ore_chunk:9> * 3, 4800);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreTin>,<HarderOres:ore_chunk:12> * 3, 4800);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreCopper>,<HarderOres:ore_chunk:13> * 3, 4800);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreLead>,<HarderOres:ore_chunk:14> * 3, 4800);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreUranium>,<HarderOres:ore_chunk:15> * 3, 4800);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreSilver>,<HarderOres:ore_chunk:16> * 3, 4800);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreNickel>,<HarderOres:ore_chunk:17> * 3, 4800);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreAluminum>,<HarderOres:ore_chunk:18> * 3, 4800);
+#remove items added by gun mod
+recipes.remove(<ImmersiveEngineering:material:7>);
+recipes.remove(<ImmersiveEngineering:material:9>);
 
-mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:diamond> * 9, <HarderOres:ore_chunk:10> * 9, null, 4600,  3600, [<minecraft:coal> * 9]);
+#revolver no longer collides with gun mod
+val drill = <ImmersiveEngineering:drill>;
+val block = <ImmersiveEngineering:metalDecoration:5>;
+val component = <ImmersiveEngineering:material:12>;
+val revolver = <ImmersiveEngineering:revolver>;
+val hammer = <ImmersiveEngineering:material:10>;
+val grip = <stefinusguns:WGrip>;
+val cylinder = <ImmersiveEngineering:material:8>;
+val steel = <ore:ingotSteel>;
+val barrel = <stefinusguns:Barrel>;
 
+recipes.remove(revolver);
+recipes.addShaped(revolver,[[null,steel,null],
+						    [hammer,cylinder,barrel],
+							[grip,steel,grip]]);
+
+recipes.remove(drill);
+recipes.addShaped(drill, [[null,null,grip],
+						  [null,block,grip],
+						  [component,null,null]]);

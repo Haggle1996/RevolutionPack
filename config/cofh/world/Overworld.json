@@ -1,0 +1,573 @@
+{
+    "sulfur": {
+        "template": {
+            "type": "underfluid",
+            "generator": "plate"
+        },
+        "block": { "name": "Railcraft:ore", "metadata": 0 },
+        "material": "minecraft:stone",
+        "genFluid": "lava",
+        "clusterSize": 5,
+        "numClusters": 1,
+        "sizeVariance": 3,
+        "height": 1,
+        "slim": true,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "copper": {
+        "template": "surface",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 0
+        },
+        "material": [ "stone", "grass", "sand", "dirt", "gravel" ],
+        "clusterSize": 9,
+        "numClusters": 3,
+        "chunkChance": 4,
+        "followTerrain": true,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "tin": {
+        "template": "uniform",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 1
+        },
+        "clusterSize": 6,
+        "numClusters": 12,
+        "chunkChance": 4,
+        "minHeight": 20,
+        "maxHeight": 48,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "silver": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 80
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 20
+            }
+        ],
+        "clusterSize": 12,
+        "numClusters": 2,
+        "chunkChance": 3,
+        "minHeight": 5,
+        "maxHeight": 30,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "lead": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            }
+        ],
+        "clusterSize": 14,
+        "numClusters": 2,
+        "chunkChance": 8,
+        "minHeight": 18,
+        "maxHeight": 42,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "nickel": {
+        "template": "uniform",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 4
+        },
+        "clusterSize": 9,
+        "numClusters": 2,
+        "chunkChance": 6,
+        "minHeight": 5,
+        "maxHeight": 20,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "platinum": {
+        "template": "uniform",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 5
+        },
+        "clusterSize": 6,
+        "chunkChance": 9,
+        "numClusters": 3,
+        "minHeight": 16,
+        "maxHeight": 28,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "copper2": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 25,
+        "numClusters": 3,
+        "chunkChance": 15,
+        "minHeight": 45,
+        "veinHeight": 20,
+        "veinDiameter": 85,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "osmium": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": {
+            "name": "Mekanism:OreBlock",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 3,
+        "chunkChance": 20,
+        "minHeight": 35,
+        "veinHeight": 30,
+        "veinDiameter": 65,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "magnetite": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_ore",
+            "metadata": 8
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 40,
+        "numClusters": 1,
+        "chunkChance": 20,
+        "minHeight": 64,
+        "veinHeight": 40,
+        "veinDiameter": 45,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "calcite": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_ore",
+            "metadata": 7
+        },
+        "clusterSize": 3,
+        "numClusters": 5,
+        "minHeight": 30,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "aluminum": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": {
+            "name": "ElectriCraft:electricraft_block_ore",
+            "metadata": 4
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 15,
+        "numClusters": 1,
+        "chunkChance": 2,
+        "minHeight": 55,
+        "veinHeight": 20,
+        "veinDiameter": 45,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "fluorite1": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+            "metadata": 0
+        },
+        "clusterSize": 3,
+        "numClusters": 5,
+        "chunkChance": 8,
+        "minHeight": 28,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "fluorite2": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+            "metadata": 1
+        },
+        "clusterSize": 3,
+        "numClusters": 5,
+        "chunkChance": 8,
+        "minHeight": 28,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "fluorite3": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+            "metadata": 2
+        },
+        "clusterSize": 3,
+        "numClusters": 5,
+        "chunkChance": 8,
+        "minHeight": 28,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "fluorite4": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+            "metadata": 3
+        },
+        "clusterSize": 3,
+        "numClusters": 5,
+        "chunkChance": 8,
+        "minHeight": 28,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "fluorite5": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+            "metadata": 4
+        },
+        "clusterSize": 3,
+        "numClusters": 5,
+        "chunkChance": 8,
+        "minHeight": 28,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "fluorite6": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+            "metadata": 5
+        },
+        "clusterSize": 3,
+        "numClusters": 5,
+        "chunkChance": 8,
+        "minHeight": 28,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "fluorite7": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+            "metadata": 6
+        },
+        "clusterSize": 3,
+        "numClusters": 5,
+        "chunkChance": 8,
+        "minHeight": 28,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "fluorite8": {
+        "template": "uniform",
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_fluoriteore",
+            "metadata": 7
+        },
+        "clusterSize": 3,
+        "numClusters": 5,
+        "chunkChance": 8,
+        "minHeight": 28,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "cadmium": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_ore",
+            "metadata": 2
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 18,
+        "numClusters": 1,
+        "chunkChance": 8,
+        "minHeight": 10,
+        "veinHeight": 15,
+        "veinDiameter": 25,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "indium": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": {
+            "name": "ReactorCraft:reactorcraft_block_ore",
+            "metadata": 3
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 18,
+        "numClusters": 1,
+        "chunkChance": 8,
+        "minHeight": 5,
+        "veinHeight": 15,
+        "veinDiameter": 25,
+        "verticalDensity": 15,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    },
+    "certusquartz": {
+        "template": {
+            "type": "fractal",
+            "generator": "large-vein",
+            "sparse": false
+        },
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "weight": 90
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "weight": 10
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 1,
+        "chunkChance": 15,
+        "minHeight": 50,
+        "veinHeight": 20,
+        "veinDiameter": 45,
+        "verticalDensity": 5,
+        "horizontalDensity": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            30
+        ]
+    }
+}
