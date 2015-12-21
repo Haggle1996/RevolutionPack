@@ -300,6 +300,45 @@
                 <DisplayName>Bauxite Size</DisplayName>
             </OptionNumeric>
 		</ConfigSection>
+			
+		<!--*******************   Osmium Ore   *********************-->
+        <ConfigSection>
+            
+            <OptionChoice name='hardOsmiumDist' displayGroup='groupHardExtras'>
+                <Description> Controls how Osmium Ore is generated </Description>
+                <DisplayName>Osmium Ore Type</DisplayName>
+                <Default>:= if(?forceExtraOres|blockExists("oreOsmium"),"layeredVeins","disabled")</Default>
+            	<DisplayState>:= if(?forceExtraOres|blockExists("oreOsmium"),"shown","hidden")</DisplayState>
+                <Choice value='layeredVeins' displayValue='Veins'>
+                    <Description> 
+                        Long, narrow groups of veins found about one third of the way down to bedrock.  More common in jungles and mountains.  
+                    </Description>
+                </Choice>
+                <Choice value='strategicClouds' displayValue='Clouds'>
+                    <Description> 
+                        Rare, sparsely populated clouds of ore extending over several chunks.  Found only in jungles and mountains.
+                    </Description>
+                </Choice>
+                <Choice value='vanillaStdGen' displayValue='Clusters'>
+                    <Description> 
+                        Small clusters of ore scattered near bedrock.  This is the default osmium ore generation.
+                    </Description>
+                </Choice>
+                <Choice value='none' displayValue='None' description='No osmium ore is generated at all.'/>
+                <Choice value='disabled' displayValue='Disabled' description='No osmium ore is generated, and no osmium ore symbols are available in Mystcraft ages.'/>
+            </OptionChoice>
+            
+            <OptionNumeric name='hardOsmiumFreq' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; hardOsmiumDist != "disabled","shown","hidden")' displayGroup='groupHardExtras'>
+                <Description> Frequency multiplier for Osmium Ore distributions </Description>
+                <DisplayName>Osmium Ore Freq.</DisplayName>
+            </OptionNumeric>
+            
+            <OptionNumeric name='hardOsmiumSize' default='1'  min='0' max='5' displayState=':= if(?advOptions &amp; hardOsmiumDist != "disabled","shown","hidden")' displayGroup='groupHardExtras'>
+                <Description> Size multiplier for Osmium Ore distributions </Description>
+                <DisplayName>Osmium Ore Size</DisplayName>
+            </OptionNumeric>
+       
+        </ConfigSection>
 
      </ConfigSection>
    
@@ -1315,6 +1354,111 @@
                 </Veins>
             </IfCondition>
 		</ConfigSection>
+		
+		<!--*******************   Osmium Ore   *********************-->            
+		
+		<ConfigSection>
+        
+			<StandardGen name="MekOsmiumStandard" block="minecraft:stone">
+				<Setting name='Frequency' avg='0' range='0'/>
+			</StandardGen>            
+            <Veins name="MekOsmiumVeins" block="minecraft:stone">
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+            <Veins name="MekOsmiumBiomeVeins" block="minecraft:stone">
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+			<Cloud name="MekOsmiumBiomeCloud" block="minecraft:stone">
+				<Setting name='DistributionFrequency' avg='0' range='0'/>
+			</Cloud>
+			<Veins name="MekOsmiumHintVeins" block="minecraft:stone">
+				<Setting name='MotherlodeFrequency' avg='0' range='0'/>
+			</Veins>
+				
+			<IfCondition condition=':= hardOsmiumDist = "vanillaStdGen"'>
+                <StandardGen name="HardOsmiumStandard" block="HarderOres:ore_osmium:9" inherits="PresetStandardGen">
+                    <Description> Equivalent to regular Mekanism Osmium distribution </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x400099FF</WireframeColor>
+                    <Setting name="Size" avg=":= hardOsmiumSize * _default_"/>
+                    <Setting name="Frequency" avg=":= 2/5 * hardOsmiumFreq * _default_" range=":= 3 * hardOsmiumFreq"/>
+                    <Setting name="Height" avg=":= 57/64 * dimension.groundLevel" range=":= 17/64 * dimension.groundLevel" type="uniform"/>
+					<ReplacesOre block='stone'/>
+					<ReplacesOre block='ganyssurface:.*' weight='-1'/>
+					<Replaces block='minecraft:dirt'/>
+                </StandardGen>
+            </IfCondition>
+            
+			<IfCondition condition=':= hardOsmiumDist = "layeredVeins"'>
+                <Veins name="HardOsmiumVeins" block="HarderOres:ore_osmium:15" inherits="PresetLayeredVeins">
+                    <seed> 34203 </seed>
+                    <Description> Average veins in the 18-34 range. </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x4000FF80</WireframeColor>
+                    <Setting name="MotherlodeFrequency" avg=":= 0.2 * hardOsmiumFreq * _default_"/>
+                    <Setting name="MotherlodeSize" avg=":= 1.2 * hardOsmiumSize * _default_" range=":= 0.9 * hardOsmiumSize * _default_"/>
+                    <Setting name="MotherlodeHeight" avg=":= 26/64 * dimension.groundLevel" range=":= 8/64 * dimension.groundLevel" type="normal"/>
+                    <Setting name="BranchFrequency" avg="2" range="1"/>
+					<Setting name="BranchInclination" avg='0.0' range='0.03' />
+                    <Setting name="BranchLength" avg=":= 3.8 * hardOsmiumSize * _default_"/>
+                    <Setting name="BranchHeightLimit" avg="12"/>
+					<Setting name="SegmentRadius" avg=":= min(0.2, 1.0 * _default_)" range="0"/>
+					<Setting name="SegmentAngle" avg='0' range='0.55' type="inverse" />
+					<Setting name="SegmentPitch" avg='0.0' range='0.1' />
+					<ReplacesOre block='stone'/>
+					<ReplacesOre block='ganyssurface:.*' weight='-1'/>
+					<Replaces block='minecraft:dirt'/>
+                </Veins>
+				<Veins name="HardOsmiumVeins2" block="HarderOres:ore_osmium:9" inherits="HardOsmiumVeins">
+                    <seed> 34203 </seed>
+					<Setting name="SegmentRadius" avg=":= min(0.2, 2.0 * _default_)" range=":= min(0, 1.25 * _default_)"/>
+				</Veins>
+				<Veins name="HardOsmiumVeins3" block="HarderOres:ore_osmium:6" inherits="HardOsmiumVeins">
+                    <seed> 34203 </seed>
+					<Setting name="SegmentRadius" avg=":= min(0.4, 4.0 * _default_)" range=":= min(0, 2.0 * _default_)"/>
+				</Veins>
+				<Veins name="HardOsmiumVeins4" block="HarderOres:ore_osmium:1" inherits="HardOsmiumVeins">
+                    <seed> 34203 </seed>
+					<Setting name="SegmentRadius" avg="0.8" range="0"/>
+                    <WireframeColor>0x400099FF</WireframeColor>
+				</Veins>
+                <Veins name="HardOsmiumVeins5" inherits="HardOsmiumVeins">
+                    <seed> 47429 </seed>
+                    <Description> This roughly triples the chance of finding Osmium in jungle and mountain biomes. </Description>
+                    <Setting name="MotherlodeFrequency" avg=":= 2 * _default_"/>
+                    <Setting name="MotherlodeHeight" avg=":=_default_" range=":= 2 * _default_"/>
+                    <Setting name="BranchHeightLimit" avg=":= 2 * _default_"/>
+                    <BiomeType name="Jungle"/>
+					<BiomeType name="Mountain"/>
+                </Veins>
+            </IfCondition>
+            
+			<IfCondition condition=':= hardOsmiumDist = "surfaceClouds"'>
+                <Cloud name="HardOsmiumBiomeCloud" block="HarderOres:ore_osmium:9" inherits="PresetStrategicCloud">
+                    <Description>
+                        Diffuse Osmium cloud surrounded by single-block "hint" veins, found in jungle and mountain biomes.
+                    </Description>
+                    <DrawWireframe>:=drawWireframes</DrawWireframe>
+                    <WireframeColor>0x400099FF</WireframeColor>
+                    <Setting name="DistributionFrequency" avg=":= 1 * hardOsmiumFreq * _default_"/>
+                    <Setting name="CloudRadius" avg=":= 0.95 * hardOsmiumSize * _default_" range=":= 0.95 * hardOsmiumSize * _default_"/>
+                    <Setting name="CloudThickness" avg=":= 0.95 * hardOsmiumSize * _default_" range=":= hardOsmiumSize * _default_"/>
+                    <BiomeType name="Jungle"/>
+					<BiomeType name="Mountain"/>
+					<ReplacesOre block='stone'/>
+					<ReplacesOre block='ganyssurface:.*' weight='-1'/>
+					<Replaces block='minecraft:dirt'/>
+                    <Veins name="HardOsmiumHintVeins" block="HarderOres:ore_nickel:1" inherits="PresetHintVeins">
+                        <DrawWireframe>:=drawWireframes</DrawWireframe>
+                        <WireframeColor>0x400099FF</WireframeColor>
+                        <Setting name="MotherlodeFrequency" avg=":= _default_" range=":= _default_"/>
+                        <Setting name="MotherlodeRangeLimit" avg=":= hardOsmiumSize * _default_" range=":= hardOsmiumSize * _default_"/>
+						<ReplacesOre block='stone'/>
+                    </Veins>
+                </Cloud>
+            </IfCondition>
+            
+        </ConfigSection>
 
     </IfCondition>
 </ConfigSection>
