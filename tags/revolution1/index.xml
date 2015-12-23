@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Revolution1 on REVOLUTION|2</title>
-    <link>http://localhost:1313/tags/revolution1/</link>
+    <link>http://revolutionpack.info/tags/revolution1/</link>
     <description>Recent content in Revolution1 on REVOLUTION|2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
     <lastBuildDate>Wed, 23 Dec 2015 11:53:41 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/revolution1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://revolutionpack.info/tags/revolution1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>First Day Guide</title>
-      <link>http://localhost:1313/article/rev1-first-day/</link>
+      <link>http://revolutionpack.info/article/rev1-first-day/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/rev1-first-day/</guid>
+      <guid>http://revolutionpack.info/article/rev1-first-day/</guid>
       <description>
 
 &lt;h3 id=&#34;alternate-terrain-generator-atg-or-biomes-o-plenty-bop:b116e34dbf360dd5c87d639bee733950&#34;&gt;Alternate Terrain Generator (ATG) or Biomes O&amp;rsquo; Plenty (BoP)&lt;/h3&gt;
@@ -59,10 +59,10 @@
     
     <item>
       <title>REVOLUTION|1 - Gameplay Changes</title>
-      <link>http://localhost:1313/article/rev1-gameplay-changes/</link>
+      <link>http://revolutionpack.info/article/rev1-gameplay-changes/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/rev1-gameplay-changes/</guid>
+      <guid>http://revolutionpack.info/article/rev1-gameplay-changes/</guid>
       <description>
 
 &lt;p&gt;This page outlines the various game play changes to individual mods. There are quite a few and most can be found in NEI. If you can&amp;rsquo;t find or create your favorite recipe, this page is your last stop before logging an issue in the tracker.&lt;/p&gt;

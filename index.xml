@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>REVOLUTION|2</title>
-    <link>http://localhost:1313/</link>
+    <link>http://revolutionpack.info/</link>
     <description>Recent content on REVOLUTION|2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
     <lastBuildDate>Wed, 23 Dec 2015 13:24:22 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>New Website</title>
-      <link>http://localhost:1313/post/2015-12-23-newwebsite/</link>
+      <link>http://revolutionpack.info/post/2015-12-23-newwebsite/</link>
       <pubDate>Wed, 23 Dec 2015 13:24:22 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/2015-12-23-newwebsite/</guid>
+      <guid>http://revolutionpack.info/post/2015-12-23-newwebsite/</guid>
       <description>&lt;p&gt;With the impending release of Revolution|2, I thought it would be a good time to launch the new website! Yay!&lt;/p&gt;
 
 &lt;p&gt;Content for Revolution 1, as well as many relevant pack links, can be accessed through the menu at the top right.&lt;/p&gt;
@@ -26,20 +26,20 @@
     
     <item>
       <title>REVOLUTION|2 - Gameplay Changes</title>
-      <link>http://localhost:1313/article/rev2-gameplay-changes/</link>
+      <link>http://revolutionpack.info/article/rev2-gameplay-changes/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:42 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/rev2-gameplay-changes/</guid>
+      <guid>http://revolutionpack.info/article/rev2-gameplay-changes/</guid>
       <description>&lt;p&gt;This is some changes. Wooo.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>REVOLUTION|1 - Gameplay Changes</title>
-      <link>http://localhost:1313/article/rev1-gameplay-changes/</link>
+      <link>http://revolutionpack.info/article/rev1-gameplay-changes/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/rev1-gameplay-changes/</guid>
+      <guid>http://revolutionpack.info/article/rev1-gameplay-changes/</guid>
       <description>
 
 &lt;p&gt;This page outlines the various game play changes to individual mods. There are quite a few and most can be found in NEI. If you can&amp;rsquo;t find or create your favorite recipe, this page is your last stop before logging an issue in the tracker.&lt;/p&gt;
@@ -377,10 +377,10 @@
     
     <item>
       <title>First Day Guide</title>
-      <link>http://localhost:1313/article/rev1-first-day/</link>
+      <link>http://revolutionpack.info/article/rev1-first-day/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/rev1-first-day/</guid>
+      <guid>http://revolutionpack.info/article/rev1-first-day/</guid>
       <description>
 
 &lt;h3 id=&#34;alternate-terrain-generator-atg-or-biomes-o-plenty-bop:b116e34dbf360dd5c87d639bee733950&#34;&gt;Alternate Terrain Generator (ATG) or Biomes O&amp;rsquo; Plenty (BoP)&lt;/h3&gt;
