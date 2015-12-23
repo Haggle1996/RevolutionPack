@@ -73,3 +73,5 @@
 - Enviromine Elevators require steel and bedrock picks
 - Animals+ Whales, Centipedes, Crickets, and Butterflies no longer spawn.
 - IE and RC blast furnaces can now refine Harder Ores hard ores.
+- Forestry farms are now square; farm size multiplier has been reduced to 1
+- Forestry bees can make RotaryCraft yeast
