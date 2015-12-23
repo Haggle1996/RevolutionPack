@@ -9,9 +9,9 @@ item.WholyGunCustom.bullet.50AE.name=.50 Action Express
 item.WholyGunCustom.bullet.fuel.name=Fuel
 item.WholyGunCustom.bullet.healing.name=Healer Bullet
 
-itemGroup.WholyGunCustom.AK-47=AK-47
-item.WholyGunCustom.AK-47.name=AK-47
-item.WholyGunCustom.AK-47.magazine.name=AK-47 magazine
+itemGroup.WholyGunCustom.AK47=AK-47
+item.WholyGunCustom.AK47.name=AK-47
+item.WholyGunCustom.AK47.magazine.name=AK-47 magazine
 
 itemGroup.WholyGunCustom.Barret_M82A1=Barret M82A1
 item.WholyGunCustom.Barret_M82A1.name=Barret M82A1
@@ -33,17 +33,13 @@ itemGroup.WholyGunCustom.HAMR=HAMR
 item.WholyGunCustom.HAMR.name=HAMR
 item.WholyGunCustom.HAMR.magazine.name=HAMR magazine
 
-itemGroup.WholyGunCustom.HK_USP_9mm=HK USP 9mm
-item.WholyGunCustom.HK_USP_9mm.name=HK USP 9mm
-item.WholyGunCustom.HK_USP_9mm.magazine.name=HK USP 9mm magazine
+itemGroup.WholyGunCustom.HK_USP_9mm=Beretta M9 9mm
+item.WholyGunCustom.HK_USP_9mm.name=Beretta M9 9mm
+item.WholyGunCustom.HK_USP_9mm.magazine.name=Beretta M9 9mm magazine
 
 itemGroup.WholyGunCustom.HK416=HK416
 item.WholyGunCustom.HK416.name=HK416
 item.WholyGunCustom.HK416.magazine.name=HK416 magazine
-
-itemGroup.WholyGunCustom.HV-404=HV-404 Healing Potion Launcher
-item.WholyGunCustom.HV-404.name=HV-404 Healing Potion Launcher
-item.WholyGunCustom.HV-404.magazine.name=HV-404 magazine
 
 itemGroup.WholyGunCustom.IMI_Galil=IMI Galil
 item.WholyGunCustom.IMI_Galil.name=IMI Galil
@@ -73,9 +69,9 @@ itemGroup.WholyGunCustom.P90=P90
 item.WholyGunCustom.P90.name=P90
 item.WholyGunCustom.P90.magazine.name=P90 magazine
 
-itemGroup.WholyGunCustom.SPAS-12=SPAS-12
-item.WholyGunCustom.SPAS-12.name=SPAS-12
-item.WholyGunCustom.SPAS-12.magazine.name=SPAS-12 magazine
+itemGroup.WholyGunCustom.SPAS12=SPAS-12
+item.WholyGunCustom.SPAS12.name=SPAS-12
+item.WholyGunCustom.SPAS12.magazine.name=SPAS-12 magazine
 
 itemGroup.WholyGunCustom.Steyr_AUG_a3=Steyr AUG A3
 item.WholyGunCustom.Steyr_AUG_a3.name=Steyr AUG A3

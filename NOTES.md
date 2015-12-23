@@ -21,8 +21,6 @@
 - Balance RFTools and other new mods' recipes
 - Update website
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
-- Revert Hunger Overhaul to a version DragonAPI likes
-- Look into Pam's Markets
 - Verify EiraIRC configuration
 - Guide in FTBUtilities
 - Turn off Edit Mode on HQM
@@ -32,9 +30,8 @@
 - More loot in roguelikes.
 - Update tower designs
 - Add guide for sluice
-- IE Refinery requires EIO additive to make fuel 
+- IE Refinery requires EIO additive such as rocket fuel to make fuel 
 - Remove Railcraft coke oven, blast furnace
-- Update roguelike
 
 #Pack changes
 
