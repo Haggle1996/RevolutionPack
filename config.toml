@@ -2,7 +2,7 @@ baseurl = "http://revolutionpack.info/"
 languageCode = "en-us"
 title = "REVOLUTION|2"
 paginate = 5
-DisqusShortname = "revolutionpack2"
+DisqusShortname = "revolutionpack"
 Copyright = "Copyright � 2015 by Haggle1996"
 canonifyurls = true
 
