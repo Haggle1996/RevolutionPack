@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REVOLUTION|2</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on REVOLUTION|2</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright � 2015 by Haggle1996</copyright>
+    <lastBuildDate>Wed, 23 Dec 2015 13:24:22 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New Website</title>
+      <link>http://localhost:1313/post/2015-12-23-newwebsite/</link>
+      <pubDate>Wed, 23 Dec 2015 13:24:22 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/2015-12-23-newwebsite/</guid>
+      <description>&lt;p&gt;With the impending release of Revolution|2, I thought it would be a good time to launch the new website! Yay!&lt;/p&gt;
+
+&lt;p&gt;Content for Revolution 1, as well as many relevant pack links, can be accessed through the menu at the top right.&lt;/p&gt;
+
+&lt;p&gt;Content for version 2 will be posted soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 - Gameplay Changes</title>
+      <link>http://localhost:1313/article/rev2-gameplay-changes/</link>
+      <pubDate>Wed, 23 Dec 2015 11:53:42 -0700</pubDate>
+      
+      <guid>http://localhost:1313/article/rev2-gameplay-changes/</guid>
+      <description>&lt;p&gt;This is some changes. Wooo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|1 - Gameplay Changes</title>
+      <link>http://localhost:1313/article/rev1-gameplay-changes/</link>
+      <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
+      
+      <guid>http://localhost:1313/article/rev1-gameplay-changes/</guid>
+      <description>
+
+&lt;p&gt;This page outlines the various game play changes to individual mods. There are quite a few and most can be found in NEI. If you can&amp;rsquo;t find or create your favorite recipe, this page is your last stop before logging an issue in the tracker.&lt;/p&gt;
+
+&lt;h3 id=&#34;general-changes:22391f28610b60a1b0da7b5f40048d56&#34;&gt;General changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Early game RF power is best provided through RotaryCraft&amp;rsquo;s Rotational Dynamo&lt;/li&gt;
+&lt;li&gt;You will need steel and RotaryCraft HSLA Steel in quantity.&lt;/li&gt;
+&lt;li&gt;Ore generates in large but rare veins. It may take a bit longer to find iron, but its not uncommon to get 100 ore from one vein.&lt;/li&gt;
+&lt;li&gt;Most machines require steel (plates, blocks, or ingots), RotaryCraft HSLA Steel, or both.&lt;/li&gt;
+&lt;li&gt;A number of key mod components are made on the BuildCraft Assembly Table&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;apple-milk-tea:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Apple &amp;amp; Milk &amp;amp; Tea&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WipeBox doesn&amp;rsquo;t create infinite paper&lt;/li&gt;
+&lt;li&gt;Princess clams do not spawn&lt;/li&gt;
+&lt;li&gt;Princess clam charms are not craftable&lt;/li&gt;
+&lt;li&gt;Renamed all cassis fruit tarts to Cassie&amp;rsquo;s Fruit Tarts, in honor of one of our sponsors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;applied-energistics:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Applied Energistics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Certus Quartz spawns in medium, rare veins above y-level 50&lt;/li&gt;
+&lt;li&gt;Charged Certus Quartz can be found in small quantities inside Certus Quartz Veins&lt;/li&gt;
+&lt;li&gt;RotaryCraft shaft power is approximately 4x more effective than RF for powering AE systems (yes, the Energy Acceptor accepts direct shaft power)&lt;/li&gt;
+&lt;li&gt;Applied Energistics generally requires 4x more power than default&lt;/li&gt;
+&lt;li&gt;Recipes generally require steel or steel plates for crafting instead of iron&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;better-sleeping:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Better Sleeping&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You no longer lose hunger while sleeping&lt;/li&gt;
+&lt;li&gt;You lose slightly more energy than default doing activities (running, jumping, etc.); this prevents the dreaded &amp;lsquo;you&amp;rsquo;re not tired&amp;rsquo; when it&amp;rsquo;s night.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;botania:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Botania&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mana Flux Field is disabled&lt;/li&gt;
+&lt;li&gt;Passive flowers despawn after 24000 ticks&lt;/li&gt;
+&lt;li&gt;Orechid cannot be crafted (and only produces Emeralds when cheated in)&lt;/li&gt;
+&lt;li&gt;Orechid Ignem cannot be crafted&lt;/li&gt;
+&lt;li&gt;Mana cookie is removed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;buildcraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;BuildCraft&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Engine recipes now require thermal plates (made in a rolling mill)&lt;/li&gt;
+&lt;li&gt;Quarry requires a bedrock pick and heat ray &amp;ndash; you&amp;rsquo;ll need Tungsten before you can make it&lt;/li&gt;
+&lt;li&gt;A number of recipes from other mods are now crafted on the assembly table&lt;/li&gt;
+&lt;li&gt;Refinery has been removed &amp;ndash; use Immersive Engineerings refinery or Buildcraft Additions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;buildcraft-additions:22391f28610b60a1b0da7b5f40048d56&#34;&gt;BuildCraft Additions&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Raw plates are now created in the RailCraft Rolling Machine&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;chromaticraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;ChromatiCraft&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wisps in Rainbow Forests can hurt you&lt;/li&gt;
+&lt;li&gt;The Ender Dragon will respawn shortly after being killed&lt;/li&gt;
+&lt;li&gt;Rainbow Forest biomes do not spread when planting rainbow trees&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;electricalcraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;ElectricalCraft&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fluorite ore spawns in scattered veins around y-level 35&lt;/li&gt;
+&lt;li&gt;Cadmium spawn in largish veins around y-level&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ender-io:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Ender IO&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hard machine recipes are turned on&lt;/li&gt;
+&lt;li&gt;Machine casing requires steel&lt;/li&gt;
+&lt;li&gt;Stirling Engine requires thermal plates&lt;/li&gt;
+&lt;li&gt;Capacitors are created on the BuildCraft Assembly Table&lt;/li&gt;
+&lt;li&gt;Conduit RF capacities have been reduced to match other forms of RF transportation&lt;/li&gt;
+&lt;li&gt;Aluminum Brass can now be made in the alloy smelter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;enhanced-portals:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Enhanced Portals&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Now requires steel instead of iron&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;extrautilities:22391f28610b60a1b0da7b5f40048d56&#34;&gt;ExtraUtilities&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Magnum torch disabled&lt;/li&gt;
+&lt;li&gt;Angel Ring disabled&lt;/li&gt;
+&lt;li&gt;Ender Lilies can only be found in the End&lt;/li&gt;
+&lt;li&gt;Ender Quarry requires a bedrock pick and heat ray to construct.&lt;/li&gt;
+&lt;li&gt;Cannot build watering can&lt;/li&gt;
+&lt;li&gt;All transfer pipes and nodes are disabled&lt;/li&gt;
+&lt;li&gt;All generators are disabled&lt;/li&gt;
+&lt;li&gt;Drum requires steel plates&lt;/li&gt;
+&lt;li&gt;Blackout Curtains have an alternate recipe&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;forestry:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Forestry&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disabled Ore Gen&lt;/li&gt;
+&lt;li&gt;Forestry engines are disabled&lt;/li&gt;
+&lt;li&gt;Adventurers bags are renamed Ammo Bags (both sizes). They can hold Stefinus 3D guns ammo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;galacticraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Galacticraft&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Most, but not all ores spawn on the moon. In particular, ReactorCraft ores are extremely plentiful.&lt;/li&gt;
+&lt;li&gt;Many ores now spawn on Mars.&lt;/li&gt;
+&lt;li&gt;Converting Galacticraft power to RF is 66% less effecient.&lt;/li&gt;
+&lt;li&gt;Consuming RF power by Galacticraft machines suffers no penalty.&lt;/li&gt;
+&lt;li&gt;Consuming Mekanism power suffers no penalty.&lt;/li&gt;
+&lt;li&gt;Refinery is removed &amp;ndash; use Immersive Engineering or BuildCraft Additions refinery to make fuel&lt;/li&gt;
+&lt;li&gt;Oxygen mask has a slightly different crafting pattern&lt;/li&gt;
+&lt;li&gt;Coal generator has been removed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;gardenstuff:22391f28610b60a1b0da7b5f40048d56&#34;&gt;GardenStuff&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed all lattice recipes so they don&amp;rsquo;t collide with other mods&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;heacrumbs:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Heacrumbs&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Baarbra no longer spawns (TPS heavy)&lt;/li&gt;
+&lt;li&gt;Reduced spawn probability and group size&lt;/li&gt;
+&lt;li&gt;Added Revolution Pack celebrities&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hunger-overhaul:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Hunger Overhaul&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Many tweaks to the difficulty of Hunger Overhaul, generally making it somewhat easier than the default configs.&lt;/li&gt;
+&lt;li&gt;Plant growth rates are halved instead of quartered.&lt;/li&gt;
+&lt;li&gt;Default food values are halved instead of quartered.&lt;/li&gt;
+&lt;li&gt;Food stack size is left at the default 64&lt;/li&gt;
+&lt;li&gt;Increased the time it takes to heal&lt;/li&gt;
+&lt;li&gt;Increased the minimum hunger to heal to 18 (9 shanks - up from 3.5 shanks). This is due to a ChromatiCraft balance issue in v7 and will be changed in the future.&lt;/li&gt;
+&lt;li&gt;Constant hunger loss is disabled&lt;/li&gt;
+&lt;li&gt;It takes much longer to starve to death&lt;/li&gt;
+&lt;li&gt;You drain food faster when you are healing&lt;/li&gt;
+&lt;li&gt;You respawn with 1/6th your full health&lt;/li&gt;
+&lt;li&gt;Difficulty level scales hunger rates 50% more&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;iguana-tinker-tweaks:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Iguana Tinker Tweaks&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vanilla tools can only be used for crafting&lt;/li&gt;
+&lt;li&gt;Autosmelt enchant has been removed from enchants given by levelling&lt;/li&gt;
+&lt;li&gt;Osmium requires an ardite pickaxe or better&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;immersive-engineering:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Immersive Engineering&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Power cables transfer power at the same rate as other mods&lt;/li&gt;
+&lt;li&gt;Diesel generator output has been reduced to 1440RF/t (from 4096RF/t)&lt;/li&gt;
+&lt;li&gt;The excavator only requires 1440RF/t instead of 4096RF/t&lt;/li&gt;
+&lt;li&gt;Revolver shares parts with Stefinus 3D Guns mod&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;jabba:22391f28610b60a1b0da7b5f40048d56&#34;&gt;JABBA&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed Diamond Dolly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mekanism:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Mekanism&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mekanism generators produce RF at a 66% penalty (Mekanism and Galacticraft machines are not affected).&lt;/li&gt;
+&lt;li&gt;Mekanism machines consume RF with no penalty&lt;/li&gt;
+&lt;li&gt;Osmium requires ardite pickaxe or better&lt;/li&gt;
+&lt;li&gt;Osmium spawns in large, rare veins above y-level 35&lt;/li&gt;
+&lt;li&gt;Robit requires bedrock ingot&lt;/li&gt;
+&lt;li&gt;Circuits are now made on the BuildCraft Assembly Table&lt;/li&gt;
+&lt;li&gt;Portable tank now uses steel plates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;openblocks:22391f28610b60a1b0da7b5f40048d56&#34;&gt;OpenBlocks&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sonic glasses have an alternative recipe&lt;/li&gt;
+&lt;li&gt;Tanks are now more expensive&lt;/li&gt;
+&lt;li&gt;Luggage is removed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;open-modular-turrets:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Open Modular Turrets&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Power requirements for turrets are increased by 10x&lt;/li&gt;
+&lt;li&gt;Turrets cannot attack players&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;plant-mega-pack:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Plant Mega Pack&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added plants to missing biomes&lt;/li&gt;
+&lt;li&gt;Bamboo grows significantly slower&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;pressure-pipes:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Pressure Pipes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Generally, everything requires steel plates instead of iron ingots&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;railcraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;RailCraft&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed poor ores&lt;/li&gt;
+&lt;li&gt;Removed Steel armor and tools&lt;/li&gt;
+&lt;li&gt;Engines require plates based on tier (iron, steel) as well as thermal plates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;randomthings:22391f28610b60a1b0da7b5f40048d56&#34;&gt;RandomThings&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disabled Spirit Binder&lt;/li&gt;
+&lt;li&gt;SpectreArmor is disabled&lt;/li&gt;
+&lt;li&gt;Can sleep through Blood Moons&lt;/li&gt;
+&lt;li&gt;Blood moons occur every night unless otherwise thwarted&lt;/li&gt;
+&lt;li&gt;All blood-moon related visual effects are turned off, except for the red moon.&lt;/li&gt;
+&lt;li&gt;Minimum range for spawns during a blood moon is increased to 24 blocks (from 3).&lt;/li&gt;
+&lt;li&gt;Monsters spawn slowly when a blood moon starts, instead of all at once.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reactorcraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;ReactorCraft&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All ReactorCraft ores spawn generously on the moon; the following changes are to the overworld:&lt;/li&gt;
+&lt;li&gt;Magnetite spawns in large, rare veins above y-level 64&lt;/li&gt;
+&lt;li&gt;Calcite spawns uniformly between y-level 30 and 80&lt;/li&gt;
+&lt;li&gt;All fluorites spawn between y-level 28 and 35&lt;/li&gt;
+&lt;li&gt;Cadmium and Indium spawn in small, rare veins between y-level 10 and 25&lt;/li&gt;
+&lt;li&gt;Pitchblend spawns inside Redstone veins&lt;/li&gt;
+&lt;li&gt;Thorite spawns in the nether in large veins above y-level 10&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;spice-o-life:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Spice O&amp;rsquo; Life&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Previously-eaten foods are even less nutritious&lt;/li&gt;
+&lt;li&gt;Food history increased to 12 items&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;stefinus-3d-guns:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Stefinus 3D Guns&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ammo now stacks (stack size depends on ammo type)&lt;/li&gt;
+&lt;li&gt;Added guns and ammo to loot chests&lt;/li&gt;
+&lt;li&gt;Recipes generally require steel or steel plates instead of iron&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;thermal-foundation:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Thermal Foundation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All thermal foundation armor and tools are removed (copper, tin, etc)&lt;/li&gt;
+&lt;li&gt;Copper spawns in surface seams as well as veins above y-level 45&lt;/li&gt;
+&lt;li&gt;Tin spawn in nodes between y-level 20 and 48&lt;/li&gt;
+&lt;li&gt;Silver spawns in nodes between y-level 5 and 30&lt;/li&gt;
+&lt;li&gt;Lead spawns in nodes between y-level 18 and 42&lt;/li&gt;
+&lt;li&gt;Nickel spawns in small nodes between y-level 5 and 20&lt;/li&gt;
+&lt;li&gt;Platinum spawns in small nodes between y-level 16 and 28&lt;/li&gt;
+&lt;li&gt;Aluminum spawns in common veins above y-level 55&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tinker-s-construct:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Tinker&amp;rsquo;s Construct&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unified ore so that the Smeltery produces RotaryCraft equivalents where possible (copper, tin, aluminum, silver)&lt;/li&gt;
+&lt;li&gt;Ore Berries are turned off&lt;/li&gt;
+&lt;li&gt;You can no longer smelt golden apples in the smeltery for insane amounts of gold&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;twilight-forest:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Twilight Forest&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Random ore gen has been disabled (non-TF ores)&lt;/li&gt;
+&lt;li&gt;Emeralds spawn in large, rare veins in this dimension&lt;/li&gt;
+&lt;li&gt;Disabled uncrafting table&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;vanilla:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Vanilla&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Coal spawn in high seams above y-level 95.&lt;/li&gt;
+&lt;li&gt;Iron spawns in large, rare veins above y-level 24&lt;/li&gt;
+&lt;li&gt;Gold spawns in large, rare veins above y-level 24&lt;/li&gt;
+&lt;li&gt;Redstone spawns in large, rare veins above y-level 2&lt;/li&gt;
+&lt;li&gt;Diamonds spawn in small rare veins below lava&lt;/li&gt;
+&lt;li&gt;Lapis spawns in large, rare veins above y-level 10&lt;/li&gt;
+&lt;li&gt;All Vanilla metal armor can no longer be crafted (diamond, iron, golden)&lt;/li&gt;
+&lt;li&gt;Cauldron requires steel plates&lt;/li&gt;
+&lt;li&gt;Bucket requires steel plates&lt;/li&gt;
+&lt;li&gt;Hopper requires steel plates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;void-monster:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Void Monster&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Void monster doesn&amp;rsquo;t spawn in The End, Spectral World, Deep Dark, and The Last Millenium&lt;/li&gt;
+&lt;li&gt;Iron bars require HSLA Steel shafts in a RailCraft Rolling Machine&lt;/li&gt;
+&lt;li&gt;Anvil requires HSLA Blocks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;zombie-awareness:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Zombie Awareness&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zombies are not attracted to light or sound&lt;/li&gt;
+&lt;li&gt;Extra zombies spawn on the surface&lt;/li&gt;
+&lt;li&gt;Removed the chance for baby zombies to spawn&lt;/li&gt;
+&lt;li&gt;Zombies do not summon help&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>First Day Guide</title>
+      <link>http://localhost:1313/article/rev1-first-day/</link>
+      <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
+      
+      <guid>http://localhost:1313/article/rev1-first-day/</guid>
+      <description>
+
+&lt;h3 id=&#34;alternate-terrain-generator-atg-or-biomes-o-plenty-bop:b116e34dbf360dd5c87d639bee733950&#34;&gt;Alternate Terrain Generator (ATG) or Biomes O&amp;rsquo; Plenty (BoP)&lt;/h3&gt;
+
+&lt;p&gt;When starting a new world, you have a couple of world type options &amp;ndash; either Biomes O&amp;rsquo; Plenty or ATG-Alternate Terrain Generator. I highly recommend changing your world type to ATG &amp;ndash; it generates more realistic rolling hills and surface forms, using the BoP biomes. However, on minimal-memory machines, ATG may cause some hiccups during world generation (there are some workarounds, however). Combined with the Big Trees and Streams mods, an ATG world will be unique and intriguing compared to most Minecraft worlds.&lt;/p&gt;
+
+&lt;p&gt;I also recommend enabling cheats &amp;ndash; just in case &amp;ndash; but if you&amp;rsquo;re the kind that&amp;rsquo;s susceptible to temptation, you can leave it off. We have another alternative in-game.&lt;/p&gt;
+
+&lt;h2 id=&#34;some-performance-tips:b116e34dbf360dd5c87d639bee733950&#34;&gt;Some performance tips&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;There are a few simple things you can do to dramatically increase the performance and your enjoyment of the pack. Immediately upon entering your new world, I highly recommend you save and quit to the main menu, then reload your save. This first save will take a little longer than usual, but will result in a fully generated area around you with minimal lag. I also highly recommend you run /pregenspawn 50 (or 100&amp;hellip;its the radius, in chunks, around your spawn point) to pregenerate a large number of chunks in your vicinity, then repeat the save/load cycle once generation completes. While this will delay your adventuring into the new world, it will give you the best performance from the pack over the course of your play.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-first-day:b116e34dbf360dd5c87d639bee733950&#34;&gt;The First Day&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;Welcome to the Revolution! If you&amp;rsquo;re playing in single-player, the first thing your going to want to do is gather enough wood and wool for a crafting table and bed. There&amp;rsquo;s lots of creepy-crawly nasties at night that want to eat or kill you (and a few during the day - find someplace safe!). You&amp;rsquo;ll also want to find a safe biome &amp;ndash; swamps, marshes, deserts, and high areas above y-level 85 spawn some of the most dangerous mobs. Only venture there when you&amp;rsquo;ve got yourself some armor. You&amp;rsquo;ve been warned.&lt;/p&gt;
+
+&lt;p&gt;While wandering around, keep your eye out for Pam&amp;rsquo;s HarvestCraft Gardens (little bushy blocks in different varieties). While there&amp;rsquo;s lots of food you can eat (and you&amp;rsquo;ll need to eat a variety), these will give you a few varieties of food to eat or plant later. Early game food is going to be one of your top concerns.&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve found a hidey-hole to spend the night, you have a couple choices for tools: Tinker&amp;rsquo;s Construct/Tinker Tweaks or Botania (once you can mine iron with TiCo tools). Either way, you have some decisions to make. Remember that flint is crafted in a crafting grid using 3 gravel, not by digging up gravel.&lt;/p&gt;
+
+&lt;p&gt;Ore generation is completely different in this pack. Instead of the typical little blobs of ore scattered throughout a chunk, ore spawns in grand, rare veins. It may take a bit longer to find something, but once you do, you&amp;rsquo;ll come away with several stacks of what you want. Be sure to check out the Gameplay Changes page (link in page header) for details on where ore spawns.&lt;/p&gt;
+
+&lt;p&gt;Your first big goal will be to build a steel bucket (you can make clay ones in the interim &amp;ndash; but they&amp;rsquo;re single use for lava). Trust me, when you can make steel buckets, you&amp;rsquo;ve done something significant, and you&amp;rsquo;re well on your way to the advanced parts of this pack.&lt;/p&gt;
+
+&lt;p&gt;Most machines in this pack require steel (ingot or plates), HSLA Steel, or both. Start with the RotaryCraft blast furnace once you find (and can mine) iron and redstone. Mekanism or Immersive Engineering are good starts for getting your steel production up and going. Once you&amp;rsquo;ve got steel going, you&amp;rsquo;re going to need a RailCraft Rolling Mill to get plate production going. The easiest source of RF power for your Rolling Machine will be a RotaryCraft Rotational Dynamo hooked up to a RotaryCraft DC Engine. It will be slow, but it will get you your first steel plates necessary for expanding your power base.&lt;/p&gt;
+
+&lt;p&gt;Where you go from here is up to you. The ultimate &amp;lsquo;goal&amp;rsquo; of the pack, if there is one, is to build a self-sustaining colony on Mars. Your colony should feature automated ore creation, food, oxygen, limitless power, and a stable portal to and from the overworld. To do this, you&amp;rsquo;ll need to build machines from RotaryCraft, RailCraft, BuildCraft, BuildCraft Additions, GalactiCraft, and Enhanced Portals (at a minimum). You&amp;rsquo;ll most likely have to delve into Ender IO, Mekanism, and Pam&amp;rsquo;s HarvestCraft&amp;hellip;not to mention Tinker&amp;rsquo;s Construct, Botania, or Mekanism for basic tools.&lt;/p&gt;
+
+&lt;p&gt;And dinosaurs &amp;ndash; yes, you&amp;rsquo;re going to want dinosaurs on Mars.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re not one for offworld exploration, you may want to explore the world of magic. This pack features a significant amount of magic mods, namely ChromatiCraft, Botania, and Thaumcraft, plus quite a few TC addons: Forbidden Magic, Thaumic Horizons, Thaumic Energistics, Thaumic Tinkerer, Thaumcraft Gates, Automagy, and TC Nodetracker.&lt;/p&gt;
+
+&lt;p&gt;And lastly, take your time and build beautiful things. There are many decorative mods in this pack. If you&amp;rsquo;re having a hard time finding that &amp;lsquo;spot&amp;rsquo; to build your 9x9 in, perhaps its because the beautiful, rolling, lush hills of ATG, BigTrees, and Plant Mega Pack beg you to build big and grand creations. Don&amp;rsquo;t cram 5 multiblock structures, plus power gen, unlimited food, and quarrying into a 10x10x20 space &amp;ndash; build a powerhouse, an engineering shop, a vehicle assembly building (and corresponding launch pad), or a magical throne room in the trees.&lt;/p&gt;
+
+&lt;p&gt;I also highly recommend playing this pack with all of the difficulty mods: Hunger Overhaul, Better Sleeping, The Spice of Life, Zombie Awareness, and Special AI. There are tools in this pack to render every single difficulty mechanic more or less meaningless &amp;ndash; and the joy of discovering a solution to each problem is very rewarding.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy the pack!
+-Haggle1996&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

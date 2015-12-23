@@ -1,0 +1,73 @@
+baseurl = "http://revolutionpack.info/"
+languageCode = "en-us"
+title = "REVOLUTION|2"
+paginate = 5
+DisqusShortname = "revolutionpack2"
+Copyright = "Copyright � 2015 by Haggle1996"
+canonifyurls = true
+
+[params]
+    description = "FIGHT HARD. BUILD HARD. LIVE LONG." 
+    cover = "images/cover7.jpg"
+    author = "Haggle1996"
+    authorlocation = "United States"
+    authorwebsite = "https://github.com/Haggle1996"
+    bio= "Curator of the Revolution Pack and Patron of the Gaming Arts"
+    #logo = "images/phoenix_world.png"
+    googleAnalyticsUserID = "UA-66547550-1"
+    # Optional RSS-Link, if not provided it defaults to the standard index.xml
+    #RSSLink = "http://feedly.com/i/subscription/feed/https://syui.github.io/atom.xml"
+    githubName = "Haggle1996"
+    twitterName = "Haggle1996"
+    # facebookName = ""
+    # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+    hideHUGOSupport = true
+
+[[menu.main]]
+    name = "home"
+    weight = 1
+    url = "/"
+
+[[menu.main]]
+    name = "Issue Tracker"
+    weight = 90
+    pre = "<h3>get help</h3>"
+    url = "https://github.com/Haggle1996/RevolutionPack/issues"
+    
+[[menu.main]]
+    name = "IRC #Revolution"
+    weight = 91
+    url = "http://webchat.esper.net/?nick=&channels=Revolution"
+    
+[[menu.main]]
+    name = "MCF Forum"
+    weight = 92
+    url = "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mod-packs/2411393"
+
+[[menu.main]]
+	name = "Github"
+	weight = 100
+	pre = "<h3>follow</h3>"
+	url = "https://github.com/Haggle1996"
+
+[[menu.main]] 
+    name = "Twitter" 
+    weight = 101 
+    url = "https://twitter.com/Haggle1996"
+    
+[[menu.main]]
+    name = "Gitter"
+    weight = 102
+    url = "https://gitter.im/Haggle1996/RevolutionPack"
+
+#[[menu.main]]
+#    name = "Game Changes R2"
+#    weight = 200
+#    pre = "<h3>revolution|2</h3>"
+#    url = "/article/rev2-gameplay-changes"
+    
+[[menu.main]]
+    name = "Game Changes R1"
+    weight = 300
+    pre = "<h3>revolution|1</h3>"
+    url = "/article/rev1-gameplay-changes"

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag1 on REVOLUTION|2</title>
+    <link>http://localhost:1313/tags/tag1/</link>
+    <description>Recent content in Tag1 on REVOLUTION|2</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright � 2015 by Haggle1996</copyright>
+    <lastBuildDate>Wed, 23 Dec 2015 13:32:09 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>rev1firstday</title>
+      <link>http://localhost:1313/article/post-title/</link>
+      <pubDate>Wed, 23 Dec 2015 13:32:09 -0700</pubDate>
+      
+      <guid>http://localhost:1313/article/post-title/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

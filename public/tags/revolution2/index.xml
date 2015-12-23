@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Revolution2 on REVOLUTION|2</title>
+    <link>http://localhost:1313/tags/revolution2/</link>
+    <description>Recent content in Revolution2 on REVOLUTION|2</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright � 2015 by Haggle1996</copyright>
+    <lastBuildDate>Wed, 23 Dec 2015 13:24:22 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/revolution2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New Website</title>
+      <link>http://localhost:1313/post/2015-12-23-newwebsite/</link>
+      <pubDate>Wed, 23 Dec 2015 13:24:22 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/2015-12-23-newwebsite/</guid>
+      <description>&lt;p&gt;With the impending release of Revolution|2, I thought it would be a good time to launch the new website! Yay!&lt;/p&gt;
+
+&lt;p&gt;Content for Revolution 1, as well as many relevant pack links, can be accessed through the menu at the top right.&lt;/p&gt;
+
+&lt;p&gt;Content for version 2 will be posted soon.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
