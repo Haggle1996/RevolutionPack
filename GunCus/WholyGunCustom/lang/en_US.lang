@@ -1,0 +1,90 @@
+item.WholyGunCustom.bullet.45ACP.name=.45 ACP
+item.WholyGunCustom.bullet.50CAL.name=.50 BMG
+item.WholyGunCustom.bullet.308Win.name=.308 Win Mag
+item.WholyGunCustom.bullet.5.56x45NATO.name=5.56x45mm NATO
+item.WholyGunCustom.bullet.7.62x39.name=7.62x39mm
+item.WholyGunCustom.bullet.9x19Para.name=9 x 19 Parabellum
+item.WholyGunCustom.bullet.12gauge.name=12 gauge shotshell
+item.WholyGunCustom.bullet.50AE.name=.50 Action Express
+item.WholyGunCustom.bullet.fuel.name=Fuel
+item.WholyGunCustom.bullet.healing.name=Healer Bullet
+
+itemGroup.WholyGunCustom.AK-47=AK-47
+item.WholyGunCustom.AK-47.name=AK-47
+item.WholyGunCustom.AK-47.magazine.name=AK-47 magazine
+
+itemGroup.WholyGunCustom.Barret_M82A1=Barret M82A1
+item.WholyGunCustom.Barret_M82A1.name=Barret M82A1
+item.WholyGunCustom.Barret_M82A1.magazine.name=Barret M82A1 magazine
+
+itemGroup.WholyGunCustom.Desert_Eagle=Desert Eagle
+item.WholyGunCustom.Desert_Eagle.name=Desert Eagle
+item.WholyGunCustom.Desert_Eagle.magazine.name=Desert Eagle magazine
+
+itemGroup.WholyGunCustom.FAMAS=FAMAS
+item.WholyGunCustom.FAMAS.name=FAMAS
+item.WholyGunCustom.FAMAS.magazine.name=FAMAS magazine
+
+itemGroup.WholyGunCustom.Flame-thrower=Flame-thrower
+item.WholyGunCustom.Flame-thrower.name=Flame-thrower
+item.WholyGunCustom.Flame-thrower.magazine.name=Flame-thrower magazine
+
+itemGroup.WholyGunCustom.HAMR=HAMR
+item.WholyGunCustom.HAMR.name=HAMR
+item.WholyGunCustom.HAMR.magazine.name=HAMR magazine
+
+itemGroup.WholyGunCustom.HK_USP_9mm=HK USP 9mm
+item.WholyGunCustom.HK_USP_9mm.name=HK USP 9mm
+item.WholyGunCustom.HK_USP_9mm.magazine.name=HK USP 9mm magazine
+
+itemGroup.WholyGunCustom.HK416=HK416
+item.WholyGunCustom.HK416.name=HK416
+item.WholyGunCustom.HK416.magazine.name=HK416 magazine
+
+itemGroup.WholyGunCustom.HV-404=HV-404 Healing Potion Launcher
+item.WholyGunCustom.HV-404.name=HV-404 Healing Potion Launcher
+item.WholyGunCustom.HV-404.magazine.name=HV-404 magazine
+
+itemGroup.WholyGunCustom.IMI_Galil=IMI Galil
+item.WholyGunCustom.IMI_Galil.name=IMI Galil
+item.WholyGunCustom.IMI_Galil.magazine.name=IMI Galil magazine
+
+itemGroup.WholyGunCustom.M4A1=M4A1
+item.WholyGunCustom.M4A1.name=M4A1
+item.WholyGunCustom.M4A1.magazine.name=M4A1 magazine
+
+itemGroup.WholyGunCustom.M249=M249 SAW
+item.WholyGunCustom.M249.name=M249 SAW
+item.WholyGunCustom.M249.magazine.name=M249 SAW magazine
+
+itemGroup.WholyGunCustom.M1911=M1911
+item.WholyGunCustom.M1911.name=M1911
+item.WholyGunCustom.M1911.magazine.name=M1911 magazine
+
+itemGroup.WholyGunCustom.magnumrifle=Magnum Rifle
+item.WholyGunCustom.magnumrifle.name=Magnum Rifle
+item.WholyGunCustom.magnumrifle.magazine.name=Magnum Rifle magazine
+
+itemGroup.WholyGunCustom.MP5=MP5
+item.WholyGunCustom.MP5.name=MP5
+item.WholyGunCustom.MP5.magazine.name=MP5 magazine
+
+itemGroup.WholyGunCustom.P90=P90
+item.WholyGunCustom.P90.name=P90
+item.WholyGunCustom.P90.magazine.name=P90 magazine
+
+itemGroup.WholyGunCustom.SPAS-12=SPAS-12
+item.WholyGunCustom.SPAS-12.name=SPAS-12
+item.WholyGunCustom.SPAS-12.magazine.name=SPAS-12 magazine
+
+itemGroup.WholyGunCustom.Steyr_AUG_a3=Steyr AUG A3
+item.WholyGunCustom.Steyr_AUG_a3.name=Steyr AUG A3
+item.WholyGunCustom.Steyr_AUG_a3.magazine.name=Steyr AUG A3 magazine
+
+itemGroup.WholyGunCustom.UMP45=Heckler & Koch UMP45
+item.WholyGunCustom.UMP45.name=Heckler & Koch UMP45
+item.WholyGunCustom.UMP45.magazine.name=Heckler & Koch UMP45 magazine
+
+itemGroup.WholyGunCustom.XM8=XM8 LMG (Prototype)
+item.WholyGunCustom.XM8.name=XM8 LMG (Prototype)
+item.WholyGunCustom.XM8.magazine.name=XM8 LMG (Prototype) magazine

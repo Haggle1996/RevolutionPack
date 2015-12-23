@@ -1,0 +1,20 @@
+{
+   "akfortyseven": {"category": "master", "sounds": [{"name": "akfortyseven", "stream": false}]},
+   "akfortysevensilencer": {"category": "master", "sounds": [{"name": "akfortysevensilencer", "stream": false}]},
+   "desert_eagle": {"category": "master", "sounds": [{"name": "desert_eagle", "stream": false}]},
+   "famas": {"category": "master", "sounds": [{"name": "famas", "stream": false}]},
+   "hkfouronesix": {"category": "master", "sounds": [{"name": "hkfouronesix", "stream": false}]},
+   "hkuspnine": {"category": "master", "sounds": [{"name": "hkuspnine", "stream": false}]},
+   "imi_galil": {"category": "master", "sounds": [{"name": "imi_galil", "stream": false}]},
+   "magnumrifle": {"category": "master", "sounds": [{"name": "magnumrifle", "stream": false}]},
+   "meightytwo": {"category": "master", "sounds": [{"name": "meightytwo", "stream": false}]},
+   "mnineteeneleven": {"category": "master", "sounds": [{"name": "mnineteeneleven", "stream": false}]},
+   "mpfive": {"category": "master", "sounds": [{"name": "mpfive", "stream": false}]},
+   "mpfivesilencer": {"category": "master", "sounds": [{"name": "mpfivesilencer", "stream": false}]},
+   "msixteen": {"category": "master", "sounds": [{"name": "msixteen", "stream": false}]},
+   "msixteensilencer": {"category": "master", "sounds": [{"name": "msixteensilencer", "stream": false}]},
+   "mtwofournine": {"category": "master", "sounds": [{"name": "mtwofournine", "stream": false}]},
+   "pninety": {"category": "master", "sounds": [{"name": "pninety", "stream": false}]},
+   "spas": {"category": "master", "sounds": [{"name": "spas", "stream": false}]},
+   "umpfourfive": {"category": "master", "sounds": [{"name": "umpfourfive", "stream": false}]}
+}
