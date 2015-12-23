@@ -10,9 +10,9 @@ BuildCraft.js
 Bibliocraft.js
 AppliedEnergistics2.js
 MFR.js
-Flans.js
 WoodenBuckets.js
 Geostrata.js
 BiomesOPlenty.js
 EnderIO.js
 Enviromine.js
+GunCus.js
