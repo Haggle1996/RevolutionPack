@@ -16,3 +16,4 @@ BiomesOPlenty.js
 EnderIO.js
 Enviromine.js
 GunCus.js
+Railcraft.js

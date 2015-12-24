@@ -25,9 +25,9 @@ itemGroup.WholyGunCustom.FAMAS=FAMAS
 item.WholyGunCustom.FAMAS.name=FAMAS
 item.WholyGunCustom.FAMAS.magazine.name=FAMAS magazine
 
-itemGroup.WholyGunCustom.Flame-thrower=Flame-thrower
-item.WholyGunCustom.Flame-thrower.name=Flame-thrower
-item.WholyGunCustom.Flame-thrower.magazine.name=Flame-thrower magazine
+itemGroup.WholyGunCustom.Flamethrower=Flame-thrower
+item.WholyGunCustom.Flamethrower.name=Flame-thrower
+item.WholyGunCustom.Flamethrower.magazine.name=Flame-thrower magazine
 
 itemGroup.WholyGunCustom.HAMR=HAMR
 item.WholyGunCustom.HAMR.name=HAMR

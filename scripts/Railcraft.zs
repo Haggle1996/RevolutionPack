@@ -35,6 +35,10 @@ recipes.addShaped(industrial, [[steel,steel,steel]
 							,[copper,glass,copper]
 							,[steelGear,piston,steelGear]]);
 
+# Remove Railcraft's Blast Furance and Coke Oven. Just make IE's
+recipes.remove(<Railcraft:machine.alpha:12>);
+recipes.remove(<Railcraft:machine.alpha:7>);
+
 # Add IE's Coal Coke to Blast Furnace Fuel (first is single piece, second is the block)
 # mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);
 # mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:stoneDecoration:3>);

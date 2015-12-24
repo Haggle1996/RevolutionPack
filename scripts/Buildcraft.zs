@@ -43,6 +43,10 @@ recipes.addShaped(quarry,[[ironGear,ray,ironGear],
 						  [goldGear,ironGear,goldGear],
 						  [diamondGear,bedpick,diamondGear]]);
 
+# remove the refinery recipes from NEI;
+mods.buildcraft.Refinery.removeRecipe(<liquid:fuel>);
+mods.buildcraft.Refinery.removeRecipe(<liquid:ethanol>);
+
 val refinery = <BuildCraft|Factory:refineryBlock>;
 recipes.remove(refinery);
 refinery.addTooltip(format.red("REMOVED: ") + format.white("Use the Immersive"));

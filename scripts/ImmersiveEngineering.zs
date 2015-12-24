@@ -4,8 +4,9 @@
 val oil = <liquid:oil>;
 val plantoil = <liquid:plantoil>;
 val fuel = <liquid:fuel>;
-val biodiesel = <liquid:biodiesel>;
-mods.immersiveengineering.Refinery.addRecipe(fuel * 16, biodiesel * 8, oil * 8);
+val rocket = <liquid:rocket_fuel>;
+
+mods.immersiveengineering.Refinery.addRecipe(fuel * 16, rocket * 8, oil * 8);
 
 # Enable harder ores processing in the blast furnace
 mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreIron>,<HarderOres:ore_chunk:8> * 3, 4800);

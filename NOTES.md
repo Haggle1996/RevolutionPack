@@ -28,13 +28,10 @@
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
 - Guide in FTBUtilities
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
-- EIO filters use BC gates
 - Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 
 - More loot in roguelikes.
 - Update tower designs
 - Add guide for sluice
-- IE Refinery requires EIO additive such as rocket fuel to make fuel 
-- Remove Railcraft coke oven, blast furnace
 
 #Pack changes
 
@@ -75,3 +72,5 @@
 - IE and RC blast furnaces can now refine Harder Ores hard ores.
 - Forestry farms are now square; farm size multiplier has been reduced to 1
 - Forestry bees can make RotaryCraft yeast
+- Railcraft Blast Furnace and Coke Oven are removed. Use the Immersive Engineering equivalents
+- BuildCraft/Galacticraft Fuel is made in the Immersive Engineering refinery with Oil and Ender IO Rocket Fuel
