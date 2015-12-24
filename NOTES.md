@@ -1,6 +1,13 @@
 ﻿#TODO List
 
-- Startup Page
+## Predeployment
+- Startup page update on gist
+- Update website
+- Verify EiraIRC configuration
+- Turn off Edit Mode on HQM
+
+
+
 - HQM: Advanced Systems Manager removed
 - HQM: Steve's Workshop removed from bags
 - HQM: Malisis curtains removed 
@@ -17,13 +24,9 @@
 - Grindstone
 
 
-- Remove extra items from minetweaker NEI and move to Inpurcore, as well as removed recipes in MT
 - Balance RFTools and other new mods' recipes
-- Update website
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
-- Verify EiraIRC configuration
 - Guide in FTBUtilities
-- Turn off Edit Mode on HQM
 - Enviromine causes RotaryCraft blocks to lose metadata on fall
 - EIO filters use BC gates
 - Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 

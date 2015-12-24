@@ -1,0 +1,30 @@
+{
+	"name" : "tower",
+	"tower" : {
+		"type" : "ENIKO",
+		"theme" : {
+			"base" : "QUARTZ",
+			"primary" : {
+				"walls" : {
+					"type" : "STRIPES",
+					"data" : [
+						{"name" : "quartz_block"},
+						{"name" : "quartz_block"},
+						{"name" : "quartz_block"},
+						{"name" : "quartz_block"},
+						{"name" : "stained_hardened_clay", "meta" : 5},
+						{"name" : "stained_hardened_clay", "meta" : 14},
+						{"name" : "stained_hardened_clay", "meta" : 14}
+					]
+				},
+				"pillar" : {"name" : "minecraft:quartz_block"},
+				"stair" : {"name" : "minecraft:quartz_stairs"}
+			},
+			"secondary" : {
+				"walls" : {"name" : "minecraft:quartz_block"},
+				"pillar" : {"name" : "minecraft:quartz_block"},
+				"stair" : {"name" : "minecraft:quartz_stairs"}
+			}
+		}
+	}
+}

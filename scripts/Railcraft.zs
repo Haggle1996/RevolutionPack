@@ -36,16 +36,16 @@ recipes.addShaped(industrial, [[steel,steel,steel]
 							,[steelGear,piston,steelGear]]);
 
 # Add IE's Coal Coke to Blast Furnace Fuel (first is single piece, second is the block)
-mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);
-mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:stoneDecoration:3>);
+# mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);
+# mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:stoneDecoration:3>);
 
 #Blast furnace can refine Raw Harder Ores
-mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:8> * 3, false, false, 4800, <HarderOres:dummyOreIron>);
-mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:9> * 3, false, false, 4800, <HarderOres:dummyOreGold>);
-mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:12> * 3, false, false, 4800, <HarderOres:dummyOreTin>);
-mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:13> * 3, false, false, 4800, <HarderOres:dummyOreCopper>);
-mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:14> * 3, false, false, 4800, <HarderOres:dummyOreLead>);
-mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:15> * 3, false, false, 4800, <HarderOres:dummyOreUranium>);
-mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:16> * 3, false, false, 4800, <HarderOres:dummyOreSilver>);
-mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:17> * 3, false, false, 4800, <HarderOres:dummyOreNickel>);
-mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:18> * 3, false, false, 4800, <HarderOres:dummyOreAluminum>);
+#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:8> * 3, false, false, 4800, <HarderOres:dummyOreIron>);
+#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:9> * 3, false, false, 4800, <HarderOres:dummyOreGold>);
+#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:12> * 3, false, false, 4800, <HarderOres:dummyOreTin>);
+#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:13> * 3, false, false, 4800, <HarderOres:dummyOreCopper>);
+#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:14> * 3, false, false, 4800, <HarderOres:dummyOreLead>);
+#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:15> * 3, false, false, 4800, <HarderOres:dummyOreUranium>);
+#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:16> * 3, false, false, 4800, <HarderOres:dummyOreSilver>);
+#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:17> * 3, false, false, 4800, <HarderOres:dummyOreNickel>);
+#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:18> * 3, false, false, 4800, <HarderOres:dummyOreAluminum>);

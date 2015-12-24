@@ -1,0 +1,48 @@
+{
+	"name" : "themes",
+	"levels" : {
+		"0" : {
+			"theme" : {
+				"base" : "QUARTZ",
+				"primary" : {
+					"walls" : {
+						"type" : "LAYERS",
+						"data" : [
+							{"name" : "minecraft:stained_hardened_clay", "meta" : 6},
+							{
+								"type" : "COLUMNS",
+								"data" : [
+									{"name" : "minecraft:quartz_block"},
+									{"name" : "minecraft:obsidian"},
+									{"name" : "redstone_block"}
+								]
+							},
+							{"name" : "minecraft:stained_hardened_clay", "meta" : 5}
+						]
+					},
+					"pillar" : {"name" : "minecraft:log", "meta" : 1},
+					"floor" : {
+						"type" : "STRIPES",
+						"data" : [
+							{"name" : "minecraft:grass"},
+							{"name" : "minecraft:dirt", "meta" : 2}
+						]
+					},
+					"stair" : {"name" : "spruce_stairs"}
+				},
+				"secondary" : {
+					"walls" : {"name" : "minecraft:brick_block"},
+					"floor" : {
+						"type" : "STRIPES",
+						"data" : [
+							{"name" : "minecraft:planks", "meta" : 2},
+							{"name" : "minecraft:planks", "meta" : 1}
+						]
+					},
+					"stair" : {"name" : "birch_stairs"},
+					"pillar" : {"name" : "hay_block"}
+				}
+			}
+		}
+	}
+}

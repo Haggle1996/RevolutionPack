@@ -1,0 +1,24 @@
+{
+	"name" : "main",
+	"inherit" : [
+		"loot_all",
+		"loot0",
+		"loot1",
+		"loot2",
+		"loot3",
+		"loot4",
+		"mobs",
+		"themes",
+		"generators",
+		"tower",
+		"rooms"
+	],
+	"criteria" : {
+		"biomeTypes" : [
+			"PLAINS"
+		]
+	},
+	"overrides" : [
+		"LOOTRULES"
+	]
+}
