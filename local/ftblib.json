@@ -1,0 +1,15 @@
+{
+  "commands": {
+    "name": {
+      "edit_config": "edit_config",
+      "mode": "ftb_mode",
+      "notify": "ftb_notify",
+      "reload": "reload",
+      "set_item_name": "set_item_name",
+      "world_id": "ftb_world_id"
+    },
+    "override_help": true,
+    "override_list": true,
+    "set_item_name": "op"
+  }
+}

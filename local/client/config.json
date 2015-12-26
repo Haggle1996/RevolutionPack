@@ -1,0 +1,18 @@
+{
+  "ftbl": {
+    "debug_info": false,
+    "item_ore_names": false,
+    "item_reg_names": false,
+    "notifications": "screen",
+    "open_hsb_cg": false
+  },
+  "ftbu": {
+    "hide_armor_fg": false,
+    "player_options_shortcut": false,
+    "render_badges": true,
+    "sort_friends_az": false
+  },
+  "sidebar_buttons": {
+    "settings": true
+  }
+}
