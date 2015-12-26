@@ -13,6 +13,9 @@
     "sort_friends_az": false
   },
   "sidebar_buttons": {
+    "claims": true,
+    "guide": true,
+    "info": true,
     "settings": true
   }
 }
