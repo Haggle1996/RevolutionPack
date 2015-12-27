@@ -17,7 +17,6 @@
   },
   "general": {
     "blocked_entities": [],
-    "chunkloader_type": "disabled",
     "restart_timer": 0.0,
     "safe_spawn": false,
     "sign_home": true,
@@ -53,13 +52,16 @@
     "break_whitelist": [
       "OpenBlocks:grave"
     ],
+    "chunkloader_type": "online",
     "cross_dim_homes": true,
     "custom_config": {},
     "dimension_blacklist": [],
     "forced_chunk_security": "-",
     "forced_explosions": "-",
     "max_claims": 1000,
-    "max_homes": 100
+    "max_homes": 100,
+    "max_loaded_chunks": 0,
+    "show_rank": true
   },
   "permissions_player": {
     "admin_server_info": false,
@@ -67,6 +69,7 @@
     "break_whitelist": [
       "OpenBlocks:grave"
     ],
+    "chunkloader_type": "online",
     "cross_dim_homes": true,
     "custom_config": {},
     "dimension_blacklist": [
@@ -75,7 +78,9 @@
     "forced_chunk_security": "-",
     "forced_explosions": "-",
     "max_claims": 100,
-    "max_homes": 1
+    "max_homes": 1,
+    "max_loaded_chunks": 0,
+    "show_rank": true
   },
   "tops": {
     "deaths": true,
