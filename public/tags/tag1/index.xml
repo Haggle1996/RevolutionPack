@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Wed, 23 Dec 2015 13:32:09 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 27 Dec 2015 15:54:22 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>rev1firstday</title>
-      <link>http://localhost:1313/article/post-title/</link>
-      <pubDate>Wed, 23 Dec 2015 13:32:09 -0700</pubDate>
+      <title>version2alpha1</title>
+      <link>http://localhost:1313/post/post-title/</link>
+      <pubDate>Sun, 27 Dec 2015 15:54:22 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/post-title/</guid>
+      <guid>http://localhost:1313/post/post-title/</guid>
       <description></description>
     </item>
     

@@ -60,11 +60,11 @@ canonifyurls = true
     weight = 102
     url = "https://gitter.im/Haggle1996/RevolutionPack"
 
-#[[menu.main]]
-#    name = "Game Changes R2"
-#    weight = 200
-#    pre = "<h3>revolution|2</h3>"
-#    url = "/article/rev2-gameplay-changes"
+[[menu.main]]
+    name = "Game Changes R2"
+    weight = 200
+    pre = "<h3>revolution|2</h3>"
+    url = "/article/rev2-gameplay-changes"
     
 [[menu.main]]
     name = "Game Changes R1"

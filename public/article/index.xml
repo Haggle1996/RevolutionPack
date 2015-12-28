@@ -16,7 +16,438 @@
       <pubDate>Wed, 23 Dec 2015 11:53:42 -0700</pubDate>
       
       <guid>http://revolutionpack.info/article/rev2-gameplay-changes/</guid>
-      <description>&lt;p&gt;This is some changes. Wooo.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Revolution|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don&amp;rsquo;t expect everything to work the same as it did in the original Revolution.&lt;/p&gt;
+
+&lt;h2 id=&#34;where-can-i-find-ore-x:2dc582e763001218f60802f283920a1d&#34;&gt;Where can I find ore X?&lt;/h2&gt;
+
+&lt;p&gt;Oregen is significantly different. Generally, ores can be found at most y-levels. Many ores spawn with giant, rare motherlodes and long, thin trace veins that lead to these motherlodes. Some ores generate in vertical pipes. Specifically:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Ore&lt;/th&gt;
+&lt;th&gt;Location&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Coal&lt;/td&gt;
+&lt;td&gt;Spawns just near the surface, and up into hills and mountains.  The veins are long and thick, but sparsely filled with ore and often broken up by caves or depressions in the terrain.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Iron&lt;/td&gt;
+&lt;td&gt;Groups of long narrow veins found about one third of the way down to bedrock. Especially common in snowy or icy areas.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Gold&lt;/td&gt;
+&lt;td&gt;Groups of long narrow veins found about two thirds of the way down to bedrock.  Most common in temperate hardwood forests, but still very rare.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Redstone&lt;/td&gt;
+&lt;td&gt;Single vertical veins starting near the surface and extending down about halfway to bedrock.  Most common in desert climates.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Diamond&lt;/td&gt;
+&lt;td&gt;Short lava-filled tubes extending upward from bedrock with diamonds around the edges.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Lapis Lazuli&lt;/td&gt;
+&lt;td&gt;Single vertical veins starting near bedrock and extending about halfway to the surface.  Most common under ocean floors.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Emerald&lt;/td&gt;
+&lt;td&gt;Short sloping tubes filled sparsely with emeralds and a few &amp;hellip; surprises.  Vastly more common under open grassy hills.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Limonite&lt;/td&gt;
+&lt;td&gt;Use a shovel! Generally at sea-level and a bit lower. More common in rivers and areas that spawn clay or sand.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Copper&lt;/td&gt;
+&lt;td&gt;Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tin&lt;/td&gt;
+&lt;td&gt;Groups of long narrow veins found about halfway down to bedrock.  More frequent in flat grassy plains.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Uranium &amp;amp; Pitchblende&lt;/td&gt;
+&lt;td&gt;Isolated veins found about two thirds of the way down to bedrock and only sparsely filled with ore.  Unusually common in devestated wastelands.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Lead&lt;/td&gt;
+&lt;td&gt;Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Silver&lt;/td&gt;
+&lt;td&gt;Isolated veins found about two thirds of the way down to bedrock.  Unusually common in mountains.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Nickel&lt;/td&gt;
+&lt;td&gt;Groups of long narrow veins found near bedrock.  Especially common in swamps.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Aluminum&lt;/td&gt;
+&lt;td&gt;Flat Clouds found near the surface.  Only found in mesa, swamp, and jungle biomes.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Apatite&lt;/td&gt;
+&lt;td&gt;Spawns in large, rare veins between y-level 56 and 184.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Cadmium&lt;/td&gt;
+&lt;td&gt;Spawns in layered veins between y-level 2 and 14.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Indium&lt;/td&gt;
+&lt;td&gt;Spawns in layered veins between y-level 6 and 18.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Fluorite&lt;/td&gt;
+&lt;td&gt;Spawns in large motherloads between y-level 3 and 13 with large tendrils spreading out for long distances.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Magnetite&lt;/td&gt;
+&lt;td&gt;Spawns in large, rare veins between y-level 76 and 98.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Calcite&lt;/td&gt;
+&lt;td&gt;Spawns in rare veins between y-level 42 and 58.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Certus Quartz&lt;/td&gt;
+&lt;td&gt;Spawns with charged certus quarts in vertical veins between y-level 76 and 52.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Ore generation in the Enviromine Cave dimension is richer and more vanilla-like, and is intended for use as a mining dimension. There are also secret ways of creating ore.&lt;/p&gt;
+
+&lt;h2 id=&#34;significant-gameplay-changes:2dc582e763001218f60802f283920a1d&#34;&gt;Significant Gameplay Changes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There is a mini-guide built into the modpack. Access your inventory, then click the guide book along the left edge of your inventory window.&lt;/li&gt;
+&lt;li&gt;Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block.&lt;/li&gt;
+&lt;li&gt;Ore flowers spawn on the surface, indicating nearby ores.&lt;/li&gt;
+&lt;li&gt;Oregen has been completely redone using Custom Ore Generation First Revival. This is significantly faster than the CoFH ore gen and means most players will not need to pregenerate their worlds! Yay!&lt;/li&gt;
+&lt;li&gt;Torches will set fire to nearby blocks.&lt;/li&gt;
+&lt;li&gt;Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.&lt;/li&gt;
+&lt;li&gt;Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.&lt;/li&gt;
+&lt;li&gt;Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.&lt;/li&gt;
+&lt;li&gt;Naturally-spanwing Vanilla and Forestry trees will die off over time, turning into compost and eventually dirt. Dropped saplings will plant themselves.&lt;/li&gt;
+&lt;li&gt;Food now rots over time. This can be overcome by building Fridges and Freezers (storage blocks from Cooking for Blockheads and Enviromine).&lt;/li&gt;
+&lt;li&gt;Unsupported cave and building rooves will collapse on you. Make sure to support your ceilings! Different materials can stretch different lengths (up to 3 blocks out). Building common engineered structures, such as l-girder shapes, can extend blocks indefinitely.&lt;/li&gt;
+&lt;li&gt;Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.&lt;/li&gt;
+&lt;li&gt;Power consumption and generation has been revamped throughout the pack. Generally, things are more expensive.&lt;/li&gt;
+&lt;li&gt;Power, item, and fluid transmission has been tiered:
+&amp;ndash; Tier 1: Immersive Engineering
+&amp;ndash; Tier 2: BuildCraft, Logistics Pipes
+&amp;ndash; Tier 3: Ender IO
+&amp;ndash; Tier 4: ElectriCraft (power transmission)&lt;/li&gt;
+&lt;li&gt;Early game RF power is best provided through either the Rotational Dynamo or the Immersive Engineering waterwheel/windmill.&lt;/li&gt;
+&lt;li&gt;Spawners aren&amp;rsquo;t moveable intact during the early game; you must research technology to move them or use them for powered spawners.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;mod-specific-changes:2dc582e763001218f60802f283920a1d&#34;&gt;Mod-specific changes&lt;/h1&gt;
+
+&lt;h2 id=&#34;animals:2dc582e763001218f60802f283920a1d&#34;&gt;Animals+&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Whales, Centipedes, Crickets, and Butterflies no longer spawn.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;applied-energistics:2dc582e763001218f60802f283920a1d&#34;&gt;Applied Energistics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RotaryCraft shaft power is about 4x more effective than RF for powering AE systems (yes, the energy acceptor accepts shaft power)&lt;/li&gt;
+&lt;li&gt;Applied Energistics requirs about 4x more power than typical.&lt;/li&gt;
+&lt;li&gt;Recipes generally require steel or steel plates instead of iron&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;better-sleeping:2dc582e763001218f60802f283920a1d&#34;&gt;Better Sleeping&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed most debuffs when you&amp;rsquo;re tired.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;biomes-o-plenty:2dc582e763001218f60802f283920a1d&#34;&gt;Biomes O&amp;rsquo; Plenty&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed all ore generation and related tools, armor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;botania:2dc582e763001218f60802f283920a1d&#34;&gt;Botania&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mana Flux Field is disabled&lt;/li&gt;
+&lt;li&gt;Passive Flowers despawn after 24,000 ticks (mod default, but this surprises some people)&lt;/li&gt;
+&lt;li&gt;Mana Cookie is removed&lt;/li&gt;
+&lt;li&gt;Manasteel requires steel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;buildcraft:2dc582e763001218f60802f283920a1d&#34;&gt;BuildCraft&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pipes now use metal plates instead of glass, depending on use.&lt;/li&gt;
+&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
+&lt;li&gt;Engines require metal plates.&lt;/li&gt;
+&lt;li&gt;A number of recipes from other mods are crafted on the Assembly Table&lt;/li&gt;
+&lt;li&gt;Refinery is removed &amp;ndash; use the Immersive Engineering Refinery for Fuel and Ethanol&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;chromaticraft:2dc582e763001218f60802f283920a1d&#34;&gt;ChromatiCraft&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wisps in Rainbow Forests can hurt you.&lt;/li&gt;
+&lt;li&gt;The Ender Dragon will respawn shortly after killing it.&lt;/li&gt;
+&lt;li&gt;Rainbow Forest biomes do not spread when planting rainbow trees.&lt;/li&gt;
+&lt;li&gt;Pylons do not automatically chunk-load; you&amp;rsquo;ll need to use your own chunk loader (server optimization).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cooking-for-blockheads:2dc582e763001218f60802f283920a1d&#34;&gt;Cooking for Blockheads&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Water must be pumped in to the sink.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ender-io:2dc582e763001218f60802f283920a1d&#34;&gt;Ender IO&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hard machine recipes are turned on.&lt;/li&gt;
+&lt;li&gt;Alloy Smelter recipes generally require 10x more power (IE Arc Furnaces smelt significantly faster, but require even more power).&lt;/li&gt;
+&lt;li&gt;Conduit Binder is made with Silicon and Wool. Seriously, who makes wire insulation from gravel, sand, and clay?&lt;/li&gt;
+&lt;li&gt;Machine casings require steel&lt;/li&gt;
+&lt;li&gt;Stirling engine requires plates&lt;/li&gt;
+&lt;li&gt;Capacitors are created on the BuildCraft Assembly Table&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;enviromine:2dc582e763001218f60802f283920a1d&#34;&gt;Enviromine&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disabled sanity, hydration, temperature, air quality, and slide physics (drop physics remain).&lt;/li&gt;
+&lt;li&gt;Elevators now require steel plates and bedrock pickaxes.&lt;/li&gt;
+&lt;li&gt;Removed recipes for items that are useless.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;extra-utilities:2dc582e763001218f60802f283920a1d&#34;&gt;Extra Utilities&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Most of this mod is disabled, particularly the Ender Quarry, transport nodes, generators, and watering cans.&lt;/li&gt;
+&lt;li&gt;Ender Lillies can only be found in The End&lt;/li&gt;
+&lt;li&gt;Drum requires steel plates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;forestry:2dc582e763001218f60802f283920a1d&#34;&gt;Forestry&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Farms are now square, because 45 degree angles are hard.&lt;/li&gt;
+&lt;li&gt;Forestry bees can now make RotaryCraft yeast.&lt;/li&gt;
+&lt;li&gt;Engines are disabled&lt;/li&gt;
+&lt;li&gt;Adventurer&amp;rsquo;s Bags are renamed Ammo Bags and can hold ammo (obviously)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;galacticraft:2dc582e763001218f60802f283920a1d&#34;&gt;Galacticraft&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
+&lt;li&gt;ReactorCraft ores spawn plentifully on the moon.&lt;/li&gt;
+&lt;li&gt;Converting GalactiCraft power to RF is 66% less efficient.&lt;/li&gt;
+&lt;li&gt;Consuming RF power from GalactiCraft machines suffers no penalty.&lt;/li&gt;
+&lt;li&gt;Refinery is removed. Use the Immersive Engineering Refinery for making fuel.&lt;/li&gt;
+&lt;li&gt;Coal Generator has been removed&lt;/li&gt;
+&lt;li&gt;Many recipes require RotaryCraft bedrock ingots&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;gun-customization:2dc582e763001218f60802f283920a1d&#34;&gt;Gun Customization&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Balanced the damage output of various weapons, generally making them about 10% more powerful (weapons are balanced around the concept of the &amp;lsquo;double-tap&amp;rsquo;, in that a common handgun should be able to kill a standard zombie with two shots to the head).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;harder-ores:2dc582e763001218f60802f283920a1d&#34;&gt;Harder Ores&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Regular redstone spawns in place of Hard Redstone, so that it can be silk-touched for recipes that require it.&lt;/li&gt;
+&lt;li&gt;Regular diamond spawns alongside Hard Diamond Ore&lt;/li&gt;
+&lt;li&gt;Pitchblende spawns alongside Uranium. Both can be used to power ReactorCraft reactors.&lt;/li&gt;
+&lt;li&gt;Sifter uses a wooden bucket instead of an iron one.&lt;/li&gt;
+&lt;li&gt;Sluice has alternative recipe&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;harvestcraft:2dc582e763001218f60802f283920a1d&#34;&gt;HarvestCraft&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Water plants are grown on farmland, not water.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;headcrumbs:2dc582e763001218f60802f283920a1d&#34;&gt;Headcrumbs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Baarbra no longer spawns (TPS heavy)&lt;/li&gt;
+&lt;li&gt;Reduced spawn probability and group size&lt;/li&gt;
+&lt;li&gt;Added Revolution Pack celebrities&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;hunger-overhaul:2dc582e763001218f60802f283920a1d&#34;&gt;Hunger Overhaul&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Many tweaks to the difficulty, generally making it easier than default configs&lt;/li&gt;
+&lt;li&gt;Food stack size is set at 64.&lt;/li&gt;
+&lt;li&gt;Increased time it takes to heal.&lt;/li&gt;
+&lt;li&gt;Increased the minimum hunger to heal to 18.&lt;/li&gt;
+&lt;li&gt;Constant hunger loss is disabled&lt;/li&gt;
+&lt;li&gt;It takes much longer to starve to death.&lt;/li&gt;
+&lt;li&gt;You drain food faster when healing.&lt;/li&gt;
+&lt;li&gt;You respawn with 1/6th of your health.&lt;/li&gt;
+&lt;li&gt;Difficulty scales hunger rates 50% more.&lt;/li&gt;
+&lt;li&gt;Sugarcane is not affected by biome (but it is by season).&lt;/li&gt;
+&lt;li&gt;Crops grow slower and have lower yields.&lt;/li&gt;
+&lt;li&gt;There is no penalty for growing crops indoors or underground (generally, this is a boost to productivity).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;immersive-engineering:2dc582e763001218f60802f283920a1d&#34;&gt;Immersive Engineering&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LV/MV/HV Cables transfer at 256/1024/2048 RF/t respectively.&lt;/li&gt;
+&lt;li&gt;Blast Furnace can now refine Harder Ores hard ores.&lt;/li&gt;
+&lt;li&gt;Arc Furnace can refine hard diamond ore into diamonds much more efficiently&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;jabba:2dc582e763001218f60802f283920a1d&#34;&gt;JABBA&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed the Diamond Dolly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;natura:2dc582e763001218f60802f283920a1d&#34;&gt;Natura&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed barley and cotton crops, plus related recipes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;open-blocks:2dc582e763001218f60802f283920a1d&#34;&gt;Open Blocks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Graves are turned off, replaced with lootable bodies (which can be broken with a shovel). Server operators, the open blocks inventory restore still functions as expected.&lt;/li&gt;
+&lt;li&gt;Tanks are much more expensive.&lt;/li&gt;
+&lt;li&gt;Luggage is removed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;open-modular-turrets:2dc582e763001218f60802f283920a1d&#34;&gt;Open Modular Turrets&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Power requirements are increased 10x&lt;/li&gt;
+&lt;li&gt;Turrets cannot attack players&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ore-dictionary:2dc582e763001218f60802f283920a1d&#34;&gt;Ore Dictionary&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added beeswax to ore dictionary for wax&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;railcraft:2dc582e763001218f60802f283920a1d&#34;&gt;Railcraft&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Blast Furnace and Coke Oven are removed. Use the equivalents from Immersive Engineering&lt;/li&gt;
+&lt;li&gt;Removed poor ores&lt;/li&gt;
+&lt;li&gt;Engines require plates based on tier&lt;/li&gt;
+&lt;li&gt;Turned off Residual Heat&lt;/li&gt;
+&lt;li&gt;Steel armor and items are removed. Use HSLA for entry level armor, and various mod armors for later game.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;random-things:2dc582e763001218f60802f283920a1d&#34;&gt;Random Things&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disabled Spirit Binder&lt;/li&gt;
+&lt;li&gt;Spectre Armor is disabled&lt;/li&gt;
+&lt;li&gt;Can sleep through Blood Moons&lt;/li&gt;
+&lt;li&gt;Blood Moons occur every night, unless otherwise thwarted&lt;/li&gt;
+&lt;li&gt;Minimum range for spawns during blood moons is 24 blocks, up from 3.&lt;/li&gt;
+&lt;li&gt;Monsters spawn slowly during blood moons, instead of all at once.&lt;/li&gt;
+&lt;li&gt;Blood moon spawn cap is set to equal the vanilla cap, to keep spawns TPS friendly.&lt;/li&gt;
+&lt;li&gt;Monsters do not despawn in the morning (but they do burn to death).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;roguelike-dungeons:2dc582e763001218f60802f283920a1d&#34;&gt;Roguelike Dungeons&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added a customized modern bunker theme.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;rotarycraft:2dc582e763001218f60802f283920a1d&#34;&gt;RotaryCraft&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bedrock picks break spawners.&lt;/li&gt;
+&lt;li&gt;Machines can be made on the standard crafting grid.&lt;/li&gt;
+&lt;li&gt;Bedrock tools can be used in the Ender IO Farming Station&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;spice-of-life:2dc582e763001218f60802f283920a1d&#34;&gt;Spice of Life&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Food history length is 20&lt;/li&gt;
+&lt;li&gt;Food history uses hunger restored instead of food named. For example, it will remember the last 5 items that restored 4 food, or the last 10 items that restored 2 food. Generally, this makes it so higher-nutrition foods require less variety than lower nutrition.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Previously eaten items are less nutritious.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;twilight-forest:2dc582e763001218f60802f283920a1d&#34;&gt;Twilight Forest&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disabled Uncrafting Table&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;vanilla:2dc582e763001218f60802f283920a1d&#34;&gt;Vanilla&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill)&lt;/li&gt;
+&lt;li&gt;Vanilla armors are removed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;void-monster:2dc582e763001218f60802f283920a1d&#34;&gt;Void Monster&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Void monster doesn&amp;rsquo;t spawn in The End, Spectral World, Deep Dark, and The Last Millenium&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;wooden-buckets:2dc582e763001218f60802f283920a1d&#34;&gt;Wooden Buckets&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Can use wax instead of pipe green&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;zombie-awareness:2dc582e763001218f60802f283920a1d&#34;&gt;Zombie Awareness&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zombies are not attracted to scent&lt;/li&gt;
+&lt;li&gt;Extra Zombies spawn on the surface&lt;/li&gt;
+&lt;li&gt;Removed the chance for baby zombies to spawn&lt;/li&gt;
+&lt;li&gt;Zombies do not summon help (but there are zombies that spawn help).&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
