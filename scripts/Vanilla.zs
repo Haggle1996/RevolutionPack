@@ -10,7 +10,6 @@ val block = <RotaryCraft:rotarycraft_block_deco:0>;
 val ingot = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
 val rod = <RotaryCraft:rotarycraft_item_shaftcraft:2>;
 val base = <Railcraft:part.plate>;
-val hammer = <CarpentersBlocks:itemCarpentersHammer>.anyDamage();
 
 #remove all vanilla armor creation
 recipes.remove(<minecraft:iron_boots>);

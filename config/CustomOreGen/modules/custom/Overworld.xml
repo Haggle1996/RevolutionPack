@@ -94,7 +94,7 @@
     <ConfigSection>
         <Veins name='MagnetiteVeins' inherits='PresetLayeredVeins'>
             <Description>
-                Coal spawns in large, rare veins between y-level 76 and 98
+                Magnetite spawns in large, rare veins between y-level 76 and 98
             </Description>
             <OreBlock block='ReactorCraft:reactorcraft_block_ore:8' weight='1.0' />
             <Replaces block='minecraft:stone' weight='1.0' />
