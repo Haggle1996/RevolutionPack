@@ -85,7 +85,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;Uranium &amp;amp; Pitchblende&lt;/td&gt;
-&lt;td&gt;Isolated veins found about two thirds of the way down to bedrock and only sparsely filled with ore.  Unusually common in devestated wastelands.&lt;/td&gt;
+&lt;td&gt;Isolated veins found about two thirds of the way down to bedrock and only sparsely filled with ore.  Unusually common in devastated wastelands.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -125,7 +125,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;Fluorite&lt;/td&gt;
-&lt;td&gt;Spawns in large motherloads between y-level 3 and 13 with large tendrils spreading out for long distances.&lt;/td&gt;
+&lt;td&gt;Spawns in large motherlodes between y-level 3 and 13 with large tendrils spreading out for long distances.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -158,7 +158,7 @@
 &lt;li&gt;Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.&lt;/li&gt;
 &lt;li&gt;Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.&lt;/li&gt;
 &lt;li&gt;Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.&lt;/li&gt;
-&lt;li&gt;Naturally-spanwing Vanilla and Forestry trees will die off over time, turning into compost and eventually dirt. Dropped saplings will plant themselves.&lt;/li&gt;
+&lt;li&gt;Naturally-spawning Vanilla and Forestry trees will die off over time, turning into compost and eventually dirt. Dropped saplings will plant themselves.&lt;/li&gt;
 &lt;li&gt;Food now rots over time. This can be overcome by building Fridges and Freezers (storage blocks from Cooking for Blockheads and Enviromine).&lt;/li&gt;
 &lt;li&gt;Unsupported cave and building rooves will collapse on you. Make sure to support your ceilings! Different materials can stretch different lengths (up to 3 blocks out). Building common engineered structures, such as l-girder shapes, can extend blocks indefinitely.&lt;/li&gt;
 &lt;li&gt;Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.&lt;/li&gt;
@@ -190,7 +190,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;RotaryCraft shaft power is about 4x more effective than RF for powering AE systems (yes, the energy acceptor accepts shaft power)&lt;/li&gt;
-&lt;li&gt;Applied Energistics requirs about 4x more power than typical.&lt;/li&gt;
+&lt;li&gt;Applied Energistics requires about 4x more power than typical.&lt;/li&gt;
 &lt;li&gt;Recipes generally require steel or steel plates instead of iron&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -263,7 +263,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Most of this mod is disabled, particularly the Ender Quarry, transport nodes, generators, and watering cans.&lt;/li&gt;
-&lt;li&gt;Ender Lillies can only be found in The End&lt;/li&gt;
+&lt;li&gt;Ender Lilies can only be found in The End&lt;/li&gt;
 &lt;li&gt;Drum requires steel plates&lt;/li&gt;
 &lt;/ul&gt;
 
