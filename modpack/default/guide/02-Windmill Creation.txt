@@ -1,7 +1,5 @@
 Here's how to create a windmill. You'll need a 5x3x15 clear space.
-
 [windmill1]
-
 Build up two 4x3 walls (any material). Place 3x3 millstones flat at the top level. This gives you room at the bottom for machines. Note, that glass was used solely to reveal detail.
 
 [windmill2]

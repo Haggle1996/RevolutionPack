@@ -25,12 +25,13 @@
 
 
 - Balance RFTools and other new mods' recipes
+- Balance MP suits recipes.
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
 - Guide in FTBUtilities
-- Enviromine causes RotaryCraft blocks to lose metadata on fall
 - Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 
 - More loot in roguelikes.
 - Update tower designs
 - Add guide for sluice
 
 #Pack changes
+removed Natura trees from Dye trees
