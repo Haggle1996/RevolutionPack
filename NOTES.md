@@ -35,3 +35,8 @@
 
 #Pack changes
 removed Natura trees from Dye trees
+removed Railcraft workshops
+disabled player achievement announcements from ChromatiCraft (server crash)
+Dark Steel requires steel instead of iron
+Ender IO alloys in the arc furnace are generally 2x - 4x more expensive
+Harder Ores can now be smelted in the EIO Alloy Smelter at a 4-1 rate.

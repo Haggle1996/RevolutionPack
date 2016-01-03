@@ -86,7 +86,7 @@ ore dictionary.
     </recipe>
     <recipe name="Dark Steel" energyCost="200000" >
       <input>
-        <itemStack modID="minecraft" itemName="iron_ingot" />
+        <itemStack oreDictionary="ingotSteel" />
         <itemStack oreDictionary="dustCoal" />
         <itemStack modID="minecraft" itemName="obsidian" />
       </input>
@@ -303,6 +303,90 @@ ore dictionary.
         <itemStack oreDictionary="ingotBronze" number="4" />
       </output>
     </recipe>
+  </recipeGroup>
+  
+  <recipeGroup name="Harder Ores" >
+    <recipe name="Raw Iron Ore" energyCost="96000">
+        <input>
+            <itemStack modID="HarderOres" itemName="ore_chunk" itemMeta="8" number="4" />
+            <itemStack oreDictionary="dustCoal" number="1" />
+        </input>
+        <output>
+            <itemStack oreDictionary="oreIron" number="1" />
+        </output>
+    </recipe>
+    <recipe name="Raw Gold Ore" energyCost="96000">
+        <input>
+            <itemStack modID="HarderOres" itemName="ore_chunk" itemMeta="9" number="4" />
+            <itemStack oreDictionary="dustCoal" number="1" />
+        </input>
+        <output>
+            <itemStack oreDictionary="oreGold" number="1" />
+        </output>
+    </recipe>
+    <recipe name="Raw Tin Ore" energyCost="96000">
+        <input>
+            <itemStack modID="HarderOres" itemName="ore_chunk" itemMeta="12" number="4" />
+            <itemStack oreDictionary="dustCoal" number="1" />
+        </input>
+        <output>
+            <itemStack oreDictionary="oreTin" number="1" />
+        </output>
+    </recipe>
+    <recipe name="Raw Copper Ore" energyCost="96000">
+        <input>
+            <itemStack modID="HarderOres" itemName="ore_chunk" itemMeta="13" number="4" />
+            <itemStack oreDictionary="dustCoal" number="1" />
+        </input>
+        <output>
+            <itemStack oreDictionary="oreCopper" number="1" />
+        </output>
+    </recipe>
+    <recipe name="Raw Lead Ore" energyCost="96000">
+        <input>
+            <itemStack modID="HarderOres" itemName="ore_chunk" itemMeta="14" number="4" />
+            <itemStack oreDictionary="dustCoal" number="1" />
+        </input>
+        <output>
+            <itemStack oreDictionary="oreLead" number="1" />
+        </output>
+    </recipe>
+    <recipe name="Raw Uranium Ore" energyCost="96000">
+        <input>
+            <itemStack modID="HarderOres" itemName="ore_chunk" itemMeta="15" number="4" />
+            <itemStack oreDictionary="dustCoal" number="1" />
+        </input>
+        <output>
+            <itemStack oreDictionary="oreUranium" number="1" />
+        </output>
+    </recipe>
+    <recipe name="Raw Silver Ore" energyCost="96000">
+        <input>
+            <itemStack modID="HarderOres" itemName="ore_chunk" itemMeta="16" number="4" />
+            <itemStack oreDictionary="dustCoal" number="1" />
+        </input>
+        <output>
+            <itemStack oreDictionary="oreSilver" number="1" />
+        </output>
+    </recipe>
+    <recipe name="Raw Nickel Ore" energyCost="96000">
+        <input>
+            <itemStack modID="HarderOres" itemName="ore_chunk" itemMeta="17" number="4" />
+            <itemStack oreDictionary="dustCoal" number="1" />
+        </input>
+        <output>
+            <itemStack oreDictionary="oreNickel" number="1" />
+        </output>
+    </recipe>    
+    <recipe name="Raw Aluminum Ore" energyCost="96000">
+        <input>
+            <itemStack modID="HarderOres" itemName="ore_chunk" itemMeta="18" number="4" />
+            <itemStack oreDictionary="dustCoal" number="1" />
+        </input>
+        <output>
+            <itemStack oreDictionary="oreAluminum" number="1" />
+        </output>
+    </recipe>                                
   </recipeGroup>
 
   <vanillaFurnaceRecipes enabled="true" />
