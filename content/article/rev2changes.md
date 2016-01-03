@@ -5,7 +5,7 @@ date = "2015-12-23T11:53:42-07:00"
 draft = false
 image = "/images/cover5.png"
 menu = ""
-weight = 201
+weight = 210
 share = true
 slug = "rev2-gameplay-changes"
 title = "REVOLUTION|2 - Gameplay Changes"
@@ -29,7 +29,7 @@ Emerald | Short sloping tubes filled sparsely with emeralds and a few ... surpri
 Limonite | Use a shovel! Generally at sea-level and a bit lower. More common in rivers and areas that spawn clay or sand.
 Copper | Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.
 Tin | Groups of long narrow veins found about halfway down to bedrock.  More frequent in flat grassy plains.
-Uranium & Pitchblende | Isolated veins found about two thirds of the way down to bedrock and only sparsely filled with ore.  Unusually common in devestated wastelands.
+Uranium & Pitchblende | Isolated veins found about two thirds of the way down to bedrock and only sparsely filled with ore.  Unusually common in devastated wastelands.
 Lead | Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.
 Silver | Isolated veins found about two thirds of the way down to bedrock.  Unusually common in mountains.
 Nickel | Groups of long narrow veins found near bedrock.  Especially common in swamps.
@@ -37,7 +37,7 @@ Aluminum | Flat Clouds found near the surface.  Only found in mesa, swamp, and j
 Apatite | Spawns in large, rare veins between y-level 56 and 184.
 Cadmium | Spawns in layered veins between y-level 2 and 14.
 Indium | Spawns in layered veins between y-level 6 and 18.
-Fluorite | Spawns in large motherloads between y-level 3 and 13 with large tendrils spreading out for long distances.
+Fluorite | Spawns in large motherlodes between y-level 3 and 13 with large tendrils spreading out for long distances.
 Magnetite | Spawns in large, rare veins between y-level 76 and 98.
 Calcite | Spawns in rare veins between y-level 42 and 58.
 Certus Quartz | Spawns with charged certus quarts in vertical veins between y-level 76 and 52.
@@ -52,7 +52,7 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.
 - Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.
 - Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.
-- Naturally-spanwing Vanilla and Forestry trees will die off over time, turning into compost and eventually dirt. Dropped saplings will plant themselves.
+- Naturally-spawning Vanilla and Forestry trees will die off over time, turning into compost and eventually dirt. Dropped saplings will plant themselves.
 - Food now rots over time. This can be overcome by building Fridges and Freezers (storage blocks from Cooking for Blockheads and Enviromine).
 - Unsupported cave and building rooves will collapse on you. Make sure to support your ceilings! Different materials can stretch different lengths (up to 3 blocks out). Building common engineered structures, such as l-girder shapes, can extend blocks indefinitely.
 - Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.
@@ -65,6 +65,9 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Early game RF power is best provided through either the Rotational Dynamo or the Immersive Engineering waterwheel/windmill.
 - Spawners aren't moveable intact during the early game; you must research technology to move them or use them for powered spawners.
 
+## Trivia
+- Dead bodies can be removed by hitting them with a shovel.
+
 # Mod-specific changes
 
 ## Animals+
@@ -72,7 +75,7 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 
 ## Applied Energistics
 - RotaryCraft shaft power is about 4x more effective than RF for powering AE systems (yes, the energy acceptor accepts shaft power)
-- Applied Energistics requirs about 4x more power than typical.
+- Applied Energistics requires about 4x more power than typical.
 - Recipes generally require steel or steel plates instead of iron
 
 ## Better Sleeping
@@ -118,7 +121,7 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 
 ## Extra Utilities
 - Most of this mod is disabled, particularly the Ender Quarry, transport nodes, generators, and watering cans.
-- Ender Lillies can only be found in The End
+- Ender Lilies can only be found in The End
 - Drum requires steel plates
 
 ## Forestry

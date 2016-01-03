@@ -67,7 +67,17 @@ canonifyurls = true
     url = "/article/rev2-gameplay-changes"
     
 [[menu.main]]
+    name = "R2 Mod List"
+    weight = 205
+    url = "https://www.atlauncher.com/pack/Revolution2"
+    
+[[menu.main]]
     name = "Game Changes R1"
     weight = 300
     pre = "<h3>revolution|1</h3>"
     url = "/article/rev1-gameplay-changes"
+
+[[menu.main]]
+    name = "R1 Mod List"
+    weight = 305
+    url = "https://www.atlauncher.com/pack/Revolution"
