@@ -7,8 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 03 Jan 2016 11:45:20 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jan 2016 19:15:49 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 Updated!</title>
+      <link>http://revolutionpack.info/post/2010alpha/</link>
+      <pubDate>Sun, 03 Jan 2016 19:15:49 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2010alpha/</guid>
+      <description>
+
+&lt;p&gt;Hello, Everyone!&lt;/p&gt;
+
+&lt;p&gt;I was hoping we&amp;rsquo;d have a new release of RTG today, so that I could get the Beta out the door, but it looks like we&amp;rsquo;re still waiting for that to drop. In the meantime, I&amp;rsquo;m pushing a new release of REVOLUTION|2 Alpha, with various bug fixes and updates.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:a9aed245490a5418b6fd6f43021e6e96&#34;&gt;Changes:&lt;/h3&gt;
+
+&lt;p&gt;Removed Natura nether trees from eligible list of Dye Tree trunks
+Railcraft Village Workshops no longer spawn
+Disabled ChromatiCraft player achievement announcements due to server crash
+Dark Steel now requires steel instead of iron
+Ender IO Alloys made in the IE Arc Furnace are generally 2x - 4x more expensive (but still significantly faster than EIO Alloy Smelter)
+Harder Ores can now be smelted in the EIO Alloy Smelter at a 4:1 rate
+Reverted the changes to BuildCraft pipes. They no longer require plates.&lt;/p&gt;
+
+&lt;h3 id=&#34;updated-mods:a9aed245490a5418b6fd6f43021e6e96&#34;&gt;Updated Mods:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238603-mod/files/2273139&#34;&gt;TIS-3D-MC1.7.10-0.8.1.59&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228462-mod/files/2273296&#34;&gt;RemainInMotion-2.8.10&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235442-mod/files/2273433&#34;&gt;ModularPowersuits-0.11.0.296&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231951-mod/files/2273006&#34;&gt;Immersive Engineering v0.6.5.1&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2273360&#34;&gt;FTBLib-1.7.10-1.0.13.3&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2273361&#34;&gt;FTBUtilities-1.7.10-1.0.13.3&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2500 Downloads!</title>

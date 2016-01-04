@@ -218,7 +218,6 @@
 &lt;h2 id=&#34;buildcraft:2dc582e763001218f60802f283920a1d&#34;&gt;BuildCraft&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Pipes now use metal plates instead of glass, depending on use.&lt;/li&gt;
 &lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
 &lt;li&gt;Engines require metal plates.&lt;/li&gt;
 &lt;li&gt;A number of recipes from other mods are crafted on the Assembly Table&lt;/li&gt;
@@ -232,6 +231,7 @@
 &lt;li&gt;The Ender Dragon will respawn shortly after killing it.&lt;/li&gt;
 &lt;li&gt;Rainbow Forest biomes do not spread when planting rainbow trees.&lt;/li&gt;
 &lt;li&gt;Pylons do not automatically chunk-load; you&amp;rsquo;ll need to use your own chunk loader (server optimization).&lt;/li&gt;
+&lt;li&gt;Disabled player progress announcements as they cause a server crash.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;cooking-for-blockheads:2dc582e763001218f60802f283920a1d&#34;&gt;Cooking for Blockheads&lt;/h2&gt;
@@ -249,6 +249,8 @@
 &lt;li&gt;Machine casings require steel&lt;/li&gt;
 &lt;li&gt;Stirling engine requires plates&lt;/li&gt;
 &lt;li&gt;Capacitors are created on the BuildCraft Assembly Table&lt;/li&gt;
+&lt;li&gt;Dark Steel requires steel ingots&lt;/li&gt;
+&lt;li&gt;Harder ores can now be smelted in the EIO Alloy Smelter with coal at a 4:1 rate&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;enviromine:2dc582e763001218f60802f283920a1d&#34;&gt;Enviromine&lt;/h2&gt;
@@ -353,6 +355,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Removed barley and cotton crops, plus related recipes.&lt;/li&gt;
+&lt;li&gt;Natura nether trees can&amp;rsquo;t spawn as ChromatiCraft dye trees.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;open-blocks:2dc582e763001218f60802f283920a1d&#34;&gt;Open Blocks&lt;/h2&gt;
@@ -384,6 +387,7 @@
 &lt;li&gt;Engines require plates based on tier&lt;/li&gt;
 &lt;li&gt;Turned off Residual Heat&lt;/li&gt;
 &lt;li&gt;Steel armor and items are removed. Use HSLA for entry level armor, and various mod armors for later game.&lt;/li&gt;
+&lt;li&gt;Village workshops do not spawn&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;random-things:2dc582e763001218f60802f283920a1d&#34;&gt;Random Things&lt;/h2&gt;
