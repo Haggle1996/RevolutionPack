@@ -11,7 +11,7 @@
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>REVOLUTION|2 Updated!</title>
+      <title>REVOLUTION|2 2.0.1.0 Update!</title>
       <link>http://revolutionpack.info/post/2010alpha/</link>
       <pubDate>Sun, 03 Jan 2016 19:15:49 -0700</pubDate>
       
@@ -32,6 +32,7 @@
 &lt;li&gt;Ender IO Alloys made in the IE Arc Furnace are generally 2x - 4x more expensive (but still significantly faster than EIO Alloy Smelter)&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Harder Ores can now be smelted in the EIO Alloy Smelter at a 4:1 rate&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Reverted the changes to BuildCraft pipes. They no longer require plates.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;You can now craft yeast again in RotaryCraft fermenters.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;updated-mods:a9aed245490a5418b6fd6f43021e6e96&#34;&gt;Updated Mods:&lt;/h3&gt;
