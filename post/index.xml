@@ -24,12 +24,12 @@
 
 &lt;h3 id=&#34;changes:a9aed245490a5418b6fd6f43021e6e96&#34;&gt;Changes:&lt;/h3&gt;
 
-&lt;p&gt;Removed Natura nether trees from eligible list of Dye Tree trunks
-Railcraft Village Workshops no longer spawn
-Disabled ChromatiCraft player achievement announcements due to server crash
-Dark Steel now requires steel instead of iron
-Ender IO Alloys made in the IE Arc Furnace are generally 2x - 4x more expensive (but still significantly faster than EIO Alloy Smelter)
-Harder Ores can now be smelted in the EIO Alloy Smelter at a 4:1 rate
+&lt;p&gt;Removed Natura nether trees from eligible list of Dye Tree trunks&lt;br /&gt;
+Railcraft Village Workshops no longer spawn&lt;br /&gt;
+Disabled ChromatiCraft player achievement announcements due to server crash&lt;br /&gt;
+Dark Steel now requires steel instead of iron&lt;br /&gt;
+Ender IO Alloys made in the IE Arc Furnace are generally 2x - 4x more expensive (but still significantly faster than EIO Alloy Smelter)&lt;br /&gt;
+Harder Ores can now be smelted in the EIO Alloy Smelter at a 4:1 rate&lt;br /&gt;
 Reverted the changes to BuildCraft pipes. They no longer require plates.&lt;/p&gt;
 
 &lt;h3 id=&#34;updated-mods:a9aed245490a5418b6fd6f43021e6e96&#34;&gt;Updated Mods:&lt;/h3&gt;
