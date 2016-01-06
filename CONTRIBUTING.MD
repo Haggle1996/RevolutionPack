@@ -1,6 +1,8 @@
 <b>For issues:</b>
 
-* For all issues: Make sure you are using the latest version! If you are using an old modpack, your version is very likely old and you need to update.
+* For all issues: Make sure you are using the latest version of Revolution.
+
+* Please report mod-bugs directly to the mod author. Bonus points for linking that issue to an issue on the Revolution issue tracker.
 
 * Read all open issues before you post yours - noone benefits from 160 copies of the same bug report.
 
