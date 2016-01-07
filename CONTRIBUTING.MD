@@ -4,6 +4,8 @@
 
 * Please report mod-bugs directly to the mod author. Bonus points for linking that issue to an issue on the Revolution issue tracker.
 
+* Please read the appropriate pages for your pack at the Revolution [website](http://revolutionpack.info/article/rev1-first-day/).
+
 * Read all open issues before you post yours - noone benefits from 160 copies of the same bug report.
 
 * If your issue involves a log, please include the full log, not just parts of it.
