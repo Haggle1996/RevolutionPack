@@ -16,7 +16,7 @@
 
 * If your issue is something is not working, <i>include screenshots</i> to rule out user error and to track down potential bugs.
 
-* If you have modified the pack, either by adding mods or removing non-optional mods, we <i>may</i> provide support, provided you include a <i>complete and unaltered</i> crash report and log file. If you do not, you <i>will not be helped</i> and your issue will be closed
+* If you have modified the pack, either by adding mods or removing non-optional mods, we <i>may</i> provide support, provided you include a <i>complete and unaltered</i> crash report and log file. If you do not, you <i>will not be helped</i> and your issue will be closed.
 
 * Please use [Pastebin](http://pastebin.com), [Gist](https://gist.github.com/), or a similar service for posting crash reports, logs, modlists or other long documents.
 
