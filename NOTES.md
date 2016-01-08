@@ -27,11 +27,14 @@
 - Balance RFTools and other new mods' recipes
 - Balance MP suits recipes.
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
-- Guide in FTBUtilities
+- Guide in FTBUtilities - sluice
 - Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 
 - More loot in roguelikes.
 - Update tower designs
-- Add guide for sluice
+- Add server tips to website
+- Add Agricraft, Pneumaticraft, GrowthCraft, Et Futurm, and Galaxy Space
+- Note Hunger Overhaul doesn't control crop growth in R2
+- Try to update forge.
 
 #Pack changes
-
+Can no longer make chisel torches
