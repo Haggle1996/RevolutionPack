@@ -34,7 +34,7 @@
 - Add server tips to website
 - Add Agricraft, Pneumaticraft, GrowthCraft, Et Futurm, and Galaxy Space
 - Note Hunger Overhaul doesn't control crop growth in R2
-- Try to update forge.
+
 
 #Pack changes
 Can no longer make chisel torches
