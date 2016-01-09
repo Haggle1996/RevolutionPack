@@ -1,0 +1,111 @@
+key.attack
+key.use
+key.forward
+key.left
+key.back
+key.right
+key.jump
+key.sneak
+key.drop
+key.inventory
+key.chat
+key.playerlist
+key.pickItem
+key.command
+key.screenshot
+key.togglePerspective
+key.smoothCamera
+key.sprint
+key.streamStartStop
+key.streamPauseUnpause
+key.streamCommercial
+key.streamToggleMic
+key.fullscreen
+key.hotbar.1
+key.hotbar.2
+key.hotbar.3
+key.hotbar.4
+key.hotbar.5
+key.hotbar.6
+key.hotbar.7
+key.hotbar.8
+key.hotbar.9
+igwmod.keys.wiki
+Pneumatic Helmet Options
+Pneumatic Helmet Hack
+Pneumatic Helmet Debugging Drone
+waila.keybind.wailaconfig
+waila.keybind.wailadisplay
+waila.keybind.liquid
+waila.keybind.recipe
+waila.keybind.usage
+key.cameraNext
+key.cameraZoomOut
+key.cameraZoomIn
+key.cameraEmitRedstone
+key.cameraActivateNightVision
+Baubles Inventory
+Change Wand Focus
+Activate Hover Harness
+Misc Wand Toggle
+Automagy.key.focusCrafting
+Glider Toggle
+Sound Locator
+Night Vision
+Goggles of Revealing
+Step Assist
+Speed
+Jump
+Yeta Wrench Mode
+Toggle Electromagnet
+[GC] Galaxy Map
+[GC] Open Spaceship Inventory
+[GC] Toggle Sensor Goggles Mode
+Open MPS Keybind GUI
+Go Down (MPS Flight Control)
+Cycle Tool Backward (MPS)
+Cycle Tool Forward (MPS)
+Zoom (MPS)
+Cosmetic (MPS)
+key.irc.screenshotShare
+key.irc.openScreenshots
+key.irc.toggleTarget
+key.irc.openMenu
+Reload Configs
+Add Custom Config
+Enviromine Menu
+ttmisc.toggleArmor
+key.materialCosts
+key.clipboardPaste
+key.aspectMenu
+Change Arcane Lens
+Activate Morphic Fingers
+Toggle Spider Climb
+Toggle Chameleon Skin
+invtweaks.key.sort
+key.zyinhud.animalinfo
+key.zyinhud.coordinates
+key.zyinhud.distancemeasurer
+key.zyinhud.eatingaid
+key.zyinhud.enderpearlaid
+key.zyinhud.playerlocator
+key.zyinhud.potionaid
+key.zyinhud.quickdeposit
+key.zyinhud.safeoverlay
+key.zyinhud.weaponswapper
+key.zyinhud.zyinhudoptions
+key.zyinhud.itemselector
+key.cofh.empower
+key.cofh.multimode
+railcraft.keybind.loco.faster
+railcraft.keybind.loco.slower
+railcraft.keybind.loco.mode
+railcraft.keybind.loco.whistle
+key.control
+key.journeymap.map_toggle
+key.journeymap.zoom_in
+key.journeymap.zoom_out
+key.journeymap.minimap_type
+key.journeymap.minimap_preset
+key.journeymap.create_waypoint
+BetterFps

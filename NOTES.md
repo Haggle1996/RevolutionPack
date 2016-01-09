@@ -34,7 +34,9 @@
 - Add server tips to website
 - Add Agricraft, Pneumaticraft, GrowthCraft, Et Futurm, and Galaxy Space
 - Note Hunger Overhaul doesn't control crop growth in R2
-
+- Add alternative recipe for railcraft water tanks that uses cactus or wax.
+- Make compressed iron no longer craftable with TNT -- requires another mod's machines to start.
+- Pneumaticraft PCBs crafted in Assembly Table or similar.
 
 #Pack changes
 Can no longer make chisel torches
