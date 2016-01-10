@@ -16,3 +16,4 @@ EnderIO.js
 Enviromine.js
 GunCus.js
 Railcraft.js
+StorageDrawers.js
