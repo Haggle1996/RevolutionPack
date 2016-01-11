@@ -32,11 +32,6 @@
 - More loot in roguelikes.
 - Update tower designs
 - Add server tips to website
-- Add alternative recipe for railcraft water tanks that uses cactus or wax.
-- Make compressed iron no longer craftable with TNT -- requires another mod's machines to start.
 - Pneumaticraft PCBs crafted in Assembly Table or similar.
-- JABBA duplicates?
-- Remove or make epic bacon recipe harder. Can be crafted with easy materials early game.
-
 
 #Pack changes

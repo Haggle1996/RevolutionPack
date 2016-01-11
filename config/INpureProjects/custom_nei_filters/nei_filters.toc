@@ -15,5 +15,7 @@ BiomesOPlenty.js
 EnderIO.js
 Enviromine.js
 GunCus.js
+HarvestCraft.js
+Natura.js
 Railcraft.js
 StorageDrawers.js

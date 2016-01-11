@@ -305,6 +305,17 @@ ore dictionary.
     </recipe>
   </recipeGroup>
   
+  <recipeGroup name="PneumaticCraft" >
+    <recipe name="Compressed Iron" energyCost="96000">
+        <input>
+            <itemStack oreDictionary="ingotIron" number="2" />
+        </input>
+        <output>
+            <itemStack modID="PneumaticCraft" itemName="ingotIronCompressed" number="2" />
+        </output>
+    </recipe>
+  </recipeGroup>
+  
   <recipeGroup name="Harder Ores" >
     <recipe name="Raw Iron Ore" energyCost="96000">
         <input>

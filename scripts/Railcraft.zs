@@ -35,6 +35,10 @@ recipes.addShaped(industrial, [[steel,steel,steel]
 							,[copper,glass,copper]
 							,[steelGear,piston,steelGear]]);
 
+# Water tank can also be crafted with cactus green and wax
+recipes.addShaped(<Railcraft:machine.alpha:14> * 6,[[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],[<ore:ingotIron>,<ore:materialPressedwax>,<ore:ingotIron>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
+recipes.addShaped(<Railcraft:machine.alpha:14> * 6,[[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],[<ore:ingotIron>,<minecraft:dye:2>,<ore:ingotIron>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
+
 # Remove Railcraft's Blast Furance and Coke Oven. Just make IE's
 recipes.remove(<Railcraft:machine.alpha:12>);
 recipes.remove(<Railcraft:machine.alpha:7>);
