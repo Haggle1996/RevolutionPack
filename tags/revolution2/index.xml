@@ -7,8 +7,78 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 03 Jan 2016 19:15:49 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jan 2016 16:11:10 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 2.0.2.0 Update!</title>
+      <link>http://revolutionpack.info/post/2020alpha/</link>
+      <pubDate>Fri, 08 Jan 2016 16:11:10 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2020alpha/</guid>
+      <description>
+
+&lt;p&gt;Hello, Everyone!&lt;/p&gt;
+
+&lt;p&gt;WARNING: Previous alpha worlds generated with RTG are NOT compatible with this version, 2.0.2.0 ALPHA!&lt;/p&gt;
+
+&lt;p&gt;Welcome to what will hopefully be the very last alpha release of REVOLUTION|2. We&amp;rsquo;re still waiting on a couple of mod updates to settle down before we can officially label it a &amp;lsquo;beta&amp;rsquo; release and have stable worlds going forward. That said there&amp;rsquo;s a lot of new content in this pack, including quite a list of new and exciting mods. In particular, early game changes abound, with AgriCraft replacing the standard &amp;lsquo;break garden, receive food&amp;rsquo; method of early survival. You&amp;rsquo;ll have to survive by your wits (and fruit trees and berries). Galaxy Space, Matter Overdrive, and PneumaticCraft round out the list of major mods. You&amp;rsquo;ll also note Rockhounding Mod has been added, to give you a bit more variety in your worlds, as well as Better Rain (really &amp;ndash; it makes it better), and Ex Futurum.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s still a few more new mods to come; though they&amp;rsquo;ll all work with your beta worlds, so you won&amp;rsquo;t have to restart when they show up. Stay tuned for more information. We have plenty of surprises in the works for the beta.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:29963240414d3a25a0c6b6d90757af0f&#34;&gt;Changes:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The first page of the HQM book is provided to help get you started in the pack; the remaining pages will be along soon™.&lt;/li&gt;
+&lt;li&gt;You can no longer Chisel torches.&lt;/li&gt;
+&lt;li&gt;Turned off BuildCraft Water Springs.&lt;/li&gt;
+&lt;li&gt;Turned off Pam&amp;rsquo;s garden spawns and seed drops from breaking grass. Seed are acquired through AgriCraft mutations.&lt;/li&gt;
+&lt;li&gt;Hid many more decorative block variations (like BiblioCraft and Storage Drawers wood variations). You can still browse them in the creative tab.&lt;/li&gt;
+&lt;li&gt;Removed Natura Cactus juice due to recipe conflict.&lt;/li&gt;
+&lt;li&gt;Railcraft Water Tank Siding can also be crafted with wax or cactus green.&lt;/li&gt;
+&lt;li&gt;PnuematicCraft compressed iron can be made on the alloy smelter (since it can&amp;rsquo;t be made with TNT).&lt;/li&gt;
+&lt;li&gt;Epic Bacon is no longer craftable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;added-mods:29963240414d3a25a0c6b6d90757af0f&#34;&gt;Added Mods:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/agricraft&#34;&gt;AgriCraft 1.4.6&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-rain&#34;&gt;Better Rain 1.0.1.1&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/climate-control&#34;&gt;Climate Control 0.4.beta33&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/et-futurum&#34;&gt;Et Futurum 1.5.3&lt;/a&gt;
+&lt;a href=&#34;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2412548-1-7-10-galaxy-space-addon-for-galacticraft-3&#34;&gt;Galaxy Space 1.0.4 STABLE&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/matter-overdrive&#34;&gt;Matter Overdrive 0.4.0&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/pneumaticcraft&#34;&gt;PneumaticCraft-1.7.10-1.12.3&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/recurrent-complex&#34;&gt;Recurrent Complex 0.9.6.3&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/rockhounding-mod&#34;&gt;Rockhounding Mod v3.21&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/ivtoolkit&#34;&gt;IvToolkit 1.2 - Recurrent Complex Dependency&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/in-game-wiki-mod&#34;&gt;In-Game Wiki Mod 1.1.11-32&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;updated-mods:29963240414d3a25a0c6b6d90757af0f&#34;&gt;Updated Mods:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/Team-RTG/Realistic-Terrain-Generation/releases&#34;&gt;Realistic Terrain Generation 0.5.0-snapshot-4&lt;/a&gt;
+&lt;a href=&#34;http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.7.10.html&#34;&gt;Minecraft Forge 10.13.4.1614&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222153-mod/files/2274094&#34;&gt;Automage v0.27.1&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225643-mod/files/2274323&#34;&gt;Botania r1.8-248&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2272933&#34;&gt;Forestry 4.2.4&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/70492-mod/files/2272547&#34;&gt;gendustry-1.6.4.134-mc1.7.10&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222838-mod/files/2274328&#34;&gt;Headcrumbs-1.7.2&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229002-mod/files/2274178&#34;&gt;MrTJPCore-1.1.0.32-universal&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228702-mod/files/2274225&#34;&gt;ProjectRed-1.7.10-4.7.0pre10.93-Base&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/230111-mod/files/2274229&#34;&gt;ProjectRed-1.7.10-4.7.0pre10.93-Fabrication&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229045-mod/files/2274228&#34;&gt;ProjectRed-1.7.10-4.7.0pre10.93-Integration&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229046-mod/files/2274230&#34;&gt;ProjectRed-1.7.10-4.7.0pre10.93-Lighting&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/projects/biomes-o-plenty/files/2274003&#34;&gt;Biomes O&amp;rsquo; Plenty 2.1.0.1609&lt;/a&gt;
+&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;GalactiCraft Core 3.0.12.410&lt;/a&gt;
+&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;GalactiCraft Planets 3.0.12.410&lt;/a&gt;
+&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;MicdoodleCore 3.0.12.410&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235753-mod/files/2274386&#34;&gt;StacksOnStacks-1.7.10-2.4.3&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;removed-mods:29963240414d3a25a0c6b6d90757af0f&#34;&gt;Removed Mods:&lt;/h3&gt;
+
+&lt;p&gt;Twilight Forest (we will miss you)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 2.0.1.0 Update!</title>
