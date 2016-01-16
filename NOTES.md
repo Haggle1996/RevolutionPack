@@ -33,5 +33,7 @@
 - Update tower designs
 - Add server tips to website
 - Pneumaticraft PCBs crafted in Assembly Table or similar.
+- Block fall pass
+- Buckets can be made from non-iron plates
 
 #Pack changes
