@@ -77,7 +77,7 @@
             <DisplayName>Ore Deposit Size</DisplayName>
         </OptionNumeric> 
        
-        <OptionChoice name='debugMode' default='false' displayState='hidden' displayGroup='groupGeneral'>
+        <OptionChoice name='debugMode' default='false' displayState='shown_dynamic' displayGroup='groupGeneral'>
             <Description> 
                 Enable/disable debugging mode, which allows the use of in-game wireframe models and console commands.  Also controls the visibility of some advanced options.
             </Description>
@@ -118,8 +118,75 @@
             <Choice value='true' displayValue='On'/>
             <Choice value='false' displayValue='Off'/>
         </OptionChoice> 
-        
-        <OptionChoice name='drawWireframes' default='false' displayGroup='groupGeneral'>
+
+        <OptionNumeric name='rootHeightFactor' default='17'
+		       displayGroup='groupInternal'>
+            <Description> 
+                Multiplier for rootHeight during biome height scaling
+            </Description>
+            <Comment>     
+                This is a "magic" option - it has meaning outside of
+		this file in the COG engine itelf. You can change the
+		value, but do not remove the option itself.
+
+		Biome height scaling needs to estimate the average
+		height of a biome. This is non-trivial, because
+		terrain generation is complex and varies across biomes
+		and dimensions/worlds. There are two explicit
+		parameters: root height and height variation. The
+		offset from the dimension ground level is a linear
+		combination of those, as well as their
+		interaction.
+
+		This option represents the factor for the root height.
+            </Comment>
+            <DisplayState>hidden</DisplayState>
+            <DisplayName>Root Height Factor</DisplayName>
+            <Min>0</Min>
+            <Max>128</Max>
+        </OptionNumeric> 
+	
+	<OptionNumeric name='heightVarFactor' default='0'
+		       displayGroup='groupInternal'>
+            <Description> 
+                Multiplier for heightVariation during biome height scaling
+            </Description>
+            <Comment>     
+                This is a "magic" option - it has meaning outside of
+		this file in the COG engine itelf. You can change the
+		value, but do not remove the option itself.
+
+		See the coment for 'rootHeightFactor'.  This option
+		represents the factor for the height variation.
+            </Comment>
+            <DisplayState>hidden</DisplayState>
+            <DisplayName>Height Variation Factor</DisplayName>
+            <Min>0</Min>
+            <Max>128</Max>            
+        </OptionNumeric>
+
+	<OptionNumeric name='rootHeightVarFactor' default='0'
+		       displayGroup='groupInternal'>
+            <Description> 
+                Multiplier for the product of the rootHeight and
+                heightVariation during biome height scaling
+            </Description>
+            <Comment>     
+                This is a "magic" option - it has meaning outside of
+		this file in the COG engine itelf. You can change the
+		value, but do not remove the option itself.
+
+		See the coment for 'rootHeightFactor'.  This option
+		represents the factor for the product (interaction) of
+		the root height and height variation.
+            </Comment>
+            <DisplayState>hidden</DisplayState>
+            <DisplayName>Root Height * Variation Factor</DisplayName>
+            <Min>0</Min>
+            <Max>128</Max>
+        </OptionNumeric> 
+
+        <OptionChoice name='drawWireframes' default='true' displayGroup='groupGeneral'>
             <Description> 
                 Default wireframe state for distributions.  
             </Description>
@@ -141,7 +208,7 @@
         </OptionChoice>   
 
         <OptionChoice name='advOptions' default='false'
-                      displayState='hidden'
+                      displayState='shown_dynamic'
                       displayGroup='groupGeneral'>
           <Description> 
             Enable/disable advanced frequency and size settings for
@@ -275,7 +342,7 @@
             <Setting name='SegmentForkLengthMult' avg='0.5' range='0.25'/>
             <Setting name='SegmentLength' avg=':= 30 * oreSize' range=':= 6 * oreSize' />
             <Setting name='SegmentAngle' avg='0.30' range='0.30'/>
-            <Setting name='SegmentRadius' avg=':= 0.025 * oreSize' range=':= 0.2 * oreSize'/>
+            <Setting name='SegmentRadius' avg=':= 0.025 * oreSize' range=':= 0.02 * oreSize'/>
             <Setting name='OreDensity' avg='1' range='0'/>
             <Setting name='OreRadiusMult' avg='1' range='0.25'/>
             <ReplacesOre block='stone'/>
@@ -385,6 +452,24 @@
             <ReplacesOre block='stone'/>
             <Biome name='.*'/>
         </CloudPreset>
+
+        <CloudPreset name='PresetStratum'>
+            <Description>
+              Solid clouds that form layers of rock and minerals.  This distribution is best used
+              for distributions of basic materials like stone, rather than valuable ones like ore.
+            </Description>
+            <Setting name='DistributionFrequency' avg=':= 0.01 * oreFreq'/>
+            <Setting name='ParentRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='CloudRadius' avg=':= 16 * oreSize' range=':= 8 * oreSize' type='normal'/>
+            <Setting name='CloudThickness' avg=':= 1 * oreSize' range=':= 0.5 * oreSize' type='normal'/>
+            <Setting name='CloudHeight' avg=':=32' range='16' 
+                     type='uniform' scaleTo='sealevel'/>
+            <Setting name='CloudInclination' avg='0' range='0'/>
+            <Setting name='OreDensity' avg='1.0'/>
+            <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </CloudPreset>
         
     </ConfigSection>
 
@@ -393,14 +478,11 @@
          NOTE: to override a default config, remove the corresponding
          directive (and optionally add something to 'modules/custom')
     -->
-
-    <!-- Vanilla minecraft should always be the first thing to load. --> 
-    <!--<Import file='modules/custom/Overworld.xml'/>-->
+    
     <Import file='modules/custom/Overworld.xml' />
     <Import file='modules/custom/HarderExtraOres_Custom.xml' />
     <Import file='modules/custom/HarderLimonite_Custom.xml' />
     <Import file='modules/custom/HarderVanillaOres_Custom.xml' />
-    <!--<Import file='modules/custom/UndergroundHazards_Custom.xml' />-->
     <Import file='modules/custom/Fallback.xml' />
     
     <!--*************************   Testing & Debugging   *********************

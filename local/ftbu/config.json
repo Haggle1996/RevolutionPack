@@ -25,7 +25,6 @@
     "spawn_pvp": true
   },
   "login": {
-    "custom_badges": "",
     "motd": [
       "Welcome to the server!"
     ],
@@ -49,6 +48,7 @@
   "permissions_admin": {
     "admin_server_info": true,
     "allow_creative_interact_secure": true,
+    "badge": "",
     "break_whitelist": [
       "OpenBlocks:grave"
     ],
@@ -61,11 +61,13 @@
     "max_claims": 1000,
     "max_homes": 100,
     "max_loaded_chunks": 0,
+    "offline_chunkloader_timer": 24.0,
     "show_rank": true
   },
   "permissions_player": {
     "admin_server_info": false,
     "allow_creative_interact_secure": false,
+    "badge": "",
     "break_whitelist": [
       "OpenBlocks:grave"
     ],
@@ -80,6 +82,7 @@
     "max_claims": 100,
     "max_homes": 1,
     "max_loaded_chunks": 0,
+    "offline_chunkloader_timer": 24.0,
     "show_rank": true
   },
   "tops": {

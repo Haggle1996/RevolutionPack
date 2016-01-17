@@ -4,10 +4,12 @@
     "item_ore_names": false,
     "item_reg_names": false,
     "notifications": "screen",
-    "open_hsb_cg": false
+    "open_hsb_cg": false,
+    "reload_client_cmd": "reload_client"
   },
   "ftbu": {
     "hide_armor_fg": false,
+    "loaded_chunks_space_key": false,
     "player_options_shortcut": false,
     "render_badges": true,
     "sort_friends_az": false
