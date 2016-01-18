@@ -1,5 +1,5 @@
 val block = <ore:blockSteel>;
-val plate = <Railcraft:part.plate:1>;
+val plate = <ore:plateSteel>;
 val pick = <RotaryCraft:rotarycraft_item_bedpick>;
 
 # Enviromine

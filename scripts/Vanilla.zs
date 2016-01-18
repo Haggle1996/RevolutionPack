@@ -9,7 +9,7 @@ val bars = <minecraft:iron_bars>;
 val block = <RotaryCraft:rotarycraft_block_deco:0>;
 val ingot = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
 val rod = <RotaryCraft:rotarycraft_item_shaftcraft:2>;
-val base = <Railcraft:part.plate>;
+val plIron = <ore:plateIron>;
 
 #remove all vanilla armor creation
 recipes.remove(<minecraft:iron_boots>);

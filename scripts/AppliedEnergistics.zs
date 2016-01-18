@@ -1,7 +1,7 @@
 #Applied Energistics
 # Everything uses steel
 val steel = <ore:ingotSteel>;
-val plate = <Railcraft:part.plate:1>;
+val plate = <ore:plateSteel>;
 val redstone = <ore:dustRedstone>;
 val sticky = <minecraft:sticky_piston>;
 val glass = <ore:blockGlass>;

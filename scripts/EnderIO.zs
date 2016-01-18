@@ -5,7 +5,7 @@ val piston = <ore:craftingPiston>;
 val stone = <minecraft:stonebrick:*>;
 val blastfurnace = <RotaryCraft:rotarycraft_item_machine:45>;
 val ironGear = <ore:gearIron>;
-val plate = <Railcraft:part.plate>;
+val plate = <ore:plateIron>;
 val block = <ore:blockSteel>;
 val ingot = <ore:ingotSteel>;
 

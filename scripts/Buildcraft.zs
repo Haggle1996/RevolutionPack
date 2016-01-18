@@ -23,8 +23,8 @@ val goldGear = <ore:gearGold>;
 val diamondGear = <ore:gearDiamond>;
 
 val copperplate = <Railcraft:part.plate:3>;
-val ironplate = <Railcraft:part.plate:0>;
-val steelplate = <Railcraft:part.plate:1>;
+val ironplate = <ore:plateIron>;
+val steelplate = <ore:plateSteel>;
 val tinplate = <Railcraft:part.plate:2>;
 
 # Engines require copper plates

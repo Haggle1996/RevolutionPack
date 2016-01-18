@@ -6,8 +6,8 @@ val industrial = <Railcraft:machine.beta:9>;
 
 val copper = <Railcraft:part.plate:3>;
 val tin = <Railcraft:part.plate:2>;
-val iron = <Railcraft:part.plate:0>;
-val steel = <Railcraft:part.plate:1>;
+val iron = <ore:plateIron>;
+val steel = <ore:plateSteel>;
 val glass = <ore:blockGlass>;
 
 val goldGear = <Railcraft:part.gear:0>;
