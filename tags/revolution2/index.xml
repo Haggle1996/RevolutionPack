@@ -43,6 +43,7 @@
 &lt;li&gt;NOTE: Ore flowers do not spawn correctly in RTG world types, and ores do not obey biome-restrictions. BoP worlds do not suffer this problem.&lt;/li&gt;
 &lt;li&gt;Avatars should now render correctly after death.&lt;/li&gt;
 &lt;li&gt;Fixed the broken quest in chapter 1, plus added an additional quest to craft a water tank&lt;/li&gt;
+&lt;li&gt;Blast furnaces now consume the appropriate amount of raw ore.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;added-mods:b5926acf368372440bcb0d0c24567a09&#34;&gt;Added Mods&lt;/h3&gt;
