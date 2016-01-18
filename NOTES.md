@@ -34,6 +34,6 @@
 - Add server tips to website
 - Pneumaticraft PCBs crafted in Assembly Table or similar.
 - Block fall pass
-- Chemistry from Rockhounding
 
 #Pack changes
+Chemistry and Gemology from Rockhounding have been enabled.

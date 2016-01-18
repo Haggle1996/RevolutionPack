@@ -41,12 +41,12 @@ recipes.remove(<minecraft:diamond_helmet>);
 
 #Vanilla items should use Steel plates
 recipes.remove(cauldron);
-recipes.addShaped(cauldron, [[base,null,base],[base,null,base],[base,base,base]]);
+recipes.addShaped(cauldron, [[plIron,null,plIron],[plIron,null,plIron],[plIron,plIron,plIron]]);
 
 recipes.remove(bucket);
-recipes.addShaped(bucket * 1, [[base,null,base], [null,base,null]]);
+recipes.addShaped(bucket * 1, [[plIron,null,plIron], [null,plIron,null]]);
 
 recipes.remove(hopper);
-recipes.addShaped(hopper * 1, [[base,null,base],[base,chest,base],[null,base,null]]);
+recipes.addShaped(hopper * 1, [[plIron,null,plIron],[plIron,chest,plIron],[null,plIron,null]]);
 
 recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:10> * 3);
