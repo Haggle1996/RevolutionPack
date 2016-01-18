@@ -9,7 +9,7 @@ weight = 210
 share = true
 slug = "rev2-gameplay-changes"
 title = "REVOLUTION|2 - Gameplay Changes"
-description = "Updated for v2.0.0.0 alpha 1"
+description = "Updated for v2.0.1.0 alpha"
 +++
 
 Revolution|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don't expect everything to work the same as it did in the original Revolution.
@@ -48,12 +48,13 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block.
 - Ore flowers spawn on the surface, indicating nearby ores.
 - Oregen has been completely redone using Custom Ore Generation First Revival. This is significantly faster than the CoFH ore gen and means most players will not need to pregenerate their worlds! Yay!
-- Torches will set fire to nearby blocks.
+- Torches will set fire to nearby blocks and burn out over time.
 - Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.
 - Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.
 - Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.
 - Naturally-spawning Vanilla and Forestry trees will die off over time, turning into compost and eventually dirt. Dropped saplings will plant themselves.
-- Food now rots over time. This can be overcome by building Fridges and Freezers (storage blocks from Cooking for Blockheads and Enviromine).
+- Food now rots over time. This can be overcome by building Eskys and Freezers (storage blocks from and Enviromine that integrate with Cooking for Blockheads).
+- Only basic seeds drop from breaking grass. You will need to create mutations in AgriCraft to discover all possible food seeds.
 - Unsupported cave and building rooves will collapse on you. Make sure to support your ceilings! Different materials can stretch different lengths (up to 3 blocks out). Building common engineered structures, such as l-girder shapes, can extend blocks indefinitely.
 - Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.
 - Power consumption and generation has been revamped throughout the pack. Generally, things are more expensive.
@@ -64,11 +65,19 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 -- Tier 4: ElectriCraft (power transmission)
 - Early game RF power is best provided through either the Rotational Dynamo or the Immersive Engineering waterwheel/windmill.
 - Spawners aren't moveable intact during the early game; you must research technology to move them or use them for powered spawners.
+- Many repetetive items are hidden in NEI (e.g., BiblioCraft and Storage Drawers wood variations; Gun Customization modified weapons). Use Creative Tab to access these items.
 
 ## Trivia
 - Dead bodies can be removed by hitting them with a shovel.
 
 # Mod-specific changes
+
+## Agricraft
+- Resource crops are disabled
+- Disabled natura integration
+- Removed decorative blocks
+- Reduced stat cap to 8
+- Turned on hardcore mode
 
 ## Animals+
 - Whales, Centipedes, Crickets, and Butterflies no longer spawn.
@@ -91,17 +100,21 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Manasteel requires steel
 
 ## BuildCraft
-- Pipes now use metal plates instead of glass, depending on use.
 - Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.
 - Engines require metal plates.
 - A number of recipes from other mods are crafted on the Assembly Table
 - Refinery is removed -- use the Immersive Engineering Refinery for Fuel and Ethanol
+- Turned off Water Springs
+
+## Chisel
+- Cannot chisel torches
 
 ## ChromatiCraft
 - Wisps in Rainbow Forests can hurt you.
 - The Ender Dragon will respawn shortly after killing it.
 - Rainbow Forest biomes do not spread when planting rainbow trees.
 - Pylons do not automatically chunk-load; you'll need to use your own chunk loader (server optimization).
+- Disabled player progress announcements as they cause a server crash.
 
 ## Cooking for Blockheads
 - Water must be pumped in to the sink.
@@ -113,6 +126,8 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Machine casings require steel
 - Stirling engine requires plates
 - Capacitors are created on the BuildCraft Assembly Table
+- Dark Steel requires steel ingots
+- Harder ores can now be smelted in the EIO Alloy Smelter with coal at a 4:1 rate
 
 ## Enviromine
 - Disabled sanity, hydration, temperature, air quality, and slide physics (drop physics remain).
@@ -151,6 +166,9 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 
 ## HarvestCraft
 - Water plants are grown on farmland, not water. 
+- Seeds must be researched through crop mutations
+- Removed gardens
+- Epic Bacon is no longer craftable
 
 ## Headcrumbs
 - Baarbra no longer spawns (TPS heavy)
@@ -179,8 +197,16 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 ## JABBA
 - Removed the Diamond Dolly
 
+## Matter Overdrive
+- Gravitational anomolies only spawn on other planets and moons
+- Tritanium and Dilithium only spawn on other planets and moons; tritanium spawns in shallow common veins; dilithium spawns deep in uncommon veins.
+- Android only spawns on planets and moons
+- Energy costs are generally doubled
+
 ## Natura
 - Removed barley and cotton crops, plus related recipes.
+- Natura nether trees can't spawn as ChromatiCraft dye trees.
+- Removed cactus juice.
 
 ## Open Blocks
 - Graves are turned off, replaced with lootable bodies (which can be broken with a shovel). Server operators, the open blocks inventory restore still functions as expected.
@@ -194,12 +220,18 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 ## Ore Dictionary
 - Added beeswax to ore dictionary for wax
 
+## PneumaticCraft
+- Pneumatic Dynamo operates at 5% efficiency (very poor source of RF)
+- Making Compressed Iron with TNT loses 100% of all ingots.
+- Initial Compressed Iron can be made in the Ender IO Alloy Smelter.
+
 ## Railcraft
 - Blast Furnace and Coke Oven are removed. Use the equivalents from Immersive Engineering
 - Removed poor ores
 - Engines require plates based on tier
 - Turned off Residual Heat
 - Steel armor and items are removed. Use HSLA for entry level armor, and various mod armors for later game.
+- Village workshops do not spawn
 
 ## Random Things
 - Disabled Spirit Binder
@@ -210,6 +242,9 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Monsters spawn slowly during blood moons, instead of all at once.
 - Blood moon spawn cap is set to equal the vanilla cap, to keep spawns TPS friendly.
 - Monsters do not despawn in the morning (but they do burn to death).
+
+## Rockhounding Mod
+- Disabled Chemistry, Mine Crawler, Gemology
 
 ## Roguelike Dungeons
 - Added a customized modern bunker theme.
@@ -223,9 +258,6 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Food history length is 20
 - Food history uses hunger restored instead of food named. For example, it will remember the last 5 items that restored 4 food, or the last 10 items that restored 2 food. Generally, this makes it so higher-nutrition foods require less variety than lower nutrition.  
 - Previously eaten items are less nutritious.
-
-## Twilight Forest
-- Disabled Uncrafting Table
 
 ## Vanilla
 - Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill)

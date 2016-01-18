@@ -154,12 +154,13 @@
 &lt;li&gt;Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block.&lt;/li&gt;
 &lt;li&gt;Ore flowers spawn on the surface, indicating nearby ores.&lt;/li&gt;
 &lt;li&gt;Oregen has been completely redone using Custom Ore Generation First Revival. This is significantly faster than the CoFH ore gen and means most players will not need to pregenerate their worlds! Yay!&lt;/li&gt;
-&lt;li&gt;Torches will set fire to nearby blocks.&lt;/li&gt;
+&lt;li&gt;Torches will set fire to nearby blocks and burn out over time.&lt;/li&gt;
 &lt;li&gt;Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.&lt;/li&gt;
 &lt;li&gt;Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.&lt;/li&gt;
 &lt;li&gt;Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.&lt;/li&gt;
 &lt;li&gt;Naturally-spawning Vanilla and Forestry trees will die off over time, turning into compost and eventually dirt. Dropped saplings will plant themselves.&lt;/li&gt;
-&lt;li&gt;Food now rots over time. This can be overcome by building Fridges and Freezers (storage blocks from Cooking for Blockheads and Enviromine).&lt;/li&gt;
+&lt;li&gt;Food now rots over time. This can be overcome by building Eskys and Freezers (storage blocks from and Enviromine that integrate with Cooking for Blockheads).&lt;/li&gt;
+&lt;li&gt;Only basic seeds drop from breaking grass. You will need to create mutations in AgriCraft to discover all possible food seeds.&lt;/li&gt;
 &lt;li&gt;Unsupported cave and building rooves will collapse on you. Make sure to support your ceilings! Different materials can stretch different lengths (up to 3 blocks out). Building common engineered structures, such as l-girder shapes, can extend blocks indefinitely.&lt;/li&gt;
 &lt;li&gt;Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.&lt;/li&gt;
 &lt;li&gt;Power consumption and generation has been revamped throughout the pack. Generally, things are more expensive.&lt;/li&gt;
@@ -170,6 +171,7 @@
 &amp;ndash; Tier 4: ElectriCraft (power transmission)&lt;/li&gt;
 &lt;li&gt;Early game RF power is best provided through either the Rotational Dynamo or the Immersive Engineering waterwheel/windmill.&lt;/li&gt;
 &lt;li&gt;Spawners aren&amp;rsquo;t moveable intact during the early game; you must research technology to move them or use them for powered spawners.&lt;/li&gt;
+&lt;li&gt;Many repetetive items are hidden in NEI (e.g., BiblioCraft and Storage Drawers wood variations; Gun Customization modified weapons). Use Creative Tab to access these items.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;trivia:2dc582e763001218f60802f283920a1d&#34;&gt;Trivia&lt;/h2&gt;
@@ -179,6 +181,16 @@
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;mod-specific-changes:2dc582e763001218f60802f283920a1d&#34;&gt;Mod-specific changes&lt;/h1&gt;
+
+&lt;h2 id=&#34;agricraft:2dc582e763001218f60802f283920a1d&#34;&gt;Agricraft&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Resource crops are disabled&lt;/li&gt;
+&lt;li&gt;Disabled natura integration&lt;/li&gt;
+&lt;li&gt;Removed decorative blocks&lt;/li&gt;
+&lt;li&gt;Reduced stat cap to 8&lt;/li&gt;
+&lt;li&gt;Turned on hardcore mode&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;animals:2dc582e763001218f60802f283920a1d&#34;&gt;Animals+&lt;/h2&gt;
 
@@ -218,11 +230,17 @@
 &lt;h2 id=&#34;buildcraft:2dc582e763001218f60802f283920a1d&#34;&gt;BuildCraft&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Pipes now use metal plates instead of glass, depending on use.&lt;/li&gt;
 &lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
 &lt;li&gt;Engines require metal plates.&lt;/li&gt;
 &lt;li&gt;A number of recipes from other mods are crafted on the Assembly Table&lt;/li&gt;
 &lt;li&gt;Refinery is removed &amp;ndash; use the Immersive Engineering Refinery for Fuel and Ethanol&lt;/li&gt;
+&lt;li&gt;Turned off Water Springs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;chisel:2dc582e763001218f60802f283920a1d&#34;&gt;Chisel&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cannot chisel torches&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;chromaticraft:2dc582e763001218f60802f283920a1d&#34;&gt;ChromatiCraft&lt;/h2&gt;
@@ -232,6 +250,7 @@
 &lt;li&gt;The Ender Dragon will respawn shortly after killing it.&lt;/li&gt;
 &lt;li&gt;Rainbow Forest biomes do not spread when planting rainbow trees.&lt;/li&gt;
 &lt;li&gt;Pylons do not automatically chunk-load; you&amp;rsquo;ll need to use your own chunk loader (server optimization).&lt;/li&gt;
+&lt;li&gt;Disabled player progress announcements as they cause a server crash.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;cooking-for-blockheads:2dc582e763001218f60802f283920a1d&#34;&gt;Cooking for Blockheads&lt;/h2&gt;
@@ -249,6 +268,8 @@
 &lt;li&gt;Machine casings require steel&lt;/li&gt;
 &lt;li&gt;Stirling engine requires plates&lt;/li&gt;
 &lt;li&gt;Capacitors are created on the BuildCraft Assembly Table&lt;/li&gt;
+&lt;li&gt;Dark Steel requires steel ingots&lt;/li&gt;
+&lt;li&gt;Harder ores can now be smelted in the EIO Alloy Smelter with coal at a 4:1 rate&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;enviromine:2dc582e763001218f60802f283920a1d&#34;&gt;Enviromine&lt;/h2&gt;
@@ -308,6 +329,9 @@
 
 &lt;ul&gt;
 &lt;li&gt;Water plants are grown on farmland, not water.&lt;/li&gt;
+&lt;li&gt;Seeds must be researched through crop mutations&lt;/li&gt;
+&lt;li&gt;Removed gardens&lt;/li&gt;
+&lt;li&gt;Epic Bacon is no longer craftable&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;headcrumbs:2dc582e763001218f60802f283920a1d&#34;&gt;Headcrumbs&lt;/h2&gt;
@@ -349,10 +373,21 @@
 &lt;li&gt;Removed the Diamond Dolly&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;matter-overdrive:2dc582e763001218f60802f283920a1d&#34;&gt;Matter Overdrive&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gravitational anomolies only spawn on other planets and moons&lt;/li&gt;
+&lt;li&gt;Tritanium and Dilithium only spawn on other planets and moons; tritanium spawns in shallow common veins; dilithium spawns deep in uncommon veins.&lt;/li&gt;
+&lt;li&gt;Android only spawns on planets and moons&lt;/li&gt;
+&lt;li&gt;Energy costs are generally doubled&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;natura:2dc582e763001218f60802f283920a1d&#34;&gt;Natura&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Removed barley and cotton crops, plus related recipes.&lt;/li&gt;
+&lt;li&gt;Natura nether trees can&amp;rsquo;t spawn as ChromatiCraft dye trees.&lt;/li&gt;
+&lt;li&gt;Removed cactus juice.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;open-blocks:2dc582e763001218f60802f283920a1d&#34;&gt;Open Blocks&lt;/h2&gt;
@@ -376,6 +411,14 @@
 &lt;li&gt;Added beeswax to ore dictionary for wax&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;pneumaticcraft:2dc582e763001218f60802f283920a1d&#34;&gt;PneumaticCraft&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pneumatic Dynamo operates at 5% efficiency (very poor source of RF)&lt;/li&gt;
+&lt;li&gt;Making Compressed Iron with TNT loses 100% of all ingots.&lt;/li&gt;
+&lt;li&gt;Initial Compressed Iron can be made in the Ender IO Alloy Smelter.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;railcraft:2dc582e763001218f60802f283920a1d&#34;&gt;Railcraft&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -384,6 +427,7 @@
 &lt;li&gt;Engines require plates based on tier&lt;/li&gt;
 &lt;li&gt;Turned off Residual Heat&lt;/li&gt;
 &lt;li&gt;Steel armor and items are removed. Use HSLA for entry level armor, and various mod armors for later game.&lt;/li&gt;
+&lt;li&gt;Village workshops do not spawn&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;random-things:2dc582e763001218f60802f283920a1d&#34;&gt;Random Things&lt;/h2&gt;
@@ -397,6 +441,12 @@
 &lt;li&gt;Monsters spawn slowly during blood moons, instead of all at once.&lt;/li&gt;
 &lt;li&gt;Blood moon spawn cap is set to equal the vanilla cap, to keep spawns TPS friendly.&lt;/li&gt;
 &lt;li&gt;Monsters do not despawn in the morning (but they do burn to death).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;rockhounding-mod:2dc582e763001218f60802f283920a1d&#34;&gt;Rockhounding Mod&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disabled Chemistry, Mine Crawler, Gemology&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;roguelike-dungeons:2dc582e763001218f60802f283920a1d&#34;&gt;Roguelike Dungeons&lt;/h2&gt;
@@ -419,12 +469,6 @@
 &lt;li&gt;Food history length is 20&lt;/li&gt;
 &lt;li&gt;Food history uses hunger restored instead of food named. For example, it will remember the last 5 items that restored 4 food, or the last 10 items that restored 2 food. Generally, this makes it so higher-nutrition foods require less variety than lower nutrition.&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Previously eaten items are less nutritious.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;twilight-forest:2dc582e763001218f60802f283920a1d&#34;&gt;Twilight Forest&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Disabled Uncrafting Table&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;vanilla:2dc582e763001218f60802f283920a1d&#34;&gt;Vanilla&lt;/h2&gt;
