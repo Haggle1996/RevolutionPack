@@ -1,4 +1,47 @@
-ง1Welcome to Revolution 2.0!
-ง2Ore Generation
+ยง1Welcome to Revolution 2.0!
 
-Here's where you'll find information on stuff.
+ยง2Ore Generation
+
+Coal    Spawns just near the surface, and up into hills and mountains. The veins are long and thick, but sparsely filled with ore and often broken up by caves or depressions in the terrain.
+
+Iron    Groups of long narrow veins found about one third of the way down to bedrock. Especially common in snowy or icy areas.
+
+Gold    Groups of long narrow veins found about two thirds of the way down to bedrock. Most common in temperate hardwood forests, but still very rare.
+
+Redstone  Single vertical veins starting near the surface and extending down about halfway to bedrock. Most common in desert climates.
+
+Diamond   Short lava-filled tubes extending upward from bedrock with diamonds around the edges.
+
+Lapis Lazuli  Single vertical veins starting near bedrock and extending about halfway to the surface. Most common under ocean floors.
+
+Emerald		Short sloping tubes filled sparsely with emeralds and a few ... surprises. Vastly more common under open grassy hills.
+
+Limonite  Use a shovel! Generally at sea-level and a bit lower. More common in rivers and areas that spawn clay or sand.
+
+Copper		Groups of long narrow veins found about one third of the way down to bedrock. Especially common in jungles.
+
+Tin		Groups of long narrow veins found about halfway down to bedrock. More frequent in flat grassy plains.
+
+Pitchblende Isolated veins found about two thirds of the way down to bedrock and only sparsely filled with ore. Unusually common in devastated wastelands.
+
+Lead		Groups of long narrow veins found about one third of the way down to bedrock. Especially common in jungles.
+
+Silver		Isolated veins found about two thirds of the way down to bedrock. Unusually common in mountains.
+
+Nickel		Groups of long narrow veins found near bedrock. Especially common in swamps.
+
+Aluminum	Flat Clouds found near the surface. Only found in mesa, swamp, and jungle biomes.
+
+Apatite		Spawns in large, rare veins between y-level 56 and 184.
+
+Cadmium		Spawns in layered veins between y-level 2 and 14.
+
+Indium		Spawns in layered veins between y-level 6 and 18.
+
+Fluorite	Spawns in large motherlodes between y-level 3 and 13 with large tendrils spreading out for long distances.
+
+Magnetite	Spawns in large, rare veins between y-level 76 and 98.
+
+Calcite		Spawns in rare veins between y-level 42 and 58.
+
+Certus Quartz	Spawns with charged certus quarts in vertical veins between y-level 76 and 52.
