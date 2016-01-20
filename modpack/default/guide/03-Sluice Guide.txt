@@ -1,9 +1,15 @@
 03 - Sluice Guide
 
---Explaination
-So a sluice is used to create tiny piles of ore dust based on what is available in a 3 chunk radius.  It does this by running sand or gravel through a sluice and catching the heavier metal particles and letting the lighter soil flow through and out the end.  In practice this means sand gets dropped in, dust appears.
+--Explanation
+So a sluice is used to create tiny piles of ore dust based on what is available in a 3 chunk radius.
+It does this by running sand or gravel through a sluice and catching the heavier metal particles and
+letting the lightersoil flow through and out the end.  In practice this means sand gets dropped in,
+dust appears.
 
-Which dusts appear depends entirely on what ore is available in the detection range of the sluice.  So if you want copper, make sure you're setting up near copper detecting flowers, for example.  This is also useful for finding other ores in the area that you weren't expecting.  If you start seeing a lot of gold dusts appear, it is likely you've got a decent gold vein under your feet.
+Which dusts appear depends entirely on what ore is available in the detection range of the sluice.
+So if you want copper, make sure you're setting up near copper detecting flowers, for example.  This is
+also useful for finding other ores in the area that you weren't expecting.  If you start seeing a lot of
+gold dusts appear, it is likely you've got a decent gold vein under your feet.
 
 --Setup
 You will need several things to get started on this project of generating FREE ORE!
@@ -13,13 +19,17 @@ You will need several things to get started on this project of generating FREE O
 1 Wooden Hopper
 1 Wooden Bucket with Water
 
-This is not an automated process when you start.  You have to come back and gather the dusts every so often.  But it's a start.
+This is not an automated process when you start.  You have to come back and gather the dusts every so often.
+But it's a start.
 
-Dig a 6m long trench. Place a source block of water, then the 4 Sluices, then leave an empty block at the end.  Finally crouch and place the wooden hopper above the first sluice block.  It should look like this. (Glass used to illustrate the layout)
+Dig a 6m long trench. Place a source block of water, then the 4 Sluices, then leave an empty block at the end.
+Finally crouch and place the wooden hopper above the first sluice block.  It should look like this. (Glass used
+to illustrate the layout)
 
 [sluice1]
 
-Next, line both sides of the trench, on either side of the sluices, with planks. (Or stone, or whatever.  You'll know if it worked because water will flow, as shown here.
+Next, line both sides of the trench, on either side of the sluices, with planks. (Or stone, or whatever.  You'll
+know if it worked because water will flow, as shown here.
 
 [sluice2]
 
@@ -27,11 +37,13 @@ If you are not using the right blocks, water will not flow. Here is an example o
 
 [sluice3]
 
-The last step is to fill the hopper.  If you use sand in the sluice, you have a chance at getting double dusts when they pop up in the water.  If you use gravel, ther is a chance that you will get metal nuggets instead of dust.
+The last step is to fill the hopper.  If you use sand in the sluice, you have a chance at getting double dusts
+when they pop up in the water.  If you use gravel, ther is a chance that you will get metal nuggets instead of dust.
 
 [sluice4]
 
-That's it!  Soil will be slowly dropped into the sluice and little dusts will begin appearing.  In a couple minutes, you will have a fair amount of dust.
+That's it!  Soil will be slowly dropped into the sluice and little dusts will begin appearing.  In a couple minutes,
+you will have a fair amount of dust.
 
 [sluice5]
 
