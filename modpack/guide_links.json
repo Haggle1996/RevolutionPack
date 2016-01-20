@@ -35,25 +35,28 @@
     {
       "type": "image",
       "link": "images/windmill7.jpg" 
-    }
+    },
     "sluice1":
     {
       "type": "image",
       "link": "images/sluice1.jpg"
-    }
+    },
     "sluice2":
     {
       "type": "image",
       "link": "images/sluice2.jpg"
-    }"sluice3":
+    },
+    "sluice3":
     {
       "type": "image",
       "link": "images/sluice3.jpg"
-    }"sluice4":
+    },
+    "sluice4":
     {
       "type": "image",
       "link": "images/sluice4.jpg"
-    }"sluice5":
+    },
+    "sluice5":
     {
       "type": "image",
       "link": "images/sluice5.jpg"
