@@ -54,7 +54,7 @@
                 <Choice value='disabled' displayValue='Disabled' description='No copper is generated, and no copper symbols are available in Mystcraft ages.'/>
             </OptionChoice>
             
-            <OptionNumeric name='hic2CopperFreq' default='1'  min='0' max='5'
+            <OptionNumeric name='hic2CopperFreq' default='2'  min='0' max='5'
                            displayState=':= if(?advOptions &amp; hic2CopperDist != "disabled","shown","hidden")'
                            displayGroup='groupHardExtras'>
                 <Description>Frequency multiplier for Copper distributions </Description>
@@ -901,9 +901,7 @@
 			</StandardGen>
 
             <IfCondition condition=':= if(age, age.ic2UraniumClusters >0, hic2UraniumDist = "vanillaStdGen")'>
-                <StandardGen name='HardUraniumStandard' inherits='PresetStandardGen'>
-                    <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='0.25' />
-                    <OreBlock block='HarderOres:ore_uranium:9' weight='0.75' />
+                <StandardGen name='HardUraniumStandard' block='HarderOres:ore_uranium:9' inherits='PresetStandardGen'>
                     <Description>Equivalent to regular IC2 uranium distribution </Description>
                     <DrawWireframe>:=drawWireframes</DrawWireframe>
                     <WireframeColor>0x4080FF00</WireframeColor>
@@ -915,9 +913,7 @@
             </IfCondition>
             
             <IfCondition condition=':= if(age, age.ic2UraniumVeins >0, hic2UraniumDist = "layeredVeins")'>
-                <Veins name='HardUraniumVeins' inherits='PresetSparseVeins'>   
-                    <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='0.25' />
-                    <OreBlock block='HarderOres:ore_uranium:7' weight='0.75' />                
+                <Veins name='HardUraniumVeins' block='HarderOres:ore_uranium:7' inherits='PresetSparseVeins'>           
                     <Description>
                         Sparse veins in the 10-30 range.
                     </Description>
@@ -942,9 +938,7 @@
             </IfCondition>
             
             <IfCondition condition=':= if(age, age.ic2UraniumClouds >0, hic2UraniumDist = "strategicClouds")'>
-                <Cloud name='HardUraniumCloud' inherits='PresetStrategicCloud'>
-                    <OreBlock block='ReactorCraft:reactorcraft_block_ore:1' weight='0.25' />
-                    <OreBlock block='HarderOres:ore_uranium:15' weight='0.75' />                  
+                <Cloud name='HardUraniumCloud' block='HarderOres:ore_uranium:15' inherits='PresetStrategicCloud'>                
                     <Description>
                         Diffuse uranium cloud surrounded by single-block "hint" veins, found mostly in wasteland biomes.
                     </Description>

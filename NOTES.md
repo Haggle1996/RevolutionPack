@@ -34,6 +34,14 @@
 - Add server tips to website
 - Pneumaticraft PCBs crafted in Assembly Table or similar.
 - Block fall pass
+- Villager food trades are ridiculous.
+- Blood moon
+- Crop noob guide images
+- Seeds in chests
+- Reduce weapon spawn rates in chests, add more vanilla and junk stuff.
+- Update slideshow with new pics
+- Gun Customization separation
+- Chemistry and Gemology from Rockhounding have been enabled.
 
 #Pack changes
-Chemistry and Gemology from Rockhounding have been enabled.
+
