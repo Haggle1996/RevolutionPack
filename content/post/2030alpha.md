@@ -32,6 +32,7 @@ Important known issue: RTG ore generation issues have been resolved; however, or
 - NOTE: Ore flowers do not spawn correctly in RTG world types, and ores do not obey biome-restrictions. BoP worlds do not suffer this problem.
 - Avatars should now render correctly after death.
 - Fixed the broken quest in chapter 1, plus added an additional quest to craft a water tank
+- Blast furnaces now consume the appropriate amount of raw ore.
 
 ### Added Mods
 [Better Foliage 2.0.2 - Optional/Not Recommended](http://www.curseforge.com/projects/228529/)  

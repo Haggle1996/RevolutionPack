@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag2 on REVOLUTION|2</title>
-    <link>http://localhost:1313/tags/tag2/</link>
+    <link>http://revolutionpack.info/tags/tag2/</link>
     <description>Recent content in Tag2 on REVOLUTION|2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 27 Dec 2015 15:54:22 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2016 10:48:11 -0700</lastBuildDate>
+    <atom:link href="http://revolutionpack.info/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>version2alpha1</title>
-      <link>http://localhost:1313/post/post-title/</link>
-      <pubDate>Sun, 27 Dec 2015 15:54:22 -0700</pubDate>
+      <title>2100beta</title>
+      <link>http://revolutionpack.info/post/post-title/</link>
+      <pubDate>Fri, 22 Jan 2016 10:48:11 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/post-title/</guid>
+      <guid>http://revolutionpack.info/post/post-title/</guid>
       <description></description>
     </item>
     
