@@ -2,7 +2,7 @@
 
 ## Predeployment
 - Startup page update on gist
-- Update website
+- Update website, including changelog and general gameplay changes
 - Verify EiraIRC configuration
 - Turn off Edit Mode on HQM
 
@@ -35,13 +35,14 @@
 - Pneumaticraft PCBs crafted in Assembly Table or similar.
 - Block fall pass
 - Villager food trades are ridiculous.
-- Blood moon
 - Crop noob guide images
 - Seeds in chests
 - Reduce weapon spawn rates in chests, add more vanilla and junk stuff.
 - Update slideshow with new pics
 - Gun Customization separation
 - Chemistry and Gemology from Rockhounding have been enabled.
+- Add mapwriter
+- Remove nuclear waste from reward bags.
 
 #Pack changes
 

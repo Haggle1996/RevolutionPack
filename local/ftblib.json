@@ -6,10 +6,11 @@
       "notify": "ftb_notify",
       "reload": "reload",
       "set_item_name": "set_item_name",
-      "world_id": "ftb_world_id"
+      "trash_can": "trash_can"
     },
     "override_help": true,
     "override_list": true,
-    "set_item_name": "op"
+    "set_item_name": "op",
+    "trash_can": "all"
   }
 }

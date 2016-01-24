@@ -5,7 +5,9 @@
     "compression_level": 1,
     "display_file_size": true,
     "enabled": true,
-    "folder": "./backups/"
+    "folder": "./backups/",
+    "need_online_players": true,
+    "use_separate_thread": true
   },
   "commands": {
     "name_admin": "admin",
