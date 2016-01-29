@@ -27,22 +27,19 @@
 - Balance RFTools and other new mods' recipes
 - Balance MP suits recipes.
 - Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
-- Guide in FTBUtilities - sluice
 - Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 
 - More loot in roguelikes.
 - Update tower designs
 - Add server tips to website
 - Pneumaticraft PCBs crafted in Assembly Table or similar.
 - Block fall pass
-- Villager food trades are ridiculous.
 - Crop noob guide images
 - Seeds in chests
-- Reduce weapon spawn rates in chests, add more vanilla and junk stuff.
 - Update slideshow with new pics
 - Gun Customization separation
 - Chemistry and Gemology from Rockhounding have been enabled.
-- Add mapwriter
 - Remove nuclear waste from reward bags.
+- Merge Galacticraft config file
 
 #Pack changes
 
