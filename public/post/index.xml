@@ -18,14 +18,42 @@
       <guid>http://localhost:1313/post/2100beta/</guid>
       <description>
 
-&lt;p&gt;Hello, everyone!&lt;/p&gt;
+&lt;p&gt;Hello, everyone! Welcome to the REVOLUTION|2 Beta release!&lt;/p&gt;
 
-&lt;h3 id=&#34;changes:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Changes&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s been a long, hard month of testing and preparing, but we&amp;rsquo;re finally ready to release the Beta of REVOLUTION|2. We still have more work to do, particularly in the HQM and mod-balance department; however, the pack is stable at this point, and any worlds you create (regardless of world type) should be compatible with new pack updates for a long time to come.&lt;/p&gt;
+
+&lt;p&gt;Before I go any further, I need to take a moment to thank all the people who contributed content and/or support to this pack. They did an awesome job and REVOLUTION|2 wouldn&amp;rsquo;t be here without them:
+- DaMachinator who contributed the custom bees and physics updates, and frequently answers bug reports and questions on the issue tracker and IRC.
+- DorinnB for his beautiful work on the Recurrent Complex world structures.
+- Solego&amp;rsquo;s excellent noob guides and hard work on the HQM quests.
+- NachtRaben, SerenityGene, Toksyuryel, DragGon7601, soleplayer, and the entire host of players on the #Revolution channel.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned. There&amp;rsquo;s still more content and surprises coming to REVOLUTION|2!&lt;/p&gt;
+
+&lt;h3 id=&#34;known-issues:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Known Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Linux users with Gun Customization texture problems should take a look at this &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/180&#34;&gt;issue&lt;/a&gt; for a workaround.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;noteworthy-changes:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Noteworthy Changes&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ReactorCraft ores (fluorite, calcite, etc) no longer spawn in the overworld, but are found in quantity on the moon and mars.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;More entries in the noob guide, thanks to Solego. You can access the guide by opening your inventory window, then clicking on the upper book to the left of the window.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;More entries in the noob guide, thanks to Solego. You can access the guide by opening your inventory window, then clicking on the upper book to the left of the window.&lt;/li&gt;
+&lt;li&gt;Recurrent Complex structures, courtesy of Dorinn Bloodforge and Pterodactlol, have been added.&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Doubled the default spawn rate of copper. It is still rare, but more common than before.&lt;/li&gt;
+&lt;li&gt;Increased the Spice of Life food list length to 30; for the most part, this change makes early food less useful with minimal impact to end-game food.&lt;/li&gt;
+&lt;li&gt;Blood moon has been reduced from a 100% chance to only 5%; however, you can no longer sleep through it. Spawn rates are increased 300% but monsters despawn at morning.&lt;/li&gt;
+&lt;li&gt;No more ridiculous villager food trades (e.g., 64 feasts for 1 emerald).&lt;/li&gt;
+&lt;li&gt;Reduced frequency of guns and ammo in chests.&lt;/li&gt;
+&lt;li&gt;HarvestCraft seeds can only be made through AgriCraft mutation and propagation.&lt;/li&gt;
+&lt;li&gt;Increased mutation probabability of crops by 50%&lt;/li&gt;
+&lt;li&gt;Better Rain mod renamed to Dynamic Surroundings. Not a change, per-se, but noteworthy, as the mod adds a lot more content.&lt;/li&gt;
+&lt;li&gt;Added MapWriter 2 as a second minimap option&lt;/li&gt;
+&lt;li&gt;Added first part of Custom Bees thanks to DaMachinator!!&lt;/li&gt;
+&lt;li&gt;Updated the Roguelike towers to look more like modern structures.&lt;/li&gt;
+&lt;li&gt;Made roguelike dungeon loot more generous, because it&amp;rsquo;s a great way to tempt players to their death. (Shh&amp;hellip;secret&amp;hellip;dungeons are optional)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;bugs-squashed:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Bugs Squashed&lt;/h3&gt;
@@ -33,13 +61,41 @@
 &lt;ul&gt;
 &lt;li&gt;Copper ore flowers no longer spawn everywhere (only when there&amp;rsquo;s copper). This was due to a Harder Ores issue.&lt;/li&gt;
 &lt;li&gt;You should now be able to milk cows using wooden buckets.&lt;/li&gt;
+&lt;li&gt;Skin textures glitching after death should be fixed now.&lt;/li&gt;
+&lt;li&gt;World generation is significantly faster&lt;/li&gt;
+&lt;li&gt;You should now always start on or very close to a continent, instead of floating in the ocean.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;added-mods:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Added Mods&lt;/h3&gt;
 
+&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/mapwriter-2&#34;&gt;MapWriter 2&lt;/a&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;updated-mods:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Updated Mods&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/233189-mod/files/2276336&#34;&gt;WoodenBuckets-1.7.10-0.0.3b8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224472-mod/files/2277393&#34;&gt;AppleCore-mc1.7.10-1.3.0&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228529-mod/files/2279141&#34;&gt;BetterFoliage-MC1.7.10-2.0.3&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69162-mod/files/2277478&#34;&gt;CoFHCore-1.7.103.1.0-323&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2277392&#34;&gt;ClimateControl-0.4.beta38&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232131-mod/files/2277197&#34;&gt;defaultkeys-mc1.7.10-1.0.28&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2279139&#34;&gt;DynamicSurroundings-1.7.10-1.0.4.1 BETA&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229218-mod/files/2279025&#34;&gt;ExtraCells-1.7.10-2.3.8&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://forum.industrial-craft.net/index.php?page=Thread&amp;amp;amp;threadID=10820&#34;&gt;FastCraft 1.22-ctest18&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2277331&#34;&gt;FTBUtilities-1.7.10-1.0.16&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2277330&#34;&gt;FTBLib-1.7.10-1.0.16&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2278964&#34;&gt;Forestry 4.2.6&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://micdoodle8.com/mods/galacticraft&#34;&gt;Galacticraft 1.7.10-3.0.12.429&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238770-mod/files/2277067&#34;&gt;Galaxy Space 1.0.5&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222838-mod/files/2277144&#34;&gt;Headcrumbs-1.7.3&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223815-mod/files/2276684&#34;&gt;IGW-Mod-1.7.10-1.1.12-34-universal&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235442-mod/files/2278886&#34;&gt;ModularPowersuits-0.11.0.300&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224125-mod/files/2279020&#34;&gt;PneumaticCraft-1.7.10-1.12.5-148-universal&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/Team-RTG/Realistic-Terrain-Generation&#34;&gt;Realistic Terrain Generation 0.5.0-RC2&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224641-mod/files/2278966&#34;&gt;rftools-4.21&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2277607&#34;&gt;Rockhounding Mod v3.23b&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/220811-mod/files/2277396&#34;&gt;SpiceOfLife-mc1.7.10-1.3.1&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2276653&#34;&gt;StorageDrawers-1.7.10-1.7.7&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238603-mod/files/2276283&#34;&gt;TIS-3D-MC1.7.10-0.8.2.62&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/233189-mod/files/2276336&#34;&gt;WoodenBuckets-1.7.10-0.0.3b8&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;removed-mods:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Removed Mods&lt;/h3&gt;
 

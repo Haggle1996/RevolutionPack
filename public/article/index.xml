@@ -502,6 +502,69 @@
     </item>
     
     <item>
+      <title>Performance Tips</title>
+      <link>http://localhost:1313/article/rev2-tips/</link>
+      <pubDate>Sat, 30 Jan 2016 12:27:34 -0700</pubDate>
+      
+      <guid>http://localhost:1313/article/rev2-tips/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;getting-the-most-out-of-revolution-2:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Getting the most out of REVOLUTION|2&lt;/h3&gt;
+
+&lt;p&gt;This brief guide covers some important tips for maximizing gameplay performance and running REVOLUTION|2 on a server.&lt;/p&gt;
+
+&lt;h3 id=&#34;memory:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Memory&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;SSP Single-player:&lt;/strong&gt; 6GB of RAM is recommended. 4GB Minimum. If you experience frequent hard lag while exploring or moving, you probably do not have enough RAM allocated.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SMP Multi-player Server:&lt;/strong&gt; 6GB of RAM during world generation. Afterward, 4GB minimum.&lt;br /&gt;
+&lt;strong&gt;SMP Multi-player Clients:&lt;/strong&gt; 4GB recommended. 3.5GB required.&lt;/p&gt;
+
+&lt;p&gt;REVOLUTION|2&amp;rsquo;s spectacular veins and motherlodes (via Custom Ore Generation and Harder Ores) uses a lot of RAM to calculate vein sizes. As such, memory usage is high during chunk generation. If your world is stable and you&amp;rsquo;re not generating new overworld chunks often, you can reduce your memory allocation to 4GB.&lt;/p&gt;
+
+&lt;h3 id=&#34;pregenerating-a-world:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Pregenerating a World&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Recommended for SMP play; not recommended for SSP (better to allocate 6GB of RAM)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Pregenerating your world can significantly improve your REVOLUTION|2 experience, at the cost of some patience when starting a new world. Follow the following steps to pregenerate your world:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;If you haven&amp;rsquo;t already, add &lt;strong&gt;Forge Essentials&lt;/strong&gt; from the Optional Mods list. Note, this mod operates fine in both SMP and SMP play, but was designed for SMP.&lt;/li&gt;
+&lt;li&gt;Start Minecraft as usual and create a new map in &lt;strong&gt;creative mode&lt;/strong&gt; (or open a LAN game and enable cheats). Be sure to select either &lt;strong&gt;Realistic&lt;/strong&gt; or &lt;strong&gt;Biomes O&amp;rsquo; Plenty&lt;/strong&gt; for your world type. There is no performance advantage to either type.&lt;/li&gt;
+&lt;li&gt;Once the map has loaded (either SSP or SMP), do not move around and explore. Instead type the following into your chat window (SSP) or server console (SMP). SSP players will need to press &amp;lsquo;ESC&amp;rsquo; to get past the Galacticraft screen.&lt;/li&gt;
+&lt;li&gt;Some players will receive &lt;em&gt;An unknown error occurred while attempting to perform this command&lt;/em&gt; after entering the following commands. It is safe to ignore these errors. You can verify your settings at any time by entering &lt;code&gt;/wb&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Set the size of your pregeneration area: &lt;code&gt;/wb size 1600&lt;/code&gt;. I recommend 1600 blocks (100 chunks) as a good starter size for SSP and 3200 for SMP. Larger maps may require more memory.&lt;/li&gt;
+&lt;li&gt;Center the border on your current location: &lt;code&gt;/wb center here&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Enable the border: &lt;code&gt;/wb enable&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Start pregeneration: &lt;code&gt;/filler start&lt;/code&gt;. For SMP players, it is recommended that you run this command from a connected player, so that you can observe progress, as it&amp;rsquo;s not posted to the console log.&lt;/li&gt;
+&lt;li&gt;Both SSP and SMP players, after pregeneration is complete, save your world and quit Minecraft. Resist the tempation to explore your world until we restart.&lt;/li&gt;
+&lt;li&gt;For all SSP players and most SMP operators, deselect &lt;strong&gt;Forge Essentials&lt;/strong&gt; from your Optional Mods list, as it takes up more memory and causes other issues. Some SMP operators may choose to keep it for fine-grained control of your server.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Restart Minecraft and enjoy your new world!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;server-tips:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Server Tips&lt;/h3&gt;
+
+&lt;p&gt;The following tips will help you get the most from your REVOLUTION|2 server:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Run on good hardware. The pack runs great with 4-8GB of RAM supporting 10-15 simultaneous players, assuming good CPU and SSDs. During early days of the server (before too much automation is built), the pack generally performs well with 20-25 players.&lt;/li&gt;
+&lt;li&gt;Make sure you pregenerate the world using the steps above. There is no appreciable difference between RTG and BOP worlds, except aesthetics.&lt;/li&gt;
+&lt;li&gt;Pregenerate at least the Overworld, Moon, Mars, Nether, and Cave Dimension. It is a good practice to save a copy of your empty, pregenerated Cave Dimension, as this serves as the mining dimension for the pack.&lt;/li&gt;
+&lt;li&gt;Run Opis (downloaded separately) and periodically check for expensive chunks &amp;ndash; most commonly it&amp;rsquo;s things like a player having 200 chickens, etc.&lt;/li&gt;
+&lt;li&gt;Restart the server at least once per day. Busy servers should consider 2 to 4 times per day.&lt;/li&gt;
+&lt;li&gt;Take regular backups. Note that both Forge Essentials and Aroma Backup automatically backup your world. If you&amp;rsquo;ve chosen to keep Forge Essentials, be sure to disable Aroma Backup.&lt;/li&gt;
+&lt;li&gt;Encourage players to test ReactorCraft builds in single-player creative mode BEFORE building them on the server. You may wish to add &lt;code&gt;/cofh killall radiation&lt;/code&gt; to a timed script since excessive radiation can bring a server to it&amp;rsquo;s knees; however, this is contrary to the author&amp;rsquo;s vision for the mod.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;cleaning-up-radiation:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Cleaning up Radiation&lt;/h3&gt;
+
+&lt;p&gt;Some players cannot resist experimenting with ReactorCraft without first trying to build the desired reactor in a single-player creative test world. You&amp;rsquo;ve been warned, but just in case, you can cleanup radiation using &lt;code&gt;/cofh killall radiation&lt;/code&gt; if you have cheats enabled.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>REVOLUTION|1 - Gameplay Changes</title>
       <link>http://localhost:1313/article/rev1-gameplay-changes/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>

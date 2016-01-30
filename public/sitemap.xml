@@ -58,6 +58,11 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/article/rev2-tips/</loc>
+    <lastmod>2016-01-30T12:27:34-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/article/rev1-gameplay-changes/</loc>
     <lastmod>2015-12-23T11:53:41-07:00</lastmod>
   </url>
