@@ -20,12 +20,9 @@
 - Block fall pass
 - Crop noob guide images
 - Seeds in chests
-- Update slideshow with new pics
-- Gun Customization separation
-- Chemistry and Gemology from Rockhounding have been enabled.
 - Remove nuclear waste from reward bags.
-- Merge Galacticraft config file
 - Add Forge Essentials
+- Test Map Writer
 
 ## Pack changes
 
