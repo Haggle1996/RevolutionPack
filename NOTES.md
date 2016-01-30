@@ -1,28 +1,13 @@
 ﻿#TODO List
 
-## Predeployment
+## Predeployment List
 - Startup page update on gist
 - Update website, including changelog and general gameplay changes
 - Verify EiraIRC configuration
 - Turn off Edit Mode on HQM
+- Update Warning and Install notes on pack xml
 
-
-
-- HQM: Advanced Systems Manager removed
-- HQM: Steve's Workshop removed from bags
-- HQM: Malisis curtains removed 
-- HQM: RFTools
-- HQM: Cooking for Blockheads
-- HQM: Seared bricks wrong amount
-- HQM: Check for crafting quests that require multiples. 
-
-## Progression
-- Sluice
-- Hopper
-- Chisel
-- Windmill
-- Grindstone
-
+## TODO
 
 - Balance RFTools and other new mods' recipes
 - Balance MP suits recipes.
@@ -40,6 +25,7 @@
 - Chemistry and Gemology from Rockhounding have been enabled.
 - Remove nuclear waste from reward bags.
 - Merge Galacticraft config file
+- Add Forge Essentials
 
-#Pack changes
+## Pack changes
 
