@@ -3,7 +3,7 @@
 ## Predeployment List
 - Startup page update on gist
 - Update website, including changelog and general gameplay changes
-- Verify EiraIRC configuration
+- Update version in EiraIRC configuration
 - Turn off Edit Mode on HQM
 - Update Warning and Install notes on pack xml
 
