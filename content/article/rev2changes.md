@@ -9,7 +9,7 @@ weight = 210
 share = true
 slug = "rev2-gameplay-changes"
 title = "REVOLUTION|2 - Gameplay Changes"
-description = "Updated for v2.0.1.0 alpha"
+description = "Updated for v2.1.0.0 Beta"
 +++
 
 Revolution|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don't expect everything to work the same as it did in the original Revolution.
@@ -45,7 +45,7 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 
 ## Significant Gameplay Changes
 - There is a mini-guide built into the modpack. Access your inventory, then click the guide book along the left edge of your inventory window.
-- Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block.
+- Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block -- up to two and a half stacks of ingots per block with all advancements!
 - Ore flowers spawn on the surface, indicating nearby ores.
 - Oregen has been completely redone using Custom Ore Generation First Revival. This is significantly faster than the CoFH ore gen and means most players will not need to pregenerate their worlds! Yay!
 - Torches will set fire to nearby blocks and burn out over time.
@@ -78,6 +78,7 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Removed decorative blocks
 - Reduced stat cap to 8
 - Turned on hardcore mode
+- Increased mutation rate by 50%
 
 ## Animals+
 - Whales, Centipedes, Crickets, and Butterflies no longer spawn.
@@ -236,12 +237,12 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 ## Random Things
 - Disabled Spirit Binder
 - Spectre Armor is disabled
-- Can sleep through Blood Moons
-- Blood Moons occur every night, unless otherwise thwarted
+- You cannot sleep through Blood Moons
+- Blood Moons occur on 5% of all nights
 - Minimum range for spawns during blood moons is 24 blocks, up from 3.
 - Monsters spawn slowly during blood moons, instead of all at once.
-- Blood moon spawn cap is set to equal the vanilla cap, to keep spawns TPS friendly.
-- Monsters do not despawn in the morning (but they do burn to death).
+- Blood moon spawn cap is set at 300% of vanilla.
+- Blood moon-spawned monsters despawn in the morning.
 
 ## Rockhounding Mod
 - Disabled Chemistry, Mine Crawler, Gemology
@@ -255,13 +256,13 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Bedrock tools can be used in the Ender IO Farming Station
 
 ## Spice of Life
-- Food history length is 20
+- Food history length is 30
 - Food history uses hunger restored instead of food named. For example, it will remember the last 5 items that restored 4 food, or the last 10 items that restored 2 food. Generally, this makes it so higher-nutrition foods require less variety than lower nutrition.  
 - Previously eaten items are less nutritious.
 
 ## Vanilla
-- Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill)
-- Vanilla armors are removed.
+- Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill or hammer)
+- Vanilla armor crafting is disabled...find them in dungeons and monster loot.
 
 ## Void Monster
 - Void monster doesn't spawn in The End, Spectral World, Deep Dark, and The Last Millenium

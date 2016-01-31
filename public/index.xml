@@ -484,7 +484,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;There is a mini-guide built into the modpack. Access your inventory, then click the guide book along the left edge of your inventory window.&lt;/li&gt;
-&lt;li&gt;Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block.&lt;/li&gt;
+&lt;li&gt;Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block &amp;ndash; up to two and a half stacks of ingots per block with all advancements!&lt;/li&gt;
 &lt;li&gt;Ore flowers spawn on the surface, indicating nearby ores.&lt;/li&gt;
 &lt;li&gt;Oregen has been completely redone using Custom Ore Generation First Revival. This is significantly faster than the CoFH ore gen and means most players will not need to pregenerate their worlds! Yay!&lt;/li&gt;
 &lt;li&gt;Torches will set fire to nearby blocks and burn out over time.&lt;/li&gt;
@@ -523,6 +523,7 @@
 &lt;li&gt;Removed decorative blocks&lt;/li&gt;
 &lt;li&gt;Reduced stat cap to 8&lt;/li&gt;
 &lt;li&gt;Turned on hardcore mode&lt;/li&gt;
+&lt;li&gt;Increased mutation rate by 50%&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;animals:2dc582e763001218f60802f283920a1d&#34;&gt;Animals+&lt;/h2&gt;
@@ -768,12 +769,12 @@
 &lt;ul&gt;
 &lt;li&gt;Disabled Spirit Binder&lt;/li&gt;
 &lt;li&gt;Spectre Armor is disabled&lt;/li&gt;
-&lt;li&gt;Can sleep through Blood Moons&lt;/li&gt;
-&lt;li&gt;Blood Moons occur every night, unless otherwise thwarted&lt;/li&gt;
+&lt;li&gt;You cannot sleep through Blood Moons&lt;/li&gt;
+&lt;li&gt;Blood Moons occur on 5% of all nights&lt;/li&gt;
 &lt;li&gt;Minimum range for spawns during blood moons is 24 blocks, up from 3.&lt;/li&gt;
 &lt;li&gt;Monsters spawn slowly during blood moons, instead of all at once.&lt;/li&gt;
-&lt;li&gt;Blood moon spawn cap is set to equal the vanilla cap, to keep spawns TPS friendly.&lt;/li&gt;
-&lt;li&gt;Monsters do not despawn in the morning (but they do burn to death).&lt;/li&gt;
+&lt;li&gt;Blood moon spawn cap is set at 300% of vanilla.&lt;/li&gt;
+&lt;li&gt;Blood moon-spawned monsters despawn in the morning.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;rockhounding-mod:2dc582e763001218f60802f283920a1d&#34;&gt;Rockhounding Mod&lt;/h2&gt;
@@ -799,7 +800,7 @@
 &lt;h2 id=&#34;spice-of-life:2dc582e763001218f60802f283920a1d&#34;&gt;Spice of Life&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Food history length is 20&lt;/li&gt;
+&lt;li&gt;Food history length is 30&lt;/li&gt;
 &lt;li&gt;Food history uses hunger restored instead of food named. For example, it will remember the last 5 items that restored 4 food, or the last 10 items that restored 2 food. Generally, this makes it so higher-nutrition foods require less variety than lower nutrition.&lt;br /&gt;&lt;/li&gt;
 &lt;li&gt;Previously eaten items are less nutritious.&lt;/li&gt;
 &lt;/ul&gt;
@@ -807,8 +808,8 @@
 &lt;h2 id=&#34;vanilla:2dc582e763001218f60802f283920a1d&#34;&gt;Vanilla&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill)&lt;/li&gt;
-&lt;li&gt;Vanilla armors are removed.&lt;/li&gt;
+&lt;li&gt;Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill or hammer)&lt;/li&gt;
+&lt;li&gt;Vanilla armor crafting is disabled&amp;hellip;find them in dungeons and monster loot.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;void-monster:2dc582e763001218f60802f283920a1d&#34;&gt;Void Monster&lt;/h2&gt;
