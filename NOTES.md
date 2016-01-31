@@ -16,4 +16,5 @@
 - Remove nuclear waste from reward bags.
 
 ## Pack changes
-
+- Forestry Ammo Bags can hold ammo again.
+- HarvestCraft presser now has recipes again.
