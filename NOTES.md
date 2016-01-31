@@ -9,20 +9,11 @@
 
 ## TODO
 
-- Balance RFTools and other new mods' recipes
-- Balance MP suits recipes.
-- Theme configuration for Roguelike http://pastebin.com/MGfWYbXR http://pastebin.com/U0tVKhpA
-- Add more advanced ways of converting Raw Harder Ores to their non-raw equivalents. 
-- More loot in roguelikes.
-- Update tower designs
-- Add server tips to website
 - Pneumaticraft PCBs crafted in Assembly Table or similar.
 - Block fall pass
 - Crop noob guide images
 - Seeds in chests
 - Remove nuclear waste from reward bags.
-- Add Forge Essentials
-- Test Map Writer
 
 ## Pack changes
 
