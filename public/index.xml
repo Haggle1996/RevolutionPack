@@ -2,33 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>REVOLUTION|2</title>
-    <link>http://localhost:1313/</link>
+    <link>http://revolutionpack.info/</link>
     <description>Recent content on REVOLUTION|2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Fri, 22 Jan 2016 15:53:34 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2016 15:53:34 -0700</lastBuildDate>
+    <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>REVOLUTION|2 2.1.0.0 BETA Update!</title>
-      <link>http://localhost:1313/post/2100beta/</link>
-      <pubDate>Fri, 22 Jan 2016 15:53:34 -0700</pubDate>
+      <link>http://revolutionpack.info/post/2100beta/</link>
+      <pubDate>Sat, 30 Jan 2016 15:53:34 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/2100beta/</guid>
+      <guid>http://revolutionpack.info/post/2100beta/</guid>
       <description>
 
 &lt;p&gt;Hello, everyone! Welcome to the REVOLUTION|2 Beta release!&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s been a long, hard month of testing and preparing, but we&amp;rsquo;re finally ready to release the Beta of REVOLUTION|2. We still have more work to do, particularly in the HQM and mod-balance department; however, the pack is stable at this point, and any worlds you create (regardless of world type) should be compatible with new pack updates for a long time to come.&lt;/p&gt;
 
-&lt;p&gt;Before I go any further, I need to take a moment to thank all the people who contributed content and/or support to this pack. They did an awesome job and REVOLUTION|2 wouldn&amp;rsquo;t be here without them:
-- DaMachinator who contributed the custom bees and physics updates, and frequently answers bug reports and questions on the issue tracker and IRC.
-- DorinnB for his beautiful work on the Recurrent Complex world structures.
-- Solego&amp;rsquo;s excellent noob guides and hard work on the HQM quests.
-- NachtRaben, SerenityGene, Toksyuryel, DragGon7601, soleplayer, and the entire host of players on the #Revolution channel.&lt;/p&gt;
+&lt;p&gt;Before I go any further, I need to take a moment to thank all the people who contributed content and/or support to this pack. They did an awesome job and REVOLUTION|2 wouldn&amp;rsquo;t be here without them:&lt;/p&gt;
 
-&lt;p&gt;Stay tuned. There&amp;rsquo;s still more content and surprises coming to REVOLUTION|2!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DaMachinator who contributed the custom bees and physics updates, and frequently answers bug reports and questions on the issue tracker and IRC.&lt;/li&gt;
+&lt;li&gt;DorinnB for his beautiful work on the Recurrent Complex world structures.&lt;/li&gt;
+&lt;li&gt;Solego&amp;rsquo;s excellent noob guides and hard work on the HQM quests.&lt;/li&gt;
+&lt;li&gt;NachtRaben, SerenityGene, Toksyuryel, DragGon7601, soleplayer, and the entire host of players on the #Revolution channel.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Currently, only the first TWO chapters of the HQM quests are included in the pack. The remaining chapters will be delivered over the course of the next few days. Stay tuned. There&amp;rsquo;s still more content and surprises coming to REVOLUTION|2!&lt;/p&gt;
 
 &lt;h3 id=&#34;known-issues:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Known Issues&lt;/h3&gt;
 
@@ -72,12 +75,12 @@
 
 &lt;h3 id=&#34;updated-mods:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Updated Mods&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224472-mod/files/2277393&#34;&gt;AppleCore-mc1.7.10-1.3.0&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224472-mod/files/2277393&#34;&gt;AppleCore-mc1.7.10-1.3.0&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228529-mod/files/2279141&#34;&gt;BetterFoliage-MC1.7.10-2.0.3&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69162-mod/files/2277478&#34;&gt;CoFHCore-1.7.103.1.0-323&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2277392&#34;&gt;ClimateControl-0.4.beta38&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232131-mod/files/2277197&#34;&gt;defaultkeys-mc1.7.10-1.0.28&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2279139&#34;&gt;DynamicSurroundings-1.7.10-1.0.4.1 BETA&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2279139&#34;&gt;DynamicSurroundings-1.7.10-1.0.4.1 BETA&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229218-mod/files/2279025&#34;&gt;ExtraCells-1.7.10-2.3.8&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://forum.industrial-craft.net/index.php?page=Thread&amp;amp;amp;threadID=10820&#34;&gt;FastCraft 1.22-ctest18&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2277331&#34;&gt;FTBUtilities-1.7.10-1.0.16&lt;/a&gt;&lt;br /&gt;
@@ -87,9 +90,9 @@
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238770-mod/files/2277067&#34;&gt;Galaxy Space 1.0.5&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222838-mod/files/2277144&#34;&gt;Headcrumbs-1.7.3&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223815-mod/files/2276684&#34;&gt;IGW-Mod-1.7.10-1.1.12-34-universal&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235442-mod/files/2278886&#34;&gt;ModularPowersuits-0.11.0.300&lt;/a&gt;
+&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235442-mod/files/2278886&#34;&gt;ModularPowersuits-0.11.0.300&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224125-mod/files/2279020&#34;&gt;PneumaticCraft-1.7.10-1.12.5-148-universal&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://github.com/Team-RTG/Realistic-Terrain-Generation&#34;&gt;Realistic Terrain Generation 0.5.0-RC2&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/Team-RTG/Realistic-Terrain-Generation&#34;&gt;Realistic Terrain Generation 0.5.0&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224641-mod/files/2278966&#34;&gt;rftools-4.21&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2277607&#34;&gt;Rockhounding Mod v3.23b&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/220811-mod/files/2277396&#34;&gt;SpiceOfLife-mc1.7.10-1.3.1&lt;/a&gt;&lt;br /&gt;
@@ -105,10 +108,10 @@
     
     <item>
       <title>REVOLUTION|2 2.0.3.0 Update!</title>
-      <link>http://localhost:1313/post/2030alpha/</link>
+      <link>http://revolutionpack.info/post/2030alpha/</link>
       <pubDate>Sat, 16 Jan 2016 10:08:56 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/2030alpha/</guid>
+      <guid>http://revolutionpack.info/post/2030alpha/</guid>
       <description>
 
 &lt;p&gt;Hello, everyone! Welcome to another exciting installment of REVOLUTION|2!&lt;/p&gt;
@@ -175,10 +178,10 @@
     
     <item>
       <title>10,000 Downloads!</title>
-      <link>http://localhost:1313/post/10kdownloads/</link>
+      <link>http://revolutionpack.info/post/10kdownloads/</link>
       <pubDate>Sat, 16 Jan 2016 10:07:56 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/10kdownloads/</guid>
+      <guid>http://revolutionpack.info/post/10kdownloads/</guid>
       <description>&lt;p&gt;Only a little more than a couple of weeks after release, REVOLUTION|2 hit 10,000 downloads today! Thank you all for the downloads and keep enjoying the pack!&lt;/p&gt;
 
 &lt;p&gt;~Haggle1996&lt;/p&gt;
@@ -187,10 +190,10 @@
     
     <item>
       <title>REVOLUTION|2 2.0.2.0 Update!</title>
-      <link>http://localhost:1313/post/2020alpha/</link>
+      <link>http://revolutionpack.info/post/2020alpha/</link>
       <pubDate>Fri, 08 Jan 2016 16:11:10 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/2020alpha/</guid>
+      <guid>http://revolutionpack.info/post/2020alpha/</guid>
       <description>
 
 &lt;p&gt;Hello, Everyone!&lt;/p&gt;
@@ -257,10 +260,10 @@
     
     <item>
       <title>REVOLUTION|2 2.0.1.0 Update!</title>
-      <link>http://localhost:1313/post/2010alpha/</link>
+      <link>http://revolutionpack.info/post/2010alpha/</link>
       <pubDate>Sun, 03 Jan 2016 19:15:49 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/2010alpha/</guid>
+      <guid>http://revolutionpack.info/post/2010alpha/</guid>
       <description>
 
 &lt;p&gt;Hello, Everyone!&lt;/p&gt;
@@ -293,20 +296,20 @@
     
     <item>
       <title>2500 Downloads!</title>
-      <link>http://localhost:1313/post/twentyfive/</link>
+      <link>http://revolutionpack.info/post/twentyfive/</link>
       <pubDate>Sun, 03 Jan 2016 11:45:20 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/twentyfive/</guid>
+      <guid>http://revolutionpack.info/post/twentyfive/</guid>
       <description>&lt;p&gt;After just a few days, REVOLUTION|2 has already hit 2,500 downloads and is rising up the charts fast. Thank you all for the support and kind words. I&amp;rsquo;m extremely pleased with the stable state of the alpha &amp;ndash; the beta is on it&amp;rsquo;s way and should be here any day.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Fifty Downloads!</title>
-      <link>http://localhost:1313/post/50downloads/</link>
+      <link>http://revolutionpack.info/post/50downloads/</link>
       <pubDate>Thu, 31 Dec 2015 00:26:43 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/50downloads/</guid>
+      <guid>http://revolutionpack.info/post/50downloads/</guid>
       <description>&lt;p&gt;Only took an hour&amp;hellip;REVOLUTION|2 hit 50 downloads and is well on its way to 100 in a few more minutes! Thank you all for downloading, and I hope you enjoy the pack!&lt;/p&gt;
 
 &lt;p&gt;Just a piece of trivia: Revolution 2 has been played by more in the first 60 minutes of it&amp;rsquo;s existance than Revolution 1 did in it&amp;rsquo;s first week!&lt;/p&gt;
@@ -317,10 +320,10 @@
     
     <item>
       <title>Revolution|2 Alpha 1 on AT Launcher!</title>
-      <link>http://localhost:1313/post/version2alpha1/</link>
+      <link>http://revolutionpack.info/post/version2alpha1/</link>
       <pubDate>Sun, 27 Dec 2015 15:54:22 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/version2alpha1/</guid>
+      <guid>http://revolutionpack.info/post/version2alpha1/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s happening! Revolution|2 Alpha 1 has been pushed to the AT Launcher, and should be appearing soon in your pack list. Revolution|2 is the continuation of the original Revolution pack on the AT Launcher. Hundreds of hours of development and testing have gone into making Revolution|2 a significantly new and exciting game, distinctly different from the original Revolution, while retaining the best aspects of the original. I’d like to take a moment here to thank all those that made the original Revolution spectacular (particularly Ieldra, SentinalH, CyanideX, DorinnB, Solego, and all of the pack testers on the development server. I’d also like to extend a heap of gratitude to NachtRaben and DaMachinator, who contributed to the development of Revolution|2.&lt;/p&gt;
 
 &lt;p&gt;Revolution|2 is an extensive revamp of the original, featuring many new and updated mods, in addition to old familiars and favorites. Please check out the Gameplay Changes article (available from the menu) for details about the pack, and keep your eye here (or on the launcher screen within the pack) for breaking news and updates.&lt;/p&gt;
@@ -331,10 +334,10 @@
     
     <item>
       <title>New Website</title>
-      <link>http://localhost:1313/post/2015-12-23-newwebsite/</link>
+      <link>http://revolutionpack.info/post/2015-12-23-newwebsite/</link>
       <pubDate>Wed, 23 Dec 2015 13:24:22 -0700</pubDate>
       
-      <guid>http://localhost:1313/post/2015-12-23-newwebsite/</guid>
+      <guid>http://revolutionpack.info/post/2015-12-23-newwebsite/</guid>
       <description>&lt;p&gt;With the impending release of Revolution|2, I thought it would be a good time to launch the new website! Yay!&lt;/p&gt;
 
 &lt;p&gt;Content for Revolution 1, as well as many relevant pack links, can be accessed through the menu at the top right.&lt;/p&gt;
@@ -345,10 +348,10 @@
     
     <item>
       <title>REVOLUTION|2 - Gameplay Changes</title>
-      <link>http://localhost:1313/article/rev2-gameplay-changes/</link>
+      <link>http://revolutionpack.info/article/rev2-gameplay-changes/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:42 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/rev2-gameplay-changes/</guid>
+      <guid>http://revolutionpack.info/article/rev2-gameplay-changes/</guid>
       <description>
 
 &lt;p&gt;Revolution|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don&amp;rsquo;t expect everything to work the same as it did in the original Revolution.&lt;/p&gt;
@@ -837,10 +840,10 @@
     
     <item>
       <title>Performance Tips</title>
-      <link>http://localhost:1313/article/rev2-tips/</link>
+      <link>http://revolutionpack.info/article/rev2-tips/</link>
       <pubDate>Sat, 30 Jan 2016 12:27:34 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/rev2-tips/</guid>
+      <guid>http://revolutionpack.info/article/rev2-tips/</guid>
       <description>
 
 &lt;hr /&gt;
@@ -900,10 +903,10 @@
     
     <item>
       <title>REVOLUTION|1 - Gameplay Changes</title>
-      <link>http://localhost:1313/article/rev1-gameplay-changes/</link>
+      <link>http://revolutionpack.info/article/rev1-gameplay-changes/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/rev1-gameplay-changes/</guid>
+      <guid>http://revolutionpack.info/article/rev1-gameplay-changes/</guid>
       <description>
 
 &lt;p&gt;This page outlines the various game play changes to individual mods. There are quite a few and most can be found in NEI. If you can&amp;rsquo;t find or create your favorite recipe, this page is your last stop before logging an issue in the tracker.&lt;/p&gt;
@@ -1241,10 +1244,10 @@
     
     <item>
       <title>First Day Guide</title>
-      <link>http://localhost:1313/article/rev1-first-day/</link>
+      <link>http://revolutionpack.info/article/rev1-first-day/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
       
-      <guid>http://localhost:1313/article/rev1-first-day/</guid>
+      <guid>http://revolutionpack.info/article/rev1-first-day/</guid>
       <description>
 
 &lt;h3 id=&#34;alternate-terrain-generator-atg-or-biomes-o-plenty-bop:b116e34dbf360dd5c87d639bee733950&#34;&gt;Alternate Terrain Generator (ATG) or Biomes O&amp;rsquo; Plenty (BoP)&lt;/h3&gt;
