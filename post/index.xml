@@ -7,8 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 30 Jan 2016 15:53:34 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 31 Jan 2016 20:34:01 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 2.1.0.1 BETA Update!</title>
+      <link>http://revolutionpack.info/post/2101beta/</link>
+      <pubDate>Sun, 31 Jan 2016 20:34:01 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2101beta/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Patch 2.1.0.1 is just a tiny update to fix some various bugs reported today with the pack. No big changes. Move along. There&amp;rsquo;s nothing to see here.&lt;/p&gt;
+
+&lt;p&gt;As always, if your HQM quests are reset or otherwise altered, use /hqm edit &lt;playername&gt; (with cheats enabled) to fix your book.&lt;/p&gt;
+
+&lt;h3 id=&#34;bugs-squashed:3b47999b397651db312ff5cc3b8e866c&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed the trigger quest for HQM Chapter 2, so you no longer need to hold an iron hoe to access them.&lt;/li&gt;
+&lt;li&gt;HarvestCraft presser has recipes again&lt;/li&gt;
+&lt;li&gt;Forestry Ammo bags now hold ammo again&lt;/li&gt;
+&lt;li&gt;Angel blocks now float (thanks to DaMachinator)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 2.1.0.0 BETA Update!</title>
