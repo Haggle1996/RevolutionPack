@@ -7,8 +7,74 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 30 Jan 2016 15:53:34 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Feb 2016 21:29:51 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 - Beta 2.1.1.0 Update!</title>
+      <link>http://revolutionpack.info/post/2110beta/</link>
+      <pubDate>Mon, 01 Feb 2016 21:29:51 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2110beta/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;My apologies for the daily pack updates, but we&amp;rsquo;re going through a period of very rapid stabilization now that the beta period has started. Keep your fingers crossed that there won&amp;rsquo;t be too many more of these. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Server operators&lt;/strong&gt; be sure to back up your /local folder and restore after the update to retain FTB Utilities settings&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:e99853a25b5c7f3ddb9ee958b0a728bd&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reduced Blood Moon mob count by 33%, as many servers can&amp;rsquo;t handle the huge number of mob spawns.&lt;/li&gt;
+&lt;li&gt;More environmental sounds from Dynamic Surroundings mod&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:e99853a25b5c7f3ddb9ee958b0a728bd&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed the various foods in HQM chapter 2 that couldn&amp;rsquo;t be detected because the food was rotten.&lt;/li&gt;
+&lt;li&gt;Crash when clicking the server guide book to the left of the inventory window.&lt;/li&gt;
+&lt;li&gt;Auto-backups controlled by FTB Utilities should work again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;updated-mods:e99853a25b5c7f3ddb9ee958b0a728bd&#34;&gt;Updated Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2279555&#34;&gt;DynamicSurroundings-1.7.10-1.0.4.2BETA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2279531&#34;&gt;FTBUtilities-1.7.10-1.0.17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2279530&#34;&gt;FTBLib-1.7.10-1.0.17&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223008-mod/files/2279369&#34;&gt;OpenComputers-MC1.7.10-1.5.22.43-universal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.1.0.1 BETA Update!</title>
+      <link>http://revolutionpack.info/post/2101beta/</link>
+      <pubDate>Sun, 31 Jan 2016 20:34:01 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2101beta/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Patch 2.1.0.1 is just a tiny update to fix some various bugs reported today with the pack. No big changes. Move along. There&amp;rsquo;s nothing to see here.&lt;/p&gt;
+
+&lt;p&gt;As always, if your HQM quests are reset or otherwise altered, use /hqm edit &lt;playername&gt; (with cheats enabled) to fix your book.&lt;/p&gt;
+
+&lt;h3 id=&#34;bugs-squashed:3b47999b397651db312ff5cc3b8e866c&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed the trigger quest for HQM Chapter 2, so you no longer need to hold an iron hoe to access them.&lt;/li&gt;
+&lt;li&gt;HarvestCraft presser has recipes again&lt;/li&gt;
+&lt;li&gt;Forestry Ammo bags now hold ammo again&lt;/li&gt;
+&lt;li&gt;Angel blocks now float and can be used to support other blocks, like glowstone (thanks to DaMachinator)&lt;/li&gt;
+&lt;li&gt;All the biome-specific fog has been nerfed 70-80%.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 2.1.0.0 BETA Update!</title>
