@@ -14,7 +14,19 @@
 - Crop noob guide images
 - Seeds in chests
 - Remove nuclear waste from reward bags.
+- EiraIRC version in player name
+Haggle1996: ATLauncher\Instances\Revolution2\config\eirairc\shared.cfg
+<OmegaCenti>     S:description=EiraIRC Bot change to relevant version number
+- Reduce frequency of RecComp structures
+- Blood moon tint back
+- IE metal parts must be made on a metal press
+- Fix REV1 metal grip conflict with IE and Stefinus
+- Fix at least aura nodes
+- windmill quest has wrong amount of vane crafts.
+- RoC coke blocks in blast furnace
+- Fix Coal recipe from Rockhounding
+- Noob guide images borked
+- Coal coke needs too much for blast furnace.
 
 ## Pack changes
-- Forestry Ammo Bags can hold ammo again.
-- HarvestCraft presser now has recipes again.
+- Fixed thaumcraft nodes falling.

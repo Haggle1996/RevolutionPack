@@ -19,6 +19,7 @@
   },
   "general": {
     "blocked_entities": [],
+    "disable_chunkloading": false,
     "restart_timer": 0.0,
     "safe_spawn": false,
     "sign_home": true,
