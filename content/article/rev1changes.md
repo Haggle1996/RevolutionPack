@@ -22,6 +22,9 @@ This page outlines the various game play changes to individual mods. There are q
 - Most machines require steel (plates, blocks, or ingots), RotaryCraft HSLA Steel, or both.
 - A number of key mod components are made on the BuildCraft Assembly Table
 
+Ore Gen Chart courtesy Nathan Roberts
+![REVOLUTION|1 Ore Chart](/images/Rev1Ores.png)
+
 ### Apple & Milk & Tea
 - WipeBox doesn't create infinite paper
 - Princess clams do not spawn

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on REVOLUTION|2</title>
-    <link>http://revolutionpack.info/article/</link>
+    <link>http://localhost:1313/article/</link>
     <description>Recent content in Articles on REVOLUTION|2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
     <lastBuildDate>Wed, 23 Dec 2015 11:53:42 -0700</lastBuildDate>
-    <atom:link href="http://revolutionpack.info/article/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/article/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>REVOLUTION|2 - Gameplay Changes</title>
-      <link>http://revolutionpack.info/article/rev2-gameplay-changes/</link>
+      <link>http://localhost:1313/article/rev2-gameplay-changes/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:42 -0700</pubDate>
       
-      <guid>http://revolutionpack.info/article/rev2-gameplay-changes/</guid>
+      <guid>http://localhost:1313/article/rev2-gameplay-changes/</guid>
       <description>
 
 &lt;p&gt;Revolution|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don&amp;rsquo;t expect everything to work the same as it did in the original Revolution.&lt;/p&gt;
@@ -504,10 +504,10 @@
     
     <item>
       <title>Performance Tips</title>
-      <link>http://revolutionpack.info/article/rev2-tips/</link>
+      <link>http://localhost:1313/article/rev2-tips/</link>
       <pubDate>Sat, 30 Jan 2016 12:27:34 -0700</pubDate>
       
-      <guid>http://revolutionpack.info/article/rev2-tips/</guid>
+      <guid>http://localhost:1313/article/rev2-tips/</guid>
       <description>
 
 &lt;hr /&gt;
@@ -567,10 +567,10 @@
     
     <item>
       <title>REVOLUTION|1 - Gameplay Changes</title>
-      <link>http://revolutionpack.info/article/rev1-gameplay-changes/</link>
+      <link>http://localhost:1313/article/rev1-gameplay-changes/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
       
-      <guid>http://revolutionpack.info/article/rev1-gameplay-changes/</guid>
+      <guid>http://localhost:1313/article/rev1-gameplay-changes/</guid>
       <description>
 
 &lt;p&gt;This page outlines the various game play changes to individual mods. There are quite a few and most can be found in NEI. If you can&amp;rsquo;t find or create your favorite recipe, this page is your last stop before logging an issue in the tracker.&lt;/p&gt;
@@ -584,6 +584,10 @@
 &lt;li&gt;Most machines require steel (plates, blocks, or ingots), RotaryCraft HSLA Steel, or both.&lt;/li&gt;
 &lt;li&gt;A number of key mod components are made on the BuildCraft Assembly Table&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Ore Gen Chart courtesy Nathan Roberts
+&lt;img src=&#34;http://localhost:1313/images/Rev1Ores.png&#34; alt=&#34;REVOLUTION|1 Ore Chart&#34; /&gt;
+&lt;/p&gt;
 
 &lt;h3 id=&#34;apple-milk-tea:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Apple &amp;amp; Milk &amp;amp; Tea&lt;/h3&gt;
 
@@ -908,10 +912,10 @@
     
     <item>
       <title>First Day Guide</title>
-      <link>http://revolutionpack.info/article/rev1-first-day/</link>
+      <link>http://localhost:1313/article/rev1-first-day/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
       
-      <guid>http://revolutionpack.info/article/rev1-first-day/</guid>
+      <guid>http://localhost:1313/article/rev1-first-day/</guid>
       <description>
 
 &lt;h3 id=&#34;alternate-terrain-generator-atg-or-biomes-o-plenty-bop:b116e34dbf360dd5c87d639bee733950&#34;&gt;Alternate Terrain Generator (ATG) or Biomes O&amp;rsquo; Plenty (BoP)&lt;/h3&gt;

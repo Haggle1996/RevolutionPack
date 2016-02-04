@@ -2,83 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://revolutionpack.info/</loc>
-    <lastmod>2016-02-01T21:29:51-07:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2016-02-03T16:56:19-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/2110beta/</loc>
+    <loc>http://localhost:1313/post/2120beta/</loc>
+    <lastmod>2016-02-03T16:56:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/2110beta/</loc>
     <lastmod>2016-02-01T21:29:51-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/2101beta/</loc>
+    <loc>http://localhost:1313/post/2101beta/</loc>
     <lastmod>2016-01-31T20:34:01-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/2100beta/</loc>
+    <loc>http://localhost:1313/post/2100beta/</loc>
     <lastmod>2016-01-30T15:53:34-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/2030alpha/</loc>
+    <loc>http://localhost:1313/post/2030alpha/</loc>
     <lastmod>2016-01-16T10:08:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/10kdownloads/</loc>
+    <loc>http://localhost:1313/post/10kdownloads/</loc>
     <lastmod>2016-01-16T10:07:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/2020alpha/</loc>
+    <loc>http://localhost:1313/post/2020alpha/</loc>
     <lastmod>2016-01-08T16:11:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/2010alpha/</loc>
+    <loc>http://localhost:1313/post/2010alpha/</loc>
     <lastmod>2016-01-03T19:15:49-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/twentyfive/</loc>
+    <loc>http://localhost:1313/post/twentyfive/</loc>
     <lastmod>2016-01-03T11:45:20-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/50downloads/</loc>
+    <loc>http://localhost:1313/post/50downloads/</loc>
     <lastmod>2015-12-31T00:26:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/version2alpha1/</loc>
+    <loc>http://localhost:1313/post/version2alpha1/</loc>
     <lastmod>2015-12-27T15:54:22-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/post/2015-12-23-newwebsite/</loc>
+    <loc>http://localhost:1313/post/2015-12-23-newwebsite/</loc>
     <lastmod>2015-12-23T13:24:22-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/article/rev2-gameplay-changes/</loc>
+    <loc>http://localhost:1313/article/rev2-gameplay-changes/</loc>
     <lastmod>2015-12-23T11:53:42-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/article/rev2-tips/</loc>
+    <loc>http://localhost:1313/article/rev2-tips/</loc>
     <lastmod>2016-01-30T12:27:34-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/article/rev1-gameplay-changes/</loc>
+    <loc>http://localhost:1313/article/rev1-gameplay-changes/</loc>
     <lastmod>2015-12-23T11:53:41-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://revolutionpack.info/article/rev1-first-day/</loc>
+    <loc>http://localhost:1313/article/rev1-first-day/</loc>
     <lastmod>2015-12-23T11:53:41-07:00</lastmod>
   </url>
   
