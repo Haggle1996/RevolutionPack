@@ -13,17 +13,7 @@
 - Block fall pass
 - Crop noob guide images
 - Seeds in chests
-- Remove nuclear waste from reward bags.
-- Reduce frequency of RecComp structures
-- Blood moon tint back
-- IE metal parts must be made on a metal press
 - Fix REV1 metal grip conflict with IE and Stefinus
-- Fix at least aura nodes
-- windmill quest has wrong amount of vane crafts.
-- RoC coke blocks in blast furnace
-- Fix Coal recipe from Rockhounding
-- Noob guide images borked
-- Coal coke needs too much for blast furnace.
+- IE metal parts must be made on a metal press
 
 ## Pack changes
-- Fixed thaumcraft nodes falling.
