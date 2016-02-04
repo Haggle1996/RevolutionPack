@@ -7,8 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Mon, 01 Feb 2016 21:29:51 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2016 16:56:19 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 - Beta 2.1.2.0 Update!</title>
+      <link>http://revolutionpack.info/post/2120beta/</link>
+      <pubDate>Wed, 03 Feb 2016 16:56:19 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2120beta/</guid>
+      <description>
+
+&lt;p&gt;Hello, everyone!&lt;/p&gt;
+
+&lt;p&gt;Fingers crossed that this will be the last stability update to REVOLUTION|2 for some time. This update squashes a lot of the outstanding issues with the pack, and in general, you should have a much more reliably-stable experience going forward.&lt;/p&gt;
+
+&lt;p&gt;As part of squashing all the instability, we&amp;rsquo;ve had to say a temporary goodbye to Galaxy Space. For one reason or another, it&amp;rsquo;s having identity issues. And as the mod only provides content post-Mars, I thought it safer to just remove it for now. Hopefully it will make a reappearance in the very near future.&lt;/p&gt;
+
+&lt;p&gt;Enough sad news, we have a new mod, Not Enough Keys! NEK adds a bunch of modifiers to your keystrokes, vastly increasing the number of available keys for binding!&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IRC handles changed back to just IGN. REVOLUTION version can be obtained by doing a WHOIS on the user (in the Bot field)&lt;/li&gt;
+&lt;li&gt;Reduced frequency of Recurrent Complex structures&lt;/li&gt;
+&lt;li&gt;Added back blood moon tint since it&amp;rsquo;s no longer every night (by request from players).&lt;/li&gt;
+&lt;li&gt;Wood once again can be turned into charcoal in any furnace.&lt;/li&gt;
+&lt;li&gt;RotaryCraft Coal Coke can be used as a fuel in the Immersive Engineering Blast Furnace, albeit at a lower efficiency than IE Coke.&lt;/li&gt;
+&lt;li&gt;Immersive Engineering&amp;rsquo;s Coal Coke block now has the appropriate burn time and fuel value.&lt;/li&gt;
+&lt;li&gt;Nuclear waste can no longer be found in HQM reward bags.&lt;/li&gt;
+&lt;li&gt;Removed the uber-HarvestCraft rewards from HQM reward bags.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Replaced Tweaked Inventory Tweaks with classic Inventory Tweaks, as it&amp;rsquo;s better to have a working mod with known problems then just a broken one.&lt;/li&gt;
+&lt;li&gt;Thaumcraft nodes no longer fall when interacted with&lt;/li&gt;
+&lt;li&gt;FTB Utilities&amp;rsquo; guide book images work again.&lt;/li&gt;
+&lt;li&gt;Fixed &amp;lsquo;Tilting Spears at Windmills&amp;rsquo; quest to require correct amount of vanes.&lt;/li&gt;
+&lt;li&gt;You can now unlock Chapter 2 again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/notenoughkeys&#34;&gt;Not Enough Keys&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2279687&#34;&gt;ClimateControl-0.4.beta39&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2279763&#34;&gt;FTBLib-1.7.10-1.0.17.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;GalactiCraft 3.0.12.437&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2412548-1-7-10-galaxy-space-addon-for-galacticraft-3&#34;&gt;GalaxySpace 1.0.6 STABLE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed-mods:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Galaxy Space. This is a temporary removal until issues with it are resolved.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 - Beta 2.1.1.0 Update!</title>
@@ -987,6 +1049,10 @@
 &lt;li&gt;A number of key mod components are made on the BuildCraft Assembly Table&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;Ore Gen Chart courtesy Nathan Roberts
+&lt;img src=&#34;http://revolutionpack.info/images/Rev1Ores.png&#34; alt=&#34;REVOLUTION|1 Ore Chart&#34; /&gt;
+&lt;/p&gt;
+
 &lt;h3 id=&#34;apple-milk-tea:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Apple &amp;amp; Milk &amp;amp; Tea&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -1305,53 +1371,6 @@
 &lt;li&gt;Removed the chance for baby zombies to spawn&lt;/li&gt;
 &lt;li&gt;Zombies do not summon help&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First Day Guide</title>
-      <link>http://revolutionpack.info/article/rev1-first-day/</link>
-      <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/article/rev1-first-day/</guid>
-      <description>
-
-&lt;h3 id=&#34;alternate-terrain-generator-atg-or-biomes-o-plenty-bop:b116e34dbf360dd5c87d639bee733950&#34;&gt;Alternate Terrain Generator (ATG) or Biomes O&amp;rsquo; Plenty (BoP)&lt;/h3&gt;
-
-&lt;p&gt;When starting a new world, you have a couple of world type options &amp;ndash; either Biomes O&amp;rsquo; Plenty or ATG-Alternate Terrain Generator. I highly recommend changing your world type to ATG &amp;ndash; it generates more realistic rolling hills and surface forms, using the BoP biomes. However, on minimal-memory machines, ATG may cause some hiccups during world generation (there are some workarounds, however). Combined with the Big Trees and Streams mods, an ATG world will be unique and intriguing compared to most Minecraft worlds.&lt;/p&gt;
-
-&lt;p&gt;I also recommend enabling cheats &amp;ndash; just in case &amp;ndash; but if you&amp;rsquo;re the kind that&amp;rsquo;s susceptible to temptation, you can leave it off. We have another alternative in-game.&lt;/p&gt;
-
-&lt;h2 id=&#34;some-performance-tips:b116e34dbf360dd5c87d639bee733950&#34;&gt;Some performance tips&amp;hellip;&lt;/h2&gt;
-
-&lt;p&gt;There are a few simple things you can do to dramatically increase the performance and your enjoyment of the pack. Immediately upon entering your new world, I highly recommend you save and quit to the main menu, then reload your save. This first save will take a little longer than usual, but will result in a fully generated area around you with minimal lag. I also highly recommend you run /pregenspawn 50 (or 100&amp;hellip;its the radius, in chunks, around your spawn point) to pregenerate a large number of chunks in your vicinity, then repeat the save/load cycle once generation completes. While this will delay your adventuring into the new world, it will give you the best performance from the pack over the course of your play.&lt;/p&gt;
-
-&lt;h2 id=&#34;the-first-day:b116e34dbf360dd5c87d639bee733950&#34;&gt;The First Day&amp;hellip;&lt;/h2&gt;
-
-&lt;p&gt;Welcome to the Revolution! If you&amp;rsquo;re playing in single-player, the first thing your going to want to do is gather enough wood and wool for a crafting table and bed. There&amp;rsquo;s lots of creepy-crawly nasties at night that want to eat or kill you (and a few during the day - find someplace safe!). You&amp;rsquo;ll also want to find a safe biome &amp;ndash; swamps, marshes, deserts, and high areas above y-level 85 spawn some of the most dangerous mobs. Only venture there when you&amp;rsquo;ve got yourself some armor. You&amp;rsquo;ve been warned.&lt;/p&gt;
-
-&lt;p&gt;While wandering around, keep your eye out for Pam&amp;rsquo;s HarvestCraft Gardens (little bushy blocks in different varieties). While there&amp;rsquo;s lots of food you can eat (and you&amp;rsquo;ll need to eat a variety), these will give you a few varieties of food to eat or plant later. Early game food is going to be one of your top concerns.&lt;/p&gt;
-
-&lt;p&gt;Once you&amp;rsquo;ve found a hidey-hole to spend the night, you have a couple choices for tools: Tinker&amp;rsquo;s Construct/Tinker Tweaks or Botania (once you can mine iron with TiCo tools). Either way, you have some decisions to make. Remember that flint is crafted in a crafting grid using 3 gravel, not by digging up gravel.&lt;/p&gt;
-
-&lt;p&gt;Ore generation is completely different in this pack. Instead of the typical little blobs of ore scattered throughout a chunk, ore spawns in grand, rare veins. It may take a bit longer to find something, but once you do, you&amp;rsquo;ll come away with several stacks of what you want. Be sure to check out the Gameplay Changes page (link in page header) for details on where ore spawns.&lt;/p&gt;
-
-&lt;p&gt;Your first big goal will be to build a steel bucket (you can make clay ones in the interim &amp;ndash; but they&amp;rsquo;re single use for lava). Trust me, when you can make steel buckets, you&amp;rsquo;ve done something significant, and you&amp;rsquo;re well on your way to the advanced parts of this pack.&lt;/p&gt;
-
-&lt;p&gt;Most machines in this pack require steel (ingot or plates), HSLA Steel, or both. Start with the RotaryCraft blast furnace once you find (and can mine) iron and redstone. Mekanism or Immersive Engineering are good starts for getting your steel production up and going. Once you&amp;rsquo;ve got steel going, you&amp;rsquo;re going to need a RailCraft Rolling Mill to get plate production going. The easiest source of RF power for your Rolling Machine will be a RotaryCraft Rotational Dynamo hooked up to a RotaryCraft DC Engine. It will be slow, but it will get you your first steel plates necessary for expanding your power base.&lt;/p&gt;
-
-&lt;p&gt;Where you go from here is up to you. The ultimate &amp;lsquo;goal&amp;rsquo; of the pack, if there is one, is to build a self-sustaining colony on Mars. Your colony should feature automated ore creation, food, oxygen, limitless power, and a stable portal to and from the overworld. To do this, you&amp;rsquo;ll need to build machines from RotaryCraft, RailCraft, BuildCraft, BuildCraft Additions, GalactiCraft, and Enhanced Portals (at a minimum). You&amp;rsquo;ll most likely have to delve into Ender IO, Mekanism, and Pam&amp;rsquo;s HarvestCraft&amp;hellip;not to mention Tinker&amp;rsquo;s Construct, Botania, or Mekanism for basic tools.&lt;/p&gt;
-
-&lt;p&gt;And dinosaurs &amp;ndash; yes, you&amp;rsquo;re going to want dinosaurs on Mars.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re not one for offworld exploration, you may want to explore the world of magic. This pack features a significant amount of magic mods, namely ChromatiCraft, Botania, and Thaumcraft, plus quite a few TC addons: Forbidden Magic, Thaumic Horizons, Thaumic Energistics, Thaumic Tinkerer, Thaumcraft Gates, Automagy, and TC Nodetracker.&lt;/p&gt;
-
-&lt;p&gt;And lastly, take your time and build beautiful things. There are many decorative mods in this pack. If you&amp;rsquo;re having a hard time finding that &amp;lsquo;spot&amp;rsquo; to build your 9x9 in, perhaps its because the beautiful, rolling, lush hills of ATG, BigTrees, and Plant Mega Pack beg you to build big and grand creations. Don&amp;rsquo;t cram 5 multiblock structures, plus power gen, unlimited food, and quarrying into a 10x10x20 space &amp;ndash; build a powerhouse, an engineering shop, a vehicle assembly building (and corresponding launch pad), or a magical throne room in the trees.&lt;/p&gt;
-
-&lt;p&gt;I also highly recommend playing this pack with all of the difficulty mods: Hunger Overhaul, Better Sleeping, The Spice of Life, Zombie Awareness, and Special AI. There are tools in this pack to render every single difficulty mechanic more or less meaningless &amp;ndash; and the joy of discovering a solution to each problem is very rewarding.&lt;/p&gt;
-
-&lt;p&gt;I hope you enjoy the pack!
--Haggle1996&lt;/p&gt;
 </description>
     </item>
     
