@@ -1,7 +1,7 @@
 [
   {
     "address": "irc.esper.net",
-    "nick": "v2110-%USERNAME%",
+    "nick": "%USERNAME%",
     "bot": {},
     "theme": {},
     "settings": {},

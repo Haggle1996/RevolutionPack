@@ -3,7 +3,7 @@
 ## Predeployment List
 - Startup page update on gist
 - Update website, including changelog and general gameplay changes
-- Update version in EiraIRC configuration
+- Update version in EiraIRC configuration shared.cfg
 - Turn off Edit Mode on HQM
 - Update Warning and Install notes on pack xml
 
@@ -14,9 +14,6 @@
 - Crop noob guide images
 - Seeds in chests
 - Remove nuclear waste from reward bags.
-- EiraIRC version in player name
-Haggle1996: ATLauncher\Instances\Revolution2\config\eirairc\shared.cfg
-<OmegaCenti>     S:description=EiraIRC Bot change to relevant version number
 - Reduce frequency of RecComp structures
 - Blood moon tint back
 - IE metal parts must be made on a metal press
