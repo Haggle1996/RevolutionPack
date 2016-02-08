@@ -323,7 +323,7 @@ ore dictionary.
             <itemStack oreDictionary="dustCoal" number="1" />
         </input>
         <output>
-            <itemStack oreDictionary="oreIron" number="1" />
+            <itemStack modID="minecraft" itemName="iron_ore" number="1" />
         </output>
     </recipe>
     <recipe name="Raw Gold Ore" energyCost="96000">
@@ -332,7 +332,7 @@ ore dictionary.
             <itemStack oreDictionary="dustCoal" number="1" />
         </input>
         <output>
-            <itemStack oreDictionary="oreGold" number="1" />
+            <itemStack modID="minecraft" itemName="gold_ore" number="1" />
         </output>
     </recipe>
     <recipe name="Raw Tin Ore" energyCost="96000">
@@ -341,7 +341,7 @@ ore dictionary.
             <itemStack oreDictionary="dustCoal" number="1" />
         </input>
         <output>
-            <itemStack oreDictionary="oreTin" number="1" />
+            <itemStack modID="ElectriCraft" itemName="electricraft_block_ore" itemMeta="1" number="1" />
         </output>
     </recipe>
     <recipe name="Raw Copper Ore" energyCost="96000">
@@ -350,7 +350,7 @@ ore dictionary.
             <itemStack oreDictionary="dustCoal" number="1" />
         </input>
         <output>
-            <itemStack oreDictionary="oreCopper" number="1" />
+            <itemStack modID="ImmersiveEngineering" itemName="ore" itemMeta="0" number="1" />
         </output>
     </recipe>
     <recipe name="Raw Lead Ore" energyCost="96000">
@@ -359,7 +359,7 @@ ore dictionary.
             <itemStack oreDictionary="dustCoal" number="1" />
         </input>
         <output>
-            <itemStack oreDictionary="oreLead" number="1" />
+            <itemStack modID="ImmersiveEngineering" itemName="ore" itemMeta="2" number="1" />
         </output>
     </recipe>
     <recipe name="Raw Uranium Ore" energyCost="96000">
@@ -368,7 +368,7 @@ ore dictionary.
             <itemStack oreDictionary="dustCoal" number="1" />
         </input>
         <output>
-            <itemStack oreDictionary="oreUranium" number="1" />
+            <itemStack modID="ReactorCraft" itemName="reactorcraft_block_ore" itemMeta="1" number="1" />
         </output>
     </recipe>
     <recipe name="Raw Silver Ore" energyCost="96000">
@@ -377,7 +377,7 @@ ore dictionary.
             <itemStack oreDictionary="dustCoal" number="1" />
         </input>
         <output>
-            <itemStack oreDictionary="oreSilver" number="1" />
+            <itemStack modID="ImmersiveEngineering" itemName="ore" itemMeta="3" number="1" />
         </output>
     </recipe>
     <recipe name="Raw Nickel Ore" energyCost="96000">
@@ -386,7 +386,7 @@ ore dictionary.
             <itemStack oreDictionary="dustCoal" number="1" />
         </input>
         <output>
-            <itemStack oreDictionary="oreNickel" number="1" />
+            <itemStack modID="ImmersiveEngineering" itemName="ore" itemMeta="4" number="1" />
         </output>
     </recipe>    
     <recipe name="Raw Aluminum Ore" energyCost="96000">
@@ -395,7 +395,7 @@ ore dictionary.
             <itemStack oreDictionary="dustCoal" number="1" />
         </input>
         <output>
-            <itemStack oreDictionary="oreAluminum" number="1" />
+            <itemStack modID="ImmersiveEngineering" itemName="ore" itemMeta="1" number="1" />
         </output>
     </recipe>                                
   </recipeGroup>

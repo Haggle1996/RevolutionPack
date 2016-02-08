@@ -8,17 +8,201 @@ val rocket = <liquid:rocket_fuel>;
 
 mods.immersiveengineering.Refinery.addRecipe(fuel * 16, rocket * 8, oil * 8);
 
-# Enable harder ores processing in the blast furnace
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreIron>,<HarderOres:ore_chunk:8> * 3, 4800, <minecraft:cobblestone>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreGold>,<HarderOres:ore_chunk:9> * 3, 4800, <minecraft:cobblestone>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreTin>,<HarderOres:ore_chunk:12> * 3, 4800, <minecraft:cobblestone>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreCopper>,<HarderOres:ore_chunk:13> * 3, 4800, <minecraft:cobblestone>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreLead>,<HarderOres:ore_chunk:14> * 3, 4800, <minecraft:cobblestone>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreUranium>,<HarderOres:ore_chunk:15> * 3, 4800, <minecraft:cobblestone>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreSilver>,<HarderOres:ore_chunk:16> * 3, 4800, <minecraft:cobblestone>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreNickel>,<HarderOres:ore_chunk:17> * 3, 4800, <minecraft:cobblestone>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<HarderOres:dummyOreAluminum>,<HarderOres:ore_chunk:18> * 3, 4800, <minecraft:cobblestone>);
+# Blast furnace produce 1 ore per 4 raw ores
+mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:iron_ore>,<HarderOres:ore_chunk:8> * 4, 1200, <minecraft:cobblestone>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:gold_ore>,<HarderOres:ore_chunk:9> * 4, 1200, <minecraft:cobblestone>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ElectriCraft:electricraft_block_ore:1>,<HarderOres:ore_chunk:12> * 4, 1200, <minecraft:cobblestone>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore>,<HarderOres:ore_chunk:13> * 4, 1200, <minecraft:cobblestone>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:2>,<HarderOres:ore_chunk:14> * 4, 1200, <minecraft:cobblestone>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ReactorCraft:reactorcraft_block_ore:1>,<HarderOres:ore_chunk:15> * 4, 1200, <minecraft:cobblestone>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:3>,<HarderOres:ore_chunk:16> * 4, 1200, <minecraft:cobblestone>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:4>,<HarderOres:ore_chunk:17> * 4, 1200, <minecraft:cobblestone>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:1>,<HarderOres:ore_chunk:18> * 4, 1200, <minecraft:cobblestone>);
 
+# Crusher produces 4 tiny per 1 raw ore
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:8> * 4,<HarderOres:ore_chunk:8>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:9> * 4,<HarderOres:ore_chunk:9>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:12> * 4,<HarderOres:ore_chunk:12>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:13> * 4,<HarderOres:ore_chunk:13>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:14> * 4,<HarderOres:ore_chunk:14>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:15> * 4,<HarderOres:ore_chunk:15>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:16> * 4,<HarderOres:ore_chunk:16>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:17> * 4,<HarderOres:ore_chunk:17>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:18> * 4,<HarderOres:ore_chunk:18>, 12800, null, 0.0);
+
+# Crusher produces 4 raw ores per hardness
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 64,<HarderOres:ore_iron:15>, 25600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 60,<HarderOres:ore_iron:14>, 24000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 56,<HarderOres:ore_iron:13>, 22400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 52,<HarderOres:ore_iron:12>, 20800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 48,<HarderOres:ore_iron:11>, 19200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 44,<HarderOres:ore_iron:10>, 17600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 40,<HarderOres:ore_iron:9>, 16000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 36,<HarderOres:ore_iron:8>, 14400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 32,<HarderOres:ore_iron:7>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 28,<HarderOres:ore_iron:6>, 11200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 24,<HarderOres:ore_iron:5>, 9600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 20,<HarderOres:ore_iron:4>, 8000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 16,<HarderOres:ore_iron:3>, 6400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 12,<HarderOres:ore_iron:2>, 4800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 8,<HarderOres:ore_iron:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:8> * 4,<HarderOres:ore_iron:0>, 1600, null, 0.0);
+
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 64,<HarderOres:ore_gold:15>, 25600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 60,<HarderOres:ore_gold:14>, 24000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 56,<HarderOres:ore_gold:13>, 22400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 52,<HarderOres:ore_gold:12>, 20800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 48,<HarderOres:ore_gold:11>, 19200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 44,<HarderOres:ore_gold:10>, 17600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 40,<HarderOres:ore_gold:9>, 16000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 36,<HarderOres:ore_gold:8>, 14400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 32,<HarderOres:ore_gold:7>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 28,<HarderOres:ore_gold:6>, 11200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 24,<HarderOres:ore_gold:5>, 9600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 20,<HarderOres:ore_gold:4>, 8000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 16,<HarderOres:ore_gold:3>, 6400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 12,<HarderOres:ore_gold:2>, 4800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 8,<HarderOres:ore_gold:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:9> * 4,<HarderOres:ore_gold:0>, 1600, null, 0.0);
+
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 64,<HarderOres:ore_tin:15>, 25600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 60,<HarderOres:ore_tin:14>, 24000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 56,<HarderOres:ore_tin:13>, 22400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 52,<HarderOres:ore_tin:12>, 20800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 48,<HarderOres:ore_tin:11>, 19200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 44,<HarderOres:ore_tin:10>, 17600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 40,<HarderOres:ore_tin:9>, 16000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 36,<HarderOres:ore_tin:8>, 14400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 32,<HarderOres:ore_tin:7>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 28,<HarderOres:ore_tin:6>, 11200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 24,<HarderOres:ore_tin:5>, 9600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 20,<HarderOres:ore_tin:4>, 8000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 16,<HarderOres:ore_tin:3>, 6400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 12,<HarderOres:ore_tin:2>, 4800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 8,<HarderOres:ore_tin:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:12> * 4,<HarderOres:ore_tin:0>, 1600, null, 0.0);
+
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 64,<HarderOres:ore_copper:15>, 25600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 60,<HarderOres:ore_copper:14>, 24000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 56,<HarderOres:ore_copper:13>, 22400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 52,<HarderOres:ore_copper:12>, 20800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 48,<HarderOres:ore_copper:11>, 19200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 44,<HarderOres:ore_copper:10>, 17600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 40,<HarderOres:ore_copper:9>, 16000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 36,<HarderOres:ore_copper:8>, 14400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 32,<HarderOres:ore_copper:7>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 28,<HarderOres:ore_copper:6>, 11200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 24,<HarderOres:ore_copper:5>, 9600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 20,<HarderOres:ore_copper:4>, 8000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 16,<HarderOres:ore_copper:3>, 6400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 12,<HarderOres:ore_copper:2>, 4800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 8,<HarderOres:ore_copper:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:13> * 4,<HarderOres:ore_copper:0>, 1600, null, 0.0);
+
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 64,<HarderOres:ore_lead:15>, 25600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 60,<HarderOres:ore_lead:14>, 24000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 56,<HarderOres:ore_lead:13>, 22400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 52,<HarderOres:ore_lead:12>, 20800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 48,<HarderOres:ore_lead:11>, 19200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 44,<HarderOres:ore_lead:10>, 17600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 40,<HarderOres:ore_lead:9>, 16000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 36,<HarderOres:ore_lead:8>, 14400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 32,<HarderOres:ore_lead:7>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 28,<HarderOres:ore_lead:6>, 11200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 24,<HarderOres:ore_lead:5>, 9600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 20,<HarderOres:ore_lead:4>, 8000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 16,<HarderOres:ore_lead:3>, 6400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 12,<HarderOres:ore_lead:2>, 4800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 8,<HarderOres:ore_lead:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:14> * 4,<HarderOres:ore_lead:0>, 1600, null, 0.0);
+
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 64,<HarderOres:ore_uranium:15>, 25600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 60,<HarderOres:ore_uranium:14>, 24000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 56,<HarderOres:ore_uranium:13>, 22400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 52,<HarderOres:ore_uranium:12>, 20800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 48,<HarderOres:ore_uranium:11>, 19200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 44,<HarderOres:ore_uranium:10>, 17600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 40,<HarderOres:ore_uranium:9>, 16000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 36,<HarderOres:ore_uranium:8>, 14400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 32,<HarderOres:ore_uranium:7>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 28,<HarderOres:ore_uranium:6>, 11200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 24,<HarderOres:ore_uranium:5>, 9600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 20,<HarderOres:ore_uranium:4>, 8000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 16,<HarderOres:ore_uranium:3>, 6400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 12,<HarderOres:ore_uranium:2>, 4800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 8,<HarderOres:ore_uranium:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:15> * 4,<HarderOres:ore_uranium:0>, 1600, null, 0.0);
+
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 64,<HarderOres:ore_silver:15>, 25600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 60,<HarderOres:ore_silver:14>, 24000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 56,<HarderOres:ore_silver:13>, 22400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 52,<HarderOres:ore_silver:12>, 20800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 48,<HarderOres:ore_silver:11>, 19200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 44,<HarderOres:ore_silver:10>, 17600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 40,<HarderOres:ore_silver:9>, 16000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 36,<HarderOres:ore_silver:8>, 14400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 32,<HarderOres:ore_silver:7>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 28,<HarderOres:ore_silver:6>, 11200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 24,<HarderOres:ore_silver:5>, 9600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 20,<HarderOres:ore_silver:4>, 8000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 16,<HarderOres:ore_silver:3>, 6400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 12,<HarderOres:ore_silver:2>, 4800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 8,<HarderOres:ore_silver:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:16> * 4,<HarderOres:ore_silver:0>, 1600, null, 0.0);
+
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 64,<HarderOres:ore_nickel:15>, 25600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 60,<HarderOres:ore_nickel:14>, 24000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 56,<HarderOres:ore_nickel:13>, 22400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 52,<HarderOres:ore_nickel:12>, 20800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 48,<HarderOres:ore_nickel:11>, 19200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 44,<HarderOres:ore_nickel:10>, 17600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 40,<HarderOres:ore_nickel:9>, 16000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 36,<HarderOres:ore_nickel:8>, 14400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 32,<HarderOres:ore_nickel:7>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 28,<HarderOres:ore_nickel:6>, 11200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 24,<HarderOres:ore_nickel:5>, 9600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 20,<HarderOres:ore_nickel:4>, 8000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 16,<HarderOres:ore_nickel:3>, 6400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 12,<HarderOres:ore_nickel:2>, 4800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 8,<HarderOres:ore_nickel:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:17> * 4,<HarderOres:ore_nickel:0>, 1600, null, 0.0);
+
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 64,<HarderOres:ore_bauxite:15>, 25600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 60,<HarderOres:ore_bauxite:14>, 24000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 56,<HarderOres:ore_bauxite:13>, 22400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 52,<HarderOres:ore_bauxite:12>, 20800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 48,<HarderOres:ore_bauxite:11>, 19200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 44,<HarderOres:ore_bauxite:10>, 17600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 40,<HarderOres:ore_bauxite:9>, 16000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 36,<HarderOres:ore_bauxite:8>, 14400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 32,<HarderOres:ore_bauxite:7>, 12800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 28,<HarderOres:ore_bauxite:6>, 11200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 24,<HarderOres:ore_bauxite:5>, 9600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 20,<HarderOres:ore_bauxite:4>, 8000, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 16,<HarderOres:ore_bauxite:3>, 6400, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 12,<HarderOres:ore_bauxite:2>, 4800, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 8,<HarderOres:ore_bauxite:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 4,<HarderOres:ore_bauxite:0>, 1600, null, 0.0);
+
+# diamond ore can be silk-touched and crushed
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 64,<HarderOres:ore_diamond:15>, 25600, <minecraft:diamond> * 6, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 60,<HarderOres:ore_diamond:14>, 24000, <minecraft:diamond> * 5, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 56,<HarderOres:ore_diamond:13>, 22400, <minecraft:diamond> * 5, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 52,<HarderOres:ore_diamond:12>, 20800, <minecraft:diamond> * 5, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 48,<HarderOres:ore_diamond:11>, 19200, <minecraft:diamond> * 4, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 44,<HarderOres:ore_diamond:10>, 17600, <minecraft:diamond> * 4, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 40,<HarderOres:ore_diamond:9>, 16000, <minecraft:diamond> * 4, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 36,<HarderOres:ore_diamond:8>, 14400, <minecraft:diamond> * 3, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 32,<HarderOres:ore_diamond:7>, 12800, <minecraft:diamond> * 3, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 28,<HarderOres:ore_diamond:6>, 11200, <minecraft:diamond> * 3, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 24,<HarderOres:ore_diamond:5>, 9600, <minecraft:diamond> * 2, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 20,<HarderOres:ore_diamond:4>, 8000, <minecraft:diamond> * 2, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 16,<HarderOres:ore_diamond:3>, 6400, <minecraft:diamond> * 2, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 12,<HarderOres:ore_diamond:2>, 4800, <minecraft:diamond>, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 8,<HarderOres:ore_diamond:1>, 3200, <minecraft:diamond>, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 4,<HarderOres:ore_diamond:0>, 1600, <minecraft:diamond>, 0.25);
+
+# diamonds in arc furnace
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:diamond> * 9, <HarderOres:ore_chunk:10> * 9, null, 4600,  3600, [<minecraft:coal> * 9]);
 
 # Ender IO alloys are more expensive
@@ -45,3 +229,12 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:5>, <ore:dustI
 mods.immersiveengineering.ArcFurnace.removeRecipe(<EnderIO:itemAlloy:6>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:6>, <ore:ingotSteel>, null, 400, 2048, [<ore:dustCoal>, <ore:dustObsidian>]);
 
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:iron_ore>,<HarderOres:ore_chunk:8> * 4, null, 200, 512, []);
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ore>,<HarderOres:ore_chunk:9> * 4, null, 200, 512, []);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ElectriCraft:electricraft_block_ore:1>,<HarderOres:ore_chunk:12> * 4, null, 200, 512, []);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore>,<HarderOres:ore_chunk:13> * 4, null, 200, 512, []);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:2>,<HarderOres:ore_chunk:14> * 4, null, 200, 512, []);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ReactorCraft:reactorcraft_block_ore:1>,<HarderOres:ore_chunk:15> * 4, null, 200, 512, []);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:3>,<HarderOres:ore_chunk:16> * 4, null, 200, 512, []);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:4>,<HarderOres:ore_chunk:17> * 4, null, 200, 512, []);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:1>,<HarderOres:ore_chunk:18> * 4, null, 200, 512, []);

@@ -15,5 +15,11 @@
 - Seeds in chests
 - Fix REV1 metal grip conflict with IE and Stefinus
 - IE metal parts must be made on a metal press
+- Empty reward bag
+- Juiced Saplings quest returns rotten food.
+- Add issue tracker and website link to loading screen
+- Food pass for rotting
+- Test full Unity ends up where it's supposed to.
+- Require desh for Cave Dimension elevator???
 
 ## Pack changes
