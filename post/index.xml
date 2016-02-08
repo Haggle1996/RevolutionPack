@@ -7,8 +7,103 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Wed, 03 Feb 2016 16:56:19 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 07 Feb 2016 09:32:07 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 - Beta 2.1.3.0 Update!</title>
+      <link>http://revolutionpack.info/post/2130beta/</link>
+      <pubDate>Sun, 07 Feb 2016 09:32:07 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2130beta/</guid>
+      <description>
+
+&lt;p&gt;Hello, everyone!&lt;/p&gt;
+
+&lt;p&gt;Welcome to REVOLUTION|2 Beta 2.1.3.0 &amp;ndash; the &amp;lsquo;Crusher&amp;rsquo; Update!&lt;/p&gt;
+
+&lt;p&gt;After a solid week of playtesting, we&amp;rsquo;ve gotten a lot of good feedback, and this update is chock full o&amp;rsquo; quality of life updates. In particular, we&amp;rsquo;ve switched from a blacklist approach to physics, to a whitelist approach. What this means is fewer blocks will fall unexpectedly. We&amp;rsquo;ve also increased the default strength of most blocks. In exchange, we&amp;rsquo;ve turned on slide physics. What this means for you is that buildings you make should be even easier, and many things you place in the world no longer fall when they shouldn&amp;rsquo;t. Conversely, mining and exploration has gotten a little more difficult. Found some gravel? Be careful, one small slip could fill up your cave, just like an hourglass filling the bottom with sand.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve also dramatically streamlined and improved ore processing, adding the IE Crusher into the mix and improving your yields. You can also silk touch Harder Ores now and take them back to your lair for processing in the Crusher, at a significant advantage over a standard pick. Last, we&amp;rsquo;ve added a special bonus output for diamonds when you silk touch the diamond ore and drop it in the Crusher.&lt;/p&gt;
+
+&lt;p&gt;Lastly, we&amp;rsquo;ve done some tweaking, poking, pulling, and prodding to the mobs. You should have a slightly more performant group of baddies that want to eat your brain, plus a few new surprises awaiting you in the dark.&lt;/p&gt;
+
+&lt;p&gt;Plus bugs. We squashed a lot of them this time around. Hope you enjoy.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:39b92256580a2c637a1e89df3d8687ca&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RotaryCraft Coal Coke has been buffed to match the other coal coke blocks&lt;/li&gt;
+&lt;li&gt;Added some more guests to the HeadCrumbs list&lt;/li&gt;
+&lt;li&gt;Reenabled baby mobs&lt;/li&gt;
+&lt;li&gt;Be afraid of the dark&lt;/li&gt;
+&lt;li&gt;Only Pam&amp;rsquo;s Mutton drops from sheep now.&lt;/li&gt;
+&lt;li&gt;Et Futurum gates now require a fence of the appropriate wood instead of planks&lt;/li&gt;
+&lt;li&gt;Changed the approach to stability for blocks from blacklist to whitelist approach. This generally means only world gen blocks will collapse (dirt, sand, stone, etc).&lt;/li&gt;
+&lt;li&gt;Enviromine slide physics are enabled.&lt;/li&gt;
+&lt;li&gt;Ore processing machines now output standard ore instead of Harder Ores version.&lt;/li&gt;
+&lt;li&gt;IE Blast Furnace now requires 4 Raw Ores per regular ore, and smelts in 1/4th the time.&lt;/li&gt;
+&lt;li&gt;IE Crusher now makes 4 tiny dust per one Raw Ore&lt;/li&gt;
+&lt;li&gt;IE Crusher produces 4 Raw Ore per meta value of Hard Ore&lt;/li&gt;
+&lt;li&gt;IE Arc Furnace can smelt Raw Ores using RF instead of Coke&lt;/li&gt;
+&lt;li&gt;Leaves should no longer break when harvesting fruit.&lt;/li&gt;
+&lt;li&gt;Fixed a recipe problem with Botania Basalt.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;known-issues:39b92256580a2c637a1e89df3d8687ca&#34;&gt;Known Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Item&amp;rsquo;s crafted on the Enhanced Inventories Worktable do not count towards HQM crafting tasks.&lt;/li&gt;
+&lt;li&gt;Juiced Saplings quest returns rotten food.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:39b92256580a2c637a1e89df3d8687ca&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gun Customization textures for linux users should now be fixed (fixex #180)&lt;/li&gt;
+&lt;li&gt;Galaxy Space no longer crashes when launching rockets (fixes #209)&lt;/li&gt;
+&lt;li&gt;Reverted ForgeEssentials to fix issue with saving configuration (fixes #213)&lt;/li&gt;
+&lt;li&gt;Et Futurum gates now use Et Futurum fences instead of planks (fixes #214)&lt;/li&gt;
+&lt;li&gt;You can once again craft Unstable Ingots&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:39b92256580a2c637a1e89df3d8687ca&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Galaxy Space re-enabled as optional mod with fixed configuration.&lt;/li&gt;
+&lt;li&gt;Unity Complete resource pack added as optional. Enable both Unity Complete and Unity for RotaryCraft for the full experience.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:39b92256580a2c637a1e89df3d8687ca&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/220318-mod/files/2280306&#34;&gt;BiomesOPlenty-1.7.10-2.1.0.1832&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69162-mod/files/2280536&#34;&gt;CoFHCore-3.1.1-324&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2280413&#34;&gt;DynamicSurroundings-1.7.10-1.0.4.5BETA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229218-mod/files/2280629&#34;&gt;ExtraCells-1.7.10-2.3.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2279564&#34;&gt;Forestry 4.2.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236073-mod/files/2279939&#34;&gt;GunCustomization 3.46&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222838-mod/files/2279949&#34;&gt;Headcrumbs-1.7.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229002-mod/files/2279413&#34;&gt;MrTJPCore-1.1.0.33&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228816-mod/files/2280606&#34;&gt;OpenBlocks-1.7.10-1.5.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223008-mod/files/2280566&#34;&gt;OpenComputers-MC1.7.10-1.5.22.46&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228815-mod/files/2280605&#34;&gt;OpenModsLib-1.7.10-0.9.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224125-mod/files/2280328&#34;&gt;PneumaticCraft-1.7.10-1.12.6-149&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228702-mod/files/2280019&#34;&gt;ProjectRed-1.7.10-4.7.0pre11.94 - all mods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/rockhounding-mod/files/2280652&#34;&gt;Rockhounding Mod v3.24b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2280531&#34;&gt;StorageDrawers-1.7.10-1.7.8 - all mods&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:39b92256580a2c637a1e89df3d8687ca&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Forge Essentials to 1145, due to configurations not saving in 1146&lt;/li&gt;
+&lt;li&gt;Extra Utilities to 1.2.10, fixes unstable ingot crafting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed-mods:39b92256580a2c637a1e89df3d8687ca&#34;&gt;Removed Mods&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 - Beta 2.1.2.0 Update!</title>
