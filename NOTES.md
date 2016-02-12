@@ -21,5 +21,18 @@
 - Food pass for rotting
 - Test full Unity ends up where it's supposed to.
 - Require desh for Cave Dimension elevator???
+- RFTools engine needs gating
+- Reduce Rec complex structure loot
+- Accidentally Circumstantial Events posts radio chatter.
+- Increase land incidences.
+- SecurityCraft greeting
+- Headcrumbs heads work as endermen in ender io stuff.
+- Modular Power Suits pieces not craftable; need gating.
+- Rod of the Plentiful Mantle no longer sees Harder Ores
+- dynamic lights
+- worktable mod
+- capitalization on hqm quest title.
+- https://github.com/ATLauncher/ATLauncher/issues/234#issuecomment-183437054
+- delete SpecialAI config and reconfigure
 
 ## Pack changes
