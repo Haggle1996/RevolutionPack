@@ -34,5 +34,6 @@
 - capitalization on hqm quest title.
 - https://github.com/ATLauncher/ATLauncher/issues/234#issuecomment-183437054
 - delete SpecialAI config and reconfigure
+- Test sapphire ore resistance
 
 ## Pack changes
