@@ -8,6 +8,35 @@ val rocket = <liquid:rocket_fuel>;
 
 mods.immersiveengineering.Refinery.addRecipe(fuel * 16, rocket * 8, oil * 8);
 
+# Plates use more resources than metal press
+
+# Iron
+recipes.removeShapeless(<ImmersiveEngineering:metal:30>);
+recipes.addShapeless(<ImmersiveEngineering:metal:30>, [<ore:ingotIron>,<ore:ingotIron>,<ImmersiveEngineering:tool>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:30>, [<ImmersiveEngineering:metalDecoration:10>]);
+
+# Aluminum
+recipes.removeShapeless(<ImmersiveEngineering:metal:32>);
+recipes.addShapeless(<ImmersiveEngineering:metal:32>, [<ore:ingotAluminum>,<ore:ingotAluminum>,<ImmersiveEngineering:tool>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:32>, [<ImmersiveEngineering:metalDecoration2>]);
+
+# Lead
+recipes.removeShapeless(<ImmersiveEngineering:metal:33>);
+recipes.addShapeless(<ImmersiveEngineering:metal:33>, [<ore:ingotLead>,<ore:ingotLead>,<ImmersiveEngineering:tool>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:33>, [<ImmersiveEngineering:metalDecoration2:1>]);
+
+# Cupronickel
+recipes.removeShapeless(<ImmersiveEngineering:metal:36>);
+recipes.addShapeless(<ImmersiveEngineering:metal:36>, [<ore:ingotConstantan>,<ore:ingotConstantan>,<ImmersiveEngineering:tool>]);
+
+# Steel
+recipes.removeShapeless(<ImmersiveEngineering:metal:38>);
+recipes.addShapeless(<ImmersiveEngineering:metal:38>, [<ore:ingotSteel>,<ore:ingotSteel>,<ImmersiveEngineering:tool>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:38>, [<ImmersiveEngineering:metalDecoration2:2>]);
+
+# RC Tin plates made on Metal Press
+mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.plate:2>, <ore:ingotTin>, <ImmersiveEngineering:mold>, 500, 1);
+
 # Blast furnace produce 1 ore per 4 raw ores
 mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:iron_ore>,<HarderOres:ore_chunk:8> * 4, 1200, <minecraft:cobblestone>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:gold_ore>,<HarderOres:ore_chunk:9> * 4, 1200, <minecraft:cobblestone>);

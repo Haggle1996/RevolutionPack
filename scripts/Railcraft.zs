@@ -4,15 +4,19 @@ val hobbyist = <Railcraft:machine.beta:7>;
 val commercial = <Railcraft:machine.beta:8>;
 val industrial = <Railcraft:machine.beta:9>;
 
-val copper = <Railcraft:part.plate:3>;
+val copper = <ImmersiveEngineering:metal:36>;
 val tin = <Railcraft:part.plate:2>;
 val iron = <ore:plateIron>;
 val steel = <ore:plateSteel>;
 val glass = <ore:blockGlass>;
+val bars = <ore:barsIron>;
+val pane = <minecraft:glass_pane>;
 
 val goldGear = <Railcraft:part.gear:0>;
 val ironGear = <ore:gearIron>;
 val steelGear = <Railcraft:part.gear:2>;
+
+val rebar = <Railcraft:part.rebar>;
 
 val piston = <minecraft:piston>;
 val iingot = <ore:ingotIron>;
@@ -43,17 +47,17 @@ recipes.addShaped(<Railcraft:machine.alpha:14> * 6,[[<ore:plankWood>,<ore:plankW
 recipes.remove(<Railcraft:machine.alpha:12>);
 recipes.remove(<Railcraft:machine.alpha:7>);
 
-# Add IE's Coal Coke to Blast Furnace Fuel (first is single piece, second is the block)
-# mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>);
-# mods.railcraft.BlastFurnace.addFuel(<ImmersiveEngineering:stoneDecoration:3>);
+# Plates are no longer made on the rolling machine
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate> * 4);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1> * 4);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
+mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
 
-#Blast furnace can refine Raw Harder Ores
-#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:8> * 3, false, false, 4800, <HarderOres:dummyOreIron>);
-#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:9> * 3, false, false, 4800, <HarderOres:dummyOreGold>);
-#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:12> * 3, false, false, 4800, <HarderOres:dummyOreTin>);
-#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:13> * 3, false, false, 4800, <HarderOres:dummyOreCopper>);
-#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:14> * 3, false, false, 4800, <HarderOres:dummyOreLead>);
-#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:15> * 3, false, false, 4800, <HarderOres:dummyOreUranium>);
-#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:16> * 3, false, false, 4800, <HarderOres:dummyOreSilver>);
-#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:17> * 3, false, false, 4800, <HarderOres:dummyOreNickel>);
-#mods.railcraft.BlastFurnace.addRecipe(<HarderOres:ore_chunk:18> * 3, false, false, 4800, <HarderOres:dummyOreAluminum>);
+# Convert IE plates to RC and vice-versa -- saves MT script
+recipes.addShapeless(<Railcraft:part.plate>, [<ImmersiveEngineering:metal:30>]);
+recipes.addShapeless(<Railcraft:part.plate:1>, [<ImmersiveEngineering:metal:38>]);
+recipes.addShapeless(<Railcraft:part.plate:3>, [<ImmersiveEngineering:metal:36>]);
+
+recipes.addShapeless(<ImmersiveEngineering:metal:30>,[<Railcraft:part.plate>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:38>,[<Railcraft:part.plate:1>]);
+recipes.addShapeless(<ImmersiveEngineering:metal:36>,[<Railcraft:part.plate:3>]);

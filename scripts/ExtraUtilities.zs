@@ -26,7 +26,6 @@ val eye = <minecraft:ender_eye>;
 val daylight = <minecraft:daylight_detector>;
 val lapis = <minecraft:lapis_block>;
 val steel = <ore:plateSteel>;
-val copper = <Railcraft:part.plate:3>;
 val diamond = <minecraft:diamond_block>;
 val tnt = <minecraft:tnt>;
 val pink = <minecraft:wool:6>;

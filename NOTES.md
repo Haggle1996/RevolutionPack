@@ -27,5 +27,7 @@
 - Swap cows for pigs in HQM
 - Rockhounding ore in Practical Logistics recipes.
 - First day guide
+- Remove rolling mill stuff
+- rocket fuel in ie refinery
 
 ## Pack changes

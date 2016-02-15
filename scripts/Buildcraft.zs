@@ -22,7 +22,7 @@ val ironGear = <ore:gearIron>;
 val goldGear = <ore:gearGold>;
 val diamondGear = <ore:gearDiamond>;
 
-val copperplate = <Railcraft:part.plate:3>;
+val copperplate = <ImmersiveEngineering:metal:36>;
 val ironplate = <ore:plateIron>;
 val steelplate = <ore:plateSteel>;
 val tinplate = <Railcraft:part.plate:2>;
