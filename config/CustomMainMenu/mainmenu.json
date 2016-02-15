@@ -90,7 +90,7 @@
              
         "homepage":
         {
-            "text" : "Forum...",
+            "text" : "Website...",
             "posX" : 10,
             "posY" : -18,
             "width" : 100,
@@ -164,22 +164,22 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : 28,
-            "posY" : 78,
-            "width" : 20,
-            "height" : 20,
-            "alignment" : "left_center",
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
         }
+        
+        // "refresh":
+        // {
+        //     "text" : "",
+        //     "posX" : 28,
+        //     "posY" : 78,
+        //     "width" : 20,
+        //     "height" : 20,
+        //     "alignment" : "left_center",
+        //     "texture" : "custommainmenu:textures/gui/buttons.png",
+        //     "action" : 
+        //     {
+        //         "type" : "refresh"
+        //     }
+        // }
     },
     
     "texts":
