@@ -28,7 +28,7 @@
         {
             "text" : "menu.singleplayer",
             "posX" : 10,
-            "posY" : -90,
+            "posY" : -114,
             "width" : 100,
             "height" : 20,
             "alignment" : "left_center",
@@ -44,7 +44,7 @@
         {
             "text" : "menu.multiplayer",
             "posX" : 10,
-            "posY" : -66,
+            "posY" : -90,
             "width" : 100,
             "height" : 20,
             "alignment" : "left_center",
@@ -60,7 +60,7 @@
         {
             "text" : "Forum...",
             "posX" : 10,
-            "posY" : -42,
+            "posY" : -66,
             "width" : 100,
             "height" : 20,
             "alignment" : "left_center",
@@ -70,13 +70,45 @@
                 "type" : "openLink",
                 "link" : "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mod-packs/2411393"
             }
-        },            
-            
+        },
+        
+        "issues":
+        {
+            "text" : "Issue Tracker...",
+            "posX" : 10,
+            "posY" : -42,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "revolution:textures/gui/title/button.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://support.revolutionpack.info"
+            }
+        },       
+             
+        "homepage":
+        {
+            "text" : "Forum...",
+            "posX" : 10,
+            "posY" : -18,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "revolution:textures/gui/title/button.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://www.revolutionpack.info"
+            }
+        },    
+        
         "options":
         {
             "text" : "menu.options",
             "posX" : 10,
-            "posY" : -18,
+            "posY" : 6,
             "width" : 100,
             "height" : 20,
             "alignment" : "left_center",
@@ -92,7 +124,7 @@
         {
             "text" : "Mods",
             "posX" : 10,
-            "posY" : 6,
+            "posY" : 30,
             "width" : 100,
             "height" : 20,
             "alignment" : "left_center",
@@ -108,7 +140,7 @@
         {
             "text" : "menu.quit",
             "posX" : 10,
-            "posY" : 30,
+            "posY" : 54,
             "width" : 100,
             "height" : 20,
             "alignment" : "left_center",
@@ -132,22 +164,22 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
-        }
+        },
         
-        // "refresh":
-        // {
-        //     "text" : "",
-        //     "posX" : 28,
-        //     "posY" : 54,
-        //     "width" : 20,
-        //     "height" : 20,
-        //     "alignment" : "left_center",
-        //     "texture" : "custommainmenu:textures/gui/buttons.png",
-        //     "action" : 
-        //     {
-        //         "type" : "refresh"
-        //     }
-        // }
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 28,
+            "posY" : 78,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
     },
     
     "texts":
@@ -175,42 +207,45 @@
     
     "other":
     {
-        // "splash-text":
-        // {
-        //     "posX" : 120,
-        //     "posY" : 10,
-        //     "color" : -128,
-        //     "alignment" : "center",
-        //     "texts" : [
-        //         "Revolution is mostly harmless!",
-        //         "Haggle1996 loves you!",
-        //         "Parlez-vous, Dorinn?",
-        //         "Solego plays skyblock!",
-        //         "The dirt is eating me!",
-        //         "Insert Random Text Here",
-        //         "May I have another, sir?",
-        //         "No, waterlubber! No!",
-        //         "#BlameShiva",
-        //         "SentinalH plays with fusion",
-        //         "hotrodnate isn't depressed",
-        //         "Haggle1996 hates you!",
-        //         "Why is the moon red?",
-        //         "All I want is a bucket",
-        //         "It's Irradiated!",
-        //         "This pack will self-destruct...",
-        //         "Don't LOL at the Pterodactylol",
-        //         "Dave_128 was here",
-        //         "Kanneida loves radiation",
-        //         "Beware Smith & Jones!",
-        //         "It's supposed to be hard",
-        //         "Dinosaurs? On Mars?! WhaaaA?",
-        //         "HappyHalfling, cookin' it up!",
-        //         "Cassie's Tarts...mmm",
-        //         "Why, Haggle? Why?",
-        //         "A pack by Haggle1996",
-        //         "Buttons aren't toys"
-        //     ]
-        // },
+        "splash-text":
+        {
+            "posX" : 120,
+            "posY" : 20,
+            "color" : -128,
+            "alignment" : "center",
+            "texts" : [
+                "Revolution is mostly harmless!",
+                "Haggle1996 loves you!",
+                "Bonjour, Dorinn?",
+                "Solego plays skyblock!",
+                "The dirt is eating me!",
+                "Insert Random Text Here",
+                "May I have another, sir?",
+                "No, waterlubber! No!",
+                "#BlameShiva",
+                "SentinalH plays with fusion",
+                "hotrodnate isn't depressed",
+                "Haggle1996 hates you!",
+                "Why is the moon red?",
+                "All I want is a bucket",
+                "It's Irradiated!",
+                "This pack will self-destruct...",
+                "Don't LOL at the Pterodactylol",
+                "Dave_128 was here",
+                "Kanneida loves radiation",
+                "Beware Smith & Jones!",
+                "It's supposed to be hard",
+                "Dinosaurs? On Mars?! WhaaaA?",
+                "HappyHalfling, cookin' it up!",
+                "Cassie's Tarts...mmm",
+                "Why, Haggle? Why?",
+                "A pack by Haggle1996",
+                "Buttons aren't toys",
+                "Toksyurel knows all",
+                "I just want a poorjoe...",
+                "It gets easier..."
+            ]
+        },
         
         "background":
         {

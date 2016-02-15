@@ -12,7 +12,6 @@
 - Pneumaticraft PCBs crafted in Assembly Table or similar.
 - Block fall pass
 - Crop noob guide images
-- Fix REV1 metal grip conflict with IE and Stefinus
 - IE metal parts must be made on a metal press
 - Empty reward bag
 - Juiced Saplings quest returns rotten food.
@@ -28,6 +27,6 @@
 - https://github.com/ATLauncher/ATLauncher/issues/234#issuecomment-183437054
 - Swap cows for pigs in HQM
 - Rockhounding ore in Practical Logistics recipes.
-- delete SpecialAI config and reconfigure
+- First day guide
 
 ## Pack changes
