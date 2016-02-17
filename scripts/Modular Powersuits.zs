@@ -1,4 +1,4 @@
-// Carbon Myofiber, made with Coal Dust x9
+// Carbon Myofiber, made with Coal Dust x9 
 
 recipes.addShaped(<powersuits:powerArmorComponent:13>, 
 [[<ore:dustCoal>, <ore:dustCoal>, <ore:dustCoal>], 
