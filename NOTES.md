@@ -1,5 +1,10 @@
 ﻿#TODO List
 
+<<<<<<< HEAD
+=======
+Why TiCo is not a thing: http://bit.ly/1U6SmR3
+
+>>>>>>> 1f5cf34... Pre2300
 ## Predeployment List
 - Startup page update on gist
 - Update website, including changelog and general gameplay changes
@@ -9,6 +14,7 @@
 
 ## TODO
 
+<<<<<<< HEAD
 - Pneumaticraft PCBs crafted in Assembly Table or similar.
 - Block fall pass
 - Crop noob guide images
@@ -29,5 +35,20 @@
 - First day guide
 - Remove rolling mill stuff
 - rocket fuel in ie refinery
+=======
+- Accidentally Circumstantial Events posts radio chatter.
+- https://github.com/ATLauncher/ATLauncher/issues/234#issuecomment-183437054
+- First day guide
+- Cave Dimension elevator use gives duplicates
+- Use kerosene instead of rocket fuel in IE refinery.
+- Add bunnies to Special AI
+- Add antique atlas
+- Hydrokinetics falling
+<<<<<<< HEAD
+- Investigate removing parts of HaggleTweaks used to fix CTRL handling.
+- Test Cave Dimension
+>>>>>>> 1f5cf34... Pre2300
+=======
+>>>>>>> da6351b... Killer bunnies
 
 ## Pack changes

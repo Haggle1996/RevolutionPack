@@ -10,12 +10,13 @@
     "use_separate_thread": true
   },
   "commands": {
+    "back": true,
+    "home": true,
     "name_admin": "admin",
-    "name_back": "back",
-    "name_home": "home",
-    "name_spawn": "spawn",
-    "name_tplast": "tpl",
-    "name_warp": "warp"
+    "player_can_use_spawnpoint": false,
+    "spawn": true,
+    "tplast": true,
+    "warp": true
   },
   "general": {
     "blocked_entities": [],
@@ -24,8 +25,6 @@
     "safe_spawn": false,
     "server_info_difficulty": true,
     "server_info_mode": true,
-    "sign_home": true,
-    "sign_warp": true,
     "spawn_area_in_sp": false,
     "spawn_pvp": true
   },

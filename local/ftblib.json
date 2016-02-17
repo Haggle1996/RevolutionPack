@@ -1,11 +1,11 @@
 {
+  "command_names": {
+    "edit_config": "edit_config",
+    "reload": "reload",
+    "set_item_name": "set_item_name",
+    "trash_can": "trash_can"
+  },
   "commands": {
-    "name": {
-      "edit_config": "edit_config",
-      "reload": "reload",
-      "set_item_name": "set_item_name",
-      "trash_can": "trash_can"
-    },
     "override_help": true,
     "override_list": true,
     "set_item_name": "op",

@@ -1,0 +1,289 @@
+{
+    "tin": {
+        "template": "uniform",
+        "block": {
+            "name": "ElectriCraft:electricraft_block_ore",
+            "metadata": 1
+        },
+        "clusterSize": 20,
+        "numClusters": 6,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "silver": {
+        "template": "uniform",
+        "block":  {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 3
+        },
+        "clusterSize": 24,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "lead": {
+        "template": "uniform",
+        "block": {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 2
+        },
+        "clusterSize": 22,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "nickel": {
+        "template": "uniform",
+        "block": {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 4
+        },
+        "clusterSize": 18,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "platinum": {
+        "template": "uniform",
+        "block": {
+            "name": "ElectriCraft:electricraft_block_ore",
+            "metadata": 5
+        },
+        "clusterSize": 12,
+        "chunkChance": 1,
+        "numClusters": 6,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "copper": {
+        "template": "uniform",
+        "block": {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 25,
+        "numClusters": 6,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "aluminum": {
+        "template": "uniform",
+        "block": {
+            "name": "ImmersiveEngineering:ore",
+            "metadata": 1
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "certusquartz": {
+        "template": "uniform",
+        "block": {
+            "name": "appliedenergistics2:tile.OreQuartz"
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "chargedcertusquartz": {
+        "template": "uniform",
+        "block": {
+            "name": "appliedenergistics2:tile.OreQuartzCharged"
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 15,
+        "numClusters": 2,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "coal": {
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 24,
+        "numClusters": 8,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "iron": {
+        "template": "uniform",
+        "block": "iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 7,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "gold": {
+        "template": "uniform",
+        "block": "gold_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 20,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "redstone": {
+        "template": "uniform",
+        "block": "redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 3,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [ ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "diamond": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 12,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    },
+    "lapis": {
+        "template": "uniform",
+        "block": "lapis_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 20,
+        "numClusters": 4,
+        "chunkChance": 1,
+        "minHeight": 5,
+        "maxHeight": 250,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -2
+        ]
+    }
+}
