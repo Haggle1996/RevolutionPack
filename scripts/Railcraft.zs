@@ -61,3 +61,11 @@ recipes.addShapeless(<Railcraft:part.plate:3>, [<ImmersiveEngineering:metal:36>]
 recipes.addShapeless(<ImmersiveEngineering:metal:30>,[<Railcraft:part.plate>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:38>,[<Railcraft:part.plate:1>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:36>,[<Railcraft:part.plate:3>]);
+
+# Fix Steel Blocks
+recipes.remove(<Railcraft:cube:2>);
+recipes.addShaped(<Railcraft:stair:43> * 4, [[<ore:blockSteel>,<ore:blockSteel>,<ore:blockSteel>],
+                                       [<ore:blockSteel>,<ore:blockSteel>,<ore:blockSteel>],
+                                       [<ore:blockSteel>,<ore:blockSteel>,<ore:blockSteel>]]);
+                                       
+recipes.remove(<Railcraft:ingot> * 9);
