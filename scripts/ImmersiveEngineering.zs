@@ -37,6 +37,10 @@ recipes.addShapeless(<ImmersiveEngineering:metal:38>, [<ImmersiveEngineering:met
 # RC Tin plates made on Metal Press
 mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.plate:2>, <ore:ingotTin>, <ImmersiveEngineering:mold>, 500, 1);
 
+# Lapis produces sapphire dust in the crusher
+mods.immersiveengineering.Crusher.removeRecipe(<ElectriCraft:electricraft_item_crafting>);
+mods.immersiveengineering.Crusher.addRecipe(<PracticalLogistics:SapphireDust>, <minecraft:dye:4>, 1600, null, 0.0);
+
 # Blast furnace produce 1 ore per 4 raw ores
 mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:iron_ore>,<HarderOres:ore_chunk:8> * 4, 1200, <minecraft:cobblestone>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:gold_ore>,<HarderOres:ore_chunk:9> * 4, 1200, <minecraft:cobblestone>);
@@ -212,6 +216,10 @@ mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 16,<Hard
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 12,<HarderOres:ore_bauxite:2>, 4800, null, 0.0);
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 8,<HarderOres:ore_bauxite:1>, 3200, null, 0.0);
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:18> * 4,<HarderOres:ore_bauxite:0>, 1600, null, 0.0);
+
+# Redstone ore has lower density
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 12,<HarderOres:ore_redstone:1>, 3200, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 6,<HarderOres:ore_redstone:0>, 1600, null, 0.0);
 
 # diamond ore can be silk-touched and crushed
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 64,<HarderOres:ore_diamond:15>, 25600, <minecraft:diamond> * 6, 0.25);

@@ -1,5 +1,7 @@
 ﻿#TODO List
 
+Why TiCo is not a thing: http://bit.ly/1U6SmR3
+
 ## Predeployment List
 - Startup page update on gist
 - Update website, including changelog and general gameplay changes
@@ -9,25 +11,14 @@
 
 ## TODO
 
-- Pneumaticraft PCBs crafted in Assembly Table or similar.
-- Block fall pass
-- Crop noob guide images
-- IE metal parts must be made on a metal press
-- Empty reward bag
-- Juiced Saplings quest returns rotten food.
-- Food pass for rotting
-- Require desh for Cave Dimension elevator???
-- RFTools engine needs gating
 - Accidentally Circumstantial Events posts radio chatter.
-- Headcrumbs heads work as endermen in ender io stuff.
-- Modular Power Suits pieces not craftable; need gating.
-- Rod of the Plentiful Mantle no longer sees Harder Ores
-- capitalization on hqm quest title.
+- Block fall pass
+- Require desh for Cave Dimension elevator???
 - https://github.com/ATLauncher/ATLauncher/issues/234#issuecomment-183437054
-- Swap cows for pigs in HQM
-- Rockhounding ore in Practical Logistics recipes.
 - First day guide
-- Remove rolling mill stuff
-- rocket fuel in ie refinery
+- Redstone ore in crusher
+- Cave Dimension elevator use gives duplicates
+- Copy HaggleTweaks 0.1.0.2 to release
+- WholyGunCustom unzip
 
 ## Pack changes
