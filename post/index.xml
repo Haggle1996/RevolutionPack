@@ -7,8 +7,167 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 07 Feb 2016 09:32:07 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 21 Feb 2016 11:12:15 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 - Beta 2.2.0.0 Update!</title>
+      <link>http://revolutionpack.info/post/2200beta/</link>
+      <pubDate>Sun, 21 Feb 2016 11:12:15 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2200beta/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Welcome to another exciting release of REVOLUTION|2! We&amp;rsquo;ve got lots in store for you this update, including new mods, squashed bugs, and another chapter in the HQM book! Wheeeeee! You can&amp;rsquo;t contain the updates!&lt;/p&gt;
+
+&lt;p&gt;First up, we have an update to Realistic Terrain Generation, which will cause some unsightly chunk border issues when generating new chunks on an existing map. Other than aesthetics, worlds created with earlier versions of RTG are fully compatible with the new version. But if you&amp;rsquo;re just starting off, you may want generate a new map to take advantage of some of the glorious new scenery. One of my favorite elements is that Streams can now tunnel through land instead of only sheer cliff faces.&lt;/p&gt;
+
+&lt;p&gt;Three new mods appear in this update. Ewy&amp;rsquo;s Workshop, which is a continuation of Steve&amp;rsquo;s Workshop (by VSWE), fills in the gap left by tinker&amp;rsquo;s benches &amp;ndash; allowing up to 4 crafting tables or furnaces, combined with inventory and fuel, in a single block. Next on the list is BattleText, a simple mod that adds floating damage indicators that appear when mobs are damaged. Last, and most impressive, is Practical Logistics. Practical Logistics gives you the ability to create automated systems via reading, displaying and acting upon data. It&amp;rsquo;s quite gorgeous and a single sentence doesn&amp;rsquo;t do it justice.&lt;/p&gt;
+
+&lt;p&gt;Also in this update, we&amp;rsquo;re removing a couple of mods: Small Boats and Spice of Life. WHAT?! Haggle making the pack easier!??!?! Yes, you heard right, Spice of Life has been removed. It made food too &amp;lsquo;grindy&amp;rsquo; in conjunction with all the other food mods in the pack (I&amp;rsquo;m looking at you, food rot!), so we&amp;rsquo;ve streamlined food a bit.&lt;/p&gt;
+
+&lt;p&gt;Lastly, we&amp;rsquo;ve added Chapter 3 to the HQM quests, as well as fixed a number of bugs and updated a bunch of earlier quests. &lt;strong&gt;This will reset your earlier quest progress. Use &lt;code&gt;/hqm edit &amp;lt;playername&amp;gt;&lt;/code&gt; to fix your quest book&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;On a parting note, I&amp;rsquo;ve recieved a number of comments over the last couple of weeks saying, &amp;lsquo;Haggle, why isn&amp;rsquo;t the world a devasted wasteland after the devastating nuclear war?&amp;rsquo; Take a look at &lt;a href=&#34;https://answers.yahoo.com/question/index?qid=20090107201636AAUDfrl&#34;&gt;this&lt;/a&gt; short response to a similar question.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:965c5bba9686f191ac88301e76956f9c&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;EnviroMine is no longer optional as parts of it are used for game progression.&lt;/strong&gt;&lt;br /&gt;
+If you have been playing without Enviromine, be aware that structures may collapse due to physics. Save your world and be prepared if you&amp;rsquo;re used to 9x9 cobblestone structures being stable.&lt;/p&gt;
+
+&lt;p&gt;The majority of Enviromine is disabled, so other than physics and food rot, it should not be a major issue.&lt;/p&gt;
+
+&lt;p&gt;You can disable food rot by setting &lt;code&gt;B:&amp;quot;Enable food spoiling&amp;quot;=false&lt;/code&gt; in your enviromine/profiles/default/default_Settings.cfg file, though this is not intended in the spirit of the pack&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You will either need to regenerate DIM-28 and DIM-29 (moon and mars) or explore new chunks in order for Matter Overdrive ores to spawn. If you haven&amp;rsquo;t visited these planets, you do not need to do anything.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Added Chapter 3 to the HQM book.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Turned off Enviromine village mineshafts, as they caused occasional CMEs during world generation.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Turned off the fireworks upon gaining an achievement because GiantWaffle.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Doubled the number of raw ores required by the Blast Furnace (to 8). The Blast Furnace is still the more effective means of refining ore until the Arc Furnace.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Halved the spawn rates and frequency of Exotic Birds.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Increased frequency of land in Realistic worlds, as well as enabled continental world types.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Removed the duplicate potion effect HUD&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Disabled Creeper damage to the environment&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Metal plates are now made ONLY in the IE metal press. There&amp;rsquo;s a simple conversion between IE and RC plates.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Sapphire dust is made in the IE Crusher by throwing in lapis&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;RFTools&amp;rsquo; Machine Frame and Base have updated recipes&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Project RED Circuit Plates have a new recipe (conflicted with Rockhounding Cracked Stone)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Dirt can now be used in the sluice.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A number of mods are now non-optional (Enviromine, Zyin&amp;rsquo;s HUD, Hunger Overhaul, Ender Zoo, Headcrumbs, Mutant Creatures)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Et Futurum enchanting table and anvil are disabled due to incompatibilities with other mods.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Modified some foods&amp;rsquo; rotting times. For example, jerky rots slower and emergency rations slower still. Some items (mana beans, zombie brains) do not rot at all.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hqm-notes:965c5bba9686f191ac88301e76956f9c&#34;&gt;HQM Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Changes to the quest book will reset quest progress! Use &lt;code&gt;/hqm edit &amp;lt;playername&amp;gt;&lt;/code&gt; to edit your quest book!&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Quests have been updated to reflect the new machine preferences (Metal Press, etc.)&lt;/li&gt;
+&lt;li&gt;The Tutorial quest now requires you to kill a pig instead of a cow, but rewards two cow spawn eggs.&lt;/li&gt;
+&lt;li&gt;Normalized all the quest titles because complainers.&lt;/li&gt;
+&lt;li&gt;Removed all empty reward bags.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;known-issues:965c5bba9686f191ac88301e76956f9c&#34;&gt;Known Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The updated version of Realistic Terrain Generation (0.6.2) will produce odd chunk transitions when generating new chunks in worlds created with RTG 0.5.0.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:965c5bba9686f191ac88301e76956f9c&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dynamic Surroundings VAT problem with healing entities. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/239&#34;&gt;#239&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Right clicking Storage Drawers controller no longer crashes the game. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/240&#34;&gt;#240&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Juiced Saplings quest gave rotten food. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/238&#34;&gt;#238&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Some Modular Power Suits items are missing recipes, courtesy of Taraxys. Fixes &lt;a href=&#34;Haggle1996/RevolutionPack/issues/250&#34;&gt;#250&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Forestry backpacks now pick up more ores, rocks, minerals, etc., courtesy of OmegaCenti. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/242&#34;&gt;#242&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pressing CTRL while hovering over items in inventory no longer crashes the game (Invalid Furnace recipe fixed in HaggleTweaks)&lt;/li&gt;
+&lt;li&gt;Harder Redstone ore can now be crushed, yielding 6-12 redstone. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/237&#34;&gt;#237&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GalactiCraft oxygen meter moved to bottom-left corner. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/266&#34;&gt;#266&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Matter Overdrive ores now spawn on moon/mars. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/258&#34;&gt;#258&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SPAS-12 textures are now fixed on Linux boxes. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/231&#34;&gt;#231&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Immersive Engineering steel no longer makes RailCraft steel blocks. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/267&#34;&gt;#267&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Immersive Engineering power connectors no longer fall when placed underneath things. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/257&#34;&gt;#257&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Division sigil can now be activated again. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/247&#34;&gt;#247&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Anvils placed in the world are no longer damaged. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/268&#34;&gt;#268&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Game no longer crashes randomly with Harder Wildlife lizards. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/245&#34;&gt;#245&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed Tilting Spears at Windmills to use only detection tasks. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/216&#34;&gt;#216&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:965c5bba9686f191ac88301e76956f9c&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/battletext&#34;&gt;BattleText - floating damage indicators have returned!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/ewys-workshop&#34;&gt;Ewy&amp;rsquo;s Workshop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/practical-logistics&#34;&gt;Practical Logistics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:965c5bba9686f191ac88301e76956f9c&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228529-mod/files/2283069&#34;&gt;BetterFoliage-MC1.7.10-2.0.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/220318-mod/files/2281726&#34;&gt;BiomesOPlenty-1.7.10-2.1.0.1889-universal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2281347&#34;&gt;ClimateControl-0.5.beta45&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2282922&#34;&gt;DynamicSurroundings-1.7.10-1.0.5.1BETA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/68420-mod/files/2281173&#34;&gt;eirairc-mc1.7.10-2.9.402&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/230114-mod/files/2281148&#34;&gt;Et Futurum-1.5.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1282698&#34;&gt;Exotic Birds 1.0.3b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232258-mod/files/2282933&#34;&gt;ExpandedIndustry-13.21.0a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229708-mod/files/2281555&#34;&gt;Farseek-1.0.11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2281372&#34;&gt;Forestry 4.2.8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2282370&#34;&gt;FTBUtilities-1.7.10-1.0.17.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2282369&#34;&gt;FTBLib-1.7.10-1.0.17.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;Galacticraft-1.7.3.0.12.443&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232254-mod/files/2282931&#34;&gt;HarderOres-13.21.0a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232257-mod/files/2282932&#34;&gt;HarderWildlife-13.21.0a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232071-mod/files/2282930&#34;&gt;HardLib-13.21.0a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2283072&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 80&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223896-mod/files/2281267&#34;&gt;malisiscore-1.7.10-0.14.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223891-mod/files/2281271&#34;&gt;malisisdoors-1.7.10-1.13.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69118-mod/files/2280761&#34;&gt;Morpheus-1.7.10-1.6.21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225251-mod/files/2282522&#34;&gt;NEIIntegration-MC1.7.10-1.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224663-mod/files/2280989&#34;&gt;OpenModularTurrets-1.7.10-2.1.9-211&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/MrTJP/ProjectRed/master/resources/Changelog&#34;&gt;ProjectRed-1.7.10-4.7.0pre12.95&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Team-RTG/Realistic-Terrain-Generation/releases&#34;&gt;RTG-1.7.10-0.6.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/75811-mod/files/2283024&#34;&gt;RefinedRelocation-mc1.7.10-1.1.25&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228462-mod/files/2281430&#34;&gt;RemainInMotion-2.8.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224641-mod/files/2280802&#34;&gt;rftools-4.22&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2281464&#34;&gt;Rockhounding Mod v3.24c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224301-mod/files/2281145&#34;&gt;SpecialAI-1.7.10-1.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2283003&#34;&gt;StorageDrawers-1.7.10-1.9.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229769-mod/files/2281587&#34;&gt;Streams-0.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:965c5bba9686f191ac88301e76956f9c&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;h3 id=&#34;removed-mods:965c5bba9686f191ac88301e76956f9c&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Small Boats &amp;ndash; ye caused one too many world corruptions&lt;/li&gt;
+&lt;li&gt;Spice of Life &amp;ndash; food is already difficult enough and this just makes it grindy.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 - Beta 2.1.3.0 Update!</title>

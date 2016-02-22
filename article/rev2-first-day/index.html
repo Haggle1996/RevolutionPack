@@ -5,14 +5,14 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  	<meta property="og:title" content=" REVOLUTION|2 2.0.2.0 Update! &middot;  REVOLUTION|2" />
+  	<meta property="og:title" content=" REVOLUTION|2 - First Day Guide &middot;  REVOLUTION|2" />
   	<meta property="og:site_name" content="REVOLUTION|2" />
-  	<meta property="og:url" content="http://revolutionpack.info/post/2020alpha/" />
+  	<meta property="og:url" content="http://revolutionpack.info/article/rev2-first-day/" />
 
     
   	<meta property="og:type" content="article" />
 
-    <meta property="og:article:published_time" content="2016-01-08T16:11:10-07:00" />
+    <meta property="og:article:published_time" content="2016-01-30T12:27:34-07:00" />
 
     
     <meta property="og:article:tag" content="REVOLUTION|2" />
@@ -20,7 +20,7 @@
     
 
   <title>
-     REVOLUTION|2 2.0.2.0 Update! &middot;  REVOLUTION|2
+     REVOLUTION|2 - First Day Guide &middot;  REVOLUTION|2
   </title>
 
     <meta name="description" content="FIGHT HARD. BUILD HARD. LIVE LONG." />
@@ -44,7 +44,7 @@
     
     <meta name="generator" content="Hugo 0.14" />
 
-    <link rel="canonical" href="http://revolutionpack.info/post/2020alpha/" />
+    <link rel="canonical" href="http://revolutionpack.info/article/rev2-first-day/" />
 
     
     <script>
@@ -118,7 +118,7 @@
             </li>
         
             
-            <li class="nav-opened" role="presentation">
+            <li class="nav-opened nav-current" role="presentation">
             	<a href="http://revolutionpack.info/article/rev2-first-day">REVOLUTION|2 - First Day Guide</a>
             </li>
         
@@ -151,7 +151,7 @@
 
 
 
-<header class="main-header post-head" style="background-image: url(http://revolutionpack.info//images/blog5.png)">
+<header class="main-header post-head" style="background-image: url(http://revolutionpack.info//images/blog8.jpg)">
   <nav class="main-nav overlay clearfix">
 
 
@@ -169,17 +169,13 @@
 
 
 
-  <article class="post post">
+  <article class="post article">
 
     <header class="post-header">
-        <h1 class="post-title">REVOLUTION|2 2.0.2.0 Update!</h1>
-        <small></small>
+        <h1 class="post-title">REVOLUTION|2 - First Day Guide</h1>
+        <small>Your guide to surviving the first few days in REVOLUTION|2</small>
 
         <section class="post-meta">
-        
-          <time class="post-date" datetime="2016-01-08T16:11:10-07:00">
-            Jan 8, 2016
-          </time>
         
          
           <span class="post-tag small"><a href="http://revolutionpack.info/tags/revolution2/">#REVOLUTION|2</a></span>
@@ -190,65 +186,58 @@
     <section class="post-content">
       
 
-<p>Hello, Everyone!</p>
+<hr />
 
-<p>WARNING: This alpha is not 100% compatible with previous alpha builds. Expect sudden chunk borders and cut off terrain.</p>
+<h3 id="getting-the-most-out-of-revolution-2:67cc146bc8b7937bd9ee66a706ae5657">Getting the most out of REVOLUTION|2</h3>
 
-<p>Welcome to what will hopefully be the very last alpha release of REVOLUTION|2. We&rsquo;re still waiting on a couple of mod updates to settle down before we can officially label it a &lsquo;beta&rsquo; release and have stable worlds going forward. That said there&rsquo;s a lot of new content in this pack, including quite a list of new and exciting mods. In particular, early game changes abound, with AgriCraft replacing the standard &lsquo;break garden, receive food&rsquo; method of early survival. You&rsquo;ll have to survive by your wits (and fruit trees and berries). Galaxy Space, Matter Overdrive, and PneumaticCraft round out the list of major mods. You&rsquo;ll also note Rockhounding Mod has been added, to give you a bit more variety in your worlds, as well as Better Rain (really &ndash; it makes it better), and Ex Futurum.</p>
+<p>This brief guide covers some important tips for maximizing gameplay performance and running REVOLUTION|2 on a server.</p>
 
-<p>There&rsquo;s still a few more new mods to come; though they&rsquo;ll all work with your beta worlds, so you won&rsquo;t have to restart when they show up. Stay tuned for more information. We have plenty of surprises in the works for the beta.</p>
+<h3 id="memory:67cc146bc8b7937bd9ee66a706ae5657">Memory</h3>
 
-<h3 id="changes:29963240414d3a25a0c6b6d90757af0f">Changes:</h3>
+<p><strong>SSP Single-player:</strong> 6GB of RAM is recommended. 4GB Minimum. If you experience frequent hard lag while exploring or moving, you probably do not have enough RAM allocated.</p>
 
-<ul>
-<li>The first page of the HQM book is provided to help get you started in the pack; the remaining pages will be along soon™.</li>
-<li>You can no longer Chisel torches.</li>
-<li>Turned off BuildCraft Water Springs.</li>
-<li>Turned off Pam&rsquo;s garden spawns and seed drops from breaking grass. Seed are acquired through AgriCraft mutations.</li>
-<li>Hid many more decorative block variations (like BiblioCraft and Storage Drawers wood variations). You can still browse them in the creative tab.</li>
-<li>Removed Natura Cactus juice due to recipe conflict.</li>
-<li>Railcraft Water Tank Siding can also be crafted with wax or cactus green.</li>
-<li>PnuematicCraft compressed iron can be made on the alloy smelter (since it can&rsquo;t be made with TNT).</li>
-<li>Epic Bacon is no longer craftable.</li>
-</ul>
+<p><strong>SMP Multi-player Server:</strong> 6GB of RAM during world generation. Afterward, 4GB minimum.<br />
+<strong>SMP Multi-player Clients:</strong> 4GB recommended. 3.5GB required.</p>
 
-<h3 id="added-mods:29963240414d3a25a0c6b6d90757af0f">Added Mods:</h3>
+<p>REVOLUTION|2&rsquo;s spectacular veins and motherlodes (via Custom Ore Generation and Harder Ores) uses a lot of RAM to calculate vein sizes. As such, memory usage is high during chunk generation. If your world is stable and you&rsquo;re not generating new overworld chunks often, you can reduce your memory allocation to 4GB.</p>
 
-<p><a href="http://minecraft.curseforge.com/projects/agricraft">AgriCraft 1.4.6</a><br />
-<a href="http://minecraft.curseforge.com/projects/better-rain">Better Rain 1.0.1.1</a><br />
-<a href="http://minecraft.curseforge.com/projects/climate-control">Climate Control 0.4.beta33</a><br />
-<a href="http://minecraft.curseforge.com/projects/et-futurum">Et Futurum 1.5.3</a><br />
-<a href="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2412548-1-7-10-galaxy-space-addon-for-galacticraft-3">Galaxy Space 1.0.4 STABLE</a><br />
-<a href="http://minecraft.curseforge.com/projects/matter-overdrive">Matter Overdrive 0.4.0</a><br />
-<a href="http://minecraft.curseforge.com/projects/pneumaticcraft">PneumaticCraft-1.7.10-1.12.3</a><br />
-<a href="http://minecraft.curseforge.com/projects/recurrent-complex">Recurrent Complex 0.9.6.3</a><br />
-<a href="http://minecraft.curseforge.com/projects/rockhounding-mod">Rockhounding Mod v3.21</a><br />
-<a href="http://minecraft.curseforge.com/projects/ivtoolkit">IvToolkit 1.2 - Recurrent Complex Dependency</a><br />
-<a href="http://minecraft.curseforge.com/projects/in-game-wiki-mod">In-Game Wiki Mod 1.1.11-32</a></p>
+<h3 id="pregenerating-a-world:67cc146bc8b7937bd9ee66a706ae5657">Pregenerating a World</h3>
 
-<h3 id="updated-mods:29963240414d3a25a0c6b6d90757af0f">Updated Mods:</h3>
+<p><em>Recommended for SMP play; not recommended for SSP (better to allocate 6GB of RAM)</em></p>
 
-<p><a href="https://github.com/Team-RTG/Realistic-Terrain-Generation/releases">Realistic Terrain Generation 0.5.0-snapshot-4</a><br />
-<a href="http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.7.10.html">Minecraft Forge 10.13.4.1614</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/222153-mod/files/2274094">Automage v0.27.1</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/225643-mod/files/2274323">Botania r1.8-248</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/59751-mod/files/2272933">Forestry 4.2.4</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/70492-mod/files/2272547">gendustry-1.6.4.134-mc1.7.10</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/222838-mod/files/2274328">Headcrumbs-1.7.2</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/229002-mod/files/2274178">MrTJPCore-1.1.0.32-universal</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/228702-mod/files/2274225">ProjectRed-1.7.10-4.7.0pre10.93-Base</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/230111-mod/files/2274229">ProjectRed-1.7.10-4.7.0pre10.93-Fabrication</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/229045-mod/files/2274228">ProjectRed-1.7.10-4.7.0pre10.93-Integration</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/229046-mod/files/2274230">ProjectRed-1.7.10-4.7.0pre10.93-Lighting</a><br />
-<a href="http://minecraft.curseforge.com/projects/biomes-o-plenty/files/2274003">Biomes O&rsquo; Plenty 2.1.0.1609</a><br />
-<a href="http://ci.micdoodle8.com/job/Galacticraft-1.7/changes">GalactiCraft Core 3.0.12.410</a><br />
-<a href="http://ci.micdoodle8.com/job/Galacticraft-1.7/changes">GalactiCraft Planets 3.0.12.410</a><br />
-<a href="http://ci.micdoodle8.com/job/Galacticraft-1.7/changes">MicdoodleCore 3.0.12.410</a><br />
-<a href="http://minecraft.curseforge.com/mc-mods/235753-mod/files/2274386">StacksOnStacks-1.7.10-2.4.3</a></p>
+<p>Pregenerating your world can significantly improve your REVOLUTION|2 experience, at the cost of some patience when starting a new world. Follow the following steps to pregenerate your world:</p>
 
-<h3 id="removed-mods:29963240414d3a25a0c6b6d90757af0f">Removed Mods:</h3>
+<ol>
+<li>If you haven&rsquo;t already, add <strong>Forge Essentials</strong> from the Optional Mods list. Note, this mod operates fine in both SMP and SMP play, but was designed for SMP.</li>
+<li>Start Minecraft as usual and create a new map in <strong>creative mode</strong> (or open a LAN game and enable cheats). Be sure to select either <strong>Realistic</strong> or <strong>Biomes O&rsquo; Plenty</strong> for your world type. There is no performance advantage to either type.</li>
+<li>Once the map has loaded (either SSP or SMP), do not move around and explore. Instead type the following into your chat window (SSP) or server console (SMP). SSP players will need to press &lsquo;ESC&rsquo; to get past the Galacticraft screen.</li>
+<li>Some players will receive <em>An unknown error occurred while attempting to perform this command</em> after entering the following commands. It is safe to ignore these errors. You can verify your settings at any time by entering <code>/wb</code>.</li>
+<li>Set the size of your pregeneration area: <code>/wb size 1600</code>. I recommend 1600 blocks (100 chunks) as a good starter size for SSP and 3200 for SMP. Larger maps may require more memory.</li>
+<li>Center the border on your current location: <code>/wb center here</code>.</li>
+<li>Enable the border: <code>/wb enable</code>.</li>
+<li>Start pregeneration: <code>/filler start</code>. For SMP players, it is recommended that you run this command from a connected player, so that you can observe progress, as it&rsquo;s not posted to the console log.</li>
+<li>Both SSP and SMP players, after pregeneration is complete, save your world and quit Minecraft. Resist the tempation to explore your world until we restart.</li>
+<li>For all SSP players and most SMP operators, deselect <strong>Forge Essentials</strong> from your Optional Mods list, as it takes up more memory and causes other issues. Some SMP operators may choose to keep it for fine-grained control of your server.<br /></li>
+<li>Restart Minecraft and enjoy your new world!</li>
+</ol>
 
-<p>Twilight Forest (we will miss you)</p>
+<h3 id="server-tips:67cc146bc8b7937bd9ee66a706ae5657">Server Tips</h3>
+
+<p>The following tips will help you get the most from your REVOLUTION|2 server:</p>
+
+<ol>
+<li>Run on good hardware. The pack runs great with 4-8GB of RAM supporting 10-15 simultaneous players, assuming good CPU and SSDs. During early days of the server (before too much automation is built), the pack generally performs well with 20-25 players.</li>
+<li>Make sure you pregenerate the world using the steps above. There is no appreciable difference between RTG and BOP worlds, except aesthetics.</li>
+<li>Pregenerate at least the Overworld, Moon, Mars, Nether, and Cave Dimension. It is a good practice to save a copy of your empty, pregenerated Cave Dimension, as this serves as the mining dimension for the pack.</li>
+<li>Run Opis (downloaded separately) and periodically check for expensive chunks &ndash; most commonly it&rsquo;s things like a player having 200 chickens, etc.</li>
+<li>Restart the server at least once per day. Busy servers should consider 2 to 4 times per day.</li>
+<li>Take regular backups. Note that both Forge Essentials and Aroma Backup automatically backup your world. If you&rsquo;ve chosen to keep Forge Essentials, be sure to disable Aroma Backup.</li>
+<li>Encourage players to test ReactorCraft builds in single-player creative mode BEFORE building them on the server. You may wish to add <code>/cofh killall radiation</code> to a timed script since excessive radiation can bring a server to it&rsquo;s knees; however, this is contrary to the author&rsquo;s vision for the mod.</li>
+</ol>
+
+<h3 id="cleaning-up-radiation:67cc146bc8b7937bd9ee66a706ae5657">Cleaning up Radiation</h3>
+
+<p>Some players cannot resist experimenting with ReactorCraft without first trying to build the desired reactor in a single-player creative test world. You&rsquo;ve been warned, but just in case, you can cleanup radiation using <code>/cofh killall radiation</code> if you have cheats enabled.</p>
 
     </section>
 
@@ -279,20 +268,20 @@
 
     
 <section class="share">
-  <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=REVOLUTION%7c2%202.0.2.0%20Update%21&amp;url=http%3a%2f%2frevolutionpack.info%2fpost%2f2020alpha%2f"
+  <h4>Share this article</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=REVOLUTION%7c2%20-%20First%20Day%20Guide&amp;url=http%3a%2f%2frevolutionpack.info%2farticle%2frev2-first-day%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2frevolutionpack.info%2fpost%2f2020alpha%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2frevolutionpack.info%2farticle%2frev2-first-day%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2frevolutionpack.info%2fpost%2f2020alpha%2f&amp;description=REVOLUTION%7c2%202.0.2.0%20Update%21"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2frevolutionpack.info%2farticle%2frev2-first-day%2f&amp;description=REVOLUTION%7c2%20-%20First%20Day%20Guide"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2frevolutionpack.info%2fpost%2f2020alpha%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2frevolutionpack.info%2farticle%2frev2-first-day%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -305,7 +294,7 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
   var disqus_shortname = 'revolutionpack';
-  var disqus_url = 'http:\/\/revolutionpack.info\/post\/2020alpha\/';
+  var disqus_url = 'http:\/\/revolutionpack.info\/article\/rev2-first-day\/';
   (function() {
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
