@@ -12,7 +12,7 @@ title = "REVOLUTION|2 - Gameplay Changes"
 description = "Updated for v2.1.0.0 Beta"
 +++
 
-Revolution|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don't expect everything to work the same as it did in the original Revolution.
+REVOLUTION|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don't expect everything to work the same as it did in the original Revolution.
 
 ## Where can I find ore X?
 Oregen is significantly different. Generally, ores can be found at most y-levels. Many ores spawn with giant, rare motherlodes and long, thin trace veins that lead to these motherlodes. Some ores generate in vertical pipes. Specifically:
@@ -200,7 +200,7 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 
 ## Matter Overdrive
 - Gravitational anomolies only spawn on other planets and moons
-- Tritanium and Dilithium only spawn on other planets and moons; tritanium spawns in shallow common veins; dilithium spawns deep in uncommon veins.
+- Tritanium and Dilithium only spawn on moon and mars; tritanium spawns in shallow common veins; dilithium spawns deep in uncommon veins.
 - Android only spawns on planets and moons
 - Energy costs are generally doubled
 

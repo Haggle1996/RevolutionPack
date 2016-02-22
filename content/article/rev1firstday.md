@@ -8,7 +8,7 @@ menu = "main"
 weight = 320
 share = true
 slug = "rev1-first-day"
-title = "First Day Guide"
+title = "REVOLUTION|1 - First Day Guide"
 tags = ["REVOLUTION|1"]
 description = "Your guide to surviving the first few days in Revolution v1.x"
 

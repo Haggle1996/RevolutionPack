@@ -7,10 +7,10 @@ image = "/images/blog8.jpg"
 menu = "main"
 weight = 215
 share = true
-slug = "rev2-tips"
+slug = "rev2-first-day"
 tags = ["REVOLUTION|2"]
-title = "Performance Tips"
-description = "Updated for v2.1.0.0 Beta"
+title = "REVOLUTION|2 - First Day Guide"
+description = "Your guide to surviving the first few days in REVOLUTION|2"
 +++
 ___
 ### Getting the most out of REVOLUTION|2

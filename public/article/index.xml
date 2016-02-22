@@ -18,7 +18,7 @@
       <guid>http://revolutionpack.info/article/rev2-gameplay-changes/</guid>
       <description>
 
-&lt;p&gt;Revolution|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don&amp;rsquo;t expect everything to work the same as it did in the original Revolution.&lt;/p&gt;
+&lt;p&gt;REVOLUTION|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don&amp;rsquo;t expect everything to work the same as it did in the original Revolution.&lt;/p&gt;
 
 &lt;h2 id=&#34;where-can-i-find-ore-x:2dc582e763001218f60802f283920a1d&#34;&gt;Where can I find ore X?&lt;/h2&gt;
 
@@ -378,7 +378,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Gravitational anomolies only spawn on other planets and moons&lt;/li&gt;
-&lt;li&gt;Tritanium and Dilithium only spawn on other planets and moons; tritanium spawns in shallow common veins; dilithium spawns deep in uncommon veins.&lt;/li&gt;
+&lt;li&gt;Tritanium and Dilithium only spawn on moon and mars; tritanium spawns in shallow common veins; dilithium spawns deep in uncommon veins.&lt;/li&gt;
 &lt;li&gt;Android only spawns on planets and moons&lt;/li&gt;
 &lt;li&gt;Energy costs are generally doubled&lt;/li&gt;
 &lt;/ul&gt;
@@ -503,20 +503,20 @@
     </item>
     
     <item>
-      <title>Performance Tips</title>
-      <link>http://revolutionpack.info/article/rev2-tips/</link>
+      <title>REVOLUTION|2 - First Day Guide</title>
+      <link>http://revolutionpack.info/article/rev2-first-day/</link>
       <pubDate>Sat, 30 Jan 2016 12:27:34 -0700</pubDate>
       
-      <guid>http://revolutionpack.info/article/rev2-tips/</guid>
+      <guid>http://revolutionpack.info/article/rev2-first-day/</guid>
       <description>
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;getting-the-most-out-of-revolution-2:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Getting the most out of REVOLUTION|2&lt;/h3&gt;
+&lt;h3 id=&#34;getting-the-most-out-of-revolution-2:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Getting the most out of REVOLUTION|2&lt;/h3&gt;
 
 &lt;p&gt;This brief guide covers some important tips for maximizing gameplay performance and running REVOLUTION|2 on a server.&lt;/p&gt;
 
-&lt;h3 id=&#34;memory:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Memory&lt;/h3&gt;
+&lt;h3 id=&#34;memory:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Memory&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;SSP Single-player:&lt;/strong&gt; 6GB of RAM is recommended. 4GB Minimum. If you experience frequent hard lag while exploring or moving, you probably do not have enough RAM allocated.&lt;/p&gt;
 
@@ -525,7 +525,7 @@
 
 &lt;p&gt;REVOLUTION|2&amp;rsquo;s spectacular veins and motherlodes (via Custom Ore Generation and Harder Ores) uses a lot of RAM to calculate vein sizes. As such, memory usage is high during chunk generation. If your world is stable and you&amp;rsquo;re not generating new overworld chunks often, you can reduce your memory allocation to 4GB.&lt;/p&gt;
 
-&lt;h3 id=&#34;pregenerating-a-world:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Pregenerating a World&lt;/h3&gt;
+&lt;h3 id=&#34;pregenerating-a-world:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Pregenerating a World&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;Recommended for SMP play; not recommended for SSP (better to allocate 6GB of RAM)&lt;/em&gt;&lt;/p&gt;
 
@@ -545,7 +545,7 @@
 &lt;li&gt;Restart Minecraft and enjoy your new world!&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;server-tips:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Server Tips&lt;/h3&gt;
+&lt;h3 id=&#34;server-tips:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Server Tips&lt;/h3&gt;
 
 &lt;p&gt;The following tips will help you get the most from your REVOLUTION|2 server:&lt;/p&gt;
 
@@ -559,7 +559,7 @@
 &lt;li&gt;Encourage players to test ReactorCraft builds in single-player creative mode BEFORE building them on the server. You may wish to add &lt;code&gt;/cofh killall radiation&lt;/code&gt; to a timed script since excessive radiation can bring a server to it&amp;rsquo;s knees; however, this is contrary to the author&amp;rsquo;s vision for the mod.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;cleaning-up-radiation:f8361977593ec99c4e0dbd1ef4aad7e8&#34;&gt;Cleaning up Radiation&lt;/h3&gt;
+&lt;h3 id=&#34;cleaning-up-radiation:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Cleaning up Radiation&lt;/h3&gt;
 
 &lt;p&gt;Some players cannot resist experimenting with ReactorCraft without first trying to build the desired reactor in a single-player creative test world. You&amp;rsquo;ve been warned, but just in case, you can cleanup radiation using &lt;code&gt;/cofh killall radiation&lt;/code&gt; if you have cheats enabled.&lt;/p&gt;
 </description>
