@@ -12,7 +12,7 @@ val furnace = <minecraft:furnace>;
 val glowstone = <ore:dustGlowstone>;
 val diamond = <ore:gemDiamond>;
 val piston = <minecraft:piston>;
-val crafter = <ore:crafterWood>;
+val crafter = <ore:craftingTableWood>;
 val hopper = <ore:blockHopper>;
 
 val quartz = <appliedenergistics2:tile.BlockQuartzGlass>;
