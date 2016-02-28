@@ -41,7 +41,6 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - First day guide
 - Cave Dimension elevator use gives duplicates
 - Use kerosene instead of rocket fuel in IE refinery.
-- Add bunnies to Special AI
 - Add antique atlas
 - Hydrokinetics falling
 <<<<<<< HEAD
