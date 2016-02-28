@@ -16,5 +16,6 @@
    "mtwofournine": {"category": "master", "sounds": [{"name": "mtwofournine", "stream": false}]},
    "pninety": {"category": "master", "sounds": [{"name": "pninety", "stream": false}]},
    "spas": {"category": "master", "sounds": [{"name": "spas", "stream": false}]},
-   "umpfourfive": {"category": "master", "sounds": [{"name": "umpfourfive", "stream": false}]}
+   "umpfourfive": {"category": "master", "sounds": [{"name": "umpfourfive", "stream": false}]},
+   "flame-thrower": {"category": "master", "sounds": [{"name": "flame-thrower", "stream": false}]}
 }
