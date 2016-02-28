@@ -7,8 +7,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 21 Feb 2016 11:12:15 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2016 15:47:35 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 Beta 2.3.0.0 Update!</title>
+      <link>http://revolutionpack.info/post/2300beta/</link>
+      <pubDate>Sun, 28 Feb 2016 15:47:35 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2300beta/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Welcome to another fantastic release of REVOLUTION|2! This week&amp;rsquo;s update focuses mostly on integrating the latest and greatest v11 of Reika&amp;rsquo;s mods, which includes MANY fixes to known bugs and issues. Hooray for bugfixes and a BIG thanks to Reika for all his hard work!&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s also been a huge pass on block physics. A lot more things won&amp;rsquo;t fall anymore. Yay! We&amp;rsquo;ve also managed to make the Rod of the Plentiful Mantle show all the ore again. Finally, a reliable, non-cheat way to discover ores in your area (this also fixes things like /oredistribution).&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve also managed to squash some annoying problems with world gen, reducing memory usage a bit and improving generation performance. It&amp;rsquo;s still not quite fast enough for most machines, so coming in the next update I will be including an optional pregenerated map for players with slow, small, or older computers. There&amp;rsquo;s no in-game advantage to playing this map, other then it&amp;rsquo;s pregenerated in a 1600 block radius (100 chunks), and it&amp;rsquo;s been verified to have all important ores within a happy distance of spawn. Hopefully, this will allow more players to enjoy REVOLUTION|2, who wouldn&amp;rsquo;t otherwise.&lt;/p&gt;
+
+&lt;p&gt;Technically, world gen has changed in this update, but there&amp;rsquo;s no reason to go out and restart your maps. You won&amp;rsquo;t get any annoying chunk borders with this patch, except in the Cave Dimension. The Cave Dimension&amp;rsquo;s ore generation was rewritten using CoFH to keep it cleaner, faster, and most importantly&amp;ndash;denser. :)&lt;/p&gt;
+
+&lt;p&gt;Lastly, those of you with RotaryCraft Canola planted on AgriCraft crop sticks should remove them prior to the update.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Harder Ores are now visible throug the Rod of the Plentiful Mantle, /oredistribution, and various other means of locating ore.&lt;/li&gt;
+&lt;li&gt;Due to the AgriCraft and RotaryCraft updates, you should remove any canola seeds from crop sticks prior to updating. They are safe to replant after the update.&lt;/li&gt;
+&lt;li&gt;Wheat, bonemeal, and sugar must now all be milled in some fashion.&lt;/li&gt;
+&lt;li&gt;Only vanilla and copper ore flowers generate naturally. Other ores&amp;rsquo; flowers still generate when bonemealing the ground. This only affects newly-generated chunks.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Replaced Chisel ore gen with Custom Ore Gen.&lt;/li&gt;
+&lt;li&gt;Killer bunnies&lt;/li&gt;
+&lt;li&gt;Huge revamp of block physics for many mods. Less things should fall, in general; a few things, like chiseled dirt, are softer. Mods: catwalks, agricraft, chromaticraft, chisel, electricraft, ender io, enhanced inventories, decocraft, etc. Note, some authors implemented blocks in an unusual way, and there&amp;rsquo;s nothing I can do about how physics alters those mods&amp;rsquo; fallen block properties. General rule of thumb: if it&amp;rsquo;s expensive, don&amp;rsquo;t drop it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hqm-notes:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;HQM Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can now complete the &amp;lsquo;Is Your Steel Dark&amp;rsquo; quest.&lt;/li&gt;
+&lt;li&gt;The &amp;lsquo;I&amp;rsquo;m All Charged Up&amp;rsquo; quest now detects more basic capacitors.&lt;/li&gt;
+&lt;li&gt;The &amp;lsquo;Only As Good As Your Tools&amp;rsquo; quest now requires a juicer instead of a second baking dish. It rewards something nice now, too.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;known-issues:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Known Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using up an Immersive Engineering hammer (and likely any tool that takes damage while crafting) while in a Ewy&amp;rsquo;s Workshop table will cause a CTD.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can no longer break bedrock using Rockhounding machines. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/274&#34;&gt;#274&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Rod of the Plentiful Mantle now finds ores again. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/256&#34;&gt;#256&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NEI grinder recipes should not crash. You may need to clear your NEI cache (delete /saves/NEI). Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/205&#34;&gt;#205&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CC Runes no longer fall. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/275&#34;&gt;#275&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Inventory Tweaks no longer causes problems for the Botania Mana Tablet (thanks to OmegaCenti!)&lt;/li&gt;
+&lt;li&gt;JourneyMap no longer loses part of the map when you quit SMP.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/admin-commands-toolbox&#34;&gt;AdminCommandsToolbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225635-mod/files/2284130&#34;&gt;AgriCraft-1.7.10-1.5.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/automagy/files/2283583&#34;&gt;Automagy v0.28.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225643-mod/files/2283837&#34;&gt;Botania r1.8-249&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ChromatiCraft 1.7.10 v11b.jar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69162-mod/files/2283118&#34;&gt;CoFHCore-1.7.10 3.1.2-325&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237749-mod/files/2283912&#34;&gt;coroutil-1.7.10-1.1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;DragonAPI 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2283641&#34;&gt;DynamicSurroundings-1.7.10-1.0.5.2BETA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ElectriCraft 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/64578-mod/files/2284032&#34;&gt;EnderIO-1.7.10-2.3.0.424_beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ExpandedRedstone 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2283350&#34;&gt;Forestry 4.2.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2283436&#34;&gt;FTBUtilities-1.7.10-1.0.17.5.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2283329&#34;&gt;FTBLib-1.7.10-1.0.17.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232159-mod/files/2283462&#34;&gt;Immersive Integration v0.6.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/journeymap-32274/files/2283867&#34;&gt;JourneyMap-1.7.10-5.1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2283834&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 87&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223896-mod/files/2283267&#34;&gt;malisiscore-1.7.10-0.14.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/240562-mod/files/2284074&#34;&gt;Practical Logistics - Version 0.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ReactorCraft 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2283634&#34;&gt;Rockhounding Mod v3.24d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;RotaryCraft 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/239418-mod/files/2284064&#34;&gt;Sonar-Core - Version 1.0.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2284322&#34;&gt;StorageDrawers-1.7.10-1.9.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;VoidMonster 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;h3 id=&#34;removed-mods:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Removed Mods&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 - Beta 2.2.0.0 Update!</title>
@@ -724,69 +823,6 @@ If you have been playing without Enviromine, be aware that structures may collap
 &lt;p&gt;Content for Revolution 1, as well as many relevant pack links, can be accessed through the menu at the top right.&lt;/p&gt;
 
 &lt;p&gt;Content for version 2 will be posted soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 - First Day Guide</title>
-      <link>http://revolutionpack.info/article/rev2-first-day/</link>
-      <pubDate>Sat, 30 Jan 2016 12:27:34 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/article/rev2-first-day/</guid>
-      <description>
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;getting-the-most-out-of-revolution-2:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Getting the most out of REVOLUTION|2&lt;/h3&gt;
-
-&lt;p&gt;This brief guide covers some important tips for maximizing gameplay performance and running REVOLUTION|2 on a server.&lt;/p&gt;
-
-&lt;h3 id=&#34;memory:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Memory&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;SSP Single-player:&lt;/strong&gt; 6GB of RAM is recommended. 4GB Minimum. If you experience frequent hard lag while exploring or moving, you probably do not have enough RAM allocated.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SMP Multi-player Server:&lt;/strong&gt; 6GB of RAM during world generation. Afterward, 4GB minimum.&lt;br /&gt;
-&lt;strong&gt;SMP Multi-player Clients:&lt;/strong&gt; 4GB recommended. 3.5GB required.&lt;/p&gt;
-
-&lt;p&gt;REVOLUTION|2&amp;rsquo;s spectacular veins and motherlodes (via Custom Ore Generation and Harder Ores) uses a lot of RAM to calculate vein sizes. As such, memory usage is high during chunk generation. If your world is stable and you&amp;rsquo;re not generating new overworld chunks often, you can reduce your memory allocation to 4GB.&lt;/p&gt;
-
-&lt;h3 id=&#34;pregenerating-a-world:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Pregenerating a World&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Recommended for SMP play; not recommended for SSP (better to allocate 6GB of RAM)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Pregenerating your world can significantly improve your REVOLUTION|2 experience, at the cost of some patience when starting a new world. Follow the following steps to pregenerate your world:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;If you haven&amp;rsquo;t already, add &lt;strong&gt;Forge Essentials&lt;/strong&gt; from the Optional Mods list. Note, this mod operates fine in both SMP and SMP play, but was designed for SMP.&lt;/li&gt;
-&lt;li&gt;Start Minecraft as usual and create a new map in &lt;strong&gt;creative mode&lt;/strong&gt; (or open a LAN game and enable cheats). Be sure to select either &lt;strong&gt;Realistic&lt;/strong&gt; or &lt;strong&gt;Biomes O&amp;rsquo; Plenty&lt;/strong&gt; for your world type. There is no performance advantage to either type.&lt;/li&gt;
-&lt;li&gt;Once the map has loaded (either SSP or SMP), do not move around and explore. Instead type the following into your chat window (SSP) or server console (SMP). SSP players will need to press &amp;lsquo;ESC&amp;rsquo; to get past the Galacticraft screen.&lt;/li&gt;
-&lt;li&gt;Some players will receive &lt;em&gt;An unknown error occurred while attempting to perform this command&lt;/em&gt; after entering the following commands. It is safe to ignore these errors. You can verify your settings at any time by entering &lt;code&gt;/wb&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Set the size of your pregeneration area: &lt;code&gt;/wb size 1600&lt;/code&gt;. I recommend 1600 blocks (100 chunks) as a good starter size for SSP and 3200 for SMP. Larger maps may require more memory.&lt;/li&gt;
-&lt;li&gt;Center the border on your current location: &lt;code&gt;/wb center here&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Enable the border: &lt;code&gt;/wb enable&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Start pregeneration: &lt;code&gt;/filler start&lt;/code&gt;. For SMP players, it is recommended that you run this command from a connected player, so that you can observe progress, as it&amp;rsquo;s not posted to the console log.&lt;/li&gt;
-&lt;li&gt;Both SSP and SMP players, after pregeneration is complete, save your world and quit Minecraft. Resist the tempation to explore your world until we restart.&lt;/li&gt;
-&lt;li&gt;For all SSP players and most SMP operators, deselect &lt;strong&gt;Forge Essentials&lt;/strong&gt; from your Optional Mods list, as it takes up more memory and causes other issues. Some SMP operators may choose to keep it for fine-grained control of your server.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Restart Minecraft and enjoy your new world!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;server-tips:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Server Tips&lt;/h3&gt;
-
-&lt;p&gt;The following tips will help you get the most from your REVOLUTION|2 server:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Run on good hardware. The pack runs great with 4-8GB of RAM supporting 10-15 simultaneous players, assuming good CPU and SSDs. During early days of the server (before too much automation is built), the pack generally performs well with 20-25 players.&lt;/li&gt;
-&lt;li&gt;Make sure you pregenerate the world using the steps above. There is no appreciable difference between RTG and BOP worlds, except aesthetics.&lt;/li&gt;
-&lt;li&gt;Pregenerate at least the Overworld, Moon, Mars, Nether, and Cave Dimension. It is a good practice to save a copy of your empty, pregenerated Cave Dimension, as this serves as the mining dimension for the pack.&lt;/li&gt;
-&lt;li&gt;Run Opis (downloaded separately) and periodically check for expensive chunks &amp;ndash; most commonly it&amp;rsquo;s things like a player having 200 chickens, etc.&lt;/li&gt;
-&lt;li&gt;Restart the server at least once per day. Busy servers should consider 2 to 4 times per day.&lt;/li&gt;
-&lt;li&gt;Take regular backups. Note that both Forge Essentials and Aroma Backup automatically backup your world. If you&amp;rsquo;ve chosen to keep Forge Essentials, be sure to disable Aroma Backup.&lt;/li&gt;
-&lt;li&gt;Encourage players to test ReactorCraft builds in single-player creative mode BEFORE building them on the server. You may wish to add &lt;code&gt;/cofh killall radiation&lt;/code&gt; to a timed script since excessive radiation can bring a server to it&amp;rsquo;s knees; however, this is contrary to the author&amp;rsquo;s vision for the mod.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;cleaning-up-radiation:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Cleaning up Radiation&lt;/h3&gt;
-
-&lt;p&gt;Some players cannot resist experimenting with ReactorCraft without first trying to build the desired reactor in a single-player creative test world. You&amp;rsquo;ve been warned, but just in case, you can cleanup radiation using &lt;code&gt;/cofh killall radiation&lt;/code&gt; if you have cheats enabled.&lt;/p&gt;
 </description>
     </item>
     

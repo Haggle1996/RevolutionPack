@@ -7,8 +7,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 21 Feb 2016 11:12:15 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 28 Feb 2016 15:47:35 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 Beta 2.3.0.0 Update!</title>
+      <link>http://revolutionpack.info/post/2300beta/</link>
+      <pubDate>Sun, 28 Feb 2016 15:47:35 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2300beta/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Welcome to another fantastic release of REVOLUTION|2! This week&amp;rsquo;s update focuses mostly on integrating the latest and greatest v11 of Reika&amp;rsquo;s mods, which includes MANY fixes to known bugs and issues. Hooray for bugfixes and a BIG thanks to Reika for all his hard work!&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s also been a huge pass on block physics. A lot more things won&amp;rsquo;t fall anymore. Yay! We&amp;rsquo;ve also managed to make the Rod of the Plentiful Mantle show all the ore again. Finally, a reliable, non-cheat way to discover ores in your area (this also fixes things like /oredistribution).&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve also managed to squash some annoying problems with world gen, reducing memory usage a bit and improving generation performance. It&amp;rsquo;s still not quite fast enough for most machines, so coming in the next update I will be including an optional pregenerated map for players with slow, small, or older computers. There&amp;rsquo;s no in-game advantage to playing this map, other then it&amp;rsquo;s pregenerated in a 1600 block radius (100 chunks), and it&amp;rsquo;s been verified to have all important ores within a happy distance of spawn. Hopefully, this will allow more players to enjoy REVOLUTION|2, who wouldn&amp;rsquo;t otherwise.&lt;/p&gt;
+
+&lt;p&gt;Technically, world gen has changed in this update, but there&amp;rsquo;s no reason to go out and restart your maps. You won&amp;rsquo;t get any annoying chunk borders with this patch, except in the Cave Dimension. The Cave Dimension&amp;rsquo;s ore generation was rewritten using CoFH to keep it cleaner, faster, and most importantly&amp;ndash;denser. :)&lt;/p&gt;
+
+&lt;p&gt;Lastly, those of you with RotaryCraft Canola planted on AgriCraft crop sticks should remove them prior to the update.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Harder Ores are now visible throug the Rod of the Plentiful Mantle, /oredistribution, and various other means of locating ore.&lt;/li&gt;
+&lt;li&gt;Due to the AgriCraft and RotaryCraft updates, you should remove any canola seeds from crop sticks prior to updating. They are safe to replant after the update.&lt;/li&gt;
+&lt;li&gt;Wheat, bonemeal, and sugar must now all be milled in some fashion.&lt;/li&gt;
+&lt;li&gt;Only vanilla and copper ore flowers generate naturally. Other ores&amp;rsquo; flowers still generate when bonemealing the ground. This only affects newly-generated chunks.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Replaced Chisel ore gen with Custom Ore Gen.&lt;/li&gt;
+&lt;li&gt;Killer bunnies&lt;/li&gt;
+&lt;li&gt;Huge revamp of block physics for many mods. Less things should fall, in general; a few things, like chiseled dirt, are softer. Mods: catwalks, agricraft, chromaticraft, chisel, electricraft, ender io, enhanced inventories, decocraft, etc. Note, some authors implemented blocks in an unusual way, and there&amp;rsquo;s nothing I can do about how physics alters those mods&amp;rsquo; fallen block properties. General rule of thumb: if it&amp;rsquo;s expensive, don&amp;rsquo;t drop it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hqm-notes:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;HQM Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can now complete the &amp;lsquo;Is Your Steel Dark&amp;rsquo; quest.&lt;/li&gt;
+&lt;li&gt;The &amp;lsquo;I&amp;rsquo;m All Charged Up&amp;rsquo; quest now detects more basic capacitors.&lt;/li&gt;
+&lt;li&gt;The &amp;lsquo;Only As Good As Your Tools&amp;rsquo; quest now requires a juicer instead of a second baking dish. It rewards something nice now, too.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;known-issues:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Known Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using up an Immersive Engineering hammer (and likely any tool that takes damage while crafting) while in a Ewy&amp;rsquo;s Workshop table will cause a CTD.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can no longer break bedrock using Rockhounding machines. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/274&#34;&gt;#274&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Rod of the Plentiful Mantle now finds ores again. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/256&#34;&gt;#256&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NEI grinder recipes should not crash. You may need to clear your NEI cache (delete /saves/NEI). Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/205&#34;&gt;#205&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CC Runes no longer fall. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/275&#34;&gt;#275&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Inventory Tweaks no longer causes problems for the Botania Mana Tablet (thanks to OmegaCenti!)&lt;/li&gt;
+&lt;li&gt;JourneyMap no longer loses part of the map when you quit SMP.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/admin-commands-toolbox&#34;&gt;AdminCommandsToolbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225635-mod/files/2284130&#34;&gt;AgriCraft-1.7.10-1.5.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/automagy/files/2283583&#34;&gt;Automagy v0.28.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225643-mod/files/2283837&#34;&gt;Botania r1.8-249&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ChromatiCraft 1.7.10 v11b.jar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69162-mod/files/2283118&#34;&gt;CoFHCore-1.7.10 3.1.2-325&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237749-mod/files/2283912&#34;&gt;coroutil-1.7.10-1.1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;DragonAPI 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2283641&#34;&gt;DynamicSurroundings-1.7.10-1.0.5.2BETA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ElectriCraft 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/64578-mod/files/2284032&#34;&gt;EnderIO-1.7.10-2.3.0.424_beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ExpandedRedstone 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2283350&#34;&gt;Forestry 4.2.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2283436&#34;&gt;FTBUtilities-1.7.10-1.0.17.5.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2283329&#34;&gt;FTBLib-1.7.10-1.0.17.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232159-mod/files/2283462&#34;&gt;Immersive Integration v0.6.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/journeymap-32274/files/2283867&#34;&gt;JourneyMap-1.7.10-5.1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2283834&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 87&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223896-mod/files/2283267&#34;&gt;malisiscore-1.7.10-0.14.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/240562-mod/files/2284074&#34;&gt;Practical Logistics - Version 0.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ReactorCraft 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2283634&#34;&gt;Rockhounding Mod v3.24d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;RotaryCraft 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/239418-mod/files/2284064&#34;&gt;Sonar-Core - Version 1.0.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2284322&#34;&gt;StorageDrawers-1.7.10-1.9.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;VoidMonster 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;h3 id=&#34;removed-mods:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Removed Mods&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 - Beta 2.2.0.0 Update!</title>
