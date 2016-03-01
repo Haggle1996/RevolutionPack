@@ -54,7 +54,7 @@
                 <Choice value='disabled' displayValue='Disabled' description='No copper is generated, and no copper symbols are available in Mystcraft ages.'/>
             </OptionChoice>
             
-            <OptionNumeric name='hic2CopperFreq' default='1'  min='0' max='5'
+            <OptionNumeric name='hic2CopperFreq' default='2'  min='0' max='5'
                            displayState=':= if(?advOptions &amp; hic2CopperDist != "disabled","shown","hidden")'
                            displayGroup='groupHardExtras'>
                 <Description>Frequency multiplier for Copper distributions </Description>

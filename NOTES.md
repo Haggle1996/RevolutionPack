@@ -8,6 +8,7 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Update version in EiraIRC configuration shared.cfg
 - Turn off Edit Mode on HQM
 - Update Warning and Install notes on pack xml
+- Update MCF page topic and/or announce update.
 
 ## TODO
 
