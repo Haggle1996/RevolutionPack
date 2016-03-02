@@ -14,9 +14,10 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 
 - Accidentally Circumstantial Events posts radio chatter.
 - https://github.com/ATLauncher/ATLauncher/issues/234#issuecomment-183437054
-- First day guide
 - Cave Dimension elevator use gives duplicates
 - Use kerosene instead of rocket fuel in IE refinery.
-- Add antique atlas
 
+- Friction heater quest
+- XP from friction heater quest
+ 
 ## Pack changes

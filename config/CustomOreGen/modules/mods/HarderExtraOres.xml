@@ -38,7 +38,7 @@
             <OptionChoice name='hic2CopperDist' displayGroup='groupHardExtras'>
                 <Description>Controls how Copper is generated </Description>
                 <DisplayName>Copper Type</DisplayName>
-                <Default>:= if(?forceExtraOres|blockExists("oreCopper")|isModInstalled("ThermalFoundation"),"layeredVeins","layeredVeins")</Default>
+                <Default>:= if(?forceExtraOres|blockExists("oreCopper")|isModInstalled("ThermalFoundation"),"layeredVeins","disabled")</Default>
             	<DisplayState>:= if(?forceExtraOres|blockExists("oreCopper")|isModInstalled("ThermalFoundation"),"shown","hidden")</DisplayState>
                 <Choice value='layeredVeins' displayValue='Veins'>
                     <Description>
@@ -74,7 +74,7 @@
             <OptionChoice name='hic2TinDist' displayGroup='groupHardExtras'>
                 <Description>Controls how Tin is generated </Description>
                 <DisplayName>Tin Type</DisplayName>
-                <Default>:= if(?forceExtraOres|blockExists("oreTin")|isModInstalled("ThermalFoundation"),"strategicClouds","strategicClouds")</Default>
+                <Default>:= if(?forceExtraOres|blockExists("oreTin")|isModInstalled("ThermalFoundation"),"strategicClouds","disabled")</Default>
             	<DisplayState>:= if(?forceExtraOres|blockExists("oreTin")|isModInstalled("ThermalFoundation"),"shown","hidden")</DisplayState>
                 <Choice value='layeredVeins' displayValue='Veins'>
                     <Description>
@@ -113,7 +113,7 @@
             <OptionChoice name='hic2UraniumDist' displayGroup='groupHardExtras'>
                 <Description>Controls how Uranium is generated </Description>
                 <DisplayName>Uranium Type</DisplayName>
-                <Default>:= if(?forceExtraOres|blockExists("oreUranium")|blockExists("orePitchblende"),"layeredVeins","layeredVeins")</Default>
+                <Default>:= if(?forceExtraOres|blockExists("oreUranium")|blockExists("orePitchblende"),"layeredVeins","disabled")</Default>
             	<DisplayState>:= if(?forceExtraOres|blockExists("oreUranium")|blockExists("orePitchblende"),"shown","hidden")</DisplayState>
                 <Choice value='layeredVeins' displayValue='Veins'>
                     <Description>
@@ -152,7 +152,7 @@
             <OptionChoice name='hic2LeadDist' displayGroup='groupHardExtras'>
                 <Description>Controls how Lead is generated </Description>
                 <DisplayName>Lead Type</DisplayName>
-                <Default>:= if(?forceExtraOres|blockExists("oreLead")|isModInstalled("ThermalFoundation"),"layeredVeins","layeredVeins")</Default>
+                <Default>:= if(?forceExtraOres|blockExists("oreLead")|isModInstalled("ThermalFoundation"),"layeredVeins","disabled")</Default>
             	<DisplayState>:= if(?forceExtraOres|blockExists("oreLead")|isModInstalled("ThermalFoundation"),"shown","hidden")</DisplayState>
                 <Choice value='layeredVeins' displayValue='Veins'>
                     <Description>
@@ -191,7 +191,7 @@
             <OptionChoice name='hardSilverDist' displayGroup='groupHardExtras'>
                 <Description>Controls how Silver is generated </Description>
                 <DisplayName>Silver Type</DisplayName>
-                <Default>:= if(?forceExtraOres|blockExists("oreSilver")|isModInstalled("ThermalFoundation"),"layeredVeins","layeredVeins")</Default>
+                <Default>:= if(?forceExtraOres|blockExists("oreSilver")|isModInstalled("ThermalFoundation"),"layeredVeins","disabled")</Default>
             	<DisplayState>:= if(?forceExtraOres|blockExists("oreSilver")|isModInstalled("ThermalFoundation"),"shown","hidden")</DisplayState>
                 <Choice value='layeredVeins' displayValue='Veins'>
                     <Description>
@@ -233,7 +233,7 @@
             <OptionChoice name='hardNickelDist' displayGroup='groupHardExtras'>
                 <Description>Controls how Nickel Ore is generated </Description>
                 <DisplayName>Nickel Ore Type</DisplayName>
-                <Default>:= if(?forceExtraOres|blockExists("oreNickel")|blockExists("oreFerrous")|isModInstalled("ThermalFoundation"),"layeredVeins","layeredVeins")</Default>
+                <Default>:= if(?forceExtraOres|blockExists("oreNickel")|blockExists("oreFerrous")|isModInstalled("ThermalFoundation"),"layeredVeins","disabled")</Default>
             	<DisplayState>:= if(?forceExtraOres|blockExists("oreNickel")|blockExists("oreFerrous")|isModInstalled("ThermalFoundation"),"shown","hidden")</DisplayState>
                 <Choice value='layeredVeins' displayValue='Veins'>
                     <Description>
@@ -269,7 +269,7 @@
 		<!--*******************   Aluminum Ore   *********************-->
         <ConfigSection>
 			<OptionChoice name='hardBauxiteDist' displayGroup='groupHardExtras'>
-                <Default>:= if(?forceExtraOres|blockExists("oreAluminum"),"surfaceClouds","surfaceClouds")</Default>
+                <Default>:= if(?forceExtraOres|blockExists("oreAluminum"),"surfaceClouds","disabled")</Default>
             	<DisplayState>:= if(?forceExtraOres|blockExists("oreAluminum"),"shown","hidden")</DisplayState>
                 <Description>Controls how Bauxite (Aluminum) is generated </Description>
                 <DisplayName>Bauxite Type</DisplayName>
