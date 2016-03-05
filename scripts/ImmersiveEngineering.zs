@@ -14,9 +14,13 @@ recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<ImmersiveEngineering:meta
                                                      [<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>],
                                                      [<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>]]); 
 
-# Plates use more resources than metal press
+
+
+													 # Plates use more resources than metal press
+
 
 # Iron
+
 recipes.removeShapeless(<ImmersiveEngineering:metal:30>);
 recipes.addShapeless(<ImmersiveEngineering:metal:30>, [<ore:ingotIron>,<ore:ingotIron>,<ImmersiveEngineering:tool>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:30>, [<ImmersiveEngineering:metalDecoration:10>]);
@@ -42,6 +46,33 @@ recipes.addShapeless(<ImmersiveEngineering:metal:38>, [<ImmersiveEngineering:met
 
 # RC Tin plates made on Metal Press
 mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.plate:2>, <ore:ingotTin>, <ImmersiveEngineering:mold>, 500, 1);
+
+/*nd crafting items compared to recipes made with metal press are now more expensive (yield less results) i.e. iron rod hand craft is 2 ingots for 2 rods (default 4 rods)
+*/
+
+#changed 2 ingots shaped for 4 iron bars to 2 iron bars
+recipes.removeShaped(<ImmersiveEngineering:material:14>);
+recipes.addShaped(<ImmersiveEngineering:material:14> * 2, 	[[	<ore:ingotIron>,null,null],
+															[	<ore:ingotIron>,null,null],
+															[	null,			null,null]]);
+
+#changed 2 ingots shaped for 4 steel bars to 2 steel bars
+recipes.removeShaped(<ImmersiveEngineering:material:15>);
+recipes.addShaped(<ImmersiveEngineering:material:15> * 2, 	[[	<ore:ingotSteel>,null,null],
+															[	<ore:ingotSteel>,null,null],
+															[	null,			null,null]]);
+															
+#changed 2 ingots shaped for 4 aluminum bars to 2 aluminum bars
+recipes.removeShaped(<ImmersiveEngineering:material:16>);
+recipes.addShaped(<ImmersiveEngineering:material:16> * 2, 	[[	<ore:ingotAluminum>,null,null],
+															[	<ore:ingotAluminum>,null,null],
+															[	null,			null,null]]);
+															
+#changed 2 ingots shaped for 4 steel bars to 2 steel bars
+recipes.removeShaped(<ImmersiveEngineering:material:15>);
+recipes.addShaped(<ImmersiveEngineering:material:15> * 2, 	[[	<ore:ingotSteel>,null,null],
+															[	<ore:ingotSteel>,null,null],
+															[	null,			null,null]]);
 
 # Lapis produces sapphire dust in the crusher
 mods.immersiveengineering.Crusher.removeRecipe(<ElectriCraft:electricraft_item_crafting>);
