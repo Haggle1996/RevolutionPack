@@ -1,0 +1,28 @@
+item.Official.bullet.acp.name=.45 ACP
+item.Official.bullet.nato.name=5.56x45 мм НАТО
+item.Official.bullet.wp.name=5.45x39 мм
+item.Official.bullet.parabellum.name=9x19 мм Парабеллум
+item.Official.bullet.natoHeavy.name=7.62x51 мм НАТО
+item.Official.bullet.wpHeavy.name=7.62x39 мм
+item.Official.bullet.rHeavy.name=7.62x54 мм R
+
+item.Official.m16a3.name=M16A3
+item.Official.aek971.name=АЕК-971
+item.Official.l96.name=L96
+item.Official.sv98.name=СВ-98
+item.Official.g17.name=Глок 17
+item.Official.g18.name=Глок 18
+
+item.Official.m16a3.magazine.name=Магазин M16A3
+item.Official.aek971.magazine.name=Магазин АЕК-971
+item.Official.l96.magazine.name=Магазин L96
+item.Official.sv98.magazine.name=Магазин СВ-98
+item.Official.g17.magazine.name=Магазин Глок 17
+item.Official.g18.magazine.name=Магазин Глок 18
+
+itemGroup.Official.m16a3=GunCus M16A3
+itemGroup.Official.aek971=GunCus АЕК-971
+itemGroup.Official.l96=GunCus L96
+itemGroup.Official.sv98=GunCus СВ-98
+itemGroup.Official.g17=GunCus Глок 17
+itemGroup.Official.g18=GunCus Глок 18
