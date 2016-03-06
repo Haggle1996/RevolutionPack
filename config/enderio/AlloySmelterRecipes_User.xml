@@ -308,7 +308,9 @@ ore dictionary.
   <recipeGroup name="PneumaticCraft" >
     <recipe name="Compressed Iron" energyCost="96000">
         <input>
-            <itemStack oreDictionary="ingotIron" number="2" />
+            <itemStack oreDictionary="ingotIron" number="1" />
+            <itemStack oreDictionary="ingotIron" number="1" />
+            <itemStack modID="minecraft" itemName="tnt" />
         </input>
         <output>
             <itemStack modID="PneumaticCraft" itemName="ingotIronCompressed" number="2" />

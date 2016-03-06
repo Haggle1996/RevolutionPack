@@ -18,10 +18,8 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Use kerosene instead of rocket fuel in IE refinery.
 - Base photos
 
-- Immersive engineering rods only make half as much manually.
 - Automagy update notification needs to be removed
 - Compare old quests to new quests and add some epic stuff.
-- Update link for animals+ http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1282011-animals-plus-1-6-camels-sharks-and-more-updated-1
 - Crusher recipe for wheat, sugarcane, etc.
 
 HQM

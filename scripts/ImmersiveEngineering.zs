@@ -305,3 +305,8 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ReactorCraft:reactorcraft_block_
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:3>,<HarderOres:ore_chunk:16> * 4, null, 200, 512, []);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:4>,<HarderOres:ore_chunk:17> * 4, null, 200, 512, []);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:1>,<HarderOres:ore_chunk:18> * 4, null, 200, 512, []);
+
+# Wheat, Sugarcane, Bonemeal in crusher
+mods.immersiveengineering.Crusher.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:4>);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:largeDust:1>,<minecraft:wheat>, 1600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:sugar> * 2,<minecraft:reeds>, 1600, null, 0.0);
