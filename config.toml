@@ -61,7 +61,7 @@ canonifyurls = true
     url = "https://gitter.im/Haggle1996/RevolutionPack"
 
 [[menu.main]]
-    name = "Game Changes R2"
+    name = "R2 Game Changes"
     weight = 200
     pre = "<h3>revolution|2</h3>"
     url = "/article/rev2-gameplay-changes"
@@ -72,7 +72,7 @@ canonifyurls = true
     url = "https://www.atlauncher.com/pack/Revolution2"
     
 [[menu.main]]
-    name = "Game Changes R1"
+    name = "R1 Game Changes"
     weight = 300
     pre = "<h3>revolution|1</h3>"
     url = "/article/rev1-gameplay-changes"

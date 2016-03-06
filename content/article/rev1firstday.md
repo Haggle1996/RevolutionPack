@@ -8,7 +8,7 @@ menu = "main"
 weight = 320
 share = true
 slug = "rev1-first-day"
-title = "REVOLUTION|1 - First Day Guide"
+title = "R1 First Day Guide"
 tags = ["REVOLUTION|1"]
 description = "Your guide to surviving the first few days in Revolution v1.x"
 
@@ -20,7 +20,7 @@ When starting a new world, you have a couple of world type options -- either Bio
 I also recommend enabling cheats -- just in case -- but if you're the kind that's susceptible to temptation, you can leave it off. We have another alternative in-game.
 
 ## Some performance tips...
-There are a few simple things you can do to dramatically increase the performance and your enjoyment of the pack. Immediately upon entering your new world, I highly recommend you save and quit to the main menu, then reload your save. This first save will take a little longer than usual, but will result in a fully generated area around you with minimal lag. I also highly recommend you run /pregenspawn 50 (or 100...its the radius, in chunks, around your spawn point) to pregenerate a large number of chunks in your vicinity, then repeat the save/load cycle once generation completes. While this will delay your adventuring into the new world, it will give you the best performance from the pack over the course of your play.
+There are a few simple things you can do to dramatically increase the performance and your enjoyment of the pack. Immediately upon entering your new world, I highly recommend you save and quit to the main menu, then reload your save. This first save will take a little longer than usual, but will result in a fully generated area around you with minimal lag. I also highly recommend you run `/pregenspawn 50` (or 100...its the radius, in chunks, around your spawn point) to pregenerate a large number of chunks in your vicinity, then repeat the save/load cycle once generation completes. While this will delay your adventuring into the new world, it will give you the best performance from the pack over the course of your play.
 
 ## The First Day...
 Welcome to the Revolution! If you're playing in single-player, the first thing your going to want to do is gather enough wood and wool for a crafting table and bed. There's lots of creepy-crawly nasties at night that want to eat or kill you (and a few during the day - find someplace safe!). You'll also want to find a safe biome -- swamps, marshes, deserts, and high areas above y-level 85 spawn some of the most dangerous mobs. Only venture there when you've got yourself some armor. You've been warned.

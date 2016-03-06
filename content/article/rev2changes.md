@@ -47,13 +47,12 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - There is a mini-guide built into the modpack. Access your inventory, then click the guide book along the left edge of your inventory window.
 - Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block -- up to two and a half stacks of ingots per block with all advancements!
 - Ore flowers spawn on the surface, indicating nearby ores.
-- Oregen has been completely redone using Custom Ore Generation First Revival. This is significantly faster than the CoFH ore gen and means most players will not need to pregenerate their worlds! Yay!
 - Torches will set fire to nearby blocks and burn out over time.
 - Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.
 - Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.
 - Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.
 - Naturally-spawning Vanilla and Forestry trees will die off over time, turning into compost and eventually dirt. Dropped saplings will plant themselves.
-- Food now rots over time. This can be overcome by building Eskys and Freezers (storage blocks from and Enviromine that integrate with Cooking for Blockheads).
+- Food rots over time. This can be overcome by building Eskys and Freezers (storage blocks from and Enviromine that integrate with Cooking for Blockheads).
 - Only basic seeds drop from breaking grass. You will need to create mutations in AgriCraft to discover all possible food seeds.
 - Unsupported cave and building rooves will collapse on you. Make sure to support your ceilings! Different materials can stretch different lengths (up to 3 blocks out). Building common engineered structures, such as l-girder shapes, can extend blocks indefinitely.
 - Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.

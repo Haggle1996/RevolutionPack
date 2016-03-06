@@ -7,8 +7,201 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 21 Feb 2016 11:12:15 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 05 Mar 2016 10:41:15 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 Beta 2.4.0.0 Update!</title>
+      <link>http://revolutionpack.info/post/2400beta/</link>
+      <pubDate>Sat, 05 Mar 2016 10:41:15 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2400beta/</guid>
+      <description>
+
+&lt;p&gt;Good evening, everyone! Welcome to another REVOLUTION|2 update!&lt;/p&gt;
+
+&lt;p&gt;In this update, lots of fixes to physics and many bugs squashed like the little creepy things they are! Generally, all RotaryCraft, ElectriCraft, ReactorCraft, and ChromatiCraft blocks (including pipes), are no longer subject to physics. A number of other mods were also fixed in the pass. And we tested it thoroughly this time. Yay!&lt;/p&gt;
+
+&lt;p&gt;Additionally, we have a new update to RTG. Again, bigger, better, more beautiful terrain. It will cause chunk borders on newly generated chunks, but is otherwise backwards compatible. No need to regenerate your worlds.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve also added a few new minimap mods to our selection. Note that Antique Atlas must be installed on both client and server to function correctly. The other maps are okay to run client-side only. JourneyMap is still the recommended minimap mod; Map Writer works better on slower potatoes. Opis is intended only for debugging FPS problems or for server admins.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes:59d61f6799d21b4581c607388ee0491d&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Turned off infinite water from IE pumps&lt;/li&gt;
+&lt;li&gt;Smelting raw ores in the blast furnace gives slag instead of cobblestone as a byproduct.&lt;/li&gt;
+&lt;li&gt;Added recipes for flour and bonemeal to the Crusher, making 1 flour or 2 sugar per item, based on the input.&lt;/li&gt;
+&lt;li&gt;Random Things Fertilized Dirt can now be used under AgriCraft crops (thanks to Taraxus!)&lt;/li&gt;
+&lt;li&gt;Metal press items made by hand (instead of on the press) now yield fewer items per craft (thanks to OmegaCenti!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;significant-mod-updates:59d61f6799d21b4581c607388ee0491d&#34;&gt;Significant Mod Updates&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dynamic Surroundings added an in-game menu to enable/disable individual sounds without having to touch your config files. Yay!&lt;/li&gt;
+&lt;li&gt;Updated version of Realistic Terrain Generation (RTG) will produce odd chunk borders on newly generated chunks. It is safe to revert to an older version if this is extremely bothersome.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hqm-notes:59d61f6799d21b4581c607388ee0491d&#34;&gt;HQM Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is a mod and bug update. Quests will be added and fixed in the next content update.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;known-issues:59d61f6799d21b4581c607388ee0491d&#34;&gt;Known Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Some Forestry items (Apiarist&amp;rsquo;s Chest, Stamp Collector, etc.) are uncraftable due to an interaction with DragonAPI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:59d61f6799d21b4581c607388ee0491d&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Arc Furnace no longer creating Energetic Alloy instead of Vibrant Alloy. Closed &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/262&#34;&gt;#262&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Blast furnace no longer uses incorrect amounts of raw materials. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/244&#34;&gt;#244&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed the problem with Thaumcraft Nodes in Jars falling and breaking. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/298&#34;&gt;#298&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Removed Et Futurum beacons due to conflict with Extra Utilities. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/310&#34;&gt;#310&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unmineable ChromatiCraft blocks no longer occur. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/288&#34;&gt;#288&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Garden Stuff blocks don&amp;rsquo;t fall if they shouldn&amp;rsquo;t. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/304&#34;&gt;#304&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AgriCraft tanks are no longer subject to physics. May fix &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/305&#34;&gt;#305&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Possible fix for DecoCraft blocks causing crash. May fix &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/306&#34;&gt;#306&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Compressed Iron now needs TNT in the Alloy Smelter. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/292&#34;&gt;#292&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:59d61f6799d21b4581c607388ee0491d&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/antique-atlas&#34;&gt;Antique Atlas&lt;/a&gt; - Optional Minimap Mod.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/opis&#34;&gt;Opis&lt;/a&gt; - Optional Minimap mod for profiling Forge servers and FPS issues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:59d61f6799d21b4581c607388ee0491d&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225194-mod/files/2272496&#34;&gt;AE2stuff-0.5.1.61-mc1.7.10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222153-mod/files/2285272&#34;&gt;Automagy v0.28.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2285323&#34;&gt;DynamicSurroundings-1.7.10-1.0.5.4BETA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2284459&#34;&gt;FTBUtilities-1.7.10-1.0.17.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2284458&#34;&gt;FTBLib-1.7.10-1.0.17.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236073-mod/files/2285451&#34;&gt;GunCustomization 3.47 for 1.7.10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231951-mod/files/2285330&#34;&gt;Immersive Engineering v0.7.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2285258&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 94&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223891-mod/files/2284380&#34;&gt;malisisdoors-1.7.10-1.13.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224125-mod/files/2285499&#34;&gt;PneumaticCraft-1.7.10-1.12.7-150-universal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/240562-mod/files/2284308&#34;&gt;Practical Logistics - Version 0.1.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2284460&#34;&gt;RTG-1.7.10-0.7.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2284904&#34;&gt;StorageDrawers-1.7.10-1.9.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2412548-1-7-10-galaxy-space-addon-for-galacticraft-3&#34;&gt;Galaxy Space 1.0.7 STABLE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;GalactiCraft 1.7-3.0.12.443&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:59d61f6799d21b4581c607388ee0491d&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;h3 id=&#34;removed-mods:59d61f6799d21b4581c607388ee0491d&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;p&gt;ChiselTones (replaced with minetweaker script - no loss of functionality)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 Beta 2.3.0.0 Update!</title>
+      <link>http://revolutionpack.info/post/2300beta/</link>
+      <pubDate>Sun, 28 Feb 2016 15:47:35 -0700</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2300beta/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Welcome to another fantastic release of REVOLUTION|2! This week&amp;rsquo;s update focuses mostly on integrating the latest and greatest v11 of Reika&amp;rsquo;s mods, which includes MANY fixes to known bugs and issues. Hooray for bugfixes and a BIG thanks to Reika for all his hard work!&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s also been a huge pass on block physics. A lot more things won&amp;rsquo;t fall anymore. Yay! We&amp;rsquo;ve also managed to make the Rod of the Plentiful Mantle show all the ore again. Finally, a reliable, non-cheat way to discover ores in your area (this also fixes things like /oredistribution).&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve also managed to squash some annoying problems with world gen, reducing memory usage a bit and improving generation performance. It&amp;rsquo;s still not quite fast enough for most machines, so coming in the next update I will be including an optional pregenerated map for players with slow, small, or older computers. There&amp;rsquo;s no in-game advantage to playing this map, other then it&amp;rsquo;s pregenerated in a 1600 block radius (100 chunks), and it&amp;rsquo;s been verified to have all important ores within a happy distance of spawn. Hopefully, this will allow more players to enjoy REVOLUTION|2, who wouldn&amp;rsquo;t otherwise.&lt;/p&gt;
+
+&lt;p&gt;Technically, world gen has changed in this update, but there&amp;rsquo;s no reason to go out and restart your maps. You won&amp;rsquo;t get any annoying chunk borders with this patch, except in the Cave Dimension. The Cave Dimension&amp;rsquo;s ore generation was rewritten using CoFH to keep it cleaner, faster, and most importantly&amp;ndash;denser. :)&lt;/p&gt;
+
+&lt;p&gt;Lastly, those of you with RotaryCraft Canola planted on AgriCraft crop sticks should remove them prior to the update.&lt;/p&gt;
+
+&lt;h3 id=&#34;changes:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Harder Ores are now visible throug the Rod of the Plentiful Mantle, /oredistribution, and various other means of locating ore.&lt;/li&gt;
+&lt;li&gt;Due to the AgriCraft and RotaryCraft updates, you should remove any canola seeds from crop sticks prior to updating. They are safe to replant after the update.&lt;/li&gt;
+&lt;li&gt;Wheat, bonemeal, and sugar must now all be milled in some fashion.&lt;/li&gt;
+&lt;li&gt;Only vanilla and copper ore flowers generate naturally. Other ores&amp;rsquo; flowers still generate when bonemealing the ground. This only affects newly-generated chunks.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Replaced Chisel ore gen with Custom Ore Gen.&lt;/li&gt;
+&lt;li&gt;Killer bunnies&lt;/li&gt;
+&lt;li&gt;Huge revamp of block physics for many mods. Less things should fall, in general; a few things, like chiseled dirt, are softer. Mods: catwalks, agricraft, chromaticraft, chisel, electricraft, ender io, enhanced inventories, decocraft, etc. Note, some authors implemented blocks in an unusual way, and there&amp;rsquo;s nothing I can do about how physics alters those mods&amp;rsquo; fallen block properties. General rule of thumb: if it&amp;rsquo;s expensive, don&amp;rsquo;t drop it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hqm-notes:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;HQM Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can now complete the &amp;lsquo;Is Your Steel Dark&amp;rsquo; quest.&lt;/li&gt;
+&lt;li&gt;The &amp;lsquo;I&amp;rsquo;m All Charged Up&amp;rsquo; quest now detects more basic capacitors.&lt;/li&gt;
+&lt;li&gt;The &amp;lsquo;Only As Good As Your Tools&amp;rsquo; quest now requires a juicer instead of a second baking dish. It rewards something nice now, too.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;known-issues:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Known Issues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using up an Immersive Engineering hammer (and likely any tool that takes damage while crafting) while in a Ewy&amp;rsquo;s Workshop table will cause a CTD.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can no longer break bedrock using Rockhounding machines. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/274&#34;&gt;#274&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Rod of the Plentiful Mantle now finds ores again. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/256&#34;&gt;#256&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NEI grinder recipes should not crash. You may need to clear your NEI cache (delete /saves/NEI). Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/205&#34;&gt;#205&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CC Runes no longer fall. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/275&#34;&gt;#275&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Inventory Tweaks no longer causes problems for the Botania Mana Tablet (thanks to OmegaCenti!)&lt;/li&gt;
+&lt;li&gt;JourneyMap no longer loses part of the map when you quit SMP.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/admin-commands-toolbox&#34;&gt;AdminCommandsToolbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225635-mod/files/2284130&#34;&gt;AgriCraft-1.7.10-1.5.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/automagy/files/2283583&#34;&gt;Automagy v0.28.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225643-mod/files/2283837&#34;&gt;Botania r1.8-249&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ChromatiCraft 1.7.10 v11b.jar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69162-mod/files/2283118&#34;&gt;CoFHCore-1.7.10 3.1.2-325&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237749-mod/files/2283912&#34;&gt;coroutil-1.7.10-1.1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;DragonAPI 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2283641&#34;&gt;DynamicSurroundings-1.7.10-1.0.5.2BETA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ElectriCraft 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/64578-mod/files/2284032&#34;&gt;EnderIO-1.7.10-2.3.0.424_beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ExpandedRedstone 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2283350&#34;&gt;Forestry 4.2.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2283436&#34;&gt;FTBUtilities-1.7.10-1.0.17.5.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2283329&#34;&gt;FTBLib-1.7.10-1.0.17.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232159-mod/files/2283462&#34;&gt;Immersive Integration v0.6.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/journeymap-32274/files/2283867&#34;&gt;JourneyMap-1.7.10-5.1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2283834&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 87&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223896-mod/files/2283267&#34;&gt;malisiscore-1.7.10-0.14.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/240562-mod/files/2284074&#34;&gt;Practical Logistics - Version 0.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ReactorCraft 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2283634&#34;&gt;Rockhounding Mod v3.24d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;RotaryCraft 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/239418-mod/files/2284064&#34;&gt;Sonar-Core - Version 1.0.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2284322&#34;&gt;StorageDrawers-1.7.10-1.9.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;VoidMonster 1.7.10 v11b&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;h3 id=&#34;removed-mods:ea79c939615ba88afc136a4a03fa44a4&#34;&gt;Removed Mods&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 - Beta 2.2.0.0 Update!</title>
@@ -710,512 +903,6 @@ If you have been playing without Enviromine, be aware that structures may collap
 &lt;p&gt;Revolution|2 is an extensive revamp of the original, featuring many new and updated mods, in addition to old familiars and favorites. Please check out the Gameplay Changes article (available from the menu) for details about the pack, and keep your eye here (or on the launcher screen within the pack) for breaking news and updates.&lt;/p&gt;
 
 &lt;p&gt;Revolution|2 is currently in alpha release. This means that some of the content (most notably HQM quests and the custom bee progression) has not been included in the download. Also, we expect worlds created in the alpha to not be compatible with beta worlds, as we expect some incoming breaking changes to world generation; however, we expect Please report any issues with the pack on the issue tracker.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>New Website</title>
-      <link>http://revolutionpack.info/post/2015-12-23-newwebsite/</link>
-      <pubDate>Wed, 23 Dec 2015 13:24:22 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2015-12-23-newwebsite/</guid>
-      <description>&lt;p&gt;With the impending release of Revolution|2, I thought it would be a good time to launch the new website! Yay!&lt;/p&gt;
-
-&lt;p&gt;Content for Revolution 1, as well as many relevant pack links, can be accessed through the menu at the top right.&lt;/p&gt;
-
-&lt;p&gt;Content for version 2 will be posted soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 - Gameplay Changes</title>
-      <link>http://revolutionpack.info/article/rev2-gameplay-changes/</link>
-      <pubDate>Wed, 23 Dec 2015 11:53:42 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/article/rev2-gameplay-changes/</guid>
-      <description>
-
-&lt;p&gt;REVOLUTION|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don&amp;rsquo;t expect everything to work the same as it did in the original Revolution.&lt;/p&gt;
-
-&lt;h2 id=&#34;where-can-i-find-ore-x:2dc582e763001218f60802f283920a1d&#34;&gt;Where can I find ore X?&lt;/h2&gt;
-
-&lt;p&gt;Oregen is significantly different. Generally, ores can be found at most y-levels. Many ores spawn with giant, rare motherlodes and long, thin trace veins that lead to these motherlodes. Some ores generate in vertical pipes. Specifically:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Ore&lt;/th&gt;
-&lt;th&gt;Location&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Coal&lt;/td&gt;
-&lt;td&gt;Spawns just near the surface, and up into hills and mountains.  The veins are long and thick, but sparsely filled with ore and often broken up by caves or depressions in the terrain.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Iron&lt;/td&gt;
-&lt;td&gt;Groups of long narrow veins found about one third of the way down to bedrock. Especially common in snowy or icy areas.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Gold&lt;/td&gt;
-&lt;td&gt;Groups of long narrow veins found about two thirds of the way down to bedrock.  Most common in temperate hardwood forests, but still very rare.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Redstone&lt;/td&gt;
-&lt;td&gt;Single vertical veins starting near the surface and extending down about halfway to bedrock.  Most common in desert climates.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Diamond&lt;/td&gt;
-&lt;td&gt;Short lava-filled tubes extending upward from bedrock with diamonds around the edges.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Lapis Lazuli&lt;/td&gt;
-&lt;td&gt;Single vertical veins starting near bedrock and extending about halfway to the surface.  Most common under ocean floors.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Emerald&lt;/td&gt;
-&lt;td&gt;Short sloping tubes filled sparsely with emeralds and a few &amp;hellip; surprises.  Vastly more common under open grassy hills.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Limonite&lt;/td&gt;
-&lt;td&gt;Use a shovel! Generally at sea-level and a bit lower. More common in rivers and areas that spawn clay or sand.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Copper&lt;/td&gt;
-&lt;td&gt;Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Tin&lt;/td&gt;
-&lt;td&gt;Groups of long narrow veins found about halfway down to bedrock.  More frequent in flat grassy plains.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Uranium &amp;amp; Pitchblende&lt;/td&gt;
-&lt;td&gt;Isolated veins found about two thirds of the way down to bedrock and only sparsely filled with ore.  Unusually common in devastated wastelands.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Lead&lt;/td&gt;
-&lt;td&gt;Groups of long narrow veins found about one third of the way down to bedrock.  Especially common in jungles.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Silver&lt;/td&gt;
-&lt;td&gt;Isolated veins found about two thirds of the way down to bedrock.  Unusually common in mountains.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Nickel&lt;/td&gt;
-&lt;td&gt;Groups of long narrow veins found near bedrock.  Especially common in swamps.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Aluminum&lt;/td&gt;
-&lt;td&gt;Flat Clouds found near the surface.  Only found in mesa, swamp, and jungle biomes.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Apatite&lt;/td&gt;
-&lt;td&gt;Spawns in large, rare veins between y-level 56 and 184.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Cadmium&lt;/td&gt;
-&lt;td&gt;Spawns in layered veins between y-level 2 and 14.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Indium&lt;/td&gt;
-&lt;td&gt;Spawns in layered veins between y-level 6 and 18.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Fluorite&lt;/td&gt;
-&lt;td&gt;Spawns in large motherlodes between y-level 3 and 13 with large tendrils spreading out for long distances.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Magnetite&lt;/td&gt;
-&lt;td&gt;Spawns in large, rare veins between y-level 76 and 98.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Calcite&lt;/td&gt;
-&lt;td&gt;Spawns in rare veins between y-level 42 and 58.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Certus Quartz&lt;/td&gt;
-&lt;td&gt;Spawns with charged certus quarts in vertical veins between y-level 76 and 52.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Ore generation in the Enviromine Cave dimension is richer and more vanilla-like, and is intended for use as a mining dimension. There are also secret ways of creating ore.&lt;/p&gt;
-
-&lt;h2 id=&#34;significant-gameplay-changes:2dc582e763001218f60802f283920a1d&#34;&gt;Significant Gameplay Changes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;There is a mini-guide built into the modpack. Access your inventory, then click the guide book along the left edge of your inventory window.&lt;/li&gt;
-&lt;li&gt;Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block &amp;ndash; up to two and a half stacks of ingots per block with all advancements!&lt;/li&gt;
-&lt;li&gt;Ore flowers spawn on the surface, indicating nearby ores.&lt;/li&gt;
-&lt;li&gt;Oregen has been completely redone using Custom Ore Generation First Revival. This is significantly faster than the CoFH ore gen and means most players will not need to pregenerate their worlds! Yay!&lt;/li&gt;
-&lt;li&gt;Torches will set fire to nearby blocks and burn out over time.&lt;/li&gt;
-&lt;li&gt;Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.&lt;/li&gt;
-&lt;li&gt;Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.&lt;/li&gt;
-&lt;li&gt;Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.&lt;/li&gt;
-&lt;li&gt;Naturally-spawning Vanilla and Forestry trees will die off over time, turning into compost and eventually dirt. Dropped saplings will plant themselves.&lt;/li&gt;
-&lt;li&gt;Food now rots over time. This can be overcome by building Eskys and Freezers (storage blocks from and Enviromine that integrate with Cooking for Blockheads).&lt;/li&gt;
-&lt;li&gt;Only basic seeds drop from breaking grass. You will need to create mutations in AgriCraft to discover all possible food seeds.&lt;/li&gt;
-&lt;li&gt;Unsupported cave and building rooves will collapse on you. Make sure to support your ceilings! Different materials can stretch different lengths (up to 3 blocks out). Building common engineered structures, such as l-girder shapes, can extend blocks indefinitely.&lt;/li&gt;
-&lt;li&gt;Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.&lt;/li&gt;
-&lt;li&gt;Power consumption and generation has been revamped throughout the pack. Generally, things are more expensive.&lt;/li&gt;
-&lt;li&gt;Power, item, and fluid transmission has been tiered:
-&amp;ndash; Tier 1: Immersive Engineering
-&amp;ndash; Tier 2: BuildCraft, Logistics Pipes
-&amp;ndash; Tier 3: Ender IO
-&amp;ndash; Tier 4: ElectriCraft (power transmission)&lt;/li&gt;
-&lt;li&gt;Early game RF power is best provided through either the Rotational Dynamo or the Immersive Engineering waterwheel/windmill.&lt;/li&gt;
-&lt;li&gt;Spawners aren&amp;rsquo;t moveable intact during the early game; you must research technology to move them or use them for powered spawners.&lt;/li&gt;
-&lt;li&gt;Many repetetive items are hidden in NEI (e.g., BiblioCraft and Storage Drawers wood variations; Gun Customization modified weapons). Use Creative Tab to access these items.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;trivia:2dc582e763001218f60802f283920a1d&#34;&gt;Trivia&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dead bodies can be removed by hitting them with a shovel.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;mod-specific-changes:2dc582e763001218f60802f283920a1d&#34;&gt;Mod-specific changes&lt;/h1&gt;
-
-&lt;h2 id=&#34;agricraft:2dc582e763001218f60802f283920a1d&#34;&gt;Agricraft&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Resource crops are disabled&lt;/li&gt;
-&lt;li&gt;Disabled natura integration&lt;/li&gt;
-&lt;li&gt;Removed decorative blocks&lt;/li&gt;
-&lt;li&gt;Reduced stat cap to 8&lt;/li&gt;
-&lt;li&gt;Turned on hardcore mode&lt;/li&gt;
-&lt;li&gt;Increased mutation rate by 50%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;animals:2dc582e763001218f60802f283920a1d&#34;&gt;Animals+&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Whales, Centipedes, Crickets, and Butterflies no longer spawn.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;applied-energistics:2dc582e763001218f60802f283920a1d&#34;&gt;Applied Energistics&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RotaryCraft shaft power is about 4x more effective than RF for powering AE systems (yes, the energy acceptor accepts shaft power)&lt;/li&gt;
-&lt;li&gt;Applied Energistics requires about 4x more power than typical.&lt;/li&gt;
-&lt;li&gt;Recipes generally require steel or steel plates instead of iron&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;better-sleeping:2dc582e763001218f60802f283920a1d&#34;&gt;Better Sleeping&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Removed most debuffs when you&amp;rsquo;re tired.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;biomes-o-plenty:2dc582e763001218f60802f283920a1d&#34;&gt;Biomes O&amp;rsquo; Plenty&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Removed all ore generation and related tools, armor.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;botania:2dc582e763001218f60802f283920a1d&#34;&gt;Botania&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mana Flux Field is disabled&lt;/li&gt;
-&lt;li&gt;Passive Flowers despawn after 24,000 ticks (mod default, but this surprises some people)&lt;/li&gt;
-&lt;li&gt;Mana Cookie is removed&lt;/li&gt;
-&lt;li&gt;Manasteel requires steel&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;buildcraft:2dc582e763001218f60802f283920a1d&#34;&gt;BuildCraft&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
-&lt;li&gt;Engines require metal plates.&lt;/li&gt;
-&lt;li&gt;A number of recipes from other mods are crafted on the Assembly Table&lt;/li&gt;
-&lt;li&gt;Refinery is removed &amp;ndash; use the Immersive Engineering Refinery for Fuel and Ethanol&lt;/li&gt;
-&lt;li&gt;Turned off Water Springs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;chisel:2dc582e763001218f60802f283920a1d&#34;&gt;Chisel&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Cannot chisel torches&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;chromaticraft:2dc582e763001218f60802f283920a1d&#34;&gt;ChromatiCraft&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wisps in Rainbow Forests can hurt you.&lt;/li&gt;
-&lt;li&gt;The Ender Dragon will respawn shortly after killing it.&lt;/li&gt;
-&lt;li&gt;Rainbow Forest biomes do not spread when planting rainbow trees.&lt;/li&gt;
-&lt;li&gt;Pylons do not automatically chunk-load; you&amp;rsquo;ll need to use your own chunk loader (server optimization).&lt;/li&gt;
-&lt;li&gt;Disabled player progress announcements as they cause a server crash.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;cooking-for-blockheads:2dc582e763001218f60802f283920a1d&#34;&gt;Cooking for Blockheads&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Water must be pumped in to the sink.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;ender-io:2dc582e763001218f60802f283920a1d&#34;&gt;Ender IO&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Hard machine recipes are turned on.&lt;/li&gt;
-&lt;li&gt;Alloy Smelter recipes generally require 10x more power (IE Arc Furnaces smelt significantly faster, but require even more power).&lt;/li&gt;
-&lt;li&gt;Conduit Binder is made with Silicon and Wool. Seriously, who makes wire insulation from gravel, sand, and clay?&lt;/li&gt;
-&lt;li&gt;Machine casings require steel&lt;/li&gt;
-&lt;li&gt;Stirling engine requires plates&lt;/li&gt;
-&lt;li&gt;Capacitors are created on the BuildCraft Assembly Table&lt;/li&gt;
-&lt;li&gt;Dark Steel requires steel ingots&lt;/li&gt;
-&lt;li&gt;Harder ores can now be smelted in the EIO Alloy Smelter with coal at a 4:1 rate&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;enviromine:2dc582e763001218f60802f283920a1d&#34;&gt;Enviromine&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Disabled sanity, hydration, temperature, air quality, and slide physics (drop physics remain).&lt;/li&gt;
-&lt;li&gt;Elevators now require steel plates and bedrock pickaxes.&lt;/li&gt;
-&lt;li&gt;Removed recipes for items that are useless.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;extra-utilities:2dc582e763001218f60802f283920a1d&#34;&gt;Extra Utilities&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Most of this mod is disabled, particularly the Ender Quarry, transport nodes, generators, and watering cans.&lt;/li&gt;
-&lt;li&gt;Ender Lilies can only be found in The End&lt;/li&gt;
-&lt;li&gt;Drum requires steel plates&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;forestry:2dc582e763001218f60802f283920a1d&#34;&gt;Forestry&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Farms are now square, because 45 degree angles are hard.&lt;/li&gt;
-&lt;li&gt;Forestry bees can now make RotaryCraft yeast.&lt;/li&gt;
-&lt;li&gt;Engines are disabled&lt;/li&gt;
-&lt;li&gt;Adventurer&amp;rsquo;s Bags are renamed Ammo Bags and can hold ammo (obviously)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;galacticraft:2dc582e763001218f60802f283920a1d&#34;&gt;Galacticraft&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
-&lt;li&gt;ReactorCraft ores spawn plentifully on the moon.&lt;/li&gt;
-&lt;li&gt;Converting GalactiCraft power to RF is 66% less efficient.&lt;/li&gt;
-&lt;li&gt;Consuming RF power from GalactiCraft machines suffers no penalty.&lt;/li&gt;
-&lt;li&gt;Refinery is removed. Use the Immersive Engineering Refinery for making fuel.&lt;/li&gt;
-&lt;li&gt;Coal Generator has been removed&lt;/li&gt;
-&lt;li&gt;Many recipes require RotaryCraft bedrock ingots&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;gun-customization:2dc582e763001218f60802f283920a1d&#34;&gt;Gun Customization&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Balanced the damage output of various weapons, generally making them about 10% more powerful (weapons are balanced around the concept of the &amp;lsquo;double-tap&amp;rsquo;, in that a common handgun should be able to kill a standard zombie with two shots to the head).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;harder-ores:2dc582e763001218f60802f283920a1d&#34;&gt;Harder Ores&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Regular redstone spawns in place of Hard Redstone, so that it can be silk-touched for recipes that require it.&lt;/li&gt;
-&lt;li&gt;Regular diamond spawns alongside Hard Diamond Ore&lt;/li&gt;
-&lt;li&gt;Pitchblende spawns alongside Uranium. Both can be used to power ReactorCraft reactors.&lt;/li&gt;
-&lt;li&gt;Sifter uses a wooden bucket instead of an iron one.&lt;/li&gt;
-&lt;li&gt;Sluice has alternative recipe&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;harvestcraft:2dc582e763001218f60802f283920a1d&#34;&gt;HarvestCraft&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Water plants are grown on farmland, not water.&lt;/li&gt;
-&lt;li&gt;Seeds must be researched through crop mutations&lt;/li&gt;
-&lt;li&gt;Removed gardens&lt;/li&gt;
-&lt;li&gt;Epic Bacon is no longer craftable&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;headcrumbs:2dc582e763001218f60802f283920a1d&#34;&gt;Headcrumbs&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Baarbra no longer spawns (TPS heavy)&lt;/li&gt;
-&lt;li&gt;Reduced spawn probability and group size&lt;/li&gt;
-&lt;li&gt;Added Revolution Pack celebrities&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;hunger-overhaul:2dc582e763001218f60802f283920a1d&#34;&gt;Hunger Overhaul&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Many tweaks to the difficulty, generally making it easier than default configs&lt;/li&gt;
-&lt;li&gt;Food stack size is set at 64.&lt;/li&gt;
-&lt;li&gt;Increased time it takes to heal.&lt;/li&gt;
-&lt;li&gt;Increased the minimum hunger to heal to 18.&lt;/li&gt;
-&lt;li&gt;Constant hunger loss is disabled&lt;/li&gt;
-&lt;li&gt;It takes much longer to starve to death.&lt;/li&gt;
-&lt;li&gt;You drain food faster when healing.&lt;/li&gt;
-&lt;li&gt;You respawn with 1/6th of your health.&lt;/li&gt;
-&lt;li&gt;Difficulty scales hunger rates 50% more.&lt;/li&gt;
-&lt;li&gt;Sugarcane is not affected by biome (but it is by season).&lt;/li&gt;
-&lt;li&gt;Crops grow slower and have lower yields.&lt;/li&gt;
-&lt;li&gt;There is no penalty for growing crops indoors or underground (generally, this is a boost to productivity).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;immersive-engineering:2dc582e763001218f60802f283920a1d&#34;&gt;Immersive Engineering&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;LV/MV/HV Cables transfer at 256/1024/2048 RF/t respectively.&lt;/li&gt;
-&lt;li&gt;Blast Furnace can now refine Harder Ores hard ores.&lt;/li&gt;
-&lt;li&gt;Arc Furnace can refine hard diamond ore into diamonds much more efficiently&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;jabba:2dc582e763001218f60802f283920a1d&#34;&gt;JABBA&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Removed the Diamond Dolly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;matter-overdrive:2dc582e763001218f60802f283920a1d&#34;&gt;Matter Overdrive&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Gravitational anomolies only spawn on other planets and moons&lt;/li&gt;
-&lt;li&gt;Tritanium and Dilithium only spawn on moon and mars; tritanium spawns in shallow common veins; dilithium spawns deep in uncommon veins.&lt;/li&gt;
-&lt;li&gt;Android only spawns on planets and moons&lt;/li&gt;
-&lt;li&gt;Energy costs are generally doubled&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;natura:2dc582e763001218f60802f283920a1d&#34;&gt;Natura&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Removed barley and cotton crops, plus related recipes.&lt;/li&gt;
-&lt;li&gt;Natura nether trees can&amp;rsquo;t spawn as ChromatiCraft dye trees.&lt;/li&gt;
-&lt;li&gt;Removed cactus juice.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;open-blocks:2dc582e763001218f60802f283920a1d&#34;&gt;Open Blocks&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Graves are turned off, replaced with lootable bodies (which can be broken with a shovel). Server operators, the open blocks inventory restore still functions as expected.&lt;/li&gt;
-&lt;li&gt;Tanks are much more expensive.&lt;/li&gt;
-&lt;li&gt;Luggage is removed.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;open-modular-turrets:2dc582e763001218f60802f283920a1d&#34;&gt;Open Modular Turrets&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Power requirements are increased 10x&lt;/li&gt;
-&lt;li&gt;Turrets cannot attack players&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;ore-dictionary:2dc582e763001218f60802f283920a1d&#34;&gt;Ore Dictionary&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added beeswax to ore dictionary for wax&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;pneumaticcraft:2dc582e763001218f60802f283920a1d&#34;&gt;PneumaticCraft&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pneumatic Dynamo operates at 5% efficiency (very poor source of RF)&lt;/li&gt;
-&lt;li&gt;Making Compressed Iron with TNT loses 100% of all ingots.&lt;/li&gt;
-&lt;li&gt;Initial Compressed Iron can be made in the Ender IO Alloy Smelter.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;railcraft:2dc582e763001218f60802f283920a1d&#34;&gt;Railcraft&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Blast Furnace and Coke Oven are removed. Use the equivalents from Immersive Engineering&lt;/li&gt;
-&lt;li&gt;Removed poor ores&lt;/li&gt;
-&lt;li&gt;Engines require plates based on tier&lt;/li&gt;
-&lt;li&gt;Turned off Residual Heat&lt;/li&gt;
-&lt;li&gt;Steel armor and items are removed. Use HSLA for entry level armor, and various mod armors for later game.&lt;/li&gt;
-&lt;li&gt;Village workshops do not spawn&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;random-things:2dc582e763001218f60802f283920a1d&#34;&gt;Random Things&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Disabled Spirit Binder&lt;/li&gt;
-&lt;li&gt;Spectre Armor is disabled&lt;/li&gt;
-&lt;li&gt;You cannot sleep through Blood Moons&lt;/li&gt;
-&lt;li&gt;Blood Moons occur on 5% of all nights&lt;/li&gt;
-&lt;li&gt;Minimum range for spawns during blood moons is 24 blocks, up from 3.&lt;/li&gt;
-&lt;li&gt;Monsters spawn slowly during blood moons, instead of all at once.&lt;/li&gt;
-&lt;li&gt;Blood moon spawn cap is set at 300% of vanilla.&lt;/li&gt;
-&lt;li&gt;Blood moon-spawned monsters despawn in the morning.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;rockhounding-mod:2dc582e763001218f60802f283920a1d&#34;&gt;Rockhounding Mod&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Disabled Chemistry, Mine Crawler, Gemology&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;roguelike-dungeons:2dc582e763001218f60802f283920a1d&#34;&gt;Roguelike Dungeons&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added a customized modern bunker theme.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;rotarycraft:2dc582e763001218f60802f283920a1d&#34;&gt;RotaryCraft&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Bedrock picks break spawners.&lt;/li&gt;
-&lt;li&gt;Machines can be made on the standard crafting grid.&lt;/li&gt;
-&lt;li&gt;Bedrock tools can be used in the Ender IO Farming Station&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;spice-of-life:2dc582e763001218f60802f283920a1d&#34;&gt;Spice of Life&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Food history length is 30&lt;/li&gt;
-&lt;li&gt;Food history uses hunger restored instead of food named. For example, it will remember the last 5 items that restored 4 food, or the last 10 items that restored 2 food. Generally, this makes it so higher-nutrition foods require less variety than lower nutrition.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Previously eaten items are less nutritious.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;vanilla:2dc582e763001218f60802f283920a1d&#34;&gt;Vanilla&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill or hammer)&lt;/li&gt;
-&lt;li&gt;Vanilla armor crafting is disabled&amp;hellip;find them in dungeons and monster loot.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;void-monster:2dc582e763001218f60802f283920a1d&#34;&gt;Void Monster&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Void monster doesn&amp;rsquo;t spawn in The End, Spectral World, Deep Dark, and The Last Millenium&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;wooden-buckets:2dc582e763001218f60802f283920a1d&#34;&gt;Wooden Buckets&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Can use wax instead of pipe green&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;zombie-awareness:2dc582e763001218f60802f283920a1d&#34;&gt;Zombie Awareness&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Zombies are not attracted to scent&lt;/li&gt;
-&lt;li&gt;Extra Zombies spawn on the surface&lt;/li&gt;
-&lt;li&gt;Removed the chance for baby zombies to spawn&lt;/li&gt;
-&lt;li&gt;Zombies do not summon help (but there are zombies that spawn help).&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

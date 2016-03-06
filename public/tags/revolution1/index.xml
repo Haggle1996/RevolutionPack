@@ -11,7 +11,7 @@
     <atom:link href="http://revolutionpack.info/tags/revolution1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>First Day Guide</title>
+      <title>R1 First Day Guide</title>
       <link>http://revolutionpack.info/article/rev1-first-day/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
       
@@ -26,7 +26,7 @@
 
 &lt;h2 id=&#34;some-performance-tips:b116e34dbf360dd5c87d639bee733950&#34;&gt;Some performance tips&amp;hellip;&lt;/h2&gt;
 
-&lt;p&gt;There are a few simple things you can do to dramatically increase the performance and your enjoyment of the pack. Immediately upon entering your new world, I highly recommend you save and quit to the main menu, then reload your save. This first save will take a little longer than usual, but will result in a fully generated area around you with minimal lag. I also highly recommend you run /pregenspawn 50 (or 100&amp;hellip;its the radius, in chunks, around your spawn point) to pregenerate a large number of chunks in your vicinity, then repeat the save/load cycle once generation completes. While this will delay your adventuring into the new world, it will give you the best performance from the pack over the course of your play.&lt;/p&gt;
+&lt;p&gt;There are a few simple things you can do to dramatically increase the performance and your enjoyment of the pack. Immediately upon entering your new world, I highly recommend you save and quit to the main menu, then reload your save. This first save will take a little longer than usual, but will result in a fully generated area around you with minimal lag. I also highly recommend you run &lt;code&gt;/pregenspawn 50&lt;/code&gt; (or 100&amp;hellip;its the radius, in chunks, around your spawn point) to pregenerate a large number of chunks in your vicinity, then repeat the save/load cycle once generation completes. While this will delay your adventuring into the new world, it will give you the best performance from the pack over the course of your play.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-first-day:b116e34dbf360dd5c87d639bee733950&#34;&gt;The First Day&amp;hellip;&lt;/h2&gt;
 
