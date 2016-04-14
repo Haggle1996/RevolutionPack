@@ -9,18 +9,20 @@
     "need_online_players": true,
     "use_separate_thread": true
   },
+  "chunkloading": {
+    "enabled": true,
+    "max_player_offline_hours": 1.0
+  },
   "commands": {
     "back": true,
     "home": true,
     "name_admin": "admin",
-    "player_can_use_spawnpoint": false,
     "spawn": true,
     "tplast": true,
     "warp": true
   },
   "general": {
     "blocked_entities": [],
-    "disable_chunkloading": false,
     "restart_timer": 0.0,
     "safe_spawn": false,
     "server_info_difficulty": true,
@@ -50,13 +52,11 @@
     ]
   },
   "permissions_admin": {
-    "admin_server_info": true,
     "allow_creative_interact_secure": true,
     "badge": "",
     "break_whitelist": [
       "OpenBlocks:grave"
     ],
-    "chunkloader_type": "online",
     "cross_dim_homes": true,
     "custom_config": {},
     "dimension_blacklist": [],
@@ -65,17 +65,14 @@
     "max_claims": 1000,
     "max_homes": 100,
     "max_loaded_chunks": 0,
-    "offline_chunkloader_timer": 24.0,
     "show_rank": true
   },
   "permissions_player": {
-    "admin_server_info": false,
     "allow_creative_interact_secure": false,
     "badge": "",
     "break_whitelist": [
       "OpenBlocks:grave"
     ],
-    "chunkloader_type": "online",
     "cross_dim_homes": true,
     "custom_config": {},
     "dimension_blacklist": [
@@ -86,7 +83,6 @@
     "max_claims": 100,
     "max_homes": 1,
     "max_loaded_chunks": 0,
-    "offline_chunkloader_timer": 24.0,
     "show_rank": true
   },
   "tops": {
