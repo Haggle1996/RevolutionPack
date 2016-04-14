@@ -11,7 +11,7 @@
   },
   "chunkloading": {
     "enabled": true,
-    "max_player_offline_hours": 1.0
+    "max_player_offline_hours": -1.0
   },
   "commands": {
     "back": true,

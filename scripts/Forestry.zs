@@ -16,4 +16,4 @@ recipes.addShaped(<Forestry:stamps:1> * 9,
 print("Added 1n stamps from iron nuggets paper and wax");
 
 recipes.remove(<Forestry:apicultureChest>);
-recipes.addShaped(<Forestry:apicultureChest>, [[null,<ore:blockGlass>,null],[<ore:beeComb>,<ore:chest>,<ore:beeComb>],[<ore:beeComb>,<minecraft:stick>,<ore:beeComb>]]);
+recipes.addShaped(<Forestry:apicultureChest>, [[null,<ore:blockGlass>,null],[<ore:beeComb>,<ore:chest>,<ore:beeComb>],[<ore:beeComb>,<ore:beeComb>,<ore:beeComb>]]);
