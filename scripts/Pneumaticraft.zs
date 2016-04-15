@@ -1,0 +1,1 @@
+recipes.addShaped(<PneumaticCraft:machineUpgrade:5>, [[<minecraft:dye:4>,<minecraft:sugar>,<minecraft:dye:4>],[<minecraft:sugar>,<RotaryCraft:rotarycraft_item_bucket>.transformReplace(<minecraft:bucket>),<minecraft:sugar>],[<minecraft:dye:4>,<minecraft:sugar>,<minecraft:dye:4>]]);

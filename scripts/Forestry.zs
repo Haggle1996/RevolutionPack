@@ -17,3 +17,6 @@ print("Added 1n stamps from iron nuggets paper and wax");
 
 recipes.remove(<Forestry:apicultureChest>);
 recipes.addShaped(<Forestry:apicultureChest>, [[null,<ore:blockGlass>,null],[<ore:beeComb>,<ore:chest>,<ore:beeComb>],[<ore:beeComb>,<ore:beeComb>,<ore:beeComb>]]);
+
+# Bronze must be alloyed
+recipes.remove(<Forestry:ingotBronze> * 4);
