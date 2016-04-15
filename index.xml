@@ -7,8 +7,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 05 Mar 2016 10:41:15 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 09 Apr 2016 16:43:10 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 2.5.0.0 Update!</title>
+      <link>http://revolutionpack.info/post/2500/</link>
+      <pubDate>Sat, 09 Apr 2016 16:43:10 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2500/</guid>
+      <description>
+
+&lt;p&gt;Hi all! Long time, no see!&lt;/p&gt;
+
+&lt;p&gt;My apologies for the absence, but real life comes before gaming, and life is very busy right now at the Haggle household. Many thanks to my helpers and players who&amp;rsquo;ve kept the show running in my absence.&lt;/p&gt;
+
+&lt;p&gt;We have another exciting update for you, though this one has a bit of an unpleasant surprise for some. Unfortunately, updates to several core mods (particularly v12) have rendered old saves un-upgradeable. Obviously, this is the worst-case scenario and far from my desired path. Rather than leave old versions of the mods in play, I&amp;rsquo;ve decided to go ahead and release 2.5 as non-recommended on the launcher, which means players won&amp;rsquo;t be prompted to auto-update. This will give me some time to see if I can figure out a way to correct the errored blocks, while still affording new players with an updated experience.&lt;/p&gt;
+
+&lt;p&gt;Obviously, there&amp;rsquo;s some big changes with v12 of Reika&amp;rsquo;s mods. You&amp;rsquo;ll need to rethink a bit of your infrastructure in order to take advantage of the new features and new machines. In addition, I&amp;rsquo;ve enabled most of the remaining rockhounding features, including tiered coal and iron. This iron co-resides with Harder Ores iron, and provides one more way to get the precious metal. Of course, to take advantage of all of this, you&amp;rsquo;ll need to regenerate your world anyway.&lt;/p&gt;
+
+&lt;p&gt;We also have a new mod for you. I highly recommend you take a look at ArchitectureCraft (link below). It has some awesome stuff, including &lt;em&gt;GASP&lt;/em&gt; round corners!!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m still very pressed for free time, so updates will be a little slower, but not as bad as they&amp;rsquo;ve been in the past. Keep posting your feedback on the issue tracker or forums! It really helps me sort through the issues.&lt;/p&gt;
+
+&lt;p&gt;~Haggle1996&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes:72716886170c80265550c4ec2a9384cf&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Empty corpses now decay after an hour.&lt;/li&gt;
+&lt;li&gt;Bronze must now be alloyed in an EIO or IE furnace&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;significant-mod-updates:72716886170c80265550c4ec2a9384cf&#34;&gt;Significant Mod Updates&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reika&amp;rsquo;s Mods (jumped two versions to v12)&lt;/li&gt;
+&lt;li&gt;Rockhounding chemistry and gemology are enabled, as well as additional coal and iron seams.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:72716886170c80265550c4ec2a9384cf&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Practical Logistics rendering crash. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/332&#34;&gt;#332&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed a serious spelling error. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/329&#34;&gt;#329&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed some issues with inPureCore culling. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/358&#34;&gt;#358&lt;/a&gt; and &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/335&#34;&gt;#335&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pneumaticraft elevators no longer fall down. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/344&#34;&gt;#344&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Immersive Engineering Blast Furnace should function appropriately again. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/350&#34;&gt;#350&lt;/a&gt; and &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/357&#34;&gt;#357&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Enabled automatic corpse decay for empty bodies. Implements &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/336&#34;&gt;#336&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JABBA dollies can move Enhanced Inventories chests. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/318&#34;&gt;#318&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pneumaticraft Speed Upgrades can be crafted with RoC lubricant buckets. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/353&#34;&gt;#353&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:72716886170c80265550c4ec2a9384cf&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/ArchitectureCraft/&#34;&gt;ArchitectureCraft 1.4.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:72716886170c80265550c4ec2a9384cf&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-foliage/files/2291423&#34;&gt;Better Foliage 2.0.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/61811-mod/files/2289501&#34;&gt;Buildcraft 7.1.16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235279-mod/files/2287442&#34;&gt;Chisel - 2.9.5.11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235590-mod/files/2292016&#34;&gt;ChromatiCraft 1.7.10 V12e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2291739&#34;&gt;ClimateControl-0.5.beta50&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237749-mod/files/2285744&#34;&gt;coroutil-1.7.10-1.1.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/79616-mod/files/2291464&#34;&gt;Decocraft 2.3.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235591-mod/files/2292009&#34;&gt;DragonAPI 1.7.10 V12e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2290472&#34;&gt;DynamicSurroundings-1.7.10-1.0.5.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235594-mod/files/2291052&#34;&gt;ElectriCraft 1.7.10 V12c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231868-mod/files/2290551&#34;&gt;EnderCore-1.7.10-0.2.0.32_beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226210-mod/files/2286434&#34;&gt;EnhancedInventories-1.7.10-1.1.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235602-mod/files/2290362&#34;&gt;ExpandedRedstone 1.7.10 V12a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224237-mod/files/2291043&#34;&gt;Forbidden Magic-1.7.10-0.574&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2288968&#34;&gt;Forestry 4.2.11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2291494&#34;&gt;FTBUtilities-1.7.10-1.0.18.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2291433&#34;&gt;FTBLib-1.7.10-1.0.18.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;Galacticraft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238770-mod/files/2286993&#34;&gt;GalaxySpace-1.0.8+STABLE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231951-mod/files/2291857&#34;&gt;Immersive Engineering v0.7.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232159-mod/files/2289306&#34;&gt;Immersive Integration v0.6.8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2291905&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 114&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223008-mod/files/2286566&#34;&gt;OpenComputers-MC1.7.10-1.6.0.1-beta.1-universal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/openmodularturrets/files/2294077&#34;&gt;OpenModularTurrets 2.2.0-214&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/240562-mod/files/2292654&#34;&gt;Practical-Logistics-0.1.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/51195-mod/files/2288989&#34;&gt;Railcraft 9.10.0.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235593-mod/files/2291262&#34;&gt;ReactorCraft 1.7.10 V12d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2291929&#34;&gt;RTG-1.7.10-0.8.0-snapshot-2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/75811-mod/files/2292633&#34;&gt;RefinedRelocation-mc1.7.10-1.1.28&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224641-mod/files/2287287&#34;&gt;rftools-4.23&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2292134&#34;&gt;Rockhounding Mod v4.03&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235596-mod/files/2292010&#34;&gt;RotaryCraft 1.7.10 V12e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/239418-mod/files/2291058&#34;&gt;Sonar-Core - Version 1.1.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2292237&#34;&gt;StorageDrawers-1.7.10-1.9.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238603-mod/files/2291688&#34;&gt;TIS-3D-MC1.7.10-0.8.4.64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235609-mod/files/2290366&#34;&gt;VoidMonster 1.7.10 V12a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237754-mod/files/2285743&#34;&gt;zombieawareness-1.7.10-1.10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 Beta 2.4.0.0 Update!</title>
@@ -889,20 +988,6 @@ If you have been playing without Enviromine, be aware that structures may collap
 &lt;p&gt;Just a piece of trivia: Revolution 2 has been played by more in the first 60 minutes of it&amp;rsquo;s existance than Revolution 1 did in it&amp;rsquo;s first week!&lt;/p&gt;
 
 &lt;p&gt;~Haggle1996&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Revolution|2 Alpha 1 on AT Launcher!</title>
-      <link>http://revolutionpack.info/post/version2alpha1/</link>
-      <pubDate>Sun, 27 Dec 2015 15:54:22 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/version2alpha1/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s happening! Revolution|2 Alpha 1 has been pushed to the AT Launcher, and should be appearing soon in your pack list. Revolution|2 is the continuation of the original Revolution pack on the AT Launcher. Hundreds of hours of development and testing have gone into making Revolution|2 a significantly new and exciting game, distinctly different from the original Revolution, while retaining the best aspects of the original. I’d like to take a moment here to thank all those that made the original Revolution spectacular (particularly Ieldra, SentinalH, CyanideX, DorinnB, Solego, and all of the pack testers on the development server. I’d also like to extend a heap of gratitude to NachtRaben and DaMachinator, who contributed to the development of Revolution|2.&lt;/p&gt;
-
-&lt;p&gt;Revolution|2 is an extensive revamp of the original, featuring many new and updated mods, in addition to old familiars and favorites. Please check out the Gameplay Changes article (available from the menu) for details about the pack, and keep your eye here (or on the launcher screen within the pack) for breaking news and updates.&lt;/p&gt;
-
-&lt;p&gt;Revolution|2 is currently in alpha release. This means that some of the content (most notably HQM quests and the custom bee progression) has not been included in the download. Also, we expect worlds created in the alpha to not be compatible with beta worlds, as we expect some incoming breaking changes to world generation; however, we expect Please report any issues with the pack on the issue tracker.&lt;/p&gt;
 </description>
     </item>
     
