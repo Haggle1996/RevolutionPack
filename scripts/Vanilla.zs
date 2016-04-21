@@ -11,6 +11,10 @@ val ingot = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
 val rod = <RotaryCraft:rotarycraft_item_shaftcraft:2>;
 val plIron = <ore:plateIron>;
 
+#patch.omega for silver
+val ingot_silver = <ore:ingotSilver>;
+val dust_silver = <ore:dustSilver>;
+
 #remove all vanilla armor creation
 recipes.remove(<minecraft:iron_boots>);
 <minecraft:iron_boots>.addTooltip(format.white("DISABLED: Use HSLA Steel armor instead."));
@@ -50,3 +54,7 @@ recipes.remove(hopper);
 recipes.addShaped(hopper * 1, [[plIron,null,plIron],[plIron,chest,plIron],[null,plIron,null]]);
 
 recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:10> * 3);
+
+#patch.omega for silver
+#Adds a RockHounding silver dust to silver ingot recipes
+furnace.addRecipe(<ImmersiveEngineering:metal:3>, dust_silver);
