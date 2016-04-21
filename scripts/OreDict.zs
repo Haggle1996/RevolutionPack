@@ -12,6 +12,24 @@ ironplate.add(<Railcraft:part.plate>);
 val steelplate = <ore:plateSteel>;
 steelplate.add(<Railcraft:part.plate:1>);
 
+#patch.omega for silver
+#hotfix for silver ingots
+val ingot_silver = <ore:ingotSilver>;
+ingot_silver.add(<ImmersiveEngineering:metal:3>);
+ingot_silver.add(<ElectriCraft:electricraft_item_ingots:2>);
+#ingot_silver.add(<ReactorCraft:reactorcraft:item_ingots:3>);
+ingot_silver.add(<RotaryCraft:rotarycraft_item_compacts:7>);
+
+
+#patch.omega for silver
+#hotfix for silver dusts
+val dust_silver = <ore:dustSilver>;
+dust_silver.add(<ImmersiveEngineering:metal:13>);
+dust_silver.add(<globbypotato_rockhounding:globbypotato_rockhounding_metalDusts:23>);
+
+
+
+
 #Add all harder ores to their own ore dictionary 'cause stupid
 <ore:oreRedstoneHard0>.add(<HarderOres:ore_redstone:0>);
 <ore:oreRedstoneHard1>.add(<HarderOres:ore_redstone:1>);
