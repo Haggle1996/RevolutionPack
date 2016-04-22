@@ -27,6 +27,10 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Minecraft day length
 - Blast furnace uses 6 not 8 ore.
 
+- More uses for BoP junk: Pinecones, etc.
+- Shedding for birds
+
+
 HQM
 - Friction heater quest
 - XP from friction heater quest
