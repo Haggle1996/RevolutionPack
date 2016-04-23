@@ -71,16 +71,16 @@ recipes.addShaped(<ImmersiveEngineering:material:16> * 2, 	[[	<ore:ingotAluminum
 mods.immersiveengineering.Crusher.removeRecipe(<ElectriCraft:electricraft_item_crafting>);
 mods.immersiveengineering.Crusher.addRecipe(<PracticalLogistics:SapphireDust>, <minecraft:dye:4>, 1600, null, 0.0);
 
-# Blast furnace produces 1 ore per 4 raw ores
-mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:iron_ore>,<HarderOres:ore_chunk:8> * 8, 1200, <ImmersiveEngineering:material:13>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:gold_ore>,<HarderOres:ore_chunk:9> * 8, 1200, <ImmersiveEngineering:material:13>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ElectriCraft:electricraft_block_ore:1>,<HarderOres:ore_chunk:12> * 8, 1200, <ImmersiveEngineering:material:13>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore>,<HarderOres:ore_chunk:13> * 8, 1200, <ImmersiveEngineering:material:13>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:2>,<HarderOres:ore_chunk:14> * 8, 1200, <ImmersiveEngineering:material:13>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ReactorCraft:reactorcraft_block_ore:1>,<HarderOres:ore_chunk:15> * 8, 1200, <ImmersiveEngineering:material:13>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:3>,<HarderOres:ore_chunk:16> * 8, 1200, <ImmersiveEngineering:material:13>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:4>,<HarderOres:ore_chunk:17> * 8, 1200, <ImmersiveEngineering:material:13>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:1>,<HarderOres:ore_chunk:18> * 8, 1200, <ImmersiveEngineering:material:13>);
+# Blast furnace produces 1 ore per 6 raw ores
+mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:iron_ore>,<HarderOres:ore_chunk:8> * 6, 1200, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:gold_ore>,<HarderOres:ore_chunk:9> * 6, 1200, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ElectriCraft:electricraft_block_ore:1>,<HarderOres:ore_chunk:12> * 6, 1200, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore>,<HarderOres:ore_chunk:13> * 6, 1200, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:2>,<HarderOres:ore_chunk:14> * 6, 1200, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ReactorCraft:reactorcraft_block_ore:1>,<HarderOres:ore_chunk:15> * 6, 1200, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:3>,<HarderOres:ore_chunk:16> * 6, 1200, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:4>,<HarderOres:ore_chunk:17> * 6, 1200, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:ore:1>,<HarderOres:ore_chunk:18> * 6, 1200, <ImmersiveEngineering:material:13>);
 
 # Crusher produces 4 tiny per 1 raw ore
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:smallDust:8> * 4,<HarderOres:ore_chunk:8>, 12800, null, 0.0);

@@ -18,18 +18,13 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Use kerosene instead of rocket fuel in IE refinery.
 - Base photos
 
-- Automagy update notification needs to be removed
-- Compare old quests to new quests and add some epic stuff.
-- Crusher recipe for wheat, sugarcane, etc.
 - Thaumic Explorer
 - Witching Gadgets
 - Bullets are made with copper
 - Minecraft day length
-- Blast furnace uses 6 not 8 ore.
 
 - More uses for BoP junk: Pinecones, etc.
 - Shedding for birds
-
 
 HQM
 - Friction heater quest
