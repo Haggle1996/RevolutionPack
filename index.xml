@@ -7,8 +7,89 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 09 Apr 2016 16:43:10 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 22 Apr 2016 09:29:49 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 2.5.1.0 Bees &#39;R&#39; Buzzing Update!</title>
+      <link>http://revolutionpack.info/post/2510/</link>
+      <pubDate>Fri, 22 Apr 2016 09:29:49 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2510/</guid>
+      <description>
+
+&lt;p&gt;Good day everyone, Haggle here!&lt;/p&gt;
+
+&lt;p&gt;We have a big update in store for you today, but no worries, it&amp;rsquo;s BACKWARDS compatible! Yes, that&amp;rsquo;s right, it will work just fine with version 2.5.0.0 maps!&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve updated a number of mods, including finally moving AE2 to RV3. We&amp;rsquo;ve also fixed some of the most annoying bugs, including super speed zombies and uncraftable apiarist&amp;rsquo;s chests. We&amp;rsquo;ve also buffed ore output! (yay!)&lt;/p&gt;
+
+&lt;p&gt;In addition, we&amp;rsquo;ve added Binnie&amp;rsquo;s mods back into the game, so you have another alternative for ore generation. Expect Magic Bees in the near future too; unfortunately, they couldn&amp;rsquo;t be added at the same time of this update due to Rockhounding&amp;rsquo;s block updates. But it will feature in a future update.&lt;/p&gt;
+
+&lt;p&gt;As usual, there may be some minor chunk-border issues with this update on newly generated chunks, but they should be very minor and actually look nice versus sheer walls. The new hives from Binnie&amp;rsquo;s mods will of course not appear in existing chunks, so you&amp;rsquo;ll need to do some exploring if you want to delve into bees. Server admins who don&amp;rsquo;t want to generate new chunks can add a bee vendor to their spawn area.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes:4b380be1bcf318e44fbce6b91149cda5&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Slowed down super-speed zombies&lt;/li&gt;
+&lt;li&gt;Doubled the amount of time for both player and chunks to reach maximum difficulty (now about 100 hours of game time)&lt;/li&gt;
+&lt;li&gt;GUIs have been offset to allow room at the top left for the ChromatiCraft Lumen meter&lt;/li&gt;
+&lt;li&gt;RF power is approximately &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; as useful as shaft power in AE2 systems (e.g., RotaryCraft shaft power is preferred source for AE2)&lt;/li&gt;
+&lt;li&gt;Significantly improved the damage output of Open Modular Turrets. Because overkill is a thing.&lt;/li&gt;
+&lt;li&gt;Immersive Engineering blast furnace now consume 6 hard ore per block instead of 8.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;significant-mod-updates:4b380be1bcf318e44fbce6b91149cda5&#34;&gt;Significant Mod Updates&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Applied Energistics to RV3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:4b380be1bcf318e44fbce6b91149cda5&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Super speed zombies epic fail. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/369&#34;&gt;#369&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GUIs don&amp;rsquo;t overlap lumen meter. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/370&#34;&gt;#370&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AE2 power conversion now works as intended. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/225&#34;&gt;#225&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ArchitectureCraft chisel can now be crafted. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/363&#34;&gt;#363&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arc Furnace graphite rod patterns are now craftable. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/374&#34;&gt;#374&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added furnace recipes for silver, aluminum, and tin dusts. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/367&#34;&gt;#367&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can craft Apiarist&amp;rsquo;s chests again. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/313&#34;&gt;#368&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:4b380be1bcf318e44fbce6b91149cda5&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/binnies-mods&#34;&gt;Binnie&amp;rsquo;s Mods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/binniepatcher&#34;&gt;BinniePatcher&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:4b380be1bcf318e44fbce6b91149cda5&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223794-mod/files/2275190&#34;&gt;appliedenergistics2-rv3-beta-5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228529-mod/files/2294982&#34;&gt;BetterFoliage-MC1.7.10-2.0.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231868-mod/files/2294483&#34;&gt;EnderCore-1.7.10-0.2.0.33_beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/fastcraft&#34;&gt;FastCraft-1.23&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224535-mod/files/2294442&#34;&gt;IvToolkit-1.2.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223008-mod/files/2294561&#34;&gt;OpenComputers-MC1.7.10-1.6.0.3-rc.1-universal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224663-mod/files/2294200&#34;&gt;OpenModularTurrets-1.7.10-2.2.2-217&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2294725&#34;&gt;RTG-1.7.10-0.8.0-snapshot-4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223150-mod/files/2294812&#34;&gt;RecurrentComplex-0.9.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226447-mod/files/2292845&#34;&gt;ResourceLoader-MC1.7.10-1.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2294800&#34;&gt;Rockhounding Mod v4.04c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223666-mod/files/2295264&#34;&gt;Thaumic Energistics 1.0.0.5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:4b380be1bcf318e44fbce6b91149cda5&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;h3 id=&#34;removed-mods:4b380be1bcf318e44fbce6b91149cda5&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Animals+ is no longer a recommended mod. Unfortunately, it&amp;rsquo;s spawn madness just causes too many issues.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 2.5.0.0 Update!</title>
@@ -974,20 +1055,6 @@ If you have been playing without Enviromine, be aware that structures may collap
       
       <guid>http://revolutionpack.info/post/twentyfive/</guid>
       <description>&lt;p&gt;After just a few days, REVOLUTION|2 has already hit 2,500 downloads and is rising up the charts fast. Thank you all for the support and kind words. I&amp;rsquo;m extremely pleased with the stable state of the alpha &amp;ndash; the beta is on it&amp;rsquo;s way and should be here any day.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fifty Downloads!</title>
-      <link>http://revolutionpack.info/post/50downloads/</link>
-      <pubDate>Thu, 31 Dec 2015 00:26:43 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/50downloads/</guid>
-      <description>&lt;p&gt;Only took an hour&amp;hellip;REVOLUTION|2 hit 50 downloads and is well on its way to 100 in a few more minutes! Thank you all for downloading, and I hope you enjoy the pack!&lt;/p&gt;
-
-&lt;p&gt;Just a piece of trivia: Revolution 2 has been played by more in the first 60 minutes of it&amp;rsquo;s existance than Revolution 1 did in it&amp;rsquo;s first week!&lt;/p&gt;
-
-&lt;p&gt;~Haggle1996&lt;/p&gt;
 </description>
     </item>
     
