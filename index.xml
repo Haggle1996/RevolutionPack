@@ -7,8 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Fri, 22 Apr 2016 09:29:49 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 24 Apr 2016 22:38:49 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 2.5.1.1 </title>
+      <link>http://revolutionpack.info/post/2511/</link>
+      <pubDate>Sun, 24 Apr 2016 22:38:49 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2511/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;Quick hotfix here to fix issues with flight and a couple of other bugs.&lt;/p&gt;
+
+&lt;h3 id=&#34;mods-updated:e84a8f6039a3aa2c2ec5b5ff1b75b0df&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2295710&#34;&gt;ClimateControl-0.5.beta52&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2295673&#34;&gt;Rockhounding Mod v4.05&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2296032&#34;&gt;RTG-1.7.10-0.8.0-snapshot-5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/240562-mod/files/2295798&#34;&gt;Practical-Logistics-0.2.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 2.5.1.0 Bees &#39;R&#39; Buzzing Update!</title>
@@ -1045,16 +1068,6 @@ If you have been playing without Enviromine, be aware that structures may collap
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231951-mod/files/2273006&#34;&gt;Immersive Engineering v0.6.5.1&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2273360&#34;&gt;FTBLib-1.7.10-1.0.13.3&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2273361&#34;&gt;FTBUtilities-1.7.10-1.0.13.3&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>2500 Downloads!</title>
-      <link>http://revolutionpack.info/post/twentyfive/</link>
-      <pubDate>Sun, 03 Jan 2016 11:45:20 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/twentyfive/</guid>
-      <description>&lt;p&gt;After just a few days, REVOLUTION|2 has already hit 2,500 downloads and is rising up the charts fast. Thank you all for the support and kind words. I&amp;rsquo;m extremely pleased with the stable state of the alpha &amp;ndash; the beta is on it&amp;rsquo;s way and should be here any day.&lt;/p&gt;
 </description>
     </item>
     
