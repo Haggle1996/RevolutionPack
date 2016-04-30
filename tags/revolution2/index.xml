@@ -28,6 +28,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Open Module Turrets now use considerably less power. PEW PEW PEW PEW PEW!!!!&lt;/li&gt;
+&lt;li&gt;Turrets (including Lumen turrets) are griefable by zombies &amp;ndash; if they can get close enough.&lt;/li&gt;
 &lt;li&gt;Re-enabled Reika&amp;rsquo;s null-item stack cleanup to prevent crashes. This means some items will no longer be craftable, such as the Forestry Apiarist&amp;rsquo;s Chest. However, in talking to the player base experienced with bees, the overwhelming consensus is that this chest is the worst way to store your bees. If you absolutely need an apiarists chest, you can temporarily set &lt;code&gt;B:&amp;quot;Disallow Null-Item ItemStacks to Prevent Crashes&amp;quot;=false&lt;/code&gt; in the config/Reika/DragonAPI.cfg file, and then set it back to true when you&amp;rsquo;re done. Also note that this does not have to be set server side to function at the client.&lt;/li&gt;
 &lt;li&gt;Cupronickel and constantan ingots are now made in the blast furnace and smelt quickly (6 seconds).&lt;/li&gt;
 &lt;li&gt;Cupronickel and constantan ingots can now be used in place of Forestry Bronze ingots. This gates Forestry after the IE blast furnace. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/377&#34;&gt;#377&lt;/a&gt;&lt;/li&gt;
