@@ -1,9 +1,9 @@
 03 - Sluice Guide
 
---Explanation
-So a sluice is used to create tiny piles of ore dust based on what is available in a 3 chunk radius.
+§lExplanation
+A sluice is used to create tiny piles of ore dust based on what is available in a 30 block radius by 24 blocks deep.
 It does this by running sand or gravel through a sluice and catching the heavier metal particles and
-letting the lightersoil flow through and out the end.  In practice this means sand gets dropped in,
+letting the lighter soil flow through and out the end.  In practice this means sand gets dropped in,
 dust appears.
 
 Which dusts appear depends entirely on what ore is available in the detection range of the sluice.
@@ -11,7 +11,9 @@ So if you want copper, make sure you're setting up near copper detecting flowers
 also useful for finding other ores in the area that you weren't expecting.  If you start seeing a lot of
 gold dusts appear, it is likely you've got a decent gold vein under your feet.
 
---Setup
+§lBe aware! It's best to build sluices near sea level (y-63), as they are unlikely to capture ore in higher elevations.
+
+§lSetup
 You will need several things to get started on this project of generating FREE ORE!
 
 4 Sluice
@@ -26,25 +28,25 @@ Dig a 6m long trench. Place a source block of water, then the 4 Sluices, then le
 Finally crouch and place the wooden hopper above the first sluice block.  It should look like this. (Glass used
 to illustrate the layout)
 
-[sluice1]
+{"image":"sluice1.jpg","scale":-3}
 
 Next, line both sides of the trench, on either side of the sluices, with planks. (Or stone, or whatever.  You'll
 know if it worked because water will flow, as shown here.
 
-[sluice2]
+{"image":"sluice2.jpg","scale":-3}
 
 If you are not using the right blocks, water will not flow. Here is an example of an incompletely sided sluice.
 
-[sluice3]
+{"image":"sluice3.jpg","scale":-3}
 
 The last step is to fill the hopper.  If you use sand in the sluice, you have a chance at getting double dusts
 when they pop up in the water.  If you use gravel, ther is a chance that you will get metal nuggets instead of dust.
 
-[sluice4]
+{"image":"sluice4.jpg","scale":-3}
 
 That's it!  Soil will be slowly dropped into the sluice and little dusts will begin appearing.  In a couple minutes,
 you will have a fair amount of dust.
 
-[sluice5]
+{"image":"sluice5.jpg","scale":-3}
 
 Step 3: Profit.

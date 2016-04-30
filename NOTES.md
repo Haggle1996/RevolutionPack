@@ -23,7 +23,7 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 
 - More uses for BoP junk: Pinecones, etc.
 - Shedding for birds
-- Add railcraft lamps to non-griefable blocks, also ztones
+- Death in SMP not registered by CrC
 
 HQM
 - Friction heater quest

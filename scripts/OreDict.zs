@@ -12,6 +12,10 @@ ironplate.add(<Railcraft:part.plate>);
 val steelplate = <ore:plateSteel>;
 steelplate.add(<Railcraft:part.plate:1>);
 
+# Cupronickel can be used for bronze
+val bronze = <ore:ingotBronze>;
+bronze.add(<ImmersiveEngineering:metal:5>);
+
 #Add all harder ores to their own ore dictionary 'cause stupid
 <ore:oreRedstoneHard0>.add(<HarderOres:ore_redstone:0>);
 <ore:oreRedstoneHard1>.add(<HarderOres:ore_redstone:1>);

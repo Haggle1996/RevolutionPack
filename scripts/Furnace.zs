@@ -10,3 +10,14 @@ mods.immersiveengineering.BlastFurnace.addFuel(<RotaryCraft:rotarycraft_block_de
 furnace.addRecipe(<ElectriCraft:electricraft_item_ingots:1>, <ore:dustTin>);
 furnace.addRecipe(<ImmersiveEngineering:metal:3>, <ore:dustSilver>);
 furnace.addRecipe(<ImmersiveEngineering:metal:1>, <ore:dustAluminum>);
+
+# Cupronickel/constantin must be blast furnaced
+furnace.remove(<ImmersiveEngineering:metal:5>);
+furnace.remove(<globbypotato_rockhounding:globbypotato_rockhounding_alloyIngots:2>);
+
+# Add missing Natura trees
+furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree>);
+furnace.addRecipe(<minecraft:coal:1>, <Natura:bloodwood>);
+furnace.addRecipe(<minecraft:coal:1>, <Natura:Dark Tree>);
+furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree:1>);
+furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree:2>);

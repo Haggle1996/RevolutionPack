@@ -71,6 +71,10 @@ recipes.addShaped(<ImmersiveEngineering:material:16> * 2, 	[[	<ore:ingotAluminum
 mods.immersiveengineering.Crusher.removeRecipe(<ElectriCraft:electricraft_item_crafting>);
 mods.immersiveengineering.Crusher.addRecipe(<PracticalLogistics:SapphireDust>, <minecraft:dye:4>, 1600, null, 0.0);
 
+# Blast furnace produces cupronickel
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:5>,<ore:dustCupronickel>, 120, null);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:5>,<ore:dustConstantan>, 120, null);
+
 # Blast furnace produces 1 ore per 6 raw ores
 mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:iron_ore>,<HarderOres:ore_chunk:8> * 6, 1200, <ImmersiveEngineering:material:13>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:gold_ore>,<HarderOres:ore_chunk:9> * 6, 1200, <ImmersiveEngineering:material:13>);
