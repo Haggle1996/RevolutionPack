@@ -7,8 +7,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 24 Apr 2016 22:38:49 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 30 Apr 2016 09:48:35 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 2.5.2.0 Update!</title>
+      <link>http://revolutionpack.info/post/2520/</link>
+      <pubDate>Sat, 30 Apr 2016 09:48:35 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2520/</guid>
+      <description>
+
+&lt;p&gt;Hello, everyone! Welcome to the next update of REVOLUTION|2, The Quest for More Money!&lt;/p&gt;
+
+&lt;p&gt;Sorry, needless Spaceballs reference&amp;hellip;but moving along. Version 2.5.2.0 is another maintenance update, fixing a number of reported issues as well as rebalancing a few parts of the mod pack. In particular, Forestry is easier to start early-game, and zombie griefing power was lowered a tad. AE2 Stuff is once again working and you&amp;rsquo;ll no longer have to worry about those pesky Natura trees clogging up your Woodcutter farm.&lt;/p&gt;
+
+&lt;p&gt;BTW, I forgot to give credit to ozBillo for the zombie texture. Check out his resource pack &lt;a href=&#34;http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1229486-64x-32x-1-8-1-1-7-10-1-6-4-1-5-2-1-4-7-battered&#34;&gt;Battered Old Stuff&lt;/a&gt;, one of my favorite resource packs!&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes:06f35d11f0df74a54e4a2b7b98c06a02&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Re-enabled Reika&amp;rsquo;s null-item stack cleanup to prevent crashes. This means some items will no longer be craftable, such as the Forestry Apiarist&amp;rsquo;s Chest. However, in talking to the player base experienced with bees, the overwhelming consensus is that this chest is the worst way to store your bees. If you absolutely need an apiarists chest, you can temporarily set &lt;code&gt;B:&amp;quot;Disallow Null-Item ItemStacks to Prevent Crashes&amp;quot;=false&lt;/code&gt; in the config/Reika/DragonAPI.cfg file, and then set it back to true when you&amp;rsquo;re done. Also note that this does not have to be set server side to function at the client.&lt;/li&gt;
+&lt;li&gt;Cupronickel and constantan ingots are now made in the blast furnace and smelt quickly (6 seconds).&lt;/li&gt;
+&lt;li&gt;Cupronickel and constantan ingots can now be used in place of Forestry Bronze ingots. This gates Forestry after the IE blast furnace. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/377&#34;&gt;#377&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slightly reduced the reach range of zombies when griefing blocks&lt;/li&gt;
+&lt;li&gt;Added a few more light sources that zombies can&amp;rsquo;t break.&lt;/li&gt;
+&lt;li&gt;Fixed the in-game guide images and corrected some of the text. The guides for sluices and windmills are now useful again!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:06f35d11f0df74a54e4a2b7b98c06a02&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Possibly addressed several other mod crashes by re-enabling Reika&amp;rsquo;s recipe cleanup. Thanks Reika! May address &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/381&#34;&gt;#381&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Swapped in the correct version of AE2 Stuff, fixing the problems with placing Growth Chambers, Inscribers, etc. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/376&#34;&gt;#376&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added all missing Natural logs to the furnace. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/379&#34;&gt;#379&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:06f35d11f0df74a54e4a2b7b98c06a02&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223794-mod/files/2296430&#34;&gt;appliedenergistics2-rv3-beta-6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/242276-mod/files/2296927&#34;&gt;Binnie Patcher - Curse v1.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/233140-mod/files/2296609&#34;&gt;Buildcraft Compat 7.1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236460-mod/files/2296725&#34;&gt;Catwalks 2.0.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2296091&#34;&gt;ClimateControl-0.5.beta53&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231868-mod/files/2296803&#34;&gt;EnderCore-1.7.10-0.2.0.34_beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2296588&#34;&gt;Forestry 4.2.12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231951-mod/files/2296786&#34;&gt;Immersive Engineering v0.7.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2296863&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 119&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223150-mod/files/2296305&#34;&gt;RecurrentComplex-0.9.7.1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:06f35d11f0df74a54e4a2b7b98c06a02&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;AE2 Stuff reverted to proper AE3-rv3-compatible version&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed-mods:06f35d11f0df74a54e4a2b7b98c06a02&#34;&gt;Removed Mods&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 2.5.1.1 </title>
@@ -1032,42 +1090,6 @@ If you have been playing without Enviromine, be aware that structures may collap
 &lt;h3 id=&#34;removed-mods:29963240414d3a25a0c6b6d90757af0f&#34;&gt;Removed Mods:&lt;/h3&gt;
 
 &lt;p&gt;Twilight Forest (we will miss you)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 2.0.1.0 Update!</title>
-      <link>http://revolutionpack.info/post/2010alpha/</link>
-      <pubDate>Sun, 03 Jan 2016 19:15:49 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2010alpha/</guid>
-      <description>
-
-&lt;p&gt;Hello, Everyone!&lt;/p&gt;
-
-&lt;p&gt;I was hoping we&amp;rsquo;d have a new release of RTG today, so that I could get the Beta out the door, but it looks like we&amp;rsquo;re still waiting for that to drop. In the meantime, I&amp;rsquo;m pushing a new release of REVOLUTION|2 Alpha, with various bug fixes and updates.&lt;/p&gt;
-
-&lt;h3 id=&#34;changes:a9aed245490a5418b6fd6f43021e6e96&#34;&gt;Changes:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Removed Natura nether trees from eligible list of Dye Tree trunks&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Railcraft Village Workshops no longer spawn&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Disabled ChromatiCraft player achievement announcements due to server crash&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Dark Steel now requires steel instead of iron&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ender IO Alloys made in the IE Arc Furnace are generally 2x - 4x more expensive (but still significantly faster than EIO Alloy Smelter)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Harder Ores can now be smelted in the EIO Alloy Smelter at a 4:1 rate&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Reverted the changes to BuildCraft pipes. They no longer require plates.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You can now craft yeast again in RotaryCraft fermenters.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;updated-mods:a9aed245490a5418b6fd6f43021e6e96&#34;&gt;Updated Mods:&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238603-mod/files/2273139&#34;&gt;TIS-3D-MC1.7.10-0.8.1.59&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228462-mod/files/2273296&#34;&gt;RemainInMotion-2.8.10&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235442-mod/files/2273433&#34;&gt;ModularPowersuits-0.11.0.296&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231951-mod/files/2273006&#34;&gt;Immersive Engineering v0.6.5.1&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2273360&#34;&gt;FTBLib-1.7.10-1.0.13.3&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2273361&#34;&gt;FTBUtilities-1.7.10-1.0.13.3&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
