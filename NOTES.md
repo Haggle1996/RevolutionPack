@@ -13,8 +13,6 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 ## TODO
 
 - Accidentally Circumstantial Events posts radio chatter.
-- https://github.com/ATLauncher/ATLauncher/issues/234#issuecomment-183437054
-- Cave Dimension elevator use gives duplicates
 - Use kerosene instead of rocket fuel in IE refinery.
 - Base photos
 
@@ -25,6 +23,7 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 
 - More uses for BoP junk: Pinecones, etc.
 - Shedding for birds
+- Add railcraft lamps to non-griefable blocks, also ztones
 
 HQM
 - Friction heater quest
