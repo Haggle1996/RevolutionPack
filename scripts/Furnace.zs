@@ -13,7 +13,7 @@ furnace.addRecipe(<ImmersiveEngineering:metal:1>, <ore:dustAluminum>);
 
 # Cupronickel/constantin must be blast furnaced
 furnace.remove(<ImmersiveEngineering:metal:5>);
-furnace.remove(<globbypotato_rockhounding:globbypotato_rockhounding_alloyIngots:2>);
+#furnace.remove(<globbypotato_rockhounding:globbypotato_rockhounding_alloyIngots:2>);
 
 # Add missing Natura trees
 furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree>);

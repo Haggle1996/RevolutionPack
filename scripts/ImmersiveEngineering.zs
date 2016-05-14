@@ -4,7 +4,7 @@
 val oil = <liquid:oil>;
 val plantoil = <liquid:plantoil>;
 val fuel = <liquid:fuel>;
-val rocket = <liquid:rocket_fuel>;
+val rocket = <liquid:kerosene>;
 
 mods.immersiveengineering.Refinery.addRecipe(fuel * 16, rocket * 8, oil * 8);
 
@@ -274,7 +274,7 @@ mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 8,<Harde
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 4,<HarderOres:ore_diamond:0>, 1600, <minecraft:diamond>, 0.25);
 
 # diamonds in arc furnace
-mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:diamond> * 9, <HarderOres:ore_chunk:10> * 9, null, 4600,  3600, [<minecraft:coal> * 9]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:diamond> * 1, <HarderOres:ore_chunk:10> * 1, null, 400, 3600, [<minecraft:coal> * 1]);
 
 # Ender IO alloys are more expensive
 mods.immersiveengineering.ArcFurnace.removeRecipe(<EnderIO:itemAlloy:0>);
@@ -312,5 +312,5 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:1>,<Har
 
 # Wheat, Sugarcane, Bonemeal in crusher
 mods.immersiveengineering.Crusher.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:4>);
-mods.immersiveengineering.Crusher.addRecipe(<HarderOres:largeDust:1>,<minecraft:wheat>, 1600, null, 0.0);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:sugar> * 2,<minecraft:reeds>, 1600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<HarderOres:largeDust:1> * 4,<minecraft:wheat>, 1600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:sugar> * 3,<minecraft:reeds>, 1600, null, 0.0);

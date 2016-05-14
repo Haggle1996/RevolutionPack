@@ -28,6 +28,6 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 HQM
 - Friction heater quest
 - XP from friction heater quest
- - Loot bag catwalks
+- Loot bag catwalks
  
 ## Pack changes
