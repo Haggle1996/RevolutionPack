@@ -14,6 +14,7 @@ val diamond = <ore:gemDiamond>;
 val piston = <minecraft:piston>;
 val crafter = <ore:craftingTableWood>;
 val hopper = <ore:blockHopper>;
+val iron = <ore:ingotIron>;
 
 val quartz = <appliedenergistics2:tile.BlockQuartzGlass>;
 val charged = <appliedenergistics2:item.ItemMultiMaterial:1>;
@@ -144,7 +145,7 @@ recipes.addShaped(chest,[[glass,terminal,glass],
 						  [cable,null,cable],
 						  [steel,anyfluix,steel]]);
 
-recipes.remove(interface);
+recipes.removeShaped(interface,[[iron,glass,iron],[annihilation,null,formation],[iron,glass,iron]]););
 recipes.addShaped(interface,[[steel,glass,steel],
 						  [annihilation,null,formation],
 						  [steel,glass,steel]]);
