@@ -151,7 +151,6 @@ recipes.addShaped(interface,[[steel,glass,steel],
 						  [annihilation,null,formation],
 						  [steel,glass,steel]]);
 
-
 recipes.remove(ipanel * 3);
 recipes.addShaped(ipanel * 3,[[null,glowstone,quartz],
 						  [plate,redstone,quartz],
