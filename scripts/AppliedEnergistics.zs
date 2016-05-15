@@ -145,7 +145,7 @@ recipes.addShaped(chest,[[glass,terminal,glass],
 						  [cable,null,cable],
 						  [steel,anyfluix,steel]]);
 
-recipes.removeShaped(interface,[[iron,glass,iron],[annihilation,null,formation],[iron,glass,iron]]););
+recipes.removeShaped(interface,[[iron,glass,iron],[annihilation,null,formation],[iron,glass,iron]]);
 recipes.addShaped(interface,[[steel,glass,steel],
 						  [annihilation,null,formation],
 						  [steel,glass,steel]]);
