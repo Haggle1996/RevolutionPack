@@ -14,7 +14,6 @@ val diamond = <ore:gemDiamond>;
 val piston = <minecraft:piston>;
 val crafter = <ore:craftingTableWood>;
 val hopper = <ore:blockHopper>;
-val iron = <ore:ingotIron>;
 
 val quartz = <appliedenergistics2:tile.BlockQuartzGlass>;
 val charged = <appliedenergistics2:item.ItemMultiMaterial:1>;
@@ -97,6 +96,7 @@ val forplane = <appliedenergistics2:item.ItemMultiPart:320>;
 val p2p = <appliedenergistics2:item.ItemMultiPart:460>;
 val ipanel = <appliedenergistics2:item.ItemMultiPart:180>;
 val interface = <appliedenergistics2:tile.BlockInterface>;
+val flatinterface = <appliedenergistics2:item.ItemMultiPart:440>;
 val wireless = <appliedenergistics2:item.ItemMultiMaterial:41>;
 val assembler = <appliedenergistics2:tile.BlockMolecularAssembler>;
 val aplane = <appliedenergistics2:item.ItemMultiPart:300>;
@@ -145,10 +145,12 @@ recipes.addShaped(chest,[[glass,terminal,glass],
 						  [cable,null,cable],
 						  [steel,anyfluix,steel]]);
 
-recipes.removeShaped(interface,[[iron,glass,iron],[annihilation,null,formation],[iron,glass,iron]]);
+recipes.remove(interface);
+recipes.addShapeless(interface,[flatinterface]);
 recipes.addShaped(interface,[[steel,glass,steel],
 						  [annihilation,null,formation],
 						  [steel,glass,steel]]);
+
 
 recipes.remove(ipanel * 3);
 recipes.addShaped(ipanel * 3,[[null,glowstone,quartz],
