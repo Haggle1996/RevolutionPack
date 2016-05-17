@@ -280,6 +280,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:0>, <ore:dustI
 mods.immersiveengineering.ArcFurnace.removeRecipe(<EnderIO:itemAlloy:2>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:2>, <ore:ingotGold>, null, 400, 2048, [<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustEnderPearl>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:2>, <ore:dustGold>, null, 400, 2048, [<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustEnderPearl>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:2>, <EnderIO:itemAlloy:1>, null, 400, 1024, [<ore:dustEnderPearl>]);
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<EnderIO:itemAlloy:1>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:1>, <ore:ingotGold>, null, 400, 1024, [<ore:dustRedstone>, <ore:dustGlowstone>]);
