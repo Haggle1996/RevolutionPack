@@ -17,13 +17,13 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Base photos
 
 - Thaumic Explorer
-- Witching Gadgets
 - Bullets are made with copper
 - Minecraft day length
-
 - More uses for BoP junk: Pinecones, etc.
-- Shedding for birds
 - Death in SMP not registered by CrC
+
+- Increase the density of ReC ore in the Cave Dimension  
+- Recreate RTG config
 
 HQM
 - Friction heater quest
