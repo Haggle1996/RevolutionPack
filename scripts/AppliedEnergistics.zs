@@ -96,6 +96,7 @@ val forplane = <appliedenergistics2:item.ItemMultiPart:320>;
 val p2p = <appliedenergistics2:item.ItemMultiPart:460>;
 val ipanel = <appliedenergistics2:item.ItemMultiPart:180>;
 val interface = <appliedenergistics2:tile.BlockInterface>;
+val flatinterface = <appliedenergistics2:item.ItemMultiPart:440>;
 val wireless = <appliedenergistics2:item.ItemMultiMaterial:41>;
 val assembler = <appliedenergistics2:tile.BlockMolecularAssembler>;
 val aplane = <appliedenergistics2:item.ItemMultiPart:300>;
@@ -145,6 +146,7 @@ recipes.addShaped(chest,[[glass,terminal,glass],
 						  [steel,anyfluix,steel]]);
 
 recipes.remove(interface);
+recipes.addShapeless(interface,[flatinterface]);
 recipes.addShaped(interface,[[steel,glass,steel],
 						  [annihilation,null,formation],
 						  [steel,glass,steel]]);
