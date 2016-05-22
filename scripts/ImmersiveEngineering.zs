@@ -281,13 +281,14 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<EnderIO:itemAlloy:0>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:0>, <ore:ingotIron>, null, 400, 1024, [<ore:dustCoal>, <ore:itemSilicon>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:0>, <ore:dustIron>, null, 400, 1024, [<ore:dustCoal>, <ore:itemSilicon>]);
 
-mods.immersiveengineering.ArcFurnace.removeRecipe(<EnderIO:itemAlloy:1>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:1>, <ore:ingotGold>, null, 400, 1024, [<ore:dustRedstone>, <ore:dustGlowstone>]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:1>, <ore:dustGold>, null, 400, 1024, [<ore:dustRedstone>, <ore:dustGlowstone>]);
-
 mods.immersiveengineering.ArcFurnace.removeRecipe(<EnderIO:itemAlloy:2>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:2>, <ore:ingotGold>, null, 400, 2048, [<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustEnderPearl>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:2>, <ore:dustGold>, null, 400, 2048, [<ore:dustRedstone>, <ore:dustGlowstone>, <ore:dustEnderPearl>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:2>, <EnderIO:itemAlloy:1>, null, 400, 1024, [<ore:dustEnderPearl>]);
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<EnderIO:itemAlloy:1>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:1>, <ore:ingotGold>, null, 400, 1024, [<ore:dustRedstone>, <ore:dustGlowstone>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:1>, <ore:dustGold>, null, 400, 1024, [<ore:dustRedstone>, <ore:dustGlowstone>]);
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<EnderIO:itemAlloy:4>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<EnderIO:itemAlloy:4>, <ore:ingotIron>, null, 400, 1024, [<ore:dustRedstone>]);
@@ -309,6 +310,12 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<ReactorCraft:reactorcraft_block_
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:3>,<HarderOres:ore_chunk:16> * 4, null, 200, 512, []);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:4>,<HarderOres:ore_chunk:17> * 4, null, 200, 512, []);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:ore:1>,<HarderOres:ore_chunk:18> * 4, null, 200, 512, []);
+
+#remove and re-add applicable dust recipes last to ensure above alloys are checked first.
+mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:gold_ingot>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot>, <ore:dustGold>, null, 100, 512, []);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, null, 100, 512, []);
 
 # Wheat, Sugarcane, Bonemeal in crusher
 mods.immersiveengineering.Crusher.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:4>);
