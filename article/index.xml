@@ -114,33 +114,33 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
+&lt;td&gt;Certus Quartz&lt;/td&gt;
+&lt;td&gt;Spawns with charged certus quarts in vertical veins between y-level 76 and 52.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
 &lt;td&gt;Cadmium&lt;/td&gt;
-&lt;td&gt;Spawns in layered veins between y-level 2 and 14.&lt;/td&gt;
+&lt;td&gt;Spawns in the cave dimension, moon, and mars.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Indium&lt;/td&gt;
-&lt;td&gt;Spawns in layered veins between y-level 6 and 18.&lt;/td&gt;
+&lt;td&gt;Spawns in the cave dimension, moon, and mars.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Fluorite&lt;/td&gt;
-&lt;td&gt;Spawns in large motherlodes between y-level 3 and 13 with large tendrils spreading out for long distances.&lt;/td&gt;
+&lt;td&gt;Spawns in the cave dimension, moon, and mars.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Magnetite&lt;/td&gt;
-&lt;td&gt;Spawns in large, rare veins between y-level 76 and 98.&lt;/td&gt;
+&lt;td&gt;Spawns in the cave dimension, moon, and mars, and occasionally above y-128 in the overworld.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Calcite&lt;/td&gt;
-&lt;td&gt;Spawns in rare veins between y-level 42 and 58.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Certus Quartz&lt;/td&gt;
-&lt;td&gt;Spawns with charged certus quarts in vertical veins between y-level 76 and 52.&lt;/td&gt;
+&lt;td&gt;Spawns in the cave dimension, moon, and mars.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -286,6 +286,7 @@
 &lt;li&gt;Most of this mod is disabled, particularly the Ender Quarry, transport nodes, generators, and watering cans.&lt;/li&gt;
 &lt;li&gt;Ender Lilies can only be found in The End&lt;/li&gt;
 &lt;li&gt;Drum requires steel plates&lt;/li&gt;
+&lt;li&gt;Last Millenium and Deep Dark are disabled. Use the Cave dimension (accessed by Enviromine Elevator) for mining dimension.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;forestry:2dc582e763001218f60802f283920a1d&#34;&gt;Forestry&lt;/h2&gt;
@@ -293,8 +294,9 @@
 &lt;ul&gt;
 &lt;li&gt;Farms are now square, because 45 degree angles are hard.&lt;/li&gt;
 &lt;li&gt;Forestry bees can now make RotaryCraft yeast.&lt;/li&gt;
-&lt;li&gt;Engines are disabled&lt;/li&gt;
 &lt;li&gt;Adventurer&amp;rsquo;s Bags are renamed Ammo Bags and can hold ammo (obviously)&lt;/li&gt;
+&lt;li&gt;Easy mode is set&lt;/li&gt;
+&lt;li&gt;The Ender Hive can be obtained through Botania Mana Transfusion of a Tropical Hive&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;galacticraft:2dc582e763001218f60802f283920a1d&#34;&gt;Galacticraft&lt;/h2&gt;
