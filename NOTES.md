@@ -23,7 +23,6 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Death in SMP not registered by CrC
 
 - Increase the density of ReC ore in the Cave Dimension  
-- Recreate RTG config
 
 HQM
 - Friction heater quest

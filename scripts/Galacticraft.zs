@@ -114,7 +114,7 @@ recipes.addShaped(<GalacticraftCore:tile.machine2>,
 
 recipes.remove(<GalacticraftCore:tile.rocketWorkbench>);
 recipes.addShaped(<GalacticraftCore:tile.rocketWorkbench>,
-	[[bed,<ore:crafterWood>,bed],
+	[[bed,<ore:craftingTableWood>,bed],
 	 [lever,advWafer,lever],
 	 [bed,rtorch,bed]]);
 
