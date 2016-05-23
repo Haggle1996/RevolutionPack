@@ -22,8 +22,6 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - More uses for BoP junk: Pinecones, etc.
 - Death in SMP not registered by CrC
 
-- Increase the density of ReC ore in the Cave Dimension  
-
 HQM
 - Friction heater quest
 - XP from friction heater quest
