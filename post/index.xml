@@ -7,8 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Fri, 20 May 2016 21:58:34 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 26 May 2016 10:03:38 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 Update 2.7.2.0 </title>
+      <link>http://revolutionpack.info/post/2720/</link>
+      <pubDate>Thu, 26 May 2016 10:03:38 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2720/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;There is absolutely nothing to see here in this update. Not a thing&amp;hellip;except of course for DRACONIC EVOLUTION! Whee!&lt;/p&gt;
+
+&lt;p&gt;But HAGGLE! How could you put such OPness into REV|2? HOW COULD YOU!?!?&lt;/p&gt;
+
+&lt;p&gt;Simple, I say. Make it a worthy reward of being already OP. First, you&amp;rsquo;re going to need some Terrasteel from Botania. Certainly not the end of the world, but it&amp;rsquo;s a start. Add into that Bedrock (RotaryCraft) and Bedrockium (Extra Utilities) ingots, forged from the densest materials in the world. A slick layer of VoidMetal from the Eldritch Horrors of Thaumcraft channels the energy of the Ender Dragon, and finally, top it all off with a Spatial IO ingot from ChromatiCraft; and what have you for all that hard work? 4 ingots of sweet, sweet Draconium.&lt;/p&gt;
+
+&lt;p&gt;But HAGGLE! That&amp;rsquo;s insane! Who would want to pay such a high price for these ingots!?!?!? That&amp;rsquo;s like gating it behind impossible!&lt;/p&gt;
+
+&lt;p&gt;Or is it? I&amp;rsquo;ll tell you now, there&amp;rsquo;s a secret to getting lots of Draconium. Lots. Just don&amp;rsquo;t tell!&lt;/p&gt;
+
+&lt;p&gt;After that introduction, it&amp;rsquo;s a bit hard to introduce the other big mods added this round, but they&amp;rsquo;re pretty awesome in their own right. First up, we have Gwycraft, a mod from one of our own community players gwydion! Who doesn&amp;rsquo;t love more decorative stones (and a use for all that dye).&lt;/p&gt;
+
+&lt;p&gt;Rounding out our selection of mods is Hardcore Ender Expansion. Oddly enough, this mod fixes a bunch of problems we had with the End. I thought, &amp;lsquo;Do I want to beg mod authors to fix bugs? Or would I rather add awesome content to explore?&amp;rsquo; Obviously, the bugs won out.&lt;/p&gt;
+
+&lt;p&gt;Lastly, we&amp;rsquo;ve added NotEnoughIDs to the pack, which addresses the problem upgrading from pre-2.7. You shouldn&amp;rsquo;t have to muck about with your NBT stuff anymore.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes:90214f391dd49c887b751259ffd5fcde&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draconium Ore does not spawn&lt;/li&gt;
+&lt;li&gt;Draconium Ingots are made in the Arc Furnace using Terrasteel (Botania), Spatial Alloy Ingots (ChromatiCraft), Bedrock Ingots (RotaryCraft), Bedrockium Ingots (Extra Utilities), and VoidMetal Ingots (Thaumcraft).&lt;/li&gt;
+&lt;li&gt;Improved the circumstances in which ChromatiCraft temples can spawn.&lt;/li&gt;
+&lt;li&gt;Fixed some loot bags that should never have been.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:90214f391dd49c887b751259ffd5fcde&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The End Dragon is now summonable. Address &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/429&#34;&gt;#429&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed a problem with GalactiCraft Biomes IDs. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/431&#34;&gt;#431&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:90214f391dd49c887b751259ffd5fcde&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/brandons-core&#34;&gt;Brandon&amp;rsquo;s Core - Draconic Evolution dependency&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/draconic-evolution&#34;&gt;Draconic Evolution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/gwycraft-a-colored-blocks-mod&#34;&gt;Gwycraft - courtesy of gwydion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/notenoughids&#34;&gt;NotEnoughIDs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/hardcore-ender-expansion&#34;&gt;Hardcore Ender Expansion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:90214f391dd49c887b751259ffd5fcde&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224237-mod/files/2302905&#34;&gt;Forbidden Magic-1.7.10-0.575&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232254-mod/files/2302211&#34;&gt;HarderOres-14.25.1c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232257-mod/files/2302213&#34;&gt;HarderWildlife-14.25.1c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235442-mod/files/2302332&#34;&gt;ModularPowersuits-0.11.0.301&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222211-mod/files/2302312&#34;&gt;NotEnoughItems-1.7.10-1.0.5.120-universal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238603-mod/files/2302428&#34;&gt;TIS-3D-MC1.7.10-0.9.0.66&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:90214f391dd49c887b751259ffd5fcde&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;p&gt;None&lt;/p&gt;
+
+&lt;h3 id=&#34;removed-mods:90214f391dd49c887b751259ffd5fcde&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;p&gt;None&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 Update 2.7.1.0</title>
@@ -1044,102 +1117,6 @@ If you have been playing without Enviromine, be aware that structures may collap
 &lt;li&gt;Angel blocks now float and can be used to support other blocks, like glowstone (thanks to DaMachinator)&lt;/li&gt;
 &lt;li&gt;All the biome-specific fog has been nerfed 70-80%.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 2.1.0.0 BETA Update!</title>
-      <link>http://revolutionpack.info/post/2100beta/</link>
-      <pubDate>Sat, 30 Jan 2016 15:53:34 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2100beta/</guid>
-      <description>
-
-&lt;p&gt;Hello, everyone! Welcome to the REVOLUTION|2 Beta release!&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s been a long, hard month of testing and preparing, but we&amp;rsquo;re finally ready to release the Beta of REVOLUTION|2. We still have more work to do, particularly in the HQM and mod-balance department; however, the pack is stable at this point, and any worlds you create (regardless of world type) should be compatible with new pack updates for a long time to come.&lt;/p&gt;
-
-&lt;p&gt;Before I go any further, I need to take a moment to thank all the people who contributed content and/or support to this pack. They did an awesome job and REVOLUTION|2 wouldn&amp;rsquo;t be here without them:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;DaMachinator who contributed the custom bees and physics updates, and frequently answers bug reports and questions on the issue tracker and IRC.&lt;/li&gt;
-&lt;li&gt;DorinnB for his beautiful work on the Recurrent Complex world structures.&lt;/li&gt;
-&lt;li&gt;Solego&amp;rsquo;s excellent noob guides and hard work on the HQM quests.&lt;/li&gt;
-&lt;li&gt;NachtRaben, SerenityGene, Toksyuryel, DragGon7601, soleplayer, and the entire host of players on the #Revolution channel.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Currently, only the first TWO chapters of the HQM quests are included in the pack. The remaining chapters will be delivered over the course of the next few days. Stay tuned. There&amp;rsquo;s still more content and surprises coming to REVOLUTION|2!&lt;/p&gt;
-
-&lt;h3 id=&#34;known-issues:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Known Issues&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Linux users with Gun Customization texture problems should take a look at this &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/180&#34;&gt;issue&lt;/a&gt; for a workaround.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;noteworthy-changes:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Noteworthy Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ReactorCraft ores (fluorite, calcite, etc) no longer spawn in the overworld, but are found in quantity on the moon and mars.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;More entries in the noob guide, thanks to Solego. You can access the guide by opening your inventory window, then clicking on the upper book to the left of the window.&lt;/li&gt;
-&lt;li&gt;Recurrent Complex structures, courtesy of Dorinn Bloodforge and Pterodactlol, have been added.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Doubled the default spawn rate of copper. It is still rare, but more common than before.&lt;/li&gt;
-&lt;li&gt;Increased the Spice of Life food list length to 30; for the most part, this change makes early food less useful with minimal impact to end-game food.&lt;/li&gt;
-&lt;li&gt;Blood moon has been reduced from a 100% chance to only 5%; however, you can no longer sleep through it. Spawn rates are increased 300% but monsters despawn at morning.&lt;/li&gt;
-&lt;li&gt;No more ridiculous villager food trades (e.g., 64 feasts for 1 emerald).&lt;/li&gt;
-&lt;li&gt;Reduced frequency of guns and ammo in chests.&lt;/li&gt;
-&lt;li&gt;HarvestCraft seeds can only be made through AgriCraft mutation and propagation.&lt;/li&gt;
-&lt;li&gt;Increased mutation probabability of crops by 50%&lt;/li&gt;
-&lt;li&gt;Better Rain mod renamed to Dynamic Surroundings. Not a change, per-se, but noteworthy, as the mod adds a lot more content.&lt;/li&gt;
-&lt;li&gt;Added MapWriter 2 as a second minimap option&lt;/li&gt;
-&lt;li&gt;Added first part of Custom Bees thanks to DaMachinator!!&lt;/li&gt;
-&lt;li&gt;Updated the Roguelike towers to look more like modern structures.&lt;/li&gt;
-&lt;li&gt;Made roguelike dungeon loot more generous, because it&amp;rsquo;s a great way to tempt players to their death. (Shh&amp;hellip;secret&amp;hellip;dungeons are optional)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Copper ore flowers no longer spawn everywhere (only when there&amp;rsquo;s copper). This was due to a Harder Ores issue.&lt;/li&gt;
-&lt;li&gt;You should now be able to milk cows using wooden buckets.&lt;/li&gt;
-&lt;li&gt;Skin textures glitching after death should be fixed now.&lt;/li&gt;
-&lt;li&gt;World generation is significantly faster&lt;/li&gt;
-&lt;li&gt;You should now always start on or very close to a continent, instead of floating in the ocean.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;added-mods:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Added Mods&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/mapwriter-2&#34;&gt;MapWriter 2&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;updated-mods:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Updated Mods&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224472-mod/files/2277393&#34;&gt;AppleCore-mc1.7.10-1.3.0&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228529-mod/files/2279141&#34;&gt;BetterFoliage-MC1.7.10-2.0.3&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69162-mod/files/2277478&#34;&gt;CoFHCore-1.7.103.1.0-323&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2277392&#34;&gt;ClimateControl-0.4.beta38&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232131-mod/files/2277197&#34;&gt;defaultkeys-mc1.7.10-1.0.28&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2279139&#34;&gt;DynamicSurroundings-1.7.10-1.0.4.1 BETA&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229218-mod/files/2279025&#34;&gt;ExtraCells-1.7.10-2.3.8&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://forum.industrial-craft.net/index.php?page=Thread&amp;amp;amp;threadID=10820&#34;&gt;FastCraft 1.22-ctest18&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2277331&#34;&gt;FTBUtilities-1.7.10-1.0.16&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2277330&#34;&gt;FTBLib-1.7.10-1.0.16&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2278964&#34;&gt;Forestry 4.2.6&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://micdoodle8.com/mods/galacticraft&#34;&gt;Galacticraft 1.7.10-3.0.12.429&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238770-mod/files/2277067&#34;&gt;Galaxy Space 1.0.5&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222838-mod/files/2277144&#34;&gt;Headcrumbs-1.7.3&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223815-mod/files/2276684&#34;&gt;IGW-Mod-1.7.10-1.1.12-34-universal&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235442-mod/files/2278886&#34;&gt;ModularPowersuits-0.11.0.300&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224125-mod/files/2279020&#34;&gt;PneumaticCraft-1.7.10-1.12.5-148-universal&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://github.com/Team-RTG/Realistic-Terrain-Generation&#34;&gt;Realistic Terrain Generation 0.5.0&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224641-mod/files/2278966&#34;&gt;rftools-4.21&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2277607&#34;&gt;Rockhounding Mod v3.23b&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/220811-mod/files/2277396&#34;&gt;SpiceOfLife-mc1.7.10-1.3.1&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2276653&#34;&gt;StorageDrawers-1.7.10-1.7.7&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238603-mod/files/2276283&#34;&gt;TIS-3D-MC1.7.10-0.8.2.62&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/233189-mod/files/2276336&#34;&gt;WoodenBuckets-1.7.10-0.0.3b8&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;removed-mods:f761a1868e03fdead433f33d3eec4e9a&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;p&gt;None!&lt;/p&gt;
 </description>
     </item>
     
