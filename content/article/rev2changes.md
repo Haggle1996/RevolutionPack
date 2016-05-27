@@ -35,12 +35,12 @@ Silver | Isolated veins found about two thirds of the way down to bedrock.  Unus
 Nickel | Groups of long narrow veins found near bedrock.  Especially common in swamps.
 Aluminum | Flat Clouds found near the surface.  Only found in mesa, swamp, and jungle biomes.
 Apatite | Spawns in large, rare veins between y-level 56 and 184.
-Cadmium | Spawns in layered veins between y-level 2 and 14.
-Indium | Spawns in layered veins between y-level 6 and 18.
-Fluorite | Spawns in large motherlodes between y-level 3 and 13 with large tendrils spreading out for long distances.
-Magnetite | Spawns in large, rare veins between y-level 76 and 98.
-Calcite | Spawns in rare veins between y-level 42 and 58.
 Certus Quartz | Spawns with charged certus quarts in vertical veins between y-level 76 and 52.
+Cadmium | Spawns in the cave dimension, moon, and mars.
+Indium | Spawns in the cave dimension, moon, and mars.
+Fluorite | Spawns in the cave dimension, moon, and mars.
+Magnetite | Spawns in the cave dimension, moon, and mars, and occasionally above y-128 in the overworld.
+Calcite | Spawns in the cave dimension, moon, and mars.
 Ore generation in the Enviromine Cave dimension is richer and more vanilla-like, and is intended for use as a mining dimension. There are also secret ways of creating ore.
 
 ## Significant Gameplay Changes
@@ -119,6 +119,10 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 ## Cooking for Blockheads
 - Water must be pumped in to the sink.
 
+## Draconic Evolution
+- Draconium Ore does not spawn
+- Draconium Ingots are made in the Arc Furnace using Terrasteel (Botania), Spatial Alloy Ingots (ChromatiCraft), Bedrock Ingots (RotaryCraft), Bedrockium Ingots (Extra Utilities), and VoidMetal Ingots (Thaumcraft).
+
 ## Ender IO
 - Hard machine recipes are turned on.
 - Alloy Smelter recipes generally require 10x more power (IE Arc Furnaces smelt significantly faster, but require even more power).
@@ -138,12 +142,14 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Most of this mod is disabled, particularly the Ender Quarry, transport nodes, generators, and watering cans.
 - Ender Lilies can only be found in The End
 - Drum requires steel plates
+- Last Millenium and Deep Dark are disabled. Use the Cave dimension (accessed by Enviromine Elevator) for mining dimension. 
 
 ## Forestry
 - Farms are now square, because 45 degree angles are hard.
 - Forestry bees can now make RotaryCraft yeast.
-- Engines are disabled
-- Adventurer's Bags are renamed Ammo Bags and can hold ammo (obviously) 
+- Adventurer's Bags are renamed Ammo Bags and can hold ammo (obviously)
+- Easy mode is set
+- The Ender Hive can be obtained through Botania Mana Transfusion of a Tropical Hive 
 
 ## Galacticraft
 - Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.

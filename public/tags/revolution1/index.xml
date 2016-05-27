@@ -7,8 +7,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Wed, 23 Dec 2015 11:53:41 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 14 May 2016 07:40:55 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|1 AND 2 Updated!</title>
+      <link>http://revolutionpack.info/post/2600-1500/</link>
+      <pubDate>Sat, 14 May 2016 07:40:55 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2600-1500/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Double update today! Yay! With v13 of Reika&amp;rsquo;s mods going into both packs! This changelog is primarily for REVOLUTION|2; the REVOLUTION|1 changelog can be found on the ATLauncher page in the typical place.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes:99b89255fc12145624dddc5e688a682e&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;More villagers (including alien villagers) shed emeralds to slightly increase the availability of emeralds pre-mining world.&lt;/li&gt;
+&lt;li&gt;Reenabled naturally-spawning Ore Flowers for all mod ores now that memory issues have been addressed &amp;ndash; this does not retrogen flowers, but new chunks will feature them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:99b89255fc12145624dddc5e688a682e&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Arc Furnace now correctly uses 1 coal instead of 9 per diamond shard to make a diamond. Sorry for the confusion.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:99b89255fc12145624dddc5e688a682e&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/arcane-engineering&#34;&gt;Arcane Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/travellers-gear&#34;&gt;Traveller&amp;rsquo;s Gear - API for Witching Gadgets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/witching-gadgets&#34;&gt;Witching Gadgets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated:99b89255fc12145624dddc5e688a682e&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235590-mod/files/2299294&#34;&gt;ChromatiCraft 1.7.10 V13b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231484-mod/files/2299135&#34;&gt;Cooking For Blockheads-mc1.7.10-1.0.140&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235591-mod/files/2299274&#34;&gt;DragonAPI 1.7.10 V13b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235594-mod/files/2299118&#34;&gt;ElectriCraft 1.7.10 V13a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235602-mod/files/2299276&#34;&gt;ExpandedRedstone 1.7.10 V13b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/harder-wildlife/files/2300020&#34;&gt;HarderWildlife-14.25.1b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/51195-mod/files/2299713&#34;&gt;Railcraft 9.12.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235593-mod/files/2299275&#34;&gt;ReactorCraft 1.7.10 V13b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2299849&#34;&gt;Rockhounding Mod v4.07&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235609-mod/files/2299123&#34;&gt;VoidMonster 1.7.10 V13a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:99b89255fc12145624dddc5e688a682e&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;p&gt;None&lt;/p&gt;
+
+&lt;h3 id=&#34;removed-mods:99b89255fc12145624dddc5e688a682e&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;p&gt;None&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>R1 First Day Guide</title>
