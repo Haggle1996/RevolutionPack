@@ -44,6 +44,7 @@
 &lt;li&gt;Improved the circumstances in which ChromatiCraft temples can spawn.&lt;/li&gt;
 &lt;li&gt;Fixed some loot bags that should never have been.&lt;/li&gt;
 &lt;li&gt;Changed the Chunk Animator animation to be more awesome in the End and Space.&lt;/li&gt;
+&lt;li&gt;Rebalanced sleeping. Sleeping no longer resets the world clock to morning. However, we&amp;rsquo;ve increased the rate you regain sleep at night and reduced the rate at which you get tired. This also means caffeinated foods and medications are much more useful.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;bugs-squashed:90214f391dd49c887b751259ffd5fcde&#34;&gt;Bugs Squashed&lt;/h3&gt;
