@@ -21,6 +21,7 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Minecraft day length
 - More uses for BoP junk: Pinecones, etc.
 - Death in SMP not registered by CrC
+- Update Ender IO
 
 HQM
 - Friction heater quest
