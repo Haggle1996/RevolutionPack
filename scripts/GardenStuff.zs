@@ -17,6 +17,9 @@ val acaciaLattice = <GardenStuff:lattice_wood:4>;
 val darkoakLattice = <GardenStuff:lattice_wood:5>;
 val ironLattice = <GardenStuff:lattice:0>;
 
+val goldLink = <GardenStuff:chain_link:1>;
+val goldNugget = <ore:nuggetGold>;
+
 recipes.remove(ironLattice * 16);
 recipes.addShaped(ironLattice * 16, [[null,iron,null],[iron,null,iron],[null,iron,null]]);
 
@@ -37,3 +40,6 @@ recipes.addShaped(acaciaLattice * 8, [[null,acaciaSlab,null],[acaciaSlab,acaciaS
 
 recipes.remove(darkoakLattice * 8);
 recipes.addShaped(darkoakLattice * 8, [[null,darkoakSlab,null],[darkoakSlab,darkoakSlab,darkoakSlab],[null,darkoakSlab,null]]);
+
+recipes.remove(goldLink * 3);
+recipes.addShaped(goldLink * 3, [[null, goldNugget, goldNugget],[goldNugget, null, goldNugget],[goldNugget,goldNugget,null]]);
