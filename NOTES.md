@@ -21,11 +21,11 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Minecraft day length
 - More uses for BoP junk: Pinecones, etc.
 - Death in SMP not registered by CrC
-- Update Ender IO
 
 - Test beehive's not breakable with specific metadata only, e.g., Forestry:hives 0
 - gravity in the space station dimension
 - Attempt to fix Natura through code https://github.com/progwml6/Natura
+- Regenerate Climate Control and RTG Configs
 
 HQM
 - Friction heater quest
