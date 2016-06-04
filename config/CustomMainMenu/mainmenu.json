@@ -103,12 +103,28 @@
                 "link" : "http://www.revolutionpack.info"
             }
         },    
+
+        "music":
+        {
+            "text" : "Aviator's Music...",
+            "posX" : 10,
+            "posY" : 6,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "left_center",
+            "texture" : "revolution:textures/gui/title/button.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://music.soundoftheaviators.com/"
+            }
+        },         
         
         "options":
         {
             "text" : "menu.options",
             "posX" : 10,
-            "posY" : 6,
+            "posY" : 30,
             "width" : 100,
             "height" : 20,
             "alignment" : "left_center",
@@ -124,7 +140,7 @@
         {
             "text" : "Mods",
             "posX" : 10,
-            "posY" : 30,
+            "posY" : 54,
             "width" : 100,
             "height" : 20,
             "alignment" : "left_center",
@@ -140,7 +156,7 @@
         {
             "text" : "menu.quit",
             "posX" : 10,
-            "posY" : 54,
+            "posY" : 78,
             "width" : 100,
             "height" : 20,
             "alignment" : "left_center",
@@ -170,10 +186,10 @@
         // {
         //     "text" : "",
         //     "posX" : 28,
-        //     "posY" : 78,
+        //     "posY" : -25,
         //     "width" : 20,
         //     "height" : 20,
-        //     "alignment" : "left_center",
+        //     "alignment" : "bottom_left",
         //     "texture" : "custommainmenu:textures/gui/buttons.png",
         //     "action" : 
         //     {
@@ -194,6 +210,16 @@
             "alignment" : "bottom_right"
         },
         
+        "aviators":
+        {
+            "text" : "Opening Music & Records Copyright by Aviators, used with permission!",
+            "posX" : "-176",
+            "posY" : "-10",
+            "color" : -1,
+            "fontSize" : 0.5,
+            "alignment" : "bottom_right"
+        },        
+                
         "fml":
         {
             "text" : "",
@@ -230,8 +256,8 @@
                 "All I want is a bucket",
                 "It's Irradiated!",
                 "This pack will self-destruct...",
-                "Don't LOL at the Pterodactylol",
-                "Dave_128 was here",
+                "Don't LOL at the Pterodactlol",
+                "Beans_128 was here",
                 "Kanneida loves radiation",
                 "Beware Smith & Jones!",
                 "It's supposed to be hard",

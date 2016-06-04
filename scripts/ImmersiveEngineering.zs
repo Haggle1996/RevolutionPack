@@ -71,6 +71,9 @@ recipes.addShaped(<ImmersiveEngineering:material:16> * 2, 	[[	<ore:ingotAluminum
 mods.immersiveengineering.Crusher.removeRecipe(<ElectriCraft:electricraft_item_crafting>);
 mods.immersiveengineering.Crusher.addRecipe(<PracticalLogistics:SapphireDust>, <minecraft:dye:4>, 1600, null, 0.0);
 
+# Sapphires produced in the Arc Furnace
+mods.immersiveengineering.ArcFurnace.addRecipe(<PracticalLogistics:Sapphire>, <PracticalLogistics:SapphireDust> * 4, null, 200, 512);
+
 # Blast furnace produces cupronickel
 mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:5>,<ore:dustCupronickel>, 120, null);
 mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:5>,<ore:dustConstantan>, 120, null);
