@@ -3,6 +3,7 @@
 Why TiCo is not a thing: http://bit.ly/1U6SmR3
 
 ## Predeployment List
+- Delete the config/draconicevolution folder from configs (not the draconicevolution.cfg)
 - Startup page update on gist
 - Update website, including changelog and general gameplay changes
 - Update version in EiraIRC configuration shared.cfg
@@ -22,10 +23,8 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - More uses for BoP junk: Pinecones, etc.
 - Death in SMP not registered by CrC
 
-- Test beehive's not breakable with specific metadata only, e.g., Forestry:hives 0
 - gravity in the space station dimension
-- Attempt to fix Natura through code https://github.com/progwml6/Natura
-- Regenerate Climate Control and RTG Configs
+- Music from http://music.soundoftheaviators.com/track/welcome-to-paradise
 
 HQM
 - Friction heater quest
