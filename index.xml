@@ -7,8 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Thu, 02 Jun 2016 18:06:11 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jun 2016 10:16:11 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|2 Hotfix 2.7.3.1!</title>
+      <link>http://revolutionpack.info/post/2731/</link>
+      <pubDate>Sun, 05 Jun 2016 10:16:11 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2731/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;Just a tiny update here to resolve a couple of late-breaking issues with 2.7.3.0.&lt;/p&gt;
+
+&lt;h1 id=&#34;pack-changes:42e9cd39469831f34189f1cdeba67921&#34;&gt;Pack Changes&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disabled the Extra Utilities Ender Collector due to a duplication bug&lt;/li&gt;
+&lt;li&gt;Fixed a problem with the installer that would cause two versions of regular Unity to be installed, instead of Unity and Unity for RotaryCraft. If you want to use the full Unity suite, you should have Unity for RotaryCraft listed first, then Unity 1.3.1, then default Minecraft, in your resource packs list.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;reverted-mods:42e9cd39469831f34189f1cdeba67921&#34;&gt;Reverted Mods&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ender IO to previous version, due to Farming Stations not functioning.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>&#39;Super Dimensional Modpack REVOLUTION|2&#39; Update 2.7.3.0!</title>
@@ -1139,46 +1166,6 @@ If you have been playing without Enviromine, be aware that structures may collap
 
 &lt;ul&gt;
 &lt;li&gt;Galaxy Space. This is a temporary removal until issues with it are resolved.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 - Beta 2.1.1.0 Update!</title>
-      <link>http://revolutionpack.info/post/2110beta/</link>
-      <pubDate>Mon, 01 Feb 2016 21:29:51 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2110beta/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;My apologies for the daily pack updates, but we&amp;rsquo;re going through a period of very rapid stabilization now that the beta period has started. Keep your fingers crossed that there won&amp;rsquo;t be too many more of these. :)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Server operators&lt;/strong&gt; be sure to back up your /local folder and restore after the update to retain FTB Utilities settings&lt;/p&gt;
-
-&lt;h3 id=&#34;changes:e99853a25b5c7f3ddb9ee958b0a728bd&#34;&gt;Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reduced Blood Moon mob count by 33%, as many servers can&amp;rsquo;t handle the huge number of mob spawns.&lt;/li&gt;
-&lt;li&gt;More environmental sounds from Dynamic Surroundings mod&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed:e99853a25b5c7f3ddb9ee958b0a728bd&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fixed the various foods in HQM chapter 2 that couldn&amp;rsquo;t be detected because the food was rotten.&lt;/li&gt;
-&lt;li&gt;Crash when clicking the server guide book to the left of the inventory window.&lt;/li&gt;
-&lt;li&gt;Auto-backups controlled by FTB Utilities should work again.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;updated-mods:e99853a25b5c7f3ddb9ee958b0a728bd&#34;&gt;Updated Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2279555&#34;&gt;DynamicSurroundings-1.7.10-1.0.4.2BETA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2279531&#34;&gt;FTBUtilities-1.7.10-1.0.17&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2279530&#34;&gt;FTBLib-1.7.10-1.0.17&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223008-mod/files/2279369&#34;&gt;OpenComputers-MC1.7.10-1.5.22.43-universal&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
