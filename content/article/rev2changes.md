@@ -89,6 +89,7 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 
 ## Better Sleeping
 - Removed most debuffs when you're tired.
+- Sleeping no longer advances the time. You'll have to find ways to survive the night.
 
 ## Biomes O' Plenty
 - Removed all ore generation and related tools, armor.

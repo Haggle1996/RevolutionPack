@@ -7,8 +7,94 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Thu, 26 May 2016 10:03:38 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jun 2016 18:06:11 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>&#39;Super Dimensional Modpack REVOLUTION|2&#39; Update 2.7.3.0!</title>
+      <link>http://revolutionpack.info/post/2730/</link>
+      <pubDate>Thu, 02 Jun 2016 18:06:11 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2730/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Much rebalancing and fixes here! While we haven&amp;rsquo;t added any new mods, per se, we&amp;rsquo;ve changed the progression for RF Tools such that you can get into it much sooner in the mid-game. This gives you access to RF Tools awesome inventory machines, screens, and redstone blocks. Dimensions no longer require an owner dimlet, so you can get started exploring dimensions as soon as you produce enough power to keep them going (server admins may want to disable this, at their discretion).&lt;/p&gt;
+
+&lt;p&gt;In addition, the new ChromatiCraft update includes a bunch of new world generation. You&amp;rsquo;ll need to explore new chunks in order to view some of the newest content from that mod. Along the same lines, you should reset your End and Nether dimensions by deleting the DIM1 and DIM-1 folders from your save, as there&amp;rsquo;s new world generation there. As always, make sure you have a backup before you start deleting things.&lt;/p&gt;
+
+&lt;p&gt;Nights are a little bit safer, with some nerfs to the zombie hordes that attack you endlessly.&lt;/p&gt;
+
+&lt;p&gt;REVOLUTION|2 now also features a soundtrack! Be sure music is enabled to hear the opening-screen music. Also, in-game, the typical record music has been replaced by a custom selection of Aviator&amp;rsquo;s music (used with permission).&lt;/p&gt;
+
+&lt;p&gt;A few mods have been removed from the mix &amp;ndash; Stacks on Stacks and Ewy&amp;rsquo;s, as well as the Morpheus utility used on servers.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes:59a325ef650ac1b50d8ddeb152a58721&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bee hives, pylons, and railcraft lanterns are no longer breakable by zombies.&lt;/li&gt;
+&lt;li&gt;Decreased the time it takes for a tree to die from old age (does not affect player-planted trees and some mod-trees)&lt;/li&gt;
+&lt;li&gt;Changed the recipe for RF Tools&amp;rsquo; Machine Frame and Base. This effectively opens up RF Tools machines in the mid-game. RF Tools dimensions still requires heavy-power production.&lt;/li&gt;
+&lt;li&gt;Added some more loot bags to replace some OP ones that were removed&lt;/li&gt;
+&lt;li&gt;If possible, regenerate your End and Nether dimensions to access new world gen (delete the DIM1 and DIM-1 folders in your save, if possible).&lt;/li&gt;
+&lt;li&gt;There is ChromatiCraft content that can only be experienced in newly-generated chunks.&lt;/li&gt;
+&lt;li&gt;Removed the thief AI and super-speed zombies (there&amp;rsquo;s still fast zombies). Also slightly reduced the difficulty of the night.&lt;/li&gt;
+&lt;li&gt;Disabled physics on the space stations, asteroids, and chroma dimensions&lt;/li&gt;
+&lt;li&gt;Replaced all the records and opening music with licensed/permissioned music from the &lt;a href=&#34;http://music.soundoftheaviators.com&#34;&gt;Aviators&lt;/a&gt;! You will need to enable music in the options menu in order to hear the opening soundtrack. Full Disclosure: I do not recieve any payment for the placement of Aviator&amp;rsquo;s music &amp;ndash; I&amp;rsquo;m simply promoting an artist that I enjoy and has given permissions to use their material.&lt;/li&gt;
+&lt;li&gt;Redid pack configs and resources, so that you no longer have to download an obnoxious, 13mb config file. Instead, resources are downloaded independently so they only have to be downloaded once instead of with each pack update.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed:59a325ef650ac1b50d8ddeb152a58721&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ore flowers through bone meal and the sluice now function again &amp;ndash; however, they will only work consistently in newly generated chunks.&lt;/li&gt;
+&lt;li&gt;Wooden Buckets can be used to fill Agricraft Water Pads. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/432&#34;&gt;#432&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Stacks on Stacks issues with Crystals, Draconic Evolution, and the duplication exploit have been addressed by removing Stacks on Stacks. Resolves &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/339&#34;&gt;#339&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Turned off the Dynamic Surroundings popoff, which duplicates the damage info. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/441&#34;&gt;#441&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gold Chain and Gold Link have separate recipes; thanks Kreidos! Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/443&#34;&gt;#443&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed a crash in the Thaumonomicon by turning off Witching Gadgets transmutations. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/446&#34;&gt;#446&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RF Tools Owner Dimlets are no longer needed. Server Admins who want to limit RF Tools dimensions should re-enable this. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/438&#34;&gt;#438&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sapphire gems can now be made in the Arc Furnace for Practical Logistics machines.. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/440&#34;&gt;#440&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added:59a325ef650ac1b50d8ddeb152a58721&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;h3 id=&#34;mods-updated:59a325ef650ac1b50d8ddeb152a58721&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228932-mod/files/2303358&#34;&gt;Carpenter&amp;rsquo;s Blocks v3.3.8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235590-mod/files/2304705&#34;&gt;ChromatiCraft 1.7.10 V14b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2304112&#34;&gt;ClimateControl-0.6.beta59&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223565-mod/files/2303342&#34;&gt;Draconic-Evolution-1.7.10-1.0.2e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235591-mod/files/2304698&#34;&gt;DragonAPI 1.7.10 V14b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235594-mod/files/2304695&#34;&gt;ElectriCraft 1.7.10 V14b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231868-mod/files/2303469&#34;&gt;EnderCore-1.7.10-0.2.0.35_beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/ender-io/files/2303474&#34;&gt;Ender IO-1.7.10-2.3.0.436&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235602-mod/files/2304520&#34;&gt;ExpandedRedstone 1.7.10 V14a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224237-mod/files/2303822&#34;&gt;Forbidden Magic-1.7.10-0.575&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232254-mod/files/2304023&#34;&gt;HarderOres-14.25.1e&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235593-mod/files/2304696&#34;&gt;ReactorCraft 1.7.10 V14b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2304306&#34;&gt;RTG-1.7.10-0.8.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2303417&#34;&gt;Rockhounding Mod v4.07c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235596-mod/files/2304697&#34;&gt;RotaryCraft 1.7.10 V14b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235609-mod/files/2304524&#34;&gt;VoidMonster 1.7.10 V14a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/233189-mod/files/2304590&#34;&gt;WoodenBucket-1.7.10-0.0.3b9-universal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:59a325ef650ac1b50d8ddeb152a58721&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;p&gt;None&lt;/p&gt;
+
+&lt;h3 id=&#34;removed-mods:59a325ef650ac1b50d8ddeb152a58721&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ewy&amp;rsquo;s Workshop&lt;/li&gt;
+&lt;li&gt;Stacks on Stacks&lt;/li&gt;
+&lt;li&gt;Morpheus (server mod for sleep voting) to optional, not recommended&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 Update 2.7.2.0 </title>
@@ -104,7 +190,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Increased frequency of ReactorCraft ores in the Cave dimension.&lt;/li&gt;
-&lt;li&gt;Hives (including the Ender Hive) can be created through Botania Mana Alchemy. You can scoop up hives by crafting a Scooperator MX200 (from Gendustry) and right-clicking a hive (not left-clicking).&lt;/li&gt;
+&lt;li&gt;Hives (including the Ender Hive) can be created through Botania Mana Alchemy. You can scoop up hives by crafting a Scooperator MX200 (from Gendustry) and shift+right-clicking a hive (not left-clicking).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;bugs-squashed:345d66109dd65d23576249f7f26aa5de&#34;&gt;Bugs Squashed&lt;/h3&gt;
@@ -1093,32 +1179,6 @@ If you have been playing without Enviromine, be aware that structures may collap
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2279531&#34;&gt;FTBUtilities-1.7.10-1.0.17&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2279530&#34;&gt;FTBLib-1.7.10-1.0.17&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223008-mod/files/2279369&#34;&gt;OpenComputers-MC1.7.10-1.5.22.43-universal&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 2.1.0.1 BETA Update!</title>
-      <link>http://revolutionpack.info/post/2101beta/</link>
-      <pubDate>Sun, 31 Jan 2016 20:34:01 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2101beta/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;Patch 2.1.0.1 is just a tiny update to fix some various bugs reported today with the pack. No big changes. Move along. There&amp;rsquo;s nothing to see here.&lt;/p&gt;
-
-&lt;p&gt;As always, if your HQM quests are reset or otherwise altered, use /hqm edit &lt;playername&gt; (with cheats enabled) to fix your book.&lt;/p&gt;
-
-&lt;h3 id=&#34;bugs-squashed:3b47999b397651db312ff5cc3b8e866c&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fixed the trigger quest for HQM Chapter 2, so you no longer need to hold an iron hoe to access them.&lt;/li&gt;
-&lt;li&gt;HarvestCraft presser has recipes again&lt;/li&gt;
-&lt;li&gt;Forestry Ammo bags now hold ammo again&lt;/li&gt;
-&lt;li&gt;Angel blocks now float and can be used to support other blocks, like glowstone (thanks to DaMachinator)&lt;/li&gt;
-&lt;li&gt;All the biome-specific fog has been nerfed 70-80%.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
