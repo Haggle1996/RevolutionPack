@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2015 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 05 Jun 2016 10:16:11 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jun 2016 19:39:05 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>&#39;The Updates Must Flow!&#39; REVOLUTION|2 Update 2.7.4.0</title>
+      <link>http://revolutionpack.info/post/2740/</link>
+      <pubDate>Sun, 05 Jun 2016 19:39:05 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/2740/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;My apologies for the rapid-fire updates this weekend, but we&amp;rsquo;re going to round off your week with the v14c updates of Reika&amp;rsquo;s mods. Nothing new, otherwise. :)&lt;/p&gt;
+
+&lt;h3 id=&#34;mods-updated:26cbb8f4fb70b6f6142fb9b767eb416f&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/chromaticraft/files/2305620&#34;&gt;ChromatiCraft 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dragonapi/files/2305615&#34;&gt;DragonAPI 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/electricraft/files/2305616&#34;&gt;ElectriCraft 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/reactorcraft/files/2305617&#34;&gt;ReactorCraft 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/rotarycraft/files/2305618&#34;&gt;RotaryCraft 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods:26cbb8f4fb70b6f6142fb9b767eb416f&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;h3 id=&#34;removed-mods:26cbb8f4fb70b6f6142fb9b767eb416f&#34;&gt;Removed Mods&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|2 Hotfix 2.7.3.1!</title>
@@ -1106,67 +1134,6 @@ If you have been playing without Enviromine, be aware that structures may collap
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;removed-mods:39b92256580a2c637a1e89df3d8687ca&#34;&gt;Removed Mods&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 - Beta 2.1.2.0 Update!</title>
-      <link>http://revolutionpack.info/post/2120beta/</link>
-      <pubDate>Wed, 03 Feb 2016 16:56:19 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2120beta/</guid>
-      <description>
-
-&lt;p&gt;Hello, everyone!&lt;/p&gt;
-
-&lt;p&gt;Fingers crossed that this will be the last stability update to REVOLUTION|2 for some time. This update squashes a lot of the outstanding issues with the pack, and in general, you should have a much more reliably-stable experience going forward.&lt;/p&gt;
-
-&lt;p&gt;As part of squashing all the instability, we&amp;rsquo;ve had to say a temporary goodbye to Galaxy Space. For one reason or another, it&amp;rsquo;s having identity issues. And as the mod only provides content post-Mars, I thought it safer to just remove it for now. Hopefully it will make a reappearance in the very near future.&lt;/p&gt;
-
-&lt;p&gt;Enough sad news, we have a new mod, Not Enough Keys! NEK adds a bunch of modifiers to your keystrokes, vastly increasing the number of available keys for binding!&lt;/p&gt;
-
-&lt;h3 id=&#34;changes:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;IRC handles changed back to just IGN. REVOLUTION version can be obtained by doing a WHOIS on the user (in the Bot field)&lt;/li&gt;
-&lt;li&gt;Reduced frequency of Recurrent Complex structures&lt;/li&gt;
-&lt;li&gt;Added back blood moon tint since it&amp;rsquo;s no longer every night (by request from players).&lt;/li&gt;
-&lt;li&gt;Wood once again can be turned into charcoal in any furnace.&lt;/li&gt;
-&lt;li&gt;RotaryCraft Coal Coke can be used as a fuel in the Immersive Engineering Blast Furnace, albeit at a lower efficiency than IE Coke.&lt;/li&gt;
-&lt;li&gt;Immersive Engineering&amp;rsquo;s Coal Coke block now has the appropriate burn time and fuel value.&lt;/li&gt;
-&lt;li&gt;Nuclear waste can no longer be found in HQM reward bags.&lt;/li&gt;
-&lt;li&gt;Removed the uber-HarvestCraft rewards from HQM reward bags.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Replaced Tweaked Inventory Tweaks with classic Inventory Tweaks, as it&amp;rsquo;s better to have a working mod with known problems then just a broken one.&lt;/li&gt;
-&lt;li&gt;Thaumcraft nodes no longer fall when interacted with&lt;/li&gt;
-&lt;li&gt;FTB Utilities&amp;rsquo; guide book images work again.&lt;/li&gt;
-&lt;li&gt;Fixed &amp;lsquo;Tilting Spears at Windmills&amp;rsquo; quest to require correct amount of vanes.&lt;/li&gt;
-&lt;li&gt;You can now unlock Chapter 2 again.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/notenoughkeys&#34;&gt;Not Enough Keys&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2279687&#34;&gt;ClimateControl-0.4.beta39&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2279763&#34;&gt;FTBLib-1.7.10-1.0.17.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;GalactiCraft 3.0.12.437&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;removed-mods:7dbf058d01c6d8a5f81d5d53074501e8&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Galaxy Space. This is a temporary removal until issues with it are resolved.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
