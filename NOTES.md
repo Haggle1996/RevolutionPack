@@ -23,8 +23,8 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - More uses for BoP junk: Pinecones, etc.
 - Death in SMP not registered by CrC
 
-- gravity in the space station dimension
-- Music from http://music.soundoftheaviators.com/track/welcome-to-paradise
+- Remove Ender conduit thingy from Extra Utilities.
+- Fix the unity texture packs
 
 HQM
 - Friction heater quest
