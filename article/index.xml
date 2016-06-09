@@ -152,8 +152,9 @@
 &lt;ul&gt;
 &lt;li&gt;There is a mini-guide built into the modpack. Access your inventory, then click the guide book along the left edge of your inventory window.&lt;/li&gt;
 &lt;li&gt;Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block &amp;ndash; up to two and a half stacks of ingots per block with all advancements!&lt;/li&gt;
-&lt;li&gt;Ore flowers spawn on the surface, indicating nearby ores.&lt;/li&gt;
+&lt;li&gt;Ore flowers spawn on the surface, indicating nearby ores (within 30 block radius for naturally-occurring ore flowers - ore flowers may appear when bone mealing the ground; these mean ore is within an 8 block radius, horizontally).&lt;/li&gt;
 &lt;li&gt;Torches will set fire to nearby blocks and burn out over time.&lt;/li&gt;
+&lt;li&gt;Sleeping does not advance time (it does recharge your sleep meter).&lt;/li&gt;
 &lt;li&gt;Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.&lt;/li&gt;
 &lt;li&gt;Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.&lt;/li&gt;
 &lt;li&gt;Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.&lt;/li&gt;
@@ -164,10 +165,10 @@
 &lt;li&gt;Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.&lt;/li&gt;
 &lt;li&gt;Power consumption and generation has been revamped throughout the pack. Generally, things are more expensive.&lt;/li&gt;
 &lt;li&gt;Power, item, and fluid transmission has been tiered:
-&amp;ndash; Tier 1: Immersive Engineering
-&amp;ndash; Tier 2: BuildCraft, Logistics Pipes
-&amp;ndash; Tier 3: Ender IO
-&amp;ndash; Tier 4: ElectriCraft (power transmission)&lt;/li&gt;
+&amp;ndash; Tier 1: Immersive Engineering (max 4096 RF/t)
+&amp;ndash; Tier 2: BuildCraft, Logistics Pipes (max 10248 RF/t)
+&amp;ndash; Tier 3: Ender IO (max 20496 RF/t)
+&amp;ndash; Tier 4: ElectriCraft (power transmission only - unlimited RF/t)&lt;/li&gt;
 &lt;li&gt;Early game RF power is best provided through either the Rotational Dynamo or the Immersive Engineering waterwheel/windmill.&lt;/li&gt;
 &lt;li&gt;Spawners aren&amp;rsquo;t moveable intact during the early game; you must research technology to move them or use them for powered spawners.&lt;/li&gt;
 &lt;li&gt;Many repetetive items are hidden in NEI (e.g., BiblioCraft and Storage Drawers wood variations; Gun Customization modified weapons). Use Creative Tab to access these items.&lt;/li&gt;
@@ -176,7 +177,7 @@
 &lt;h2 id=&#34;trivia:2dc582e763001218f60802f283920a1d&#34;&gt;Trivia&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Dead bodies can be removed by hitting them with a shovel.&lt;/li&gt;
+&lt;li&gt;Dead bodies can be removed by whacking them with a shovel three times.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;mod-specific-changes:2dc582e763001218f60802f283920a1d&#34;&gt;Mod-specific changes&lt;/h1&gt;
@@ -190,12 +191,6 @@
 &lt;li&gt;Reduced stat cap to 8&lt;/li&gt;
 &lt;li&gt;Turned on hardcore mode&lt;/li&gt;
 &lt;li&gt;Increased mutation rate by 50%&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;animals:2dc582e763001218f60802f283920a1d&#34;&gt;Animals+&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Whales, Centipedes, Crickets, and Butterflies no longer spawn.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;applied-energistics:2dc582e763001218f60802f283920a1d&#34;&gt;Applied Energistics&lt;/h2&gt;
@@ -231,7 +226,7 @@
 &lt;h2 id=&#34;buildcraft:2dc582e763001218f60802f283920a1d&#34;&gt;BuildCraft&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
+&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Kerosene + Oil.&lt;/li&gt;
 &lt;li&gt;Engines require metal plates.&lt;/li&gt;
 &lt;li&gt;A number of recipes from other mods are crafted on the Assembly Table&lt;/li&gt;
 &lt;li&gt;Refinery is removed &amp;ndash; use the Immersive Engineering Refinery for Fuel and Ethanol&lt;/li&gt;
@@ -248,10 +243,8 @@
 
 &lt;ul&gt;
 &lt;li&gt;Wisps in Rainbow Forests can hurt you.&lt;/li&gt;
-&lt;li&gt;The Ender Dragon will respawn shortly after killing it.&lt;/li&gt;
 &lt;li&gt;Rainbow Forest biomes do not spread when planting rainbow trees.&lt;/li&gt;
 &lt;li&gt;Pylons do not automatically chunk-load; you&amp;rsquo;ll need to use your own chunk loader (server optimization).&lt;/li&gt;
-&lt;li&gt;Disabled player progress announcements as they cause a server crash.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;cooking-for-blockheads:2dc582e763001218f60802f283920a1d&#34;&gt;Cooking for Blockheads&lt;/h2&gt;
@@ -310,7 +303,7 @@
 &lt;h2 id=&#34;galacticraft:2dc582e763001218f60802f283920a1d&#34;&gt;Galacticraft&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
+&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Kerosene + Oil.&lt;/li&gt;
 &lt;li&gt;ReactorCraft ores spawn plentifully on the moon.&lt;/li&gt;
 &lt;li&gt;Converting GalactiCraft power to RF is 66% less efficient.&lt;/li&gt;
 &lt;li&gt;Consuming RF power from GalactiCraft machines suffers no penalty.&lt;/li&gt;
@@ -329,7 +322,6 @@
 
 &lt;ul&gt;
 &lt;li&gt;Regular redstone spawns in place of Hard Redstone, so that it can be silk-touched for recipes that require it.&lt;/li&gt;
-&lt;li&gt;Regular diamond spawns alongside Hard Diamond Ore&lt;/li&gt;
 &lt;li&gt;Pitchblende spawns alongside Uranium. Both can be used to power ReactorCraft reactors.&lt;/li&gt;
 &lt;li&gt;Sifter uses a wooden bucket instead of an iron one.&lt;/li&gt;
 &lt;li&gt;Sluice has alternative recipe&lt;/li&gt;
@@ -411,7 +403,6 @@
 &lt;h2 id=&#34;open-modular-turrets:2dc582e763001218f60802f283920a1d&#34;&gt;Open Modular Turrets&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Power requirements are increased 10x&lt;/li&gt;
 &lt;li&gt;Turrets cannot attack players&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -473,19 +464,12 @@
 &lt;li&gt;Bedrock tools can be used in the Ender IO Farming Station&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;spice-of-life:2dc582e763001218f60802f283920a1d&#34;&gt;Spice of Life&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Food history length is 30&lt;/li&gt;
-&lt;li&gt;Food history uses hunger restored instead of food named. For example, it will remember the last 5 items that restored 4 food, or the last 10 items that restored 2 food. Generally, this makes it so higher-nutrition foods require less variety than lower nutrition.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Previously eaten items are less nutritious.&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;vanilla:2dc582e763001218f60802f283920a1d&#34;&gt;Vanilla&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill or hammer)&lt;/li&gt;
 &lt;li&gt;Vanilla armor crafting is disabled&amp;hellip;find them in dungeons and monster loot.&lt;/li&gt;
+&lt;li&gt;The End is overhauled by Hardcore Ender Expansion. There are several rituals (through Et Futurum, Draconic Evolution, and Hardcore Ender Expansion) that allow you to resummon the dragon.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;void-monster:2dc582e763001218f60802f283920a1d&#34;&gt;Void Monster&lt;/h2&gt;
