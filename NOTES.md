@@ -14,17 +14,23 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 ## TODO
 
 - Accidentally Circumstantial Events posts radio chatter.
-- Use kerosene instead of rocket fuel in IE refinery.
 - Base photos
 
-- Thaumic Explorer
 - Bullets are made with copper
-- Minecraft day length
 - More uses for BoP junk: Pinecones, etc.
 - Death in SMP not registered by CrC
 
-- Remove Ender conduit thingy from Extra Utilities.
-- Fix the unity texture packs
+- Buff sleeping 
+- Re-enable chaos islands
+- Reduce rain frequency 
+- Investigate climate control removal
+- Make end crystal more expensive -- 4 respawns the dragon
+- Add crusher recipes for grinder items - cinderpearls
+- Add zombie brains and heads to forestry backpacks
+- Fix botania enviromine rules (block and blocks)
+- Managlass and managlass panes
+- Draconic Evolution new configs
+- Centrifuging bird eggs yields different bee comb products
 
 HQM
 - Friction heater quest
