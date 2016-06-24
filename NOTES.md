@@ -31,6 +31,9 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Managlass and managlass panes
 - Draconic Evolution new configs
 - Centrifuging bird eggs yields different bee comb products
+- New Blood Moon
+- Update Epic mod configs
+- Test OpenComputers issue with ChromatiCraft
 
 HQM
 - Friction heater quest
