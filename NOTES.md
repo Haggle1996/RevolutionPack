@@ -17,7 +17,6 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Base photos
 
 - Bullets are made with aluminum brass
-- More uses for BoP junk: Pinecones, etc.
 - Make end crystal more expensive -- 4 respawns the dragon
 - Add crusher recipes for grinder items - cinderpearls
 - Add zombie brains and heads to forestry backpacks
@@ -27,8 +26,8 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Custom Harder Ores testing
 - Tweak TiCo; NEI needs valid tools list
 - Butterflies produce bee stuff
-- Unzip scripts
 - Bow stats for new metals
+- Consider removing right-click to place instead of Tool Utilities
 
 HQM
 - Friction heater quest
