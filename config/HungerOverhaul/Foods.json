@@ -1,0 +1,46 @@
+{
+    // a list of foods and their food values
+    // these values will take precedence over HO's default values
+    "foods": [
+        {
+            // the name of the item in "mod:name" format
+            "name": "minecraft:golden_apple",
+            // [optional] the metadata value of the item (default: 0)
+            "meta": 0,
+            // the hunger value of the item (1 hunger = 1/2 hunger bar)
+            "hunger": 0,
+            // the saturation modifier (saturation = hunger * 2 * saturationModifier)
+            "saturationModifier": 0.0
+        },
+        {
+            // the name of the item in "mod:name" format
+            "name": "minecraft:potato",
+            // [optional] the metadata value of the item (default: 0)
+            "meta": 0,
+            // the hunger value of the item (1 hunger = 1/2 hunger bar)
+            "hunger": 0,
+            // the saturation modifier (saturation = hunger * 2 * saturationModifier)
+            "saturationModifier": 0.0
+        },
+        {
+            // the name of the item in "mod:name" format
+            "name": "minecraft:carrot",
+            // [optional] the metadata value of the item (default: 0)
+            "meta": 0,
+            // the hunger value of the item (1 hunger = 1/2 hunger bar)
+            "hunger": 0,
+            // the saturation modifier (saturation = hunger * 2 * saturationModifier)
+            "saturationModifier": 0.0
+        },
+        {
+            // the name of the item in "mod:name" format
+            "name": "minecraft:golden_carrot",
+            // [optional] the metadata value of the item (default: 0)
+            "meta": 0,
+            // the hunger value of the item (1 hunger = 1/2 hunger bar)
+            "hunger": 0,
+            // the saturation modifier (saturation = hunger * 2 * saturationModifier)
+            "saturationModifier": 0.0
+        }                    
+    ]
+}

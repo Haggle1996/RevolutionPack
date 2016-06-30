@@ -16,24 +16,19 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Accidentally Circumstantial Events posts radio chatter.
 - Base photos
 
-- Bullets are made with copper
+- Bullets are made with aluminum brass
 - More uses for BoP junk: Pinecones, etc.
-- Death in SMP not registered by CrC
-
-- Buff sleeping 
-- Re-enable chaos islands
-- Reduce rain frequency 
-- Investigate climate control removal
 - Make end crystal more expensive -- 4 respawns the dragon
 - Add crusher recipes for grinder items - cinderpearls
 - Add zombie brains and heads to forestry backpacks
-- Fix botania enviromine rules (block and blocks)
-- Managlass and managlass panes
 - Draconic Evolution new configs
 - Centrifuging bird eggs yields different bee comb products
-- New Blood Moon
-- Update Epic mod configs
-- Test OpenComputers issue with ChromatiCraft
+- Potatoes, beets, etc. no rot no food value
+- Custom Harder Ores testing
+- Tweak TiCo; NEI needs valid tools list
+- Butterflies produce bee stuff
+- Unzip scripts
+- Bow stats for new metals
 
 HQM
 - Friction heater quest

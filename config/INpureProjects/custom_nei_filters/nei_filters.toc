@@ -19,3 +19,4 @@ HarvestCraft.js
 Natura.js
 Railcraft.js
 StorageDrawers.js
+TiCo.js

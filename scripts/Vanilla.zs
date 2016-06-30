@@ -50,3 +50,9 @@ recipes.remove(hopper);
 recipes.addShaped(hopper * 1, [[plIron,null,plIron],[plIron,chest,plIron],[null,plIron,null]]);
 
 recipes.remove(<RotaryCraft:rotarycraft_item_shaftcraft:10> * 3);
+
+# fixup blocks
+#val copperIngot = <RotaryCraft:rotarycraft_item_modingots:1>;
+#recipes.remove(<ore:ingotCopper> * 9);
+#recipes.addShapeless(<RotaryCraft:rotarycraft_item_modingots:1> * 9, [<ore:blockCopper>]);
+

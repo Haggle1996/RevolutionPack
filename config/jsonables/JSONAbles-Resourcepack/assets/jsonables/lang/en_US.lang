@@ -1,0 +1,39 @@
+material.chromaalloy=Chroma Alloy
+tile.molten.chromaalloy=Molten Chroma Alloy
+fluid.molten.chromaalloy=Molten Chroma Alloy
+item.molten.chromaalloy_bucket=Molten Chroma Alloy Bucket
+
+material.resonating=Resonating
+tile.molten.resonating=Molten Resonating
+fluid.molten.resonating=Molten Resonating
+item.molten.resonating_bucket=Molten Resonating Bucket
+
+material.fluidic=Fluidic
+tile.molten.fluidic=Molten Fluidic
+fluid.molten.fluidic=Molten Fluidic
+item.molten.fluidic_bucket=Molten Fluidic Bucket
+
+material.radiative=Radiative
+tile.molten.radiative=Molten Radiative
+fluid.molten.radiative=Molten Radiative
+item.molten.radiative_bucket=Molten Radiative Bucket
+
+material.auraconducting=Aura Conducting
+tile.molten.auraconducting=Molten Aura Conducting
+fluid.molten.auraconducting=Molten Aura Conducting
+item.molten.auraconducting_bucket=Molten Aura Conducting Bucket
+
+material.firaxitealloy=Firaxite Alloy
+tile.molten.firaxitealloy=Molten Firaxite Alloy
+fluid.molten.firaxitealloy=Molten Firaxite Alloy
+item.molten.firaxitealloy_bucket=Molten Firaxite Alloy Bucket
+
+material.spatial=Spatial
+tile.molten.spatial=Molten Spatial
+fluid.molten.spatial=Molten Spatial
+item.molten.spatial_bucket=Molten Spatial Bucket
+
+material.chromastone=Chromastone
+tile.molten.chromastone=Molten Chromastone
+fluid.molten.chromastone=Molten Chromastone
+item.molten.chromastone_bucket=Molten Chromastone Bucket

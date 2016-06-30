@@ -163,6 +163,10 @@ cuttingWire {
   input: [[stickWood, ingotTin, stickWood]
           ["", craftingToolWireCutter, ""]]
 }
+acid {
+  type: shapeless
+  output: 0
+}
 disk {
   input: [["", plateAluminium, ""]
           [plateAluminium, "", plateAluminium]
@@ -285,12 +289,12 @@ case1 {
 }
 case2 {
   input: [[screwStainlessSteel , "oc:materialCircuitBoardPrinted", craftingToolWrench]
-          [{item="ic2.reactorVentGold", subID=1}, "oc:case1", {item="ic2.reactorVentGold", subID=1}]
+          ["ic2.reactorVentGold", "oc:case1", "ic2.reactorVentGold"]
           [screwStainlessSteel, "oc:circuitChip2", craftingToolScrewdriver]]
 }
 case3 {
   input: [[screwTitanium , "oc:materialCircuitBoardPrinted", craftingToolWrench]
-          [{item="ic2.reactorVentDiamond", subID=1}, "oc:case2", {item="ic2.reactorVentDiamond", subID=1}]
+          ["ic2.reactorVentDiamond", "oc:case2", "ic2.reactorVentDiamond"]
           [screwTitanium, "oc:circuitChip3", craftingToolScrewdriver]]
 }
 diskDrive {
@@ -311,9 +315,9 @@ powerDistributor {
           [{item="ic2.blockElectric", subID=7}, {block="gt.blockcasings", subID=2}, circuitMaster]
           ["oc:materialCircuitBoardPrinted", plateAluminium, craftingToolWrench]]
 }
-rack {
+serverRack {
   input: [[craftingToolScrewdriver, "oc:wlanCard", craftingToolWrench]
-          [{item="ic2.reactorVentDiamond", subID=1}, chest, {item="ic2.reactorVentDiamond", subID=1}]
+          ["ic2.reactorVentDiamond", chest, "ic2.reactorVentDiamond"]
           ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
