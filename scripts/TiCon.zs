@@ -30,19 +30,19 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<TConstruct:SmelteryNether:2>,<
 # 1 Chroma Alloy <ChromatiCraft:chromaticraft_item_crafting:11>
 mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:11>, <liquid:molten.chromaalloy> * 144, 500, <TConstruct:MetalBlock:10>);
 # 2 Resonating Ingot <ChromatiCraft:chromaticraft_item_crafting:17>
-mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:17>, <liquid:molten.resonating> * 144, 500, <TConstruct:MetalBlock:10>);
+#mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:17>, <liquid:molten.resonating> * 144, 500, <TConstruct:MetalBlock:10>);
 # 2 Fluidic Ingot <ChromatiCraft:chromaticraft_item_crafting:18>
-mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:18>, <liquid:molten.fluidic> * 144, 500, <TConstruct:MetalBlock:10>);
+#mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:18>, <liquid:molten.fluidic> * 144, 500, <TConstruct:MetalBlock:10>);
 # 2 Radiative Ingot <ChromatiCraft:chromaticraft_item_crafting:19>
-mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:19>, <liquid:molten.radiative> * 144, 500, <TConstruct:MetalBlock:10>);
+#mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:19>, <liquid:molten.radiative> * 144, 500, <TConstruct:MetalBlock:10>);
 # 3 Aura Conducting Ingot <ChromatiCraft:chromaticraft_item_crafting:20>
-mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:20>, <liquid:molten.auraconducting> * 144, 500, <TConstruct:MetalBlock:10>);
+#mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:20>, <liquid:molten.auraconducting> * 144, 500, <TConstruct:MetalBlock:10>);
 # 3 Firaxite Alloy Ingot <ChromatiCraft:chromaticraft_item_crafting:16>
-mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:16>, <liquid:molten.firaxitealloy> * 144, 500, <TConstruct:MetalBlock:10>);
+#mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:16>, <liquid:molten.firaxitealloy> * 144, 500, <TConstruct:MetalBlock:10>);
 # 4 Spatial Ingot <ChromatiCraft:chromaticraft_item_crafting:22>
-mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:22>, <liquid:molten.spatial> * 144, 500, <TConstruct:MetalBlock:10>);
+#mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:22>, <liquid:molten.spatial> * 144, 500, <TConstruct:MetalBlock:10>);
 # 5 Chromastone <ChromatiCraft:chromaticraft_item_crafting:21>
-mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:21>, <liquid:molten.chromastone> * 144, 550, <TConstruct:MetalBlock:10>);
+#mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:21>, <liquid:molten.chromastone> * 144, 550, <TConstruct:MetalBlock:10>);
 
 # Copper
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:pickaxeHead:13>);

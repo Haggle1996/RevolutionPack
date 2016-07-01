@@ -22,3 +22,9 @@ recipes.addShaped(<etfuturum:fence_gate_acacia> * 3,[[stick,<etfuturum:fence_aca
 # Dark Oak
 recipes.remove(<etfuturum:fence_gate_dark_oak>);
 recipes.addShaped(<etfuturum:fence_gate_dark_oak> * 3,[[stick,<etfuturum:fence_dark_oak>,stick],[stick,<etfuturum:fence_dark_oak>,stick]]);
+
+# End Crystal is more expensive
+recipes.remove(<etfuturum:end_crystal>);
+recipes.addShaped(<etfuturum:end_crystal>, [[<RotaryCraft:rotarycraft_block_blastglass>,<RotaryCraft:rotarycraft_block_blastglass>,<RotaryCraft:rotarycraft_block_blastglass>]
+                                           ,[<RotaryCraft:rotarycraft_block_blastglass>,<minecraft:nether_star>,<RotaryCraft:rotarycraft_block_blastglass>]
+                                           ,[<RotaryCraft:rotarycraft_block_blastglass>,<minecraft:bedrock>,<RotaryCraft:rotarycraft_block_blastglass>]]);

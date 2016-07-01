@@ -279,6 +279,7 @@
             "slideshow":
             {
                 "images" : [
+                    "revolution:textures/gui/title/background/cover9.jpg",
                     "revolution:textures/gui/title/background/cover7.jpg",
                     "revolution:textures/gui/title/background/cover0.jpg",
                     "revolution:textures/gui/title/background/cover1.jpg",

@@ -319,7 +319,8 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot>, <ore:dust
 mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, null, 100, 512, []);
 
-# Wheat, Sugarcane, Bonemeal in crusher
+# Wheat, Sugarcane, Bonemeal, cinderpearl in crusher
 mods.immersiveengineering.Crusher.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:4>);
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:largeDust:1> * 4,<minecraft:wheat>, 1600, null, 0.0);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:sugar> * 3,<minecraft:reeds>, 1600, null, 0.0);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder> * 4, <Thaumcraft:blockCustomPlant:3>, 1600, null, 0.0);

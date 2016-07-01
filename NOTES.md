@@ -16,18 +16,15 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Accidentally Circumstantial Events posts radio chatter.
 - Base photos
 
-- Bullets are made with aluminum brass
-- Make end crystal more expensive -- 4 respawns the dragon
-- Add crusher recipes for grinder items - cinderpearls
 - Add zombie brains and heads to forestry backpacks
 - Draconic Evolution new configs
-- Centrifuging bird eggs yields different bee comb products
 - Potatoes, beets, etc. no rot no food value
 - Custom Harder Ores testing
-- Tweak TiCo; NEI needs valid tools list
+- Tweak TiCo; NEI needs valid tools list; InPureCore culling
 - Butterflies produce bee stuff
 - Bow stats for new metals
 - Consider removing right-click to place instead of Tool Utilities
+- JSONAbles textures
 
 HQM
 - Friction heater quest
