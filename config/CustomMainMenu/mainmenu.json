@@ -180,22 +180,22 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
-        }
+        },
         
-        // "refresh":
-        // {
-        //     "text" : "",
-        //     "posX" : 28,
-        //     "posY" : -25,
-        //     "width" : 20,
-        //     "height" : 20,
-        //     "alignment" : "bottom_left",
-        //     "texture" : "custommainmenu:textures/gui/buttons.png",
-        //     "action" : 
-        //     {
-        //         "type" : "refresh"
-        //     }
-        // }
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 28,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "bottom_left",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
     },
     
     "texts":
@@ -240,36 +240,37 @@
             "color" : -128,
             "alignment" : "center",
             "texts" : [
-                "Revolution is mostly harmless!",
-                "Haggle1996 loves you!",
-                "Bonjour, Dorinn?",
-                "Solego plays skyblock!",
-                "The dirt is eating me!",
-                "Insert Random Text Here",
-                "May I have another, sir?",
-                "No, waterlubber! No!",
-                "#BlameShiva",
-                "SentinalH plays with fusion",
-                "hotrodnate isn't depressed",
-                "Haggle1996 hates you!",
-                "Why is the moon red?",
-                "All I want is a bucket",
-                "It's Irradiated!",
-                "This pack will self-destruct...",
-                "Don't LOL at the Pterodactlol",
-                "Beans_128 was here",
-                "Kanneida loves radiation",
-                "Beware Smith & Jones!",
-                "It's supposed to be hard",
-                "Dinosaurs? On Mars?! WhaaaA?",
-                "HappyHalfling, cookin' it up!",
-                "Cassie's Tarts...mmm",
-                "Why, Haggle? Why?",
-                "A pack by Haggle1996",
-                "Buttons aren't toys",
-                "Toksyuryel knows all",
-                "I just want a poorjoe...",
-                "It gets easier..."
+                "You can slow and stop rot with an Esky or Freezer",
+                "In-game guide on left of inventory screen",
+                "Torches set wood on fire!",
+                "Lanterns are good alternatives to torches",
+                "Glowstone is not affected by gravity",
+                "Support columns are not affected by gravity",
+                "The Cave Dimension features easy ores",
+                "Build an elevator to access the Cave Dimension",
+                "Mushroom soup is an easy starter food",
+                "PB&Js are reasonably easy to make",
+                "Toast sandwiches for the win!",
+                "You will die -- if only to get CrC progression!",
+                "Every 8 days...",
+                "Sleep is for the weak! But it sets your spawn point!",
+                "Get your bottom to Bernard's Star!",
+                "Bone meal is used to locate ores within 8 blocks",
+                "Naturally-occurring ore flowers have a 30 block range",
+                "Every mechanic has a way to overcome it",
+                "Zombies will break some light sources",
+                "Not all mutant creatures want to eat you",
+                "Butterflies are useful",
+                "Some ores only spawn in the Cave Dimenson",
+                "Wheat, flour, and potatoes do not rot",
+                "Carpenter's Blocks aren't broken by zombies",
+                "Water wheels and windmills are for early RF",
+                "The Rotational Dynamo is great for RF power",
+                "Zombies fiddle with switches and buttons",
+                "Most blocks can be built out 2 or 3 blocks",
+                "Aluminum only spawns in swamps",
+                "Copper isn't rare, just hard to find",
+                "Most ores spawn in extremely long, thin veins"
             ]
         },
         
@@ -288,7 +289,8 @@
                     "revolution:textures/gui/title/background/cover4.jpg",
                     "revolution:textures/gui/title/background/cover5.jpg",
                     "revolution:textures/gui/title/background/cover2.jpg",
-                    "revolution:textures/gui/title/background/cover8.jpg"
+                    "revolution:textures/gui/title/background/cover8.jpg",
+                    "revolution:textures/gui/title/background/cover10.jpg"
                 ],
                 "displayDuration" : 100,
                 "fadeDuration" : 40
