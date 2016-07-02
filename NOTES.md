@@ -17,9 +17,6 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Base photos
 
 - Add zombie brains and heads to forestry backpacks
-- Custom Harder Ores testing
-- Tweak TiCo; NEI needs valid tools list; InPureCore culling
-- Butterflies produce bee stuff
 - Bow stats for new metals
 - Rebuild resources folder since it has new stuff
 
