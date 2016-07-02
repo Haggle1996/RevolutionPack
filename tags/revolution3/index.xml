@@ -26,10 +26,7 @@
 
 &lt;p&gt;Next, we&amp;rsquo;ve added Tinker&amp;rsquo;s Construct and a full set of overpowered tools; you won&amp;rsquo;t be able to build anything from TiCo until you&amp;rsquo;ve gone a fair way through ChromatiCraft, but you now have a number of options for mid-game tools. See below for details.&lt;/p&gt;
 
-&lt;p&gt;(WIP) We&amp;rsquo;ve replaced the original Hardcore Questing Mode quests with a line of Better Questing quests! Yay! Who doesn&amp;rsquo;t love quests?&lt;br /&gt;
-(WIP) Butterflies&lt;br /&gt;
-(WIP) upgradeable&lt;br /&gt;
-(WIP) describe more changes&amp;hellip;&lt;/p&gt;
+&lt;p&gt;(WIP) We&amp;rsquo;ve replaced the original Hardcore Questing Mode quests with a line of Better Questing quests! Yay! Who doesn&amp;rsquo;t love quests?&lt;/p&gt;
 
 &lt;h3 id=&#34;upgrading-a-rev-2-map&#34;&gt;Upgrading a REV|2 map&lt;/h3&gt;
 
@@ -54,6 +51,7 @@
 &lt;li&gt;Biomes O&amp;rsquo; Plenty and Natura are not recommended for new saves. These two mods cause a lot of issues in the pack; particularly, BoP makes CrC progression difficult, and Natura causes most of the rendering crashes. Remove them unless you are upgrading a REV|2 map.&lt;/li&gt;
 &lt;li&gt;Concrete can now be made by smelting slag in a standard furnace, because you could chisel it from gravel anyway.&lt;/li&gt;
 &lt;li&gt;Made JABBA barrels behave like storage drawers when removing items (click for one, shift+click for two).&lt;/li&gt;
+&lt;li&gt;Pack tips now display on the main menu&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;tinker-s-construct-details&#34;&gt;Tinker&amp;rsquo;s Construct Details&lt;/h3&gt;
@@ -200,6 +198,7 @@
 &lt;li&gt;Void reeds spawn in swamps again. Use &lt;code&gt;/redecorate &amp;lt;radius&amp;gt; flowers&lt;/code&gt; to add these to existing swamp biomes (do not select too big of a radius &amp;ndash; 200 to 500 max).&lt;/li&gt;
 &lt;li&gt;Added Thaumcraft Aspects to various Harder Ores and some other blocks, courtesy of DragGon7601. This should make them visible to the Pickaxe of the Core Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/347&#34;&gt;#347&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Sluice and bone-mealed ore flowers should work again. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/462&#34;&gt;#462&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can once again craft Bee Houses, Apiarist&amp;rsquo;s Chests, etc., from Forestry. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/399&#34;&gt;#399&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
