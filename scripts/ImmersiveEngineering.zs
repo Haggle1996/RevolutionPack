@@ -324,3 +324,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<appliedenergistics2:item.ItemMul
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:largeDust:1> * 4,<minecraft:wheat>, 1600, null, 0.0);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:sugar> * 3,<minecraft:reeds>, 1600, null, 0.0);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder> * 4, <Thaumcraft:blockCustomPlant:3>, 1600, null, 0.0);
+
+# Concrete is easier...because you could chisel it anyway.
+recipes.remove(<ImmersiveEngineering:stoneDecoration:4>);
+furnace.addRecipe(<ImmersiveEngineering:stoneDecoration:4> * 2, <ImmersiveEngineering:material:13>);

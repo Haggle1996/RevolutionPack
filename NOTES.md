@@ -17,14 +17,11 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Base photos
 
 - Add zombie brains and heads to forestry backpacks
-- Draconic Evolution new configs
-- Potatoes, beets, etc. no rot no food value
 - Custom Harder Ores testing
 - Tweak TiCo; NEI needs valid tools list; InPureCore culling
 - Butterflies produce bee stuff
 - Bow stats for new metals
-- Consider removing right-click to place instead of Tool Utilities
-- JSONAbles textures
+- Rebuild resources folder since it has new stuff
 
 HQM
 - Friction heater quest
