@@ -1,3 +1,10 @@
+# Remove DraconicEvolution:dezilsMarshmallow
+vanilla.loot.removeChestLoot("dungeonChest", <DraconicEvolution:dezilsMarshmallow>);
+vanilla.loot.removeChestLoot("mineshaftCorridor", <DraconicEvolution:dezilsMarshmallow>);
+vanilla.loot.removeChestLoot("pyramidDesertyChest", <DraconicEvolution:dezilsMarshmallow>);
+vanilla.loot.removeChestLoot("pyramidJungleChest", <DraconicEvolution:dezilsMarshmallow>);
+
+
 #Tweak chest loot so its not so uber
 val ironScrap = <RotaryCraft:rotarycraft_item_shaftcraft:10>;
 val fragment = <ChromatiCraft:chromaticraft_item_fragment>;

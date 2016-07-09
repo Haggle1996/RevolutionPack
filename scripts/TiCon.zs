@@ -4,8 +4,8 @@ import minetweaker.item.IItemStack;
 # Add info in NEI
 <TConstruct:Smeltery:*>.addTooltip(format.yellow("Seared bricks are created using Crystalline Stone"));
 <TConstruct:materials:2>.addTooltip(format.yellow("Seared bricks are created using Crystalline Stone Bricks"));
-<TConstruct:SmelteryNether:2>.addTooltip(format.yellow("Created by placing Seared Bricks in a Blast Furnace"));
-<TConstruct:materials:37>.addTooltip(format.yellow("Created by placing Seared Bricks in a Blast Furnace"));
+<TConstruct:SmelteryNether:2>.addTooltip(format.yellow("Created by placing Seared Bricks in an Arc/Blast Furnace"));
+<TConstruct:materials:37>.addTooltip(format.yellow("Created by placing Seared Bricks in an Arc/Blast Furnace"));
 <TConstruct:woodPattern:22>.addTooltip(format.yellow("Can be crafted with two Wide Guard Patterns"));
 mods.nei.NEI.hide(<TConstruct:CraftedSoil:1>);
 
@@ -21,12 +21,15 @@ furnace.remove(<TConstruct:materials:2>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:2>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<TConstruct:materials:2> * 4,<ChromatiCraft:chromaticraft_block_pylonstruct:12>, 800, null);
 mods.immersiveengineering.BlastFurnace.addRecipe(<TConstruct:Smeltery:4>,<ChromatiCraft:chromaticraft_block_pylonstruct:0>, 800, null);
-
+mods.immersiveengineering.ArcFurnace.addRecipe(<TConstruct:materials:2> * 4, <minecraft:stonebrick>, null, 60, 256);
+mods.immersiveengineering.ArcFurnace.addRecipe(<TConstruct:Smeltery:4>, <minecraft:stone>, null, 60, 256);
 
 # Nether Seared Bricks are made by resmelting Seared Bricks in the blast furnace
 furnace.remove(<TConstruct:materials:37>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<TConstruct:materials:37>,<TConstruct:materials:2>, 200, null);
-mods.immersiveengineering.BlastFurnace.addRecipe(<TConstruct:SmelteryNether:2>,<TConstruct:Smeltery:2>, 800, null);
+mods.immersiveengineering.BlastFurnace.addRecipe(<TConstruct:SmelteryNether:2>,<TConstruct:Smeltery:2>, 200, null);
+mods.immersiveengineering.ArcFurnace.addRecipe(<TConstruct:materials:37>, <TConstruct:materials:2>, null, 60, 256);
+mods.immersiveengineering.ArcFurnace.addRecipe(<TConstruct:SmelteryNether:2>, <TConstruct:Smeltery:2>, null, 60, 256);
 
 # Materials in order
 # 1 Chroma Alloy <ChromatiCraft:chromaticraft_item_crafting:11>
