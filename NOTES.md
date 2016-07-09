@@ -1,8 +1,4 @@
-﻿#TODO List
-
-Why TiCo is not a thing: http://bit.ly/1U6SmR3
-
-## Predeployment List
+﻿## Predeployment List
 - Update resources zip if new resources
 - Delete the config/draconicevolution folder from configs (not the draconicevolution.cfg)
 - Startup page update on gist
@@ -19,6 +15,8 @@ Why TiCo is not a thing: http://bit.ly/1U6SmR3
 - Bow stats for new metals
 - Cave dimension mobs
 - FireTick with v16
+- Starting inventoy has HQM stuff
+
 
 HQM
 - Friction heater quest
