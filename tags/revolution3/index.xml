@@ -7,8 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Fri, 08 Jul 2016 10:02:14 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 09 Jul 2016 10:36:34 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>REVOLUTION|3 Hotfix 3.0.0.1</title>
+      <link>http://revolutionpack.info/post/post-title/</link>
+      <pubDate>Sat, 09 Jul 2016 10:36:34 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/post-title/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;If you have not read the changelog for REVOLUTION|3 yet, take a look at it &lt;a href=&#34;http://revolutionpack.info/post/3000/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Creepers no longer destroy the enviroment, though some can set fire to flammable blocks&lt;/li&gt;
+&lt;li&gt;Zombies now will only dig through unimproved materials: dirt, stone, cobblestone, grass, sand, gravel. Everything else IS SAFE.&lt;/li&gt;
+&lt;li&gt;Removed most variations of breaching, exploding, charging mobs.&lt;/li&gt;
+&lt;li&gt;Removed planks and glass from starting inventory, added a Potion of Regeneration&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|3 Update 3.0.0.0</title>
