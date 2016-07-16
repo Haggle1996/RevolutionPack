@@ -7,8 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 09 Jul 2016 10:36:34 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jul 2016 16:32:32 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The &#39;RAAAAAAAAAAAWR!!!&#39; Update REVOLUTION|3 Version 3.1.0</title>
+      <link>http://revolutionpack.info/post/3100/</link>
+      <pubDate>Thu, 14 Jul 2016 16:32:32 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/3100/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Have we got a big surprise for you! And by big, I mean big&amp;hellip;with teeth&amp;hellip;and claws! That&amp;rsquo;s right, Fossils and Archeology has found it&amp;rsquo;s way into REVOLUTION|3, finally completing the circle and allowing you to raise a colony of T-Rexs on Barnard&amp;rsquo;s Star. For what other purpose could an interstellar expedition be undertaken in the first place? Expensive Space Program? Check. Barnard&amp;rsquo;s Star? Check. Dinosaurs repopulated? Check and double-check!!&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve also added Electrical Age to the pack; for those of you not familliar with Electrical Age, it adds a more realistic electrical simulation to the pack, on the order of complexity of some of Reika&amp;rsquo;s mods. Tungsten, one of the key minerals for this mod, only spawns at the moment in the Cave Dimension. EA is more or less in it&amp;rsquo;s default configuration (except for world gen) in this release, but it will be integrated more and more into the pack progression with forthcoming updates.&lt;/p&gt;
+
+&lt;p&gt;Last, but not least, we&amp;rsquo;ve added back ToolUtilities, minus a couple of enchants that were causing crashes. Yay!&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reduced the size of the version number to only 3 digits.&lt;/li&gt;
+&lt;li&gt;Increased healing from food by roughly double.&lt;/li&gt;
+&lt;li&gt;Disabled Pech spawning due to the crazy TPS lag caused by these mobs trying to pickup things on the ground. If you need one, temporarily re-enable them in the Thaumcraft config, capture one, then disable them again.&lt;/li&gt;
+&lt;li&gt;Reduced snow accumulation during the winter months&lt;/li&gt;
+&lt;li&gt;Removed Tool Utilities right-click to place and torch helper (due to crash interaction). Also increased cost of enchants somewhat.&lt;/li&gt;
+&lt;li&gt;Reduced the frequency of frozen biomes&lt;/li&gt;
+&lt;li&gt;Electrical Age tungsten currently only spawns in the Cave Dimension&lt;/li&gt;
+&lt;li&gt;Enforced classic TiCo materials to be &lt;strong&gt;really bad&lt;/strong&gt;, since they can&amp;rsquo;t be removed (bone, slime, cactus, wood, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;a-brief-explanation-of-the-version-number&#34;&gt;A Brief Explanation of the Version Number&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First digit indicates major versions of the pack.&lt;/li&gt;
+&lt;li&gt;The second digit indicates significant mod, content, or progression changes to be aware of. These updates are safe to apply to an existing world, but may have specific considerations.&lt;/li&gt;
+&lt;li&gt;The third digit indicates minor changes, updates, and hotfixes. These should generally be applied quickly to fix various problems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Increased the number of OpenComputers components to 30,000. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/492&#34;&gt;#492&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Carrots no longer rot, but have no food value&amp;hellip;sorry for missing that.&lt;/li&gt;
+&lt;li&gt;Logging spam from Harder Ores should be significantly reduced. Thanks Draco18s! Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/486&#34;&gt;#486&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed a problem with steel ingots and blocks having no interchange recipe&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://electrical-age.net/&#34;&gt;Electrical Age&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/fossils-and-archeology-revival&#34;&gt;Fossils and Archeology: Revival&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/llibrary&#34;&gt;LLibrary&lt;/a&gt; - Fossils and Archeology dependency&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/toolutilities&#34;&gt;ToolUtilities&lt;/a&gt; - Readded due to popular demand, minus the torch helper and block placer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/64578-mod/files/2315361&#34;&gt;EnderIO-1.7.10-2.3.0.428_beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232254-mod/files/2316450&#34;&gt;HarderOres-15.26.1b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224663-mod/files/2315598&#34;&gt;OpenModularTurrets-1.7.10-2.2.3-220&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|3 Hotfix 3.0.0.1</title>
@@ -1014,100 +1083,6 @@
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235609-mod/files/2290366&#34;&gt;VoidMonster 1.7.10 V12a&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237754-mod/files/2285743&#34;&gt;zombieawareness-1.7.10-1.10&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 Beta 2.4.0.0 Update!</title>
-      <link>http://revolutionpack.info/post/2400beta/</link>
-      <pubDate>Sat, 05 Mar 2016 10:41:15 -0700</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2400beta/</guid>
-      <description>
-
-&lt;p&gt;Good evening, everyone! Welcome to another REVOLUTION|2 update!&lt;/p&gt;
-
-&lt;p&gt;In this update, lots of fixes to physics and many bugs squashed like the little creepy things they are! Generally, all RotaryCraft, ElectriCraft, ReactorCraft, and ChromatiCraft blocks (including pipes), are no longer subject to physics. A number of other mods were also fixed in the pass. And we tested it thoroughly this time. Yay!&lt;/p&gt;
-
-&lt;p&gt;Additionally, we have a new update to RTG. Again, bigger, better, more beautiful terrain. It will cause chunk borders on newly generated chunks, but is otherwise backwards compatible. No need to regenerate your worlds.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ve also added a few new minimap mods to our selection. Note that Antique Atlas must be installed on both client and server to function correctly. The other maps are okay to run client-side only. JourneyMap is still the recommended minimap mod; Map Writer works better on slower potatoes. Opis is intended only for debugging FPS problems or for server admins.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Turned off infinite water from IE pumps&lt;/li&gt;
-&lt;li&gt;Smelting raw ores in the blast furnace gives slag instead of cobblestone as a byproduct.&lt;/li&gt;
-&lt;li&gt;Added recipes for flour and bonemeal to the Crusher, making 1 flour or 2 sugar per item, based on the input.&lt;/li&gt;
-&lt;li&gt;Random Things Fertilized Dirt can now be used under AgriCraft crops (thanks to Taraxus!)&lt;/li&gt;
-&lt;li&gt;Metal press items made by hand (instead of on the press) now yield fewer items per craft (thanks to OmegaCenti!)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;significant-mod-updates&#34;&gt;Significant Mod Updates&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dynamic Surroundings added an in-game menu to enable/disable individual sounds without having to touch your config files. Yay!&lt;/li&gt;
-&lt;li&gt;Updated version of Realistic Terrain Generation (RTG) will produce odd chunk borders on newly generated chunks. It is safe to revert to an older version if this is extremely bothersome.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;hqm-notes&#34;&gt;HQM Notes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;This is a mod and bug update. Quests will be added and fixed in the next content update.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;known-issues&#34;&gt;Known Issues&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Some Forestry items (Apiarist&amp;rsquo;s Chest, Stamp Collector, etc.) are uncraftable due to an interaction with DragonAPI&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Arc Furnace no longer creating Energetic Alloy instead of Vibrant Alloy. Closed &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/262&#34;&gt;#262&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Blast furnace no longer uses incorrect amounts of raw materials. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/244&#34;&gt;#244&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fixed the problem with Thaumcraft Nodes in Jars falling and breaking. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/298&#34;&gt;#298&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Removed Et Futurum beacons due to conflict with Extra Utilities. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/310&#34;&gt;#310&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Unmineable ChromatiCraft blocks no longer occur. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/288&#34;&gt;#288&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Garden Stuff blocks don&amp;rsquo;t fall if they shouldn&amp;rsquo;t. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/304&#34;&gt;#304&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;AgriCraft tanks are no longer subject to physics. May fix &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/305&#34;&gt;#305&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Possible fix for DecoCraft blocks causing crash. May fix &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/306&#34;&gt;#306&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Compressed Iron now needs TNT in the Alloy Smelter. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/292&#34;&gt;#292&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/antique-atlas&#34;&gt;Antique Atlas&lt;/a&gt; - Optional Minimap Mod.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/opis&#34;&gt;Opis&lt;/a&gt; - Optional Minimap mod for profiling Forge servers and FPS issues.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/225194-mod/files/2272496&#34;&gt;AE2stuff-0.5.1.61-mc1.7.10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222153-mod/files/2285272&#34;&gt;Automagy v0.28.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2285323&#34;&gt;DynamicSurroundings-1.7.10-1.0.5.4BETA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2284459&#34;&gt;FTBUtilities-1.7.10-1.0.17.6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2284458&#34;&gt;FTBLib-1.7.10-1.0.17.6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236073-mod/files/2285451&#34;&gt;GunCustomization 3.47 for 1.7.10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231951-mod/files/2285330&#34;&gt;Immersive Engineering v0.7.3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2285258&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 94&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223891-mod/files/2284380&#34;&gt;malisisdoors-1.7.10-1.13.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224125-mod/files/2285499&#34;&gt;PneumaticCraft-1.7.10-1.12.7-150-universal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/240562-mod/files/2284308&#34;&gt;Practical Logistics - Version 0.1.3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2284460&#34;&gt;RTG-1.7.10-0.7.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2284904&#34;&gt;StorageDrawers-1.7.10-1.9.3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2412548-1-7-10-galaxy-space-addon-for-galacticraft-3&#34;&gt;Galaxy Space 1.0.7 STABLE&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;GalactiCraft 1.7-3.0.12.443&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;p&gt;ChiselTones (replaced with minetweaker script - no loss of functionality)&lt;/p&gt;
 </description>
     </item>
     

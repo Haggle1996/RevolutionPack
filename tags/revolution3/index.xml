@@ -7,8 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 09 Jul 2016 10:36:34 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jul 2016 16:32:32 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The &#39;RAAAAAAAAAAAWR!!!&#39; Update REVOLUTION|3 Version 3.1.0</title>
+      <link>http://revolutionpack.info/post/3100/</link>
+      <pubDate>Thu, 14 Jul 2016 16:32:32 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/3100/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Have we got a big surprise for you! And by big, I mean big&amp;hellip;with teeth&amp;hellip;and claws! That&amp;rsquo;s right, Fossils and Archeology has found it&amp;rsquo;s way into REVOLUTION|3, finally completing the circle and allowing you to raise a colony of T-Rexs on Barnard&amp;rsquo;s Star. For what other purpose could an interstellar expedition be undertaken in the first place? Expensive Space Program? Check. Barnard&amp;rsquo;s Star? Check. Dinosaurs repopulated? Check and double-check!!&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve also added Electrical Age to the pack; for those of you not familliar with Electrical Age, it adds a more realistic electrical simulation to the pack, on the order of complexity of some of Reika&amp;rsquo;s mods. Tungsten, one of the key minerals for this mod, only spawns at the moment in the Cave Dimension. EA is more or less in it&amp;rsquo;s default configuration (except for world gen) in this release, but it will be integrated more and more into the pack progression with forthcoming updates.&lt;/p&gt;
+
+&lt;p&gt;Last, but not least, we&amp;rsquo;ve added back ToolUtilities, minus a couple of enchants that were causing crashes. Yay!&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reduced the size of the version number to only 3 digits.&lt;/li&gt;
+&lt;li&gt;Increased healing from food by roughly double.&lt;/li&gt;
+&lt;li&gt;Disabled Pech spawning due to the crazy TPS lag caused by these mobs trying to pickup things on the ground. If you need one, temporarily re-enable them in the Thaumcraft config, capture one, then disable them again.&lt;/li&gt;
+&lt;li&gt;Reduced snow accumulation during the winter months&lt;/li&gt;
+&lt;li&gt;Removed Tool Utilities right-click to place and torch helper (due to crash interaction). Also increased cost of enchants somewhat.&lt;/li&gt;
+&lt;li&gt;Reduced the frequency of frozen biomes&lt;/li&gt;
+&lt;li&gt;Electrical Age tungsten currently only spawns in the Cave Dimension&lt;/li&gt;
+&lt;li&gt;Enforced classic TiCo materials to be &lt;strong&gt;really bad&lt;/strong&gt;, since they can&amp;rsquo;t be removed (bone, slime, cactus, wood, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;a-brief-explanation-of-the-version-number&#34;&gt;A Brief Explanation of the Version Number&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First digit indicates major versions of the pack.&lt;/li&gt;
+&lt;li&gt;The second digit indicates significant mod, content, or progression changes to be aware of. These updates are safe to apply to an existing world, but may have specific considerations.&lt;/li&gt;
+&lt;li&gt;The third digit indicates minor changes, updates, and hotfixes. These should generally be applied quickly to fix various problems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Increased the number of OpenComputers components to 30,000. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/492&#34;&gt;#492&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Carrots no longer rot, but have no food value&amp;hellip;sorry for missing that.&lt;/li&gt;
+&lt;li&gt;Logging spam from Harder Ores should be significantly reduced. Thanks Draco18s! Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/486&#34;&gt;#486&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed a problem with steel ingots and blocks having no interchange recipe&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://electrical-age.net/&#34;&gt;Electrical Age&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/fossils-and-archeology-revival&#34;&gt;Fossils and Archeology: Revival&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/llibrary&#34;&gt;LLibrary&lt;/a&gt; - Fossils and Archeology dependency&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/toolutilities&#34;&gt;ToolUtilities&lt;/a&gt; - Readded due to popular demand, minus the torch helper and block placer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/64578-mod/files/2315361&#34;&gt;EnderIO-1.7.10-2.3.0.428_beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232254-mod/files/2316450&#34;&gt;HarderOres-15.26.1b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224663-mod/files/2315598&#34;&gt;OpenModularTurrets-1.7.10-2.2.3-220&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
+
+&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>REVOLUTION|3 Hotfix 3.0.0.1</title>
