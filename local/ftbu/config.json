@@ -46,8 +46,7 @@
       "GunCus:item.WholyGunCustom.HK_USP_9mm.magazine 1 0",
       "harvestcraft:heartybreakfastItem 2 0",
       "minecraft:torch 8 0",
-      "minecraft:planks 8 0",
-      "minecraft:glass 4 0"
+      "minecraft:potion 1 8193"
     ]
   },
   "permissions_admin": {

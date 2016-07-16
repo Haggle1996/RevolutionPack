@@ -15,7 +15,9 @@
 - Bow stats for new metals
 - Cave dimension mobs
 - FireTick with v16
-- Starting inventoy has HQM stuff
+- Give 1 magazine plus reloader
+- Steel ingots to block recipe broken
+- Bonemeal tools in TiCo are craftable; paper, wood, etc.
 
 
 HQM
