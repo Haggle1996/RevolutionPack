@@ -18,11 +18,5 @@
 - Give 1 magazine plus reloader
 - Steel ingots to block recipe broken
 - Bonemeal tools in TiCo are craftable; paper, wood, etc.
-
-
-HQM
-- Friction heater quest
-- XP from friction heater quest
-- Loot bag catwalks
  
 ## Pack changes
