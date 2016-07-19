@@ -7,8 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Thu, 14 Jul 2016 16:32:32 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 18 Jul 2016 18:38:41 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Balance changes to Immersive Engineering</title>
+      <link>http://revolutionpack.info/post/311/</link>
+      <pubDate>Mon, 18 Jul 2016 18:38:41 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/311/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Since Haggle1996 will be in the great state of Colorado on Friday, I&amp;rsquo;m releasing this update a bit early. Mostly, it contains a large rebalance to Immersive Engineering. In particular, the Diesel Engine is now a viable alternative to RoC Hydrokinetics or Performance Engines. While the RoC engines are still a bit easier and cheaper to acquire, the diesel engine is a bit easier to automate. We&amp;rsquo;ve also significantly buffed the output of coal coke and steel, so you no longer sitting around watching the butterflies roam while waiting for common steel to output. Lastly, we&amp;rsquo;ve added plant oil recipes for canola and husks, via the squeezer. Now you can power more devices and engines from one crop source, albeit a very week source of plant oil compared to flax.&lt;/p&gt;
+
+&lt;p&gt;Lastly, there was some concern around the last update and changing world gen. No overworld generation was impacted &amp;ndash; all new ores were introduced into the Cave Dimension. If you previously generated a Cave Dimension, it&amp;rsquo;s recommended that you regenerate it to access it&amp;rsquo;s ores. The Cave Dimension is considered the pack&amp;rsquo;s mining world and should be regularly reset.&lt;/p&gt;
+
+&lt;h3 id=&#34;immersive-engineering-balance-changes&#34;&gt;Immersive Engineering Balance Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Diesel Engine now produces 8192 RF/t, up from 1440 RF/t. You will need to use non-Immersive Engineering cables to transfer power out of it, to prevent wire burn-outs.&lt;/li&gt;
+&lt;li&gt;Crusher now consumes 120 RF/t, up from 80 RF/t.&lt;/li&gt;
+&lt;li&gt;Excavator now consumes 4096 RF/t, up from 1440 RF/t&lt;/li&gt;
+&lt;li&gt;Refinery now consumes 160 RF/t, up from 80 RF/t&lt;/li&gt;
+&lt;li&gt;Coke Oven now makes coal coke in roughly 12 seconds, down from 90 seconds. This puts it on par with the RotaryCraft Blast Furnace&lt;/li&gt;
+&lt;li&gt;Blast furnace now makes steel in roughly 12 seoncds, down from 60 seconds. This puts it on par with the RotaryCraft Blast Furnace&lt;/li&gt;
+&lt;li&gt;Arc furnace now makes steel in roughly 6 seconds, down from 20 seconds.&lt;/li&gt;
+&lt;li&gt;Both the arc furnace and blast furnace can also smelt blocks of iron using less materials (fuel for blast furnace, coke for arc furnace)&lt;/li&gt;
+&lt;li&gt;Squeezer produces plant oil from canola and canola husks, at 10mb and 5mb respectively. The operation takes 2 seconds for canola and 1.5 seconds for husks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;other-pack-changes&#34;&gt;Other Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed Fossils and Archeology campsites&lt;/li&gt;
+&lt;li&gt;Reduced the awareness range and pathing cap for mobs, in order to improve TPS during the night on servers.&lt;/li&gt;
+&lt;li&gt;Agricraft crop stats are now capped at 10/10/10, up from 8/8/8&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Drums no longer fall, preventing loss of contained liquid, resolving &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/482&#34;&gt;#482&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223908-mod/files/2316723&#34;&gt;Fossils and Archeology: Revival 7.3.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228015-mod/files/2316923&#34;&gt;Hardcore Ender Expansion 1.8.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/243298-mod/files/2316760&#34;&gt;LLibrary 1.4.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The &#39;RAAAAAAAAAAAWR!!!&#39; Update REVOLUTION|3 Version 3.1.0</title>
@@ -979,105 +1031,6 @@
 
 &lt;ul&gt;
 &lt;li&gt;Animals+ is no longer a recommended mod. Unfortunately, it&amp;rsquo;s spawn madness just causes too many issues.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 2.5.0.0 Update!</title>
-      <link>http://revolutionpack.info/post/2500/</link>
-      <pubDate>Sat, 09 Apr 2016 16:43:10 -0600</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2500/</guid>
-      <description>
-
-&lt;p&gt;Hi all! Long time, no see!&lt;/p&gt;
-
-&lt;p&gt;My apologies for the absence, but real life comes before gaming, and life is very busy right now at the Haggle household. Many thanks to my helpers and players who&amp;rsquo;ve kept the show running in my absence.&lt;/p&gt;
-
-&lt;p&gt;We have another exciting update for you, though this one has a bit of an unpleasant surprise for some. Unfortunately, updates to several core mods (particularly v12) have rendered old saves un-upgradeable. Obviously, this is the worst-case scenario and far from my desired path. Rather than leave old versions of the mods in play, I&amp;rsquo;ve decided to go ahead and release 2.5 as non-recommended on the launcher, which means players won&amp;rsquo;t be prompted to auto-update. This will give me some time to see if I can figure out a way to correct the errored blocks, while still affording new players with an updated experience.&lt;/p&gt;
-
-&lt;p&gt;Obviously, there&amp;rsquo;s some big changes with v12 of Reika&amp;rsquo;s mods. You&amp;rsquo;ll need to rethink a bit of your infrastructure in order to take advantage of the new features and new machines. In addition, I&amp;rsquo;ve enabled most of the remaining rockhounding features, including tiered coal and iron. This iron co-resides with Harder Ores iron, and provides one more way to get the precious metal. Of course, to take advantage of all of this, you&amp;rsquo;ll need to regenerate your world anyway.&lt;/p&gt;
-
-&lt;p&gt;We also have a new mod for you. I highly recommend you take a look at ArchitectureCraft (link below). It has some awesome stuff, including &lt;em&gt;GASP&lt;/em&gt; round corners!!&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m still very pressed for free time, so updates will be a little slower, but not as bad as they&amp;rsquo;ve been in the past. If someone wants to take over finishing (or rewriting) the HQM quests, please feel free to volunteer! Keep posting your feedback on the issue tracker or forums! It really helps me sort through the issues.&lt;/p&gt;
-
-&lt;p&gt;~Haggle1996&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Empty corpses now decay after an hour.&lt;/li&gt;
-&lt;li&gt;Bronze must now be alloyed in an EIO or IE furnace&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;significant-mod-updates&#34;&gt;Significant Mod Updates&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reika&amp;rsquo;s Mods (to v12)&lt;/li&gt;
-&lt;li&gt;Rockhounding chemistry and gemology are enabled.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Practical Logistics rendering crash. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/332&#34;&gt;#332&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fixed a serious spelling error. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/329&#34;&gt;#329&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fixed some issues with inPureCore culling. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/358&#34;&gt;#358&lt;/a&gt; and &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/335&#34;&gt;#335&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Pneumaticraft elevators no longer fall down. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/344&#34;&gt;#344&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Immersive Engineering Blast Furnace should function appropriately again. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/350&#34;&gt;#350&lt;/a&gt; and &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/357&#34;&gt;#357&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Enabled automatic corpse decay for empty bodies. Implements &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/336&#34;&gt;#336&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JABBA dollies can move Enhanced Inventories chests. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/318&#34;&gt;#318&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Pneumaticraft Speed Upgrades can be crafted with RoC lubricant buckets. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/353&#34;&gt;#353&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/ArchitectureCraft/&#34;&gt;ArchitectureCraft 1.4.1&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-foliage/files/2291423&#34;&gt;Better Foliage 2.0.7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/61811-mod/files/2289501&#34;&gt;Buildcraft 7.1.16&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235279-mod/files/2287442&#34;&gt;Chisel - 2.9.5.11&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235590-mod/files/2292016&#34;&gt;ChromatiCraft 1.7.10 V12e&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2291739&#34;&gt;ClimateControl-0.5.beta50&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237749-mod/files/2285744&#34;&gt;coroutil-1.7.10-1.1.5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/79616-mod/files/2291464&#34;&gt;Decocraft 2.3.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235591-mod/files/2292009&#34;&gt;DragonAPI 1.7.10 V12e&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238891-mod/files/2290472&#34;&gt;DynamicSurroundings-1.7.10-1.0.5.6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235594-mod/files/2291052&#34;&gt;ElectriCraft 1.7.10 V12c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231868-mod/files/2290551&#34;&gt;EnderCore-1.7.10-0.2.0.32_beta&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226210-mod/files/2286434&#34;&gt;EnhancedInventories-1.7.10-1.1.9&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235602-mod/files/2290362&#34;&gt;ExpandedRedstone 1.7.10 V12a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224237-mod/files/2291043&#34;&gt;Forbidden Magic-1.7.10-0.574&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2288968&#34;&gt;Forestry 4.2.11&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237102-mod/files/2291494&#34;&gt;FTBUtilities-1.7.10-1.0.18.3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237167-mod/files/2291433&#34;&gt;FTBLib-1.7.10-1.0.18.3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://ci.micdoodle8.com/job/Galacticraft-1.7/changes&#34;&gt;Galacticraft&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238770-mod/files/2286993&#34;&gt;GalaxySpace-1.0.8+STABLE&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231951-mod/files/2291857&#34;&gt;Immersive Engineering v0.7.5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232159-mod/files/2289306&#34;&gt;Immersive Integration v0.6.8&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2291905&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 114&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223008-mod/files/2286566&#34;&gt;OpenComputers-MC1.7.10-1.6.0.1-beta.1-universal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/openmodularturrets/files/2294077&#34;&gt;OpenModularTurrets 2.2.0-214&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/240562-mod/files/2292654&#34;&gt;Practical-Logistics-0.1.9&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/51195-mod/files/2288989&#34;&gt;Railcraft 9.10.0.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235593-mod/files/2291262&#34;&gt;ReactorCraft 1.7.10 V12d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2291929&#34;&gt;RTG-1.7.10-0.8.0-snapshot-2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/75811-mod/files/2292633&#34;&gt;RefinedRelocation-mc1.7.10-1.1.28&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224641-mod/files/2287287&#34;&gt;rftools-4.23&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2292134&#34;&gt;Rockhounding Mod v4.03&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235596-mod/files/2292010&#34;&gt;RotaryCraft 1.7.10 V12e&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/239418-mod/files/2291058&#34;&gt;Sonar-Core - Version 1.1.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2292237&#34;&gt;StorageDrawers-1.7.10-1.9.7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238603-mod/files/2291688&#34;&gt;TIS-3D-MC1.7.10-0.8.4.64&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235609-mod/files/2290366&#34;&gt;VoidMonster 1.7.10 V12a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237754-mod/files/2285743&#34;&gt;zombieawareness-1.7.10-1.10&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

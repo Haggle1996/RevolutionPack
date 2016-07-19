@@ -7,8 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Thu, 14 Jul 2016 16:32:32 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 18 Jul 2016 18:38:41 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Balance changes to Immersive Engineering</title>
+      <link>http://revolutionpack.info/post/311/</link>
+      <pubDate>Mon, 18 Jul 2016 18:38:41 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/311/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Since Haggle1996 will be in the great state of Colorado on Friday, I&amp;rsquo;m releasing this update a bit early. Mostly, it contains a large rebalance to Immersive Engineering. In particular, the Diesel Engine is now a viable alternative to RoC Hydrokinetics or Performance Engines. While the RoC engines are still a bit easier and cheaper to acquire, the diesel engine is a bit easier to automate. We&amp;rsquo;ve also significantly buffed the output of coal coke and steel, so you no longer sitting around watching the butterflies roam while waiting for common steel to output. Lastly, we&amp;rsquo;ve added plant oil recipes for canola and husks, via the squeezer. Now you can power more devices and engines from one crop source, albeit a very week source of plant oil compared to flax.&lt;/p&gt;
+
+&lt;p&gt;Lastly, there was some concern around the last update and changing world gen. No overworld generation was impacted &amp;ndash; all new ores were introduced into the Cave Dimension. If you previously generated a Cave Dimension, it&amp;rsquo;s recommended that you regenerate it to access it&amp;rsquo;s ores. The Cave Dimension is considered the pack&amp;rsquo;s mining world and should be regularly reset.&lt;/p&gt;
+
+&lt;h3 id=&#34;immersive-engineering-balance-changes&#34;&gt;Immersive Engineering Balance Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Diesel Engine now produces 8192 RF/t, up from 1440 RF/t. You will need to use non-Immersive Engineering cables to transfer power out of it, to prevent wire burn-outs.&lt;/li&gt;
+&lt;li&gt;Crusher now consumes 120 RF/t, up from 80 RF/t.&lt;/li&gt;
+&lt;li&gt;Excavator now consumes 4096 RF/t, up from 1440 RF/t&lt;/li&gt;
+&lt;li&gt;Refinery now consumes 160 RF/t, up from 80 RF/t&lt;/li&gt;
+&lt;li&gt;Coke Oven now makes coal coke in roughly 12 seconds, down from 90 seconds. This puts it on par with the RotaryCraft Blast Furnace&lt;/li&gt;
+&lt;li&gt;Blast furnace now makes steel in roughly 12 seoncds, down from 60 seconds. This puts it on par with the RotaryCraft Blast Furnace&lt;/li&gt;
+&lt;li&gt;Arc furnace now makes steel in roughly 6 seconds, down from 20 seconds.&lt;/li&gt;
+&lt;li&gt;Both the arc furnace and blast furnace can also smelt blocks of iron using less materials (fuel for blast furnace, coke for arc furnace)&lt;/li&gt;
+&lt;li&gt;Squeezer produces plant oil from canola and canola husks, at 10mb and 5mb respectively. The operation takes 2 seconds for canola and 1.5 seconds for husks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;other-pack-changes&#34;&gt;Other Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Removed Fossils and Archeology campsites&lt;/li&gt;
+&lt;li&gt;Reduced the awareness range and pathing cap for mobs, in order to improve TPS during the night on servers.&lt;/li&gt;
+&lt;li&gt;Agricraft crop stats are now capped at 10/10/10, up from 8/8/8&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Drums no longer fall, preventing loss of contained liquid, resolving &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/482&#34;&gt;#482&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223908-mod/files/2316723&#34;&gt;Fossils and Archeology: Revival 7.3.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228015-mod/files/2316923&#34;&gt;Hardcore Ender Expansion 1.8.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/243298-mod/files/2316760&#34;&gt;LLibrary 1.4.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The &#39;RAAAAAAAAAAAWR!!!&#39; Update REVOLUTION|3 Version 3.1.0</title>
