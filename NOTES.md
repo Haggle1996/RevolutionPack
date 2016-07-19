@@ -12,11 +12,12 @@
 - Accidentally Circumstantial Events posts radio chatter.
 - Base photos
 
+- Revert diesel generator nerfs and rebalance IE power. Arc consumes more per tick, so increase consumption of related ores. Unbuff excavator.
+
+
 - Bow stats for new metals
 - Cave dimension mobs
 - FireTick with v16
 - Give 1 magazine plus reloader
-- Steel ingots to block recipe broken
-- Bonemeal tools in TiCo are craftable; paper, wood, etc.
  
 ## Pack changes

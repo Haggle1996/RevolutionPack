@@ -12,7 +12,12 @@ mods.immersiveengineering.Refinery.addRecipe(fuel * 16, rocket * 8, oil * 8);
 recipes.remove(<ImmersiveEngineering:storage:7>);
 recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>],
                                                      [<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>],
-                                                     [<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>]]); 
+                                                     [<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>]]);
+recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>],
+													 [<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>],
+													 [<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>]]);
+recipes.remove(<ore:ingotSteel> * 9);
+recipes.addShaped(<ImmersiveEngineering:metal:7> * 9, [[<ore:blockSteel>]]);
 
 # Plates use more resources than metal press
 

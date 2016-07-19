@@ -9,6 +9,18 @@ import minetweaker.item.IItemStack;
 <TConstruct:woodPattern:22>.addTooltip(format.yellow("Can be crafted with two Wide Guard Patterns"));
 mods.nei.NEI.hide(<TConstruct:CraftedSoil:1>);
 
+# Make materials suck for materials I can't remove
+mods.tconstruct.ToolStats.setStats("Flint", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+mods.tconstruct.ToolStats.setStats("MagicWood", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+mods.tconstruct.ToolStats.setStats("Netherrack", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+mods.tconstruct.ToolStats.setStats("BlueSlime", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+mods.tconstruct.ToolStats.setStats("Cactus", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+mods.tconstruct.ToolStats.setStats("Wood", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+mods.tconstruct.ToolStats.setStats("Slime", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+mods.tconstruct.ToolStats.setStats("Paper", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+mods.tconstruct.ToolStats.setStats("Bone", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+mods.tconstruct.ToolStats.setStats("Stone", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
+
 # Remove stone torches
 recipes.remove(<TConstruct:decoration.stonetorch>);
 

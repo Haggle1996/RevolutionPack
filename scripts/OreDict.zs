@@ -16,6 +16,12 @@ steelplate.add(<Railcraft:part.plate:1>);
 val bronze = <ore:ingotBronze>;
 bronze.add(<ImmersiveEngineering:metal:5>);
 
+# Missing steel block to ingots
+#recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>],[<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>],[<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>]]);
+#recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>],[<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>],[<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>]]);
+#recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<TConstruct:materials:16>,<TConstruct:materials:16>,<TConstruct:materials:16>],[<TConstruct:materials:16>,<TConstruct:materials:16>,<TConstruct:materials:16>],[<TConstruct:materials:16>,<TConstruct:materials:16>,<TConstruct:materials:16>]]);
+#recipes.addShaped(<ImmersiveEngineering:metal:7> * 9, [[<ore:blockSteel>]]);
+
 #Add all harder ores to their own ore dictionary 'cause stupid
 <ore:oreRedstoneHard0>.add(<HarderOres:ore_redstone:0>);
 <ore:oreRedstoneHard1>.add(<HarderOres:ore_redstone:1>);
