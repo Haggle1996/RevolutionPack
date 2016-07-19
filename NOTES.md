@@ -12,9 +12,6 @@
 - Accidentally Circumstantial Events posts radio chatter.
 - Base photos
 
-- Revert diesel generator nerfs and rebalance IE power. Arc consumes more per tick, so increase consumption of related ores. Unbuff excavator.
-
-
 - Bow stats for new metals
 - Cave dimension mobs
 - FireTick with v16

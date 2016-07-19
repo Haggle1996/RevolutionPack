@@ -79,6 +79,28 @@ mods.immersiveengineering.Crusher.addRecipe(<PracticalLogistics:SapphireDust>, <
 # Sapphires produced in the Arc Furnace
 mods.immersiveengineering.ArcFurnace.addRecipe(<PracticalLogistics:Sapphire>, <PracticalLogistics:SapphireDust> * 4, null, 200, 512);
 
+# Coke oven produces coal coke faster
+mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:material:6>);
+mods.immersiveengineering.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, 500, <minecraft:coal>, 240);
+
+# Blast furnace produces steel faster
+mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:metal:7>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:storage:7>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:7>, <ore:ingotIron>, 240, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:7>, <ore:dustIron>, 240, <ImmersiveEngineering:material:13>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:storage:7>, <ore:blockIron>, 480, <ImmersiveEngineering:material:13> * 9);
+
+# Arc furnace produces steel faster
+mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:7>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:storage:7>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:7>, <ore:ingotIron>, <ImmersiveEngineering:material:13>, 120, 512, [<ImmersiveEngineering:metal:17>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:7>, <ore:dustIron>, <ImmersiveEngineering:material:13>, 120, 512, [<ImmersiveEngineering:metal:17>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:storage:7>, <ore:blockIron>, <ImmersiveEngineering:material:13>, 120, 2048, [<ImmersiveEngineering:metal:17> * 4]);
+
+# Squeezer produces plant oil from canola
+mods.immersiveengineering.Squeezer.addRecipe(<RotaryCraft:rotarycraft_item_canola:2>, <liquid:plantoil> * 10, <RotaryCraft:rotarycraft_item_canola>, 40);
+mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 5, <RotaryCraft:rotarycraft_item_canola:2>, 30); 
+
 # Blast furnace produces cupronickel
 mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:5>,<ore:dustCupronickel>, 120, null);
 mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:5>,<ore:dustConstantan>, 120, null);
