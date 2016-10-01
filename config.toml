@@ -1,14 +1,14 @@
 baseurl = "http://revolutionpack.info/"
 languageCode = "en-us"
-title = "REVOLUTION|2"
+title = "REVOLUTION|3"
 paginate = 5
 DisqusShortname = "revolutionpack"
-Copyright = "Copyright � 2015 by Haggle1996"
+Copyright = "Copyright � 2016 by Haggle1996"
 canonifyurls = true
 
 [params]
-    description = "FIGHT HARD. BUILD HARD. LIVE LONG." 
-    cover = "images/cover7.jpg"
+    description = "FEAR THE MOON" 
+    cover = "images/cover8.jpg"
     author = "Haggle1996"
     authorlocation = "United States"
     authorwebsite = "https://github.com/Haggle1996"
@@ -61,13 +61,13 @@ canonifyurls = true
     url = "https://gitter.im/Haggle1996/RevolutionPack"
 
 [[menu.main]]
-    name = "R2 Game Changes"
+    name = "R3 Game Changes"
     weight = 200
-    pre = "<h3>revolution|2</h3>"
+    pre = "<h3>revolution|3</h3>"
     url = "/article/rev2-gameplay-changes"
     
 [[menu.main]]
-    name = "R2 Mod List"
+    name = "R3 Mod List"
     weight = 205
     url = "https://www.atlauncher.com/pack/Revolution2"
     

@@ -46,8 +46,9 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 ## Significant Gameplay Changes
 - There is a mini-guide built into the modpack. Access your inventory, then click the guide book along the left edge of your inventory window.
 - Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block -- up to two and a half stacks of ingots per block with all advancements!
-- Ore flowers spawn on the surface, indicating nearby ores.
+- Ore flowers spawn on the surface, indicating nearby ores (within 30 block radius for naturally-occurring ore flowers - ore flowers may appear when bone mealing the ground; these mean ore is within an 8 block radius, horizontally). 
 - Torches will set fire to nearby blocks and burn out over time.
+- Sleeping does not advance time (it does recharge your sleep meter).
 - Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.
 - Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.
 - Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.
@@ -58,16 +59,16 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.
 - Power consumption and generation has been revamped throughout the pack. Generally, things are more expensive.
 - Power, item, and fluid transmission has been tiered:
--- Tier 1: Immersive Engineering
--- Tier 2: BuildCraft, Logistics Pipes
--- Tier 3: Ender IO
--- Tier 4: ElectriCraft (power transmission)
+-- Tier 1: Immersive Engineering (max 4096 RF/t)
+-- Tier 2: BuildCraft, Logistics Pipes (max 10248 RF/t)
+-- Tier 3: Ender IO (max 20496 RF/t)
+-- Tier 4: ElectriCraft (power transmission only - unlimited RF/t)
 - Early game RF power is best provided through either the Rotational Dynamo or the Immersive Engineering waterwheel/windmill.
 - Spawners aren't moveable intact during the early game; you must research technology to move them or use them for powered spawners.
 - Many repetetive items are hidden in NEI (e.g., BiblioCraft and Storage Drawers wood variations; Gun Customization modified weapons). Use Creative Tab to access these items.
 
 ## Trivia
-- Dead bodies can be removed by hitting them with a shovel.
+- Dead bodies can be removed by whacking them with a shovel three times.
 
 # Mod-specific changes
 
@@ -78,9 +79,6 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Reduced stat cap to 8
 - Turned on hardcore mode
 - Increased mutation rate by 50%
-
-## Animals+
-- Whales, Centipedes, Crickets, and Butterflies no longer spawn.
 
 ## Applied Energistics
 - RotaryCraft shaft power is about 4x more effective than RF for powering AE systems (yes, the energy acceptor accepts shaft power)
@@ -101,7 +99,7 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Manasteel requires steel
 
 ## BuildCraft
-- Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.
+- Fuel is made in the Immersive Engineering refinery, and requires Kerosene + Oil.
 - Engines require metal plates.
 - A number of recipes from other mods are crafted on the Assembly Table
 - Refinery is removed -- use the Immersive Engineering Refinery for Fuel and Ethanol
@@ -112,10 +110,8 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 
 ## ChromatiCraft
 - Wisps in Rainbow Forests can hurt you.
-- The Ender Dragon will respawn shortly after killing it.
 - Rainbow Forest biomes do not spread when planting rainbow trees.
 - Pylons do not automatically chunk-load; you'll need to use your own chunk loader (server optimization).
-- Disabled player progress announcements as they cause a server crash.
 
 ## Cooking for Blockheads
 - Water must be pumped in to the sink.
@@ -153,7 +149,7 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - The Ender Hive can be obtained through Botania Mana Transfusion of a Tropical Hive 
 
 ## Galacticraft
-- Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.
+- Fuel is made in the Immersive Engineering refinery, and requires Kerosene + Oil.
 - ReactorCraft ores spawn plentifully on the moon.
 - Converting GalactiCraft power to RF is 66% less efficient.
 - Consuming RF power from GalactiCraft machines suffers no penalty. 
@@ -166,7 +162,6 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 
 ## Harder Ores
 - Regular redstone spawns in place of Hard Redstone, so that it can be silk-touched for recipes that require it. 
-- Regular diamond spawns alongside Hard Diamond Ore
 - Pitchblende spawns alongside Uranium. Both can be used to power ReactorCraft reactors.
 - Sifter uses a wooden bucket instead of an iron one.
 - Sluice has alternative recipe
@@ -221,7 +216,6 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Luggage is removed.
 
 ## Open Modular Turrets
-- Power requirements are increased 10x
 - Turrets cannot attack players
 
 ## Ore Dictionary
@@ -261,14 +255,15 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Machines can be made on the standard crafting grid.
 - Bedrock tools can be used in the Ender IO Farming Station
 
-## Spice of Life
-- Food history length is 30
-- Food history uses hunger restored instead of food named. For example, it will remember the last 5 items that restored 4 food, or the last 10 items that restored 2 food. Generally, this makes it so higher-nutrition foods require less variety than lower nutrition.  
-- Previously eaten items are less nutritious.
+## Tinker's Construct
+- Just about everything about this mod is changed. It is not the go-to, defacto mod for tool creation. It is used for mid/end-game overpowered magical tools.
+- Smeltery blocks are made from ChromatiCraft Crystalline Stone.
+- Melting ore blocks in the smeltery no longer doubles the output.
 
 ## Vanilla
 - Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill or hammer)
 - Vanilla armor crafting is disabled...find them in dungeons and monster loot.
+- The End is overhauled by Hardcore Ender Expansion. There are several rituals (through Et Futurum, Draconic Evolution, and Hardcore Ender Expansion) that allow you to resummon the dragon.
 
 ## Void Monster
 - Void monster doesn't spawn in The End, Spectral World, Deep Dark, and The Last Millenium

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on REVOLUTION|2</title>
+    <title>Articles on REVOLUTION|3</title>
     <link>http://revolutionpack.info/article/</link>
-    <description>Recent content in Articles on REVOLUTION|2</description>
+    <description>Recent content in Articles on REVOLUTION|3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright � 2015 by Haggle1996</copyright>
+    <copyright>Copyright � 2016 by Haggle1996</copyright>
     <lastBuildDate>Wed, 23 Dec 2015 11:53:42 -0700</lastBuildDate>
     <atom:link href="http://revolutionpack.info/article/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,7 +20,7 @@
 
 &lt;p&gt;REVOLUTION|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don&amp;rsquo;t expect everything to work the same as it did in the original Revolution.&lt;/p&gt;
 
-&lt;h2 id=&#34;where-can-i-find-ore-x:2dc582e763001218f60802f283920a1d&#34;&gt;Where can I find ore X?&lt;/h2&gt;
+&lt;h2 id=&#34;where-can-i-find-ore-x&#34;&gt;Where can I find ore X?&lt;/h2&gt;
 
 &lt;p&gt;Oregen is significantly different. Generally, ores can be found at most y-levels. Many ores spawn with giant, rare motherlodes and long, thin trace veins that lead to these motherlodes. Some ores generate in vertical pipes. Specifically:&lt;/p&gt;
 
@@ -147,13 +147,14 @@
 
 &lt;p&gt;Ore generation in the Enviromine Cave dimension is richer and more vanilla-like, and is intended for use as a mining dimension. There are also secret ways of creating ore.&lt;/p&gt;
 
-&lt;h2 id=&#34;significant-gameplay-changes:2dc582e763001218f60802f283920a1d&#34;&gt;Significant Gameplay Changes&lt;/h2&gt;
+&lt;h2 id=&#34;significant-gameplay-changes&#34;&gt;Significant Gameplay Changes&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;There is a mini-guide built into the modpack. Access your inventory, then click the guide book along the left edge of your inventory window.&lt;/li&gt;
 &lt;li&gt;Ores generally yield more from a single block; however, each raw ore is of lower quality, requiring more processing. Advanced tiers of processing equipment yield more ore from a given block &amp;ndash; up to two and a half stacks of ingots per block with all advancements!&lt;/li&gt;
-&lt;li&gt;Ore flowers spawn on the surface, indicating nearby ores.&lt;/li&gt;
+&lt;li&gt;Ore flowers spawn on the surface, indicating nearby ores (within 30 block radius for naturally-occurring ore flowers - ore flowers may appear when bone mealing the ground; these mean ore is within an 8 block radius, horizontally).&lt;/li&gt;
 &lt;li&gt;Torches will set fire to nearby blocks and burn out over time.&lt;/li&gt;
+&lt;li&gt;Sleeping does not advance time (it does recharge your sleep meter).&lt;/li&gt;
 &lt;li&gt;Water is finite. You will need to take this into account when building machines (such as the steam engine) that require water. There are several mechanisms in the game to create water.&lt;/li&gt;
 &lt;li&gt;Seasons change approximately every 32 Minecraft days, with a year lasting 128 Minecraft days. Seasons alter the temperature and precipitation of a biome, and affect various machines and crop growth that depend on these factors.&lt;/li&gt;
 &lt;li&gt;Animals will breed, age, and die on their own, assuming proper food (such as grass) is present in their vicinity.&lt;/li&gt;
@@ -164,24 +165,24 @@
 &lt;li&gt;Crop growth is significantly slower and is affected by season. Be sure to plant early, often, and extensively. Crops generally grow better underground or in greenhouses, and in friendly biomes.&lt;/li&gt;
 &lt;li&gt;Power consumption and generation has been revamped throughout the pack. Generally, things are more expensive.&lt;/li&gt;
 &lt;li&gt;Power, item, and fluid transmission has been tiered:
-&amp;ndash; Tier 1: Immersive Engineering
-&amp;ndash; Tier 2: BuildCraft, Logistics Pipes
-&amp;ndash; Tier 3: Ender IO
-&amp;ndash; Tier 4: ElectriCraft (power transmission)&lt;/li&gt;
+&amp;ndash; Tier 1: Immersive Engineering (max 4096 RF/t)
+&amp;ndash; Tier 2: BuildCraft, Logistics Pipes (max 10248 RF/t)
+&amp;ndash; Tier 3: Ender IO (max 20496 RF/t)
+&amp;ndash; Tier 4: ElectriCraft (power transmission only - unlimited RF/t)&lt;/li&gt;
 &lt;li&gt;Early game RF power is best provided through either the Rotational Dynamo or the Immersive Engineering waterwheel/windmill.&lt;/li&gt;
 &lt;li&gt;Spawners aren&amp;rsquo;t moveable intact during the early game; you must research technology to move them or use them for powered spawners.&lt;/li&gt;
 &lt;li&gt;Many repetetive items are hidden in NEI (e.g., BiblioCraft and Storage Drawers wood variations; Gun Customization modified weapons). Use Creative Tab to access these items.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;trivia:2dc582e763001218f60802f283920a1d&#34;&gt;Trivia&lt;/h2&gt;
+&lt;h2 id=&#34;trivia&#34;&gt;Trivia&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Dead bodies can be removed by hitting them with a shovel.&lt;/li&gt;
+&lt;li&gt;Dead bodies can be removed by whacking them with a shovel three times.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;mod-specific-changes:2dc582e763001218f60802f283920a1d&#34;&gt;Mod-specific changes&lt;/h1&gt;
+&lt;h1 id=&#34;mod-specific-changes&#34;&gt;Mod-specific changes&lt;/h1&gt;
 
-&lt;h2 id=&#34;agricraft:2dc582e763001218f60802f283920a1d&#34;&gt;Agricraft&lt;/h2&gt;
+&lt;h2 id=&#34;agricraft&#34;&gt;Agricraft&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Resource crops are disabled&lt;/li&gt;
@@ -192,13 +193,7 @@
 &lt;li&gt;Increased mutation rate by 50%&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;animals:2dc582e763001218f60802f283920a1d&#34;&gt;Animals+&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Whales, Centipedes, Crickets, and Butterflies no longer spawn.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;applied-energistics:2dc582e763001218f60802f283920a1d&#34;&gt;Applied Energistics&lt;/h2&gt;
+&lt;h2 id=&#34;applied-energistics&#34;&gt;Applied Energistics&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;RotaryCraft shaft power is about 4x more effective than RF for powering AE systems (yes, the energy acceptor accepts shaft power)&lt;/li&gt;
@@ -206,20 +201,20 @@
 &lt;li&gt;Recipes generally require steel or steel plates instead of iron&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;better-sleeping:2dc582e763001218f60802f283920a1d&#34;&gt;Better Sleeping&lt;/h2&gt;
+&lt;h2 id=&#34;better-sleeping&#34;&gt;Better Sleeping&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Removed most debuffs when you&amp;rsquo;re tired.&lt;/li&gt;
 &lt;li&gt;Sleeping no longer advances the time. You&amp;rsquo;ll have to find ways to survive the night.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;biomes-o-plenty:2dc582e763001218f60802f283920a1d&#34;&gt;Biomes O&amp;rsquo; Plenty&lt;/h2&gt;
+&lt;h2 id=&#34;biomes-o-plenty&#34;&gt;Biomes O&amp;rsquo; Plenty&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Removed all ore generation and related tools, armor.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;botania:2dc582e763001218f60802f283920a1d&#34;&gt;Botania&lt;/h2&gt;
+&lt;h2 id=&#34;botania&#34;&gt;Botania&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mana Flux Field is disabled&lt;/li&gt;
@@ -228,46 +223,44 @@
 &lt;li&gt;Manasteel requires steel&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;buildcraft:2dc582e763001218f60802f283920a1d&#34;&gt;BuildCraft&lt;/h2&gt;
+&lt;h2 id=&#34;buildcraft&#34;&gt;BuildCraft&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
+&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Kerosene + Oil.&lt;/li&gt;
 &lt;li&gt;Engines require metal plates.&lt;/li&gt;
 &lt;li&gt;A number of recipes from other mods are crafted on the Assembly Table&lt;/li&gt;
 &lt;li&gt;Refinery is removed &amp;ndash; use the Immersive Engineering Refinery for Fuel and Ethanol&lt;/li&gt;
 &lt;li&gt;Turned off Water Springs&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;chisel:2dc582e763001218f60802f283920a1d&#34;&gt;Chisel&lt;/h2&gt;
+&lt;h2 id=&#34;chisel&#34;&gt;Chisel&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Cannot chisel torches&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;chromaticraft:2dc582e763001218f60802f283920a1d&#34;&gt;ChromatiCraft&lt;/h2&gt;
+&lt;h2 id=&#34;chromaticraft&#34;&gt;ChromatiCraft&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Wisps in Rainbow Forests can hurt you.&lt;/li&gt;
-&lt;li&gt;The Ender Dragon will respawn shortly after killing it.&lt;/li&gt;
 &lt;li&gt;Rainbow Forest biomes do not spread when planting rainbow trees.&lt;/li&gt;
 &lt;li&gt;Pylons do not automatically chunk-load; you&amp;rsquo;ll need to use your own chunk loader (server optimization).&lt;/li&gt;
-&lt;li&gt;Disabled player progress announcements as they cause a server crash.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;cooking-for-blockheads:2dc582e763001218f60802f283920a1d&#34;&gt;Cooking for Blockheads&lt;/h2&gt;
+&lt;h2 id=&#34;cooking-for-blockheads&#34;&gt;Cooking for Blockheads&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Water must be pumped in to the sink.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;draconic-evolution:2dc582e763001218f60802f283920a1d&#34;&gt;Draconic Evolution&lt;/h2&gt;
+&lt;h2 id=&#34;draconic-evolution&#34;&gt;Draconic Evolution&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Draconium Ore does not spawn&lt;/li&gt;
 &lt;li&gt;Draconium Ingots are made in the Arc Furnace using Terrasteel (Botania), Spatial Alloy Ingots (ChromatiCraft), Bedrock Ingots (RotaryCraft), Bedrockium Ingots (Extra Utilities), and VoidMetal Ingots (Thaumcraft).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;ender-io:2dc582e763001218f60802f283920a1d&#34;&gt;Ender IO&lt;/h2&gt;
+&lt;h2 id=&#34;ender-io&#34;&gt;Ender IO&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Hard machine recipes are turned on.&lt;/li&gt;
@@ -280,7 +273,7 @@
 &lt;li&gt;Harder ores can now be smelted in the EIO Alloy Smelter with coal at a 4:1 rate&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;enviromine:2dc582e763001218f60802f283920a1d&#34;&gt;Enviromine&lt;/h2&gt;
+&lt;h2 id=&#34;enviromine&#34;&gt;Enviromine&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Disabled sanity, hydration, temperature, air quality, and slide physics (drop physics remain).&lt;/li&gt;
@@ -288,7 +281,7 @@
 &lt;li&gt;Removed recipes for items that are useless.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;extra-utilities:2dc582e763001218f60802f283920a1d&#34;&gt;Extra Utilities&lt;/h2&gt;
+&lt;h2 id=&#34;extra-utilities&#34;&gt;Extra Utilities&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Most of this mod is disabled, particularly the Ender Quarry, transport nodes, generators, and watering cans.&lt;/li&gt;
@@ -297,7 +290,7 @@
 &lt;li&gt;Last Millenium and Deep Dark are disabled. Use the Cave dimension (accessed by Enviromine Elevator) for mining dimension.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;forestry:2dc582e763001218f60802f283920a1d&#34;&gt;Forestry&lt;/h2&gt;
+&lt;h2 id=&#34;forestry&#34;&gt;Forestry&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Farms are now square, because 45 degree angles are hard.&lt;/li&gt;
@@ -307,10 +300,10 @@
 &lt;li&gt;The Ender Hive can be obtained through Botania Mana Transfusion of a Tropical Hive&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;galacticraft:2dc582e763001218f60802f283920a1d&#34;&gt;Galacticraft&lt;/h2&gt;
+&lt;h2 id=&#34;galacticraft&#34;&gt;Galacticraft&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Ender IO Rocket Fuel + Oil.&lt;/li&gt;
+&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Kerosene + Oil.&lt;/li&gt;
 &lt;li&gt;ReactorCraft ores spawn plentifully on the moon.&lt;/li&gt;
 &lt;li&gt;Converting GalactiCraft power to RF is 66% less efficient.&lt;/li&gt;
 &lt;li&gt;Consuming RF power from GalactiCraft machines suffers no penalty.&lt;/li&gt;
@@ -319,23 +312,22 @@
 &lt;li&gt;Many recipes require RotaryCraft bedrock ingots&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;gun-customization:2dc582e763001218f60802f283920a1d&#34;&gt;Gun Customization&lt;/h2&gt;
+&lt;h2 id=&#34;gun-customization&#34;&gt;Gun Customization&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Balanced the damage output of various weapons, generally making them about 10% more powerful (weapons are balanced around the concept of the &amp;lsquo;double-tap&amp;rsquo;, in that a common handgun should be able to kill a standard zombie with two shots to the head).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;harder-ores:2dc582e763001218f60802f283920a1d&#34;&gt;Harder Ores&lt;/h2&gt;
+&lt;h2 id=&#34;harder-ores&#34;&gt;Harder Ores&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Regular redstone spawns in place of Hard Redstone, so that it can be silk-touched for recipes that require it.&lt;/li&gt;
-&lt;li&gt;Regular diamond spawns alongside Hard Diamond Ore&lt;/li&gt;
 &lt;li&gt;Pitchblende spawns alongside Uranium. Both can be used to power ReactorCraft reactors.&lt;/li&gt;
 &lt;li&gt;Sifter uses a wooden bucket instead of an iron one.&lt;/li&gt;
 &lt;li&gt;Sluice has alternative recipe&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;harvestcraft:2dc582e763001218f60802f283920a1d&#34;&gt;HarvestCraft&lt;/h2&gt;
+&lt;h2 id=&#34;harvestcraft&#34;&gt;HarvestCraft&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Water plants are grown on farmland, not water.&lt;/li&gt;
@@ -344,7 +336,7 @@
 &lt;li&gt;Epic Bacon is no longer craftable&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;headcrumbs:2dc582e763001218f60802f283920a1d&#34;&gt;Headcrumbs&lt;/h2&gt;
+&lt;h2 id=&#34;headcrumbs&#34;&gt;Headcrumbs&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Baarbra no longer spawns (TPS heavy)&lt;/li&gt;
@@ -352,7 +344,7 @@
 &lt;li&gt;Added Revolution Pack celebrities&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;hunger-overhaul:2dc582e763001218f60802f283920a1d&#34;&gt;Hunger Overhaul&lt;/h2&gt;
+&lt;h2 id=&#34;hunger-overhaul&#34;&gt;Hunger Overhaul&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Many tweaks to the difficulty, generally making it easier than default configs&lt;/li&gt;
@@ -369,7 +361,7 @@
 &lt;li&gt;There is no penalty for growing crops indoors or underground (generally, this is a boost to productivity).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;immersive-engineering:2dc582e763001218f60802f283920a1d&#34;&gt;Immersive Engineering&lt;/h2&gt;
+&lt;h2 id=&#34;immersive-engineering&#34;&gt;Immersive Engineering&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;LV/MV/HV Cables transfer at 256/1024/2048 RF/t respectively.&lt;/li&gt;
@@ -377,13 +369,13 @@
 &lt;li&gt;Arc Furnace can refine hard diamond ore into diamonds much more efficiently&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;jabba:2dc582e763001218f60802f283920a1d&#34;&gt;JABBA&lt;/h2&gt;
+&lt;h2 id=&#34;jabba&#34;&gt;JABBA&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Removed the Diamond Dolly&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;matter-overdrive:2dc582e763001218f60802f283920a1d&#34;&gt;Matter Overdrive&lt;/h2&gt;
+&lt;h2 id=&#34;matter-overdrive&#34;&gt;Matter Overdrive&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Gravitational anomolies only spawn on other planets and moons&lt;/li&gt;
@@ -392,7 +384,7 @@
 &lt;li&gt;Energy costs are generally doubled&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;natura:2dc582e763001218f60802f283920a1d&#34;&gt;Natura&lt;/h2&gt;
+&lt;h2 id=&#34;natura&#34;&gt;Natura&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Removed barley and cotton crops, plus related recipes.&lt;/li&gt;
@@ -400,7 +392,7 @@
 &lt;li&gt;Removed cactus juice.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;open-blocks:2dc582e763001218f60802f283920a1d&#34;&gt;Open Blocks&lt;/h2&gt;
+&lt;h2 id=&#34;open-blocks&#34;&gt;Open Blocks&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Graves are turned off, replaced with lootable bodies (which can be broken with a shovel). Server operators, the open blocks inventory restore still functions as expected.&lt;/li&gt;
@@ -408,20 +400,19 @@
 &lt;li&gt;Luggage is removed.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;open-modular-turrets:2dc582e763001218f60802f283920a1d&#34;&gt;Open Modular Turrets&lt;/h2&gt;
+&lt;h2 id=&#34;open-modular-turrets&#34;&gt;Open Modular Turrets&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Power requirements are increased 10x&lt;/li&gt;
 &lt;li&gt;Turrets cannot attack players&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;ore-dictionary:2dc582e763001218f60802f283920a1d&#34;&gt;Ore Dictionary&lt;/h2&gt;
+&lt;h2 id=&#34;ore-dictionary&#34;&gt;Ore Dictionary&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Added beeswax to ore dictionary for wax&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;pneumaticcraft:2dc582e763001218f60802f283920a1d&#34;&gt;PneumaticCraft&lt;/h2&gt;
+&lt;h2 id=&#34;pneumaticcraft&#34;&gt;PneumaticCraft&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Pneumatic Dynamo operates at 5% efficiency (very poor source of RF)&lt;/li&gt;
@@ -429,7 +420,7 @@
 &lt;li&gt;Initial Compressed Iron can be made in the Ender IO Alloy Smelter.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;railcraft:2dc582e763001218f60802f283920a1d&#34;&gt;Railcraft&lt;/h2&gt;
+&lt;h2 id=&#34;railcraft&#34;&gt;Railcraft&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Blast Furnace and Coke Oven are removed. Use the equivalents from Immersive Engineering&lt;/li&gt;
@@ -440,7 +431,7 @@
 &lt;li&gt;Village workshops do not spawn&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;random-things:2dc582e763001218f60802f283920a1d&#34;&gt;Random Things&lt;/h2&gt;
+&lt;h2 id=&#34;random-things&#34;&gt;Random Things&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Disabled Spirit Binder&lt;/li&gt;
@@ -453,19 +444,19 @@
 &lt;li&gt;Blood moon-spawned monsters despawn in the morning.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;rockhounding-mod:2dc582e763001218f60802f283920a1d&#34;&gt;Rockhounding Mod&lt;/h2&gt;
+&lt;h2 id=&#34;rockhounding-mod&#34;&gt;Rockhounding Mod&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Disabled Chemistry, Mine Crawler, Gemology&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;roguelike-dungeons:2dc582e763001218f60802f283920a1d&#34;&gt;Roguelike Dungeons&lt;/h2&gt;
+&lt;h2 id=&#34;roguelike-dungeons&#34;&gt;Roguelike Dungeons&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Added a customized modern bunker theme.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;rotarycraft:2dc582e763001218f60802f283920a1d&#34;&gt;RotaryCraft&lt;/h2&gt;
+&lt;h2 id=&#34;rotarycraft&#34;&gt;RotaryCraft&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Bedrock picks break spawners.&lt;/li&gt;
@@ -473,34 +464,35 @@
 &lt;li&gt;Bedrock tools can be used in the Ender IO Farming Station&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;spice-of-life:2dc582e763001218f60802f283920a1d&#34;&gt;Spice of Life&lt;/h2&gt;
+&lt;h2 id=&#34;tinker-s-construct&#34;&gt;Tinker&amp;rsquo;s Construct&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Food history length is 30&lt;/li&gt;
-&lt;li&gt;Food history uses hunger restored instead of food named. For example, it will remember the last 5 items that restored 4 food, or the last 10 items that restored 2 food. Generally, this makes it so higher-nutrition foods require less variety than lower nutrition.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Previously eaten items are less nutritious.&lt;/li&gt;
+&lt;li&gt;Just about everything about this mod is changed. It is not the go-to, defacto mod for tool creation. It is used for mid/end-game overpowered magical tools.&lt;/li&gt;
+&lt;li&gt;Smeltery blocks are made from ChromatiCraft Crystalline Stone.&lt;/li&gt;
+&lt;li&gt;Melting ore blocks in the smeltery no longer doubles the output.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;vanilla:2dc582e763001218f60802f283920a1d&#34;&gt;Vanilla&lt;/h2&gt;
+&lt;h2 id=&#34;vanilla&#34;&gt;Vanilla&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Buckets, hoppers, and cauldrons are now made with iron plates (which are made in the rolling mill or hammer)&lt;/li&gt;
 &lt;li&gt;Vanilla armor crafting is disabled&amp;hellip;find them in dungeons and monster loot.&lt;/li&gt;
+&lt;li&gt;The End is overhauled by Hardcore Ender Expansion. There are several rituals (through Et Futurum, Draconic Evolution, and Hardcore Ender Expansion) that allow you to resummon the dragon.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;void-monster:2dc582e763001218f60802f283920a1d&#34;&gt;Void Monster&lt;/h2&gt;
+&lt;h2 id=&#34;void-monster&#34;&gt;Void Monster&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Void monster doesn&amp;rsquo;t spawn in The End, Spectral World, Deep Dark, and The Last Millenium&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;wooden-buckets:2dc582e763001218f60802f283920a1d&#34;&gt;Wooden Buckets&lt;/h2&gt;
+&lt;h2 id=&#34;wooden-buckets&#34;&gt;Wooden Buckets&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Can use wax instead of pipe green&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;zombie-awareness:2dc582e763001218f60802f283920a1d&#34;&gt;Zombie Awareness&lt;/h2&gt;
+&lt;h2 id=&#34;zombie-awareness&#34;&gt;Zombie Awareness&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Zombies are not attracted to scent&lt;/li&gt;
@@ -512,54 +504,74 @@
     </item>
     
     <item>
-      <title>R2 First Day Guide</title>
-      <link>http://revolutionpack.info/article/rev2-first-day/</link>
-      <pubDate>Sat, 30 Jan 2016 12:27:34 -0700</pubDate>
+      <title>R3 First Day Guide</title>
+      <link>http://revolutionpack.info/article/rev3-first-day/</link>
+      <pubDate>Sat, 30 Jul 2016 12:27:34 -0700</pubDate>
       
-      <guid>http://revolutionpack.info/article/rev2-first-day/</guid>
+      <guid>http://revolutionpack.info/article/rev3-first-day/</guid>
       <description>
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;getting-the-most-out-of-revolution-2:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Getting the most out of REVOLUTION|2&lt;/h3&gt;
+&lt;h3 id=&#34;getting-the-most-out-of-revolution-3&#34;&gt;Getting the most out of REVOLUTION|3&lt;/h3&gt;
 
-&lt;p&gt;This brief guide covers some important tips for to get your started with REVOLUTION|2, including a guide to your first few days, maximizing gameplay performance, and running REVOLUTION|2 on a server. Memory requirements, world pregeneration, and server tips are found at the end of the guide.&lt;/p&gt;
+&lt;p&gt;This brief guide covers some important tips for to get your started with REVOLUTION|3, including a guide to your first few days, maximizing gameplay performance, and running REVOLUTION|3 on a server.&lt;/p&gt;
 
-&lt;h3 id=&#34;realistic-terrain-generation-rtg-or-biomes-o-plenty-bop:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Realistic Terrain Generation (RTG) or Biomes O&amp;rsquo; Plenty (BoP)&lt;/h3&gt;
+&lt;h3 id=&#34;realistic-terrain-generation-rtg&#34;&gt;Realistic Terrain Generation (RTG)&lt;/h3&gt;
 
-&lt;p&gt;When starting a new world, you have a couple of world type options &amp;ndash; either Biomes O&amp;rsquo; Plenty or RTG-Realistic Terrain Generation. I highly recommend changing your world type to &amp;lsquo;Realistic&amp;rsquo; (RTG for SMP server.properties)  &amp;ndash; it generates more realistic rolling hills and surface forms, using the BoP biomes. Vanilla world generation does not work, and you&amp;rsquo;ll be plagued with frequent crashes if you fail to select either BoP or RTG. There is no performance advantage to either generator, so the choice is between classic Minecraft-style worlds (BoP) or more realistic hills (Realistic).&lt;/p&gt;
+&lt;p&gt;Make sure to select &amp;lsquo;Realistic&amp;rsquo; world type when creating a world. Server operations will use RTG in the server.properties file. For single-player, I also recommend enabling cheats &amp;ndash; just in case &amp;ndash; but if you&amp;rsquo;re the kind that&amp;rsquo;s susceptible to temptation, you can leave it off. It can always be temporarily re-enabled by starting a LAN game and turning on cheats.&lt;/p&gt;
 
-&lt;p&gt;I also recommend enabling cheats &amp;ndash; just in case &amp;ndash; but if you&amp;rsquo;re the kind that&amp;rsquo;s susceptible to temptation, you can leave it off. It can always be temporarily re-enabled by starting a LAN game and turning on cheats.&lt;/p&gt;
+&lt;h3 id=&#34;video-settings&#34;&gt;Video Settings&lt;/h3&gt;
 
-&lt;h3 id=&#34;a-note-about-hqm-quests:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;A Note About HQM Quests&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re experiencing abyssmal FPS, try setting your graphics properties like &lt;a href=&#34;http://i.imgur.com/f6Nu5nr.png&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;REVOLUTION|2 features a set of Hardcore Questing Mode (HQM) quests. Unlike many HQM packs, REV|2 does not require you to follow the quest book. The quest book provides some general &amp;lsquo;direction&amp;rsquo; to pack progression, but is completely optional. REVOLUTION|2 is a progressive &amp;lsquo;kitchen-sink&amp;rsquo; pack.&lt;/p&gt;
+&lt;h3 id=&#34;a-note-about-better-questing&#34;&gt;A Note About Better Questing&lt;/h3&gt;
 
-&lt;h3 id=&#34;your-first-day:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Your First Day&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;The Better Questing mod is installed, however there are currently no quests for REVOLUTION|3. This may change in the future.&lt;/p&gt;
 
-&lt;p&gt;Welcome to the Revolution! REVOLUTION|2 is an expansive, progressive pack with gated content that could take you weeks, if not months, to get through. While REV|2 is in essence an open-ended kitchen-sink pack, the challenge goal for the pack is to build a self-sustaining colony in the Barnard&amp;rsquo;s Star solar system. Bonus points if your colony is hosted in a self-sustaining RF Tools dimension located in that system!&lt;/p&gt;
+&lt;h3 id=&#34;your-first-day&#34;&gt;Your First Day&amp;hellip;&lt;/h3&gt;
 
-&lt;p&gt;But, first things first, you&amp;rsquo;re going to want to find a place to setup camp. You should have enough food for a few days of travel, plus a sleeping bag (portable bed) to get you through the night. Keep your eye out for pigs as you travel &amp;ndash; you&amp;rsquo;ll need to kill one for your first HQM quest, if you&amp;rsquo;re going to use the HQM guide. Be aware: unlike most mod packs, unsupported blocks can fall in REV|2. This means caves and old structures can collapse, unsupported walls can fall, and zombies can pick apart your cobblestone hovel. A great place to start is near poorjoe flowers (these look like tall, think single white flowers), as this will likely mean you have iron in your vicinity. Certain other flowers, in addition to poorjoe, indicate other ores are in the general vicinity (around 2 chunk radius, give or take).&lt;/p&gt;
+&lt;p&gt;Welcome to the Revolution! REVOLUTION|3 is an expansive, progressive pack with gated content that could take you weeks, if not months, to get through. While REV|3 is in essence an open-ended kitchen-sink pack, the challenge goal for the pack is to reintroduce a colony of dinosaurs in the Barnard&amp;rsquo;s Star solar system. Bonus points if your colony is hosted in a self-sustaining RF Tools dimension located in that system!&lt;/p&gt;
 
-&lt;p&gt;Your first order of business will be securing iron ore. The in-game guide (accessed by opening your inventory, and clicking the upper book to the left of the inventory window) details how to setup a sluice. Detailed instructions for prospecting ores can be found &lt;a href=&#34;http://reasonable-realism.wikia.com/wiki/Prospecting&#34;&gt;here&lt;/a&gt;, but for now, just worry about finding poorjoe flowers, building a sluice, and and getting your first few dust. Another easy early-game source of iron is limonite, which spawns in river and beach areas. You&amp;rsquo;re also going to need food soon. You can survive off of food you scrounge up, however, you&amp;rsquo;ll note quickly that food rots, so it&amp;rsquo;s difficult to stockpile and very unfulfilling. Advanced foods can be crafted from various plants, but you&amp;rsquo;ll need to research seeds for those plants first using AgriCraft crop sticks and mutation mechanics. The HQM book goes into a bit more detail about the sluice and crops, if you&amp;rsquo;re unfamiliar with these mechanics.&lt;/p&gt;
+&lt;p&gt;But, first things first, you&amp;rsquo;re going to want to find a place to setup camp&amp;hellip;and quickly! Since you can&amp;rsquo;t sleep through the night, you will need to find shelter. You should have enough food for a few days. Be aware: unlike most mod packs, unsupported blocks can fall in REV|3. This means caves and old structures can collapse, unsupported walls can fall, and zombies can pick apart your cobblestone hovel. A great place to start is near sea-level (~y64) poorjoe flowers (these look like tall, thin, single white flowers), as this will likely mean you have iron in your vicinity. Certain other flowers, in addition to poorjoe, indicate other ores are in the general vicinity (around 30 block radius around the flower). The ore &amp;lsquo;chart&amp;rsquo; is located in the in-game guide, accessed by opening your inventory and clicking the Guide book along the left of the window. Please note, that while you can find ore flowers at higher elevations, they are much more difficult to retrieve with the sluice. For early game, you should focus on flowers at or near sea level (y64).&lt;/p&gt;
 
-&lt;h3 id=&#34;a-bit-about-ore-generation:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;A Bit About Ore Generation&lt;/h3&gt;
+&lt;p&gt;Your first order of business will be securing iron ore. The in-game guide (accessed by opening your inventory, and clicking the upper book to the left of the inventory window) details how to setup a sluice, though the sluice is unreliable. It&amp;rsquo;s pretty cheap, so build one and hope you get lucky, but don&amp;rsquo;t rely on the sluice as your source of iron. Detailed instructions for prospecting ores can be found &lt;a href=&#34;http://reasonable-realism.wikia.com/wiki/Prospecting&#34;&gt;here&lt;/a&gt;, and I highly recommend you take a look. For now, just worry about finding poorjoe flowers, building a sluice, and and getting your first few dust. You&amp;rsquo;re also going to need food soon. You can survive off of food you scrounge up, however, you&amp;rsquo;ll note quickly that food rots, so it&amp;rsquo;s difficult to stockpile and very unfulfilling. Advanced foods can be crafted from various plants, but you&amp;rsquo;ll need to research seeds for those plants first using AgriCraft crop sticks and mutation mechanics.&lt;/p&gt;
 
-&lt;p&gt;REVOLUTION|2 features a complete revamp of ore generation. Ore generates in extremely large, but rare veins, with trace veins extending for hundreds of blocks off from the main motherlode. Generally, you can follow these trace veins back to a motherlode, though motherlodes are not 100% guaranteed. In addition, REVOLUTION|2 features Harder Ores, a mod which alters ore density, richness, and progression. Generally, when mining an ore block, you will get only 1 or 2 (more with enchantments or processing) raw ore per block hardness. This means most individual ore blocks can be mined multiple times before the ore runs out and they disappear from the world. Raw ore must be refined further in order to create ingots. Generally, you will need 8 or 9 raw ore to create one ingot, to start. However, with proper tools, machines, and/or enchantments, you can increase that ratio to about 3 ingots per raw ore, a HUGE increase in output. REVOLUTION|2 is all about building infrastructure.&lt;/p&gt;
+&lt;p&gt;A great early source of sustainable food is either hamburgers (wheat &amp;amp; cow &amp;ndash; easily expandable with milk, bacon, cheese, and mushrooms) or PB&amp;amp;J sandwhiches (using a nut butter, such as chestnut and apples).&lt;/p&gt;
 
-&lt;h3 id=&#34;your-next-few-days:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Your Next Few Days&amp;hellip;&lt;/h3&gt;
+&lt;h3 id=&#34;a-bit-about-tinker-s-construct&#34;&gt;A Bit About Tinker&amp;rsquo;s Construct&lt;/h3&gt;
 
-&lt;p&gt;Once you&amp;rsquo;ve got some basic ore processing up and going, you going to want to venture into Immersive Engineering and steel production (your going to need lots of steel). Immersive Engineering will also provide your first early-game RF power (through a wind or water mill). Once you&amp;rsquo;ve got some ore processing up and going, and a bit of iron stockpiled, you&amp;rsquo;re going to want to build and power a RotaryCraft grinder. Until you have silk-touch on a pick, your early game ore processing should be IE Blast Furnace -&amp;gt; RotaryCraft Grinder -&amp;gt; Furnace, which will yield you 3 ingots per 8 raw ore, a huge increase over the initial 1 ingot per 8 (or 9) raw ore. Don&amp;rsquo;t worry, there are ways to further increase your ore yields to outrageous levels!&lt;/p&gt;
+&lt;p&gt;Tinker&amp;rsquo;s Construct has been completely revamped in this pack, with all the standard tools removed or having their stats set to useless. Instead, TiCon is used as an add-on to ChromatiCraft, allowing you to use the metals from that mod to make some awesome mid-game tools. Seared bricks are made from ChromatiCraft materials, so you will not be able to build a smeltery until you&amp;rsquo;ve gotten into that mod.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-bit-about-health&#34;&gt;A Bit About Health&lt;/h3&gt;
+
+&lt;p&gt;Natural regeneration is turned off in this pack; you&amp;rsquo;ll need to find methods of healing yourself. There are quite a few ways, most easily when you eat food, which restores half of the food value as health. In addition, there are a number of potions, magical means, and world-generation that will also heal you. All of the major magic mods (Botania, ChromatiCraft, and Thaumcraft) feature relatively easy to obtain methods of regenerating health.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-bit-about-ore-generation&#34;&gt;A Bit About Ore Generation&lt;/h3&gt;
+
+&lt;p&gt;REVOLUTION|3 features a complete revamp of ore generation. Ore generates in extremely large, but very rare veins, with trace veins extending for hundreds of blocks off from the main motherlode. Generally, you can follow these trace veins back to a motherlode, though motherlodes are not 100% guaranteed. In addition, REVOLUTION|3 features Harder Ores, a mod which alters ore density, richness, and progression. Generally, when mining an ore block, you will get only 1 or 2 (more with enchantments or processing) raw ore per block hardness. This means most individual ore blocks can be mined multiple times before the ore runs out and they disappear from the world. Raw ore must be refined further in order to create ingots. Generally, you will need 8 or 9 raw ore to create one ingot, to start. However, with proper tools, machines, and/or enchantments, you can increase that ratio to about 3 ingots per raw ore, a HUGE increase in output. REVOLUTION|3 is all about building infrastructure.&lt;/p&gt;
+
+&lt;h3 id=&#34;your-next-few-days&#34;&gt;Your Next Few Days&amp;hellip;&lt;/h3&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve got some basic ore processing up and going, you going to want to venture into Immersive Engineering and steel production (your going to need lots of steel). Immersive Engineering will also provide your first early-game RF power (through a wind or water mill). Once you&amp;rsquo;ve got some ore processing up and going, and a bit of iron stockpiled, you&amp;rsquo;re going to want to build and power a RotaryCraft grinder. Until you have silk-touch on a pick, your early game ore processing should be IE Blast Furnace -&amp;gt; RotaryCraft Grinder -&amp;gt; Furnace, which will yield you 3 ingots per 6 raw ore, a huge increase over the initial 1 ingot per 8 (or 9) raw ore. Don&amp;rsquo;t worry, there are ways to further increase your ore yields to outrageous levels (3 ingots per raw ore)!&lt;/p&gt;
 
 &lt;p&gt;Once you&amp;rsquo;ve got steel going, you should also pick a mod for better tools. Botania and Ender IO provide some good options, though you have other choices (Thaumcraft, CC, RoC, etc.) If you&amp;rsquo;ve not tried Botania&amp;rsquo;s toolset and miss Tinker&amp;rsquo;s Construct, I highly recommend you venture into Botania tools. You&amp;rsquo;ll never miss TiCo again!&lt;/p&gt;
 
-&lt;h3 id=&#34;end-of-the-early-game-and-starting-the-mid-game:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;End of the Early-Game and Starting the Mid-Game&lt;/h3&gt;
+&lt;h3 id=&#34;end-of-the-early-game-and-starting-the-mid-game&#34;&gt;End of the Early-Game and Starting the Mid-Game&lt;/h3&gt;
 
-&lt;p&gt;By the end of early-game progression, you should have a hefty supply of iron, as well as stable mid-tier food production, and some basic automation using BuildCraft or Logistics Pipes. Just getting this far should take you some time, and you&amp;rsquo;re not even half-way to the end of the pack! Mid-game progression in REVOLUTION|2 is all about getting bedrock ingots, which allow you to craft many machines from late game mods such as Galacticraft and RFTools. Bedrock ingots require you to delve through the depths of RotaryCraft. Along the way, you can upgrade your ore processing via more investment in Immersive Engineering and discovering ChromatiCraft. Also, once you&amp;rsquo;ve unlocked bedrock ingots, you can build an elevator to take you to the Cave Dimension, which features much richer ore generation and is quarry-friendly (this is the mining dimension for SSP REVOLUTION|2).&lt;/p&gt;
+&lt;p&gt;By the end of early-game progression, you should have a hefty supply of iron, as well as stable mid-tier food production, and some basic automation using BuildCraft or Logistics Pipes. Just getting this far should take you some time, and you&amp;rsquo;re not even half-way to the end of the pack! Mid-game progression in REVOLUTION|3 is all about getting bedrock ingots, which allow you to craft many machines from late game mods such as Galacticraft and RFTools. Bedrock ingots require you to delve through the depths of RotaryCraft. Along the way, you can upgrade your ore processing via more investment in Immersive Engineering and discovering ChromatiCraft. Also, once you&amp;rsquo;ve unlocked bedrock ingots, you can build an elevator to take you to the Cave Dimension, which features much richer ore generation and is quarry-friendly (this is the mining dimension for SSP REVOLUTION|3).&lt;/p&gt;
 
-&lt;h3 id=&#34;the-end-game:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;The End Game&lt;/h3&gt;
+&lt;h3 id=&#34;mid-game-ore-processing&#34;&gt;Mid-Game Ore Processing&lt;/h3&gt;
 
-&lt;p&gt;As pointed out earlier, REVOLUTION|2 is a progressive, kitchen-sink pack, and there are MANY mods to delve deep into (listed below). In general, end-game content is going to require massive amounts of power generation &amp;ndash; something you&amp;rsquo;re going to want to build a ReactorCraft reactor for, though you could scrape by with several other methods of large-scale RF generation, such as Matter Overdrive&amp;rsquo;s gravitational anomoly. If you&amp;rsquo;re looking for a challenge goal, try building a self-sustaining colony in an RF-Tools dimension hosted on the planet Barnard&amp;rsquo;s Star C. Getting this far is a big achievement!&lt;/p&gt;
+&lt;p&gt;There are a few options for mid-game ore processing, based on whether you favor time or yield. If time is your big deal, enchant your pick with silk touch and drop your hard ores in the Immersive Engineering Crusher (the raw ore can be reprocessed in the crusher too, until you get the remaining part of the ore production chain). From there, place the raw ore in an Immersive Engineering Arc Furnace, which will yield a &amp;lsquo;vanilla&amp;rsquo; ore block. Place the vanilla ore block in a RotaryCraft extractor to yield, on average, 5x dust. Upgrade the extractor with a bedrock drill bit when you get it for an extra bonus. Lastly, fire up the resulting flakes in a Crystal Furnace from ChromatiCraft to double them once more. This entire chain will yield about 13 ingots per meta of hard ore block, which is a huge increase over the early game&amp;rsquo;s 1 ingot per 8ish meta (the meta indicates the richness of the block).&lt;/p&gt;
+
+&lt;p&gt;For absolute maximum yields, use a Fortune V-enchanted pick or Boring machine, which will give you better raw ore yields than the Crusher.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note, that all Immersive Engineering machines are multiblock structures. See the Immersive Engineering in-game book for details on how to construct and power them.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;the-end-game&#34;&gt;The End Game&lt;/h3&gt;
+
+&lt;p&gt;As pointed out earlier, REVOLUTION|3 is a progressive, kitchen-sink pack, and there are MANY mods to delve deep into (listed below). In general, end-game content is going to require massive amounts of power generation &amp;ndash; something you&amp;rsquo;re going to want to build a ReactorCraft reactor for, though you could scrape by with several other methods of large-scale RF generation, such as Matter Overdrive&amp;rsquo;s gravitational anomoly. If you&amp;rsquo;re looking for a challenge goal, try building a self-sustaining colony in an RF-Tools dimension hosted on the planet Barnard&amp;rsquo;s Star C. Getting this far is a big achievement!&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s some other achievement-worthy goals:
 - Acquire the Botania relics
@@ -569,45 +581,41 @@
 - Visit the galaxy through GalactiCraft and GalaxySpace (try setting up a sustainable colony on a space station or asteroid!)
 - Build a ReactorCraft Fusion Reactor, and use it to power something like &lt;a href=&#34;http://imgur.com/gallery/Qo0il/new&#34;&gt;this&lt;/a&gt;.
 - Build a complete Modular Power Suit
+- Conquer all The End has to offer.
 - Automate all the things WITHOUT using Applied Energistics (there are MANY to choose from)
-- Setup an automated crafting system using Matter Overdrive, then become an Android&lt;/p&gt;
+- Setup an automated crafting system using Matter Overdrive, then become an Android
+- Repopulate the world with Dinosaurs!&lt;/p&gt;
 
 &lt;p&gt;Thank you for playing, and I hope you enjoy the Revolution! ~Haggle1996&lt;/p&gt;
 
-&lt;h3 id=&#34;memory:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Memory&lt;/h3&gt;
+&lt;h3 id=&#34;memory&#34;&gt;Memory&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;SSP Single-player:&lt;/strong&gt; 6GB of RAM is recommended. 4GB Minimum. If you experience frequent hard lag while exploring or moving, you probably do not have enough RAM allocated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SSP Single-player:&lt;/strong&gt; 5GB of RAM is recommended. 3.5GB Minimum. If you experience frequent hard lag while exploring or moving, you probably do not have enough RAM allocated.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;SMP Multi-player Server:&lt;/strong&gt; 6GB of RAM during world generation. Afterward, 4GB minimum.&lt;br /&gt;
-&lt;strong&gt;SMP Multi-player Clients:&lt;/strong&gt; 4GB recommended. 3.5GB required.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SMP Multi-player Server:&lt;/strong&gt; 6GB of RAM; more with a larger playerbase.&lt;br /&gt;
+&lt;strong&gt;SMP Multi-player Clients:&lt;/strong&gt; 4GB recommended. 3GB required.&lt;/p&gt;
 
-&lt;p&gt;REVOLUTION|2&amp;rsquo;s spectacular veins and motherlodes (via Custom Ore Generation and Harder Ores) uses a lot of RAM to calculate vein sizes. As such, memory usage is high during chunk generation. If your world is stable and you&amp;rsquo;re not generating new overworld chunks often, you can reduce your memory allocation to 4GB.&lt;/p&gt;
+&lt;h3 id=&#34;pregenerating-a-world&#34;&gt;Pregenerating a World&lt;/h3&gt;
 
-&lt;h3 id=&#34;pregenerating-a-world:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Pregenerating a World&lt;/h3&gt;
-
-&lt;p&gt;Pregenerating your world can significantly improve your REVOLUTION|2 experience, at the cost of some patience when starting a new world. Follow the following steps to pregenerate your world. &lt;em&gt;NOTE: for SMP, I recommend pregenerating your world in a single-player instance and then copying your map instead of through the server console, unless you&amp;rsquo;re comfortable with server memory tools.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Pregenerating your world can significantly improve your REVOLUTION|3 experience, at the cost of some patience when starting a new world. Follow the following steps to pregenerate your world.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Allocate as much RAM to Minecraft as your system can safely support (you can lower this after pregeneration is complete). The RAM settings are located on the Settings&amp;hellip;Java/Minecraft tab. Ignore the warning for allocating more than 4GB of RAM.&lt;/li&gt;
-&lt;li&gt;Start Minecraft as usual and create a new map in &lt;strong&gt;creative mode&lt;/strong&gt; (or open a LAN game and enable cheats). Be sure to select either &lt;strong&gt;Realistic&lt;/strong&gt; or &lt;strong&gt;Biomes O&amp;rsquo; Plenty&lt;/strong&gt; for your world type. There is no performance advantage to either type.&lt;/li&gt;
+&lt;li&gt;Allocate at least 6GB of RAM to Minecraft (you can lower this after pregeneration is complete). The RAM settings are located on the Settings&amp;hellip;Java/Minecraft tab. Ignore the warning for allocating more than 4GB of RAM.&lt;/li&gt;
+&lt;li&gt;Start Minecraft as usual and create a new map in &lt;strong&gt;creative mode&lt;/strong&gt; (or open a LAN game and enable cheats). Be sure to select either &lt;strong&gt;Realistic&lt;/strong&gt; for your world type. Remember, RTG worlds generate faster than BoP.&lt;/li&gt;
 &lt;li&gt;Once the map has loaded (either SSP or SMP), do not move around and explore.&lt;/li&gt;
-&lt;li&gt;Press F3 to open the info overlay. In the top right corner, you&amp;rsquo;ll notice &lt;code&gt;Used memory:...&lt;/code&gt;. You&amp;rsquo;ll need to pay attention to this number as we pregenerate.&lt;/li&gt;
 &lt;li&gt;Type &lt;code&gt;/pregenspawn 100&lt;/code&gt; in the chat window. This will start pregenerating a 100 chunk radius world around your spawn (3200x3200 blocks), which is suitable for most SSP play. Increasing this number, even a little bit, will dramatically increase the time it takes to pregenerate.&lt;/li&gt;
 &lt;li&gt;Pregeneration will continue, occasionally outputting &lt;code&gt;Generated 100 / 40000 chunks [ 0.25% ]&lt;/code&gt; as it progresses. Every 1000 chunks, it will flush it&amp;rsquo;s buffers.&lt;/li&gt;
-&lt;li&gt;Important: &lt;strong&gt;Watch Used Memory in the top-right corner&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;When used memory consistently goes above 90%, exit Minecraft by clicking the X in the top right corner. Do not press &lt;code&gt;ESC&lt;/code&gt; and Save and Exit. Doing so will take forever.&lt;/li&gt;
-&lt;li&gt;Restart pregeneration by repeating the above steps, starting from Step 2. Repeat the process until pregeneration is complete (100%). &lt;em&gt;NOTE: pregeneration will look like it&amp;rsquo;s starting over, but it actually skips quickly through previously-generated chunks and picks up where it left off.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Shutdown and restart Minecraft. If necessary, adjust your Minecraft memory back to a reasonable amount (between 4GB and 6GB for most players. See memory recommendations above).&lt;/li&gt;
+&lt;li&gt;Shutdown and restart Minecraft. If necessary, adjust your Minecraft memory back to a reasonable amount for your system (typically 4GB for most players. See memory recommendations above).&lt;/li&gt;
 &lt;li&gt;Enjoy your new world!&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;server-tips:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Server Tips&lt;/h3&gt;
+&lt;h3 id=&#34;server-tips&#34;&gt;Server Tips&lt;/h3&gt;
 
-&lt;p&gt;The following tips will help you get the most from your REVOLUTION|2 server:&lt;/p&gt;
+&lt;p&gt;The following tips will help you get the most from your REVOLUTION|3 server:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Run on good hardware. The pack runs great with 4-8GB of RAM supporting 10-15 simultaneous players, assuming good CPU and SSDs. During early days of the server (before too much automation is built), the pack generally performs well with 20-25 players.&lt;/li&gt;
-&lt;li&gt;Make sure you pregenerate the world using the steps above. There is no appreciable difference between RTG and BOP worlds, except aesthetics.&lt;/li&gt;
+&lt;li&gt;Make sure you pregenerate the world using the steps above.&lt;/li&gt;
 &lt;li&gt;Pregenerate at least the Overworld, Moon, Mars, Nether, and Cave Dimension. It is a good practice to save a copy of your empty, pregenerated Cave Dimension, as this serves as the mining dimension for the pack.&lt;/li&gt;
 &lt;li&gt;Run Opis (downloaded separately) and periodically check for expensive chunks &amp;ndash; most commonly it&amp;rsquo;s things like a player having 200 chickens, etc.&lt;/li&gt;
 &lt;li&gt;Restart the server at least once per day. Busy servers should consider 2 to 4 times per day.&lt;/li&gt;
@@ -615,7 +623,7 @@
 &lt;li&gt;Encourage players to test ReactorCraft builds in single-player creative mode BEFORE building them on the server. You may wish to add &lt;code&gt;/cofh killall radiation&lt;/code&gt; to a timed script since excessive radiation can bring a server to it&amp;rsquo;s knees; however, this is contrary to the author&amp;rsquo;s vision for the mod.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;cleaning-up-radiation:67cc146bc8b7937bd9ee66a706ae5657&#34;&gt;Cleaning up Radiation&lt;/h3&gt;
+&lt;h3 id=&#34;cleaning-up-radiation&#34;&gt;Cleaning up Radiation&lt;/h3&gt;
 
 &lt;p&gt;Some players cannot resist experimenting with ReactorCraft without first trying to build the desired reactor in a single-player creative test world. You&amp;rsquo;ve been warned, but just in case, you can cleanup radiation using &lt;code&gt;/cofh killall radiation&lt;/code&gt; if you have cheats enabled.&lt;/p&gt;
 </description>
@@ -631,7 +639,7 @@
 
 &lt;p&gt;This page outlines the various game play changes to individual mods. There are quite a few and most can be found in NEI. If you can&amp;rsquo;t find or create your favorite recipe, this page is your last stop before logging an issue in the tracker.&lt;/p&gt;
 
-&lt;h3 id=&#34;general-changes:22391f28610b60a1b0da7b5f40048d56&#34;&gt;General changes&lt;/h3&gt;
+&lt;h3 id=&#34;general-changes&#34;&gt;General changes&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Early game RF power is best provided through RotaryCraft&amp;rsquo;s Rotational Dynamo&lt;/li&gt;
@@ -642,10 +650,9 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Ore Gen Chart courtesy Nathan Roberts
-&lt;img src=&#34;http://revolutionpack.info/images/Rev1Ores.png&#34; alt=&#34;REVOLUTION|1 Ore Chart&#34; /&gt;
-&lt;/p&gt;
+&lt;img src=&#34;http://revolutionpack.info/images/Rev1Ores.png&#34; alt=&#34;REVOLUTION|1 Ore Chart&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;apple-milk-tea:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Apple &amp;amp; Milk &amp;amp; Tea&lt;/h3&gt;
+&lt;h3 id=&#34;apple-milk-tea&#34;&gt;Apple &amp;amp; Milk &amp;amp; Tea&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;WipeBox doesn&amp;rsquo;t create infinite paper&lt;/li&gt;
@@ -654,7 +661,7 @@
 &lt;li&gt;Renamed all cassis fruit tarts to Cassie&amp;rsquo;s Fruit Tarts, in honor of one of our sponsors&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;applied-energistics:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Applied Energistics&lt;/h3&gt;
+&lt;h3 id=&#34;applied-energistics&#34;&gt;Applied Energistics&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Certus Quartz spawns in medium, rare veins above y-level 50&lt;/li&gt;
@@ -664,14 +671,14 @@
 &lt;li&gt;Recipes generally require steel or steel plates for crafting instead of iron&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;better-sleeping:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Better Sleeping&lt;/h3&gt;
+&lt;h3 id=&#34;better-sleeping&#34;&gt;Better Sleeping&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;You no longer lose hunger while sleeping&lt;/li&gt;
 &lt;li&gt;You lose slightly more energy than default doing activities (running, jumping, etc.); this prevents the dreaded &amp;lsquo;you&amp;rsquo;re not tired&amp;rsquo; when it&amp;rsquo;s night.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;botania:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Botania&lt;/h3&gt;
+&lt;h3 id=&#34;botania&#34;&gt;Botania&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mana Flux Field is disabled&lt;/li&gt;
@@ -681,7 +688,7 @@
 &lt;li&gt;Mana cookie is removed&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;buildcraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;BuildCraft&lt;/h3&gt;
+&lt;h3 id=&#34;buildcraft&#34;&gt;BuildCraft&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Engine recipes now require thermal plates (made in a rolling mill)&lt;/li&gt;
@@ -690,13 +697,13 @@
 &lt;li&gt;Refinery has been removed &amp;ndash; use Immersive Engineerings refinery or Buildcraft Additions&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;buildcraft-additions:22391f28610b60a1b0da7b5f40048d56&#34;&gt;BuildCraft Additions&lt;/h3&gt;
+&lt;h3 id=&#34;buildcraft-additions&#34;&gt;BuildCraft Additions&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Raw plates are now created in the RailCraft Rolling Machine&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;chromaticraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;ChromatiCraft&lt;/h3&gt;
+&lt;h3 id=&#34;chromaticraft&#34;&gt;ChromatiCraft&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Wisps in Rainbow Forests can hurt you&lt;/li&gt;
@@ -704,14 +711,14 @@
 &lt;li&gt;Rainbow Forest biomes do not spread when planting rainbow trees&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;electricalcraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;ElectricalCraft&lt;/h3&gt;
+&lt;h3 id=&#34;electricalcraft&#34;&gt;ElectricalCraft&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Fluorite ore spawns in scattered veins around y-level 35&lt;/li&gt;
 &lt;li&gt;Cadmium spawn in largish veins around y-level&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;ender-io:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Ender IO&lt;/h3&gt;
+&lt;h3 id=&#34;ender-io&#34;&gt;Ender IO&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Hard machine recipes are turned on&lt;/li&gt;
@@ -722,13 +729,13 @@
 &lt;li&gt;Aluminum Brass can now be made in the alloy smelter&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;enhanced-portals:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Enhanced Portals&lt;/h3&gt;
+&lt;h3 id=&#34;enhanced-portals&#34;&gt;Enhanced Portals&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Now requires steel instead of iron&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;extrautilities:22391f28610b60a1b0da7b5f40048d56&#34;&gt;ExtraUtilities&lt;/h3&gt;
+&lt;h3 id=&#34;extrautilities&#34;&gt;ExtraUtilities&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Magnum torch disabled&lt;/li&gt;
@@ -742,7 +749,7 @@
 &lt;li&gt;Blackout Curtains have an alternate recipe&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;forestry:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Forestry&lt;/h3&gt;
+&lt;h3 id=&#34;forestry&#34;&gt;Forestry&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Disabled Ore Gen&lt;/li&gt;
@@ -750,7 +757,7 @@
 &lt;li&gt;Adventurers bags are renamed Ammo Bags (both sizes). They can hold Stefinus 3D guns ammo&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;galacticraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Galacticraft&lt;/h3&gt;
+&lt;h3 id=&#34;galacticraft&#34;&gt;Galacticraft&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Most, but not all ores spawn on the moon. In particular, ReactorCraft ores are extremely plentiful.&lt;/li&gt;
@@ -763,13 +770,13 @@
 &lt;li&gt;Coal generator has been removed&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;gardenstuff:22391f28610b60a1b0da7b5f40048d56&#34;&gt;GardenStuff&lt;/h3&gt;
+&lt;h3 id=&#34;gardenstuff&#34;&gt;GardenStuff&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Fixed all lattice recipes so they don&amp;rsquo;t collide with other mods&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;heacrumbs:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Heacrumbs&lt;/h3&gt;
+&lt;h3 id=&#34;heacrumbs&#34;&gt;Heacrumbs&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Baarbra no longer spawns (TPS heavy)&lt;/li&gt;
@@ -777,7 +784,7 @@
 &lt;li&gt;Added Revolution Pack celebrities&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;hunger-overhaul:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Hunger Overhaul&lt;/h3&gt;
+&lt;h3 id=&#34;hunger-overhaul&#34;&gt;Hunger Overhaul&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Many tweaks to the difficulty of Hunger Overhaul, generally making it somewhat easier than the default configs.&lt;/li&gt;
@@ -793,7 +800,7 @@
 &lt;li&gt;Difficulty level scales hunger rates 50% more&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;iguana-tinker-tweaks:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Iguana Tinker Tweaks&lt;/h3&gt;
+&lt;h3 id=&#34;iguana-tinker-tweaks&#34;&gt;Iguana Tinker Tweaks&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Vanilla tools can only be used for crafting&lt;/li&gt;
@@ -801,7 +808,7 @@
 &lt;li&gt;Osmium requires an ardite pickaxe or better&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;immersive-engineering:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Immersive Engineering&lt;/h3&gt;
+&lt;h3 id=&#34;immersive-engineering&#34;&gt;Immersive Engineering&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Power cables transfer power at the same rate as other mods&lt;/li&gt;
@@ -810,13 +817,13 @@
 &lt;li&gt;Revolver shares parts with Stefinus 3D Guns mod&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;jabba:22391f28610b60a1b0da7b5f40048d56&#34;&gt;JABBA&lt;/h3&gt;
+&lt;h3 id=&#34;jabba&#34;&gt;JABBA&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Removed Diamond Dolly&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;mekanism:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Mekanism&lt;/h3&gt;
+&lt;h3 id=&#34;mekanism&#34;&gt;Mekanism&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mekanism generators produce RF at a 66% penalty (Mekanism and Galacticraft machines are not affected).&lt;/li&gt;
@@ -828,7 +835,7 @@
 &lt;li&gt;Portable tank now uses steel plates&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;openblocks:22391f28610b60a1b0da7b5f40048d56&#34;&gt;OpenBlocks&lt;/h3&gt;
+&lt;h3 id=&#34;openblocks&#34;&gt;OpenBlocks&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Sonic glasses have an alternative recipe&lt;/li&gt;
@@ -836,27 +843,27 @@
 &lt;li&gt;Luggage is removed&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;open-modular-turrets:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Open Modular Turrets&lt;/h3&gt;
+&lt;h3 id=&#34;open-modular-turrets&#34;&gt;Open Modular Turrets&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Power requirements for turrets are increased by 10x&lt;/li&gt;
 &lt;li&gt;Turrets cannot attack players&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;plant-mega-pack:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Plant Mega Pack&lt;/h3&gt;
+&lt;h3 id=&#34;plant-mega-pack&#34;&gt;Plant Mega Pack&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Added plants to missing biomes&lt;/li&gt;
 &lt;li&gt;Bamboo grows significantly slower&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;pressure-pipes:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Pressure Pipes&lt;/h3&gt;
+&lt;h3 id=&#34;pressure-pipes&#34;&gt;Pressure Pipes&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Generally, everything requires steel plates instead of iron ingots&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;railcraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;RailCraft&lt;/h3&gt;
+&lt;h3 id=&#34;railcraft&#34;&gt;RailCraft&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Removed poor ores&lt;/li&gt;
@@ -864,7 +871,7 @@
 &lt;li&gt;Engines require plates based on tier (iron, steel) as well as thermal plates&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;randomthings:22391f28610b60a1b0da7b5f40048d56&#34;&gt;RandomThings&lt;/h3&gt;
+&lt;h3 id=&#34;randomthings&#34;&gt;RandomThings&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Disabled Spirit Binder&lt;/li&gt;
@@ -876,7 +883,7 @@
 &lt;li&gt;Monsters spawn slowly when a blood moon starts, instead of all at once.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;reactorcraft:22391f28610b60a1b0da7b5f40048d56&#34;&gt;ReactorCraft&lt;/h3&gt;
+&lt;h3 id=&#34;reactorcraft&#34;&gt;ReactorCraft&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;All ReactorCraft ores spawn generously on the moon; the following changes are to the overworld:&lt;/li&gt;
@@ -888,14 +895,14 @@
 &lt;li&gt;Thorite spawns in the nether in large veins above y-level 10&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;spice-o-life:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Spice O&amp;rsquo; Life&lt;/h3&gt;
+&lt;h3 id=&#34;spice-o-life&#34;&gt;Spice O&amp;rsquo; Life&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Previously-eaten foods are even less nutritious&lt;/li&gt;
 &lt;li&gt;Food history increased to 12 items&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;stefinus-3d-guns:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Stefinus 3D Guns&lt;/h3&gt;
+&lt;h3 id=&#34;stefinus-3d-guns&#34;&gt;Stefinus 3D Guns&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ammo now stacks (stack size depends on ammo type)&lt;/li&gt;
@@ -903,7 +910,7 @@
 &lt;li&gt;Recipes generally require steel or steel plates instead of iron&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;thermal-foundation:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Thermal Foundation&lt;/h3&gt;
+&lt;h3 id=&#34;thermal-foundation&#34;&gt;Thermal Foundation&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;All thermal foundation armor and tools are removed (copper, tin, etc)&lt;/li&gt;
@@ -916,7 +923,7 @@
 &lt;li&gt;Aluminum spawns in common veins above y-level 55&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;tinker-s-construct:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Tinker&amp;rsquo;s Construct&lt;/h3&gt;
+&lt;h3 id=&#34;tinker-s-construct&#34;&gt;Tinker&amp;rsquo;s Construct&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Unified ore so that the Smeltery produces RotaryCraft equivalents where possible (copper, tin, aluminum, silver)&lt;/li&gt;
@@ -924,7 +931,7 @@
 &lt;li&gt;You can no longer smelt golden apples in the smeltery for insane amounts of gold&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;twilight-forest:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Twilight Forest&lt;/h3&gt;
+&lt;h3 id=&#34;twilight-forest&#34;&gt;Twilight Forest&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Random ore gen has been disabled (non-TF ores)&lt;/li&gt;
@@ -932,7 +939,7 @@
 &lt;li&gt;Disabled uncrafting table&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;vanilla:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Vanilla&lt;/h3&gt;
+&lt;h3 id=&#34;vanilla&#34;&gt;Vanilla&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Coal spawn in high seams above y-level 95.&lt;/li&gt;
@@ -947,7 +954,7 @@
 &lt;li&gt;Hopper requires steel plates&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;void-monster:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Void Monster&lt;/h3&gt;
+&lt;h3 id=&#34;void-monster&#34;&gt;Void Monster&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Void monster doesn&amp;rsquo;t spawn in The End, Spectral World, Deep Dark, and The Last Millenium&lt;/li&gt;
@@ -955,7 +962,7 @@
 &lt;li&gt;Anvil requires HSLA Blocks&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;zombie-awareness:22391f28610b60a1b0da7b5f40048d56&#34;&gt;Zombie Awareness&lt;/h3&gt;
+&lt;h3 id=&#34;zombie-awareness&#34;&gt;Zombie Awareness&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Zombies are not attracted to light or sound&lt;/li&gt;
@@ -974,17 +981,17 @@
       <guid>http://revolutionpack.info/article/rev1-first-day/</guid>
       <description>
 
-&lt;h3 id=&#34;alternate-terrain-generator-atg-or-biomes-o-plenty-bop:b116e34dbf360dd5c87d639bee733950&#34;&gt;Alternate Terrain Generator (ATG) or Biomes O&amp;rsquo; Plenty (BoP)&lt;/h3&gt;
+&lt;h3 id=&#34;alternate-terrain-generator-atg-or-biomes-o-plenty-bop&#34;&gt;Alternate Terrain Generator (ATG) or Biomes O&amp;rsquo; Plenty (BoP)&lt;/h3&gt;
 
 &lt;p&gt;When starting a new world, you have a couple of world type options &amp;ndash; either Biomes O&amp;rsquo; Plenty or ATG-Alternate Terrain Generator. I highly recommend changing your world type to ATG &amp;ndash; it generates more realistic rolling hills and surface forms, using the BoP biomes. However, on minimal-memory machines, ATG may cause some hiccups during world generation (there are some workarounds, however). Combined with the Big Trees and Streams mods, an ATG world will be unique and intriguing compared to most Minecraft worlds.&lt;/p&gt;
 
 &lt;p&gt;I also recommend enabling cheats &amp;ndash; just in case &amp;ndash; but if you&amp;rsquo;re the kind that&amp;rsquo;s susceptible to temptation, you can leave it off. We have another alternative in-game.&lt;/p&gt;
 
-&lt;h2 id=&#34;some-performance-tips:b116e34dbf360dd5c87d639bee733950&#34;&gt;Some performance tips&amp;hellip;&lt;/h2&gt;
+&lt;h2 id=&#34;some-performance-tips&#34;&gt;Some performance tips&amp;hellip;&lt;/h2&gt;
 
 &lt;p&gt;There are a few simple things you can do to dramatically increase the performance and your enjoyment of the pack. Immediately upon entering your new world, I highly recommend you save and quit to the main menu, then reload your save. This first save will take a little longer than usual, but will result in a fully generated area around you with minimal lag. I also highly recommend you run &lt;code&gt;/pregenspawn 50&lt;/code&gt; (or 100&amp;hellip;its the radius, in chunks, around your spawn point) to pregenerate a large number of chunks in your vicinity, then repeat the save/load cycle once generation completes. While this will delay your adventuring into the new world, it will give you the best performance from the pack over the course of your play.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-first-day:b116e34dbf360dd5c87d639bee733950&#34;&gt;The First Day&amp;hellip;&lt;/h2&gt;
+&lt;h2 id=&#34;the-first-day&#34;&gt;The First Day&amp;hellip;&lt;/h2&gt;
 
 &lt;p&gt;Welcome to the Revolution! If you&amp;rsquo;re playing in single-player, the first thing your going to want to do is gather enough wood and wool for a crafting table and bed. There&amp;rsquo;s lots of creepy-crawly nasties at night that want to eat or kill you (and a few during the day - find someplace safe!). You&amp;rsquo;ll also want to find a safe biome &amp;ndash; swamps, marshes, deserts, and high areas above y-level 85 spawn some of the most dangerous mobs. Only venture there when you&amp;rsquo;ve got yourself some armor. You&amp;rsquo;ve been warned.&lt;/p&gt;
 
