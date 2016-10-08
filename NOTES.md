@@ -16,11 +16,6 @@
 - Cave dimension mobs
 - FireTick with v16
 
-- change starter gun
-- Bitumen ore - Roadstuff
-- Uranium ore - Techguns
-- Titanium Ore - Techguns
-
 - https://github.com/rwtema/extrautilities/issues/782
 
 ## Pack changes

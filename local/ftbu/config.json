@@ -37,7 +37,12 @@
     "starting_items": [
       "minecraft:stone_pickaxe 1 0",
       "minecraft:stone_axe 1 0",
-      "minecraft:stone_shovel 1 0"
+      "minecraft:stone_shovel 1 0",
+      "harvestcraft:heartybreakfastItem 2 0",
+      "minecraft:torch 8 0",
+      "Techguns:pistol 1 0",
+      "Techguns:TechgunsAmmo 3 2",
+      "minecraft:potion 1 8193"
     ]
   },
   "permissions_admin": {
