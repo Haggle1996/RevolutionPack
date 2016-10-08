@@ -16,5 +16,12 @@
 - Cave dimension mobs
 - FireTick with v16
 - Give 1 magazine plus reloader
- 
+
+- Add Roadstuff/MCHeli
+- Iron duplication from smelting iron-based items, e.g., doors
+
+- Remove Chromastone TiCo tools and rebalance based on Reika's madness.
+
+- https://github.com/rwtema/extrautilities/issues/782
+
 ## Pack changes
