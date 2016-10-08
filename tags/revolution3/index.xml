@@ -7,8 +7,105 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Mon, 18 Jul 2016 18:38:41 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 08 Oct 2016 18:38:41 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The LONG-AWAITED Update, REVOLUTION|3 3.5</title>
+      <link>http://revolutionpack.info/post/311/</link>
+      <pubDate>Sat, 08 Oct 2016 18:38:41 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/311/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Long-time, no update. Sadly, I&amp;rsquo;ve been very busy with work and haven&amp;rsquo;t had as much time to update the packs lately. But good news, we have an update! Now that Reika has released v16 of his mods, I&amp;rsquo;ve taken the opportunity to update REVOLUTION|3 with the latest mods and changes.&lt;/p&gt;
+
+&lt;p&gt;We have some awfully fun stuff for you. Most noticably, we&amp;rsquo;ve replaced Gun Customization and Open Modular Turrets with Techguns. Techguns, in addition to an array of death and destruction, adds new mobs and military bases. If you haven&amp;rsquo;t seen it, you should take a look at the &lt;a href=&#34;https://youtu.be/Uzk39E0wZuI&#34;&gt;Techguns Trailer&lt;/a&gt;. Also, since Techguns features it&amp;rsquo;s own version of bloody explosions, we&amp;rsquo;ve removed Mob Amputation and Mob Dismemberment, so you can enjoy your carnage dialed up to maximum.&lt;/p&gt;
+
+&lt;p&gt;Next up, how many of you complain that all those dead corpses lying around are a distraction? Wouldn&amp;rsquo;t it be great to have to fight your uber self to get your stuff back? If you answered, &amp;lsquo;No!&amp;rsquo; to either of these questions, you&amp;rsquo;re obviously not Haggle1996, who thoroughly enjoys watching players die in epic struggles that rival&amp;rsquo;s William Shatner&amp;rsquo;s fight against the Gorn. With that in mind, we&amp;rsquo;ve replaced Lootable Bodies with Souls. Souls&amp;hellip;.because Haggle doesn&amp;rsquo;t have one and he wants to eat yours.&lt;/p&gt;
+
+&lt;p&gt;Lastly, we&amp;rsquo;ve added Road Stuff, which replaces&amp;hellip;.absolutely NOTHING! Road Stuff is an awesome decorative mod that adds beautiful roads to your post-apocalyptic nightmare. Always remember to yield to pedestrians and passing zombie hordes.&lt;/p&gt;
+
+&lt;p&gt;One final note, with the update to v16 of Reika&amp;rsquo;s mods, there&amp;rsquo;s some additional ChromatiCraft world gen. You&amp;rsquo;ll want to generate some new chunks in order to access these awesome features.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reduced frequency of Thaumcraft Magical Forests&lt;/li&gt;
+&lt;li&gt;Removed custom Chromastone TiCo material, as Reika introduced one of his own&lt;/li&gt;
+&lt;li&gt;Road Stuff bitumen and liquid bitumen is made in the Immersive Engineering Industrial Squeezer&lt;/li&gt;
+&lt;li&gt;Titanium ore is made by combining Volcanic Rock and Sulfur in an Arc Furnace. Volcanic Rocks occur naturally underground. Sulfur is typically produced by processing nether products in a SAG mill or Blaze Rods in a crusher.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thirsty tanks no longer provide infinite water. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/500&#34;&gt;#500&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix sniper scope recipe. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/512&#34;&gt;#512&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update to ChromatiCraft addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/527&#34;&gt;#527&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Placing a second world rift no longer crashes the game &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/466&#34;&gt;#466&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated coal block speed in Coke Oven. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/498&#34;&gt;#498&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Crafting Tweaks disabled for BC Auto Workbench. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/525&#34;&gt;#525&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed a bunch of smeltery exploits. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/503&#34;&gt;#503&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Removed tar sites. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/497&#34;&gt;#497&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/road-stuff&#34;&gt;Road Stuff&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/souls&#34;&gt;Souls&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/techguns&#34;&gt;TechGuns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228529-mod/files/2322543&#34;&gt;Better Foliage 2.0.14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238856-mod/files/2323825&#34;&gt;Better Questing 1.0.155&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238857-mod/files/2328951&#34;&gt;Better Questing Standard Expansion 1.0.99&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/61811-mod/files/2334985&#34;&gt;Buildcraft 7.1.18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228932-mod/files/2333195&#34;&gt;Carpenter&amp;rsquo;s Blocks 3.3.8.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ChromatiCraft v16b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69162-mod/files/2320124&#34;&gt;CoFH Core 3.1.3-327&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/239197-mod/files/2334516&#34;&gt;CraftTweaker 3.0.12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/79616-mod/files/2319068&#34;&gt;DecoCraft2 2.3.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;DragonAPI v16c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Electrical-Age/ElectricalAge&#34;&gt;ElectricalAge 1.12.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ElectriCraft v16b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;Expanded Redstone v16b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ReactorCraft v16b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;RotaryCraft v16c&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;VoidMonster v16a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/64578-mod/files/2322348&#34;&gt;EnderIO 2.3.0.429&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231868-mod/files/2331048&#34;&gt;EnderCore 0.2.0.39&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2333823&#34;&gt;Forestry 4.2.16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223908-mod/files/2321502&#34;&gt;Fossils and Archeology: Revival 7.3.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224476-mod/files/2332505&#34;&gt;Hunger Overhaul 1.0.0-104&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/243298-mod/files/2319767&#34;&gt;LLibrary 1.5.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2334257&#34;&gt;Logistics Pipes 0.9.3 127&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229694-mod/files/2331162&#34;&gt;Matter Overdrive 0.4.2 hotfix1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223008-mod/files/2320098&#34;&gt;OpenComputers 1.6.0.7-rc1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224663-mod/files/2321123&#34;&gt;OpenModularTurrets 2.2.3-220&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2319524&#34;&gt;Realistic Terrain Generation 1.1.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2334235&#34;&gt;Storage Drawers 1.10.4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TIS-3D (pack bloat)&lt;/li&gt;
+&lt;li&gt;Cyano&amp;rsquo;s Lootable Bodies (replaced with Souls)&lt;/li&gt;
+&lt;li&gt;Gun Customization (replaced with Techguns)&lt;/li&gt;
+&lt;li&gt;Open Modular Turrets (replaced with Techguns)&lt;/li&gt;
+&lt;li&gt;Mob Dismemberment (replaced with Techguns)&lt;/li&gt;
+&lt;li&gt;Mob Amputation (replaced with Techguns)&lt;/li&gt;
+&lt;li&gt;Not Enough Keys (interferes with Techguns)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Balance changes to Immersive Engineering</title>
