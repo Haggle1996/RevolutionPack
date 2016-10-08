@@ -8,8 +8,8 @@ menu = ""
 weight = 210
 share = true
 slug = "rev2-gameplay-changes"
-title = "REVOLUTION|2 - Gameplay Changes"
-description = "Updated for v2.1.0.0 Beta"
+title = "REVOLUTION|3 - Gameplay Changes"
+description = "Updated for v3.0.0"
 +++
 
 REVOLUTION|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don't expect everything to work the same as it did in the original Revolution.
@@ -215,9 +215,6 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Tanks are much more expensive.
 - Luggage is removed.
 
-## Open Modular Turrets
-- Turrets cannot attack players
-
 ## Ore Dictionary
 - Added beeswax to ore dictionary for wax
 
@@ -244,8 +241,9 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Blood moon spawn cap is set at 300% of vanilla.
 - Blood moon-spawned monsters despawn in the morning.
 
-## Rockhounding Mod
-- Disabled Chemistry, Mine Crawler, Gemology
+## Road Stuff
+- Bitumen is made by squeezing tar sand in an industrial squeezer 
+- Liquid Bitumen is made by squeezing bitumen in an industrial squeezer
 
 ## Roguelike Dungeons
 - Added a customized modern bunker theme.

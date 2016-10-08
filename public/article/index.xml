@@ -11,7 +11,7 @@
     <atom:link href="http://revolutionpack.info/article/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>REVOLUTION|2 - Gameplay Changes</title>
+      <title>REVOLUTION|3 - Gameplay Changes</title>
       <link>http://revolutionpack.info/article/rev2-gameplay-changes/</link>
       <pubDate>Wed, 23 Dec 2015 11:53:42 -0700</pubDate>
       
@@ -400,12 +400,6 @@
 &lt;li&gt;Luggage is removed.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;open-modular-turrets&#34;&gt;Open Modular Turrets&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Turrets cannot attack players&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;ore-dictionary&#34;&gt;Ore Dictionary&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -444,10 +438,11 @@
 &lt;li&gt;Blood moon-spawned monsters despawn in the morning.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;rockhounding-mod&#34;&gt;Rockhounding Mod&lt;/h2&gt;
+&lt;h2 id=&#34;road-stuff&#34;&gt;Road Stuff&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Disabled Chemistry, Mine Crawler, Gemology&lt;/li&gt;
+&lt;li&gt;Bitumen is made by squeezing tar sand in an industrial squeezer&lt;/li&gt;
+&lt;li&gt;Liquid Bitumen is made by squeezing bitumen in an industrial squeezer&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;roguelike-dungeons&#34;&gt;Roguelike Dungeons&lt;/h2&gt;
