@@ -11,6 +11,10 @@ val ingot = <RotaryCraft:rotarycraft_item_shaftcraft:1>;
 val rod = <RotaryCraft:rotarycraft_item_shaftcraft:2>;
 val plIron = <ore:plateIron>;
 
+# Iron doors only produce 1 per cast, prevents iron exploit
+recipes.remove(<minecraft:iron_door>);
+recipes.addShaped(<minecraft:iron_door>, [[<ore:ingotIron>,<ore:ingotIron>],[<ore:ingotIron>,<ore:ingotIron>],[<ore:ingotIron>,<ore:ingotIron>]]);
+
 #remove all vanilla armor creation
 recipes.remove(<minecraft:iron_boots>);
 <minecraft:iron_boots>.addTooltip(format.white("DISABLED: Use HSLA Steel armor instead."));

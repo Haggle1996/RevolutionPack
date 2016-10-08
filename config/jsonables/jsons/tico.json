@@ -183,33 +183,6 @@
                 "35 3",
                 "21 3"
             ]              
-        }, 
-        {
-            "name":"Chromastone",
-            "key":"chromastone",
-            "style":"red",
-            "resource":"ChromatiCraft:chromaticraft_item_crafting 21",
-            "materialID":62,
-            "harvestLevel":6,
-            "durability":3000,
-            "miningSpeed":1400,
-            "attack":16,
-            "reinforced":3,
-            "primaryColor":15790320,
-            "value":2,
-            "handleModifier":3,
-            "stonebound":0,
-            "buildParts":false,
-            "modifiers":2,
-            "lore": "Grants the AOE and Valiance enchants",
-            "arrowMass":1.0,
-            "arrowBreakChance":1.2,
-            "bowSpeedMax":10,
-            "bowDrawSpeed":7,
-            "nativeEnchantments": [
-                "90 5",
-                "173 5"
-            ]   
         }
     ],
     "fluids":[  
@@ -288,17 +261,6 @@
             "viscosity":100,
             "color":10109594,
             "castingMaterialID":61,
-            "setFire":false
-        },
-        {
-            "unlocalizedName":"molten.chromastone",
-            "density":100,
-            "gaseous":false,
-            "luminosity":15,
-            "temperature":300,
-            "viscosity":100,
-            "color":15790320,
-            "castingMaterialID":62,
             "setFire":false
         }
     ]

@@ -58,8 +58,6 @@ mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:2
 mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:16>, <liquid:molten.firaxitealloy> * 144, 500, <TConstruct:MetalBlock:10>);
 # 4 Spatial Ingot <ChromatiCraft:chromaticraft_item_crafting:22>
 mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:22>, <liquid:molten.spatial> * 144, 500, <TConstruct:MetalBlock:10>);
-# 5 Chromastone <ChromatiCraft:chromaticraft_item_crafting:21>
-mods.tconstruct.Smeltery.addMelting(<ChromatiCraft:chromaticraft_item_crafting:21>, <liquid:molten.chromastone> * 144, 550, <TConstruct:MetalBlock:10>);
 
 mods.tconstruct.Smeltery.removeMelting(<TConstruct:pickaxeHead:1>);
 mods.tconstruct.Smeltery.removeMelting(<TConstruct:binding:1>);

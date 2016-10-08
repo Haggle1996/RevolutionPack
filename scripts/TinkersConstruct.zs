@@ -5,3 +5,4 @@ val apple = <minecraft:golden_apple>;
 val gapple = <minecraft:golden_apple:1>;
 mods.tconstruct.Smeltery.removeMelting(apple);
 mods.tconstruct.Smeltery.removeMelting(gapple);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:rail>);

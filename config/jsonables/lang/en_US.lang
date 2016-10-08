@@ -32,8 +32,3 @@ material.spatial=Spatial
 tile.molten.spatial=Molten Spatial
 fluid.molten.spatial=Molten Spatial
 item.molten.spatial_bucket=Molten Spatial Bucket
-
-material.chromastone=Chromastone
-tile.molten.chromastone=Molten Chromastone
-fluid.molten.chromastone=Molten Chromastone
-item.molten.chromastone_bucket=Molten Chromastone Bucket

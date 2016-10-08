@@ -82,6 +82,8 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<PracticalLogistics:Sapphire>, <P
 # Coke oven produces coal coke faster
 mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:material:6>);
 mods.immersiveengineering.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, 500, <minecraft:coal>, 240);
+mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:stoneDecoration:3>); 
+mods.immersiveengineering.CokeOven.addRecipe(<ImmersiveEngineering:stoneDecoration:3>, 4500, <minecraft:coal_block>, 2160);
 
 # Blast furnace produces steel faster
 mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:metal:7>);
