@@ -37,16 +37,7 @@
     "starting_items": [
       "minecraft:stone_pickaxe 1 0",
       "minecraft:stone_axe 1 0",
-      "minecraft:stone_shovel 1 0",
-      "GunCus:item.WholyGunCustom.HK_USP_9mm 1 336",
-      "GunCus:item.WholyGunCustom.HK_USP_9mm.magazine 1 0",
-      "GunCus:item.WholyGunCustom.HK_USP_9mm.magazine 1 0",
-      "GunCus:item.WholyGunCustom.HK_USP_9mm.magazine 1 0",
-      "GunCus:item.WholyGunCustom.HK_USP_9mm.magazine 1 0",
-      "GunCus:item.WholyGunCustom.HK_USP_9mm.magazine 1 0",
-      "harvestcraft:heartybreakfastItem 2 0",
-      "minecraft:torch 8 0",
-      "minecraft:potion 1 8193"
+      "minecraft:stone_shovel 1 0"
     ]
   },
   "permissions_admin": {

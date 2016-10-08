@@ -15,12 +15,11 @@
 - Bow stats for new metals
 - Cave dimension mobs
 - FireTick with v16
-- Give 1 magazine plus reloader
 
-- Add Roadstuff/MCHeli
-- Iron duplication from smelting iron-based items, e.g., doors
-
-- Remove Chromastone TiCo tools and rebalance based on Reika's madness.
+- change starter gun
+- Bitumen ore - Roadstuff
+- Uranium ore - Techguns
+- Titanium Ore - Techguns
 
 - https://github.com/rwtema/extrautilities/issues/782
 

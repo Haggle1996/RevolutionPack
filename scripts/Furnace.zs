@@ -13,3 +13,6 @@ furnace.addRecipe(<ImmersiveEngineering:metal:1>, <ore:dustAluminum>);
 
 # Cupronickel/constantin must be blast furnaced
 furnace.remove(<ImmersiveEngineering:metal:5>);
+
+furnace.remove(<roadstuff:itemBitumen>);
+furnace.remove(<roadstuff:itemBitumen:1>);

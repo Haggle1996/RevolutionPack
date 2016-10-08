@@ -98,10 +98,13 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:storage:
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:7>, <ore:ingotIron>, <ImmersiveEngineering:material:13>, 120, 512, [<ImmersiveEngineering:metal:17>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:7>, <ore:dustIron>, <ImmersiveEngineering:material:13>, 120, 512, [<ImmersiveEngineering:metal:17>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:storage:7>, <ore:blockIron>, <ImmersiveEngineering:material:13>, 120, 2048, [<ImmersiveEngineering:metal:17> * 4]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<Techguns:oreTitanIron>, <fossil:volcanicRock>, null, 120, 512, [<Railcraft:dust:1>]);
 
 # Squeezer produces plant oil from canola
 mods.immersiveengineering.Squeezer.addRecipe(<RotaryCraft:rotarycraft_item_canola:2>, <liquid:plantoil> * 10, <RotaryCraft:rotarycraft_item_canola>, 40);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 5, <RotaryCraft:rotarycraft_item_canola:2>, 30); 
+mods.immersiveengineering.Squeezer.addRecipe(<roadstuff:itemBitumen> * 3, null, <RotaryCraft:rotarycraft_item_powders:1>, 60);
+mods.immersiveengineering.Squeezer.addRecipe(<roadstuff:itemBitumen:1>, null, <roadstuff:itemBitumen>, 60);
 
 # Blast furnace produces cupronickel
 mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:5>,<ore:dustCupronickel>, 120, null);
@@ -304,6 +307,9 @@ mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 16,<Hard
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 12,<HarderOres:ore_diamond:2>, 4800, <minecraft:diamond>, 0.25);
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 8,<HarderOres:ore_diamond:1>, 3200, <minecraft:diamond>, 0.25);
 mods.immersiveengineering.Crusher.addRecipe(<HarderOres:ore_chunk:10> * 4,<HarderOres:ore_diamond:0>, 1600, <minecraft:diamond>, 0.25);
+
+# bitumen not made in crusher
+mods.immersiveengineering.Crusher.removeRecipe(<roadstuff:itemBitumen>);
 
 # diamonds in arc furnace
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:diamond> * 1, <HarderOres:ore_chunk:10> * 1, null, 400, 3600, [<minecraft:coal> * 1]);
