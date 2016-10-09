@@ -7,8 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 08 Oct 2016 18:38:41 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 09 Oct 2016 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The WOOT WOOT Update, REVOLUTION|3 3.3.0</title>
+      <link>http://revolutionpack.info/post/320/</link>
+      <pubDate>Sun, 09 Oct 2016 12:00:00 +0000</pubDate>
+      
+      <guid>http://revolutionpack.info/post/320/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone!&lt;/p&gt;
+
+&lt;p&gt;Small update to add only the world&amp;rsquo;s most incredible mod ever! Welcome Traincraft to the REVOLUTION! Woot Woot!&lt;/p&gt;
+
+&lt;p&gt;For those seeking more information about Traincraft, check out these helpful links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.meansoft.si/&#34;&gt;Traincraft Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://traincraft-mod.com/&#34;&gt;Traincraft Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mrbrutal/Traincraft-164/blob/master/LICENSE.md&#34;&gt;Traincraft License&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unfortunately, due to Traincraft&amp;rsquo;s license, I cannot include the mod directly in the pack, so you must manually download it during the installation process. Don&amp;rsquo;t worry, ATLauncher will take you to the right page &amp;ndash; just click the download link and place it in your ATLauncher downloads folder or your default Downloads folder.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Moved Souls to Optional, Recommended for those that play on peaceful mode but don&amp;rsquo;t want to lose their inventory on death.&lt;/li&gt;
+&lt;li&gt;Cleaned up the optional mods list during installation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Iron chisels can no longer be used to harvest obsidian cheaply. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/530&#34;&gt;#530&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/traincraft&#34;&gt;Traincraft&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>The LONG-AWAITED Update, REVOLUTION|3 3.2.0</title>
