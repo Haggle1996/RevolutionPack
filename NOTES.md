@@ -10,15 +10,14 @@
 ## TODO
 
 - Accidentally Circumstantial Events posts radio chatter.
-- Base photos
 
-- Bow stats for new metals
-- Cave dimension mobs
+### Rebalance Advanced Rocketry
+- Remove presser and rolling machine; add equivalents
 
-- Rebalance Advanced Rocketry
-- Galacticraft scripts to separate script unzipper
+- Matter Overdrive and Advanced Rocketry ores
+- Increase resource requirements of middle-tier machines
 
-- Make tactical nukes more expensive
+- Make tactical nukes more expensive (by making reaction chamber more expensive)
 
 - https://github.com/rwtema/extrautilities/issues/782
 

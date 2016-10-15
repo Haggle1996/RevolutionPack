@@ -103,7 +103,6 @@ mods.thaumcraft.Aspects.set(<HarderOres:ore_nickel:14>, "metallum 1");
 mods.thaumcraft.Aspects.set(<HarderOres:ore_nickel:15>, "metallum 1");
 
 //WTF Some of the normal nickel ores dont have aspects? Lets fix that while we are at it.
-mods.thaumcraft.Aspects.set(<GalaxySpace:mercuryblocks:5>, "metallum 1");
 mods.thaumcraft.Aspects.set(<ImmersiveEngineering:ore:4>, "metallum 1");
 
 mods.thaumcraft.Aspects.set(<HarderOres:ore_redstone:0>, "machina 2, potentia 3, terra 1");
