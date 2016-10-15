@@ -14,9 +14,7 @@
 
 - Bow stats for new metals
 - Cave dimension mobs
-- FireTick with v16
 
-- ESM B:"More Spawning"=false
 - Rebalance Advanced Rocketry
 - Galacticraft scripts to separate script unzipper
 

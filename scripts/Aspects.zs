@@ -177,8 +177,6 @@ mods.thaumcraft.Aspects.set(<HarderOres:ore_bauxite:15>, "metallum 3, aer 1, mot
 
 //Again I'm Fixing the other ores while I'm at it. (Aluminum ore blocks fyi)
 mods.thaumcraft.Aspects.set(<ElectriCraft:electricraft_block_ore:4>, "metallum 3, aer 1, motus 1");
-mods.thaumcraft.Aspects.set(<GalacticraftCore:tile.gcBlockCore:7>, "metallum 3, aer 1, motus 1");
-mods.thaumcraft.Aspects.set(<GalacticraftMars:tile.asteroidsBlock:3>, "metallum 3, aer 1, motus 1");
 
 //Iron that spawns under rivers. I added aqua because of this.
 mods.thaumcraft.Aspects.set(<HarderOres:ore_limonite:0>, "terra 1, metallum 3, aqua 1");
