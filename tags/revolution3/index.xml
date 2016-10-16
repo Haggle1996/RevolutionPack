@@ -7,8 +7,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 09 Oct 2016 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Oct 2016 18:38:41 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The &#39;Quests &#39;n&#39; Stars&#39; Update, REVOLUTION|3 3.4.0</title>
+      <link>http://revolutionpack.info/post/340/</link>
+      <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/340/</guid>
+      <description>
+
+&lt;p&gt;Hello everyone! Welcome to the next exciting chapter for REVOLUTION|3!&lt;/p&gt;
+
+&lt;p&gt;Today we bid a fond adieu to a mod that&amp;rsquo;s been in the pack since the original version 1 of the first REVOLUTION pack. GalactiCraft has been with us for a long time, and many adventurers have put their own boot print on the moon dust. Today, we&amp;rsquo;re replacing GC and related mods with a new space exploration adventure, Advanced Rocketry. This mod gives you a whole new universe to explore, with warp drives, mining missions, custom-designed rockets, space stations, and all the fun you can have in a zero-gee, atmosphere-free environment!&lt;/p&gt;
+
+&lt;p&gt;Also, very exciting news care of Eb-, we have starter quests! Yay! If you&amp;rsquo;d like to enable the starter quests in an existing world, simply type &lt;code&gt;/bq_admin default load&lt;/code&gt;. These quests are very much like the originals from the HQM book, and will help players get started in the pack.&lt;/p&gt;
+
+&lt;p&gt;In addition, we&amp;rsquo;ve made a number of tweaks and balances to the pack, including a good use for all that cobblestone you have piling up.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re updating a saved map to 3.4.0, you will receive a missing block message. It is OK to proceed into the world.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added starter quests, many thanks to EB-!! To add them to an existing world, do &lt;code&gt;/bq_admin default load&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Reduced insanity of zombie mobs (this makes the game easier)&lt;/li&gt;
+&lt;li&gt;Changed the Thaumic Horizons Pocket Dim ID to 4; if you&amp;rsquo;ve been using this dimension, you&amp;rsquo;ll need to retrieve anything from there before this update (DO NOT RENUMBER IT IN THE CONFIG)&lt;/li&gt;
+&lt;li&gt;Reenabled the Extra Utilities Angel ring, with OP recipe.&lt;/li&gt;
+&lt;li&gt;Techguns Small Nuclear Warhead now require plutonium from ReactorCraft instead of Enriched Uranium&lt;/li&gt;
+&lt;li&gt;Added a recipe for processing sand in the Railcraft Rock Crusher, which has a slight chance of producing a common metal per operation&lt;/li&gt;
+&lt;li&gt;Matter Overdrive and Advanced Rocketry dilithium and tritanium are obtained through mining missions (in addition to all other ores previously found on other planets)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/advanced-rocketry&#34;&gt;Advanced Rocketry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/libvulpes&#34;&gt;libVulpes - Advanced Rocketry Dependency&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ChromatiCraft v16d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;DragonAPI v16d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ElectriCraft v16d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ReactorCraft v16d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;RotaryCraft v16d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2336229&#34;&gt;Logistics Pipes 0.9.3-128&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GalactiCraft and related&lt;/li&gt;
+&lt;li&gt;Galaxy Space&lt;/li&gt;
+&lt;li&gt;The optional, REV|2 compatibility mods (you&amp;rsquo;ll need to stay on 3.3.0, if you&amp;rsquo;re using a REV|2 map)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The WOOT WOOT Update, REVOLUTION|3 3.3.0</title>
