@@ -65,3 +65,5 @@ recipes.addShapeless(<ImmersiveEngineering:metal:36>,[<Railcraft:part.plate:3>])
 # Fix Steel Blocks
 recipes.remove(<Railcraft:cube:2>);
 
+# Rock Crusher can process interesting things
+mods.railcraft.RockCrusher.addRecipe(<minecraft:sand>, false, false, [<HarderOres:smallDust:8>,<HarderOres:smallDust:14>,<HarderOres:smallDust:12>,<HarderOres:smallDust:17>,<HarderOres:smallDust:13>,<HarderOres:smallDust:18>,<HarderOres:smallDust:9>,<HarderOres:smallDust:16>,<HarderOres:ore_chunk:10>], [0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.0075, 0.0075, 0.0075, 0.005]);

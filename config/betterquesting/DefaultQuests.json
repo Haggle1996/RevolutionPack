@@ -1,0 +1,1736 @@
+{
+  "editMode": true,
+  "hardcore": false,
+  "defLives": 3,
+  "maxLives": 10,
+  "questDatabase": [
+    {
+      "questID": 0,
+      "name": "Tanning Leather",
+      "description": "Leather is a useful resource, but before we can use it, we must tan the hide. Make a tanning rack and place Raw Hide onto it, over time, the hide will turn into leather!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:leather",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:leather",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:leather_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leather_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 1,
+      "name": "Decocraft",
+      "description": "If you wanted to decorate your surroundings, make this bench.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "props:props",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 508
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "props:props",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 508
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:dye",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "minecraft:clay_ball",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 2,
+      "name": "Tool Tinkering",
+      "description": "Tools can have special effects applied to them by adding certain items to them in an anvil. Highlight over any tool, then press shift and control to see what possible upgrades the tool has.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:anvil",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:anvil",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:iron_pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "3x1 Iron Pickaxe"
+                },
+                "ToolUtilities:THREExONE:4": 1,
+                "ToolUtilities:THREExTHREE:4": 0
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "amount": 20,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 3,
+      "name": "Hardened Leather",
+      "description": "Hardened leather makes for great armor. The wax used to harden the leather can be made by breeding Pam\u0027s Harvestcraft Bees in a Pam\u0027s Harvestcraft Apiary.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:hardenedleatherItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:hardenedleatherItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:hardenedleatherhelmItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:hardenedleatherchestItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:hardenedleatherleggingsItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:hardenedleatherbootsItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        0
+      ]
+    },
+    {
+      "questID": 4,
+      "name": "Milling Ores",
+      "description": "You can double the amount of metal you get from ores by building a windmill. You can also grind bones into bonemeal, and sugarcane into sugar! Follow the guide to building windmills in the guides section of your inventory.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HarderOres:machine_windvane",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "HarderOres:machine_millstone",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HarderOres:machine_windvane",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "HarderOres:machine_axle",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HarderOres:ore_chunk",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "minecraft:bone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "woodenbucket:wbBucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 5,
+      "name": "Sifting Tiny Dusts",
+      "description": "Placing a sifter underneath the wooden hopper at the bottom of your windmill will automatically combine 8 tiny metal dusts into 1 regular dust. These dusts can be pulled from the sifter via a hopper.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HarderOres:machine_sifter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "HarderOres:machine_sifter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:clay_ball",
+              "Count": 56,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:brick",
+              "Count": 56,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Techguns:TechgunsAmmo",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "ImmersiveEngineering:tool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        4
+      ]
+    },
+    {
+      "questID": 6,
+      "name": "Making Coal Coke",
+      "description": "To make coal coke, you\u0027ll need to first make a coke oven. Coal coke is made by placing coal in the coke oven, and waiting. Coal coke burns longer than coal, and is used in making steel. Creosote Oil is a byproduct of creating coal coke or charcoal in the coke oven, and can be used to treat wood, or as liquid fuel. Check the Engineer\u0027s Manual you received for completing the last quest to see how to build the Coke Oven multiblock structure.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ImmersiveEngineering:material",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ImmersiveEngineering:stoneDecoration",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ImmersiveEngineering:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:blaze_powder",
+              "Count": 14,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:brick",
+              "Count": 56,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:netherbrick",
+              "Count": 56,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:bread",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        5
+      ]
+    },
+    {
+      "questID": 7,
+      "name": "Leaving the bunker.",
+      "description": "Good morning! It\u0027s been \u003cREDACTED\u003e centuries since you entered cryosleep. There\u0027s nothing for you to live off of down here, so let\u0027s get you into the world! Enter the pin 8937 to leave your cryocell, then find the teleporter and use it to leave the bunker. The world is a very dangerous place, make sure you leave during the day!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Techguns:doorItem01",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "name": "New Location",
+          "posX": 0,
+          "posY": 84,
+          "posZ": 0,
+          "dimension": 0,
+          "range": 25,
+          "visible": false,
+          "hideInfo": false,
+          "taskID": "bq_standard:location"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 8,
+      "name": "Shelter!",
+      "description": "The world is a very dangerous place, especially at night. Building a shelter should be your highest priority. Wood will do nicely for now, be careful to not burn it down with a torch! NOTE: Undead are smart, they can use buttons, levers, and doors. They will actively seek light sources to break! Additionally, they will dig through cobblestone, dirt, gravel, sand, and grass to reach you. Build your first shelter out of wood!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "OpenBlocks:village_highlighter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:log",
+              "Count": 16,
+              "OreDict": "logWood",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Railcraft:lantern.stone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        7
+      ]
+    },
+    {
+      "questID": 9,
+      "name": "A Bed",
+      "description": "Even insomniacs need a place to rest from time to time. NOTE: Night can\u0027t be slept away, but beds work as spawnpoints if you die!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersBed",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "CarpentersBlocks:itemCarpentersBed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bread",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Techguns:TechgunsAmmo",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        11
+      ]
+    },
+    {
+      "questID": 10,
+      "name": "Finding Ores",
+      "description": "Finding ores is a bit harder than in Vanilla Minecraft. Ores generate in rare, but massive veins which can travel thousands of blocks. Some veins even branch out from a massive motherlode of ore!  It\u0027ll take some time for you to find your first vein, but after that, you\u0027re set. To start looking for veins, as well as to get your first iron dusts, you\u0027ll need to make a sluice. Next, you\u0027ll need to find a poorjoe flower. If the flower was naturally generated, or freshly made by bonemeal, that means there\u0027s iron ore somewhere within 30 blocks of the flower.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HarderOres:machine_sluice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "HarderOres:machine_sluice",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "HarderOres:ore_flowers",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "woodenbucket:wbBucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        8
+      ]
+    },
+    {
+      "questID": 11,
+      "name": "Safe Lighting",
+      "description": "Having a light source that won\u0027t burn down your house or extinguish after a few hours would be nice.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:lantern.stone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 9
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:lantern.stone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Railcraft:lantern.stone",
+              "Count": 56,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        8
+      ]
+    },
+    {
+      "questID": 12,
+      "name": "Obtaining Ore",
+      "description": "Now that we have found a poorjoe, and have a sluice ready, let\u0027s sluice for iron dust! Open your inventory, and click the \"Guides\" button to the left of your character portrait, then follow the sluice guide. Do note however, the sluice is slow, you\u0027ll want to find that iron vein before too long so that you can easily get as much ore as you need.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "HarderOres:smallDust",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "HarderOres:smallDust",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "HarderOres:smallDust",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "Techguns:TechgunsAmmo",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        10
+      ]
+    },
+    {
+      "questID": 13,
+      "name": "Iron Age!",
+      "description": "We have a house, we have some iron, It\u0027s time to leave the stone age.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:iron_pickaxe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:iron_pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Techguns:TechgunsAmmo",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "minecraft:bread",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "amount": 10,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp"
+        }
+      ],
+      "preRequisites": [
+        12,
+        9
+      ]
+    },
+    {
+      "questID": 14,
+      "name": "Steel!",
+      "description": "Steel is made in a Immersive Engineering blast furnace by placing both iron and coal coke inside of it, and waiting. Steel is very commonly used, so be sure to stock up! Please check the Engineer\u0027s Manual  for more details and for instructions on how to create the Blast Furnace multiblock structure.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:ingot",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ImmersiveEngineering:stoneDecoration",
+              "Count": 28,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ImmersiveEngineering:metal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ImmersiveEngineering:metal",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "minecraft:slime_ball",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        6
+      ]
+    },
+    {
+      "questID": 15,
+      "name": "Windmills",
+      "description": "To generate power, we can use a windmill.  A windmill will generate more power the higher it is placed. Before you can pull power out of a windmill, you will need to make a Kinetic Dynamo (covered in the next quest).",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ImmersiveEngineering:woodenDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ImmersiveEngineering:woodenDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ImmersiveEngineering:metal",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        6
+      ]
+    },
+    {
+      "questID": 16,
+      "name": "Watermills",
+      "description": "To generate power, we can use a Watermill. Watermills are difficult to build properly, but are much more reliable than windmills. Up to three watermills may be placed in a row, and water must be run over them to generate power. The more water running over one side of the watermill, the better. Before we can pull power out of the watermill, we will need to make a Kinetic Dynamo (covered in the next quest)",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ImmersiveEngineering:woodenDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ImmersiveEngineering:woodenDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ImmersiveEngineering:metal",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        6
+      ]
+    },
+    {
+      "questID": 17,
+      "name": "Making Electricity",
+      "description": "Before we can pull power out of our wind/watermills, we will need to make a Kinetic Dynamo. Once the dynamo is made, place it where you want your wind/watermill to start, then place the wind/watermill directly on the side with the small grey square. Transfering power will be covered in the next quest.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 9
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ImmersiveEngineering:metalDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ImmersiveEngineering:metalDevice",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ImmersiveEngineering:coil",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "ImmersiveEngineering:metal",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        15,
+        16
+      ]
+    },
+    {
+      "questID": 18,
+      "name": "Heating Furnaces with Electricity",
+      "description": "To save on fuel, we can use power to heat our furnaces! First, make a Furnace heater, and attach it to a furnace, then whack one side of the heater with an Immersive Engineering hammer to designate where power will come in. Next put a LV connecter on the power input of the External Heater, then a LV connecter on your Kinetic Dynamo\u0027s power output (on the top). If done properly, power should now transfer between the Kinetic Dynamo and the External Heater. The furnace will consume power whenever there is something to smelt in the furnace. NOTE: Beware of overloading wires, wires will burn out if too much power goes through them. Check the Engineer\u0027s Manual for load limits of different types of wires, and/or use a different means conveying the electricity such as enderio conduits.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 12
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ImmersiveEngineering:metalDevice",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 12
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Techguns:TechgunsAmmo",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "ImmersiveEngineering:metal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "ImmersiveEngineering:metal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        17
+      ]
+    },
+    {
+      "questID": 19,
+      "name": "Making a Plate Press",
+      "description": "Hammering ingots into plates is both annoying and inneficient. We can do better, and use half resources per plate by making a Plate Press. Refer to the Engineer\u0027s Manual on how to construct a multiblock plate press to save you future headaches. You can combine the silver and gold grit received from the previous quest to make electrum to help make the press.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ImmersiveEngineering:metalDecoration",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ImmersiveEngineering:metalDecoration",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Railcraft:ingot",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "amount": 20,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp"
+        }
+      ],
+      "preRequisites": [
+        18
+      ]
+    },
+    {
+      "questID": 20,
+      "name": "Finally, a Proper Bucket!",
+      "description": "About time.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:bucket",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:emerald",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        19
+      ]
+    },
+    {
+      "questID": 21,
+      "name": "We need a name.",
+      "description": "Make a sign, and name your outpost!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:sign",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:sign",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Techguns:TechgunsAmmo",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "TravellersGear:simpleGear",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Survivor"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        20
+      ]
+    },
+    {
+      "questID": 22,
+      "name": "Water Tanks",
+      "description": "Infinite water sources no longer exsist in this pack. There are a few ways to collect water without turning the world into a desert. The easiest for early game being the Railcraft Water Tank. The tank is a multiblock structure made of Water Tank Sidings, 3x3x3 and hollow in the middle.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Railcraft:machine.alpha",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 14
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Railcraft:machine.alpha",
+              "Count": 26,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bread",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Techguns:TechgunsAmmo",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        14
+      ]
+    }
+  ],
+  "questLines": [
+    {
+      "name": "Day 1: The basics",
+      "description": "A set of quests to help you get started.",
+      "quests": [
+        {
+          "id": 8,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 9,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 10,
+          "x": 96,
+          "y": 48
+        },
+        {
+          "id": 11,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 12,
+          "x": 144,
+          "y": 48
+        },
+        {
+          "id": 13,
+          "x": 192,
+          "y": 24
+        },
+        {
+          "id": 0,
+          "x": 240,
+          "y": 24
+        },
+        {
+          "id": 1,
+          "x": 288,
+          "y": 24
+        },
+        {
+          "id": 2,
+          "x": 240,
+          "y": 72
+        },
+        {
+          "id": 3,
+          "x": 288,
+          "y": 72
+        },
+        {
+          "id": 4,
+          "x": 192,
+          "y": 96
+        },
+        {
+          "id": 5,
+          "x": 96,
+          "y": 96
+        },
+        {
+          "id": 6,
+          "x": 48,
+          "y": 138
+        },
+        {
+          "id": 14,
+          "x": 96,
+          "y": 138
+        },
+        {
+          "id": 15,
+          "x": 72,
+          "y": 186
+        },
+        {
+          "id": 16,
+          "x": 48,
+          "y": 234
+        },
+        {
+          "id": 17,
+          "x": 96,
+          "y": 234
+        },
+        {
+          "id": 18,
+          "x": 144,
+          "y": 234
+        },
+        {
+          "id": 19,
+          "x": 192,
+          "y": 234
+        },
+        {
+          "id": 20,
+          "x": 240,
+          "y": 234
+        },
+        {
+          "id": 21,
+          "x": 288,
+          "y": 234
+        },
+        {
+          "id": 22,
+          "x": 144,
+          "y": 114
+        }
+      ]
+    }
+  ]
+}

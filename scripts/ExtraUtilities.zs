@@ -49,3 +49,11 @@ recipes.addShaped(drum,[[steel,pressure,steel],
 #recipes.addShaped(<ExtraUtilities:curtains> * 12, [[<ore:blockWool>,<ore:blockWool>,null],
 #												   [<ore:blockWool>,<ore:blockWool>,<minecraft:string>],
 #												   [<ore:blockWool>,<ore:blockWool>,null]]);
+
+val agilityRune = <HardcoreEnderExpansion:rune:1>;
+val titanium = <mo:dilithium_crystal>;
+val wyvernCore = <DraconicEvolution:wyvernCore>;
+val uprising = <ThaumicTinkerer:focusFlight>;
+
+recipes.removeShaped(<ExtraUtilities:angelRing:*>);
+recipes.addShaped(<ExtraUtilities:angelRing>, [[<minecraft:glass>, agilityRune, <minecraft:glass>], [titanium, wyvernCore, titanium], [<ore:ingotUnstable>, uprising, <ore:ingotUnstable>]]);
