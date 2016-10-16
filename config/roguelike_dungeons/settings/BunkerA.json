@@ -12,20 +12,19 @@
                     "type": "STRIPES",
                     "data": [
                         {
-                            "name": "GalacticraftCore:tile.moonBlock",
-                            "meta": 14
+                            "name": "ExtraUtilities:color_brick",
+                            "meta": 8
                         },
                         {
-                            "name": "GalacticraftCore:tile.moonBlock",
-                            "meta": 14
+                            "name": "ExtraUtilities:color_brick",
+                            "meta": 7
                         },
                         {
-                            "name": "GalacticraftCore:tile.moonBlock",
-                            "meta": 14
+                            "name": "Railcraft:brick.abyssal"
                         },
                         {
-                            "name": "GalacticraftCore:tile.moonBlock",
-                            "meta": 14
+                            "name": "ExtraUtilities:color_brick",
+                            "meta": 8
                         },
                         {
                             "name": "ExtraUtilities:color_brick",

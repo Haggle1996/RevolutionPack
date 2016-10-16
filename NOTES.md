@@ -11,9 +11,10 @@
 
 - Accidentally Circumstantial Events posts radio chatter.
 
+- Galacticraft block in roguelike
+- Remove libvulpes dusts from dictionary
+
 ### Rebalance Advanced Rocketry
 
 
 - https://github.com/rwtema/extrautilities/issues/782
-
-- Quarried materials are useful
