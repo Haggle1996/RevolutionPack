@@ -11,6 +11,56 @@
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The &#39;Haggle is a Wimp&#39; Update, REVOLUTION|3 3.4.1</title>
+      <link>http://revolutionpack.info/post/341/</link>
+      <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/341/</guid>
+      <description>
+
+&lt;p&gt;I tried. I really tried.&lt;/p&gt;
+
+&lt;p&gt;I cannot get Epic Siege Mod to balance at harder difficulties, particularly in SMP. The super-speed zombies fly past you before registering on your screen, and it&amp;rsquo;s not fun. So I&amp;rsquo;ve done something a little different.&lt;/p&gt;
+
+&lt;p&gt;The surface is now safe. Or so your think.&lt;/p&gt;
+
+&lt;p&gt;Underneath you, hordes of zombies and monsters waiting to spew forth from underground caverns and ravines. You need the precious resources deep inside the earth, but watch out&amp;hellip;delving too deep and too greedily can result in your utter destruction! Mwuahahahahah!!&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added the missing furnace recipes for copper, tin, and aluminum dust introduced by LibVulpes&lt;/li&gt;
+&lt;li&gt;The moon is no longer the deciding factor in mob aggresiveness.&lt;/li&gt;
+&lt;li&gt;The surface is &lt;em&gt;generally&lt;/em&gt; peaceful at all times.&lt;/li&gt;
+&lt;li&gt;Underground and anywhere where the light level is always 0 allows mobs to spawn&lt;/li&gt;
+&lt;li&gt;Mobs are more aggressive at griefing vanilla blocks: grass, dirt, sand, gravel, stone, cobblestone. All other blocks are safe.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/zombie-awareness&#34;&gt;Zombie Awareness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/coroutil&#34;&gt;CoroUtil (ZA Dependency)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/special-ai&#34;&gt;Special AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;HaggleTweaks - custom no-sleep mod I wrote allows you to set spawn point, but not sleep through the night.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236542-mod/files/2337069&#34;&gt;Advanced Rocketry 0.9.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236541-mod/files/2337067&#34;&gt;LibVulpes 0.1.5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Epic Siege Mod&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The &#39;Quests &#39;n&#39; Stars&#39; Update, REVOLUTION|3 3.4.0</title>
       <link>http://revolutionpack.info/post/340/</link>
       <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>

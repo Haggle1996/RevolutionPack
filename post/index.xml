@@ -11,6 +11,56 @@
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The &#39;Haggle is a Wimp&#39; Update, REVOLUTION|3 3.4.1</title>
+      <link>http://revolutionpack.info/post/341/</link>
+      <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/341/</guid>
+      <description>
+
+&lt;p&gt;I tried. I really tried.&lt;/p&gt;
+
+&lt;p&gt;I cannot get Epic Siege Mod to balance at harder difficulties, particularly in SMP. The super-speed zombies fly past you before registering on your screen, and it&amp;rsquo;s not fun. So I&amp;rsquo;ve done something a little different.&lt;/p&gt;
+
+&lt;p&gt;The surface is now safe. Or so your think.&lt;/p&gt;
+
+&lt;p&gt;Underneath you, hordes of zombies and monsters waiting to spew forth from underground caverns and ravines. You need the precious resources deep inside the earth, but watch out&amp;hellip;delving too deep and too greedily can result in your utter destruction! Mwuahahahahah!!&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added the missing furnace recipes for copper, tin, and aluminum dust introduced by LibVulpes&lt;/li&gt;
+&lt;li&gt;The moon is no longer the deciding factor in mob aggresiveness.&lt;/li&gt;
+&lt;li&gt;The surface is &lt;em&gt;generally&lt;/em&gt; peaceful at all times.&lt;/li&gt;
+&lt;li&gt;Underground and anywhere where the light level is always 0 allows mobs to spawn&lt;/li&gt;
+&lt;li&gt;Mobs are more aggressive at griefing vanilla blocks: grass, dirt, sand, gravel, stone, cobblestone. All other blocks are safe.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/zombie-awareness&#34;&gt;Zombie Awareness&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/coroutil&#34;&gt;CoroUtil (ZA Dependency)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/special-ai&#34;&gt;Special AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;HaggleTweaks - custom no-sleep mod I wrote allows you to set spawn point, but not sleep through the night.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236542-mod/files/2337069&#34;&gt;Advanced Rocketry 0.9.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236541-mod/files/2337067&#34;&gt;LibVulpes 0.1.5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Epic Siege Mod&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The &#39;Quests &#39;n&#39; Stars&#39; Update, REVOLUTION|3 3.4.0</title>
       <link>http://revolutionpack.info/post/340/</link>
       <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>
@@ -992,85 +1042,6 @@
 &lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
 
 &lt;p&gt;None&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 2.6.0.0 - the &#39;It FINALLY Works!&#39; Update</title>
-      <link>http://revolutionpack.info/post/2600/</link>
-      <pubDate>Mon, 09 May 2016 16:47:31 -0600</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2600/</guid>
-      <description>
-
-&lt;p&gt;Holy Crap!&lt;/p&gt;
-
-&lt;p&gt;Haggle doesn&amp;rsquo;t say &amp;lsquo;Holy Crap!&amp;rsquo; very often, but when he does, there&amp;rsquo;s a good reason for it.&lt;/p&gt;
-
-&lt;p&gt;And HOLY CRAP!&lt;/p&gt;
-
-&lt;p&gt;Draco18s has, after a very long, hard slog, figured out the memory leak that has plagued REVOLUTION|2 since the first alpha days. The pack no longer leaks a significant amount of memory during chunk generation, so you should be able to explore without crashing or massive lag. Also, this means pregeneration options for server admins and industrious players now work quite well. Using &lt;code&gt;/pregenspawn 100&lt;/code&gt; is an awesome way to pregenerate the world around you!&lt;/p&gt;
-
-&lt;p&gt;Because of this, the pack memory requirements have gone down significantly, with 3.5GB being plenty for SSP (you may even be able to squeeze down to 3GB), though I do recommend you allocate 5GB IF you&amp;rsquo;re going to pregenerate your world (and then you can set it back down to 3.5).&lt;/p&gt;
-
-&lt;p&gt;Another big change in this update, we&amp;rsquo;ve moved Rockhounding to optional, not-recommended. While this mod has a lot of promise (and if you&amp;rsquo;re heavily invested in it, go ahead and keep it), the constant block renames and occasional crashes are frustrating a lot of players. Turning it off WILL leave gaps in existing worlds &amp;ndash; but you will clear out a LOT of inventory space! :D&lt;/p&gt;
-
-&lt;p&gt;Last, we&amp;rsquo;ve made a bunch of small balance tweaks to the pack, listed below. In particular, Forestry has received a huge buff to bring it in-line with early game machines (sitting somewhere after the Harder Ores machines, but before the steel age). Not required, but now more attractive for those that want to use it for something other than bees.&lt;/p&gt;
-
-&lt;p&gt;There is also an updated version of Unity in this update. If you&amp;rsquo;re using the resource pack, be sure to switch over to version 1.3.1 AND Unity for RotaryCraft&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Rockhounding is now marked as an optional, not recommended mod. Those of you already playing with it should continue to have it in your pack.&lt;/li&gt;
-&lt;li&gt;Immersive Engineering Graphene Rods (used in the Arc Furnace) now last 4 times longer.&lt;/li&gt;
-&lt;li&gt;The Arc Furnace now cooks diamonds about 20% faster, and in batches of 1 instead of 9.&lt;/li&gt;
-&lt;li&gt;Expanded Redstone devices should no longer tick when manipulated.&lt;/li&gt;
-&lt;li&gt;The Immersive Engineering Crusher now produces more flour and sugar than before.&lt;/li&gt;
-&lt;li&gt;Forestry has been set to EASY mode. This means farms have been buffed significantly.&lt;/li&gt;
-&lt;li&gt;Forestry engines have been re-enabled. This makes some Forestry RF generation schemes more appealing early game.&lt;/li&gt;
-&lt;li&gt;Fuel (for rockets) is now made with kerosone and oil instead of ethanol and oil. This gates it behind Pneumaticraft&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Botania Open Crates no longer fall. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/387&#34;&gt;#387&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/chunk-animator&#34;&gt;Chunk Animator - Client-side Optional (existing players will need to manually select it) &amp;ndash; but give it a whirl!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/unity/files/2295506&#34;&gt;Unity Resource Pack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224472-mod/files/2297733&#34;&gt;AppleCore-mc1.7.10-1.3.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/233140-mod/files/2297230&#34;&gt;Buildcraft Compat 7.1.5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/64578-mod/files/2299072&#34;&gt;EnderIO-1.7.10-2.3.0.425_beta&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232258-mod/files/2299030&#34;&gt;ExpandedIndustry-14.25.0a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232254-mod/files/2299027&#34;&gt;HarderOres-14.25.0a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232257-mod/files/2299029&#34;&gt;HarderWildlife-14.25.0a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232071-mod/files/2299026&#34;&gt;HardLib-14.25.0a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231951-mod/files/2299019&#34;&gt;Immersive Engineering v0.7.7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/journeymap-32274/files/2296716/download&#34;&gt;JourneyMap 1.7.10-5.1.4p1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2298425&#34;&gt;Logistics Pipes 0.9.3 build 121&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/51195-mod/files/2298793&#34;&gt;Railcraft 9.11.0.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2298328&#34;&gt;RTG-1.7.10-0.8.0-RC-2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2298854&#34;&gt;Rockhounding Mod v4.06&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224712-mod/files/2298772&#34;&gt;Wawla-1.7.10-1.0.5.120&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Rockhounding moved to optional/not recommended&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
