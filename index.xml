@@ -32,8 +32,9 @@
 &lt;li&gt;Added the missing furnace recipes for copper, tin, and aluminum dust introduced by LibVulpes&lt;/li&gt;
 &lt;li&gt;The moon is no longer the deciding factor in mob aggresiveness.&lt;/li&gt;
 &lt;li&gt;The surface is &lt;em&gt;generally&lt;/em&gt; peaceful at all times.&lt;/li&gt;
-&lt;li&gt;Underground and anywhere where the light level is always 0 allows mobs to spawn&lt;/li&gt;
+&lt;li&gt;Anywhere where the light level is always 0 allows mobs to spawn (generally underground, unlit areas, but can be anywhere very dark)&lt;/li&gt;
 &lt;li&gt;Mobs are more aggressive at griefing vanilla blocks: grass, dirt, sand, gravel, stone, cobblestone. All other blocks are safe.&lt;/li&gt;
+&lt;li&gt;Souls can only be damaged by the players (no more losing them in lava)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
