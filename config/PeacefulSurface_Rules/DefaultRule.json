@@ -1,0 +1,18 @@
+﻿{
+  "Disabled": false,
+  "Living": false,
+  "Mob": true,
+  "Animal": false,
+  "Tameable": false,
+  "Checking_LightLevel": true,
+  "Raining": false,
+  "Thundering": false,
+  "Day": false,
+  "Night": false,
+  "InvertedMobFilter": false,
+  "InvertedDimensionFilter": false,
+  "InvertedLightLevelChecking": false,
+  "mobFilter": "(\bSlime\b)",
+  "dimensionFilter": "(\bThe End\b)|(\bNether\b)",
+  "LightLevel": 0
+}

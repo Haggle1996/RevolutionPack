@@ -11,9 +11,6 @@
 
 - Accidentally Circumstantial Events posts radio chatter.
 
-- Galacticraft block in roguelike
-- Remove libvulpes dusts from dictionary
-
 ### Rebalance Advanced Rocketry
 
 

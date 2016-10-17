@@ -46,3 +46,8 @@ recipes.remove(<advancedRocketry:tile.dataPipe>);
 <advancedRocketry:tile.liquidPipe>.addTooltip(format.yellow("DO NOT USE: Causes world corruption"));
 <advancedRocketry:tile.energyPipe>.addTooltip(format.yellow("DO NOT USE: Causes world corruption"));
 <advancedRocketry:tile.dataPipe>.addTooltip(format.yellow("DO NOT USE: Causes world corruption"));
+
+# Stupid Libvulpes
+furnace.addRecipe(<ImmersiveEngineering:metal>, <ore:dustCopper>);
+furnace.addRecipe(<ElectriCraft:electricraft_item_ingots:1>,<ore:dustTin>);
+furnace.addRecipe(<ImmersiveEngineering:metal:1>,<ore:dustAluminum>);    
