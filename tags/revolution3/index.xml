@@ -11,6 +11,37 @@
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A Quick Update, REVOLUTION|3 3.4.2</title>
+      <link>http://revolutionpack.info/post/342/</link>
+      <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/342/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;Small update here to fixup some bugs and issues discovered since the last update. No mod updates, just a bunch of config fixes and tweaks.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Made souls passive &amp;ndash; they&amp;rsquo;re basically standing chests &amp;ndash; due to certain issues with them aggroing upon teleport&lt;/li&gt;
+&lt;li&gt;Unofficially renaming the pack tagline to &amp;lsquo;Fear the Rain&amp;rsquo;. I&amp;rsquo;ll leave it as an exercise for the reader to figure out why.&lt;/li&gt;
+&lt;li&gt;Passive mobs hate you again and with even more disgust&lt;/li&gt;
+&lt;li&gt;Made mobs more omnipotent. Not quite as omnipotent as Stephen Colbert, but more so than Robert Downy Jr, and more likely to destroy things than Cher.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can no longer make draconium ingots by smelting draconium dust. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/535&#34;&gt;#535&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Techguns tab is back. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/537&#34;&gt;#537&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed a problem where the Advanced Rocketry Assembler and Structural blocks would fall apart due to gravity&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The &#39;Haggle is a Wimp&#39; Update, REVOLUTION|3 3.4.1</title>
       <link>http://revolutionpack.info/post/341/</link>
       <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>
