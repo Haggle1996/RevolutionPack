@@ -7,8 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 15 Oct 2016 18:38:41 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 22 Oct 2016 12:00:00 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Cows are at Peace Update!, REVOLUTION|3 3.4.3</title>
+      <link>http://revolutionpack.info/post/343/</link>
+      <pubDate>Sat, 22 Oct 2016 12:00:00 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/343/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;Really tiny update here (scripts and configs only &amp;ndash; no mod changes) to address some playability and balance issues.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Animals will no longer spawn hostile. They will however, try to rip you to shreds in packs if you attack them.&lt;/li&gt;
+&lt;li&gt;Additional changes to prevent souls from attacking you on teleport.&lt;/li&gt;
+&lt;li&gt;Removed grass from from the list of blocks that zombies will dig up. This prevents the holey ground everyone is experiencing.&lt;/li&gt;
+&lt;li&gt;Heart cannisters are more expensive&lt;/li&gt;
+&lt;li&gt;New questers will only need to complete either the watermill OR windmill quest, whereas previously you had to complete both. If you absolutely need the fix now, do &lt;code&gt;/bg_admin default load&lt;/code&gt;, but your quest progress will likely be lost.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added missing slab recipes for ore dictionary blocks. Fixes&lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/541&#34;&gt;#541&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>A Quick Update, REVOLUTION|3 3.4.2</title>

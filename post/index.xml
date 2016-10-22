@@ -7,8 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 15 Oct 2016 18:38:41 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 22 Oct 2016 12:00:00 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Cows are at Peace Update!, REVOLUTION|3 3.4.3</title>
+      <link>http://revolutionpack.info/post/343/</link>
+      <pubDate>Sat, 22 Oct 2016 12:00:00 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/343/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;Really tiny update here (scripts and configs only &amp;ndash; no mod changes) to address some playability and balance issues.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Animals will no longer spawn hostile. They will however, try to rip you to shreds in packs if you attack them.&lt;/li&gt;
+&lt;li&gt;Additional changes to prevent souls from attacking you on teleport.&lt;/li&gt;
+&lt;li&gt;Removed grass from from the list of blocks that zombies will dig up. This prevents the holey ground everyone is experiencing.&lt;/li&gt;
+&lt;li&gt;Heart cannisters are more expensive&lt;/li&gt;
+&lt;li&gt;New questers will only need to complete either the watermill OR windmill quest, whereas previously you had to complete both. If you absolutely need the fix now, do &lt;code&gt;/bg_admin default load&lt;/code&gt;, but your quest progress will likely be lost.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added missing slab recipes for ore dictionary blocks. Fixes&lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/541&#34;&gt;#541&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>A Quick Update, REVOLUTION|3 3.4.2</title>
@@ -945,69 +975,6 @@
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235442-mod/files/2302332&#34;&gt;ModularPowersuits-0.11.0.301&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222211-mod/files/2302312&#34;&gt;NotEnoughItems-1.7.10-1.0.5.120-universal&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238603-mod/files/2302428&#34;&gt;TIS-3D-MC1.7.10-0.9.0.66&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
-
-&lt;p&gt;None&lt;/p&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;p&gt;None&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 Update 2.7.1.0</title>
-      <link>http://revolutionpack.info/post/2710/</link>
-      <pubDate>Fri, 20 May 2016 21:58:34 -0600</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2710/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;Welcome to the next exciting release of REVOLUTION|2! Today&amp;rsquo;s update mostly addresses the SMP crash issue with v13 of Reika&amp;rsquo;s mods and Ender IO, while adding a few convenience of life additions, including Crafting Tweaks! Yay!&lt;/p&gt;
-
-&lt;p&gt;Volcanoes have also been re-enabled in world gen, now that RTG finally supports it. Also, Practical Logistics crashes have been addressed. It&amp;rsquo;s a great mod to try!&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Increased frequency of ReactorCraft ores in the Cave dimension.&lt;/li&gt;
-&lt;li&gt;Hives (including the Ender Hive) can be created through Botania Mana Alchemy. You can scoop up hives by crafting a Scooperator MX200 (from Gendustry) and shift+right-clicking a hive (not left-clicking).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;NASA workbench recipe adjusted to use vanilla and compatible crafting tables. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/422&#34;&gt;#422&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Vibrant and Energetic alloys can once again be smelted correctly in the Arc Furnace. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/416&#34;&gt;#416&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Portals to the Deep Dark and Last Millenium have been disabled; they were never intended to be used, but their existence caused confusion. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/419&#34;&gt;#419&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Ender Hives can be transmuted through Botania; solves the problem with them not generating in The End. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/427&#34;&gt;#427&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/crafting-tweaks&#34;&gt;Crafting Tweaks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228027-mod/files/2300352&#34;&gt;BiblioCraft v1.11.5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/242276-mod/files/2300907&#34;&gt;Binnie Patcher - Curse v1.7-FIX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/76544-mod/files/2300592&#34;&gt;ClimateControl-0.6.beta55&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/79616-mod/files/2293819&#34;&gt;Decocraft-2.3.2_1.7.10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/SleepyTrousers/EnderIO/issues/3298&#34;&gt;Ender IO 2.3.0.t3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229218-mod/files/2300511&#34;&gt;ExtraCells-1.7.10-2.3.10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2300493&#34;&gt;Logistics Pipes 0.9.3 (BC7) build 122&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/240562-mod/files/2300930&#34;&gt;Practical-Logistics-0.2.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2301604&#34;&gt;RTG-1.7.10-0.8.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226943-mod/files/2300643&#34;&gt;Rockhounding Mod v4.07b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/239418-mod/files/2300936&#34;&gt;Sonar-Core - Version 1.1.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2300162&#34;&gt;StorageDrawers-1.7.10-1.9.8&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
