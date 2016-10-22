@@ -110,7 +110,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:storage:
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:7>, <ore:ingotIron>, <ImmersiveEngineering:material:13>, 120, 512, [<ImmersiveEngineering:metal:17>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:7>, <ore:dustIron>, <ImmersiveEngineering:material:13>, 120, 512, [<ImmersiveEngineering:metal:17>]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:storage:7>, <ore:blockIron>, <ImmersiveEngineering:material:13>, 120, 2048, [<ImmersiveEngineering:metal:17> * 4]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<Techguns:oreTitanIron>, <fossil:volcanicRock>, null, 120, 512, [<Railcraft:dust:1>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<Techguns:oreTitanIron>, <fossil:volcanicRock>, null, 120, 512, [<ore:dustSulfur>]);
 
 # Squeezer produces plant oil from canola
 mods.immersiveengineering.Squeezer.addRecipe(<RotaryCraft:rotarycraft_item_canola:2>, <liquid:plantoil> * 10, <RotaryCraft:rotarycraft_item_canola>, 40);
