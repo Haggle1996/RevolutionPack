@@ -31,10 +31,18 @@ recipes.removeShapeless(<ImmersiveEngineering:metal:32>);
 recipes.addShapeless(<ImmersiveEngineering:metal:32>, [<ore:ingotAluminum>,<ore:ingotAluminum>,<ImmersiveEngineering:tool>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:32>, [<ImmersiveEngineering:metalDecoration2>]);
 
+# Aluminum slabs made from ore dictionary
+recipes.remove(<ImmersiveEngineering:storageSlab:1>);
+recipes.addShaped(<ImmersiveEngineering:storageSlab:1> * 6, [[<ore:blockAluminum>,<ore:blockAluminum>,<ore:blockAluminum>]]);
+
 # Lead
 recipes.removeShapeless(<ImmersiveEngineering:metal:33>);
 recipes.addShapeless(<ImmersiveEngineering:metal:33>, [<ore:ingotLead>,<ore:ingotLead>,<ImmersiveEngineering:tool>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:33>, [<ImmersiveEngineering:metalDecoration2:1>]);
+
+# Copper slabs made from ore dictionary
+recipes.remove(<ImmersiveEngineering:storageSlab>);
+recipes.addShaped(<ImmersiveEngineering:storageSlab> * 6, [[<ore:blockCopper>,<ore:blockCopper>,<ore:blockCopper>]]);
 
 # Cupronickel
 recipes.removeShapeless(<ImmersiveEngineering:metal:36>);
@@ -44,6 +52,10 @@ recipes.addShapeless(<ImmersiveEngineering:metal:36>, [<ore:ingotConstantan>,<or
 recipes.removeShapeless(<ImmersiveEngineering:metal:38>);
 recipes.addShapeless(<ImmersiveEngineering:metal:38>, [<ore:ingotSteel>,<ore:ingotSteel>,<ImmersiveEngineering:tool>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:38>, [<ImmersiveEngineering:metalDecoration2:2>]);
+
+# Steel slabs made from ore dictionary
+recipes.remove(<ImmersiveEngineering:storageSlab:7>);
+recipes.addShaped(<ImmersiveEngineering:storageSlab:7> * 6, [[<ore:blockSteel>,<ore:blockSteel>,<ore:blockSteel>]]);
 
 # RC Tin plates made on Metal Press
 mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.plate:2>, <ore:ingotTin>, <ImmersiveEngineering:mold>, 500, 1);

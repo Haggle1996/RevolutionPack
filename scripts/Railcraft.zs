@@ -62,6 +62,10 @@ recipes.addShapeless(<ImmersiveEngineering:metal:30>,[<Railcraft:part.plate>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:38>,[<Railcraft:part.plate:1>]);
 recipes.addShapeless(<ImmersiveEngineering:metal:36>,[<Railcraft:part.plate:3>]);
 
+# Tin slabs made from ore dictionary
+recipes.remove(<Railcraft:slab:41>);
+recipes.addShaped(<Railcraft:slab:41> * 6, [[<ore:blockTin>,<ore:blockTin>,<ore:blockTin>]]);
+
 # Fix Steel Blocks
 recipes.remove(<Railcraft:cube:2>);
 

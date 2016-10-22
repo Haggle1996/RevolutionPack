@@ -11,11 +11,6 @@
 ## TODO
 
 - Accidentally Circumstantial Events posts radio chatter.
-- Heart cannisters should be more expensive?
-- Bibliocraft Bookcase recipe says creative only and appears to be uncraftable.
-- Scale back neutrals turning hostile (depacify)
-- Waterwheel/windmill quest not mutually exclusive
-- Add grass to list of non-griefable blocks
 
 ### Rebalance Advanced Rocketry
 

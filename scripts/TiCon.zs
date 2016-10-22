@@ -9,6 +9,12 @@ import minetweaker.item.IItemStack;
 <TConstruct:woodPattern:22>.addTooltip(format.yellow("Can be crafted with two Wide Guard Patterns"));
 mods.nei.NEI.hide(<TConstruct:CraftedSoil:1>);
 
+# Make heart containers more expensive
+recipes.remove(<TConstruct:heartCanister>);
+recipes.addShaped(<TConstruct:heartCanister>, [[null,<ChromatiCraft:chromaticraft_item_crafting:21>,null],
+                                               [<ChromatiCraft:chromaticraft_item_crafting:21>,<TConstruct:materials:8>,<ChromatiCraft:chromaticraft_item_crafting:21>],
+                                               [null,<ChromatiCraft:chromaticraft_item_crafting:21>,null]]);
+
 # Make materials suck for materials I can't remove
 mods.tconstruct.ToolStats.setStats("Flint", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
 mods.tconstruct.ToolStats.setStats("MagicWood", "Disabled", 1, 1, 1, 1, 0.01, 0, 0, "", 0);
