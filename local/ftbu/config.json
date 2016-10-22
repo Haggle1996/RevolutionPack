@@ -24,7 +24,7 @@
   "general": {
     "blocked_entities": [],
     "restart_timer": 0.0,
-    "safe_spawn": false,
+    "safe_spawn": true,
     "server_info_difficulty": true,
     "server_info_mode": true,
     "spawn_area_in_sp": false,
