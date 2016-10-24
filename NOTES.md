@@ -12,6 +12,8 @@
 
 - Accidentally Circumstantial Events posts radio chatter.
 
+- Add podzol to the non-griefable blocks.
+
 ### Rebalance Advanced Rocketry
 
 

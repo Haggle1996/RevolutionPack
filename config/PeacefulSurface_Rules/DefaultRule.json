@@ -10,9 +10,9 @@
   "Day": false,
   "Night": false,
   "InvertedMobFilter": false,
-  "InvertedDimensionFilter": false,
+  "InvertedDimensionFilter": true,
   "InvertedLightLevelChecking": true,
   "mobFilter": "(\bSlime\b)",
-  "dimensionFilter": "(\bThe End\b)|(\bNether\b)",
+  "dimensionFilter": "(\bOverworld\b)",
   "LightLevel": 0
 }
