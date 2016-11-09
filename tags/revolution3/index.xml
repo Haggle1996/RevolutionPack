@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 22 Oct 2016 12:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 04 Nov 2016 12:00:00 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/tags/revolution3/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Quest for More Money Update!, REVOLUTION|3 3.4.4</title>
+      <link>http://revolutionpack.info/post/344/</link>
+      <pubDate>Fri, 04 Nov 2016 12:00:00 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/344/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;My apologies for the small update &amp;ndash; my availability has dropped dramatically and I only have time to push these couple updates.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added many more quests, thanks to Eb! For existing worlds, you&amp;rsquo;ll need to do &lt;code&gt;/bq_admin default load&lt;/code&gt; to access them.&lt;/li&gt;
+&lt;li&gt;Mobs only grief if they have the right tool (e.g., break blocks if they have a pick). This should slow down the madness.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed a problem with mobs not spawning in the Nether.&lt;/li&gt;
+&lt;li&gt;Edit mode is now off by default for the quests.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The Cows are at Peace Update!, REVOLUTION|3 3.4.3</title>

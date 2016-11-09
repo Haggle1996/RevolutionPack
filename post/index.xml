@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 22 Oct 2016 12:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 04 Nov 2016 12:00:00 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Quest for More Money Update!, REVOLUTION|3 3.4.4</title>
+      <link>http://revolutionpack.info/post/344/</link>
+      <pubDate>Fri, 04 Nov 2016 12:00:00 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/344/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;My apologies for the small update &amp;ndash; my availability has dropped dramatically and I only have time to push these couple updates.&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added many more quests, thanks to Eb! For existing worlds, you&amp;rsquo;ll need to do &lt;code&gt;/bq_admin default load&lt;/code&gt; to access them.&lt;/li&gt;
+&lt;li&gt;Mobs only grief if they have the right tool (e.g., break blocks if they have a pick). This should slow down the madness.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed a problem with mobs not spawning in the Nether.&lt;/li&gt;
+&lt;li&gt;Edit mode is now off by default for the quests.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The Cows are at Peace Update!, REVOLUTION|3 3.4.3</title>
@@ -908,82 +936,6 @@
 &lt;li&gt;Stacks on Stacks&lt;/li&gt;
 &lt;li&gt;Morpheus (server mod for sleep voting) to optional, not recommended&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 Update 2.7.2.0 </title>
-      <link>http://revolutionpack.info/post/2720/</link>
-      <pubDate>Thu, 26 May 2016 10:03:38 -0600</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2720/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;There is absolutely nothing to see here in this update. Not a thing&amp;hellip;except of course for DRACONIC EVOLUTION! Whee!&lt;/p&gt;
-
-&lt;p&gt;But HAGGLE! How could you put such OPness into REV|2? HOW COULD YOU!?!?&lt;/p&gt;
-
-&lt;p&gt;Simple, I say. Make it a worthy reward of being already OP. First, you&amp;rsquo;re going to need some Terrasteel from Botania. Certainly not the end of the world, but it&amp;rsquo;s a start. Add into that Bedrock (RotaryCraft) and Bedrockium (Extra Utilities) ingots, forged from the densest materials in the world. A slick layer of VoidMetal from the Eldritch Horrors of Thaumcraft which channels the energy of the Ender Dragon, and finally, top it all off with a Spatial IO ingot from ChromatiCraft; and what have you for all that hard work? 4 ingots of sweet, sweet Draconium.&lt;/p&gt;
-
-&lt;p&gt;But HAGGLE! That&amp;rsquo;s insane! Who would want to pay such a high price for these ingots!?!?!? That&amp;rsquo;s like gating it behind impossible!&lt;/p&gt;
-
-&lt;p&gt;Or is it? I&amp;rsquo;ll tell you now, there&amp;rsquo;s a secret to getting lots of Draconium. Lots. Just don&amp;rsquo;t tell!&lt;/p&gt;
-
-&lt;p&gt;After that introduction, it&amp;rsquo;s a bit hard to introduce the other big mods added this round, but they&amp;rsquo;re pretty awesome in their own right. First up, we have Gwycraft, a mod from one of our own community players gwydion! Who doesn&amp;rsquo;t love more decorative stones (and a use for all that dye)?&lt;/p&gt;
-
-&lt;p&gt;Rounding out our selection of mods is Hardcore Ender Expansion. Oddly enough, this mod fixes a bunch of problems we had with the End. I thought, &amp;lsquo;Do I want to beg mod authors to fix bugs? Or would I rather add awesome content to explore?&amp;rsquo; Obviously, the bugs won out.&lt;/p&gt;
-
-&lt;p&gt;Lastly, we&amp;rsquo;ve added NotEnoughIDs to the pack, which addresses the problem upgrading from pre-2.7. You shouldn&amp;rsquo;t have to muck about with your NBT stuff anymore.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Draconium Ore does not spawn&lt;/li&gt;
-&lt;li&gt;Draconium Ingots are made in the Arc Furnace using Terrasteel (Botania), Spatial Alloy Ingots (ChromatiCraft), Bedrock Ingots (RotaryCraft), Bedrockium Ingots (Extra Utilities), and VoidMetal Ingots (Thaumcraft).&lt;/li&gt;
-&lt;li&gt;Improved the circumstances in which ChromatiCraft temples can spawn.&lt;/li&gt;
-&lt;li&gt;Fixed some loot bags that should never have been.&lt;/li&gt;
-&lt;li&gt;Changed the Chunk Animator animation to be more awesome in the End and Space.&lt;/li&gt;
-&lt;li&gt;Rebalanced sleeping. Sleeping no longer resets the world clock to morning. However, we&amp;rsquo;ve increased the rate you regain sleep at night and reduced the rate at which you get tired. This also means caffeinated foods and medications are much more useful.&lt;/li&gt;
-&lt;li&gt;You should regenerate your DIM1 (the End) if you&amp;rsquo;ve visited it before and want to enjoy the new content.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The End Dragon is now summonable. Address &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/429&#34;&gt;#429&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fixed a problem with GalactiCraft Biomes IDs. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/431&#34;&gt;#431&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/brandons-core&#34;&gt;Brandon&amp;rsquo;s Core - Draconic Evolution dependency&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/draconic-evolution&#34;&gt;Draconic Evolution&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/gwycraft-a-colored-blocks-mod&#34;&gt;Gwycraft - courtesy of gwydion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/notenoughids&#34;&gt;NotEnoughIDs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/hardcore-ender-expansion&#34;&gt;Hardcore Ender Expansion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224237-mod/files/2302905&#34;&gt;Forbidden Magic-1.7.10-0.575&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232254-mod/files/2302211&#34;&gt;HarderOres-14.25.1c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232257-mod/files/2302213&#34;&gt;HarderWildlife-14.25.1c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/235442-mod/files/2302332&#34;&gt;ModularPowersuits-0.11.0.301&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/222211-mod/files/2302312&#34;&gt;NotEnoughItems-1.7.10-1.0.5.120-universal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238603-mod/files/2302428&#34;&gt;TIS-3D-MC1.7.10-0.9.0.66&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
-
-&lt;p&gt;None&lt;/p&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;p&gt;None&lt;/p&gt;
 </description>
     </item>
     
