@@ -1,5 +1,5 @@
 {
-  "editMode": true,
+  "editMode": false,
   "hardcore": false,
   "defLives": 3,
   "maxLives": 10,
@@ -557,7 +557,7 @@
     {
       "questID": 7,
       "name": "Leaving the bunker.",
-      "description": "Good morning! It\u0027s been \u003cREDACTED\u003e centuries since you entered cryosleep. There\u0027s nothing for you to live off of down here, so let\u0027s get you into the world! Enter the pin 8937 to leave your cryocell, then find the teleporter and use it to leave the bunker. The world is a very dangerous place, make sure you leave during the day!",
+      "description": "Good morning! It\u0027s been \u003cREDACTED\u003e centuries since you entered cryosleep. There\u0027s nothing for you to live off of down here, so let\u0027s get you into the world! Enter the pin 8937 to leave your cryocell, then find the teleporter and use it to leave the bunker. The world is a very dangerous place, make sure you leave during the day!\n\nNOTE: This quest is primarily for server owners who have created their own first-spawn bunker. If you are in singleplayer, or if your server does not have a spawn bunker, simply check the checkbox to the right.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -582,24 +582,28 @@
       "visibility": "NORMAL",
       "tasks": [
         {
-          "name": "New Location",
-          "posX": 0,
-          "posY": 84,
-          "posZ": 0,
-          "dimension": 0,
-          "range": 25,
-          "visible": false,
-          "hideInfo": false,
-          "taskID": "bq_standard:location"
+          "taskID": "bq_standard:checkbox"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": []
     },
     {
       "questID": 8,
       "name": "Shelter!",
-      "description": "The world is a very dangerous place, especially at night. Building a shelter should be your highest priority. Wood will do nicely for now, be careful to not burn it down with a torch! NOTE: Undead are smart, they can use buttons, levers, and doors. They will actively seek light sources to break! Additionally, they will dig through cobblestone, dirt, gravel, sand, and grass to reach you. Build your first shelter out of wood!",
+      "description": "The world is a very dangerous place, especially at night. Building a shelter should be your highest priority. Wood will do nicely for now, be careful to not burn it down with a torch!\n\nNOTE: Undead are smart, they can use buttons, levers, and doors. They will actively seek light sources to break! Additionally, they will dig through cobblestone, dirt, gravel, and sand,to reach you. Build your first shelter out of wood!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -652,12 +656,14 @@
           "rewardID": "bq_standard:item"
         }
       ],
-      "preRequisites": []
+      "preRequisites": [
+        7
+      ]
     },
     {
       "questID": 9,
       "name": "A Bed",
-      "description": "Even insomniacs need a place to rest from time to time. NOTE: Night can\u0027t be slept away, but beds work as spawnpoints if you die!",
+      "description": "Even insomniacs need a place to rest from time to time.\n\nNOTE: Night can\u0027t be slept away, but beds work as spawnpoints if you die!",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -976,6 +982,12 @@
               "Count": 9,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "rewardID": "bq_standard:item"
@@ -1271,14 +1283,14 @@
         }
       ],
       "preRequisites": [
-        15,
-        16
+        16,
+        15
       ]
     },
     {
       "questID": 18,
       "name": "Heating Furnaces with Electricity",
-      "description": "To save on fuel, we can use power to heat our furnaces! First, make a Furnace heater, and attach it to a furnace, then whack one side of the heater with an Immersive Engineering hammer to designate where power will come in. Next put a LV connecter on the power input of the External Heater, then a LV connecter on your Kinetic Dynamo\u0027s power output (on the top). If done properly, power should now transfer between the Kinetic Dynamo and the External Heater. The furnace will consume power whenever there is something to smelt in the furnace. NOTE: Beware of overloading wires, wires will burn out if too much power goes through them. Check the Engineer\u0027s Manual for load limits of different types of wires, and/or use a different means conveying the electricity such as enderio conduits.",
+      "description": "To save on fuel, we can use power to heat our furnaces! First, make a Furnace heater, and attach it to a furnace, then whack one side of the heater with an Immersive Engineering hammer to designate where power will come in. Next put a LV connecter on the power input of the External Heater, then a LV connecter on your Kinetic Dynamo\u0027s power output (on the top). If done properly, power should now transfer between the Kinetic Dynamo and the External Heater. The furnace will consume power whenever there is something to smelt in the furnace.\n\nNOTE: Beware of overloading wires, wires will burn out if too much power goes through them. Check the Engineer\u0027s Manual for load limits of different types of wires, and/or use a different means conveying the electricity such as enderio conduits.",
       "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
@@ -1611,13 +1623,4573 @@
       "preRequisites": [
         14
       ]
+    },
+    {
+      "questID": 23,
+      "name": "Agricultural Research",
+      "description": "We\u0027re going to need to crossbreed many plants together to get the produce we need. This will require us to keep a Agricultural Journal.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AgriCraft:journal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "AgriCraft:journal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AgriCraft:cropsItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 4,
+              "OreDict": "seed",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bread",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 24,
+      "name": "Cooking utensils",
+      "description": "You\u0027re going to need some special tools to make certain dishes. Best to make them all now. When we have a kitchen, we can hang them on tool racks for easy access.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:saucepanItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:mixingbowlItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:mortarandpestleItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:bakewareItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:juicerItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:cuttingboardItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:potItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:saucepanItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:skilletItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bread",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        25
+      ]
+    },
+    {
+      "questID": 25,
+      "name": "Cooking for Blockheads",
+      "description": "Remembering cooking recipes can be a pain in the rear, especially with how many different meal options there are. Making a book which can detect what foods we can currently cook will help make cooking easier. You can make the Cooking for Blockheads book by cooking a book in a furnace.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "cookingbook:recipebook",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingbook:recipebook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bread",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 26,
+      "name": "Making a Kitchen",
+      "description": "A kitchen is an extremely useful place to have in any home or buisness. It\u0027s much easier to prepare and cook foods with one.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "cookingbook:cookingoven",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingbook:sink",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "cookingbook:cookingoven",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "cookingbook:toolrack",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "cookingbook:toolrack",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        25
+      ]
+    },
+    {
+      "questID": 27,
+      "name": "Analyzing Seeds",
+      "description": "You\u0027ll need to analyze seeds to find benificial mutations in your plants.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AgriCraft:seedAnalyzer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "AgriCraft:seedAnalyzer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AgriCraft:seedPotato",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AgriCraft:seedCarrot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:dye",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        23
+      ]
+    },
+    {
+      "questID": 28,
+      "name": "Using rotten food",
+      "description": "Rotten food isn\u0027t completely useless. It can be combined with a bucket of spoiled milk to make slimeballs.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enviromine:rottenFood",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:slime_ball",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        25
+      ]
+    },
+    {
+      "questID": 29,
+      "name": "Making cooking easier",
+      "description": "There\u0027s a second version of the Cooking for Blockheads book, which can directly craft foods for you! You can make things even easier by using a Cooking Table, which will craft foods for you and scan all connected kitchen blocks!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "cookingbook:recipebook",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingbook:recipebook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "cookingbook:recipebook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "cookingbook:cookingtable",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        },
+        {
+          "rewards": [
+            {
+              "id": "TravellersGear:simpleGear",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Chef"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        33
+      ]
+    },
+    {
+      "questID": 30,
+      "name": "Crossbreeding Sugarcane",
+      "description": "A good starter crop to crossbreed is sugarcane. To make sugarcane seeds, place cropsticks on two plots of farmland with exactly one block of sand in between the two. Place wheat seeds on one plot, then carrot seeds on the other. When they are fully grown, place two sets of crop sticks on the sand block. With a bit of luck, they will make a sugar cane plant in the middle.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:reeds",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AgriCraft:seedSugarcane",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AgriCraft:cropsItem",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "AgriCraft:trowel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        27
+      ]
+    },
+    {
+      "questID": 31,
+      "name": "Soybeans!",
+      "description": "Soy is an immensly useful crop which can be used to substitute many animal products. It\u0027s much easier to keep a soybean crop than it is to ranch animals. In order to fully process soy, you\u0027ll need to make a presser. A presser can  squeeze soybeans into firm tofu (a substitute for meat), and firm tofu into soy milk and silken tofu.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:soybeanseedItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:soybeanseedItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:presser",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:firmtofuItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:soymilkItem",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:silkentofuItem",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:firmtofuItem",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        30
+      ]
+    },
+    {
+      "questID": 32,
+      "name": "Scallions",
+      "description": "Crossbreeding carrots and sugarcane will yeild scallions. Scallions can be combined with a baked potato to make a good early game meal.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:scallionItem",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:scallionseedItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:scallionbakedpotatoItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:loadedbakedpotatoItem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        30
+      ]
+    },
+    {
+      "questID": 33,
+      "name": "Food preservation",
+      "description": "Food goes bad pretty quickly, you\u0027ll want to add a freezer or two to your kitchen to keep your food from spoiling.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enviromine:freezer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "enviromine:freezer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:emerald",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        24,
+        26
+      ]
+    },
+    {
+      "questID": 34,
+      "name": "Fruit Trees",
+      "description": "Strangely, combining a sapling with 4 of the same fruit makes a fruit tree sapling of that fruit. Fruit trees require a lot of space, but are a very low maintenence way of growing snacks. Juicing fruit before consumption will make a better snack.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:pamappleSapling",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:pamappleSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:pamchestnutSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        27
+      ]
+    },
+    {
+      "questID": 35,
+      "name": "More fruit!",
+      "description": "Fruit is sweet and wonderful, a small orchard of fruit trees will add many new options for your future meals.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "harvestcraft:pampeachSapling",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:pamappleSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pamcherrySapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pampeachSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pamplumSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pammangoSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pamorangeSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pamapricotSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:pamlemonSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pamlimeSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:pamoliveSapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        34
+      ]
+    },
+    {
+      "questID": 36,
+      "name": "Irrigation and greenhousing",
+      "description": "Adding an irrigation system above your crops will make them grow faster. They\u0027ll grow even faster if they\u0027re enclosed in a building with a glass ceiling!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AgriCraft:sprinkler",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "AgriCraft:waterTank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "matMeta:4": 0,
+                "material:8": "minecraft:planks"
+              }
+            },
+            {
+              "id": "AgriCraft:waterChannel",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "matMeta:4": 0,
+                "material:8": "minecraft:planks"
+              }
+            },
+            {
+              "id": "AgriCraft:waterChannelFull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "matMeta:4": 0,
+                "material:8": "minecraft:planks"
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "AgriCraft:seedStorage",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "matMeta:4": 0,
+                "material:8": "minecraft:planks"
+              }
+            },
+            {
+              "id": "AgriCraft:clipper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:dye",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 15
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        31,
+        32,
+        34
+      ]
+    },
+    {
+      "questID": 37,
+      "name": "Flower dyes",
+      "description": "Having many different types of dye available can save you a headache in the future.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "AgriCraft:seedDandelion",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "AgriCraft:seedDaisy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "AgriCraft:seedTulipPink",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "AgriCraft:seedTulipWhite",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "AgriCraft:seedTulipOrange",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "AgriCraft:seedTulipRed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "AgriCraft:seedAllium",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "AgriCraft:seedOrchid",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "AgriCraft:seedPoppy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            },
+            {
+              "id": "AgriCraft:seedDandelion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "strength:4": 1,
+                "analyzed:4": 0,
+                "growth:4": 1,
+                "gain:4": 1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "TravellersGear:simpleGear",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6,
+              "tag": {
+                "RepairCost:4": 2,
+                "display:10": {
+                  "Name:8": "Taste the Rainbow"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        36
+      ]
+    },
+    {
+      "questID": 38,
+      "name": "Where\u0027s the water?",
+      "description": "In order for a sink to provide water, you must hook some source of water to it, such as a railcraft water tank.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "cookingbook:sink",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        26
+      ]
+    },
+    {
+      "questID": 39,
+      "name": "Better Chests",
+      "description": "Reinforcing your chests with better materials will allow them to store more items.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnhancedInventories:improvedChest",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "EnhancedInventories:sizeUpgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "frameName:8": "frame.mc.iron"
+              }
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnhancedInventories:sizeUpgrade",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "frameName:8": "frame.mc.iron"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 40,
+      "name": "Better Barrels",
+      "description": "Storing chests upon chests upon chests of cobblestone can be a hassle to work with. By using barrels, we can store 64 stacks of one type of item at a time. Even more with upgrades!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "JABBA:barrel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "JABBA:barrel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "JABBA:barrel",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        39
+      ]
+    },
+    {
+      "questID": 41,
+      "name": "Drawers",
+      "description": "If you want to store a lot of different items in bulk, but can\u0027t stand digging through chests to find what you\u0027re looking for, there\u0027s a better way. Drawers are similar to barrels, but can hold up to 4 different types of items! Additionally you can quickly insert items from your inventory into a storage drawer network by using a drawer controller.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StorageDrawers:fullDrawers4",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StorageDrawers:fullDrawers4",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "StorageDrawers:controller",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        39
+      ]
+    },
+    {
+      "questID": 42,
+      "name": "Upgrading barrels",
+      "description": "Barrels are immensely useful, but what if a barrel just can\u0027t hold enough cobblestone? What if you want to void any extra items above the barrels capacity? There\u0027s an answer for that. To install an upgrade into a barrel, sneak and right click the upgrade onto it.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "JABBA:upgradeStructural",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "JABBA:upgradeStructural",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "JABBA:upgradeCore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "JABBA:upgradeCore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "JABBA:upgradeStructural",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "JABBA:upgradeStructural",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "JABBA:upgradeStructural",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "JABBA:upgradeStructural",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "minecraft:piston",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        40
+      ]
+    },
+    {
+      "questID": 43,
+      "name": "Moving your barrels",
+      "description": "If you ever need to move your base from one location to another and need to bring a barrel with you, you can craft a Dolly to transport the barrel.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "JABBA:mover",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "JABBA:mover",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        40
+      ]
+    },
+    {
+      "questID": 44,
+      "name": "Upgrading Drawers",
+      "description": "Extra storage space, or other upgrades can easily be added to drawers",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StorageDrawers:upgrade",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StorageDrawers:upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "StorageDrawers:upgradeStatus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "StorageDrawers:upgrade",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "StorageDrawers:upgradeStatus",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        41
+      ]
+    },
+    {
+      "questID": 45,
+      "name": "Moving your Drawers",
+      "description": "Drawers can be sealed with packing tape, then picked up for easy transport.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "StorageDrawers:tape",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "StorageDrawers:tape",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "StorageDrawers:compDrawers",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        41
+      ]
+    },
+    {
+      "questID": 46,
+      "name": "Simple logistics",
+      "description": "Simple means of item locomotion will help you with automation early on. One of the most simple methods of moving items from one inventory to another is the Wooden Hopper. The Wooden Hopper works just like a normal metal hopper, however it can only output items to the inventory below it, and holds much less than a standard hopper.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ExpandedIndustry:machine_wood_hopper",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "ExpandedIndustry:machine_wood_hopper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ExpandedIndustry:machine_wood_hopper",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:hopper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 47,
+      "name": "Thaumcraft",
+      "description": "Thaumaturgy is the magic of things, and much is not known about it.\n\nIf you wish to persue this lost art, create an iron banded wooden wand, then use it on a vanilla bookshelf.\n\nRead the Thaumonomicon, it does a great job of teaching. Have fun!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Thaumcraft:ItemThaumonomicon",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Thaumcraft:ItemThaumonomicon",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Thaumcraft:ItemInkwell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:paper",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 48,
+      "name": "Buildcraft Pipes",
+      "description": "Buildcraft Pipes are one of the simplist ways to transport items, fluids, and energy.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsstone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "BuildCraft|Transport:item.buildcraftPipe.pipeitemswood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BuildCraft|Transport:item.buildcraftPipe.pipeitemscobblestone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BuildCraft|Core:engineBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:lever",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BuildCraft|Transport:item.buildcraftPipe.pipefluidswood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BuildCraft|Transport:item.buildcraftPipe.pipefluidscobblestone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BuildCraft|Core:engineBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        46,
+        57
+      ]
+    },
+    {
+      "questID": 49,
+      "name": "Logistics Pipes",
+      "description": "Logistics Pipes can be incorporated into a Buildcraft Pipe network to greatly extend its capabilities.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "LogisticsPipes:item.PipeItemsBasicLogistics",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "LogisticsPipes:logisticsSolidBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "LogisticsPipes:item.PipeItemsBasicLogistics",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "LogisticsPipes:item.PipeItemsRequestLogistics",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "LogisticsPipes:item.PipeItemsProviderLogistics",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "LogisticsPipes:item.PipeItemsBasicLogistics",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        48
+      ]
+    },
+    {
+      "questID": 50,
+      "name": "Practical Logistics",
+      "description": "Practical Logistics provides a simple way to create an inventory network. It is primarily used for storage management, but does have some basic options for item routing.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "PracticalLogistics:Node",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "PracticalLogistics:Node",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "PracticalLogistics:InventoryReader",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "PracticalLogistics:DataCable",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "PracticalLogistics:LargeDisplayScreen",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "PracticalLogistics:LargeDisplayScreen",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "PracticalLogistics:DataCable",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "PracticalLogistics:Node",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        46,
+        39
+      ]
+    },
+    {
+      "questID": 51,
+      "name": "Inventory Panels",
+      "description": "EnderIO provides a inventory management solution which uses conduits and is fueled by nutrient distillation.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockInventoryPanel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockInventoryPanel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemFunctionUpgrade",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:bucketNutrient_distillation",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnderIO:blockInventoryPanel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemFunctionUpgrade",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        39,
+        63
+      ]
+    },
+    {
+      "questID": 52,
+      "name": "RoC Blast Furnace",
+      "description": "In order to proceed with Rotarycraft (RoC) You\u0027ll need to make vast amounts of HSLA steel.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_machine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 45
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 45
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_compacts",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count": 63,
+              "OreDict": "ingotHSLA",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count": 64,
+              "OreDict": "ingotHSLA",
+              "Damage": 1
+            },
+            {
+              "id": "Railcraft:fuel.coke",
+              "Count": 8,
+              "OreDict": "fuelCoke",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 53,
+      "name": "Ethanol",
+      "description": "Ethanol is an easy to make fuel which can be used to run RoC Gasoline Engines. Building an automatic ethanol production facility will greatly help with future automation.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_ethanol",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_engine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_screwdriver",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_steelshears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:lever",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sugar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:dirt",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_yeast",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:leaves",
+              "Count": 16,
+              "OreDict": "treeLeaves",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_powders",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_ethanol",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_ethanol",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        52
+      ]
+    },
+    {
+      "questID": 54,
+      "name": "Armor up!",
+      "description": "Improving your armor will greatly help you survive violent encounters.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_steelchest",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_steelchest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_steelboots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_steellegs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_steelhelmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_steelpick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_steelsword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        52
+      ]
+    },
+    {
+      "questID": 55,
+      "name": "Gasoline Engine",
+      "description": "Gasoline engines are easy to set up and use. They burn ethanol in either crystal or liquid form. Many of your first RoC machines will be powered by one.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_engine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_engine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:iron_ore",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        53
+      ]
+    },
+    {
+      "questID": 56,
+      "name": "Dark Steel",
+      "description": "Dark Steel is an alloy of Steel, Obsidian, and Coal Dust. It is used in many advanced EnderIO Machines, as well as EnderIO Tools, Armor, and Weapons.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemAlloy",
+        "Count": 1,
+        "OreDict": "ingotDarkSteel",
+        "Damage": 6
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemAlloy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnderIO:itemAlloy",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        62
+      ]
+    },
+    {
+      "questID": 57,
+      "name": "Crafting with Lasers",
+      "description": "In order to make components for future machines, we\u0027ll need to build a laser assembly table. It is reccomended that you keep a LV Capacitor hooked up to it in the early days so that you don\u0027t have to wait long for the occasional component to be made.\n\nNote: If you place a chest next to the Assembly Table, any items it creates will be placed in the chest instead of on the ground.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BuildCraft|Silicon:laserTableBlock",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "BuildCraft|Silicon:laserTableBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "BuildCraft|Silicon:laserBlock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:gold_ingot",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Forestry:ingotCopper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 58,
+      "name": "Converting Power",
+      "description": "Rotational power can be difficult to transfer. Converting it into RF will not only allow us to move power easily, but also incorporate it into larger networks.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_machine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 108,
+        "tag": {}
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_misccraft",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 108,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        55
+      ]
+    },
+    {
+      "questID": 59,
+      "name": "Storing Energy",
+      "description": "By creating a Capacitor Bank, you can store RF power for later use.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockCapBank",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "type:8": "CREATIVE",
+          "storedEnergyRF:4": 2500000
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 4,
+              "OreDict": "ingotIron",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone_block",
+              "Count": 1,
+              "OreDict": "blockRedstone",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockCapBank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "type:8": "SIMPLE",
+                "storedEnergyRF:4": 1000000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:glowstone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        58,
+        56
+      ]
+    },
+    {
+      "questID": 60,
+      "name": "SAG Mill",
+      "description": "A SAG mill is used to crush ores and ingots into dust. This is primarily used to make alloys, however Silicone can also be made by crushing sand.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockSagMill",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:blockSagMill",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:cauldron",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        57
+      ]
+    },
+    {
+      "questID": 61,
+      "name": "Metal Flakes",
+      "description": "Making a grinder and powering it with a gasoline engine will increase your ore yields substantially.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "RotaryCraft:rotarycraft_item_extracts",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 25
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_extracts",
+              "Count": 48,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "RotaryCraft:rotarycraft_item_shaftcraft",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        55
+      ]
+    },
+    {
+      "questID": 62,
+      "name": "Alloy Smelter",
+      "description": "An Alloy Smelter can be used to melt two or more metals into an alloy.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:blockAlloySmelter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockAlloySmelter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        60
+      ]
+    },
+    {
+      "questID": 63,
+      "name": "Conduits",
+      "description": "EnderIO conduits can greatly improve your item, fluid, and energy locomotion. They are slightly more expensive than other options, but have many means of customization and filtering, as well as the ability to stack on conduits of different types.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemPowerConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemAlloy",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "EnderIO:itemPowerConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:blockFusedQuartz",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "EnderIO:itemLiquidConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemAlloy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "EnderIO:itemMaterial",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "EnderIO:itemItemConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnderIO:itemPowerConduit",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:itemLiquidConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "EnderIO:itemItemConduit",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        59,
+        46
+      ]
+    },
+    {
+      "questID": 64,
+      "name": "Dark Steel Equipment",
+      "description": "Equipment made from Dark Steel can be upgraded with special enchantments, such as being able to store power, and remove power instead of durability on use! Empowered equipment often has a bonus effect as long as it holds energy.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:item.darkSteel_sword",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:item.darkSteel_pickaxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_axe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_shears",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_helmet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_chestplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_leggings",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "EnderIO:item.darkSteel_boots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnderIO:item.darkSteel_sword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "enderio.darksteel.upgrade.travel:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5724,
+                    "Count:4": 1,
+                    "Damage:4": 8
+                  },
+                  "level_cost:4": 30,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.travel"
+                },
+                "enderio.darksteel.upgrade.energyUpgrade:10": {
+                  "upgradeItem:10": {
+                    "id:4": 5722,
+                    "Count:4": 1,
+                    "Damage:4": 2
+                  },
+                  "maxOuput:4": 10000,
+                  "level_cost:4": 20,
+                  "unlocalized_name:8": "enderio.darksteel.upgrade.empowered_four",
+                  "maxInput:4": 10000,
+                  "capacity:4": 1000000,
+                  "energy:4": 1000000
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "amount": 30,
+          "isLevels": true,
+          "rewardID": "bq_standard:xp"
+        }
+      ],
+      "preRequisites": [
+        56
+      ]
+    },
+    {
+      "questID": 65,
+      "name": "Extra Pockets",
+      "description": "Through Thaumaturgy, you can find a means to artifially expand your personal inventory space by carrying magical bags.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "WitchingGadgets:item.WG_Bag",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "WitchingGadgets:item.WG_Bag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        47
+      ]
+    },
+    {
+      "questID": 66,
+      "name": "Upgrades and Capacitors",
+      "description": "Capacitors can be inserted into EnderIO machines to speed them up, and increase the amount of power the machine can hold.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "EnderIO:itemBasicCapacitor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "EnderIO:itemBasicCapacitor",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        62
+      ]
+    },
+    {
+      "questID": 67,
+      "name": "Botania and You",
+      "description": "Flowers are amazing, trust me.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Botania:lexicon",
+        "Count": 1,
+        "OreDict": "lexicaBotania",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Botania:lexicon",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Botania:flower",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": []
+    },
+    {
+      "questID": 68,
+      "name": "Flower Magic",
+      "description": "By creating and using a petal apothecary, you can make a pure daisy, a flower which will convert stone into livingstone, and logs into livingwood, both of which you\u0027ll need to continue in Botania. To create the Pure Daisy, fill the Petal Apothecary with water, then add 4 Mystical White Petals by dropping them on the apothecary, then drop a seed in.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Botania:specialFlower",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "type:8": "puredaisy"
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Botania:altar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:specialFlower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "puredaisy"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:stone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:log",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        67
+      ]
+    },
+    {
+      "questID": 69,
+      "name": "Mana Pools",
+      "description": "You can store Mana by using Mana Pools. To make a Mana Pool, you will need Livingrock. To make Livingrock, place stone in a circle around a Pure Daisy and wait one minute. Generating mana will be covered in the next quest.\n\nNOTE: This quest requires specifically the Wand of the Forest which has two white petals.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Botania:pool",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Botania:pool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:twigWand",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "color1:4": 0,
+                "color2:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Botania:manaResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23
+            },
+            {
+              "id": "GardenStuff:stone_block",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        },
+        {
+          "choices": [
+            {
+              "id": "Botania:specialFlower",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "daybloom"
+              }
+            },
+            {
+              "id": "Botania:specialFlower",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "nightshade"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
+      "preRequisites": [
+        68
+      ]
+    },
+    {
+      "questID": 70,
+      "name": "Making Mana",
+      "description": "Before you can generate Mana, you\u0027l need a way to move Mana into your Mana Pool. Make a Mana Spreader, and place it so that it faces the Mana Pool. You can place the Mana Spreader a short distance away from your Mana Pool, however after a certain range, the Mana Burst used to transfer the Mana will begin to lose Mana. Placing it too far will result in the Mana Spreader not sending Mana Bursts at all!\n\nAfter placing your Mana Spreader, make an Endoflame using the Petal Apothecary. An Endoflame is a type of Mana Generating flower which consumes combustable items and produces mana. After you create the Endoflame, place it next to the Mana Spreader, and drop a combustable item onto it.\n\nIf you done everything correctly, your Mana Pool will begin to fill with Mana, a strange blue liquid.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Botania:specialFlower",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "type:8": "endoflame"
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Botania:spreader",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:specialFlower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "endoflame"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ImmersiveEngineering:metal",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 7
+            },
+            {
+              "id": "Botania:specialFlower",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "endoflame"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        69
+      ]
+    },
+    {
+      "questID": 71,
+      "name": "Manasteel Equipment",
+      "description": "To make Manasteel, drop a piece of Steel into a Mana Pool when it has enough Mana inside of it.\n\nManasteel can be used to make versatile equipment which will not break as long as you have an item containing Mana in your inventory to repair it.\n\nYou can fill Mana-containing items by dropping them on a Mana Pool, then using a wand of the forest to toggle the Mana Pool into Fill mode.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Botania:manasteelSword",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "Botania:manaResource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:manasteelHelm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:manasteelChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:manasteelLegs",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:manasteelBoots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:manasteelPick",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:manasteelShovel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:manasteelAxe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "Botania:manasteelSword",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "Botania:manaTablet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "mana:4": 500000
+              }
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        70
+      ]
+    },
+    {
+      "questID": 72,
+      "name": "A Simple Firearm",
+      "description": "You don\u0027t currently have the resources to make more 9mm ammo. A primitive Hand Cannon will help you defend yourself until you can make more ammo and better firearms.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "Techguns:handcannon",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "ammo:4": 1,
+          "camo:4": 0
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "Techguns:handcannon",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "ammo:4": 1,
+                "camo:4": 0
+              }
+            },
+            {
+              "id": "Techguns:TechgunsAmmo",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:gunpowder",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        13
+      ]
+    },
+    {
+      "questID": 73,
+      "name": "Prerequisites for a Matter Energy Network",
+      "description": "Considered a neccecity to some, Matter Energy networks can make inventory and fluid management much less of a headache. Unfortunately, You\u0027ll need to collect quite a bit of resources to make one.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 22
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 19
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            },
+            {
+              "id": "appliedenergistics2:tile.BlockInscriber",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:quartz",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        39,
+        46
+      ]
+    },
+    {
+      "questID": 74,
+      "name": "Pulsars",
+      "description": "Pulsars are an easy way to provide a small amount of power to wooden transport pipes, saving space which would otherwise be used by an engine. NOTE: The gate listed has an Autarchic Pulsar installed!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "BuildCraft|Transport:pipeGate",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "mat:4": 0,
+          "ex:9": [
+            "buildcraft:pulsar"
+          ],
+          "logic:4": 0
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "BuildCraft|Transport:pipeGate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "mat:4": 0,
+                "ex:9": [
+                  "buildcraft:pulsar"
+                ],
+                "logic:4": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "BuildCraft|Transport:pipeGate",
+              "Count": 7,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "mat:4": 0,
+                "ex:9": [
+                  "buildcraft:pulsar"
+                ],
+                "logic:4": 0
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        48
+      ]
+    },
+    {
+      "questID": 75,
+      "name": "Larger ME networks",
+      "description": "If you\u0027re looking to use a ME network to automate item locomotion and crafting, you\u0027ll need a larger ME network. ME networks larger than 8 channels require a ME controller to function. We reccomend looking up tutorials on YouTube for further informatiuon.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockController",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:tile.BlockController",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiMaterial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 240
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 260
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 76
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 36
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 360
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 240
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 260
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        76
+      ]
+    },
+    {
+      "questID": 76,
+      "name": "Basic ME Networks",
+      "description": "You can create a basic ME network for early storage needs as long as you don\u0027t exceed 8 channels on the network. Each device you hook into the network will take up one channel. NOTE: In order to effeciently provide energy to your ME network, feed it with rotational energy from Rotarycraft. All other forms of power will lose three quarters of the power fed into the ME network!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 380
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 380
+            },
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 16
+            },
+            {
+              "id": "appliedenergistics2:tile.BlockDrive",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "appliedenergistics2:tile.BlockEnergyAcceptor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        73
+      ]
+    },
+    {
+      "questID": 77,
+      "name": "Crafting Terminals",
+      "description": "For further ease of access, ME terminals can be upgraded to Crafting Terminals. Crafting Terminals have NEI integration, so if you wish to quickly craft something from NEI, bring up its recipe, then shift click the question mark near the crafting recipe. The Crafting Terminal will automatically populate the recipe if you have all the required items.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 360
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:item.ItemMultiPart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 360
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        76
+      ]
+    },
+    {
+      "questID": 78,
+      "name": "Sharing the Knowledge",
+      "description": "Instead of using a magical book which only shows each person what they know. Why not make a copy of your knowledge in a form of a book, and fill your friends minds with potentially forbidden knowledge?\n\nNothing could go wrong, especially if they unleash Magically Imbued Fire upon the world!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "ThaumicTinkerer:shareBook",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "ThaumicTinkerer:shareBook",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        47
+      ]
     }
   ],
   "questLines": [
     {
-      "name": "Day 1: The basics",
-      "description": "A set of quests to help you get started.",
+      "name": "The Basics",
+      "description": "Welcome to Revolution|3! Here\u0027s a set of quests to help you get started.",
       "quests": [
+        {
+          "id": 7,
+          "x": 0,
+          "y": 0
+        },
         {
           "id": 8,
           "x": 48,
@@ -1651,22 +6223,22 @@
         {
           "id": 0,
           "x": 240,
-          "y": 24
+          "y": 48
         },
         {
           "id": 1,
           "x": 288,
-          "y": 24
+          "y": 48
         },
         {
           "id": 2,
           "x": 240,
-          "y": 72
+          "y": 96
         },
         {
           "id": 3,
           "x": 288,
-          "y": 72
+          "y": 96
         },
         {
           "id": 4,
@@ -1727,6 +6299,325 @@
           "id": 22,
           "x": 144,
           "y": 114
+        },
+        {
+          "id": 72,
+          "x": 240,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "Farming and Cooking",
+      "description": "There\u0027s no grocery stores or fast food. Best learn how to sustain yourself!",
+      "quests": [
+        {
+          "id": 23,
+          "x": 0,
+          "y": 24
+        },
+        {
+          "id": 24,
+          "x": 48,
+          "y": 192
+        },
+        {
+          "id": 25,
+          "x": 0,
+          "y": 192
+        },
+        {
+          "id": 26,
+          "x": 48,
+          "y": 144
+        },
+        {
+          "id": 27,
+          "x": 48,
+          "y": 24
+        },
+        {
+          "id": 28,
+          "x": 48,
+          "y": 240
+        },
+        {
+          "id": 29,
+          "x": 144,
+          "y": 168
+        },
+        {
+          "id": 30,
+          "x": 96,
+          "y": 24
+        },
+        {
+          "id": 31,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 32,
+          "x": 144,
+          "y": 48
+        },
+        {
+          "id": 33,
+          "x": 96,
+          "y": 168
+        },
+        {
+          "id": 34,
+          "x": 144,
+          "y": 96
+        },
+        {
+          "id": 35,
+          "x": 192,
+          "y": 96
+        },
+        {
+          "id": 36,
+          "x": 192,
+          "y": 48
+        },
+        {
+          "id": 37,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 38,
+          "x": 48,
+          "y": 96
+        }
+      ]
+    },
+    {
+      "name": "Industry and Automation",
+      "description": "It\u0027s time to start building automated systems, or at least prepare the foundation for them!",
+      "quests": [
+        {
+          "id": 52,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 53,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 54,
+          "x": 24,
+          "y": 48
+        },
+        {
+          "id": 55,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 58,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 61,
+          "x": 120,
+          "y": 48
+        },
+        {
+          "id": 56,
+          "x": 192,
+          "y": 96
+        },
+        {
+          "id": 57,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 60,
+          "x": 48,
+          "y": 96
+        },
+        {
+          "id": 62,
+          "x": 96,
+          "y": 96
+        },
+        {
+          "id": 59,
+          "x": 240,
+          "y": 48
+        },
+        {
+          "id": 64,
+          "x": 264,
+          "y": 96
+        },
+        {
+          "id": 66,
+          "x": 120,
+          "y": 144
+        },
+        {
+          "id": 63,
+          "x": 288,
+          "y": 48
+        },
+        {
+          "id": 48,
+          "x": 24,
+          "y": 144
+        }
+      ]
+    },
+    {
+      "name": "Storage and Logistics",
+      "description": "Chests and hoppers alone are simply not enough to meet your storage and logistic needs.",
+      "quests": [
+        {
+          "id": 39,
+          "x": 0,
+          "y": 72
+        },
+        {
+          "id": 40,
+          "x": 54,
+          "y": 48
+        },
+        {
+          "id": 41,
+          "x": 54,
+          "y": 96
+        },
+        {
+          "id": 42,
+          "x": 96,
+          "y": 48
+        },
+        {
+          "id": 43,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 44,
+          "x": 96,
+          "y": 96
+        },
+        {
+          "id": 45,
+          "x": 114,
+          "y": 144
+        },
+        {
+          "id": 46,
+          "x": 0,
+          "y": 288
+        },
+        {
+          "id": 48,
+          "x": 54,
+          "y": 336
+        },
+        {
+          "id": 49,
+          "x": 102,
+          "y": 336
+        },
+        {
+          "id": 50,
+          "x": 30,
+          "y": 192
+        },
+        {
+          "id": 51,
+          "x": 84,
+          "y": 192
+        },
+        {
+          "id": 73,
+          "x": 132,
+          "y": 192
+        },
+        {
+          "id": 75,
+          "x": 228,
+          "y": 192
+        },
+        {
+          "id": 76,
+          "x": 180,
+          "y": 192
+        },
+        {
+          "id": 77,
+          "x": 180,
+          "y": 240
+        },
+        {
+          "id": 74,
+          "x": 54,
+          "y": 288
+        },
+        {
+          "id": 63,
+          "x": 48,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "name": "Magic and MORE MAGIC",
+      "description": "More dangerous than playing with fire!",
+      "quests": [
+        {
+          "id": 67,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 68,
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": 69,
+          "x": 96,
+          "y": 0
+        },
+        {
+          "id": 70,
+          "x": 144,
+          "y": 0
+        },
+        {
+          "id": 71,
+          "x": 192,
+          "y": 0
+        },
+        {
+          "id": 47,
+          "x": 6,
+          "y": 126
+        },
+        {
+          "id": 65,
+          "x": 54,
+          "y": 150
+        },
+        {
+          "id": 78,
+          "x": 54,
+          "y": 102
+        },
+        {
+          "id": 79,
+          "x": 192,
+          "y": 132
         }
       ]
     }
