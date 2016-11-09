@@ -24,7 +24,7 @@ Make sure to select 'Realistic' world type when creating a world. Server operati
 If you're experiencing abyssmal FPS, try setting your graphics properties like [this](http://i.imgur.com/f6Nu5nr.png).
 
 ### A Note About Better Questing
-The Better Questing mod is installed, however there are currently no quests for REVOLUTION|3. This may change in the future.
+The Better Questing mod is installed. Starter quests can be accessed by pressing the tilde/backtick (top left corner of English keyboards, right below the escape).
 
 ### Your First Day...
 Welcome to the Revolution! REVOLUTION|3 is an expansive, progressive pack with gated content that could take you weeks, if not months, to get through. While REV|3 is in essence an open-ended kitchen-sink pack, the challenge goal for the pack is to reintroduce a colony of dinosaurs in the Barnard's Star solar system. Bonus points if your colony is hosted in a self-sustaining RF Tools dimension located in that system! 
@@ -44,13 +44,16 @@ Natural regeneration is turned off in this pack; you'll need to find methods of 
 ### A Bit About Ore Generation
 REVOLUTION|3 features a complete revamp of ore generation. Ore generates in extremely large, but very rare veins, with trace veins extending for hundreds of blocks off from the main motherlode. Generally, you can follow these trace veins back to a motherlode, though motherlodes are not 100% guaranteed. In addition, REVOLUTION|3 features Harder Ores, a mod which alters ore density, richness, and progression. Generally, when mining an ore block, you will get only 1 or 2 (more with enchantments or processing) raw ore per block hardness. This means most individual ore blocks can be mined multiple times before the ore runs out and they disappear from the world. Raw ore must be refined further in order to create ingots. Generally, you will need 8 or 9 raw ore to create one ingot, to start. However, with proper tools, machines, and/or enchantments, you can increase that ratio to about 3 ingots per raw ore, a HUGE increase in output. REVOLUTION|3 is all about building infrastructure.
 
+### A Bit About Water
+REVOLUTION|3 features finite water, meaning you can't make infinite water pools from a couple of source blocks. For early game water sources, use either Railcraft Tank Siding (to make a hollow 3x3x3 tank) or AgriCraft water tanks. Large amounts of water can be created later in the game using the Dew Point Aggregator.
+
 ### Your Next Few Days...
 Once you've got some basic ore processing up and going, you going to want to venture into Immersive Engineering and steel production (your going to need lots of steel). Immersive Engineering will also provide your first early-game RF power (through a wind or water mill). Once you've got some ore processing up and going, and a bit of iron stockpiled, you're going to want to build and power a RotaryCraft grinder. Until you have silk-touch on a pick, your early game ore processing should be IE Blast Furnace -> RotaryCraft Grinder -> Furnace, which will yield you 3 ingots per 6 raw ore, a huge increase over the initial 1 ingot per 8 (or 9) raw ore. Don't worry, there are ways to further increase your ore yields to outrageous levels (3 ingots per raw ore)!
 
 Once you've got steel going, you should also pick a mod for better tools. Botania and Ender IO provide some good options, though you have other choices (Thaumcraft, CC, RoC, etc.) If you've not tried Botania's toolset and miss Tinker's Construct, I highly recommend you venture into Botania tools. You'll never miss TiCo again! 
 
 ### End of the Early-Game and Starting the Mid-Game
-By the end of early-game progression, you should have a hefty supply of iron, as well as stable mid-tier food production, and some basic automation using BuildCraft or Logistics Pipes. Just getting this far should take you some time, and you're not even half-way to the end of the pack! Mid-game progression in REVOLUTION|3 is all about getting bedrock ingots, which allow you to craft many machines from late game mods such as Galacticraft and RFTools. Bedrock ingots require you to delve through the depths of RotaryCraft. Along the way, you can upgrade your ore processing via more investment in Immersive Engineering and discovering ChromatiCraft. Also, once you've unlocked bedrock ingots, you can build an elevator to take you to the Cave Dimension, which features much richer ore generation and is quarry-friendly (this is the mining dimension for SSP REVOLUTION|3).
+By the end of early-game progression, you should have a hefty supply of iron, as well as stable mid-tier food production, and some basic automation using BuildCraft or Logistics Pipes. Just getting this far should take you some time, and you're not even half-way to the end of the pack! Mid-game progression in REVOLUTION|3 is all about getting bedrock ingots, which allow you to craft many machines from late game mods such as RFTools. Bedrock ingots require you to delve through the depths of RotaryCraft. Along the way, you can upgrade your ore processing via more investment in Immersive Engineering and discovering ChromatiCraft. Also, once you've unlocked bedrock ingots, you can build an elevator to take you to the Cave Dimension, which features much richer ore generation and is quarry-friendly (this is the mining dimension for SSP REVOLUTION|3).
 
 ### Mid-Game Ore Processing
 There are a few options for mid-game ore processing, based on whether you favor time or yield. If time is your big deal, enchant your pick with silk touch and drop your hard ores in the Immersive Engineering Crusher (the raw ore can be reprocessed in the crusher too, until you get the remaining part of the ore production chain). From there, place the raw ore in an Immersive Engineering Arc Furnace, which will yield a 'vanilla' ore block. Place the vanilla ore block in a RotaryCraft extractor to yield, on average, 5x dust. Upgrade the extractor with a bedrock drill bit when you get it for an extra bonus. Lastly, fire up the resulting flakes in a Crystal Furnace from ChromatiCraft to double them once more. This entire chain will yield about 13 ingots per meta of hard ore block, which is a huge increase over the early game's 1 ingot per 8ish meta (the meta indicates the richness of the block).
@@ -60,14 +63,14 @@ For absolute maximum yields, use a Fortune V-enchanted pick or Boring machine, w
 *Note, that all Immersive Engineering machines are multiblock structures. See the Immersive Engineering in-game book for details on how to construct and power them.*
 
 ### The End Game
-As pointed out earlier, REVOLUTION|3 is a progressive, kitchen-sink pack, and there are MANY mods to delve deep into (listed below). In general, end-game content is going to require massive amounts of power generation -- something you're going to want to build a ReactorCraft reactor for, though you could scrape by with several other methods of large-scale RF generation, such as Matter Overdrive's gravitational anomoly. If you're looking for a challenge goal, try building a self-sustaining colony in an RF-Tools dimension hosted on the planet Barnard's Star C. Getting this far is a big achievement!
+As pointed out earlier, REVOLUTION|3 is a progressive, kitchen-sink pack, and there are MANY mods to delve deep into (listed below). In general, end-game content is going to require massive amounts of power generation -- something you're going to want to build a ReactorCraft reactor for, though you could scrape by with several other methods of large-scale RF generation, such as Matter Overdrive's gravitational anomoly. If you're looking for a challenge goal, try building a self-sustaining colony in an RF-Tools dimension hosted on a faraway planet. Getting this far is a big achievement!
 
 Here's some other achievement-worthy goals:
 - Acquire the Botania relics
 - Delve through Thaumcraft and it's many add-ons
 - Visit the chroma dimension in ChromatiCraft
 - Build a self-sustaining colony using nothing but RF Tools, 
-- Visit the galaxy through GalactiCraft and GalaxySpace (try setting up a sustainable colony on a space station or asteroid!)
+- Visit the galaxy through Advanced Rocketry (try setting up a sustainable colony on a space station or asteroid!)
 - Build a ReactorCraft Fusion Reactor, and use it to power something like [this](http://imgur.com/gallery/Qo0il/new).
 - Build a complete Modular Power Suit
 - Conquer all The End has to offer.

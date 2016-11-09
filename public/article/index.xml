@@ -300,24 +300,6 @@
 &lt;li&gt;The Ender Hive can be obtained through Botania Mana Transfusion of a Tropical Hive&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;galacticraft&#34;&gt;Galacticraft&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fuel is made in the Immersive Engineering refinery, and requires Kerosene + Oil.&lt;/li&gt;
-&lt;li&gt;ReactorCraft ores spawn plentifully on the moon.&lt;/li&gt;
-&lt;li&gt;Converting GalactiCraft power to RF is 66% less efficient.&lt;/li&gt;
-&lt;li&gt;Consuming RF power from GalactiCraft machines suffers no penalty.&lt;/li&gt;
-&lt;li&gt;Refinery is removed. Use the Immersive Engineering Refinery for making fuel.&lt;/li&gt;
-&lt;li&gt;Coal Generator has been removed&lt;/li&gt;
-&lt;li&gt;Many recipes require RotaryCraft bedrock ingots&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;gun-customization&#34;&gt;Gun Customization&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Balanced the damage output of various weapons, generally making them about 10% more powerful (weapons are balanced around the concept of the &amp;lsquo;double-tap&amp;rsquo;, in that a common handgun should be able to kill a standard zombie with two shots to the head).&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;harder-ores&#34;&gt;Harder Ores&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -522,7 +504,7 @@
 
 &lt;h3 id=&#34;a-note-about-better-questing&#34;&gt;A Note About Better Questing&lt;/h3&gt;
 
-&lt;p&gt;The Better Questing mod is installed, however there are currently no quests for REVOLUTION|3. This may change in the future.&lt;/p&gt;
+&lt;p&gt;The Better Questing mod is installed. Starter quests can be accessed by pressing the tilde/backtick (top left corner of English keyboards, right below the escape).&lt;/p&gt;
 
 &lt;h3 id=&#34;your-first-day&#34;&gt;Your First Day&amp;hellip;&lt;/h3&gt;
 
@@ -546,6 +528,10 @@
 
 &lt;p&gt;REVOLUTION|3 features a complete revamp of ore generation. Ore generates in extremely large, but very rare veins, with trace veins extending for hundreds of blocks off from the main motherlode. Generally, you can follow these trace veins back to a motherlode, though motherlodes are not 100% guaranteed. In addition, REVOLUTION|3 features Harder Ores, a mod which alters ore density, richness, and progression. Generally, when mining an ore block, you will get only 1 or 2 (more with enchantments or processing) raw ore per block hardness. This means most individual ore blocks can be mined multiple times before the ore runs out and they disappear from the world. Raw ore must be refined further in order to create ingots. Generally, you will need 8 or 9 raw ore to create one ingot, to start. However, with proper tools, machines, and/or enchantments, you can increase that ratio to about 3 ingots per raw ore, a HUGE increase in output. REVOLUTION|3 is all about building infrastructure.&lt;/p&gt;
 
+&lt;h3 id=&#34;a-bit-about-water&#34;&gt;A Bit About Water&lt;/h3&gt;
+
+&lt;p&gt;REVOLUTION|3 features finite water, meaning you can&amp;rsquo;t make infinite water pools from a couple of source blocks. For early game water sources, use either Railcraft Tank Siding (to make a hollow 3x3x3 tank) or AgriCraft water tanks. Large amounts of water can be created later in the game using the Dew Point Aggregator.&lt;/p&gt;
+
 &lt;h3 id=&#34;your-next-few-days&#34;&gt;Your Next Few Days&amp;hellip;&lt;/h3&gt;
 
 &lt;p&gt;Once you&amp;rsquo;ve got some basic ore processing up and going, you going to want to venture into Immersive Engineering and steel production (your going to need lots of steel). Immersive Engineering will also provide your first early-game RF power (through a wind or water mill). Once you&amp;rsquo;ve got some ore processing up and going, and a bit of iron stockpiled, you&amp;rsquo;re going to want to build and power a RotaryCraft grinder. Until you have silk-touch on a pick, your early game ore processing should be IE Blast Furnace -&amp;gt; RotaryCraft Grinder -&amp;gt; Furnace, which will yield you 3 ingots per 6 raw ore, a huge increase over the initial 1 ingot per 8 (or 9) raw ore. Don&amp;rsquo;t worry, there are ways to further increase your ore yields to outrageous levels (3 ingots per raw ore)!&lt;/p&gt;
@@ -554,7 +540,7 @@
 
 &lt;h3 id=&#34;end-of-the-early-game-and-starting-the-mid-game&#34;&gt;End of the Early-Game and Starting the Mid-Game&lt;/h3&gt;
 
-&lt;p&gt;By the end of early-game progression, you should have a hefty supply of iron, as well as stable mid-tier food production, and some basic automation using BuildCraft or Logistics Pipes. Just getting this far should take you some time, and you&amp;rsquo;re not even half-way to the end of the pack! Mid-game progression in REVOLUTION|3 is all about getting bedrock ingots, which allow you to craft many machines from late game mods such as Galacticraft and RFTools. Bedrock ingots require you to delve through the depths of RotaryCraft. Along the way, you can upgrade your ore processing via more investment in Immersive Engineering and discovering ChromatiCraft. Also, once you&amp;rsquo;ve unlocked bedrock ingots, you can build an elevator to take you to the Cave Dimension, which features much richer ore generation and is quarry-friendly (this is the mining dimension for SSP REVOLUTION|3).&lt;/p&gt;
+&lt;p&gt;By the end of early-game progression, you should have a hefty supply of iron, as well as stable mid-tier food production, and some basic automation using BuildCraft or Logistics Pipes. Just getting this far should take you some time, and you&amp;rsquo;re not even half-way to the end of the pack! Mid-game progression in REVOLUTION|3 is all about getting bedrock ingots, which allow you to craft many machines from late game mods such as RFTools. Bedrock ingots require you to delve through the depths of RotaryCraft. Along the way, you can upgrade your ore processing via more investment in Immersive Engineering and discovering ChromatiCraft. Also, once you&amp;rsquo;ve unlocked bedrock ingots, you can build an elevator to take you to the Cave Dimension, which features much richer ore generation and is quarry-friendly (this is the mining dimension for SSP REVOLUTION|3).&lt;/p&gt;
 
 &lt;h3 id=&#34;mid-game-ore-processing&#34;&gt;Mid-Game Ore Processing&lt;/h3&gt;
 
@@ -566,14 +552,14 @@
 
 &lt;h3 id=&#34;the-end-game&#34;&gt;The End Game&lt;/h3&gt;
 
-&lt;p&gt;As pointed out earlier, REVOLUTION|3 is a progressive, kitchen-sink pack, and there are MANY mods to delve deep into (listed below). In general, end-game content is going to require massive amounts of power generation &amp;ndash; something you&amp;rsquo;re going to want to build a ReactorCraft reactor for, though you could scrape by with several other methods of large-scale RF generation, such as Matter Overdrive&amp;rsquo;s gravitational anomoly. If you&amp;rsquo;re looking for a challenge goal, try building a self-sustaining colony in an RF-Tools dimension hosted on the planet Barnard&amp;rsquo;s Star C. Getting this far is a big achievement!&lt;/p&gt;
+&lt;p&gt;As pointed out earlier, REVOLUTION|3 is a progressive, kitchen-sink pack, and there are MANY mods to delve deep into (listed below). In general, end-game content is going to require massive amounts of power generation &amp;ndash; something you&amp;rsquo;re going to want to build a ReactorCraft reactor for, though you could scrape by with several other methods of large-scale RF generation, such as Matter Overdrive&amp;rsquo;s gravitational anomoly. If you&amp;rsquo;re looking for a challenge goal, try building a self-sustaining colony in an RF-Tools dimension hosted on a faraway planet. Getting this far is a big achievement!&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s some other achievement-worthy goals:
 - Acquire the Botania relics
 - Delve through Thaumcraft and it&amp;rsquo;s many add-ons
 - Visit the chroma dimension in ChromatiCraft
 - Build a self-sustaining colony using nothing but RF Tools,
-- Visit the galaxy through GalactiCraft and GalaxySpace (try setting up a sustainable colony on a space station or asteroid!)
+- Visit the galaxy through Advanced Rocketry (try setting up a sustainable colony on a space station or asteroid!)
 - Build a ReactorCraft Fusion Reactor, and use it to power something like &lt;a href=&#34;http://imgur.com/gallery/Qo0il/new&#34;&gt;this&lt;/a&gt;.
 - Build a complete Modular Power Suit
 - Conquer all The End has to offer.

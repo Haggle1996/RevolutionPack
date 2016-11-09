@@ -148,18 +148,6 @@ Ore generation in the Enviromine Cave dimension is richer and more vanilla-like,
 - Easy mode is set
 - The Ender Hive can be obtained through Botania Mana Transfusion of a Tropical Hive 
 
-## Galacticraft
-- Fuel is made in the Immersive Engineering refinery, and requires Kerosene + Oil.
-- ReactorCraft ores spawn plentifully on the moon.
-- Converting GalactiCraft power to RF is 66% less efficient.
-- Consuming RF power from GalactiCraft machines suffers no penalty. 
-- Refinery is removed. Use the Immersive Engineering Refinery for making fuel.
-- Coal Generator has been removed
-- Many recipes require RotaryCraft bedrock ingots
-
-## Gun Customization
-- Balanced the damage output of various weapons, generally making them about 10% more powerful (weapons are balanced around the concept of the 'double-tap', in that a common handgun should be able to kill a standard zombie with two shots to the head).
-
 ## Harder Ores
 - Regular redstone spawns in place of Hard Redstone, so that it can be silk-touched for recipes that require it. 
 - Pitchblende spawns alongside Uranium. Both can be used to power ReactorCraft reactors.

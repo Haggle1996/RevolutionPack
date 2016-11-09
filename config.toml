@@ -45,6 +45,11 @@ canonifyurls = true
     url = "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/mod-packs/2411393"
 
 [[menu.main]]
+    name = "Pack Perms"
+    weight = 93
+    url = "https://docs.google.com/spreadsheets/d/1Ne1UTxsFB_zfxAHZQA7KrN_HA1V579IesdHF_5aq4Q8"
+
+[[menu.main]]
 	name = "Github"
 	weight = 100
 	pre = "<h3>follow</h3>"
@@ -56,9 +61,9 @@ canonifyurls = true
     url = "https://twitter.com/Haggle1996"
     
 [[menu.main]]
-    name = "Gitter"
+    name = "Discord"
     weight = 102
-    url = "https://gitter.im/Haggle1996/RevolutionPack"
+    url = "https://discord.gg/HuxAZ7X"
 
 [[menu.main]]
     name = "R3 Game Changes"
