@@ -110,7 +110,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:pickaxeHead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:pickaxeHead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:pickaxeHead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:pickaxeHead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:pickaxeHead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:pickaxeHead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:pickaxeHead:201>);
 
@@ -124,7 +123,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:binding:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:binding:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:binding:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:binding:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:binding:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:binding:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:binding:201>);
 
@@ -138,7 +136,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:broadAxeHead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:broadAxeHead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:broadAxeHead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:broadAxeHead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:broadAxeHead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:broadAxeHead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:broadAxeHead:201>);
 
@@ -152,7 +149,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:chiselHead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:chiselHead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:chiselHead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:chiselHead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:chiselHead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:chiselHead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:chiselHead:201>);
 
@@ -166,7 +162,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:excavatorHead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:excavatorHead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:excavatorHead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:excavatorHead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:excavatorHead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:excavatorHead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:excavatorHead:201>);
 
@@ -180,7 +175,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:frypanHead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:frypanHead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:frypanHead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:frypanHead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:frypanHead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:frypanHead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:frypanHead:201>);
 
@@ -194,7 +188,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:fullGuard:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:fullGuard:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:fullGuard:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:fullGuard:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:fullGuard:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:fullGuard:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:fullGuard:201>);
 
@@ -208,7 +201,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hammerHead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hammerHead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hammerHead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hammerHead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hammerHead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hammerHead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hammerHead:201>);
 
@@ -222,7 +214,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:handGuard:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:handGuard:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:handGuard:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:handGuard:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:handGuard:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:handGuard:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:handGuard:201>);
 
@@ -236,7 +227,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hatchetHead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hatchetHead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hatchetHead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hatchetHead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hatchetHead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hatchetHead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:hatchetHead:201>);
 
@@ -250,7 +240,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:heavyPlate:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:heavyPlate:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:heavyPlate:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:heavyPlate:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:heavyPlate:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:heavyPlate:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:heavyPlate:201>);
 
@@ -264,7 +253,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:knifeBlade:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:knifeBlade:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:knifeBlade:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:knifeBlade:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:knifeBlade:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:knifeBlade:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:knifeBlade:201>);
 
@@ -278,7 +266,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:largeSwordBlade:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:largeSwordBlade:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:largeSwordBlade:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:largeSwordBlade:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:largeSwordBlade:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:largeSwordBlade:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:largeSwordBlade:201>);
 
@@ -292,7 +279,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:scytheBlade:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:scytheBlade:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:scytheBlade:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:scytheBlade:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:scytheBlade:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:scytheBlade:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:scytheBlade:201>);
 
@@ -306,7 +292,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:shovelHead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:shovelHead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:shovelHead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:shovelHead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:shovelHead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:shovelHead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:shovelHead:201>);
 
@@ -320,7 +305,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:signHead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:signHead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:signHead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:signHead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:signHead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:signHead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:signHead:201>);
 
@@ -334,7 +318,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:swordBlade:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:swordBlade:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:swordBlade:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:swordBlade:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:swordBlade:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:swordBlade:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:swordBlade:201>);
 
@@ -348,7 +331,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toolRod:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toolRod:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toolRod:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toolRod:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toolRod:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toolRod:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toolRod:201>);
 
@@ -362,7 +344,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughBinding:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughBinding:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughBinding:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughBinding:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughBinding:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughBinding:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughBinding:201>);
 
@@ -376,7 +357,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughRod:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughRod:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughRod:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughRod:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughRod:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughRod:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:toughRod:201>);
 
@@ -390,7 +370,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:wideGuard:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:wideGuard:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:wideGuard:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:wideGuard:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:wideGuard:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:wideGuard:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:wideGuard:201>);
 
@@ -404,7 +383,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:crossbar:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:crossbar:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:crossbar:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:crossbar:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:crossbar:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:crossbar:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:crossbar:201>);
 
@@ -418,7 +396,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowBodyPart:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowBodyPart:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowBodyPart:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowBodyPart:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowBodyPart:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowBodyPart:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowBodyPart:201>);
 
@@ -432,7 +409,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowLimbPart:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowLimbPart:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowLimbPart:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowLimbPart:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowLimbPart:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowLimbPart:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:CrossbowLimbPart:201>);
 
@@ -446,7 +422,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:arrowhead:201>);
 
@@ -460,7 +435,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:ShurikenPart:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:ShurikenPart:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:ShurikenPart:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:ShurikenPart:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:ShurikenPart:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:ShurikenPart:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:ShurikenPart:201>);
 
@@ -474,7 +448,6 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BowLimbPart:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BowLimbPart:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BowLimbPart:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BowLimbPart:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BowLimbPart:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BowLimbPart:315>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BowLimbPart:201>);
 
@@ -488,5 +461,4 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BoltPart:14>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BoltPart:15>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BoltPart:16>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BoltPart:18>); 
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BoltPart:314>); 
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:BoltPart:315>); 
