@@ -5642,7 +5642,7 @@
         "OreDict": "",
         "Damage": 0,
         "tag": {
-          "ammo:4": 1,
+          "ammo:4": 0,
           "camo:4": 0
         }
       },
