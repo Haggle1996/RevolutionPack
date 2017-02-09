@@ -16,6 +16,27 @@ steelplate.add(<Railcraft:part.plate:1>);
 val bronze = <ore:ingotBronze>;
 bronze.add(<ImmersiveEngineering:metal:5>);
 
+#MCA and OC conflict fix
+val ECDiamondDust = <ElectriCraft:electricraft_item_crafting:1>;
+<ore:dustDiamond>.add(<MCA:DiamondDust>);
+recipes.remove(<MCA:DiamondDust>);
+recipes.addShapeless(<MCA:ColoredDiamondDust:0>, [<minecraft:dye:0>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:1>, [<minecraft:dye:1>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:2>, [<minecraft:dye:2>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:3>, [<minecraft:dye:3>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:4>, [<minecraft:dye:4>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:5>, [<minecraft:dye:5>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:6>, [<minecraft:dye:6>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:7>, [<minecraft:dye:7>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:8>, [<minecraft:dye:8>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:9>, [<minecraft:dye:9>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:10>, [<minecraft:dye:10>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:11>, [<minecraft:dye:11>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:12>, [<minecraft:dye:12>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:13>, [<minecraft:dye:13>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:14>, [<minecraft:dye:14>, ECDiamondDust]);
+recipes.addShapeless(<MCA:ColoredDiamondDust:15>, [<minecraft:dye:15>, ECDiamondDust]);
+
 # Missing steel block to ingots
 #recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>],[<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>],[<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>,<ImmersiveEngineering:metal:7>]]);
 #recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>],[<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>],[<Railcraft:ingot>,<Railcraft:ingot>,<Railcraft:ingot>]]);
