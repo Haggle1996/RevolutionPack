@@ -12,7 +12,7 @@ title = "REVOLUTION|3 - Gameplay Changes"
 description = "Updated for v3.0.0"
 +++
 
-REVOLUTION|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don't expect everything to work the same as it did in the original Revolution.
+REVOLUTION|3 is a significant update to the original Revolution; please refer to NEI for recipe changes and don't expect everything to work the same as it did in the original Revolution.
 
 ## Where can I find ore X?
 Oregen is significantly different. Generally, ores can be found at most y-levels. Many ores spawn with giant, rare motherlodes and long, thin trace veins that lead to these motherlodes. Some ores generate in vertical pipes. Specifically:
