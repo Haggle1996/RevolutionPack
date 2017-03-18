@@ -18,7 +18,7 @@
       <guid>http://revolutionpack.info/article/rev2-gameplay-changes/</guid>
       <description>
 
-&lt;p&gt;REVOLUTION|2 is a significant update to the original Revolution; please refer to NEI for recipe changes and don&amp;rsquo;t expect everything to work the same as it did in the original Revolution.&lt;/p&gt;
+&lt;p&gt;REVOLUTION|3 is a significant update to the original Revolution; please refer to NEI for recipe changes and don&amp;rsquo;t expect everything to work the same as it did in the original Revolution.&lt;/p&gt;
 
 &lt;h2 id=&#34;where-can-i-find-ore-x&#34;&gt;Where can I find ore X?&lt;/h2&gt;
 
@@ -199,6 +199,12 @@
 &lt;li&gt;RotaryCraft shaft power is about 4x more effective than RF for powering AE systems (yes, the energy acceptor accepts shaft power)&lt;/li&gt;
 &lt;li&gt;Applied Energistics requires about 4x more power than typical.&lt;/li&gt;
 &lt;li&gt;Recipes generally require steel or steel plates instead of iron&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;automagy&#34;&gt;Automagy&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thirsty tank consumes the water source block.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;better-sleeping&#34;&gt;Better Sleeping&lt;/h2&gt;

@@ -7,8 +7,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Thu, 26 Jan 2017 12:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 18 Mar 2017 12:00:00 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The &#39;Latest Buzz&#39; Update, REVOLUTION|3 3.6.0!</title>
+      <link>http://revolutionpack.info/post/360/</link>
+      <pubDate>Sat, 18 Mar 2017 12:00:00 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/360/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;Welcome to the latest update for REVOLUTON|3. Today&amp;rsquo;s update brings a bunch of mod updates to the pack. Enjoy!&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Players upgrading 3.5.0 maps should receive a message about missing blocks. This is expected and okay to proceed.&lt;/li&gt;
+&lt;li&gt;You may need to do a &lt;code&gt;/bq_admin reset all &amp;lt;username&amp;gt;&lt;/code&gt; to address issues with the uncraftable weapon quest. You will need cheats enabled and you&amp;rsquo;ll probably want to edit your progress.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rusty ladder no longer conflicts with Iron Cable, thanks Kreidos! Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/616&#34;&gt;#616&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed the annoying uncraftable gun quest for reals this time, thanks to Shuro! Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/578&#34;&gt;#578&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Disabled lizard spawns due to crashes on some configurations. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/556&#34;&gt;#556&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Disabled Zombie Scents. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/600&#34;&gt;#600&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modular Power Suits should now have armor. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/592&#34;&gt;#592&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/advanced-rocketry/files/2389908&#34;&gt;Advanced Rocketry 1.0.13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/applecore/files/2391966&#34;&gt;AppleCore 1.3.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-questing/files/2384532&#34;&gt;Better Questing 2.0.224&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-questing-rf-expansion/files/2376871&#34;&gt;Better Questing RF Expansion 2.0.25&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-questing-standard-expansion/files/2391988&#34;&gt;Better Questing Standard Expansion 2.0.130&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/cofhcore/files/2388750&#34;&gt;Cofh Core 3.1.4-329&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/coroutil/files/2388794&#34;&gt;CoroUtil 1.1.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dynamic-surroundings/files/2391119&#34;&gt;Dynamic Surroundings 1.0.5.10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/electrical-age/files/2385734&#34;&gt;Electrical Age 1.14.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/farseek/files/2377895&#34;&gt;Farseek 1.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/harder-wildlife/files/2394273&#34;&gt;Harder Wildlife 15.26.1d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/libvulpes/files/2384546&#34;&gt;LibVulpes 0.1.16&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/modular-powersuits/files/2382830&#34;&gt;Modular Power Suits 0.11.1.111 Final RC4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/numina/files/2382452&#34;&gt;Numina 0.4.1.105 Final RC2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/openblocks/files/2386733&#34;&gt;OpenBlocks 1.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/opencomputers/files/2385983&#34;&gt;OpenComputers 1.6.2.12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/openmodslib/files/2386726&#34;&gt;OpenModsLib 0.10.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/peacefulsurface/files/2380640&#34;&gt;Peaceful Surface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2380964&#34;&gt;Realistic Terrain Generation 1.1.1.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/refined-relocation/files/2393121&#34;&gt;Refined Relocation 1.1.34&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/techguns/files/2383145&#34;&gt;Techguns 1.2 alphatest 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/traincraft/files/2375924&#34;&gt;Tinkers Construct&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The &#39;It&#39;s Magic&#39; Update!, REVOLUTION|3 3.5.0</title>
@@ -893,33 +951,6 @@
 &lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
 
 &lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 Hotfix 2.7.3.1!</title>
-      <link>http://revolutionpack.info/post/2731/</link>
-      <pubDate>Sun, 05 Jun 2016 10:16:11 -0600</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2731/</guid>
-      <description>
-
-&lt;p&gt;Hi all!&lt;/p&gt;
-
-&lt;p&gt;Just a tiny update here to resolve a couple of late-breaking issues with 2.7.3.0.&lt;/p&gt;
-
-&lt;h1 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Disabled the Extra Utilities Ender Collector due to a duplication bug&lt;/li&gt;
-&lt;li&gt;Fixed a problem with the installer that would cause two versions of regular Unity to be installed, instead of Unity and Unity for RotaryCraft. If you want to use the full Unity suite, you should have Unity for RotaryCraft listed first, then Unity 1.3.1, then default Minecraft, in your resource packs list.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ender IO to previous version, due to Farming Stations not functioning.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
