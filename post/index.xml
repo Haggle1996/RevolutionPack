@@ -7,8 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sat, 18 Mar 2017 12:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 19 Mar 2017 12:00:00 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The &#39;It works better!&#39; Update, REVOLUTION|3 3.6.1!</title>
+      <link>http://revolutionpack.info/post/361/</link>
+      <pubDate>Sun, 19 Mar 2017 12:00:00 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/361/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;Small update to address the TPS and FPS issues, as well as make oceans and rivers melt!&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Players upgrading maps should receive a message about missing blocks. This is expected and okay to proceed.&lt;/li&gt;
+&lt;li&gt;Ice should now immediately melt, instead of never melting &amp;ndash; seasons should function much better now!&lt;/li&gt;
+&lt;li&gt;Lowered the MCA villager cap to 12&lt;/li&gt;
+&lt;li&gt;Removed Zombie Awareness and Special AI until I can find a more TPS-friendly means of killing you. This makes the pack &lt;em&gt;slightly&lt;/em&gt; easier.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-removed&#34;&gt;Mods Removed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Zombie Awareness&lt;/li&gt;
+&lt;li&gt;Special AI&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The &#39;Latest Buzz&#39; Update, REVOLUTION|3 3.6.0!</title>
@@ -923,34 +953,6 @@
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/reactorcraft/files/2306478&#34;&gt;ReactorCraft 1.7.10 V14d&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/sonar-core/files/2306173&#34;&gt;Sonar-Core - Version 1.1.3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>&#39;The Updates Must Flow!&#39; REVOLUTION|2 Update 2.7.4.0</title>
-      <link>http://revolutionpack.info/post/2740/</link>
-      <pubDate>Sun, 05 Jun 2016 19:39:05 -0600</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2740/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;My apologies for the rapid-fire updates this weekend, but we&amp;rsquo;re going to round off your week with the v14c updates of Reika&amp;rsquo;s mods. Nothing new, otherwise. :)&lt;/p&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/chromaticraft/files/2305620&#34;&gt;ChromatiCraft 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dragonapi/files/2305615&#34;&gt;DragonAPI 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/electricraft/files/2305616&#34;&gt;ElectriCraft 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/reactorcraft/files/2305617&#34;&gt;ReactorCraft 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/rotarycraft/files/2305618&#34;&gt;RotaryCraft 1.7.10 V14c&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
 </description>
     </item>
     
