@@ -10,6 +10,8 @@ mods.tconstruct.Smeltery.removeMelting(<minecraft:rail>);
 #Knapsack needs HSLA Tough Rod since Iron Tough Rod is disabled.
 val leather = <minecraft:leather>;
 val gold = <ore:ingotGold>;
+val alumbrass = <TConstruct:materials:14>;
 val rod = <TConstruct:toughRod:81>;
 recipes.remove(<TConstruct:knapsack>);
 recipes.addShaped(<TConstruct:knapsack>, [[leather,leather,leather],[rod,gold,rod],[leather,leather,leather]]);
+recipes.addShaped(<TConstruct:knapsack>, [[leather,leather,leather],[rod,alumbrass,rod],[leather,leather,leather]]);
