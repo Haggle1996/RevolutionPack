@@ -1,0 +1,166 @@
+General:
+	Reika.RotaryCraft.ModInterface.Lua.LuaMethods
+	Annotations: []
+	Modifiers: 1
+	Superclass: class java.lang.Object
+	Interfaces: []
+	Synthetic: false
+
+
+Internal Classes:
+
+
+Constructors:
+		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+	Synthetic: false
+
+
+Fields:
+	getName
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getTemp
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getPressure
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getPower
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getPower2
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getRatio
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getEnergy
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	setRatio
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	setTorque
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getSpeed
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getRange
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getPipe
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	setECU
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	addNote
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	clearChannel
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getFuelTime
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	setJunction
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	setParticle
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	setCannon
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	toggleOre
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	toggleMeta
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	toggleNBT
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	toggleBlacklist
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getBlockAtPos
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	shiftPlane
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	getCoreMagnet
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	setCannonCoord
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+	afterburner
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.ModInteract.Lua.LuaMethod
+	Synthetic: false
+
+
+Methods:
+
+
