@@ -7,8 +7,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
-    <lastBuildDate>Sun, 19 Mar 2017 12:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 22 May 2017 12:00:00 -0600</lastBuildDate>
     <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The &#39;Final&#39; Update, REVOLUTION|3 3.7.0!</title>
+      <link>http://revolutionpack.info/post/370/</link>
+      <pubDate>Mon, 22 May 2017 12:00:00 -0600</pubDate>
+      
+      <guid>http://revolutionpack.info/post/370/</guid>
+      <description>
+
+&lt;p&gt;Hi all!&lt;/p&gt;
+
+&lt;p&gt;There may be an additional update or two to fix any issues, but this is more or less the last update for 1.7.10 REV|3. Look for my next pack, REVOLUTION|4 - The Search for More Money in the near future!&lt;/p&gt;
+
+&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mobs no longer break blocks when there&amp;rsquo;s nothing else to do (passive griefing is off)&lt;/li&gt;
+&lt;li&gt;Zombies no longer track sound&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Physics should no longer affect space or the Chroma dimension&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/advanced-rocketry/files/2422417&#34;&gt;Advanced Rocketry 1.0.19b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/libvulpes/files/2419845&#34;&gt;LibVulpes 0.1.19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-foliage/files/2404720&#34;&gt;Better Foliage 2.0.14&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/bibliocraft/files/2423369&#34;&gt;BiblioCraft 1.11.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/buildcraft/files/2405166&#34;&gt;BuildCraft 7.1.21&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/chromaticraft/files/2422937&#34;&gt;ChromatiCraft V17b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/decocraft2/files/2414535&#34;&gt;DecoCraft 2.4.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dragonapi/files/2423245&#34;&gt;DragonAPI v17b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dynamic-surroundings/files/2401298&#34;&gt;Dynamic Surroundings 1.0.5.11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/electricraft/files/2422925&#34;&gt;ElectriCraft v17a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/enhanced-inventories/files/2403222&#34;&gt;EnhancedInventories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/logistics-pipes/files/2422462&#34;&gt;Logistics Pipes 0.9.3-131&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/mcheli-minecraft-helicopter-mod/files/2395856&#34;&gt;MCHeli 1.0.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/modular-powersuits/files/2402848&#34;&gt;Modular Power Suits 0.11.1.114&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/reactorcraft/files/2422924&#34;&gt;ReactorCraft v17a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/rotarycraft/files/2423313&#34;&gt;RotaryCraft v17b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/techguns/files/2409873&#34;&gt;Techguns Beta 1.2 alpha 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/traincraft/files/2416398&#34;&gt;TrainCraft 4.3.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/void-monster/files/2422934&#34;&gt;VoidMonster v17a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The &#39;It works better!&#39; Update, REVOLUTION|3 3.6.1!</title>
@@ -927,31 +978,6 @@
 &lt;li&gt;MineTweaker 3 (replaced by CraftTweaker)&lt;/li&gt;
 &lt;li&gt;HaggleTweaks (not needed anymore)&lt;/li&gt;
 &lt;li&gt;Special AI&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>REVOLUTION|2 Update 2.7.5.0</title>
-      <link>http://revolutionpack.info/post/2750/</link>
-      <pubDate>Thu, 09 Jun 2016 21:22:33 -0600</pubDate>
-      
-      <guid>http://revolutionpack.info/post/2750/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;Small update for Reika&amp;rsquo;s Mods and Practical Logistics.&lt;/p&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/chromaticraft/files/2306480&#34;&gt;ChromatiCraft 1.7.10 V14d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dragonapi/files/2306477&#34;&gt;DragonAPI 1.7.10 V14d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/practical-logistics/files/2306263&#34;&gt;Practical-Logistics-0.2.4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/rotarycraft/files/2306479&#34;&gt;RotaryCraft 1.7.10 V14d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/reactorcraft/files/2306478&#34;&gt;ReactorCraft 1.7.10 V14d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/sonar-core/files/2306173&#34;&gt;Sonar-Core - Version 1.1.3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
