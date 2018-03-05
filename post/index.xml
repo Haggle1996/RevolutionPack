@@ -2,984 +2,486 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on REVOLUTION|3</title>
-    <link>http://revolutionpack.info/post/</link>
+    <link>http://haggle1996.github.io/RevolutionPack/post/</link>
     <description>Recent content in Posts on REVOLUTION|3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright � 2016 by Haggle1996</copyright>
     <lastBuildDate>Mon, 22 May 2017 12:00:00 -0600</lastBuildDate>
-    <atom:link href="http://revolutionpack.info/post/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://haggle1996.github.io/RevolutionPack/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The &#39;Final&#39; Update, REVOLUTION|3 3.7.0!</title>
-      <link>http://revolutionpack.info/post/370/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/370/</link>
       <pubDate>Mon, 22 May 2017 12:00:00 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/370/</guid>
-      <description>
-
-&lt;p&gt;Hi all!&lt;/p&gt;
-
-&lt;p&gt;There may be an additional update or two to fix any issues, but this is more or less the last update for 1.7.10 REV|3. Look for my next pack, REVOLUTION|4 - The Search for More Money in the near future!&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mobs no longer break blocks when there&amp;rsquo;s nothing else to do (passive griefing is off)&lt;/li&gt;
-&lt;li&gt;Zombies no longer track sound&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Physics should no longer affect space or the Chroma dimension&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/advanced-rocketry/files/2422417&#34;&gt;Advanced Rocketry 1.0.19b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/libvulpes/files/2419845&#34;&gt;LibVulpes 0.1.19&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-foliage/files/2404720&#34;&gt;Better Foliage 2.0.14&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/bibliocraft/files/2423369&#34;&gt;BiblioCraft 1.11.7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/buildcraft/files/2405166&#34;&gt;BuildCraft 7.1.21&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/chromaticraft/files/2422937&#34;&gt;ChromatiCraft V17b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/decocraft2/files/2414535&#34;&gt;DecoCraft 2.4.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dragonapi/files/2423245&#34;&gt;DragonAPI v17b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dynamic-surroundings/files/2401298&#34;&gt;Dynamic Surroundings 1.0.5.11&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/electricraft/files/2422925&#34;&gt;ElectriCraft v17a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/enhanced-inventories/files/2403222&#34;&gt;EnhancedInventories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/logistics-pipes/files/2422462&#34;&gt;Logistics Pipes 0.9.3-131&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/mcheli-minecraft-helicopter-mod/files/2395856&#34;&gt;MCHeli 1.0.3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/modular-powersuits/files/2402848&#34;&gt;Modular Power Suits 0.11.1.114&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/reactorcraft/files/2422924&#34;&gt;ReactorCraft v17a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/rotarycraft/files/2423313&#34;&gt;RotaryCraft v17b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/techguns/files/2409873&#34;&gt;Techguns Beta 1.2 alpha 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/traincraft/files/2416398&#34;&gt;TrainCraft 4.3.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/void-monster/files/2422934&#34;&gt;VoidMonster v17a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/370/</guid>
+      <description>Hi all!
+There may be an additional update or two to fix any issues, but this is more or less the last update for 1.7.10 REV|3. Look for my next pack, REVOLUTION|4 - The Search for More Money in the near future!
+Pack Changes  Mobs no longer break blocks when there&amp;rsquo;s nothing else to do (passive griefing is off) Zombies no longer track sound  Bugs Squashed  Physics should no longer affect space or the Chroma dimension  Mods Updated  Advanced Rocketry 1.</description>
     </item>
     
     <item>
       <title>The &#39;It works better!&#39; Update, REVOLUTION|3 3.6.1!</title>
-      <link>http://revolutionpack.info/post/361/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/361/</link>
       <pubDate>Sun, 19 Mar 2017 12:00:00 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/361/</guid>
-      <description>
-
-&lt;p&gt;Hi all!&lt;/p&gt;
-
-&lt;p&gt;Small update to address the TPS and FPS issues, as well as make oceans and rivers melt!&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Players upgrading maps should receive a message about missing blocks. This is expected and okay to proceed.&lt;/li&gt;
-&lt;li&gt;Ice should now immediately melt, instead of never melting &amp;ndash; seasons should function much better now!&lt;/li&gt;
-&lt;li&gt;Lowered the MCA villager cap to 12&lt;/li&gt;
-&lt;li&gt;Removed Zombie Awareness and Special AI until I can find a more TPS-friendly means of killing you. This makes the pack &lt;em&gt;slightly&lt;/em&gt; easier.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-removed&#34;&gt;Mods Removed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Zombie Awareness&lt;/li&gt;
-&lt;li&gt;Special AI&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/361/</guid>
+      <description>Hi all!
+Small update to address the TPS and FPS issues, as well as make oceans and rivers melt!
+Pack Changes  Players upgrading maps should receive a message about missing blocks. This is expected and okay to proceed. Ice should now immediately melt, instead of never melting &amp;ndash; seasons should function much better now! Lowered the MCA villager cap to 12 Removed Zombie Awareness and Special AI until I can find a more TPS-friendly means of killing you.</description>
     </item>
     
     <item>
       <title>The &#39;Latest Buzz&#39; Update, REVOLUTION|3 3.6.0!</title>
-      <link>http://revolutionpack.info/post/360/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/360/</link>
       <pubDate>Sat, 18 Mar 2017 12:00:00 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/360/</guid>
-      <description>
-
-&lt;p&gt;Hi all!&lt;/p&gt;
-
-&lt;p&gt;Welcome to the latest update for REVOLUTON|3. Today&amp;rsquo;s update brings a bunch of mod updates to the pack. Enjoy!&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Players upgrading 3.5.0 maps should receive a message about missing blocks. This is expected and okay to proceed.&lt;/li&gt;
-&lt;li&gt;You may need to do a &lt;code&gt;/bq_admin reset all &amp;lt;username&amp;gt;&lt;/code&gt; to address issues with the uncraftable weapon quest. You will need cheats enabled and you&amp;rsquo;ll probably want to edit your progress.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Rusty ladder no longer conflicts with Iron Cable, thanks Kreidos! Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/616&#34;&gt;#616&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fixed the annoying uncraftable gun quest for reals this time, thanks to Shuro! Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/578&#34;&gt;#578&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Disabled lizard spawns due to crashes on some configurations. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/556&#34;&gt;#556&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Disabled Zombie Scents. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/600&#34;&gt;#600&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Modular Power Suits should now have armor. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/592&#34;&gt;#592&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/advanced-rocketry/files/2389908&#34;&gt;Advanced Rocketry 1.0.13&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/applecore/files/2391966&#34;&gt;AppleCore 1.3.9&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-questing/files/2384532&#34;&gt;Better Questing 2.0.224&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-questing-rf-expansion/files/2376871&#34;&gt;Better Questing RF Expansion 2.0.25&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-questing-standard-expansion/files/2391988&#34;&gt;Better Questing Standard Expansion 2.0.130&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/cofhcore/files/2388750&#34;&gt;Cofh Core 3.1.4-329&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/coroutil/files/2388794&#34;&gt;CoroUtil 1.1.6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dynamic-surroundings/files/2391119&#34;&gt;Dynamic Surroundings 1.0.5.10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/electrical-age/files/2385734&#34;&gt;Electrical Age 1.14.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/farseek/files/2377895&#34;&gt;Farseek 1.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/harder-wildlife/files/2394273&#34;&gt;Harder Wildlife 15.26.1d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/libvulpes/files/2384546&#34;&gt;LibVulpes 0.1.16&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/modular-powersuits/files/2382830&#34;&gt;Modular Power Suits 0.11.1.111 Final RC4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/numina/files/2382452&#34;&gt;Numina 0.4.1.105 Final RC2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/openblocks/files/2386733&#34;&gt;OpenBlocks 1.6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/opencomputers/files/2385983&#34;&gt;OpenComputers 1.6.2.12&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/openmodslib/files/2386726&#34;&gt;OpenModsLib 0.10.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/peacefulsurface/files/2380640&#34;&gt;Peaceful Surface&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2380964&#34;&gt;Realistic Terrain Generation 1.1.1.4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/refined-relocation/files/2393121&#34;&gt;Refined Relocation 1.1.34&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/techguns/files/2383145&#34;&gt;Techguns 1.2 alphatest 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/traincraft/files/2375924&#34;&gt;Tinkers Construct&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/360/</guid>
+      <description>Hi all!
+Welcome to the latest update for REVOLUTON|3. Today&amp;rsquo;s update brings a bunch of mod updates to the pack. Enjoy!
+Pack Changes  Players upgrading 3.5.0 maps should receive a message about missing blocks. This is expected and okay to proceed. You may need to do a /bq_admin reset all &amp;lt;username&amp;gt; to address issues with the uncraftable weapon quest. You will need cheats enabled and you&amp;rsquo;ll probably want to edit your progress.</description>
     </item>
     
     <item>
       <title>The &#39;It&#39;s Magic&#39; Update!, REVOLUTION|3 3.5.0</title>
-      <link>http://revolutionpack.info/post/350/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/350/</link>
       <pubDate>Thu, 26 Jan 2017 12:00:00 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/350/</guid>
-      <description>
-
-&lt;p&gt;Hi all!&lt;/p&gt;
-
-&lt;p&gt;Welcome to the long-awaited big update to REVOLUTION|3. Version 3.5 brings together a number of changes introduced in the community update. Many thanks to gwydion for picking up the pack in my absence. Much of what you have here comes from gwydion&amp;rsquo;s and others hard work!&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;ll notice there&amp;rsquo;s a slew of new mods: Blood Magic, Minecraft Comes Alive, Witchery, plus a couple more Thuamcraft mods.&lt;/p&gt;
-
-&lt;p&gt;While 3.5.0 should be backward compatible with v3.4.x worlds, if you were looking at generating a fresh map, now is a good time. This will give you easy access to a number of world generation features, such as MCA villages, that will only be present in newly generated chunks.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Traincraft is no longer an optional mod, due to it&amp;rsquo;s distribution license changing&lt;/li&gt;
-&lt;li&gt;MCA rose gold dust is made by combining 3 copper dust and 6 gold dust&lt;/li&gt;
-&lt;li&gt;MCA will repopulate dead villages&lt;/li&gt;
-&lt;li&gt;Cyano&amp;rsquo;s Lootable Bodies has been re-added as the default death mod. &amp;lsquo;Select Recommended&amp;rsquo; to grab it instead of Souls.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/blood-magic&#34;&gt;Blood Magic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/minecraft-comes-alive-mca&#34;&gt;Minecraft Comes Alive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/radixcore&#34;&gt;Radix Core&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/schematica&#34;&gt;Schematica&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/tainted-magic&#34;&gt;Tainted Magic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/thaumcraft-inventory-scanning&#34;&gt;Thaumcraft Inventory Scanning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/thaumic-exploration&#34;&gt;Thaumic Exploration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/witchery&#34;&gt;Witchery&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/advanced-rocketry/files/2373284&#34;&gt;Advanced Rocketry 1.0.8&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/architecturecraft/files/2352554&#34;&gt;ArchitectureCraft 1.7.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/better-questing/files/2372210&#34;&gt;Better Questing 2.0.208&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/better-questing-rf-expansion/files/2366017&#34;&gt;Better Questing RF Expansion 2.0.23&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/better-questing-standard-expansion/files/2373343&#34;&gt;Better Questing Standard Expansion 2.0.123&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/climate-control-geographicraft/files/2359685&#34;&gt;Climate Control 0.8.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/crafttweaker/files/2338487&#34;&gt;CraftTweaker 3.0.13&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/decocraft2/files/2355868&#34;&gt;DecoCraft2 2.3.6.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/dynamic-surroundings/files/2370488&#34;&gt;Dynamic Surroundings 1.0.5.9&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/electrical-age/files/2352695&#34;&gt;Electrical Age 1.13.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/extra-utilities/files/2264383&#34;&gt;Extra Utilities 1.2.12&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/harder-ores/files/2343183&#34;&gt;Harder Ores 15.26.1c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/harder-wildlife/files/2373078&#34;&gt;Harder Wildlife 15.26.1c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/libvulpes/files/2373287&#34;&gt;libVulpes 0.1.14&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/modular-powersuits/files/2360353&#34;&gt;Modular Power Suits 0.11.1.109&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/numina/files/2356393&#34;&gt;Numina 0.4.1.104&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/opencomputers/files/2357264&#34;&gt;OpenComputers 1.6.1.11&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/realistic-terrain-generation/files/2349800&#34;&gt;Realistic Terraing Generation 1.1.1.3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/recurrent-complex/files/2339621&#34;&gt;Recurrent Complex 0.9.7.1.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/road-stuff/files/2347198&#34;&gt;Road Stuff 1.0.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/souls/files/2343011&#34;&gt;Souls 1.0.4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/storage-drawers/files/2355230&#34;&gt;Storage Drawers 1.10.8&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/traincraft/files/2354616&#34;&gt;Traincraft 4.3.0.005&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/350/</guid>
+      <description>Hi all!
+Welcome to the long-awaited big update to REVOLUTION|3. Version 3.5 brings together a number of changes introduced in the community update. Many thanks to gwydion for picking up the pack in my absence. Much of what you have here comes from gwydion&amp;rsquo;s and others hard work!
+You&amp;rsquo;ll notice there&amp;rsquo;s a slew of new mods: Blood Magic, Minecraft Comes Alive, Witchery, plus a couple more Thuamcraft mods.
+While 3.</description>
     </item>
     
     <item>
       <title>The Quest for More Money Update!, REVOLUTION|3 3.4.4</title>
-      <link>http://revolutionpack.info/post/344/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/344/</link>
       <pubDate>Fri, 04 Nov 2016 12:00:00 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/344/</guid>
-      <description>
-
-&lt;p&gt;Hi all!&lt;/p&gt;
-
-&lt;p&gt;My apologies for the small update &amp;ndash; my availability has dropped dramatically and I only have time to push these couple updates.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added many more quests, thanks to Eb! For existing worlds, you&amp;rsquo;ll need to do &lt;code&gt;/bq_admin default load&lt;/code&gt; to access them.&lt;/li&gt;
-&lt;li&gt;Mobs only grief if they have the right tool (e.g., break blocks if they have a pick). This should slow down the madness.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fixed a problem with mobs not spawning in the Nether.&lt;/li&gt;
-&lt;li&gt;Edit mode is now off by default for the quests.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/344/</guid>
+      <description>Hi all!
+My apologies for the small update &amp;ndash; my availability has dropped dramatically and I only have time to push these couple updates.
+Pack Changes  Added many more quests, thanks to Eb! For existing worlds, you&amp;rsquo;ll need to do /bq_admin default load to access them. Mobs only grief if they have the right tool (e.g., break blocks if they have a pick). This should slow down the madness.</description>
     </item>
     
     <item>
       <title>The Cows are at Peace Update!, REVOLUTION|3 3.4.3</title>
-      <link>http://revolutionpack.info/post/343/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/343/</link>
       <pubDate>Sat, 22 Oct 2016 12:00:00 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/343/</guid>
-      <description>
-
-&lt;p&gt;Hi all!&lt;/p&gt;
-
-&lt;p&gt;Really tiny update here (scripts and configs only &amp;ndash; no mod changes) to address some playability and balance issues.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Animals will no longer spawn hostile. They will however, try to rip you to shreds in packs if you attack them.&lt;/li&gt;
-&lt;li&gt;Additional changes to prevent souls from attacking you on teleport.&lt;/li&gt;
-&lt;li&gt;Removed grass from from the list of blocks that zombies will dig up. This prevents the holey ground everyone is experiencing.&lt;/li&gt;
-&lt;li&gt;Heart cannisters are more expensive&lt;/li&gt;
-&lt;li&gt;New questers will only need to complete either the watermill OR windmill quest, whereas previously you had to complete both. If you absolutely need the fix now, do &lt;code&gt;/bg_admin default load&lt;/code&gt;, but your quest progress will likely be lost.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added missing slab recipes for ore dictionary blocks. Fixes&lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/541&#34;&gt;#541&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/343/</guid>
+      <description>Hi all!
+Really tiny update here (scripts and configs only &amp;ndash; no mod changes) to address some playability and balance issues.
+Pack Changes  Animals will no longer spawn hostile. They will however, try to rip you to shreds in packs if you attack them. Additional changes to prevent souls from attacking you on teleport. Removed grass from from the list of blocks that zombies will dig up. This prevents the holey ground everyone is experiencing.</description>
     </item>
     
     <item>
       <title>A Quick Update, REVOLUTION|3 3.4.2</title>
-      <link>http://revolutionpack.info/post/342/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/342/</link>
       <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/342/</guid>
-      <description>
-
-&lt;p&gt;Hi all!&lt;/p&gt;
-
-&lt;p&gt;Small update here to fixup some bugs and issues discovered since the last update. No mod updates, just a bunch of config fixes and tweaks.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Made souls more passive &amp;ndash; they&amp;rsquo;re basically standing chests until attacked &amp;ndash; due to certain issues with them aggroing upon teleport&lt;/li&gt;
-&lt;li&gt;Unofficially renaming the pack tagline to &amp;lsquo;Fear the Rain&amp;rsquo;. I&amp;rsquo;ll leave it as an exercise for the reader to figure out why.&lt;/li&gt;
-&lt;li&gt;Passive mobs hate you again and with even more disgust&lt;/li&gt;
-&lt;li&gt;Made mobs more omnipotent. Not quite as omnipotent as Stephen Colbert, but more so than Robert Downy Jr, and more likely to destroy things than Cher.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You can no longer make draconium ingots by smelting draconium dust. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/535&#34;&gt;#535&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Techguns tab is back. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/537&#34;&gt;#537&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fixed a problem where the Advanced Rocketry Assembler and Structural blocks would fall apart due to gravity&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/342/</guid>
+      <description>Hi all!
+Small update here to fixup some bugs and issues discovered since the last update. No mod updates, just a bunch of config fixes and tweaks.
+Pack Changes  Made souls more passive &amp;ndash; they&amp;rsquo;re basically standing chests until attacked &amp;ndash; due to certain issues with them aggroing upon teleport Unofficially renaming the pack tagline to &amp;lsquo;Fear the Rain&amp;rsquo;. I&amp;rsquo;ll leave it as an exercise for the reader to figure out why.</description>
     </item>
     
     <item>
       <title>The &#39;Haggle is a Wimp&#39; Update, REVOLUTION|3 3.4.1</title>
-      <link>http://revolutionpack.info/post/341/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/341/</link>
       <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/341/</guid>
-      <description>
-
-&lt;p&gt;I tried. I really tried.&lt;/p&gt;
-
-&lt;p&gt;I cannot get Epic Siege Mod to balance at harder difficulties, particularly in SMP. The super-speed zombies fly past you before registering on your screen, and it&amp;rsquo;s not fun. So I&amp;rsquo;ve done something a little different.&lt;/p&gt;
-
-&lt;p&gt;The surface is now safe. Or so your think.&lt;/p&gt;
-
-&lt;p&gt;Underneath you, hordes of zombies and monsters waiting to spew forth from underground caverns and ravines. You need the precious resources deep inside the earth, but watch out&amp;hellip;delving too deep and too greedily can result in your utter destruction! Mwuahahahahah!!&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added the missing furnace recipes for copper, tin, and aluminum dust introduced by LibVulpes&lt;/li&gt;
-&lt;li&gt;The moon is no longer the deciding factor in mob aggresiveness.&lt;/li&gt;
-&lt;li&gt;The surface is &lt;em&gt;generally&lt;/em&gt; peaceful at all times.&lt;/li&gt;
-&lt;li&gt;Anywhere where the light level is always 0 allows mobs to spawn (generally underground, unlit areas, but can be anywhere very dark)&lt;/li&gt;
-&lt;li&gt;Mobs are more aggressive at griefing vanilla blocks: grass, dirt, sand, gravel, stone, cobblestone. All other blocks are safe.&lt;/li&gt;
-&lt;li&gt;Souls can only be damaged by the players (no more losing them in lava)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/zombie-awareness&#34;&gt;Zombie Awareness&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/coroutil&#34;&gt;CoroUtil (ZA Dependency)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/peacefulsurface&#34;&gt;Peaceful Surface&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/special-ai&#34;&gt;Special AI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;HaggleTweaks - custom no-sleep mod I wrote allows you to set spawn point, but not sleep through the night.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236542-mod/files/2337069&#34;&gt;Advanced Rocketry 0.9.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/236541-mod/files/2337067&#34;&gt;LibVulpes 0.1.5&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Epic Siege Mod&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/341/</guid>
+      <description>I tried. I really tried.
+I cannot get Epic Siege Mod to balance at harder difficulties, particularly in SMP. The super-speed zombies fly past you before registering on your screen, and it&amp;rsquo;s not fun. So I&amp;rsquo;ve done something a little different.
+The surface is now safe. Or so your think.
+Underneath you, hordes of zombies and monsters waiting to spew forth from underground caverns and ravines. You need the precious resources deep inside the earth, but watch out&amp;hellip;delving too deep and too greedily can result in your utter destruction!</description>
     </item>
     
     <item>
       <title>The &#39;Quests &#39;n&#39; Stars&#39; Update, REVOLUTION|3 3.4.0</title>
-      <link>http://revolutionpack.info/post/340/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/340/</link>
       <pubDate>Sat, 15 Oct 2016 18:38:41 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/340/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone! Welcome to the next exciting chapter for REVOLUTION|3!&lt;/p&gt;
-
-&lt;p&gt;Today we bid a fond adieu to a mod that&amp;rsquo;s been in the pack since the original version 1 of the first REVOLUTION pack. GalactiCraft has been with us for a long time, and many adventurers have put their own boot print on the moon dust. Today, we&amp;rsquo;re replacing GC and related mods with a new space exploration adventure, Advanced Rocketry. This mod gives you a whole new universe to explore, with warp drives, mining missions, custom-designed rockets, space stations, and all the fun you can have in a zero-gee, atmosphere-free environment!&lt;/p&gt;
-
-&lt;p&gt;Also, very exciting news care of Eb-, we have starter quests! Yay! If you&amp;rsquo;d like to enable the starter quests in an existing world, simply type &lt;code&gt;/bq_admin default load&lt;/code&gt;. These quests are very much like the originals from the HQM book, and will help players get started in the pack.&lt;/p&gt;
-
-&lt;p&gt;In addition, we&amp;rsquo;ve made a number of tweaks and balances to the pack, including a good use for all that cobblestone you have piling up.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re updating a saved map to 3.4.0, you will receive a missing block message. It is OK to proceed into the world.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added starter quests, many thanks to EB-!! To add them to an existing world, do &lt;code&gt;/bq_admin default load&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Reduced insanity of zombie mobs (this makes the game easier)&lt;/li&gt;
-&lt;li&gt;Changed the Thaumic Horizons Pocket Dim ID to 4; if you&amp;rsquo;ve been using this dimension, you&amp;rsquo;ll need to retrieve anything from there before this update (DO NOT RENUMBER IT IN THE CONFIG)&lt;/li&gt;
-&lt;li&gt;Reenabled the Extra Utilities Angel ring, with OP recipe.&lt;/li&gt;
-&lt;li&gt;Techguns Small Nuclear Warhead now require plutonium from ReactorCraft instead of Enriched Uranium&lt;/li&gt;
-&lt;li&gt;Added a recipe for processing sand in the Railcraft Rock Crusher, which has a slight chance of producing a common metal per operation&lt;/li&gt;
-&lt;li&gt;Matter Overdrive and Advanced Rocketry dilithium and tritanium are obtained through mining missions (in addition to all other ores previously found on other planets)&lt;/li&gt;
-&lt;li&gt;Removed Zombie Babies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/advanced-rocketry&#34;&gt;Advanced Rocketry&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/libvulpes&#34;&gt;libVulpes - Advanced Rocketry Dependency&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ChromatiCraft v16d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;DragonAPI v16d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ElectriCraft v16d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ReactorCraft v16d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;RotaryCraft v16d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2336229&#34;&gt;Logistics Pipes 0.9.3-128&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;GalactiCraft and related&lt;/li&gt;
-&lt;li&gt;Galaxy Space&lt;/li&gt;
-&lt;li&gt;The optional, REV|2 compatibility mods (you&amp;rsquo;ll need to stay on 3.3.0, if you&amp;rsquo;re using a REV|2 map)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/340/</guid>
+      <description>Hello everyone! Welcome to the next exciting chapter for REVOLUTION|3!
+Today we bid a fond adieu to a mod that&amp;rsquo;s been in the pack since the original version 1 of the first REVOLUTION pack. GalactiCraft has been with us for a long time, and many adventurers have put their own boot print on the moon dust. Today, we&amp;rsquo;re replacing GC and related mods with a new space exploration adventure, Advanced Rocketry.</description>
     </item>
     
     <item>
       <title>The WOOT WOOT Update, REVOLUTION|3 3.3.0</title>
-      <link>http://revolutionpack.info/post/330/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/330/</link>
       <pubDate>Sun, 09 Oct 2016 12:00:00 +0000</pubDate>
       
-      <guid>http://revolutionpack.info/post/330/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;Small update to add only the world&amp;rsquo;s most incredible mod ever! Welcome Traincraft to the REVOLUTION! Woot Woot! Be aware, this is an optional mod, so you must select it from the optional mod list (or &amp;lsquo;Select Recommended&amp;rsquo; from the bottom) to add it to REVOLUTION|3.&lt;/p&gt;
-
-&lt;p&gt;For those seeking more information about Traincraft, check out these helpful links:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.meansoft.si/&#34;&gt;Traincraft Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://traincraft-mod.com/&#34;&gt;Traincraft Website&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Mrbrutal/Traincraft-164/blob/master/LICENSE.md&#34;&gt;Traincraft License&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Unfortunately, due to Traincraft&amp;rsquo;s license, I cannot include the mod directly in the pack, so you must manually download it during the installation process. Don&amp;rsquo;t worry, ATLauncher will take you to the right page &amp;ndash; just click the download link and place it in your ATLauncher downloads folder or your default Downloads folder.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Moved Souls to Optional, Recommended for those that play on peaceful mode but don&amp;rsquo;t want to lose their inventory on death.&lt;/li&gt;
-&lt;li&gt;Cleaned up the optional mods list during installation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Iron chisels can no longer be used to harvest obsidian cheaply. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/530&#34;&gt;#530&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/traincraft&#34;&gt;Traincraft&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/mcheli-minecraft-helicopter-mod&#34;&gt;MCHeli&lt;/a&gt; as a DECORATIVE mod only! Flying a plane at speed through new chunks will bring any game to it&amp;rsquo;s knees! Do not install unless you know what you&amp;rsquo;re doing.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/330/</guid>
+      <description>Hello everyone!
+Small update to add only the world&amp;rsquo;s most incredible mod ever! Welcome Traincraft to the REVOLUTION! Woot Woot! Be aware, this is an optional mod, so you must select it from the optional mod list (or &amp;lsquo;Select Recommended&amp;rsquo; from the bottom) to add it to REVOLUTION|3.
+For those seeking more information about Traincraft, check out these helpful links:
+ Traincraft Blog Traincraft Website Traincraft License  Unfortunately, due to Traincraft&amp;rsquo;s license, I cannot include the mod directly in the pack, so you must manually download it during the installation process.</description>
     </item>
     
     <item>
       <title>The LONG-AWAITED Update, REVOLUTION|3 3.2.0</title>
-      <link>http://revolutionpack.info/post/320/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/320/</link>
       <pubDate>Sat, 08 Oct 2016 18:38:41 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/320/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;Long-time, no update. Sadly, I&amp;rsquo;ve been very busy with work and haven&amp;rsquo;t had as much time to update the packs lately. But good news, we have an update! Now that Reika has released v16 of his mods, I&amp;rsquo;ve taken the opportunity to update REVOLUTION|3 with the latest mods and changes.&lt;/p&gt;
-
-&lt;p&gt;We have some awfully fun stuff for you. Most noticably, we&amp;rsquo;ve replaced Gun Customization and Open Modular Turrets with Techguns. Techguns, in addition to an array of death and destruction, adds new mobs and military bases. If you haven&amp;rsquo;t seen it, you should take a look at the &lt;a href=&#34;https://youtu.be/Uzk39E0wZuI&#34;&gt;Techguns Trailer&lt;/a&gt;. Also, since Techguns features it&amp;rsquo;s own version of bloody explosions, we&amp;rsquo;ve removed Mob Amputation and Mob Dismemberment, so you can enjoy your carnage dialed up to maximum.&lt;/p&gt;
-
-&lt;p&gt;Next up, how many of you complain that all those dead corpses lying around are a distraction? Wouldn&amp;rsquo;t it be great to have to fight your uber self to get your stuff back? If you answered, &amp;lsquo;No!&amp;rsquo; to either of these questions, you&amp;rsquo;re obviously not Haggle1996, who thoroughly enjoys watching players die in epic struggles that rival Captain Kirk&amp;rsquo;s fight against the Gorn. With that in mind, we&amp;rsquo;ve replaced Lootable Bodies with Souls. Souls&amp;hellip;.because Haggle doesn&amp;rsquo;t have one and he wants to eat yours.&lt;/p&gt;
-
-&lt;p&gt;Lastly, we&amp;rsquo;ve added Road Stuff, which replaces&amp;hellip;.absolutely NOTHING! Road Stuff is an awesome decorative mod that adds beautiful roads to your post-apocalyptic nightmare. Always remember to yield to pedestrians and passing zombie hordes.&lt;/p&gt;
-
-&lt;p&gt;One final note, with the update to v16 of Reika&amp;rsquo;s mods, there&amp;rsquo;s some additional ChromatiCraft world gen. You&amp;rsquo;ll want to generate some new chunks in order to access these awesome features.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re updating a saved map to 3.2.0, you will receive a missing block message. It is OK to proceed into the world.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reduced frequency of Thaumcraft Magical Forests&lt;/li&gt;
-&lt;li&gt;Removed custom Chromastone TiCo material, as Reika introduced one of his own&lt;/li&gt;
-&lt;li&gt;Road Stuff bitumen and liquid bitumen is made in the Immersive Engineering Industrial Squeezer&lt;/li&gt;
-&lt;li&gt;Titanium ore is made by combining Volcanic Rock and Sulfur in an Arc Furnace. Volcanic Rocks occur naturally underground. Sulfur is typically produced by processing nether products in a SAG mill or Blaze Rods in a crusher.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Thirsty tanks no longer provide infinite water. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/500&#34;&gt;#500&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fix sniper scope recipe. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/512&#34;&gt;#512&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Update to ChromatiCraft addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/527&#34;&gt;#527&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Placing a second world rift no longer crashes the game &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/466&#34;&gt;#466&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updated coal block speed in Coke Oven. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/498&#34;&gt;#498&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Crafting Tweaks disabled for BC Auto Workbench. Addresses &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/525&#34;&gt;#525&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fixed a bunch of smeltery exploits. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/503&#34;&gt;#503&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Removed tar sites. Closes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/497&#34;&gt;#497&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/road-stuff&#34;&gt;Road Stuff&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/souls&#34;&gt;Souls&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://minecraft.curseforge.com/projects/techguns&#34;&gt;TechGuns&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228529-mod/files/2322543&#34;&gt;Better Foliage 2.0.14&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238856-mod/files/2323825&#34;&gt;Better Questing 1.0.155&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/238857-mod/files/2328951&#34;&gt;Better Questing Standard Expansion 1.0.99&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/61811-mod/files/2334985&#34;&gt;Buildcraft 7.1.18&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228932-mod/files/2333195&#34;&gt;Carpenter&amp;rsquo;s Blocks 3.3.8.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ChromatiCraft v16b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/69162-mod/files/2320124&#34;&gt;CoFH Core 3.1.3-327&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/239197-mod/files/2334516&#34;&gt;CraftTweaker 3.0.12&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/79616-mod/files/2319068&#34;&gt;DecoCraft2 2.3.3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;DragonAPI v16c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Electrical-Age/ElectricalAge&#34;&gt;ElectricalAge 1.12.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ElectriCraft v16b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;Expanded Redstone v16b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;ReactorCraft v16b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;RotaryCraft v16c&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/reikasminecraft/changelogs&#34;&gt;VoidMonster v16a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/64578-mod/files/2322348&#34;&gt;EnderIO 2.3.0.429&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/231868-mod/files/2331048&#34;&gt;EnderCore 0.2.0.39&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/59751-mod/files/2333823&#34;&gt;Forestry 4.2.16&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223908-mod/files/2321502&#34;&gt;Fossils and Archeology: Revival 7.3.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224476-mod/files/2332505&#34;&gt;Hunger Overhaul 1.0.0-104&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/243298-mod/files/2319767&#34;&gt;LLibrary 1.5.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232838-mod/files/2334257&#34;&gt;Logistics Pipes 0.9.3 127&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/229694-mod/files/2331162&#34;&gt;Matter Overdrive 0.4.2 hotfix1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223008-mod/files/2320098&#34;&gt;OpenComputers 1.6.0.7-rc1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224663-mod/files/2321123&#34;&gt;OpenModularTurrets 2.2.3-220&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2319524&#34;&gt;Realistic Terrain Generation 1.1.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2334235&#34;&gt;Storage Drawers 1.10.4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;TIS-3D (pack bloat)&lt;/li&gt;
-&lt;li&gt;Cyano&amp;rsquo;s Lootable Bodies (replaced with Souls)&lt;/li&gt;
-&lt;li&gt;Gun Customization (replaced with Techguns)&lt;/li&gt;
-&lt;li&gt;Open Modular Turrets (replaced with Techguns)&lt;/li&gt;
-&lt;li&gt;Mob Dismemberment (replaced with Techguns)&lt;/li&gt;
-&lt;li&gt;Mob Amputation (replaced with Techguns)&lt;/li&gt;
-&lt;li&gt;Not Enough Keys (interferes with Techguns)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/320/</guid>
+      <description>Hello everyone!
+Long-time, no update. Sadly, I&amp;rsquo;ve been very busy with work and haven&amp;rsquo;t had as much time to update the packs lately. But good news, we have an update! Now that Reika has released v16 of his mods, I&amp;rsquo;ve taken the opportunity to update REVOLUTION|3 with the latest mods and changes.
+We have some awfully fun stuff for you. Most noticably, we&amp;rsquo;ve replaced Gun Customization and Open Modular Turrets with Techguns.</description>
     </item>
     
     <item>
       <title>Balance changes to Immersive Engineering</title>
-      <link>http://revolutionpack.info/post/311/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/311/</link>
       <pubDate>Mon, 18 Jul 2016 18:38:41 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/311/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;Since Haggle1996 will be in the great state of Colorado on Friday, I&amp;rsquo;m releasing this update a bit early. Mostly, it contains a large rebalance to Immersive Engineering. In particular, the Diesel Engine is now a viable alternative to RoC Hydrokinetics or Performance Engines. While the RoC engines are still a bit easier and cheaper to acquire, the diesel engine is a bit easier to automate. We&amp;rsquo;ve also significantly buffed the output of coal coke and steel, so you no longer sitting around watching the butterflies roam while waiting for common steel to output. Lastly, we&amp;rsquo;ve added plant oil recipes for canola and husks, via the squeezer. Now you can power more devices and engines from one crop source, albeit a very week source of plant oil compared to flax.&lt;/p&gt;
-
-&lt;p&gt;Lastly, there was some concern around the last update and changing world gen. No overworld generation was impacted &amp;ndash; all new ores were introduced into the Cave Dimension. If you previously generated a Cave Dimension, it&amp;rsquo;s recommended that you regenerate it to access it&amp;rsquo;s ores. The Cave Dimension is considered the pack&amp;rsquo;s mining world and should be regularly reset.&lt;/p&gt;
-
-&lt;h3 id=&#34;immersive-engineering-balance-changes&#34;&gt;Immersive Engineering Balance Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Diesel Engine now produces 8192 RF/t, up from 1440 RF/t. You will need to use non-Immersive Engineering cables to transfer power out of it, to prevent wire burn-outs.&lt;/li&gt;
-&lt;li&gt;Crusher now consumes 120 RF/t, up from 80 RF/t.&lt;/li&gt;
-&lt;li&gt;Excavator now consumes 4096 RF/t, up from 1440 RF/t&lt;/li&gt;
-&lt;li&gt;Refinery now consumes 160 RF/t, up from 80 RF/t&lt;/li&gt;
-&lt;li&gt;Coke Oven now makes coal coke in roughly 12 seconds, down from 90 seconds. This puts it on par with the RotaryCraft Blast Furnace&lt;/li&gt;
-&lt;li&gt;Blast furnace now makes steel in roughly 12 seoncds, down from 60 seconds. This puts it on par with the RotaryCraft Blast Furnace&lt;/li&gt;
-&lt;li&gt;Arc furnace now makes steel in roughly 6 seconds, down from 20 seconds.&lt;/li&gt;
-&lt;li&gt;Both the arc furnace and blast furnace can also smelt blocks of iron using less materials (fuel for blast furnace, coke for arc furnace)&lt;/li&gt;
-&lt;li&gt;Squeezer produces plant oil from canola and canola husks, at 10mb and 5mb respectively. The operation takes 2 seconds for canola and 1.5 seconds for husks.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;other-pack-changes&#34;&gt;Other Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Removed Fossils and Archeology campsites&lt;/li&gt;
-&lt;li&gt;Reduced the awareness range and pathing cap for mobs, in order to improve TPS during the night on servers.&lt;/li&gt;
-&lt;li&gt;Agricraft crop stats are now capped at 10/10/10, up from 8/8/8&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Drums no longer fall, preventing loss of contained liquid, resolving &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/482&#34;&gt;#482&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223908-mod/files/2316723&#34;&gt;Fossils and Archeology: Revival 7.3.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/228015-mod/files/2316923&#34;&gt;Hardcore Ender Expansion 1.8.6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/243298-mod/files/2316760&#34;&gt;LLibrary 1.4.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/311/</guid>
+      <description>Hello everyone!
+Since Haggle1996 will be in the great state of Colorado on Friday, I&amp;rsquo;m releasing this update a bit early. Mostly, it contains a large rebalance to Immersive Engineering. In particular, the Diesel Engine is now a viable alternative to RoC Hydrokinetics or Performance Engines. While the RoC engines are still a bit easier and cheaper to acquire, the diesel engine is a bit easier to automate. We&amp;rsquo;ve also significantly buffed the output of coal coke and steel, so you no longer sitting around watching the butterflies roam while waiting for common steel to output.</description>
     </item>
     
     <item>
       <title>The &#39;RAAAAAAAAAAAWR!!!&#39; Update REVOLUTION|3 Version 3.1.0</title>
-      <link>http://revolutionpack.info/post/310/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/310/</link>
       <pubDate>Thu, 14 Jul 2016 16:32:32 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/310/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;Have we got a big surprise for you! And by big, I mean big&amp;hellip;with teeth&amp;hellip;and claws! That&amp;rsquo;s right, Fossils and Archeology has found it&amp;rsquo;s way into REVOLUTION|3, finally completing the circle and allowing you to raise a colony of T-Rexs on Barnard&amp;rsquo;s Star. For what other purpose could an interstellar expedition be undertaken in the first place? Expensive Space Program? Check. Barnard&amp;rsquo;s Star? Check. Dinosaurs repopulated? Check and double-check!!&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ve also added Electrical Age to the pack; for those of you not familliar with Electrical Age, it adds a more realistic electrical simulation to the pack, on the order of complexity of some of Reika&amp;rsquo;s mods. Tungsten, one of the key minerals for this mod, only spawns at the moment in the Cave Dimension. EA is more or less in it&amp;rsquo;s default configuration (except for world gen) in this release, but it will be integrated more and more into the pack progression with forthcoming updates.&lt;/p&gt;
-
-&lt;p&gt;Last, but not least, we&amp;rsquo;ve added back ToolUtilities, minus a couple of enchants that were causing crashes. Yay!&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reduced the size of the version number to only 3 digits.&lt;/li&gt;
-&lt;li&gt;Increased healing from food by roughly double.&lt;/li&gt;
-&lt;li&gt;Disabled Pech spawning due to the crazy TPS lag caused by these mobs trying to pickup things on the ground. If you need one, temporarily re-enable them in the Thaumcraft config, capture one, then disable them again.&lt;/li&gt;
-&lt;li&gt;Reduced snow accumulation during the winter months&lt;/li&gt;
-&lt;li&gt;Removed Tool Utilities right-click to place and torch helper (due to crash interaction). Also increased cost of enchants somewhat.&lt;/li&gt;
-&lt;li&gt;Reduced the frequency of frozen biomes&lt;/li&gt;
-&lt;li&gt;Electrical Age tungsten currently only spawns in the Cave Dimension&lt;/li&gt;
-&lt;li&gt;Enforced classic TiCo materials to be &lt;strong&gt;really bad&lt;/strong&gt;, since they can&amp;rsquo;t be removed (bone, slime, cactus, wood, etc.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;a-brief-explanation-of-the-version-number&#34;&gt;A Brief Explanation of the Version Number&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;First digit indicates major versions of the pack.&lt;/li&gt;
-&lt;li&gt;The second digit indicates significant mod, content, or progression changes to be aware of. These updates are safe to apply to an existing world, but may have specific considerations.&lt;/li&gt;
-&lt;li&gt;The third digit indicates minor changes, updates, and hotfixes. These should generally be applied quickly to fix various problems.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Increased the number of OpenComputers components to 30,000. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/492&#34;&gt;#492&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Carrots no longer rot, but have no food value&amp;hellip;sorry for missing that.&lt;/li&gt;
-&lt;li&gt;Logging spam from Harder Ores should be significantly reduced. Thanks Draco18s! Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/486&#34;&gt;#486&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fixed a problem with steel ingots and blocks having no interchange recipe&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://electrical-age.net/&#34;&gt;Electrical Age&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/fossils-and-archeology-revival&#34;&gt;Fossils and Archeology: Revival&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/llibrary&#34;&gt;LLibrary&lt;/a&gt; - Fossils and Archeology dependency&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/toolutilities&#34;&gt;ToolUtilities&lt;/a&gt; - Readded due to popular demand, minus the torch helper and block placer.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/64578-mod/files/2315361&#34;&gt;EnderIO-1.7.10-2.3.0.428_beta&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232254-mod/files/2316450&#34;&gt;HarderOres-15.26.1b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/224663-mod/files/2315598&#34;&gt;OpenModularTurrets-1.7.10-2.2.3-220&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/310/</guid>
+      <description>Hello everyone!
+Have we got a big surprise for you! And by big, I mean big&amp;hellip;with teeth&amp;hellip;and claws! That&amp;rsquo;s right, Fossils and Archeology has found it&amp;rsquo;s way into REVOLUTION|3, finally completing the circle and allowing you to raise a colony of T-Rexs on Barnard&amp;rsquo;s Star. For what other purpose could an interstellar expedition be undertaken in the first place? Expensive Space Program? Check. Barnard&amp;rsquo;s Star? Check. Dinosaurs repopulated? Check and double-check!</description>
     </item>
     
     <item>
       <title>REVOLUTION|3 Hotfix 3.0.0.1</title>
-      <link>http://revolutionpack.info/post/3001/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/3001/</link>
       <pubDate>Sat, 09 Jul 2016 10:36:34 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/3001/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;Quick hotfix here to address pack difficulty.&lt;/p&gt;
-
-&lt;p&gt;If you have not read the changelog for REVOLUTION|3 yet, take a look at it &lt;a href=&#34;http://revolutionpack.info/post/3000/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Creepers no longer destroy the enviroment, though some can set fire to flammable blocks&lt;/li&gt;
-&lt;li&gt;Zombies now will only dig through unimproved materials: dirt, stone, cobblestone, grass, sand, gravel. Everything else IS SAFE.&lt;/li&gt;
-&lt;li&gt;Removed most variations of breaching, exploding, charging mobs.&lt;/li&gt;
-&lt;li&gt;Removed planks and glass from starting inventory, added a Potion of Regeneration&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/3001/</guid>
+      <description> Hello everyone!
+Quick hotfix here to address pack difficulty.
+If you have not read the changelog for REVOLUTION|3 yet, take a look at it here.
+Pack Changes  Creepers no longer destroy the enviroment, though some can set fire to flammable blocks Zombies now will only dig through unimproved materials: dirt, stone, cobblestone, grass, sand, gravel. Everything else IS SAFE. Removed most variations of breaching, exploding, charging mobs. Removed planks and glass from starting inventory, added a Potion of Regeneration  </description>
     </item>
     
     <item>
       <title>REVOLUTION|3 Update 3.0.0.0</title>
-      <link>http://revolutionpack.info/post/3000/</link>
+      <link>http://haggle1996.github.io/RevolutionPack/post/3000/</link>
       <pubDate>Fri, 08 Jul 2016 10:02:14 -0600</pubDate>
       
-      <guid>http://revolutionpack.info/post/3000/</guid>
-      <description>
-
-&lt;p&gt;Hello everyone!&lt;/p&gt;
-
-&lt;p&gt;Welcome to the inaugural release of REVOLUTION|3, Fear The Moon! REV|3 features some awesome new changes and mechanics&amp;hellip;so many, I don&amp;rsquo;t know where to begin!&lt;/p&gt;
-
-&lt;p&gt;First up, we&amp;rsquo;ve removed Better Sleeping &amp;ndash; you still can&amp;rsquo;t sleep through the night, but you no longer need to sleep to regain energy. Coupled with this, we&amp;rsquo;ve swapped out Zombie Awareness, Special AI, and Blood Moons for the Epic Siege Mod. In addition to adding harder mobs and bosses, ESM introduces a blood moon-like event every 8 Minecraft days, during the full moon. At this time, mobs ignore light levels and will aggressively try to enter your base and kill you&amp;hellip;repeatedly. Zombies are smarter, too &amp;ndash; including tunneling and pillaring to bypass your defenses! Fortunately, you have 32 days from the time you begin before this mechanic kicks in, so you have some time to wander the world before things get really hairy.&lt;/p&gt;
-
-&lt;p&gt;Next, we&amp;rsquo;ve added Tinker&amp;rsquo;s Construct and a full set of overpowered tools; you won&amp;rsquo;t be able to build anything from TiCo until you&amp;rsquo;ve gone a fair way through ChromatiCraft, but you now have a number of options for mid-game tools. See below for details.&lt;/p&gt;
-
-&lt;p&gt;Hardcore Questing Mode (HQM) has been removed, in favor of a new questing system using Better Questing. Quests will be showing up in the very near future, but aren&amp;rsquo;t in this first release.&lt;/p&gt;
-
-&lt;h3 id=&#34;upgrading-a-rev-2-map&#34;&gt;Upgrading a REV|2 map&lt;/h3&gt;
-
-&lt;p&gt;If you&amp;rsquo;re upgrading a REV|2 map to REV|3, be sure to select the Biomes O&amp;rsquo; Plenty and Natura optional mods from the REV|2 compatibility section of the pack, otherwise existing worlds will not load!&lt;/p&gt;
-
-&lt;h3 id=&#34;pack-changes&#34;&gt;Pack Changes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Blood moons are replaced with the full-moon event, which occurs every 8 days (during the full-moon in minecraft). During this event, light-levels are ignored and mobs spawn more aggresively. You have 32 days from the time you create a world (or this mod is added to an existing one) before this event starts.&lt;/li&gt;
-&lt;li&gt;A number of changes to Climate Control biome layouts to improve diversity and reduce problems&lt;/li&gt;
-&lt;li&gt;Removed the sleeping bag from starting inventory, as it&amp;rsquo;s no longer useful&lt;/li&gt;
-&lt;li&gt;Removed BoP generation override for vanilla biomes; this addresses several mods&amp;rsquo; world-gen issues, such as ChromatiCraft and Void Reeds&lt;/li&gt;
-&lt;li&gt;Reenabled Draconic Evolutions&amp;rsquo; Chaos Islands. Either generate more End chunks or regnerate your End to access (they spawn in a grid of 10,000x10,000)&lt;/li&gt;
-&lt;li&gt;Emergency Rations, potatoes, carrots, golden apples, and golden carrots no longer rot. Potatoes, carrots, and golden carrot/apples have no food value.&lt;/li&gt;
-&lt;li&gt;The Harder Ores packager has been disabled. There are better machines to process ore.&lt;/li&gt;
-&lt;li&gt;RTG/CC no longer interferes with ChromatiCraft world gen (yes, Ocean Temples are still rare). BoP worlds still negatively affect CrC and ore generation.&lt;/li&gt;
-&lt;li&gt;Tinker&amp;rsquo;s Construct is completely customized to be an addon for ChromatiCraft &amp;ndash; it is not meant for starter tools. See the detail post below.&lt;/li&gt;
-&lt;li&gt;Matter Overdrive Androids and Gravitational Anomalies can spawn in the nether&lt;/li&gt;
-&lt;li&gt;End Crystals are more expensive.&lt;/li&gt;
-&lt;li&gt;Cinderpearls can now be ground in a Crusher.&lt;/li&gt;
-&lt;li&gt;Exotic Birds now shed feathers.&lt;/li&gt;
-&lt;li&gt;Biomes O&amp;rsquo; Plenty and Natura are not recommended for new saves. These two mods cause a lot of issues in the pack; particularly, BoP makes CrC progression difficult, and Natura causes most of the rendering crashes. Remove them unless you are upgrading a REV|2 map.&lt;/li&gt;
-&lt;li&gt;Concrete can now be made by smelting slag in a standard furnace, because you could chisel it from gravel anyway.&lt;/li&gt;
-&lt;li&gt;Made JABBA barrels behave like storage drawers when removing items (click for one, shift+click for stack).&lt;/li&gt;
-&lt;li&gt;Pack tips now display on the main menu&lt;/li&gt;
-&lt;li&gt;You only heal with food, potions, crystals, magic, etc.&lt;/li&gt;
-&lt;li&gt;Removed Ender Minies.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;tinker-s-construct-details&#34;&gt;Tinker&amp;rsquo;s Construct Details&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tinker&amp;rsquo;s Construct has been completely customized to provide an experience unique to this pack.&lt;/li&gt;
-&lt;li&gt;All normal tools are removed; you still need to make casts, patterns as before&lt;/li&gt;
-&lt;li&gt;Smeltery blocks are made using Chromaticraft Crystalline Stone.&lt;/li&gt;
-&lt;li&gt;Tool materials are created using ChromatiCraft ingots and RotaryCraft materials (HSLA, Bedrock)&lt;/li&gt;
-&lt;li&gt;Different ChromatiCraft ingots produce different material qualities, with unique enchants.&lt;/li&gt;
-&lt;li&gt;You can use TiCo modifiers to enchant some of these tools.&lt;/li&gt;
-&lt;li&gt;Melting raw ore in the smeltery does not double the output.&lt;/li&gt;
-&lt;li&gt;There are 8 ChromatiCraft metals and 2 RotaryCraft metals you can work with.&lt;/li&gt;
-&lt;li&gt;Each ChromatiCraft metal has at least one unique enchantment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;metal&lt;/th&gt;
-&lt;th&gt;enchantment(s)&lt;/th&gt;
-&lt;th&gt;harvest level&lt;/th&gt;
-&lt;th&gt;durability&lt;/th&gt;
-&lt;th&gt;mining speed&lt;/th&gt;
-&lt;th&gt;attack&lt;/th&gt;
-&lt;th&gt;reinforced&lt;/th&gt;
-&lt;th&gt;handle modifier&lt;/th&gt;
-&lt;th&gt;stonebound&lt;/th&gt;
-&lt;th&gt;modifiers&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Chroma Alloy&lt;/td&gt;
-&lt;td&gt;Pulverization&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;1100&lt;/td&gt;
-&lt;td&gt;600&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;1.8&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Resonating&lt;/td&gt;
-&lt;td&gt;Vein Cracker&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;400&lt;/td&gt;
-&lt;td&gt;1200&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Fluidic&lt;/td&gt;
-&lt;td&gt;XP Boost&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;300&lt;/td&gt;
-&lt;td&gt;800&lt;/td&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0.4&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Radiative&lt;/td&gt;
-&lt;td&gt;Efficiency&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;400&lt;/td&gt;
-&lt;td&gt;500&lt;/td&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;0.6&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Aura Conducting&lt;/td&gt;
-&lt;td&gt;Vampirism&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;600&lt;/td&gt;
-&lt;td&gt;500&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;0.4&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Firaxite Alloy&lt;/td&gt;
-&lt;td&gt;Sharpness &amp;amp; Power&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;1100&lt;/td&gt;
-&lt;td&gt;500&lt;/td&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;0.6&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Spatial&lt;/td&gt;
-&lt;td&gt;Fortune &amp;amp; Looting&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;1800&lt;/td&gt;
-&lt;td&gt;500&lt;/td&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;1.2&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Chromastone&lt;/td&gt;
-&lt;td&gt;AOE &amp;amp; Valiance&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;3000&lt;/td&gt;
-&lt;td&gt;1400&lt;/td&gt;
-&lt;td&gt;16&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;known-issues&#34;&gt;Known Issues&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ChromatiCraft Rainbow Trees catching on fire will cause a world crash. Set &lt;code&gt;/gamerule doFireTick false&lt;/code&gt; to false to prevent this until Reika releases a fix in v16&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bugs-squashed&#34;&gt;Bugs Squashed&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Actually fixed RF Tools dimensions not needing owner dimlets. Sorry!&lt;/li&gt;
-&lt;li&gt;Void reeds spawn in swamps again. Use &lt;code&gt;/redecorate &amp;lt;radius&amp;gt; flowers&lt;/code&gt; to add these to existing swamp biomes (do not select too big of a radius &amp;ndash; 200 to 500 max).&lt;/li&gt;
-&lt;li&gt;Added Thaumcraft Aspects to various Harder Ores and some other blocks, courtesy of DragGon7601. This should make them visible to the Pickaxe of the Core Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/347&#34;&gt;#347&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sluice and bone-mealed ore flowers should work again. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/462&#34;&gt;#462&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;You can once again craft Bee Houses, Apiarist&amp;rsquo;s Chests, etc., from Forestry. Fixes &lt;a href=&#34;https://github.com/Haggle1996/RevolutionPack/issues/399&#34;&gt;#399&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-added&#34;&gt;Mods Added&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-questing&#34;&gt;Better Questing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-questing-standard-expansion&#34;&gt;Better Questing - Standard Expansion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/better-questing-rf-expansion&#34;&gt;Better Questing - RF Expansion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/butterfly-mania&#34;&gt;Butterfly Mania&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/crafttweaker-customized-minetweaker3&#34;&gt;CraftTweaker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/epic-siege-mod&#34;&gt;Epic Siege Mod&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/jsonables&#34;&gt;{ JSONAbles }&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/tinkers-construct&#34;&gt;Tinker&amp;rsquo;s Construct&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://mods.curse.com/mc-mods/minecraft/tic-tooltips&#34;&gt;Tic Tooltips&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mods-updated&#34;&gt;Mods Updated&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/applecore/files/2305594&#34;&gt;AppleCore-mc1.7.10-1.3.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/biomes-o-plenty/files/2308122&#34;&gt;BiomesOPlenty-1.7.10-2.1.0.2027-universal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/chromaticraft/files/2309361&#34;&gt;ChromatiCraft 1.7.10 V15a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223565-mod/files/2313451&#34;&gt;Draconic-Evolution-1.7.10-1.0.2h&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/dragonapi/files/2309347&#34;&gt;DragonAPI 1.7.10 V15a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/electricraft/files/2309350&#34;&gt;ElectriCraft 1.7.10 V15a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/endercore/files/2307830&#34;&gt;EnderCore-1.7.10-0.2.0.36_beta&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/ender-io/files/2307366&#34;&gt;EnderIO-1.7.10-2.3.0.427_beta&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/226210-mod/files/2313194&#34;&gt;EnhancedInventories-1.7.10-1.1.10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232258-mod/files/2311664&#34;&gt;ExpandedIndustry-15.26.1a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/expandedredstone/files/2309351&#34;&gt;ExpandedRedstone 1.7.10 V15a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/extracells2/files/2308206&#34;&gt;ExtraCells-1.7.10-2.3.14&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/forestry/files/2306433&#34;&gt;Forestry 4.2.13&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/galaxy-space-addon-for-galacticraft-3/files/2308079&#34;&gt;GalaxySpace-1.0.9 STABLE&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232071-mod/files/2311665&#34;&gt;HardLib-15.26.1a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232254-mod/files/2311661&#34;&gt;HarderOres-15.26.1a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/232257-mod/files/2314401&#34;&gt;HarderWildlife-15.26.1b&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/logistics-pipes/files/2307138&#34;&gt;Logistics Pipes 0.9.3 build 125&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/220954-mod/files/2313730&#34;&gt;ModTweaker2 - 0.9.6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/notenoughids/files/2308819&#34;&gt;NotEnoughIDs-1.4.3.4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/planetguylib/files/2305574&#34;&gt;PlanetguyLib-1.9.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/reactorcraft/files/2309349&#34;&gt;ReactorCraft 1.7.10 V15a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/237989-mod/files/2311424&#34;&gt;RTG-1.7.10-1.0.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/rotarycraft/files/2309348&#34;&gt;RotaryCraft 1.7.10 V15a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/223852-mod/files/2313060&#34;&gt;StorageDrawers-1.7.10-1.10.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/projects/void-monster/files/2309358&#34;&gt;VoidMonster 1.7.10 V15a&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://minecraft.curseforge.com/mc-mods/234935-mod/files/2313196&#34;&gt;YuutoLib-1.7.10-1.0.3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;reverted-mods&#34;&gt;Reverted Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;OpenComputers-MC1.7.10-1.5.22.46 due to crash with World Rifts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;removed-mods&#34;&gt;Removed Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Biomes O&amp;rsquo; Plenty - optional, not recommended. If you&amp;rsquo;re upgrading an existing REV|2 map, be sure to add this mod from the list of optional mods.&lt;/li&gt;
-&lt;li&gt;Natura - optional, not recommended. If you&amp;rsquo;re upgrading an existing REV|2 map, be sure to add this mod from the list of optional mods.&lt;/li&gt;
-&lt;li&gt;Mapwriter - crash problems&lt;/li&gt;
-&lt;li&gt;Rockhounding - already not recommended&lt;/li&gt;
-&lt;li&gt;Forge Essentials (server operators should download and maintain this separately)&lt;/li&gt;
-&lt;li&gt;Morpheus (server operators can install this independently, but it&amp;rsquo;s not intended for use with the pack)&lt;/li&gt;
-&lt;li&gt;Better Sleeping - Replaced with Epic Siege Mod&lt;/li&gt;
-&lt;li&gt;Zombie Awareness - Replaced with Epic Siege Mod&lt;/li&gt;
-&lt;li&gt;CoroUtil (ZA dependency)&lt;/li&gt;
-&lt;li&gt;Animals+ - already not recommended&lt;/li&gt;
-&lt;li&gt;Hardcore Questing Mode - Replaced with Better Questing&lt;/li&gt;
-&lt;li&gt;BeeSpecific (HQM addon not used)&lt;/li&gt;
-&lt;li&gt;Tool Utilities (Right-click crash bug)&lt;/li&gt;
-&lt;li&gt;Player Rugs (unused fluff)&lt;/li&gt;
-&lt;li&gt;AdminCommandsToolbox (pregeneration issues)&lt;/li&gt;
-&lt;li&gt;MineTweaker 3 (replaced by CraftTweaker)&lt;/li&gt;
-&lt;li&gt;HaggleTweaks (not needed anymore)&lt;/li&gt;
-&lt;li&gt;Special AI&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://haggle1996.github.io/RevolutionPack/post/3000/</guid>
+      <description>Hello everyone!
+Welcome to the inaugural release of REVOLUTION|3, Fear The Moon! REV|3 features some awesome new changes and mechanics&amp;hellip;so many, I don&amp;rsquo;t know where to begin!
+First up, we&amp;rsquo;ve removed Better Sleeping &amp;ndash; you still can&amp;rsquo;t sleep through the night, but you no longer need to sleep to regain energy. Coupled with this, we&amp;rsquo;ve swapped out Zombie Awareness, Special AI, and Blood Moons for the Epic Siege Mod. In addition to adding harder mobs and bosses, ESM introduces a blood moon-like event every 8 Minecraft days, during the full moon.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 Update 2.7.5.0</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2750/</link>
+      <pubDate>Thu, 09 Jun 2016 21:22:33 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2750/</guid>
+      <description> Hello everyone!
+Small update for Reika&amp;rsquo;s Mods and Practical Logistics.
+Mods Updated  ChromatiCraft 1.7.10 V14d DragonAPI 1.7.10 V14d Practical-Logistics-0.2.4 RotaryCraft 1.7.10 V14d ReactorCraft 1.7.10 V14d Sonar-Core - Version 1.1.3  </description>
+    </item>
+    
+    <item>
+      <title>&#39;The Updates Must Flow!&#39; REVOLUTION|2 Update 2.7.4.0</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2740/</link>
+      <pubDate>Sun, 05 Jun 2016 19:39:05 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2740/</guid>
+      <description> Hello everyone!
+My apologies for the rapid-fire updates this weekend, but we&amp;rsquo;re going to round off your week with the v14c updates of Reika&amp;rsquo;s mods. Nothing new, otherwise. :)
+Mods Updated  ChromatiCraft 1.7.10 V14c DragonAPI 1.7.10 V14c ElectriCraft 1.7.10 V14c ReactorCraft 1.7.10 V14c RotaryCraft 1.7.10 V14c  Reverted Mods Removed Mods </description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 Hotfix 2.7.3.1!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2731/</link>
+      <pubDate>Sun, 05 Jun 2016 10:16:11 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2731/</guid>
+      <description>Hi all!
+Just a tiny update here to resolve a couple of late-breaking issues with 2.7.3.0.
+Pack Changes  Disabled the Extra Utilities Ender Collector due to a duplication bug Fixed a problem with the installer that would cause two versions of regular Unity to be installed, instead of Unity and Unity for RotaryCraft. If you want to use the full Unity suite, you should have Unity for RotaryCraft listed first, then Unity 1.</description>
+    </item>
+    
+    <item>
+      <title>&#39;Super Dimensional Modpack REVOLUTION|2&#39; Update 2.7.3.0!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2730/</link>
+      <pubDate>Thu, 02 Jun 2016 18:06:11 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2730/</guid>
+      <description>Hello everyone!
+Much rebalancing and fixes here! While we haven&amp;rsquo;t added any new mods, per se, we&amp;rsquo;ve changed the progression for RF Tools such that you can get into it much sooner in the mid-game. This gives you access to RF Tools awesome inventory machines, screens, and redstone blocks. Dimensions no longer require an owner dimlet, so you can get started exploring dimensions as soon as you produce enough power to keep them going (server admins may want to disable this, at their discretion).</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 Update 2.7.2.0 </title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2720/</link>
+      <pubDate>Thu, 26 May 2016 10:03:38 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2720/</guid>
+      <description>Hello everyone!
+There is absolutely nothing to see here in this update. Not a thing&amp;hellip;except of course for DRACONIC EVOLUTION! Whee!
+But HAGGLE! How could you put such OPness into REV|2? HOW COULD YOU!?!?
+Simple, I say. Make it a worthy reward of being already OP. First, you&amp;rsquo;re going to need some Terrasteel from Botania. Certainly not the end of the world, but it&amp;rsquo;s a start. Add into that Bedrock (RotaryCraft) and Bedrockium (Extra Utilities) ingots, forged from the densest materials in the world.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 Update 2.7.1.0</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2710/</link>
+      <pubDate>Fri, 20 May 2016 21:58:34 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2710/</guid>
+      <description>Hello everyone!
+Welcome to the next exciting release of REVOLUTION|2! Today&amp;rsquo;s update mostly addresses the SMP crash issue with v13 of Reika&amp;rsquo;s mods and Ender IO, while adding a few convenience of life additions, including Crafting Tweaks! Yay!
+Volcanoes have also been re-enabled in world gen, now that RTG finally supports it. Also, Practical Logistics crashes have been addressed. It&amp;rsquo;s a great mod to try!
+Pack Changes  Increased frequency of ReactorCraft ores in the Cave dimension.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|1 AND 2 Updated!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2600-1500/</link>
+      <pubDate>Sat, 14 May 2016 07:40:55 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2600-1500/</guid>
+      <description>Hello everyone!
+Double update today! Yay! With v13 of Reika&amp;rsquo;s mods going into both packs! This changelog is primarily for REVOLUTION|2; the REVOLUTION|1 changelog can be found on the ATLauncher page in the typical place.
+Pack Changes  More villagers (including alien villagers) shed emeralds to slightly increase the availability of emeralds pre-mining world. Reenabled naturally-spawning Ore Flowers for all mod ores now that memory issues have been addressed &amp;ndash; this does not retrogen flowers, but new chunks will feature them.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.6.0.0 - the &#39;It FINALLY Works!&#39; Update</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2600/</link>
+      <pubDate>Mon, 09 May 2016 16:47:31 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2600/</guid>
+      <description>Holy Crap!
+Haggle doesn&amp;rsquo;t say &amp;lsquo;Holy Crap!&amp;rsquo; very often, but when he does, there&amp;rsquo;s a good reason for it.
+And HOLY CRAP!
+Draco18s has, after a very long, hard slog, figured out the memory leak that has plagued REVOLUTION|2 since the first alpha days. The pack no longer leaks a significant amount of memory during chunk generation, so you should be able to explore without crashing or massive lag. Also, this means pregeneration options for server admins and industrious players now work quite well.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.5.2.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2520/</link>
+      <pubDate>Sat, 30 Apr 2016 09:48:35 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2520/</guid>
+      <description>Hello, everyone! Welcome to the next update of REVOLUTION|2, The Quest for More Money!
+Sorry, needless Spaceballs reference&amp;hellip;but moving along. Version 2.5.2.0 is another maintenance update, fixing a number of reported issues as well as rebalancing a few parts of the mod pack. In particular, Forestry is easier to start early-game, and zombie griefing power was lowered a tad. AE2 Stuff is once again working and you&amp;rsquo;ll no longer have to worry about those pesky Natura trees clogging up your Woodcutter farm.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.5.1.1 </title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2511/</link>
+      <pubDate>Sun, 24 Apr 2016 22:38:49 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2511/</guid>
+      <description> Hi all!
+Quick hotfix here to fix issues with flight and a couple of other bugs.
+Mods Updated  ClimateControl-0.5.beta52 Rockhounding Mod v4.05 RTG-1.7.10-0.8.0-snapshot-5 Practical-Logistics-0.2.1  </description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.5.1.0 Bees &#39;R&#39; Buzzing Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2510/</link>
+      <pubDate>Fri, 22 Apr 2016 09:29:49 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2510/</guid>
+      <description>Good day everyone, Haggle here!
+We have a big update in store for you today, but no worries, it&amp;rsquo;s BACKWARDS compatible! Yes, that&amp;rsquo;s right, it will work just fine with version 2.5.0.0 maps!
+We&amp;rsquo;ve updated a number of mods, including finally moving AE2 to RV3. We&amp;rsquo;ve also fixed some of the most annoying bugs, including super speed zombies and uncraftable apiarist&amp;rsquo;s chests. We&amp;rsquo;ve also buffed ore output! (yay!)
+In addition, we&amp;rsquo;ve added Binnie&amp;rsquo;s mods back into the game, so you have another alternative for ore generation.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.5.0.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2500/</link>
+      <pubDate>Sat, 09 Apr 2016 16:43:10 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2500/</guid>
+      <description>Hi all! Long time, no see!
+My apologies for the absence, but real life comes before gaming, and life is very busy right now at the Haggle household. Many thanks to my helpers and players who&amp;rsquo;ve kept the show running in my absence.
+We have another exciting update for you, though this one has a bit of an unpleasant surprise for some. Unfortunately, updates to several core mods (particularly v12) have rendered old saves un-upgradeable.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 Beta 2.4.0.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2400beta/</link>
+      <pubDate>Sat, 05 Mar 2016 10:41:15 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2400beta/</guid>
+      <description>Good evening, everyone! Welcome to another REVOLUTION|2 update!
+In this update, lots of fixes to physics and many bugs squashed like the little creepy things they are! Generally, all RotaryCraft, ElectriCraft, ReactorCraft, and ChromatiCraft blocks (including pipes), are no longer subject to physics. A number of other mods were also fixed in the pass. And we tested it thoroughly this time. Yay!
+Additionally, we have a new update to RTG.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 Beta 2.3.0.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2300beta/</link>
+      <pubDate>Sun, 28 Feb 2016 15:47:35 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2300beta/</guid>
+      <description>Hello everyone!
+Welcome to another fantastic release of REVOLUTION|2! This week&amp;rsquo;s update focuses mostly on integrating the latest and greatest v11 of Reika&amp;rsquo;s mods, which includes MANY fixes to known bugs and issues. Hooray for bugfixes and a BIG thanks to Reika for all his hard work!
+There&amp;rsquo;s also been a huge pass on block physics. A lot more things won&amp;rsquo;t fall anymore. Yay! We&amp;rsquo;ve also managed to make the Rod of the Plentiful Mantle show all the ore again.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 - Beta 2.2.0.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2200beta/</link>
+      <pubDate>Sun, 21 Feb 2016 11:12:15 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2200beta/</guid>
+      <description>Hello everyone!
+Welcome to another exciting release of REVOLUTION|2! We&amp;rsquo;ve got lots in store for you this update, including new mods, squashed bugs, and another chapter in the HQM book! Wheeeeee! You can&amp;rsquo;t contain the updates!
+First up, we have an update to Realistic Terrain Generation, which will cause some unsightly chunk border issues when generating new chunks on an existing map. Other than aesthetics, worlds created with earlier versions of RTG are fully compatible with the new version.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 - Beta 2.1.3.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2130beta/</link>
+      <pubDate>Sun, 07 Feb 2016 09:32:07 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2130beta/</guid>
+      <description>Hello, everyone!
+Welcome to REVOLUTION|2 Beta 2.1.3.0 &amp;ndash; the &amp;lsquo;Crusher&amp;rsquo; Update!
+After a solid week of playtesting, we&amp;rsquo;ve gotten a lot of good feedback, and this update is chock full o&amp;rsquo; quality of life updates. In particular, we&amp;rsquo;ve switched from a blacklist approach to physics, to a whitelist approach. What this means is fewer blocks will fall unexpectedly. We&amp;rsquo;ve also increased the default strength of most blocks. In exchange, we&amp;rsquo;ve turned on slide physics.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 - Beta 2.1.2.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2120beta/</link>
+      <pubDate>Wed, 03 Feb 2016 16:56:19 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2120beta/</guid>
+      <description>Hello, everyone!
+Fingers crossed that this will be the last stability update to REVOLUTION|2 for some time. This update squashes a lot of the outstanding issues with the pack, and in general, you should have a much more reliably-stable experience going forward.
+As part of squashing all the instability, we&amp;rsquo;ve had to say a temporary goodbye to Galaxy Space. For one reason or another, it&amp;rsquo;s having identity issues. And as the mod only provides content post-Mars, I thought it safer to just remove it for now.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 - Beta 2.1.1.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2110beta/</link>
+      <pubDate>Mon, 01 Feb 2016 21:29:51 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2110beta/</guid>
+      <description>Hello everyone!
+My apologies for the daily pack updates, but we&amp;rsquo;re going through a period of very rapid stabilization now that the beta period has started. Keep your fingers crossed that there won&amp;rsquo;t be too many more of these. :)
+Server operators be sure to back up your /local folder and restore after the update to retain FTB Utilities settings
+Changes  Reduced Blood Moon mob count by 33%, as many servers can&amp;rsquo;t handle the huge number of mob spawns.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.1.0.1 BETA Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2101beta/</link>
+      <pubDate>Sun, 31 Jan 2016 20:34:01 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2101beta/</guid>
+      <description>Hello everyone!
+Patch 2.1.0.1 is just a tiny update to fix some various bugs reported today with the pack. No big changes. Move along. There&amp;rsquo;s nothing to see here.
+As always, if your HQM quests are reset or otherwise altered, use /hqm edit  (with cheats enabled) to fix your book.
+Bugs Squashed  Fixed the trigger quest for HQM Chapter 2, so you no longer need to hold an iron hoe to access them.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.1.0.0 BETA Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2100beta/</link>
+      <pubDate>Sat, 30 Jan 2016 15:53:34 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2100beta/</guid>
+      <description>Hello, everyone! Welcome to the REVOLUTION|2 Beta release!
+It&amp;rsquo;s been a long, hard month of testing and preparing, but we&amp;rsquo;re finally ready to release the Beta of REVOLUTION|2. We still have more work to do, particularly in the HQM and mod-balance department; however, the pack is stable at this point, and any worlds you create (regardless of world type) should be compatible with new pack updates for a long time to come.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.0.3.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2030alpha/</link>
+      <pubDate>Sat, 16 Jan 2016 10:08:56 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2030alpha/</guid>
+      <description>Hello, everyone! Welcome to another exciting installment of REVOLUTION|2!
+Working out a log of the reported bugs this week. I&amp;rsquo;m relatively confident this will be the last alpha (yay!), and that worlds created in the alpha with Biomes O&amp;rsquo; Plenty will be forward compatible with the beta. We&amp;rsquo;re still working out a couple of kinks with Realistic Terrain Generation, but I hope to have that sorted for the beta.</description>
+    </item>
+    
+    <item>
+      <title>10,000 Downloads!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/10kdownloads/</link>
+      <pubDate>Sat, 16 Jan 2016 10:07:56 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/10kdownloads/</guid>
+      <description>Only a little more than a couple of weeks after release, REVOLUTION|2 hit 10,000 downloads today! Thank you all for the downloads and keep enjoying the pack!
+~Haggle1996</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.0.2.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2020alpha/</link>
+      <pubDate>Fri, 08 Jan 2016 16:11:10 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2020alpha/</guid>
+      <description>Hello, Everyone!
+WARNING: This alpha is not 100% compatible with previous alpha builds. Expect sudden chunk borders and cut off terrain.
+Welcome to what will hopefully be the very last alpha release of REVOLUTION|2. We&amp;rsquo;re still waiting on a couple of mod updates to settle down before we can officially label it a &amp;lsquo;beta&amp;rsquo; release and have stable worlds going forward. That said there&amp;rsquo;s a lot of new content in this pack, including quite a list of new and exciting mods.</description>
+    </item>
+    
+    <item>
+      <title>REVOLUTION|2 2.0.1.0 Update!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2010alpha/</link>
+      <pubDate>Sun, 03 Jan 2016 19:15:49 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2010alpha/</guid>
+      <description>Hello, Everyone!
+I was hoping we&amp;rsquo;d have a new release of RTG today, so that I could get the Beta out the door, but it looks like we&amp;rsquo;re still waiting for that to drop. In the meantime, I&amp;rsquo;m pushing a new release of REVOLUTION|2 Alpha, with various bug fixes and updates.
+Changes:  Removed Natura nether trees from eligible list of Dye Tree trunks
+ Railcraft Village Workshops no longer spawn</description>
+    </item>
+    
+    <item>
+      <title>2500 Downloads!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/twentyfive/</link>
+      <pubDate>Sun, 03 Jan 2016 11:45:20 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/twentyfive/</guid>
+      <description>After just a few days, REVOLUTION|2 has already hit 2,500 downloads and is rising up the charts fast. Thank you all for the support and kind words. I&amp;rsquo;m extremely pleased with the stable state of the alpha &amp;ndash; the beta is on it&amp;rsquo;s way and should be here any day.</description>
+    </item>
+    
+    <item>
+      <title>Fifty Downloads!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/50downloads/</link>
+      <pubDate>Thu, 31 Dec 2015 00:26:43 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/50downloads/</guid>
+      <description>Only took an hour&amp;hellip;REVOLUTION|2 hit 50 downloads and is well on its way to 100 in a few more minutes! Thank you all for downloading, and I hope you enjoy the pack!
+Just a piece of trivia: Revolution 2 has been played by more in the first 60 minutes of it&amp;rsquo;s existance than Revolution 1 did in it&amp;rsquo;s first week!
+~Haggle1996</description>
+    </item>
+    
+    <item>
+      <title>Revolution|2 Alpha 1 on AT Launcher!</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/version2alpha1/</link>
+      <pubDate>Sun, 27 Dec 2015 15:54:22 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/version2alpha1/</guid>
+      <description>It&amp;rsquo;s happening! Revolution|2 Alpha 1 has been pushed to the AT Launcher, and should be appearing soon in your pack list. Revolution|2 is the continuation of the original Revolution pack on the AT Launcher. Hundreds of hours of development and testing have gone into making Revolution|2 a significantly new and exciting game, distinctly different from the original Revolution, while retaining the best aspects of the original. I’d like to take a moment here to thank all those that made the original Revolution spectacular (particularly Ieldra, SentinalH, CyanideX, DorinnB, Solego, and all of the pack testers on the development server.</description>
+    </item>
+    
+    <item>
+      <title>New Website</title>
+      <link>http://haggle1996.github.io/RevolutionPack/post/2015-12-23-newwebsite/</link>
+      <pubDate>Wed, 23 Dec 2015 13:24:22 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/post/2015-12-23-newwebsite/</guid>
+      <description>With the impending release of Revolution|2, I thought it would be a good time to launch the new website! Yay!
+Content for Revolution 1, as well as many relevant pack links, can be accessed through the menu at the top right.
+Content for version 2 will be posted soon.</description>
     </item>
     
   </channel>

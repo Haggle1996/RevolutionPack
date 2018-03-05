@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on REVOLUTION|3</title>
+    <link>http://haggle1996.github.io/RevolutionPack/tags/</link>
+    <description>Recent content in Tags on REVOLUTION|3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright � 2016 by Haggle1996</copyright>
+    <lastBuildDate>Wed, 23 Dec 2015 11:53:41 -0700</lastBuildDate>
+    
+	<atom:link href="http://haggle1996.github.io/RevolutionPack/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Revolution1</title>
+      <link>http://haggle1996.github.io/RevolutionPack/tags/revolution1/</link>
+      <pubDate>Wed, 23 Dec 2015 11:53:41 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/tags/revolution1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revolution2</title>
+      <link>http://haggle1996.github.io/RevolutionPack/tags/revolution2/</link>
+      <pubDate>Thu, 09 Jun 2016 21:22:33 -0600</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/tags/revolution2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revolution3</title>
+      <link>http://haggle1996.github.io/RevolutionPack/tags/revolution3/</link>
+      <pubDate>Sat, 30 Jul 2016 12:27:34 -0700</pubDate>
+      
+      <guid>http://haggle1996.github.io/RevolutionPack/tags/revolution3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
